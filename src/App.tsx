@@ -387,6 +387,12 @@ export default function App() {
         <Tooltip talent={hoveredData.talent} points={points} activeTalents={activeTalents} rect={hoveredData.rect} />
       )}
 
+      {/* Disclaimer Footer */}
+      <footer className="w-full max-w-[1050px] text-center text-[#6e5d48] text-[10px] mt-12 pb-6 border-t border-[#31281A]/40 pt-6 z-10 leading-relaxed">
+        <p>This is an unofficial community theorycrafting website and fan project. All game assets, icons, and backgrounds are property of Blizzard Entertainment.</p>
+        <p className="mt-1">This site is not affiliated with, authorized, or endorsed by Blizzard Entertainment.</p>
+      </footer>
+
     </div>
   );
 }
