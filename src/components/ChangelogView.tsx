@@ -83,24 +83,24 @@ export function ChangelogView({ classNameStr, changelog, activeTalents, iconUrl 
   };
 
   return (
-    <div className="w-full max-w-[1050px] bg-[#0d0a08] border border-[#31281A] rounded p-6 mb-12 shadow-[0_0_20px_rgba(0,0,0,0.8)] blizzard-border">
-      <div className="flex items-center gap-3 mb-6 border-b border-[#31281A] pb-3">
-        <img src={iconUrl} alt={classNameStr} className="w-8 h-8 rounded border border-[#2b2318] shadow-[0_0_10px_rgba(0,0,0,0.8)]" />
-        <h2 className="text-2xl font-bold text-[#ffdd57] drop-shadow-[0_2px_4px_rgba(0,0,0,1)] tracking-wide uppercase">
+    <div className="w-full max-w-[1050px] wow-panel p-6 mb-12 shadow-[0_0_20px_rgba(0,0,0,0.8)]">
+      <div className="flex items-center gap-3 mb-6 border-b border-[#3c3224] pb-3">
+        <img src={iconUrl} alt={classNameStr} className="w-8 h-8 rounded border border-[#3c3224] shadow-[0_0_10px_rgba(0,0,0,0.8)]" />
+        <h2 className="text-2xl font-bold text-[#ffd100] drop-shadow-[0_2px_4px_rgba(0,0,0,1)] tracking-wide uppercase wow-header">
           {classNameStr} Classic+ Changelog
         </h2>
       </div>
 
       {generalItems.length > 0 && (
-        <div className="mb-8 bg-[#120e0a] rounded border border-[#2b2318] overflow-hidden">
-          <div className="bg-gradient-to-r from-[#211a14] to-[#120e0a] px-4 py-2 border-b border-[#2b2318] flex items-center gap-2">
+        <div className="mb-8 bg-[#0e0a07] border border-[#3c3224] overflow-hidden rounded-sm shadow-md">
+          <div className="bg-gradient-to-r from-[#1b1510] to-[#0c0907] px-4 py-2 border-b border-[#3c3224] flex items-center gap-2">
             <span className="text-lg">⚙️</span>
-            <h3 className="text-lg font-bold text-[#ffdd57] drop-shadow-[0_1px_2px_rgba(0,0,0,1)]">General Changes</h3>
+            <h3 className="text-lg font-bold text-[#ffd100] drop-shadow-[0_1px_2px_rgba(0,0,0,1)] wow-header">General Changes</h3>
           </div>
           <ul className="p-4 space-y-2 text-[#a8a8a8]">
             {generalItems.map((log, i) => (
               <li key={i} className="flex gap-2 text-sm leading-relaxed">
-                <span className="text-[#ffdd57] min-w-[12px] mt-0.5 text-base">•</span>
+                <span className="text-[#ffd100] min-w-[12px] mt-0.5 text-base">•</span>
                 <span>{renderFormattedLog(log)}</span>
               </li>
             ))}
@@ -111,15 +111,15 @@ export function ChangelogView({ classNameStr, changelog, activeTalents, iconUrl 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {sections.map((sec, sIdx) => {
           return (
-            <div key={sIdx} className="bg-[#120e0a] rounded border border-[#2b2318] overflow-hidden">
-              <div className="bg-gradient-to-r from-[#211a14] to-[#120e0a] px-4 py-2 border-b border-[#2b2318] flex items-center gap-2">
+            <div key={sIdx} className="bg-[#0e0a07] border border-[#3c3224] overflow-hidden rounded-sm shadow-md">
+              <div className="bg-gradient-to-r from-[#1b1510] to-[#0c0907] px-4 py-2 border-b border-[#3c3224] flex items-center gap-2">
                 <span className="text-lg">⚔️</span>
-                <h3 className="text-lg font-bold text-[#ffdd57] drop-shadow-[0_1px_2px_rgba(0,0,0,1)]">{sec.title}</h3>
+                <h3 className="text-lg font-bold text-[#ffd100] drop-shadow-[0_1px_2px_rgba(0,0,0,1)] wow-header">{sec.title}</h3>
               </div>
               <ul className="p-4 space-y-2 text-[#a8a8a8]">
                 {sec.items.map((log, i) => (
                   <li key={i} className="flex gap-2 text-sm leading-relaxed">
-                    <span className="text-[#ffdd57] min-w-[12px] mt-0.5 text-base">•</span>
+                    <span className="text-[#ffd100] min-w-[12px] mt-0.5 text-base">•</span>
                     <span>{renderFormattedLog(log)}</span>
                   </li>
                 ))}

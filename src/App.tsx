@@ -23,7 +23,7 @@ const CLASSES = [
   { name: 'Paladin', color: '#f58cba', label: 'Paladin', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg' },
   { name: 'Priest', color: '#ffffff', label: 'Priest', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_priest.jpg' },
   { name: 'Rogue', color: '#fff569', label: 'Rogue', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg' },
-  { name: 'Shaman', color: '#2459FF', label: 'Shaman', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_shaman.jpg' },
+  { name: 'Shaman', color: '#0070DE', label: 'Shaman', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_shaman.jpg' },
   { name: 'Warlock', color: '#9482c9', label: 'Warlock', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_warlock.jpg' },
   { name: 'Warrior', color: '#c79c6e', label: 'Warrior', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg' }
 ];
@@ -42,6 +42,46 @@ export default function App() {
   });
   const [buildName, setBuildName] = useState('');
 
+  const playClickSound = useCallback((type: 'learn' | 'unlearn' | 'reset') => {
+    try {
+      const AudioCtx = window.AudioContext || (window as any).webkitAudioContext;
+      if (!AudioCtx) return;
+      const ctx = new AudioCtx();
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      if (type === 'learn') {
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(800, ctx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(150, ctx.currentTime + 0.1);
+        gain.gain.setValueAtTime(0.15, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.12);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.12);
+      } else if (type === 'unlearn') {
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(400, ctx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(100, ctx.currentTime + 0.15);
+        gain.gain.setValueAtTime(0.12, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.16);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.16);
+      } else if (type === 'reset') {
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(150, ctx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(600, ctx.currentTime + 0.25);
+        gain.gain.setValueAtTime(0.01, ctx.currentTime);
+        gain.gain.linearRampToValueAtTime(0.1, ctx.currentTime + 0.05);
+        gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.25);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.25);
+      }
+    } catch (e) {
+      console.warn("AudioContext failed to play sound:", e);
+    }
+  }, []);
+
   const saveBuild = () => {
     if (!buildName.trim()) return;
     const newBuilds = { ...savedBuilds, [`${activeClass} - ${buildName.trim()}`]: points };
@@ -59,6 +99,7 @@ export default function App() {
         setActiveClass(buildClass);
       }
       setPoints(savedBuilds[name]);
+      playClickSound('learn');
     }
   };
 
@@ -145,17 +186,20 @@ export default function App() {
     e.preventDefault();
     if (canRemovePoint(talent)) {
       setPoints(prev => ({ ...prev, [talent.id]: prev[talent.id] - 1 }));
+      playClickSound('unlearn');
     }
   };
 
   const handleLeftClick = (talent: Talent, treeTalents: Talent[]) => {
     if (canAddPoint(talent, treeTalents)) {
       setPoints(prev => ({ ...prev, [talent.id]: (prev[talent.id] || 0) + 1 }));
+      playClickSound('learn');
     }
   };
 
   const resetTalents = () => {
     setPoints({});
+    playClickSound('reset');
   };
 
   const renderFormattedLog = (text: string) => {
@@ -190,32 +234,14 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-[#18110b] via-[#0a0808] to-[#000000] text-[#e4dcc7] p-8 flex flex-col items-center relative overflow-y-auto" style={{ backgroundImage: "url('https://wow.zamimg.com/images/Site/bg-body-dark.jpg'), radial-gradient(circle at top, #18110b 0%, #0a0808 60%, #000000 100%)", backgroundBlendMode: "overlay" }}>
-      <style>
-        {`
-          @font-face {
-            font-family: 'Google Sans';
-            font-style: normal;
-            font-weight: 400;
-            src: local('Google Sans'), local('Product Sans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
-          }
-          @font-face {
-            font-family: 'Google Sans';
-            font-style: normal;
-            font-weight: 700;
-            src: local('Google Sans Bold'), local('Product Sans Bold'), url(https://fonts.gstatic.com/s/productsans/v5/pxAca1i6pzRQZIRsAWUVMfQ51tUwcJj-mXUqk-vJwqI.woff2) format('woff2');
-          }
-          * {
-            font-family: 'Google Sans', sans-serif !important;
-          }
-          .blizzard-border {
-            box-shadow: 0 0 0 1px #31281A, 0 0 0 2px #1E1710, inset 0 0 0 1px rgba(255, 255, 255, 0.05);
-          }
-        `}
-      </style>
 
       {/* Title Header with the new background image */}
       <div 
-        className="text-center mb-10 z-10 w-full max-w-[1050px] flex flex-col items-center gap-5 rounded-xl border border-[#31281A] shadow-[0_4px_20px_rgba(0,0,0,0.8)] overflow-hidden relative"
+        className="text-center mb-10 z-10 w-full max-w-[1050px] flex flex-col items-center gap-5 rounded-sm overflow-hidden relative"
+        style={{
+          border: "3px solid #483e30",
+          boxShadow: "inset 0 0 0 2px #0f0905, 0 8px 30px rgba(0,0,0,0.95)"
+        }}
       >
         <div 
           className="absolute inset-0 z-0 opacity-40 bg-cover bg-center"
@@ -225,10 +251,10 @@ export default function App() {
 
         <div className="relative z-10 p-8 pt-10 flex flex-col items-center w-full">
           <div className="text-center relative">
-            <h1 className="text-5xl font-bold tracking-tight text-[#ffdd57] mb-2" style={{ textShadow: "0 2px 4px rgba(0,0,0,1), 0 0 10px rgba(255, 215, 0, 0.3)" }}>
+            <h1 className="text-5xl font-bold tracking-tight mb-2 wow-title">
               Classic+ Talents
             </h1>
-            <p className="text-[#a69882] text-lg font-medium tracking-wide string">A Community Theorycrafted Reimagining of the Original Talent Trees</p>
+            <p className="text-[#a69882] text-lg font-medium tracking-wide">A Community Theorycrafted Reimagining of the Original Talent Trees</p>
           </div>
           
           <div className="flex flex-wrap justify-center items-center gap-3 w-full mt-6">
@@ -237,12 +263,12 @@ export default function App() {
               return (
                 <button 
                   key={cls.name}
-                  onClick={() => { setActiveClass(cls.name); setPoints({}); }}
-                  className={`flex items-center gap-2 px-3 py-2 rounded font-bold text-sm tracking-wide transition-all border ${isActive ? 'text-white' : 'text-[#8c7e6b] bg-[#16120e] hover:bg-[#1f1a14] hover:text-[#d3c8b8]'} blizzard-border`}
-                  style={isActive ? { backgroundColor: 'rgba(20, 16, 12, 0.8)', boxShadow: `0 0 20px ${cls.color}80, inset 0 1px 0 rgba(255,255,255,0.1)`, borderColor: cls.color, textShadow: '0 2px 4px rgba(0,0,0,1)' } : { borderColor: '#2b2318' }}
+                  onClick={() => { setActiveClass(cls.name); setPoints({}); playClickSound('learn'); }}
+                  className={`flex items-center gap-2 px-3 py-2 rounded-sm font-bold text-sm tracking-wide transition-all border wow-header cursor-pointer select-none ${isActive ? 'text-white bg-[#0f0a05] border-[#ffd100]' : 'text-[#8c7e6b] bg-[#16120e] hover:bg-[#1f1a14] hover:text-[#d3c8b8] border-[#2b2318] grayscale opacity-75 hover:grayscale-0 hover:opacity-100'}`}
+                  style={isActive ? { backgroundColor: 'rgba(15, 10, 5, 0.95)', boxShadow: `0 0 15px ${cls.color}cc, inset 0 0 5px rgba(0,0,0,0.8)`, borderColor: '#ffd100', textShadow: '0 2px 4px rgba(0,0,0,1)' } : {}}
                 >
                   <img src={cls.icon} alt={cls.name} className="w-6 h-6 rounded-sm border border-[#2b2318]" />
-                  {cls.label}
+                  <span style={isActive ? { color: cls.color } : {}}>{cls.label}</span>
                 </button>
               )
             })}
@@ -250,8 +276,8 @@ export default function App() {
 
           <div className="w-full flex justify-between items-end mt-8 border-t border-[#31281A]/60 pt-4 pb-0 flex-wrap gap-4">
             <div className="flex flex-col">
-              <span className="text-[#ffdd57] font-bold text-xl" style={{ textShadow: "0 2px 4px rgba(0,0,0,1)" }}>Points Spent: <span className="text-white">{totalPoints}</span><span className="text-[#8c7e6b]">/51</span></span>
-              <span className="text-[#a69882] text-sm font-medium">Points Left: <span className="text-white">{Math.max(0, 51 - totalPoints)}</span></span>
+              <span className="text-[#ffd100] font-bold text-xl wow-header">Points Spent: <span className="text-white wow-mono">{totalPoints}</span><span className="text-[#8c7e6b]">/51</span></span>
+              <span className="text-[#a69882] text-sm font-medium">Points Left: <span className="text-white wow-mono">{Math.max(0, 51 - totalPoints)}</span></span>
             </div>
             
             <div className="flex flex-wrap items-center gap-4">
@@ -261,12 +287,12 @@ export default function App() {
                   placeholder="Build Name" 
                   value={buildName}
                   onChange={(e) => setBuildName(e.target.value)}
-                  className="bg-[#14100c] border border-[#31281A] px-3 py-2.5 max-w-[140px] text-sm rounded text-[#e4dcc7] focus:outline-none focus:border-[#ffdd57]"
+                  className="wow-input px-3 py-2 text-sm rounded max-w-[140px]"
                 />
                 <button 
                   onClick={saveBuild}
                   disabled={!buildName.trim()}
-                  className="flex items-center gap-2 px-4 py-2.5 bg-[#14100c] hover:bg-[#1a1510] border border-[#31281A] disabled:opacity-50 rounded transition-all text-sm font-semibold text-[#a69882] hover:text-[#ffdd57]"
+                  className="flex items-center gap-2 px-4 py-2 wow-button text-sm rounded cursor-pointer"
                 >
                   <Save size={16} /> Save
                 </button>
@@ -276,7 +302,7 @@ export default function App() {
                 <select 
                   onChange={loadBuild}
                   value=""
-                  className="bg-[#14100c] border border-[#31281A] px-3 py-2.5 text-sm rounded text-[#a69882] focus:outline-none focus:border-[#ffdd57] max-w-[180px]"
+                  className="wow-input px-3 py-2 text-sm rounded max-w-[180px] bg-[#0f0b08] cursor-pointer"
                 >
                   <option value="" disabled>Load Build...</option>
                   {Object.keys(savedBuilds).map(name => (
@@ -287,7 +313,7 @@ export default function App() {
 
               <button 
                 onClick={resetTalents}
-                className="flex items-center gap-2 px-5 py-2.5 bg-[#14100c] hover:bg-[#1a1510] border border-[#31281A] rounded transition-all text-sm font-semibold text-[#a69882] hover:text-[#ffdd57]"
+                className="flex items-center gap-2 px-5 py-2 wow-button text-sm rounded cursor-pointer"
               >
                 <RefreshCw size={16} />
                 Reset

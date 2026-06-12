@@ -58,10 +58,10 @@ export function Tooltip({ talent, points, activeTalents, rect }: TooltipProps) {
 
   const renderFormattedText = (text: string) => {
     if (!text) return text;
-    const wordsRegexStr = '\\b(?:intellect|spirit|stamina|mana|energy|rage|strength|agility|health|armor|spell power|attack power)\\b';
-    const combinedRegex = new RegExp(`(${wordsRegexStr})`, 'gi');
-    
-    if (!text.match(combinedRegex)) return text;
+    // Highlight numbers, percentages, ranges, and durations as well as stat keywords
+    const wordsRegexStr = '\\b(?:intellect|spirit|stamina|mana|energy|rage|strength|agility|health|armor|spell power|attack power|fire|frost|nature|shadow|holy|arcane|physical|cooldown|range|critical strike|critical strike chance|dodge|parry|block)\\b';
+    const numRegexStr = '\\b\\d+(?:\\.\\d+)?%?|\\b\\d+\\s*to\\s*\\d+\\b';
+    const combinedRegex = new RegExp(`(${wordsRegexStr}|${numRegexStr})`, 'gi');
     
     const parts = text.split(combinedRegex);
     return (
@@ -69,6 +69,8 @@ export function Tooltip({ talent, points, activeTalents, rect }: TooltipProps) {
         {parts.map((part, i) => {
           if (!part) return null;
           const lowerPart = part.toLowerCase();
+          
+          // Match keywords
           if (lowerPart === 'intellect') return <span key={i} className="text-[#00ccff] font-semibold">{part}</span>;
           if (lowerPart === 'spirit') return <span key={i} className="text-[#ffffff] font-semibold">{part}</span>;
           if (lowerPart === 'stamina') return <span key={i} className="text-[#ff3b3b] font-semibold">{part}</span>;
@@ -81,6 +83,26 @@ export function Tooltip({ talent, points, activeTalents, rect }: TooltipProps) {
           if (lowerPart === 'armor') return <span key={i} className="text-[#a69882] font-semibold">{part}</span>;
           if (lowerPart === 'spell power') return <span key={i} className="text-[#b480ff] font-semibold">{part}</span>;
           if (lowerPart === 'attack power') return <span key={i} className="text-[#ffdd57] font-semibold">{part}</span>;
+
+          // Spell schools
+          if (lowerPart === 'fire') return <span key={i} className="text-[#ff5f00] font-semibold">{part}</span>;
+          if (lowerPart === 'frost') return <span key={i} className="text-[#69ccf0] font-semibold">{part}</span>;
+          if (lowerPart === 'nature') return <span key={i} className="text-[#1eff00] font-semibold">{part}</span>;
+          if (lowerPart === 'shadow') return <span key={i} className="text-[#9482c9] font-semibold">{part}</span>;
+          if (lowerPart === 'holy') return <span key={i} className="text-[#ffe066] font-semibold">{part}</span>;
+          if (lowerPart === 'arcane') return <span key={i} className="text-[#cc7aff] font-semibold">{part}</span>;
+          if (lowerPart === 'physical') return <span key={i} className="text-[#e6b800] font-semibold">{part}</span>;
+
+          // Mechanics
+          if (['cooldown', 'range', 'critical strike', 'critical strike chance', 'dodge', 'parry', 'block'].includes(lowerPart)) {
+            return <span key={i} className="text-[#ffd100] font-medium">{part}</span>;
+          }
+          
+          // Match numeric patterns (starting with digit)
+          if (/^\d/.test(part)) {
+            return <span key={i} className="text-white font-semibold">{part}</span>;
+          }
+          
           return <span key={i}>{part}</span>;
         })}
       </>
@@ -109,16 +131,21 @@ export function Tooltip({ talent, points, activeTalents, rect }: TooltipProps) {
   return (
     <div 
       ref={tooltipRef}
-      className="fixed z-50 bg-[#070a14]/95 border-2 border-[#545454] p-3.5 rounded shadow-[0_4px_20px_rgba(0,0,0,1)] w-80 pointer-events-none transition-opacity duration-75"
-      style={{ ...position, boxShadow: "0 0 4px #000, 0 4px 15px rgba(0,0,0,0.8)", borderColor: "#4d4d4d" }}
+      className="fixed z-50 p-3 rounded-sm pointer-events-none transition-opacity duration-75 w-80 text-[#ffd100]"
+      style={{
+        ...position,
+        background: "linear-gradient(to bottom, #0c1125 0%, #05070f 100%)",
+        border: "2px solid #3c3224",
+        boxShadow: "inset 0 0 0 1.5px #000, 0 5px 15px rgba(0,0,0,0.9)"
+      }}
     >
       <div className="flex justify-between items-start mb-1 gap-2">
-        <h3 className="font-semibold text-white text-base leading-tight flex-1">{talent.name}</h3>
-        <span className="text-[13px] font-normal text-white whitespace-nowrap ml-2">Rank {pts}/{talent.maxPoints}</span>
+        <h3 className="font-bold text-white text-base leading-tight flex-1 wow-header">{talent.name}</h3>
+        <span className="text-[13px] font-normal text-[#a69882] whitespace-nowrap ml-2 wow-mono">Rank {pts}/{talent.maxPoints}</span>
       </div>
 
       {talent.requires && (points[talent.requires.id] || 0) < talent.requires.points && (
-        <div className="text-[#ff2020] text-[13px] mb-2 leading-tight">
+        <div className="text-[#ff2020] text-[13px] mb-2 leading-tight font-semibold">
           Requires {talent.requires.points} points in {activeTalents.find(t => t.id === talent.requires!.id)?.name}
         </div>
       )}
