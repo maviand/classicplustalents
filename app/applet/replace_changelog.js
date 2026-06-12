@@ -38,13 +38,15 @@ const classChangelogs = {
 
   druid: `export const CHANGELOG = [
   "General Changes",
-  "Design Philosophy: A comprehensive modernization bringing TBC/WotLK coherence to the Druid toolkits. Omen of Clarity and Nature's Grasp have been made baseline abilities.",
+  "Design Philosophy: A comprehensive modernization bringing TBC/WotLK coherence to the Druid toolkits.",
+  "Omen of Clarity: This ability has been made baseline for all Druids.",
+  "Nature's Grasp: This ability has been made baseline for all Druids.",
   "Balance",
   "Identity: Transforms into an astrally-empowered, crit-scaling caster capable of robust multi-dotting and devastating eclipse phases.",
   "Core Foundation: Improved Wrath, Starlight Wrath, Nature's Grasp improved in Tier 1.",
   "Cross-Pollination: Control of Nature, Improved Moonfire, Brambles organized in Tier 2.",
   "Insect Swarm: Moved down to serve as the defining 11-point anchor.",
-  "Reach & Cost: Nature's Reach, Moonglow organized in Tier 3.",
+  "Reach & Cost: Nature's Reach, Moonglow, and Conjure Moonwell organized in Tier 3.",
   "Vengeance: Compressed to 3 points in Tier 4 to supercharge spell critical strike scaling.",
   "Moonkin Form: Positioned as the 21-point anchor, providing the necessary armor and aura.",
   "The Active Engine: Lunar Guidance, Dreamstate organized in Tier 5 for massive mana sustain and spell power scaling.",

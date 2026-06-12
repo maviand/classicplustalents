@@ -48,10 +48,9 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
     desc: ["Increases the damage caused by your Thorns by 25%. Targets striking you or your allies with Thorns active have a 10% chance to be afflicted by Nature's Grasp, rooting them in place for 3 seconds.", "50 / 20", "75 / 30"]
   },
   {
-    id: 'omen_of_clarity', name: 'Omen of Clarity', icon: 'spell_nature_crystalball', maxPoints: 1, row: 2, col: 2,
-    requires: { id: 'natural_weapons', points: 5 },
+    id: 'conjure_moonwell', name: 'Conjure Moonwell', icon: 'inv_drink_13', maxPoints: 1, row: 2, col: 2,
     desc: [
-      "Imbues the Druid with natural energy. Each of the Druid's melee attacks has a chance of causing the caster to enter a Clearcasting state. The Clearcasting state reduces the Mana, Rage or Energy cost of your next damage or healing spell or offensive ability by 100%. Lasts 10 min."
+      "Conjures a Moonwell at the caster's feet for 15 seconds. You and all party members standing within 10 yards of the Moonwell gain Elune's Blessing, which reduces the cast time of all spells by 0.5 seconds and restores 2% of maximum mana every 3 seconds. 3 minute cooldown."
     ]
   },
   // TIER 4
@@ -293,7 +292,7 @@ export const CHANGELOG: string[] = [
   "Core Foundation: Improved Wrath, Starlight Wrath, Nature's Grasp improved in Tier 1.",
   "Cross-Pollination: Control of Nature, Improved Moonfire, Brambles organized in Tier 2.",
   "Insect Swarm: Moved down to serve as the defining 11-point anchor.",
-  "Reach & Cost: Nature's Reach, Moonglow organized in Tier 3.",
+  "Reach & Cost: Nature's Reach, Moonglow, and Conjure Moonwell organized in Tier 3.",
   "Vengeance: Compressed to 3 points in Tier 4 to supercharge spell critical strike scaling.",
   "Moonkin Form: Positioned as the 21-point anchor, providing the necessary armor and aura.",
   "The Active Engine: Lunar Guidance, Dreamstate organized in Tier 5 for massive mana sustain and spell power scaling.",
