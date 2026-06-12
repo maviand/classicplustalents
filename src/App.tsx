@@ -42,45 +42,7 @@ export default function App() {
   });
   const [buildName, setBuildName] = useState('');
 
-  const playClickSound = useCallback((type: 'learn' | 'unlearn' | 'reset') => {
-    try {
-      const AudioCtx = window.AudioContext || (window as any).webkitAudioContext;
-      if (!AudioCtx) return;
-      const ctx = new AudioCtx();
-      const osc = ctx.createOscillator();
-      const gain = ctx.createGain();
-      osc.connect(gain);
-      gain.connect(ctx.destination);
-      if (type === 'learn') {
-        osc.type = 'triangle';
-        osc.frequency.setValueAtTime(800, ctx.currentTime);
-        osc.frequency.exponentialRampToValueAtTime(150, ctx.currentTime + 0.1);
-        gain.gain.setValueAtTime(0.15, ctx.currentTime);
-        gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.12);
-        osc.start();
-        osc.stop(ctx.currentTime + 0.12);
-      } else if (type === 'unlearn') {
-        osc.type = 'sine';
-        osc.frequency.setValueAtTime(400, ctx.currentTime);
-        osc.frequency.exponentialRampToValueAtTime(100, ctx.currentTime + 0.15);
-        gain.gain.setValueAtTime(0.12, ctx.currentTime);
-        gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.16);
-        osc.start();
-        osc.stop(ctx.currentTime + 0.16);
-      } else if (type === 'reset') {
-        osc.type = 'sine';
-        osc.frequency.setValueAtTime(150, ctx.currentTime);
-        osc.frequency.exponentialRampToValueAtTime(600, ctx.currentTime + 0.25);
-        gain.gain.setValueAtTime(0.01, ctx.currentTime);
-        gain.gain.linearRampToValueAtTime(0.1, ctx.currentTime + 0.05);
-        gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.25);
-        osc.start();
-        osc.stop(ctx.currentTime + 0.25);
-      }
-    } catch (e) {
-      console.warn("AudioContext failed to play sound:", e);
-    }
-  }, []);
+  const playClickSound = useCallback((type: 'learn' | 'unlearn' | 'reset') => {}, []);
 
   const saveBuild = () => {
     if (!buildName.trim()) return;
@@ -263,12 +225,12 @@ export default function App() {
               return (
                 <button 
                   key={cls.name}
-                  onClick={() => { setActiveClass(cls.name); setPoints({}); playClickSound('learn'); }}
-                  className={`flex items-center gap-2 px-3 py-2 rounded-sm font-bold text-sm tracking-wide transition-all border wow-header cursor-pointer select-none ${isActive ? 'text-white bg-[#0f0a05] border-[#ffd100]' : 'text-[#8c7e6b] bg-[#16120e] hover:bg-[#1f1a14] hover:text-[#d3c8b8] border-[#2b2318] grayscale opacity-75 hover:grayscale-0 hover:opacity-100'}`}
-                  style={isActive ? { backgroundColor: 'rgba(15, 10, 5, 0.95)', boxShadow: `0 0 15px ${cls.color}cc, inset 0 0 5px rgba(0,0,0,0.8)`, borderColor: '#ffd100', textShadow: '0 2px 4px rgba(0,0,0,1)' } : {}}
+                  onClick={() => { setActiveClass(cls.name); setPoints({}); }}
+                  className={`flex items-center gap-2 px-3 py-2 rounded-sm font-bold text-sm tracking-wide transition-all border ${isActive ? 'text-white' : 'text-[#8c7e6b] bg-[#16120e] hover:bg-[#1f1a14] hover:text-[#d3c8b8]'} blizzard-border`}
+                  style={isActive ? { backgroundColor: 'rgba(15, 10, 5, 0.95)', boxShadow: `0 0 15px ${cls.color}cc, inset 0 0 5px rgba(0,0,0,0.8)`, borderColor: cls.color, textShadow: '0 2px 4px rgba(0,0,0,1)' } : { borderColor: '#2b2318' }}
                 >
                   <img src={cls.icon} alt={cls.name} className="w-6 h-6 rounded-sm border border-[#2b2318]" />
-                  <span style={isActive ? { color: cls.color } : {}}>{cls.label}</span>
+                  {cls.label}
                 </button>
               )
             })}

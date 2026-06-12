@@ -1,11 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Fondamento:ital@0;1&family=Open+Sans:wght@400;500;600;700&family=Share+Tech+Mono&display=swap');
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Google Sans'), local('Product Sans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Google Sans Bold'), local('Product Sans Bold'), url(https://fonts.gstatic.com/s/productsans/v5/pxAca1i6pzRQZIRsAWUVMfQ51tUwcJj-mXUqk-vJwqI.woff2) format('woff2');
+}
+
 @import "tailwindcss";
 
 @theme {
-  --font-serif-wow: "Cinzel", Georgia, serif;
-  --font-fantasy-wow: "Fondamento", cursive;
-  --font-sans-wow: "Open Sans", sans-serif;
-  --font-mono-wow: "Share Tech Mono", monospace;
+  --font-serif-wow: "Google Sans", sans-serif;
+  --font-fantasy-wow: "Google Sans", sans-serif;
+  --font-sans-wow: "Google Sans", sans-serif;
+  --font-mono-wow: "Google Sans", sans-serif;
 
   --animate-border-pulse: border-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   --animate-gold-pulse: gold-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
@@ -34,24 +46,18 @@
 }
 
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Google Sans", sans-serif !important;
 }
 
 /* WoW Text Styles */
 .wow-title {
-  font-family: "Fondamento", cursive !important;
   color: #ffd100;
   text-shadow: 2px 2px 0px #000, 0 0 8px rgba(255, 209, 0, 0.4);
 }
 
 .wow-header {
-  font-family: "Cinzel", Georgia, serif !important;
   color: #ffdd57;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
-}
-
-.wow-mono {
-  font-family: "Share Tech Mono", monospace !important;
 }
 
 /* WoW Panels & Frames */
@@ -80,7 +86,6 @@
   border: 2px solid #a08151;
   color: #ffd100;
   text-shadow: 1px 1px 1px #000;
-  font-family: "Cinzel", Georgia, serif !important;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.15);
   transition: all 0.15s ease-in-out;
   font-weight: bold;
@@ -110,7 +115,6 @@
   border: 2px solid #3c3224;
   color: #e4dcc7;
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.8);
-  font-family: "Open Sans", sans-serif;
   transition: border-color 0.15s ease-in-out;
 }
 
@@ -135,4 +139,8 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #3c3224;
+}
+
+.blizzard-border {
+  box-shadow: 0 0 0 1px #31281A, 0 0 0 2px #1E1710, inset 0 0 0 1px rgba(255, 255, 255, 0.05);
 }
