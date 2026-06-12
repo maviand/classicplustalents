@@ -14,7 +14,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: Talent[] = [
   { id: 'eye_of_the_storm', name: 'Eye of the Storm', icon: 'spell_shadow_soulleech_3', maxPoints: 3, row: 3, col: 0, desc: ["When you are struck by a melee or ranged attack, you have a 33% chance to resist spell pushback for 6 seconds.", "66%", "100%"] },
   { id: 'sef', name: 'Storm, Earth, and Fire', icon: 'spell_shaman_stormearthfire', maxPoints: 2, row: 3, col: 2, desc: ["Reduces the cooldown of your Chain Lightning by 1 sec, and increases the periodic damage of your Flame Shock by 10%.", "2 sec / 20%"] },
   { id: 'lightning_mastery', name: 'Lightning Mastery', icon: 'spell_lightning_lightningbolt01', maxPoints: 5, row: 4, col: 1, requires: { id: 'call_of_thunder', points: 5 }, desc: ["Reduces the cast time of your Lightning Bolt and Chain Lightning spells by 0.1 sec.", "0.2 sec.", "0.3 sec.", "0.4 sec.", "0.5 sec."] },
-  { id: 'elemental_mastery', name: 'Elemental Mastery', icon: 'spell_nature_wispheal', maxPoints: 1, row: 4, col: 2, desc: ["When activated, this spell gives your next Fire, Frost, or Nature damage spell a 100% critical strike chance and reduces its mana cost by 100%. 3 min cooldown."] },
+  { id: 'thunderstorm', name: 'Thunderstorm', icon: 'spell_shaman_thunderstorm', maxPoints: 1, row: 4, col: 2, desc: ["You call down a bolt of lightning, energizing you and damaging nearby enemies within 10 yards. Restores 8% mana to you and deals 563 to 643 Nature damage to all nearby enemies, knocking them back 20 yards. Usable while stunned. 45 sec cooldown."] },
   { id: 'totemic_surge', name: 'Totemic Surge', icon: 'spell_nature_moonglow', maxPoints: 2, row: 4, col: 0, desc: ["Your offensive spell critical strikes cause your active Fire, Water, Earth, and Air totems to pulse, restoring 1% of maximum mana to all party members within 30 yards.", "2%"] },
   { id: 'lightning_overload', name: 'Lightning Overload', icon: 'spell_nature_lightningoverload', maxPoints: 3, row: 5, col: 1, requires: { id: 'lightning_mastery', points: 5 }, desc: ["Gives your Lightning Bolt and Chain Lightning spells a 5% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.", "10%", "15%"] },
   { id: 'totem_of_wrath', name: 'Totem of Wrath', icon: 'spell_fire_totemofwrath', maxPoints: 1, row: 6, col: 1, requires: { id: 'lightning_overload', points: 3 }, desc: ["Summons a Totem of Wrath with 5 health at the feet of the caster. The totem increases the chance to hit and critical strike with spells for all party members within 30 yards by 3%. Lasts 2 min."] }
@@ -76,7 +76,7 @@ export const CHANGELOG: string[] = [
   "Elemental Fury: Positioned as the critical 11-point anchor.",
   "Output: Improved Fire Totems, Eye of the Storm, Storm Reach organized in Tier 3.",
   "Control: Storm, Earth, and Fire, Lightning Mastery established in Tier 4.",
-  "Elemental Mastery: Positioned as the 21-point anchor.",
+  "Thunderstorm: Positioned as the 21-point anchor.",
   "The Active Engine: Totemic Surge, Lightning Overload organized in Tier 5.",
   "Totem of Wrath: Added as the 31-point capstone, providing unmatched group offensive buffs.",
   "Enhancement",
