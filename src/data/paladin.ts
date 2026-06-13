@@ -190,6 +190,11 @@ export const HOLY_TALENTS: Talent[] = [
 export const PROTECTION_TALENTS: Talent[] = [
   // TIER 1
   {
+    id: 'divinity', name: 'Divinity', icon: 'spell_holy_blessingofstrength', maxPoints: 2, row: 0, col: 0,
+    desc: ["Increases all healing done by you and all healing received by you by 2%.", "4"
+    ]
+  },
+  {
     id: 'precision', name: 'Precision', icon: 'ability_rogue_ambush', maxPoints: 3, row: 0, col: 1,
     desc: ["Increases your chance to hit with melee weapons by 1%.", "2", "3"
     ]
@@ -297,7 +302,7 @@ export const CHANGELOG: string[] = [
   "Beacon of Light: Added as the ultimate 31-point capstone, allowing massive multi-target triage.",
   "Protection",
   "Identity: Transforms from a niche off-tank into an impenetrable, spell-reflecting fortress with vastly improved threat generation and active defensive layers.",
-  "Core Foundation: Redoubt, Devotion, Toughness grouped in Tier 1.",
+  "Core Foundation: Divinity, Redoubt, and Precision grouped in Tier 1.",
   "Cross-Pollination: Anticipation, Guardian's Favor, Shield Specialization organized in Tier 2.",
   "Blessing of Kings: Moved down to serve as the 11-point anchor, bringing vital raid utility.",
   "Threat & Mitigation: Improved Righteous Fury, Reckoning organized in Tier 3.",

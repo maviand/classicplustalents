@@ -26,7 +26,7 @@ const classChangelogs = {
   "Beacon of Light: Added as the ultimate 31-point capstone, allowing massive multi-target triage.",
   "Protection",
   "Identity: Transforms from a niche off-tank into an impenetrable, spell-reflecting fortress with vastly improved threat generation and active defensive layers.",
-  "Core Foundation: Redoubt, Devotion, Toughness grouped in Tier 1.",
+  "Core Foundation: Divinity, Redoubt, and Precision grouped in Tier 1.",
   "Cross-Pollination: Anticipation, Guardian's Favor, Shield Specialization organized in Tier 2.",
   "Blessing of Kings: Moved down to serve as the 11-point anchor, bringing vital raid utility.",
   "Threat & Mitigation: Improved Righteous Fury, Reckoning organized in Tier 3.",
