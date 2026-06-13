@@ -190,7 +190,7 @@ export const HOLY_TALENTS: Talent[] = [
 export const PROTECTION_TALENTS: Talent[] = [
   // TIER 1
   {
-    id: 'divinity', name: 'Divinity', icon: 'spell_holy_blessingofstrength', maxPoints: 2, row: 0, col: 0,
+    id: 'divinity', name: 'Divinity', icon: 'https://i.imgur.com/RItrCpc.png', maxPoints: 2, row: 0, col: 0,
     desc: ["Increases all healing done by you and all healing received by you by 2%.", "4"
     ]
   },
