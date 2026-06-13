@@ -18,6 +18,7 @@ export const PRIEST_DISC_TALENTS: Talent[] = [
   { id: 'meditation', name: 'Meditation', icon: 'spell_nature_sleep', maxPoints: 3, row: 2, col: 2, desc: ["Allows 10% of your Mana regeneration to continue while casting.", "20%", "30%"] },
 
   // Tier 4
+  { id: 'soul_warding', name: 'Soul Warding', icon: 'spell_holy_powerwordshield', maxPoints: 2, row: 3, col: 0, desc: ["Reduces the cooldown of your Power Word: Shield by 1 second, and reduces its mana cost by 5%.", "2 seconds / 10%"] },
   { id: 'imp_divine_spirit', name: 'Improved Divine Spirit', icon: 'spell_holy_divinespirit', maxPoints: 2, row: 3, col: 1, desc: ["Your Divine Spirit buff increases spell damage and healing by an amount equal to 5% of your total Spirit.", "10%"] },
   { id: 'focused_power', name: 'Focused Power', icon: 'spell_nature_focusedmind', maxPoints: 3, row: 3, col: 2, desc: ["Increases your chance to hit with all spells by 1% and reduces the cast time of your Mass Dispel by 0.5 seconds.", "2% / 1.0 seconds", "3% / 1.5 seconds"] },
 
@@ -28,6 +29,7 @@ export const PRIEST_DISC_TALENTS: Talent[] = [
 
   // Tier 6
   { id: 'reflective_shield', name: 'Reflective Shield', icon: 'spell_holy_powerwordshield', maxPoints: 3, row: 5, col: 0, requires: { id: 'imp_pws', points: 3 }, desc: ["Causes 10% of the damage you absorb with Power Word: Shield to reflect back at the attacker. This damage causes no threat.", "20%", "30%"] },
+  { id: 'aspiration', name: 'Aspiration', icon: 'spell_holy_aspiration', maxPoints: 2, row: 5, col: 1, desc: ["Reduces the cooldown of your Penance, Power Infusion, and Inner Focus spells by 10%.", "20%"] },
   { id: 'rapture', name: 'Rapture', icon: 'spell_holy_rapture', maxPoints: 2, row: 5, col: 2, desc: ["When your Power Word: Shield is completely absorbed or dispelled, you instantly restore 2% of your maximum mana. This effect can only occur once every 12 seconds.", "4%"] },
 
   // Tier 7
@@ -49,6 +51,7 @@ export const PRIEST_HOLY_TALENTS: Talent[] = [
   { id: 'holy_nova', name: 'Holy Nova', icon: 'spell_holy_holynova', maxPoints: 1, row: 2, col: 0, desc: ["Causes an explosion of holy light around the caster, causing Holy damage to all enemies within 10 yards and healing all party members within 10 yards. These effects cause no threat."] },
   { id: 'imp_healing', name: 'Improved Healing', icon: 'spell_holy_heal02', maxPoints: 3, row: 2, col: 1, desc: ["Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 5%.", "10%", "15%"] },
   { id: 'inspiration', name: 'Inspiration', icon: 'spell_holy_layonhands', maxPoints: 3, row: 2, col: 2, requires: { id: 'holy_specialization', points: 3 }, desc: ["Increases your target's armor by 8% for 15 seconds after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing.", "16%", "25%"] },
+  { id: 'holy_concentration', name: 'Holy Concentration', icon: 'spell_holy_fanaticism', maxPoints: 3, row: 2, col: 3, desc: ["Gives you a 5% chance to enter a Clearcasting state after casting Flash Heal or Greater Heal.", "10%", "15%"] },
 
   // Tier 4
   { id: 'holy_reach', name: 'Holy Reach', icon: 'spell_holy_purify', maxPoints: 2, row: 3, col: 0, desc: ["Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 10%.", "20%"] },
@@ -62,6 +65,7 @@ export const PRIEST_HOLY_TALENTS: Talent[] = [
   // Tier 6
   { id: 'test_of_faith', name: 'Test of Faith', icon: 'spell_holy_testoffaith', maxPoints: 2, row: 5, col: 0, desc: ["Increases healing by 5% on friendly targets at or below 50% health.", "10%"] },
   { id: 'empowered_healing', name: 'Empowered Healing', icon: 'spell_holy_greaterheal', maxPoints: 3, row: 5, col: 1, desc: ["Your Greater Heal spell gains an additional 10% and your Flash Heal gains an additional 5% of your bonus healing effects.", "20% / 10%", "30% / 15%"] },
+  { id: 'serendipity', name: 'Serendipity', icon: 'spell_holy_serendipity', maxPoints: 3, row: 5, col: 2, desc: ["When you heal with Flash Heal, the cast time of your next Greater Heal or Prayer of Healing spell is reduced by 4%, stacking up to 3 times. Lasts 20 seconds.", "8%", "12%"] },
 
   // Tier 7
   { id: 'circle_of_healing', name: 'Circle of Healing', icon: 'spell_holy_circleofrenewal', maxPoints: 1, row: 6, col: 1, requires: { id: 'spirit_of_redemption', points: 1 }, desc: ["Heals up to 5 friendly party members within 15 yards of the target for X. 6 second cooldown."] }
@@ -85,6 +89,7 @@ export const PRIEST_SHADOW_TALENTS: Talent[] = [
 
   // Tier 4
   { id: 'shadow_reach', name: 'Shadow Reach', icon: 'spell_shadow_chilltouch', maxPoints: 2, row: 3, col: 0, desc: ["Increases the range of your offensive Shadow spells by 10%.", "20%"] },
+  { id: 'imp_shadowform', name: 'Improved Shadowform', icon: 'spell_shadow_improvedshadowform', maxPoints: 2, row: 3, col: 1, desc: ["Reduces the casting time lost when taking damage while in Shadowform by 35%, and your Fade ability has a 50% chance to remove all movement impairing effects when used.", "70% / 100%"] },
   { id: 'mind_melt', name: 'Mind Melt', icon: 'spell_shadow_skull', maxPoints: 3, row: 3, col: 2, desc: ["Increases the critical strike chance of your Mind Blast and Shadow Word: Death spells by 2%.", "4%", "6%"] },
 
   // Tier 5
@@ -94,6 +99,7 @@ export const PRIEST_SHADOW_TALENTS: Talent[] = [
 
   // Tier 6
   { id: 'shadow_power', name: 'Shadow Power', icon: 'spell_shadow_shadowpower', maxPoints: 2, row: 5, col: 0, desc: ["Increases the critical strike damage bonus of your Mind Blast and Shadow Word: Death spells by 50%.", "100%"] },
+  { id: 'pain_and_suffering', name: 'Pain and Suffering', icon: 'spell_shadow_painandsuffering', maxPoints: 3, row: 5, col: 1, desc: ["Your Mind Flay ticks have a 33% chance to refresh the duration of your Shadow Word: Pain on the target.", "66%", "100%"] },
   { id: 'misery', name: 'Misery', icon: 'spell_shadow_misery', maxPoints: 3, row: 5, col: 2, desc: ["Your Shadow Word: Pain, Mind Flay, and Vampiric Touch spells also increase the spell damage taken by the target by 1%.", "2%", "3%"] },
 
   // Tier 7

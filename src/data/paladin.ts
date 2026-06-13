@@ -58,6 +58,10 @@ export const RETRIBUTION_TALENTS: Talent[] = [
     ]
   },
   {
+    id: 'the_art_of_war', name: 'The Art of War', icon: 'ability_paladin_artofwar', maxPoints: 2, row: 3, col: 1,
+    desc: ["Critical hits with your melee auto-attacks reduce the cast time of your next Flash of Light or Exorcism by 50%.", "100%"]
+  },
+  {
     id: 'imp_ret_aura', name: 'Improved Retribution Aura', icon: 'spell_holy_auraoflight', maxPoints: 2, row: 3, col: 2,
     desc: ["Increases the damage done by your Retribution Aura by 25%, and causes your Retribution Aura to generate a high amount of threat for the party members it protects.", "50"
     ]
@@ -93,6 +97,10 @@ export const RETRIBUTION_TALENTS: Talent[] = [
     desc: ["Gives you a 3% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability.", "6", "9", "12", "15"
     ]
   },
+  {
+    id: 'righteous_vengeance', name: 'Righteous Vengeance', icon: 'ability_paladin_righteousvengeance', maxPoints: 3, row: 5, col: 2,
+    desc: ["Your critical strikes with Judgement and Crusader Strike deal an additional 10% damage as a bleed over 8 seconds.", "20%", "30%"]
+  },
   // TIER 7
   {
     id: 'divine_storm', name: 'Divine Storm', icon: 'ability_paladin_divinestorm', maxPoints: 1, row: 6, col: 1,
@@ -120,6 +128,10 @@ export const HOLY_TALENTS: Talent[] = [
     ]
   },
   // TIER 2
+  {
+    id: 'pure_of_heart', name: 'Pure of Heart', icon: 'spell_holy_pureofheart', maxPoints: 2, row: 1, col: 0,
+    desc: ["Reduces the duration of all Curse, Disease, and Poison effects on you and your allies by 15%.", "30%"]
+  },
   {
     id: 'guiding_light', name: 'Guiding Light', icon: 'spell_holy_holyguidance', maxPoints: 5, row: 1, col: 1,
     desc: ["Reduces the chance your Holy spells will be resisted by 1%, and reduces the mana cost of your Purify, Cleanse, and Healing spells by 2%.", "2 / 4", "3 / 6", "4 / 8", "5 / 10"]
@@ -172,6 +184,10 @@ export const HOLY_TALENTS: Talent[] = [
     desc: ["Increases the duration of your Judgement of Light and Judgement of Wisdom by 10 sec, and your healing spells have a 10% chance to trigger your active Judgement of Light or Wisdom on the healed target.", "20 / 20", "30 / 30"]
   },
   // TIER 6
+  {
+    id: 'judgements_of_the_pure', name: 'Judgements of the Pure', icon: 'ability_paladin_judgementofthepure', maxPoints: 5, row: 5, col: 1,
+    desc: ["Your Judgement spells increase your spell casting speed by 3% for 1 minute.", "6%", "9%", "12%", "15%"]
+  },
   {
     id: 'holy_power', name: 'Holy Power', icon: 'spell_holy_power', maxPoints: 5, row: 5, col: 2,
     desc: ["Increases the critical effect chance of your Holy spells by 1%.", "2", "3", "4", "5"
@@ -229,6 +245,10 @@ export const PROTECTION_TALENTS: Talent[] = [
     id: 'anticipation', name: 'Anticipation', icon: 'spell_magic_lesserinvisibilty', maxPoints: 5, row: 2, col: 0,
     desc: ["Increases your Defense skill by 2. Whenever you Dodge or Parry a melee attack, the damage absorbed by your next Block is increased by 10%.", "4 / 20", "6 / 30", "8 / 40", "10 / 50"]
   },
+  {
+    id: 'sacred_duty', name: 'Sacred Duty', icon: 'spell_holy_divineintervention', maxPoints: 2, row: 2, col: 2,
+    desc: ["Increases your total Stamina by 2%, and reduces the cooldown of your Divine Protection and Divine Shield by 30 seconds.", "4% / 60 seconds"]
+  },
   // TIER 4
   {
     id: 'shield_spec', name: 'Shield Specialization', icon: 'inv_shield_06', maxPoints: 3, row: 3, col: 2,
@@ -257,6 +277,10 @@ export const PROTECTION_TALENTS: Talent[] = [
     ]
   },
   // TIER 6
+  {
+    id: 'ardent_defender', name: 'Ardent Defender', icon: 'spell_holy_ardentdefender', maxPoints: 3, row: 5, col: 1,
+    desc: ["Reduces damage taken when below 35% health by 10%, or prevents death once every 2 minutes.", "20%", "30%"]
+  },
   {
     id: 'one_handed_spec', name: 'One-Handed Weapon Specialization', icon: 'inv_sword_20', maxPoints: 5, row: 5, col: 2,
     desc: ["Increases the damage you deal with one-handed melee weapons by 2%.", "4", "6", "8", "10"

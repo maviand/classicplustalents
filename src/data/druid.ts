@@ -53,6 +53,10 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
       "Conjures a Moonwell at the caster's feet for 15 seconds. You and all party members standing within 10 yards of the Moonwell gain Elune's Blessing, which reduces the cast time of all spells by 0.5 seconds and restores 2% of maximum mana every 3 seconds. 3 minute cooldown."
     ]
   },
+  {
+    id: 'gale_winds', name: 'Gale Winds', icon: 'spell_nature_gale', maxPoints: 2, row: 2, col: 3,
+    desc: ["Reduces pushback suffered from damaging attacks while casting Hurricane by 50%, and increases the damage of your Hurricane spell by 15%.", "100% / 30%"]
+  },
   // TIER 4
   {
     id: 'vengeance', name: 'Vengeance', icon: 'spell_nature_purge', maxPoints: 5, row: 3, col: 1,
@@ -73,6 +77,10 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
   {
     id: 'moonglow', name: 'Moonglow', icon: 'spell_nature_sentinal', maxPoints: 3, row: 4, col: 2,
     desc: ["Reduces the Mana cost of your Moonfire, Starfire, Wrath, Healing Touch, Regrowth and Rejuvenation spells by 3%, and your spell critical strikes regenerate mana equal to 15% of the spell's base cost.", "6 / 30", "9 / 45"]
+  },
+  {
+    id: 'dreamstate', name: 'Dreamstate', icon: 'ability_druid_dreamstate', maxPoints: 3, row: 4, col: 3,
+    desc: ["Allows 5% of your mana regeneration to continue while casting, scaling based on your total Intellect.", "10%", "15%"]
   },
   // TIER 6
   {
@@ -154,6 +162,10 @@ export const DRUID_FERAL_TALENTS: Talent[] = [
     requires: { id: 'sharpened_claws', points: 3 },
     desc: ["Reduces the cooldown of your Enrage and Tiger's Fury abilities by 15 seconds. In addition, using Tiger's Fury instantly restores 15 Energy, and the armor penalty of your Enrage is reduced by 50%.", "30 / 30 / 100"]
   },
+  {
+    id: 'nurturing_instinct', name: 'Nurturing Instinct', icon: 'ability_druid_healinginstincts', maxPoints: 2, row: 3, col: 1,
+    desc: ["Increases your healing spells by 50% of your Agility.", "100%"]
+  },
   // TIER 5
   {
     id: 'savage_fury', name: 'Savage Fury', icon: 'ability_druid_ravage', maxPoints: 2, row: 4, col: 0,
@@ -174,6 +186,10 @@ export const DRUID_FERAL_TALENTS: Talent[] = [
     id: 'heart_of_the_wild', name: 'Heart of the Wild', icon: 'spell_holy_blessingofagility', maxPoints: 5, row: 5, col: 1,
     requires: { id: 'predatory_strikes', points: 3 },
     desc: ["Increases your Intellect by 4%. In addition, while in Bear Form your Stamina is increased by 4%, and while in Cat Form your Attack Power is increased by 2%.", "8 / 8 / 4", "12 / 12 / 6", "16 / 16 / 8", "20 / 20 / 10"]
+  },
+  {
+    id: 'survival_of_the_fittest', name: 'Survival of the Fittest', icon: 'ability_druid_survivalofthefittest', maxPoints: 3, row: 5, col: 2,
+    desc: ["Reduces the chance you'll be critically hit by melee attacks by 1%, and increases your total armor contribution from items by 1%.", "2% / 2%", "3% / 3%"]
   },
   // TIER 7
   {
@@ -238,6 +254,10 @@ export const DRUID_RESTORATION_TALENTS: Talent[] = [
   },
   // TIER 4
   {
+    id: 'empowered_rejuvenation', name: 'Empowered Rejuvenation', icon: 'ability_druid_empoweredrejuv', maxPoints: 5, row: 3, col: 0,
+    desc: ["Increases the effect of your heal-over-time spells by 4% of your bonus healing effects.", "8%", "12%", "16%", "20%"]
+  },
+  {
     id: 'tranquil_spirit', name: 'Tranquil Spirit', icon: 'spell_holy_elunesgrace', maxPoints: 5, row: 3, col: 1,
     desc: ["Reduces the mana cost of your Healing Touch, Regrowth, and Tranquility spells by 2%.", "4", "6", "8", "10"
     ]
@@ -267,6 +287,10 @@ export const DRUID_RESTORATION_TALENTS: Talent[] = [
     id: 'empowered_touch', name: 'Empowered Touch', icon: 'spell_nature_healingway', maxPoints: 3, row: 5, col: 0,
     desc: ["Your Healing Touch spell gains an additional 10% of your bonus healing effects.", "20", "30"
     ]
+  },
+  {
+    id: 'gift_of_the_earthmother', name: 'Gift of the Earthmother', icon: 'ability_druid_giftoftheearthmother', maxPoints: 2, row: 5, col: 1,
+    desc: ["Reduces the global cooldown of your Rejuvenation and Wild Growth spells by 10%.", "20%"]
   },
   {
     id: 'overgrowth', name: 'Overgrowth', icon: 'spell_nature_stranglevines', maxPoints: 2, row: 5, col: 2,

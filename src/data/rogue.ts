@@ -18,6 +18,7 @@ export const ROGUE_ASSASSINATION_TALENTS: Talent[] = [
   { id: 'relentless_strikes', name: 'Relentless Strikes', icon: 'ability_warrior_decisivestrike', maxPoints: 2, row: 2, col: 2, requires: { id: 'ruthlessness', points: 3 }, desc: ["Your finishing moves have a 10% chance per combo point to restore 25 Energy.", "20%"] },
  
   // Tier 4
+  { id: 'find_weakness', name: 'Find Weakness', icon: 'ability_rogue_findweakness', maxPoints: 3, row: 3, col: 0, desc: ["Your offensive finishing moves increase all physical damage dealt by 2% for 10 seconds.", "4%", "6%"] },
   { id: 'imp_poisons', name: 'Improved Poisons', icon: 'ability_poisons', maxPoints: 5, row: 3, col: 1, requires: { id: 'cold_blood', points: 1 }, desc: ["Increases the chance to apply Deadly Poison, Instant Poison, and Wound Poison to your target by 2%.", "4%", "6%", "8%", "10%"] },
   { id: 'fleet_footed', name: 'Fleet Footed', icon: 'ability_rogue_fleetfooted', maxPoints: 2, row: 3, col: 2, desc: ["Increases your movement speed by 8% and increases your resistance to movement impairing effects by 5%.", "15% / 10%"] },
  
@@ -28,6 +29,7 @@ export const ROGUE_ASSASSINATION_TALENTS: Talent[] = [
 
   // Tier 6
   { id: 'master_poisoner', name: 'Master Poisoner', icon: 'ability_creature_poison_06', maxPoints: 3, row: 5, col: 0, desc: ["Increases the critical strike chance of all attacks made against targets you have poisoned by 1%, and reduces the duration of all Poison effects applied to you by 17%.", "2% / 34%", "3% / 50%"] },
+  { id: 'blood_spatter', name: 'Blood Spatter', icon: 'ability_rogue_bloodspatter', maxPoints: 2, row: 5, col: 1, desc: ["Increases the damage caused by your Garrote and Rupture abilities by 15%.", "30%"] },
   { id: 'vigor', name: 'Vigor', icon: 'spell_nature_earthbindtotem', maxPoints: 2, row: 5, col: 2, desc: ["Increases your maximum Energy by 5.", "10."] },
 
   // Tier 7
@@ -52,6 +54,7 @@ export const ROGUE_COMBAT_TALENTS: Talent[] = [
   { id: 'riposte', name: 'Riposte', icon: 'ability_warrior_challange', maxPoints: 1, row: 2, col: 2, requires: { id: 'deflection', points: 5 }, desc: ["A strike that becomes active after parrying an opponent's attack. This attack deals 150% weapon damage and disarms the target for 6 seconds."] },
 
   // Tier 4
+  { id: 'throwing_spec', name: 'Throwing Specialization', icon: 'ability_rogue_throwingspecialization', maxPoints: 2, row: 3, col: 0, desc: ["Increases the range of your Throwing weapons by 3 yards, and gives your Throwing attacks a 50% chance to daze the target for 3 seconds.", "6 yards / 100%"] },
   { id: 'aggression', name: 'Aggression', icon: 'ability_racial_avatar', maxPoints: 5, row: 3, col: 1, desc: ["Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 2%.", "4%", "6%", "8%", "10%"] },
   { id: 'vitality', name: 'Vitality', icon: 'spell_nature_natureblessing', maxPoints: 2, row: 3, col: 2, desc: ["Increases your total Stamina by 2% and your total Agility by 1%.", "4% / 2%"] },
 
@@ -62,6 +65,7 @@ export const ROGUE_COMBAT_TALENTS: Talent[] = [
 
   // Tier 6
   { id: 'surprise_attacks', name: 'Surprise Attacks', icon: 'ability_rogue_surpriseattack', maxPoints: 3, row: 5, col: 0, desc: ["Your finishing moves can no longer be dodged, and the damage dealt by your Sinister Strike, Backstab, Shiv, Hemorrhage, and Gouge abilities is increased by 4%.", "8%", "12%"] },
+  { id: 'unfair_advantage', name: 'Unfair Advantage', icon: 'ability_rogue_unfairadvantage', maxPoints: 2, row: 5, col: 1, desc: ["Whenever you dodge an attack, you gain a counter-strike dealing 50% weapon damage (can only occur once every 1 second).", "100%"] },
   { id: 'blade_twisting', name: 'Blade Twisting', icon: 'ability_rogue_bladetwisting', maxPoints: 2, row: 5, col: 2, desc: ["Your damaging melee attacks have a 10% chance to daze the target for 4 seconds.", "20%"] },
 
   // Tier 7
@@ -86,6 +90,7 @@ export const ROGUE_SUBTLETY_TALENTS: Talent[] = [
   { id: 'setup', name: 'Setup', icon: 'spell_nature_mirrorimage', maxPoints: 2, row: 2, col: 2, desc: ["Gives you a 50% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.", "100%"] },
 
   // Tier 4
+  { id: 'sleight_of_hand', name: 'Sleight of Hand', icon: 'ability_rogue_sleightofhand', maxPoints: 2, row: 3, col: 0, desc: ["Reduces the chance you will be critically hit by melee and ranged attacks by 1%, and reduces the cooldown of your Feint ability by 1.5 seconds.", "2% / 3 seconds"] },
   { id: 'deadliness', name: 'Deadliness', icon: 'inv_weapon_crossbow_11', maxPoints: 5, row: 3, col: 1, desc: ["Increases your Attack Power by 2%.", "4%", "6%", "8%", "10%"] },
   { id: 'heightened_senses', name: 'Heightened Senses', icon: 'ability_ambush', maxPoints: 2, row: 3, col: 2, desc: ["Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%.", "4%"] },
 
@@ -96,6 +101,7 @@ export const ROGUE_SUBTLETY_TALENTS: Talent[] = [
 
   // Tier 6
   { id: 'cheat_death', name: 'Cheat Death', icon: 'ability_rogue_cheatdeath', maxPoints: 3, row: 5, col: 0, desc: ["You have a 33% chance that an attack which would otherwise kill you will instead reduce you to 10% of your maximum health. In addition, all damage taken will be reduced by 90% for 3 seconds. This effect cannot occur more than once per minute.", "66%", "100%"] },
+  { id: 'honor_among_thieves', name: 'Honor Among Thieves', icon: 'ability_rogue_honoramongthieves', maxPoints: 3, row: 5, col: 1, desc: ["When anyone in your group critically hits, you have a 33% chance to gain a combo point on your current target.", "66%", "100%"] },
   { id: 'master_of_subtlety', name: 'Master of Subtlety', icon: 'ability_rogue_masterofsubtlety', maxPoints: 2, row: 5, col: 2, desc: ["Attacks made while stealthed and for 6 seconds after breaking stealth cause an additional 5% damage.", "10%"] },
 
   // Tier 7
