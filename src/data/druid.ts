@@ -55,7 +55,7 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
   },
   // TIER 4
   {
-    id: 'gale_winds', name: 'Gale Winds', icon: 'spell_nature_cyclone', maxPoints: 2, row: 3, col: 0,
+    id: 'gale_winds', name: 'Gale Winds', icon: 'ability_druid_galewinds', maxPoints: 2, row: 3, col: 0,
     desc: ["Reduces pushback suffered from damaging attacks while casting Hurricane by 50%, and increases the damage of your Hurricane spell by 15%.", "100% / 30%"]
   },
   {
@@ -188,7 +188,7 @@ export const DRUID_FERAL_TALENTS: Talent[] = [
     desc: ["Increases your Intellect by 4%. In addition, while in Bear Form your Stamina is increased by 4%, and while in Cat Form your Attack Power is increased by 2%.", "8 / 8 / 4", "12 / 12 / 6", "16 / 16 / 8", "20 / 20 / 10"]
   },
   {
-    id: 'survival_of_the_fittest', name: 'Survival of the Fittest', icon: 'spell_nature_sleep', maxPoints: 3, row: 5, col: 2,
+    id: 'survival_of_the_fittest', name: 'Survival of the Fittest', icon: 'ability_druid_enrage', maxPoints: 3, row: 5, col: 2,
     desc: ["Reduces the chance you'll be critically hit by melee attacks by 1%, and increases your total armor contribution from items by 1%.", "2% / 2%", "3% / 3%"]
   },
   // TIER 7
