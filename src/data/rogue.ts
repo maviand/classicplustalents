@@ -7,23 +7,23 @@ export const ROGUE_ASSASSINATION_TALENTS: Talent[] = [
   { id: 'remorseless_attacks', name: 'Remorseless Attacks', icon: 'ability_fiegndead', maxPoints: 2, row: 0, col: 2, desc: ["After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Hemorrhage, Backstab, Mutilate, Ambush, or Ghostly Strike.", "40%"] },
 
   // Tier 2
-  { id: 'ruthlessness', name: 'Ruthlessness', icon: 'ability_druid_disembowel', maxPoints: 3, row: 1, col: 0, desc: ["Gives your melee finishing moves a 20% chance to add a combo point to your target.", "40%", "60%"] },
+  { id: 'ruthlessness', name: 'Ruthlessness', icon: 'ability_druid_disembowel', maxPoints: 3, row: 1, col: 2, desc: ["Gives your melee finishing moves a 20% chance to add a combo point to your target.", "40%", "60%"] },
   { id: 'puncturing_wounds', name: 'Puncturing Wounds', icon: 'ability_backstab', maxPoints: 3, row: 1, col: 1, desc: ["Increases the critical strike chance of your Backstab and Mutilate abilities by 10%, and the critical strike chance of your Garrote ability by 5%.", "20% / 10%", "30% / 15%"] },
-  { id: 'vile_poisons', name: 'Vile Poisons', icon: 'ability_poisons', maxPoints: 2, row: 1, col: 2, desc: ["Increases the damage dealt by your poisons by 10% and gives your poisons an additional 20% chance to resist dispel effects.", "20% / 40%"] },
+  { id: 'vile_poisons', name: 'Vile Poisons', icon: 'ability_poisons', maxPoints: 2, row: 1, col: 0, desc: ["Increases the damage dealt by your poisons by 10% and gives your poisons an additional 20% chance to resist dispel effects.", "20% / 40%"] },
   { id: 'imp_snd', name: 'Improved Slice and Dice', icon: 'ability_rogue_slicedice', maxPoints: 2, row: 1, col: 3, desc: ["Increases the duration of your Slice and Dice ability by 25%.", "50%"] },
-
+ 
   // Tier 3
   { id: 'lethality', name: 'Lethality', icon: 'ability_criticalstrike', maxPoints: 5, row: 2, col: 0, requires: { id: 'malice', points: 5 }, desc: ["Increases the critical strike damage bonus of your combo-point generating abilities by 6%.", "12%", "18%", "24%", "30%"] },
   { id: 'cold_blood', name: 'Cold Blood', icon: 'spell_ice_magicdamage', maxPoints: 1, row: 2, col: 1, desc: ["When activated, increases the critical strike chance of your next offensive ability by 100%. 3 minute cooldown."] },
   { id: 'relentless_strikes', name: 'Relentless Strikes', icon: 'ability_warrior_decisivestrike', maxPoints: 2, row: 2, col: 2, requires: { id: 'ruthlessness', points: 3 }, desc: ["Your finishing moves have a 10% chance per combo point to restore 25 Energy.", "20%"] },
-
+ 
   // Tier 4
   { id: 'imp_poisons', name: 'Improved Poisons', icon: 'ability_poisons', maxPoints: 5, row: 3, col: 1, requires: { id: 'vile_poisons', points: 2 }, desc: ["Increases the chance to apply Deadly Poison, Instant Poison, and Wound Poison to your target by 2%.", "4%", "6%", "8%", "10%"] },
   { id: 'fleet_footed', name: 'Fleet Footed', icon: 'ability_rogue_fleetfooted', maxPoints: 2, row: 3, col: 2, desc: ["Increases your movement speed by 8% and increases your resistance to movement impairing effects by 5%.", "15% / 10%"] },
-
+ 
   // Tier 5
   { id: 'seal_fate', name: 'Seal Fate', icon: 'spell_shadow_chilltouch', maxPoints: 3, row: 4, col: 0, requires: { id: 'cold_blood', points: 1 }, desc: ["Your critical strikes from abilities that add combo points have a 33% chance to add an additional combo point.", "66%", "100%"] },
-  { id: 'mutilate', name: 'Mutilate', icon: 'ability_rogue_shadowstrikes', maxPoints: 1, row: 4, col: 1, requires: { id: 'puncturing_wounds', points: 3 }, desc: ["Instantly attacks with both weapons for 100% weapon damage plus an additional X with each weapon. Damage is increased by 20% against Poisoned targets. Awards 2 combo points. Must be dual-wielding daggers."] },
+  { id: 'mutilate', name: 'Mutilate', icon: 'ability_rogue_shadowstrikes', maxPoints: 1, row: 4, col: 1, desc: ["Instantly attacks with both weapons for 100% weapon damage plus an additional X with each weapon. Damage is increased by 20% against Poisoned targets. Awards 2 combo points. Must be dual-wielding daggers."] },
   { id: 'quick_recovery', name: 'Quick Recovery', icon: 'ability_rogue_quickrecovery', maxPoints: 2, row: 4, col: 2, desc: ["All healing effects received are increased by 10%. In addition, your finishing moves cost 40% less Energy when they miss, are dodged, or are parried.", "20% / 80%"] },
 
   // Tier 6
@@ -36,9 +36,9 @@ export const ROGUE_ASSASSINATION_TALENTS: Talent[] = [
 
 export const ROGUE_COMBAT_TALENTS: Talent[] = [
   // Tier 1
-  { id: 'deflection', name: 'Deflection', icon: 'ability_parry', maxPoints: 5, row: 0, col: 0, desc: ["Increases your chance to Parry by 1%.", "2%", "3%", "4%", "5%"] },
+  { id: 'deflection', name: 'Deflection', icon: 'ability_parry', maxPoints: 5, row: 0, col: 2, desc: ["Increases your chance to Parry by 1%.", "2%", "3%", "4%", "5%"] },
   { id: 'imp_ss', name: 'Improved Sinister Strike', icon: 'spell_shadow_ritualofsacrifice', maxPoints: 3, row: 0, col: 1, desc: ["Reduces the Energy cost of your Sinister Strike ability by 1.", "2.", "3."] },
-  { id: 'imp_gouge', name: 'Improved Gouge', icon: 'ability_gouge', maxPoints: 2, row: 0, col: 2, desc: ["Increases the effect duration of your Gouge ability by 0.5 seconds.", "1.0 seconds"] },
+  { id: 'imp_gouge', name: 'Improved Gouge', icon: 'ability_gouge', maxPoints: 2, row: 0, col: 0, desc: ["Increases the effect duration of your Gouge ability by 0.5 seconds.", "1.0 seconds"] },
 
   // Tier 2
   { id: 'precision', name: 'Precision', icon: 'ability_marksmanship', maxPoints: 3, row: 1, col: 0, desc: ["Increases your chance to hit with melee weapons by 1%.", "2%", "3%"] },
@@ -70,9 +70,9 @@ export const ROGUE_COMBAT_TALENTS: Talent[] = [
 
 export const ROGUE_SUBTLETY_TALENTS: Talent[] = [
   // Tier 1
-  { id: 'master_of_deception', name: 'Master of Deception', icon: 'spell_shadow_charm', maxPoints: 5, row: 0, col: 0, desc: ["Reduces the chance enemies have to detect you while in Stealth mode.", "Rank 2", "Rank 3", "Rank 4", "Rank 5"] },
-  { id: 'opportunity', name: 'Opportunity', icon: 'ability_warrior_warcry', maxPoints: 3, row: 0, col: 1, desc: ["Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 5%.", "10%", "15%"] },
-  { id: 'camouflage', name: 'Camouflage', icon: 'ability_stealth', maxPoints: 2, row: 0, col: 2, desc: ["Increases your speed while stealthed by 5% and reduces the cooldown of your Stealth ability by 3 seconds.", "10% / 6 seconds"] },
+  { id: 'master_of_deception', name: 'Master of Deception', icon: 'spell_shadow_charm', maxPoints: 5, row: 0, col: 2, desc: ["Reduces the chance enemies have to detect you while in Stealth mode.", "Rank 2", "Rank 3", "Rank 4", "Rank 5"] },
+  { id: 'opportunity', name: 'Opportunity', icon: 'ability_warrior_warcry', maxPoints: 3, row: 0, col: 0, desc: ["Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 5%.", "10%", "15%"] },
+  { id: 'camouflage', name: 'Camouflage', icon: 'ability_stealth', maxPoints: 2, row: 0, col: 1, desc: ["Increases your speed while stealthed by 5% and reduces the cooldown of your Stealth ability by 3 seconds.", "10% / 6 seconds"] },
 
   // Tier 2
   { id: 'initiative', name: 'Initiative', icon: 'spell_shadow_fumble', maxPoints: 3, row: 1, col: 0, requires: { id: 'opportunity', points: 3 }, desc: ["Gives you a 25% chance to add an additional combo point to your target when using Ambush, Garrote, or Cheap Shot.", "50%", "75%"] },
@@ -91,7 +91,7 @@ export const ROGUE_SUBTLETY_TALENTS: Talent[] = [
 
   // Tier 5
   { id: 'dirty_deeds', name: 'Dirty Deeds', icon: 'spell_shadow_summonsuccubus', maxPoints: 3, row: 4, col: 0, desc: ["Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10, and your special abilities cause 10% more damage against targets below 35% health.", "20 / 20%", "30 / 30%"] },
-  { id: 'preparation', name: 'Preparation', icon: 'spell_shadow_antishadow', maxPoints: 1, row: 4, col: 1, requires: { id: 'hemorrhage', points: 1 }, desc: ["When activated, this ability immediately finishes the cooldown on your Evasion, Sprint, Vanish, Cold Blood, and Shadowstep abilities. 5 minute cooldown."] },
+  { id: 'preparation', name: 'Preparation', icon: 'spell_shadow_antishadow', maxPoints: 1, row: 4, col: 1, desc: ["When activated, this ability immediately finishes the cooldown on your Evasion, Sprint, Vanish, Cold Blood, and Shadowstep abilities. 5 minute cooldown."] },
   { id: 'enveloping_shadows', name: 'Enveloping Shadows', icon: 'spell_shadow_shadetruesight', maxPoints: 2, row: 4, col: 2, desc: ["Reduces the damage you take from area of effect attacks by 15%.", "30%"] },
 
   // Tier 6

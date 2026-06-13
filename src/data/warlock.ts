@@ -722,7 +722,7 @@ export const WARLOCK_DESTRO_TALENTS: Talent[] = [
     maxPoints: 1,
     row: 6,
     col: 1,
-    requires: { id: "conflagrate", points: 1 },
+    requires: { id: "shadow_and_flame", points: 5 },
     desc: [
       "Shadowfury is unleashed, causing X Shadow damage to all enemies within 8 yards, and stunning them for 3 seconds. 20 second cooldown.",
     ],
