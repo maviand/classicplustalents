@@ -8,8 +8,8 @@ export const ROGUE_ASSASSINATION_TALENTS: Talent[] = [
 
   // Tier 2
   { id: 'ruthlessness', name: 'Ruthlessness', icon: 'ability_druid_disembowel', maxPoints: 3, row: 1, col: 2, desc: ["Gives your melee finishing moves a 20% chance to add a combo point to your target.", "40%", "60%"] },
-  { id: 'puncturing_wounds', name: 'Puncturing Wounds', icon: 'ability_backstab', maxPoints: 3, row: 1, col: 1, desc: ["Increases the critical strike chance of your Backstab and Mutilate abilities by 10%, and the critical strike chance of your Garrote ability by 5%.", "20% / 10%", "30% / 15%"] },
-  { id: 'vile_poisons', name: 'Vile Poisons', icon: 'ability_poisons', maxPoints: 2, row: 1, col: 0, desc: ["Increases the damage dealt by your poisons by 10% and gives your poisons an additional 20% chance to resist dispel effects.", "20% / 40%"] },
+  { id: 'puncturing_wounds', name: 'Puncturing Wounds', icon: 'ability_backstab', maxPoints: 3, row: 1, col: 0, desc: ["Increases the critical strike chance of your Backstab and Mutilate abilities by 10%, and the critical strike chance of your Garrote ability by 5%.", "20% / 10%", "30% / 15%"] },
+  { id: 'vile_poisons', name: 'Vile Poisons', icon: 'ability_poisons', maxPoints: 2, row: 1, col: 1, desc: ["Increases the damage dealt by your poisons by 10% and gives your poisons an additional 20% chance to resist dispel effects.", "20% / 40%"] },
   { id: 'imp_snd', name: 'Improved Slice and Dice', icon: 'ability_rogue_slicedice', maxPoints: 2, row: 1, col: 3, desc: ["Increases the duration of your Slice and Dice ability by 25%.", "50%"] },
  
   // Tier 3
@@ -18,7 +18,7 @@ export const ROGUE_ASSASSINATION_TALENTS: Talent[] = [
   { id: 'relentless_strikes', name: 'Relentless Strikes', icon: 'ability_warrior_decisivestrike', maxPoints: 2, row: 2, col: 2, requires: { id: 'ruthlessness', points: 3 }, desc: ["Your finishing moves have a 10% chance per combo point to restore 25 Energy.", "20%"] },
  
   // Tier 4
-  { id: 'imp_poisons', name: 'Improved Poisons', icon: 'ability_poisons', maxPoints: 5, row: 3, col: 1, requires: { id: 'vile_poisons', points: 2 }, desc: ["Increases the chance to apply Deadly Poison, Instant Poison, and Wound Poison to your target by 2%.", "4%", "6%", "8%", "10%"] },
+  { id: 'imp_poisons', name: 'Improved Poisons', icon: 'ability_poisons', maxPoints: 5, row: 3, col: 1, requires: { id: 'cold_blood', points: 1 }, desc: ["Increases the chance to apply Deadly Poison, Instant Poison, and Wound Poison to your target by 2%.", "4%", "6%", "8%", "10%"] },
   { id: 'fleet_footed', name: 'Fleet Footed', icon: 'ability_rogue_fleetfooted', maxPoints: 2, row: 3, col: 2, desc: ["Increases your movement speed by 8% and increases your resistance to movement impairing effects by 5%.", "15% / 10%"] },
  
   // Tier 5
