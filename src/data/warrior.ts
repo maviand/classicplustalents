@@ -19,7 +19,7 @@ export const WARRIOR_ARMS_TALENTS: Talent[] = [
 
   // Tier 4
   { id: 'master_of_arms', name: 'Master of Arms', icon: 'inv_sword_27', maxPoints: 5, row: 3, col: 0, desc: ["Grants specialized bonuses based on your equipped melee weapon: Swords (1% chance for extra attack), Axes/Polearms (1% increased critical strike chance), Maces (ignore 3% armor, 1% stun chance).", "Swords (2%), Axes/Polearms (2%), Maces (6% armor, 2% stun).", "Swords (3%), Axes/Polearms (3%), Maces (9% armor, 3% stun).", "Swords (4%), Axes/Polearms (4%), Maces (12% armor, 4% stun).", "Swords (5%), Axes/Polearms (5%), Maces (15% armor, 5% stun)."] },
-  { id: 'trauma', name: 'Trauma', icon: 'ability_warrior_trauma', maxPoints: 2, row: 3, col: 1, desc: ["Your melee critical strikes cause the target to take 15% additional damage from bleed effects.", "30%"] },
+  { id: 'trauma', name: 'Trauma', icon: 'ability_warrior_trauma', maxPoints: 2, row: 3, col: 1, desc: ["Your melee critical strikes inflict Trauma on the target for 15 seconds. While active, the critical strike chance of all attacks against the target is increased by 0.5% for every active Bleed effect currently on the target (up to a maximum of 3%).", "1.0% / 6%"] },
   { id: 'imp_hamstring', name: 'Improved Hamstring', icon: 'ability_shockwave', maxPoints: 2, row: 3, col: 2, desc: ["Gives your Hamstring ability a 7% chance to immobilize the target for 5 seconds.", "15%"] },
 
   // Tier 5
