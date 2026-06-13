@@ -53,11 +53,11 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
       "Conjures a Moonwell at the caster's feet for 15 seconds. You and all party members standing within 10 yards of the Moonwell gain Elune's Blessing, which reduces the cast time of all spells by 0.5 seconds and restores 2% of maximum mana every 3 seconds. 3 minute cooldown."
     ]
   },
+  // TIER 4
   {
-    id: 'gale_winds', name: 'Gale Winds', icon: 'spell_nature_gale', maxPoints: 2, row: 2, col: 3,
+    id: 'gale_winds', name: 'Gale Winds', icon: 'spell_nature_cyclone', maxPoints: 2, row: 3, col: 0,
     desc: ["Reduces pushback suffered from damaging attacks while casting Hurricane by 50%, and increases the damage of your Hurricane spell by 15%.", "100% / 30%"]
   },
-  // TIER 4
   {
     id: 'vengeance', name: 'Vengeance', icon: 'spell_nature_purge', maxPoints: 5, row: 3, col: 1,
     requires: { id: 'imp_moonfire', points: 2 },
@@ -70,6 +70,10 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
   },
   // TIER 5
   {
+    id: 'dreamstate', name: 'Dreamstate', icon: 'ability_druid_dreamstate', maxPoints: 3, row: 4, col: 0,
+    desc: ["Allows 5% of your mana regeneration to continue while casting, scaling based on your total Intellect.", "10%", "15%"]
+  },
+  {
     id: 'force_of_nature', name: "Force of Nature", icon: 'ability_druid_forceofnature', maxPoints: 1, row: 4, col: 1,
     desc: ["Summons 3 Treants to assist you in combat for 30 seconds. The Treants deal Physical damage and each of their attacks has a 15% chance to reduce the target's resistance to Nature and Arcane spells by 10 (Stacks up to 3 times). 3 minute cooldown."
     ]
@@ -77,10 +81,6 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
   {
     id: 'moonglow', name: 'Moonglow', icon: 'spell_nature_sentinal', maxPoints: 3, row: 4, col: 2,
     desc: ["Reduces the Mana cost of your Moonfire, Starfire, Wrath, Healing Touch, Regrowth and Rejuvenation spells by 3%, and your spell critical strikes regenerate mana equal to 15% of the spell's base cost.", "6 / 30", "9 / 45"]
-  },
-  {
-    id: 'dreamstate', name: 'Dreamstate', icon: 'ability_druid_dreamstate', maxPoints: 3, row: 4, col: 3,
-    desc: ["Allows 5% of your mana regeneration to continue while casting, scaling based on your total Intellect.", "10%", "15%"]
   },
   // TIER 6
   {
@@ -188,7 +188,7 @@ export const DRUID_FERAL_TALENTS: Talent[] = [
     desc: ["Increases your Intellect by 4%. In addition, while in Bear Form your Stamina is increased by 4%, and while in Cat Form your Attack Power is increased by 2%.", "8 / 8 / 4", "12 / 12 / 6", "16 / 16 / 8", "20 / 20 / 10"]
   },
   {
-    id: 'survival_of_the_fittest', name: 'Survival of the Fittest', icon: 'ability_druid_survivalofthefittest', maxPoints: 3, row: 5, col: 2,
+    id: 'survival_of_the_fittest', name: 'Survival of the Fittest', icon: 'spell_nature_sleep', maxPoints: 3, row: 5, col: 2,
     desc: ["Reduces the chance you'll be critically hit by melee attacks by 1%, and increases your total armor contribution from items by 1%.", "2% / 2%", "3% / 3%"]
   },
   // TIER 7
