@@ -48,7 +48,7 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
     desc: ["Increases the damage caused by your Thorns by 25%. Targets striking you or your allies with Thorns active have a 10% chance to be afflicted by Nature's Grasp, rooting them in place for 3 seconds.", "50 / 20", "75 / 30"]
   },
   {
-    id: 'conjure_moonwell', name: 'Conjure Moonwell', icon: 'inv_drink_13', maxPoints: 1, row: 2, col: 2,
+    id: 'conjure_moonwell', name: 'Conjure Moonwell', icon: 'https://i.imgur.com/vIprHxM.jpeg', maxPoints: 1, row: 2, col: 2,
     desc: [
       "Conjures a Moonwell at the caster's feet for 15 seconds. You and all party members standing within 10 yards of the Moonwell gain Elune's Blessing, which reduces the cast time of all spells by 0.5 seconds and restores 2% of maximum mana every 3 seconds. 3 minute cooldown."
     ]
