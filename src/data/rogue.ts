@@ -90,7 +90,7 @@ export const ROGUE_SUBTLETY_TALENTS: Talent[] = [
   { id: 'setup', name: 'Setup', icon: 'spell_nature_mirrorimage', maxPoints: 2, row: 2, col: 2, desc: ["Increases your Dodge chance by 1% and gives you a 50% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.", "2% / 100%"] },
 
   // Tier 4
-  { id: 'sleight_of_hand', name: 'Sleight of Hand', icon: 'ability_rogue_sleightofhand', maxPoints: 2, row: 3, col: 0, desc: ["Reduces the chance you will be critically hit by melee and ranged attacks by 1%, and reduces the cooldown of your Feint ability by 1.5 seconds.", "2% / 3 seconds"] },
+  { id: 'sleight_of_hand', name: 'Sleight of Hand', icon: 'ability_rogue_feint', maxPoints: 2, row: 3, col: 0, desc: ["Reduces the chance you will be critically hit by melee and ranged attacks by 1%, and reduces the cooldown of your Feint ability by 1.5 seconds.", "2% / 3 seconds"] },
   { id: 'deadliness', name: 'Deadliness', icon: 'inv_weapon_crossbow_11', maxPoints: 5, row: 3, col: 1, desc: ["Increases your Attack Power by 2%.", "4%", "6%", "8%", "10%"] },
   { id: 'heightened_senses', name: 'Heightened Senses', icon: 'ability_ambush', maxPoints: 2, row: 3, col: 2, desc: ["Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%.", "4%"] },
 
@@ -101,7 +101,7 @@ export const ROGUE_SUBTLETY_TALENTS: Talent[] = [
 
   // Tier 6
   { id: 'cheat_death', name: 'Cheat Death', icon: 'ability_rogue_cheatdeath', maxPoints: 3, row: 5, col: 0, desc: ["You have a 33% chance that an attack which would otherwise kill you will instead reduce you to 10% of your maximum health. In addition, all damage taken will be reduced by 90% for 3 seconds. This effect cannot occur more than once per minute.", "66%", "100%"] },
-  { id: 'honor_among_thieves', name: 'Honor Among Thieves', icon: 'ability_rogue_honoramongthieves', maxPoints: 3, row: 5, col: 3, desc: ["When anyone in your group critically hits, you have a 33% chance to gain a combo point on your current target.", "66%", "100%"] },
+  { id: 'honor_among_thieves', name: 'Honor Among Thieves', icon: 'ability_rogue_honoramongstthieves', maxPoints: 3, row: 5, col: 3, desc: ["When anyone in your group critically hits, you have a 33% chance to gain a combo point on your current target.", "66%", "100%"] },
   { id: 'master_of_subtlety', name: 'Master of Subtlety', icon: 'ability_rogue_masterofsubtlety', maxPoints: 2, row: 5, col: 2, desc: ["Attacks made while stealthed and for 6 seconds after breaking stealth cause an additional 5% damage.", "10%"] },
 
   // Tier 7

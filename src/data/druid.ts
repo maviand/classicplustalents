@@ -32,12 +32,12 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
     ]
   },
   {
-    id: 'imp_moonfire', name: 'Improved Moonfire', icon: 'spell_nature_starfall', maxPoints: 2, row: 0, col: 1,
+    id: 'imp_moonfire', name: 'Improved Moonfire', icon: 'spell_nature_starfall', maxPoints: 2, row: 1, col: 1,
     desc: ["Increases the damage and critical strike chance of your Moonfire spell by 5%.", "10"
     ]
   },
   {
-    id: 'natural_weapons', name: 'Natural Weapons', icon: 'inv_staff_01', maxPoints: 5, row: 0, col: 2,
+    id: 'natural_weapons', name: 'Natural Weapons', icon: 'inv_staff_01', maxPoints: 5, row: 1, col: 2,
     desc: ["Increases the damage you deal with physical attacks in all forms by 2%.", "4", "6", "8", "10"
     ]
   },
@@ -49,6 +49,10 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
   {
     id: 'brambleguard', name: 'Brambleguard', icon: 'spell_nature_thorns', maxPoints: 3, row: 2, col: 0,
     desc: ["Increases the damage caused by your Thorns by 25%. Targets striking you or your allies with Thorns active have a 10% chance to be afflicted by Nature's Grasp, rooting them in place for 3 seconds.", "50 / 20", "75 / 30"]
+  },
+  {
+    id: 'imp_faerie_fire', name: 'Improved Faerie Fire', icon: 'spell_nature_faeriefire', maxPoints: 3, row: 2, col: 1,
+    desc: ["Your Faerie Fire spell also increases the chance the target will be hit by melee and ranged attacks by 1%.", "2%", "3%"]
   },
   {
     id: 'conjure_moonwell', name: 'Conjure Moonwell', icon: 'https://i.imgur.com/vIprHxM.jpeg', maxPoints: 1, row: 2, col: 2,
@@ -87,10 +91,18 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
   },
   // TIER 6
   {
+    id: 'owlkin_frenzy', name: 'Owlkin Frenzy', icon: 'ability_druid_owlkinfrenzy', maxPoints: 3, row: 5, col: 0,
+    desc: ["Attacks done to you while in Moonkin form have a 5% chance to send you into a Frenzy, increasing your damage by 10% and making you immune to pushback while casting Balance spells. Lasts 10 sec.", "10%", "15%"]
+  },
+  {
     id: 'moonfury', name: 'Moonfury', icon: 'spell_nature_moonglow', maxPoints: 5, row: 5, col: 1,
     requires: { id: 'force_of_nature', points: 1 },
     desc: ["Increases the damage done by your Starfire, Moonfire and Wrath spells by 2%.", "4", "6", "8", "10"
     ]
+  },
+  {
+    id: 'lunar_guidance', name: 'Lunar Guidance', icon: 'ability_druid_lunarguidance', maxPoints: 3, row: 5, col: 2,
+    desc: ["Increases your spell damage and healing by an amount equal to 8% of your total Intellect.", "16%", "25%"]
   },
   // TIER 7
   {
@@ -256,7 +268,7 @@ export const DRUID_RESTORATION_TALENTS: Talent[] = [
   },
   // TIER 4
   {
-    id: 'empowered_rejuvenation', name: 'Empowered Rejuvenation', icon: 'ability_druid_empoweredrejuv', maxPoints: 5, row: 3, col: 0,
+    id: 'empowered_rejuvenation', name: 'Empowered Rejuvenation', icon: 'ability_druid_empoweredrejuvination', maxPoints: 5, row: 3, col: 0,
     desc: ["Increases the effect of your heal-over-time spells by 4% of your bonus healing effects.", "8%", "12%", "16%", "20%"]
   },
   {
