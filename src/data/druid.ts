@@ -51,7 +51,7 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
     desc: ["Increases the damage caused by your Thorns by 25%. Targets striking you or your allies with Thorns active have a 10% chance to be afflicted by Nature's Grasp, rooting them in place for 3 seconds.", "50 / 20", "75 / 30"]
   },
   {
-    id: 'imp_faerie_fire', name: 'Improved Faerie Fire', icon: 'spell_nature_faeriefire', maxPoints: 3, row: 2, col: 1,
+    id: 'imp_faerie_fire', name: 'Improved Faerie Fire', icon: 'spell_nature_faeriefire', maxPoints: 3, row: 2, col: 3,
     desc: ["Your Faerie Fire spell also increases the chance the target will be hit by melee and ranged attacks by 1%.", "2%", "3%"]
   },
   {
