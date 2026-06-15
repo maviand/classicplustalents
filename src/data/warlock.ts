@@ -649,7 +649,7 @@ export const WARLOCK_DESTRO_TALENTS: Talent[] = [
       "26%",
     ],
   },
-  { id: 'fire_and_brimstone', name: 'Fire and Brimstone', icon: 'ability_warlock_fireandbrimstone', maxPoints: 5, row: 3, col: 2, desc: ["Increases the damage of your Incinerate and Soul Fire spells by 2% on targets afflicted by Immolate.", "4%", "6%", "8%", "10%"] },
+  { id: 'fire_and_brimstone', name: 'Fire and Brimstone', icon: 'ability_warlock_fireandbrimstone', maxPoints: 5, row: 3, col: 1, desc: ["Increases the damage of your Incinerate and Soul Fire spells by 2% on targets afflicted by Immolate.", "4%", "6%", "8%", "10%"] },
   {
     id: "nether_protection",
     name: "Nether Protection",
@@ -678,27 +678,27 @@ export const WARLOCK_DESTRO_TALENTS: Talent[] = [
     ],
   },
   {
-    id: "conflagrate",
-    name: "Conflagrate",
-    icon: "spell_fire_fireball",
-    maxPoints: 1,
-    row: 4,
-    col: 1,
-    requires: { id: "imp_immolate", points: 5 },
-    desc: [
-      "Consumes an Immolate or Shadowflame effect on the enemy target to instantly deal damage equal to 60% of your Immolate, and causes an additional 40% damage over 6 seconds. 10 second cooldown.",
-    ],
-  },
-  {
     id: "imp_firestone",
     name: "Improved Firestone",
     icon: "inv_ammo_firetar",
     maxPoints: 2,
     row: 4,
-    col: 2,
+    col: 1,
     desc: [
       "Increases the bonus Fire damage from Firestones and the Firestone effect by 15%.",
       "30%",
+    ],
+  },
+  {
+    id: "conflagrate",
+    name: "Conflagrate",
+    icon: "spell_fire_fireball",
+    maxPoints: 1,
+    row: 4,
+    col: 2,
+    requires: { id: "imp_immolate", points: 5 },
+    desc: [
+      "Consumes an Immolate or Shadowflame effect on the enemy target to instantly deal damage equal to 60% of your Immolate, and causes an additional 40% damage over 6 seconds. 10 second cooldown.",
     ],
   },
 
