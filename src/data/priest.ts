@@ -13,12 +13,12 @@ export const PRIEST_DISC_TALENTS: Talent[] = [
   { id: 'imp_inner_fire', name: 'Improved Inner Fire', icon: 'spell_holy_innerfire', maxPoints: 2, row: 1, col: 3, desc: ["Increases the Armor bonus of your Inner Fire spell by 15% and increases the number of charges by 10.", "30% / 20 charges"] },
 
   // Tier 3
-  { id: 'mental_strength', name: 'Mental Strength', icon: 'spell_nature_enchantarmor', maxPoints: 5, row: 2, col: 0, desc: ["Increases your maximum Mana by 2%.", "4%", "6%", "8%", "10%"] },
+  { id: 'mental_strength', name: 'Mental Strength', icon: 'spell_nature_enchantarmor', maxPoints: 5, row: 2, col: 3, desc: ["Increases your maximum Mana by 2%.", "4%", "6%", "8%", "10%"] },
   { id: 'inner_focus', name: 'Inner Focus', icon: 'spell_frost_windwalkon', maxPoints: 1, row: 2, col: 1, desc: ["When activated, reduces the Mana cost of your next spell by 100% and increases its critical effect chance by 25% if it is capable of a critical effect. 3 minute cooldown."] },
   { id: 'meditation', name: 'Meditation', icon: 'spell_nature_sleep', maxPoints: 3, row: 2, col: 2, desc: ["Allows 10% of your Mana regeneration to continue while casting.", "20%", "30%"] },
 
   // Tier 4
-  { id: 'soul_warding', name: 'Soul Warding', icon: 'spell_holy_powerwordshield', maxPoints: 2, row: 3, col: 0, desc: ["Reduces the cooldown of your Power Word: Shield by 1 second, and reduces its mana cost by 5%.", "2 seconds / 10%"] },
+  { id: 'soul_warding', name: 'Soul Warding', icon: 'spell_holy_powerwordshield', maxPoints: 2, row: 3, col: 3, desc: ["Reduces the cooldown of your Power Word: Shield by 1 second, and reduces its mana cost by 5%.", "2 seconds / 10%"] },
   { id: 'imp_divine_spirit', name: 'Improved Divine Spirit', icon: 'spell_holy_divinespirit', maxPoints: 2, row: 3, col: 1, desc: ["Your Divine Spirit buff increases spell damage and healing by an amount equal to 5% of your total Spirit.", "10%"] },
   { id: 'focused_power', name: 'Focused Power', icon: 'spell_nature_focusedmind', maxPoints: 3, row: 3, col: 2, desc: ["Increases your chance to hit with all spells by 1% and reduces the cast time of your Mass Dispel by 0.5 seconds.", "2% / 1.0 seconds", "3% / 1.5 seconds"] },
 
