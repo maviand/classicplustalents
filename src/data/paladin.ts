@@ -58,7 +58,7 @@ export const RETRIBUTION_TALENTS: Talent[] = [
     ]
   },
   {
-    id: 'the_art_of_war', name: 'The Art of War', icon: 'ability_paladin_artofwar', maxPoints: 2, row: 3, col: 1,
+    id: 'the_art_of_war', name: 'The Art of War', icon: 'ability_paladin_artofwar', maxPoints: 2, row: 5, col: 0,
     desc: ["Critical hits with your melee auto-attacks reduce the cast time of your next Flash of Light or Exorcism by 50%.", "100%"]
   },
   {
@@ -196,7 +196,7 @@ export const HOLY_TALENTS: Talent[] = [
   // TIER 7
   {
     id: 'holy_shock', name: 'Holy Shock', icon: 'spell_holy_searinglight', maxPoints: 1, row: 6, col: 1,
-    requires: { id: 'divine_favor', points: 1 },
+    requires: { id: 'judgements_of_the_pure', points: 5 },
     desc: [
       "Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or 204 to 220 healing to an ally. Cooldown reduced to 15 seconds."
     ]
@@ -246,7 +246,7 @@ export const PROTECTION_TALENTS: Talent[] = [
     desc: ["Increases your Defense skill by 2. Whenever you Dodge or Parry a melee attack, the damage absorbed by your next Block is increased by 10%.", "4 / 20", "6 / 30", "8 / 40", "10 / 50"]
   },
   {
-    id: 'sacred_duty', name: 'Sacred Duty', icon: 'spell_holy_divineintervention', maxPoints: 2, row: 2, col: 2,
+    id: 'sacred_duty', name: 'Sacred Duty', icon: 'spell_holy_divineintervention', maxPoints: 2, row: 2, col: 3,
     desc: ["Increases your total Stamina by 2%, and reduces the cooldown of your Divine Protection and Divine Shield by 30 seconds.", "4% / 60 seconds"]
   },
   // TIER 4
@@ -293,8 +293,8 @@ export const PROTECTION_TALENTS: Talent[] = [
     icon: 'spell_holy_avengersshield',
     maxPoints: 1,
     row: 6,
-    col: 2,
-    requires: { id: 'holy_shield', points: 1 },
+    col: 1,
+    requires: { id: 'ardent_defender', points: 3 },
     desc: [
       "Hurls a holy shield at the enemy, dealing 400 to 480 Holy damage, Dazing them and then jumping to additional nearby enemies. Affects 3 total targets. Lasts 10 sec."
     ]
