@@ -3,7 +3,7 @@ import { Talent } from '../types/talents';
 export const DRUID_BALANCE_TALENTS: Talent[] = [
   // TIER 1
   {
-    id: 'sun_and_moon', name: 'Starfire Wrath', icon: 'https://i.imgur.com/8nxWjoC.jpeg', maxPoints: 5, row: 0, col: 0,
+    id: 'sun_and_moon', name: 'Starfire Wrath', icon: 'ability_druid_eclipse', maxPoints: 5, row: 0, col: 0,
     desc: ["Reduces the cast time of your Wrath and Starfire spells by 0.1 sec.", "0.2", "0.3", "0.4", "0.5"
     ]
   },
@@ -55,7 +55,7 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
     desc: ["Your Faerie Fire spell also increases the chance the target will be hit by melee and ranged attacks by 1%.", "2%", "3%"]
   },
   {
-    id: 'conjure_moonwell', name: 'Conjure Moonwell', icon: 'https://i.imgur.com/vIprHxM.jpeg', maxPoints: 1, row: 2, col: 2,
+    id: 'conjure_moonwell', name: 'Conjure Moonwell', icon: 'spell_nature_wispsplode', maxPoints: 1, row: 2, col: 2,
     desc: [
       "Conjures a Moonwell at the caster's feet for 15 seconds. You and all party members standing within 10 yards of the Moonwell gain Elune's Blessing, which reduces the cast time of all spells by 0.5 seconds and restores 2% of maximum mana every 3 seconds. 3 minute cooldown."
     ]
