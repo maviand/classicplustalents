@@ -29,7 +29,7 @@ export const ROGUE_ASSASSINATION_TALENTS: Talent[] = [
 
   // Tier 6
   { id: 'master_poisoner', name: 'Master Poisoner', icon: 'ability_creature_poison_06', maxPoints: 3, row: 5, col: 0, desc: ["Increases the critical strike chance of all attacks made against targets you have poisoned by 1%, and reduces the duration of all Poison effects applied to you by 17%.", "2% / 34%", "3% / 50%"] },
-  { id: 'blood_spatter', name: 'Blood Spatter', icon: 'ability_rogue_bloodspatter', maxPoints: 2, row: 5, col: 1, desc: ["Increases the damage caused by your Garrote and Rupture abilities by 15%.", "30%"] },
+  { id: 'blood_spatter', name: 'Blood Spatter', icon: 'ability_rogue_bloodsplatter', maxPoints: 2, row: 5, col: 3, desc: ["Increases the damage caused by your Garrote and Rupture abilities by 15%.", "30%"] },
   { id: 'vigor', name: 'Vigor', icon: 'spell_nature_earthbindtotem', maxPoints: 2, row: 5, col: 2, desc: ["Increases your maximum Energy by 5.", "10."] },
 
   // Tier 7
@@ -55,7 +55,7 @@ export const ROGUE_COMBAT_TALENTS: Talent[] = [
 
   // Tier 4
   { id: 'throwing_spec', name: 'Throwing Specialization', icon: 'ability_rogue_throwingspecialization', maxPoints: 2, row: 3, col: 0, desc: ["Increases the range of your Throwing weapons by 3 yards, and gives your Throwing attacks a 50% chance to daze the target for 3 seconds.", "6 yards / 100%"] },
-  { id: 'aggression', name: 'Aggression', icon: 'ability_racial_avatar', maxPoints: 5, row: 3, col: 1, desc: ["Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 2%.", "4%", "6%", "8%", "10%"] },
+  { id: 'aggression', name: 'Aggression', icon: 'ability_racial_avatar', maxPoints: 5, row: 3, col: 3, desc: ["Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 2%.", "4%", "6%", "8%", "10%"] },
   { id: 'vitality', name: 'Vitality', icon: 'spell_nature_natureblessing', maxPoints: 2, row: 3, col: 2, desc: ["Increases your total Stamina by 2% and your total Agility by 1%.", "4% / 2%"] },
 
   // Tier 5
@@ -65,7 +65,7 @@ export const ROGUE_COMBAT_TALENTS: Talent[] = [
 
   // Tier 6
   { id: 'surprise_attacks', name: 'Surprise Attacks', icon: 'ability_rogue_surpriseattack', maxPoints: 3, row: 5, col: 0, desc: ["Your finishing moves can no longer be dodged, and the damage dealt by your Sinister Strike, Backstab, Shiv, Hemorrhage, and Gouge abilities is increased by 4%.", "8%", "12%"] },
-  { id: 'unfair_advantage', name: 'Unfair Advantage', icon: 'ability_rogue_unfairadvantage', maxPoints: 2, row: 5, col: 1, desc: ["Whenever you dodge an attack, you gain a counter-strike dealing 50% weapon damage (can only occur once every 1 second).", "100%"] },
+  { id: 'unfair_advantage', name: 'Unfair Advantage', icon: 'ability_rogue_unfairadvantage', maxPoints: 2, row: 5, col: 3, desc: ["Whenever you dodge an attack, you gain a counter-strike dealing 50% weapon damage (can only occur once every 1 second).", "100%"] },
   { id: 'blade_twisting', name: 'Blade Twisting', icon: 'ability_rogue_bladetwisting', maxPoints: 2, row: 5, col: 2, desc: ["Your damaging melee attacks have a 10% chance to daze the target for 4 seconds.", "20%"] },
 
   // Tier 7
@@ -101,7 +101,7 @@ export const ROGUE_SUBTLETY_TALENTS: Talent[] = [
 
   // Tier 6
   { id: 'cheat_death', name: 'Cheat Death', icon: 'ability_rogue_cheatdeath', maxPoints: 3, row: 5, col: 0, desc: ["You have a 33% chance that an attack which would otherwise kill you will instead reduce you to 10% of your maximum health. In addition, all damage taken will be reduced by 90% for 3 seconds. This effect cannot occur more than once per minute.", "66%", "100%"] },
-  { id: 'honor_among_thieves', name: 'Honor Among Thieves', icon: 'ability_rogue_honoramongthieves', maxPoints: 3, row: 5, col: 1, desc: ["When anyone in your group critically hits, you have a 33% chance to gain a combo point on your current target.", "66%", "100%"] },
+  { id: 'honor_among_thieves', name: 'Honor Among Thieves', icon: 'ability_rogue_honoramongthieves', maxPoints: 3, row: 5, col: 3, desc: ["When anyone in your group critically hits, you have a 33% chance to gain a combo point on your current target.", "66%", "100%"] },
   { id: 'master_of_subtlety', name: 'Master of Subtlety', icon: 'ability_rogue_masterofsubtlety', maxPoints: 2, row: 5, col: 2, desc: ["Attacks made while stealthed and for 6 seconds after breaking stealth cause an additional 5% damage.", "10%"] },
 
   // Tier 7

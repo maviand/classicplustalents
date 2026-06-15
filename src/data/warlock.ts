@@ -111,7 +111,7 @@ export const WARLOCK_AFFLICTION_TALENTS: Talent[] = [
     icon: "spell_shadow_requiem",
     maxPoints: 1,
     row: 2,
-    col: 1,
+    col: 3,
     requires: { id: "nightfall", points: 3 },
     desc: [
       "Transfers X health from the target to the caster every 3 seconds for 30 seconds.",
@@ -132,7 +132,7 @@ export const WARLOCK_AFFLICTION_TALENTS: Talent[] = [
   },
 
   // Tier 4
-  { id: 'everlasting_affliction', name: 'Everlasting Affliction', icon: 'spell_shadow_everlastingaffliction', maxPoints: 3, row: 3, col: 0, desc: ["Your Corruption spell has a 33% chance to be automatically refreshed when you cast Drain Life, Drain Soul, or Shadow Bolt.", "66%", "100%"] },
+  { id: 'everlasting_affliction', name: 'Everlasting Affliction', icon: 'ability_warlock_everlastingaffliction', maxPoints: 3, row: 3, col: 0, desc: ["Your Corruption spell has a 33% chance to be automatically refreshed when you cast Drain Life, Drain Soul, or Shadow Bolt.", "66%", "100%"] },
   {
     id: "shadow_mastery",
     name: "Shadow Mastery",
@@ -399,7 +399,7 @@ export const WARLOCK_DEMO_TALENTS: Talent[] = [
       "100%",
     ],
   },
-  { id: 'nemesis', name: 'Nemesis', icon: 'spell_shadow_nemesis', maxPoints: 2, row: 3, col: 1, desc: ["Reduces the cooldown of your Demonic Sacrifice and Fel Domination spells by 15%.", "30%"] },
+  { id: 'nemesis', name: 'Nemesis', icon: 'spell_shadow_demonicempathy', maxPoints: 2, row: 3, col: 3, desc: ["Reduces the cooldown of your Demonic Sacrifice and Fel Domination spells by 15%.", "30%"] },
 
   // Tier 5
   {
@@ -637,14 +637,14 @@ export const WARLOCK_DESTRO_TALENTS: Talent[] = [
       "26%",
     ],
   },
-  { id: 'fire_and_brimstone', name: 'Fire and Brimstone', icon: 'spell_fire_fireandbrimstone', maxPoints: 5, row: 3, col: 1, desc: ["Increases the damage of your Incinerate and Soul Fire spells by 2% on targets afflicted by Immolate.", "4%", "6%", "8%", "10%"] },
+  { id: 'fire_and_brimstone', name: 'Fire and Brimstone', icon: 'ability_warlock_fireandbrimstone', maxPoints: 5, row: 3, col: 2, desc: ["Increases the damage of your Incinerate and Soul Fire spells by 2% on targets afflicted by Immolate.", "4%", "6%", "8%", "10%"] },
   {
     id: "nether_protection",
     name: "Nether Protection",
     icon: "spell_shadow_netherprotection",
     maxPoints: 2,
     row: 3,
-    col: 2,
+    col: 3,
     desc: [
       "After being hit with a Shadow or Fire spell, you have a 10% chance to become immune to Shadow and Fire damage for 4 seconds.",
       "20%",
@@ -718,7 +718,7 @@ export const WARLOCK_DESTRO_TALENTS: Talent[] = [
       "20% / 100%",
     ],
   },
-  { id: 'bane_of_havoc', name: 'Bane of Havoc', icon: 'spell_shadow_baneofhavoc', maxPoints: 2, row: 5, col: 2, desc: ["Your critical strikes have a 50% chance to copy 15% of the damage to a secondary target.", "100%"] },
+  { id: 'bane_of_havoc', name: 'Bane of Havoc', icon: 'ability_warlock_baneofhavoc', maxPoints: 2, row: 5, col: 2, desc: ["Your critical strikes have a 50% chance to copy 15% of the damage to a secondary target.", "100%"] },
 
   // Tier 7
   {

@@ -23,13 +23,13 @@ export const PRIEST_DISC_TALENTS: Talent[] = [
   { id: 'focused_power', name: 'Focused Power', icon: 'spell_nature_focusedmind', maxPoints: 3, row: 3, col: 2, desc: ["Increases your chance to hit with all spells by 1% and reduces the cast time of your Mass Dispel by 0.5 seconds.", "2% / 1.0 seconds", "3% / 1.5 seconds"] },
 
   // Tier 5
-  { id: 'absolution', name: 'Absolution', icon: 'spell_holy_absolution', maxPoints: 2, row: 4, col: 0, desc: ["Reduces the mana cost of your Dispel Magic, Cure Disease, and Abolish Disease spells by 10%.", "20%"] },
+  { id: 'absolution', name: 'Absolution', icon: 'spell_holy_absolution', maxPoints: 2, row: 4, col: 3, desc: ["Reduces the mana cost of your Dispel Magic, Cure Disease, and Abolish Disease spells by 10%.", "20%"] },
   { id: 'power_infusion', name: 'Power Infusion', icon: 'spell_holy_powerinfusion', maxPoints: 1, row: 4, col: 1, requires: { id: 'imp_divine_spirit', points: 1 }, desc: ["Infuses the target with power, increasing their spell damage and healing by 20% for 15 seconds. 3 minute cooldown."] },
   { id: 'enlightenment', name: 'Enlightenment', icon: 'spell_nature_enchantarmor', maxPoints: 3, row: 4, col: 2, desc: ["Increases your total Stamina, Intellect, and Spirit by 1%.", "2%", "3%"] },
 
   // Tier 6
   { id: 'reflective_shield', name: 'Reflective Shield', icon: 'spell_holy_powerwordshield', maxPoints: 3, row: 5, col: 0, requires: { id: 'imp_pws', points: 3 }, desc: ["Causes 10% of the damage you absorb with Power Word: Shield to reflect back at the attacker. This damage causes no threat.", "20%", "30%"] },
-  { id: 'aspiration', name: 'Aspiration', icon: 'spell_holy_aspiration', maxPoints: 2, row: 5, col: 1, desc: ["Reduces the cooldown of your Penance, Power Infusion, and Inner Focus spells by 10%.", "20%"] },
+  { id: 'aspiration', name: 'Aspiration', icon: 'spell_holy_aspiration', maxPoints: 2, row: 5, col: 3, desc: ["Reduces the cooldown of your Penance, Power Infusion, and Inner Focus spells by 10%.", "20%"] },
   { id: 'rapture', name: 'Rapture', icon: 'spell_holy_rapture', maxPoints: 2, row: 5, col: 2, desc: ["When your Power Word: Shield is completely absorbed or dispelled, you instantly restore 2% of your maximum mana. This effect can only occur once every 12 seconds.", "4%"] },
 
   // Tier 7
@@ -64,7 +64,7 @@ export const PRIEST_HOLY_TALENTS: Talent[] = [
 
   // Tier 6
   { id: 'test_of_faith', name: 'Test of Faith', icon: 'spell_holy_testoffaith', maxPoints: 2, row: 5, col: 0, desc: ["Increases healing by 5% on friendly targets at or below 50% health.", "10%"] },
-  { id: 'empowered_healing', name: 'Empowered Healing', icon: 'spell_holy_greaterheal', maxPoints: 3, row: 5, col: 1, desc: ["Your Greater Heal spell gains an additional 10% and your Flash Heal gains an additional 5% of your bonus healing effects.", "20% / 10%", "30% / 15%"] },
+  { id: 'empowered_healing', name: 'Empowered Healing', icon: 'spell_holy_greaterheal', maxPoints: 3, row: 5, col: 3, desc: ["Your Greater Heal spell gains an additional 10% and your Flash Heal gains an additional 5% of your bonus healing effects.", "20% / 10%", "30% / 15%"] },
   { id: 'serendipity', name: 'Serendipity', icon: 'spell_holy_serendipity', maxPoints: 3, row: 5, col: 2, desc: ["When you heal with Flash Heal, the cast time of your next Greater Heal or Prayer of Healing spell is reduced by 4%, stacking up to 3 times. Lasts 20 seconds.", "8%", "12%"] },
 
   // Tier 7
@@ -89,13 +89,13 @@ export const PRIEST_SHADOW_TALENTS: Talent[] = [
 
   // Tier 4
   { id: 'shadow_reach', name: 'Shadow Reach', icon: 'spell_shadow_chilltouch', maxPoints: 2, row: 3, col: 0, desc: ["Increases the range of your offensive Shadow spells by 10%.", "20%"] },
-  { id: 'imp_shadowform', name: 'Improved Shadowform', icon: 'spell_shadow_improvedshadowform', maxPoints: 2, row: 3, col: 1, desc: ["Reduces the casting time lost when taking damage while in Shadowform by 35%, and your Fade ability has a 50% chance to remove all movement impairing effects when used.", "70% / 100%"] },
+  { id: 'imp_shadowform', name: 'Improved Shadowform', icon: 'spell_shadow_shadowform', maxPoints: 2, row: 4, col: 2, desc: ["Reduces the casting time lost when taking damage while in Shadowform by 35%, and your Fade ability has a 50% chance to remove all movement impairing effects when used.", "70% / 100%"] },
   { id: 'mind_melt', name: 'Mind Melt', icon: 'spell_shadow_skull', maxPoints: 3, row: 3, col: 2, desc: ["Increases the critical strike chance of your Mind Blast and Shadow Word: Death spells by 2%.", "4%", "6%"] },
 
   // Tier 5
   { id: 'focused_mind', name: 'Focused Mind', icon: 'spell_nature_focusedmind', maxPoints: 2, row: 4, col: 0, desc: ["Reduces the mana cost of your Mind Blast, Mind Flay, and Mind Control spells by 10%.", "20%"] },
   { id: 'shadowform', name: 'Shadowform', icon: 'spell_shadow_shadowform', maxPoints: 1, row: 4, col: 1, requires: { id: 'mind_flay', points: 1 }, desc: ["Assume a Shadowform, increasing your Shadow damage by 15% and reducing Physical damage done to you by 15%. However, you may not cast Holy spells while in this form."] },
-  { id: 'vampiric_embrace', name: 'Vampiric Embrace', icon: 'spell_shadow_unsummonbuilding', maxPoints: 3, row: 4, col: 2, desc: ["Passive. Fills you with the embrace of Shadow energy, causing you to heal all party members for 5% of any single-target Shadow damage you deal.", "10%", "15%"] },
+  { id: 'vampiric_embrace', name: 'Vampiric Embrace', icon: 'spell_shadow_unsummonbuilding', maxPoints: 3, row: 4, col: 3, desc: ["Passive. Fills you with the embrace of Shadow energy, causing you to heal all party members for 5% of any single-target Shadow damage you deal.", "10%", "15%"] },
 
   // Tier 6
   { id: 'shadow_power', name: 'Shadow Power', icon: 'spell_shadow_shadowpower', maxPoints: 2, row: 5, col: 0, desc: ["Increases the critical strike damage bonus of your Mind Blast and Shadow Word: Death spells by 50%.", "100%"] },
