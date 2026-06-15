@@ -184,7 +184,6 @@ export const DRUID_FERAL_TALENTS: Talent[] = [
   // TIER 6
   {
     id: 'heart_of_the_wild', name: 'Heart of the Wild', icon: 'spell_holy_blessingofagility', maxPoints: 5, row: 5, col: 1,
-    requires: { id: 'predatory_strikes', points: 3 },
     desc: ["Increases your Intellect by 4%. In addition, while in Bear Form your Stamina is increased by 4%, and while in Cat Form your Attack Power is increased by 2%.", "8 / 8 / 4", "12 / 12 / 6", "16 / 16 / 8", "20 / 20 / 10"]
   },
   {
@@ -300,7 +299,7 @@ export const DRUID_RESTORATION_TALENTS: Talent[] = [
   // TIER 7
   {
     id: 'wild_growth', name: 'Wild Growth', icon: 'ability_druid_flourish', maxPoints: 1, row: 6, col: 1,
-    requires: { id: 'natures_bounty', points: 5 },
+    requires: { id: 'gift_of_the_earthmother', points: 2 },
     desc: ["Heals up to 5 friendly party members within 15 yards of the target for X over 7 sec. The amount healed is applied quickly at first, and slows down as the Wild Growth reaches its full duration. 8 second cooldown."
     ]
   }
