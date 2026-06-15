@@ -17,15 +17,15 @@ import { PRIEST_DISC_TALENTS, PRIEST_HOLY_TALENTS, PRIEST_SHADOW_TALENTS, CHANGE
 import { SHAMAN_ELEMENTAL_TALENTS, SHAMAN_ENHANCEMENT_TALENTS, SHAMAN_RESTORATION_TALENTS, CHANGELOG as SHAMAN_CHANGELOG } from './data/shaman';
 
 const CLASSES = [
-  { name: 'Druid', color: '#ff7d0a', label: 'Druid', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg' },
-  { name: 'Hunter', color: '#abd473', label: 'Hunter', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg' },
-  { name: 'Mage', color: '#69ccf0', label: 'Mage', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg' },
-  { name: 'Paladin', color: '#f58cba', label: 'Paladin', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg' },
-  { name: 'Priest', color: '#ffffff', label: 'Priest', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_priest.jpg' },
-  { name: 'Rogue', color: '#fff569', label: 'Rogue', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg' },
-  { name: 'Shaman', color: '#0070DE', label: 'Shaman', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_shaman.jpg' },
-  { name: 'Warlock', color: '#9482c9', label: 'Warlock', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_warlock.jpg' },
-  { name: 'Warrior', color: '#c79c6e', label: 'Warrior', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg' }
+  { name: 'Druid', color: '#ff7d0a', label: 'Druid', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg', bg: '/backgrounds/druid_bg_1781497444909.png' },
+  { name: 'Hunter', color: '#abd473', label: 'Hunter', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg', bg: '/backgrounds/hunter_bg_1781497372448.png' },
+  { name: 'Mage', color: '#69ccf0', label: 'Mage', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg', bg: '/backgrounds/mage_bg_1781497422848.png' },
+  { name: 'Paladin', color: '#f58cba', label: 'Paladin', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg', bg: '/backgrounds/paladin_bg_1781497361595.png' },
+  { name: 'Priest', color: '#ffffff', label: 'Priest', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_priest.jpg', bg: '/backgrounds/priest_bg_1781497399517.png' },
+  { name: 'Rogue', color: '#fff569', label: 'Rogue', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg', bg: '/backgrounds/rogue_bg_1781497383110.png' },
+  { name: 'Shaman', color: '#0070DE', label: 'Shaman', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_shaman.jpg', bg: '/backgrounds/shaman_bg_1781497411223.png' },
+  { name: 'Warlock', color: '#9482c9', label: 'Warlock', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_warlock.jpg', bg: '/backgrounds/warlock_bg_1781497433502.png' },
+  { name: 'Warrior', color: '#c79c6e', label: 'Warrior', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg', bg: '/backgrounds/warrior_bg_1781497349990.png' }
 ];
 
 const serializeBuild = (currentPoints: Record<string, number>) => {
@@ -629,13 +629,19 @@ export default function App() {
 
       {/* Main Container - 3 Columns (Stacked on screens < lg) */}
       <main 
-        className="flex flex-row justify-center gap-6 z-10 flex-wrap lg:flex-nowrap pb-12 w-full max-w-[1050px]"
+        className="flex flex-row justify-center gap-6 z-10 flex-wrap lg:flex-nowrap p-8 rounded-xl border border-[#31281A] shadow-2xl relative w-full max-w-[1050px] mb-12"
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
       >
+        <div 
+          className="absolute inset-0 z-0 bg-cover bg-center rounded-xl opacity-30 mix-blend-luminosity"
+          style={{ backgroundImage: `url(${CLASSES.find(c => c.name === activeClass)?.bg})` }}
+        />
+        <div className="absolute inset-0 z-0 rounded-xl bg-black/50 backdrop-blur-[2px]" />
+
         {getActiveTrees().map((tree, idx) => (
-          <div key={tree.title} className={mobileActiveTree === idx ? 'block' : 'hidden lg:block'}>
+          <div key={tree.title} className={`relative z-10 ${mobileActiveTree === idx ? 'block' : 'hidden lg:block'}`}>
             <TalentTree
               title={tree.title}
               iconUrl={tree.iconUrl}
