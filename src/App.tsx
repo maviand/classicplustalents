@@ -213,24 +213,6 @@ export default function App() {
     setShareUrl(url);
   }, [points]);
 
-  // Apply sepia filter class to body
-  useEffect(() => {
-    if (sepiaActive) {
-      document.body.classList.add('sepia-active');
-    } else {
-      document.body.classList.remove('sepia-active');
-    }
-  }, [sepiaActive]);
-
-  // Apply high contrast mode class to body
-  useEffect(() => {
-    if (highContrast) {
-      document.body.classList.add('high-contrast-active');
-    } else {
-      document.body.classList.remove('high-contrast-active');
-    }
-  }, [highContrast]);
-
   // Preload active class tree assets to prevent visual pop-in on first render
   useEffect(() => {
     getActiveTrees().forEach(tree => {
@@ -477,37 +459,6 @@ export default function App() {
             <p className="text-[#a69882] text-sm md:text-base font-medium tracking-wide">A Community Theorycrafted Reimagining of the Original Talent Trees</p>
           </div>
 
-          {/* Settings / Styling Toggles */}
-          <div className="flex flex-wrap gap-4 mt-4 justify-center text-xs md:text-sm font-medium border-t border-[#31281A]/30 pt-3 w-full max-w-[500px]">
-            <label className="flex items-center gap-2 cursor-pointer select-none">
-              <input 
-                type="checkbox" 
-                checked={sepiaActive} 
-                onChange={(e) => setSepiaActive(e.target.checked)} 
-                className="rounded border-[#3c3224] bg-[#0f0b08] text-[#ffd100] focus:ring-0 w-4 h-4 cursor-pointer"
-              />
-              <span className="text-[#a69882] hover:text-white transition-colors">Sepia Mode</span>
-            </label>
-            <label className="flex items-center gap-2 cursor-pointer select-none">
-              <input 
-                type="checkbox" 
-                checked={highContrast} 
-                onChange={(e) => setHighContrast(e.target.checked)} 
-                className="rounded border-[#3c3224] bg-[#0f0b08] text-[#ffd100] focus:ring-0 w-4 h-4 cursor-pointer"
-              />
-              <span className="text-[#a69882] hover:text-white transition-colors">High Contrast</span>
-            </label>
-            <label className="flex items-center gap-2 cursor-pointer select-none">
-              <input 
-                type="checkbox" 
-                checked={compactMode} 
-                onChange={(e) => setCompactMode(e.target.checked)} 
-                className="rounded border-[#3c3224] bg-[#0f0b08] text-[#ffd100] focus:ring-0 w-4 h-4 cursor-pointer"
-              />
-              <span className="text-[#a69882] hover:text-white transition-colors">Compact Mode</span>
-            </label>
-          </div>
-
           {/* Desktop Class Tab Navigation */}
           <nav className="hidden lg:flex flex-wrap justify-center items-center gap-3 w-full mt-6" aria-label="Desktop Class selection">
             {CLASSES.map((cls) => {
@@ -719,8 +670,7 @@ export default function App() {
           points={points} 
           activeTalents={activeTalents} 
           rect={hoveredData.rect} 
-          compact={compactMode} 
-        />
+          />
       )}
 
       {/* Mobile Sticky Footer */}

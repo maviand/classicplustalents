@@ -2,13 +2,13 @@ import { Talent } from '../types/talents';
 
 export const ROGUE_ASSASSINATION_TALENTS: Talent[] = [
   // Tier 1
-  { id: 'malice', name: 'Malice', icon: 'ability_racial_bloodrage', maxPoints: 5, row: 0, col: 0, desc: ["Increases your critical strike chance with all attacks by 1%.", "2%", "3%", "4%", "5%"] },
+  { id: 'malice', name: 'Malice', icon: 'ability_racial_bloodrage', maxPoints: 5, row: 1, col: 0, desc: ["Increases your critical strike chance with all attacks by 1%.", "2%", "3%", "4%", "5%"] },
   { id: 'imp_eviscerate', name: 'Improved Eviscerate', icon: 'ability_rogue_eviscerate', maxPoints: 3, row: 0, col: 1, desc: ["Increases the damage done by your Eviscerate ability by 5%.", "10%", "15%"] },
   { id: 'remorseless_attacks', name: 'Remorseless Attacks', icon: 'ability_fiegndead', maxPoints: 2, row: 0, col: 2, desc: ["After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Hemorrhage, Backstab, Mutilate, Ambush, or Ghostly Strike.", "40%"] },
 
   // Tier 2
   { id: 'ruthlessness', name: 'Ruthlessness', icon: 'ability_druid_disembowel', maxPoints: 3, row: 1, col: 2, desc: ["Gives your melee finishing moves a 20% chance to add a combo point to your target.", "40%", "60%"] },
-  { id: 'puncturing_wounds', name: 'Puncturing Wounds', icon: 'ability_backstab', maxPoints: 3, row: 1, col: 0, desc: ["Increases the critical strike chance of your Backstab and Mutilate abilities by 10%, and the critical strike chance of your Garrote ability by 5%.", "20% / 10%", "30% / 15%"] },
+  { id: 'puncturing_wounds', name: 'Puncturing Wounds', icon: 'ability_backstab', maxPoints: 3, row: 0, col: 0, desc: ["Increases the critical strike chance of your Backstab and Mutilate abilities by 10%, and the critical strike chance of your Garrote ability by 5%.", "20% / 10%", "30% / 15%"] },
   { id: 'vile_poisons', name: 'Vile Poisons', icon: 'ability_poisons', maxPoints: 2, row: 1, col: 1, desc: ["Increases the damage dealt by your poisons by 10% and gives your poisons an additional 20% chance to resist dispel effects.", "20% / 40%"] },
   { id: 'imp_snd', name: 'Improved Slice and Dice', icon: 'ability_rogue_slicedice', maxPoints: 2, row: 1, col: 3, desc: ["Increases the duration of your Slice and Dice ability by 25%.", "50%"] },
  
@@ -29,7 +29,7 @@ export const ROGUE_ASSASSINATION_TALENTS: Talent[] = [
 
   // Tier 6
   { id: 'master_poisoner', name: 'Master Poisoner', icon: 'ability_creature_poison_06', maxPoints: 3, row: 5, col: 0, desc: ["Increases the critical strike chance of all attacks made against targets you have poisoned by 1%, and reduces the duration of all Poison effects applied to you by 17%.", "2% / 34%", "3% / 50%"] },
-  { id: 'blood_spatter', name: 'Blood Spatter', icon: 'ability_rogue_bloodsplatter', maxPoints: 2, row: 5, col: 3, desc: ["Increases the damage caused by your Garrote and Rupture abilities by 15%.", "30%"] },
+  { id: 'blood_spatter', name: 'Blood Spatter', icon: 'ability_rogue_garrote', maxPoints: 2, row: 5, col: 3, desc: ["Increases the damage caused by your Garrote and Rupture abilities by 15%.", "30%"] },
   { id: 'vigor', name: 'Vigor', icon: 'spell_nature_earthbindtotem', maxPoints: 2, row: 5, col: 2, desc: ["Increases your maximum Energy by 5.", "10."] },
 
   // Tier 7
@@ -87,7 +87,7 @@ export const ROGUE_SUBTLETY_TALENTS: Talent[] = [
   // Tier 3
   { id: 'serrated_blades', name: 'Serrated Blades', icon: 'inv_sword_17', maxPoints: 5, row: 2, col: 0, desc: ["Causes your attacks to ignore X of your target's Armor and increases the damage dealt by your Rupture ability by 10%.", "20%", "30%", "40%", "50%"] },
   { id: 'hemorrhage', name: 'Hemorrhage', icon: 'spell_shadow_lifedrain', maxPoints: 1, row: 2, col: 1, desc: ["An instant strike that deals 110% weapon damage and causes the target to hemorrhage, increasing any physical damage dealt to the target by up to X. Lasts 15 seconds or 10 charges. Awards 1 combo point."] },
-  { id: 'setup', name: 'Setup', icon: 'spell_nature_mirrorimage', maxPoints: 2, row: 2, col: 2, desc: ["Gives you a 50% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.", "100%"] },
+  { id: 'setup', name: 'Setup', icon: 'spell_nature_mirrorimage', maxPoints: 2, row: 2, col: 2, desc: ["Increases your Dodge chance by 1% and gives you a 50% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.", "2% / 100%"] },
 
   // Tier 4
   { id: 'sleight_of_hand', name: 'Sleight of Hand', icon: 'ability_rogue_sleightofhand', maxPoints: 2, row: 3, col: 0, desc: ["Reduces the chance you will be critically hit by melee and ranged attacks by 1%, and reduces the cooldown of your Feint ability by 1.5 seconds.", "2% / 3 seconds"] },

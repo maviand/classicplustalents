@@ -4,7 +4,7 @@ export const PRIEST_DISC_TALENTS: Talent[] = [
   // Tier 1
   { id: 'unbreakable_will', name: 'Unbreakable Will', icon: 'spell_magic_magearmor', maxPoints: 5, row: 0, col: 0, desc: ["Reduces the duration of Stun, Fear, and Silence effects done to you by 3%.", "6%", "9%", "12%", "15%"] },
   { id: 'wand_spec', name: 'Wand Specialization', icon: 'inv_wand_01', maxPoints: 3, row: 0, col: 1, desc: ["Increases your damage with Wands by 8%.", "17%", "25%"] },
-  { id: 'imp_pwf', name: 'Improved Power Word: Fortitude', icon: 'spell_holy_wordfortitude', maxPoints: 2, row: 0, col: 2, desc: ["Increases the effect of your Power Word: Fortitude and Prayer of Fortitude spells by 15%.", "30%"] },
+  { id: 'imp_pwf', name: 'Improved Power Word: Fortitude', icon: 'spell_holy_wordfortitude', maxPoints: 3, row: 0, col: 2, desc: ["Increases the effect of your Power Word: Fortitude and Prayer of Fortitude spells by 10%.", "20%", "30%"] },
 
   // Tier 2
   { id: 'imp_pws', name: 'Improved Power Word: Shield', icon: 'spell_holy_powerwordshield', maxPoints: 3, row: 1, col: 0, desc: ["Increases the damage absorbed by your Power Word: Shield by 10%.", "20%", "30%"] },
@@ -88,8 +88,8 @@ export const PRIEST_SHADOW_TALENTS: Talent[] = [
   { id: 'shadow_weaving', name: 'Shadow Weaving', icon: 'spell_shadow_blackplague', maxPoints: 5, row: 2, col: 2, desc: ["Your Shadow damage spells have a 20% chance to cause your target to be vulnerable to Shadow damage. This vulnerability increases the Shadow damage dealt to your target by 3% and lasts 15 seconds. Stacks up to 5 times.", "40%", "60%", "80%", "100%"] },
 
   // Tier 4
-  { id: 'shadow_reach', name: 'Shadow Reach', icon: 'spell_shadow_chilltouch', maxPoints: 2, row: 3, col: 0, desc: ["Increases the range of your offensive Shadow spells by 10%.", "20%"] },
-  { id: 'imp_shadowform', name: 'Improved Shadowform', icon: 'spell_shadow_shadowform', maxPoints: 2, row: 4, col: 2, desc: ["Reduces the casting time lost when taking damage while in Shadowform by 35%, and your Fade ability has a 50% chance to remove all movement impairing effects when used.", "70% / 100%"] },
+  { id: 'shadow_reach', name: 'Shadow Reach', icon: 'spell_shadow_chilltouch', maxPoints: 2, row: 1, col: 3, desc: ["Increases the range of your offensive Shadow spells by 10%.", "20%"] },
+  { id: 'imp_shadowform', name: 'Improved Shadowform', icon: 'spell_shadow_antishadow', maxPoints: 2, row: 4, col: 2, desc: ["Reduces the casting time lost when taking damage while in Shadowform by 35%, and your Fade ability has a 50% chance to remove all movement impairing effects when used.", "70% / 100%"] },
   { id: 'mind_melt', name: 'Mind Melt', icon: 'spell_shadow_skull', maxPoints: 3, row: 3, col: 2, desc: ["Increases the critical strike chance of your Mind Blast and Shadow Word: Death spells by 2%.", "4%", "6%"] },
 
   // Tier 5

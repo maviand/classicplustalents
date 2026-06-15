@@ -158,12 +158,12 @@ export const HOLY_TALENTS: Talent[] = [
   },
   {
     id: 'unyielding_faith', name: 'Unyielding Faith', icon: 'spell_holy_unyieldingfaith', maxPoints: 2, row: 2, col: 3,
-    desc: ["Increases your chance to resist Fear and Disorient effects by 5%, and reduces their duration by 10%.", "10 / 20"]
+    desc: ["Reduces the duration of all crowd control effects on you by 10%.", "20%"]
   },
   // TIER 4
   {
-    id: 'illumination', name: 'Illumination', icon: 'spell_holy_greaterheal', maxPoints: 5, row: 3, col: 1,
-    desc: ["After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 20% chance to gain Mana equal to the base cost of the spell.", "40", "60", "80", "100"
+    id: 'illumination', name: 'Illumination', icon: 'spell_holy_greaterheal', maxPoints: 3, row: 3, col: 1,
+    desc: ["After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 20% chance to gain Mana equal to the base cost of the spell.", "40%", "60%"
     ]
   },
   {
@@ -174,7 +174,7 @@ export const HOLY_TALENTS: Talent[] = [
   // TIER 5
   {
     id: 'divine_favor', name: 'Divine Favor', icon: 'spell_holy_heal', maxPoints: 1, row: 4, col: 1,
-    requires: { id: 'illumination', points: 5 },
+    requires: { id: 'illumination', points: 3 },
     desc: [
       "When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance."
     ]

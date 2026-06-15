@@ -8,12 +8,12 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
     ]
   },
   {
-    id: 'natures_grasp', name: "Nature's Grasp", icon: 'spell_nature_natureswrath', maxPoints: 1, row: 0, col: 1,
+    id: 'natures_grasp', name: "Nature's Grasp", icon: 'spell_nature_natureswrath', maxPoints: 1, row: 1, col: 1,
     desc: ["While active, any time an enemy strikes you in melee combat they have a 35% chance to become afflicted by Entangling Roots (Rank 1). Only useable outdoors. 1 charge. Lasts 45 sec."
     ]
   },
   {
-    id: 'imp_natures_grasp', name: "Improved Nature's Grasp", icon: 'spell_nature_natureswrath', maxPoints: 2, row: 0, col: 2,
+    id: 'imp_natures_grasp', name: "Improved Nature's Grasp", icon: 'spell_nature_natureswrath', maxPoints: 2, row: 1, col: 2,
     requires: { id: 'natures_grasp', points: 1 },
     desc: ["Increases the chance for your Nature's Grasp to entangle an enemy by 35%.", "70"
     ]
@@ -29,18 +29,18 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
     ]
   },
   {
-    id: 'imp_moonfire', name: 'Improved Moonfire', icon: 'spell_nature_starfall', maxPoints: 2, row: 1, col: 1,
+    id: 'imp_moonfire', name: 'Improved Moonfire', icon: 'spell_nature_starfall', maxPoints: 2, row: 0, col: 1,
     desc: ["Increases the damage and critical strike chance of your Moonfire spell by 5%.", "10"
     ]
   },
   {
-    id: 'natural_weapons', name: 'Natural Weapons', icon: 'inv_staff_01', maxPoints: 5, row: 1, col: 2,
+    id: 'natural_weapons', name: 'Natural Weapons', icon: 'inv_staff_01', maxPoints: 5, row: 0, col: 2,
     desc: ["Increases the damage you deal with physical attacks in all forms by 2%.", "4", "6", "8", "10"
     ]
   },
   {
     id: 'natural_shapeshifter', name: 'Natural Shapeshifter', icon: 'spell_nature_wispheal', maxPoints: 3, row: 1, col: 3,
-    desc: ["Reduces the mana cost of all shapeshifting by 10%. Whenever you shift into a new form, you regenerate 1% of your total mana over 6 seconds.", "20 / 2", "30 / 3"]
+    desc: ["Reduces the mana cost of all shapeshifting by 10%. Whenever you shift into a new form, you regenerate 1% of your total mana over 3 seconds.", "20 / 2", "30 / 3"]
   },
   // TIER 3
   {

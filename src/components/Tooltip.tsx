@@ -6,10 +6,9 @@ interface TooltipProps {
   points: Record<string, number>;
   activeTalents: Talent[];
   rect?: DOMRect;
-  compact?: boolean;
-}
+  }
 
-export function Tooltip({ talent, points, activeTalents, rect, compact = false }: TooltipProps) {
+export function Tooltip({ talent, points, activeTalents, rect,  }: TooltipProps) {
   const pts = points[talent.id] || 0;
   const rankIndex = Math.max(0, pts - 1);
   
@@ -198,7 +197,7 @@ export function Tooltip({ talent, points, activeTalents, rect, compact = false }
       </div>
 
       {/* Current Rank Description */}
-      {!compact && (
+      {(
         <div className="mb-2 mt-2">
           <p className="text-[13px] leading-relaxed whitespace-pre-line">
             {renderDescription(talent.desc[pts === 0 ? 0 : rankIndex], talent.desc[0], pts === 0 ? undefined : "Rank Bonus:")}
@@ -207,7 +206,7 @@ export function Tooltip({ talent, points, activeTalents, rect, compact = false }
       )}
 
       {/* Next Rank Description - visually muted header */}
-      {!compact && pts > 0 && pts < talent.maxPoints && (
+      {pts > 0 && pts < talent.maxPoints && (
         <div className="mb-2 mt-3 block">
           <p className="text-[12px] text-[#8c7e6b] font-semibold mb-0.5">Next rank:</p>
           <p className="text-[13px] leading-relaxed whitespace-pre-line">
@@ -217,7 +216,7 @@ export function Tooltip({ talent, points, activeTalents, rect, compact = false }
       )}
 
       {/* Rank Scaling for text-based talents */}
-      {!compact && talent.maxPoints > 1 && (
+      {talent.maxPoints > 1 && (
         <div className="mt-4 pt-3 border-t border-[#3c3224]">
           <div className="text-white text-xs mb-1 font-semibold">Scaling:</div>
           <table className="w-full text-[11px] leading-tight">

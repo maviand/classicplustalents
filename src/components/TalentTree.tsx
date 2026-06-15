@@ -239,10 +239,10 @@ export function TalentTree({
             <button 
               key={talent.id}
               id={`talent-${talent.id}`}
-              className={`absolute w-12 h-12 z-10 group rounded transition-all duration-200 outline-none before:absolute before:-inset-2.5 before:content-[''] before:z-0 ${breathingClass} ${canAddPoint(talent, treeTalents) ? 'hover:scale-105' : ''}`}
+              className={`absolute w-[42px] h-[42px] z-10 group rounded transition-all duration-200 outline-none before:absolute before:-inset-2.5 before:content-[''] before:z-0 ${breathingClass} ${canAddPoint(talent, treeTalents) ? 'hover:scale-105' : ''}`}
               style={{
-                left: `${24 + talent.col * 72}px`,
-                top: `${24 + talent.row * 80}px`
+                left: `${27 + talent.col * 72}px`,
+                top: `${27 + talent.row * 80}px`
               }}
               onMouseEnter={(e) => setHoveredData({ talent, rect: e.currentTarget.getBoundingClientRect() })}
               onMouseLeave={() => setHoveredData(null)}

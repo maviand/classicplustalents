@@ -3,7 +3,7 @@ import { Talent } from '../types/talents';
 export const HUNTER_BM_TALENTS: Talent[] = [
   // Tier 1
   { id: 'imp_aspect_hawk', name: 'Improved Aspect of the Hawk', icon: 'spell_nature_ravenform', maxPoints: 3, row: 0, col: 1, desc: ["Gives your normal ranged attacks a 10% chance to increase ranged attack speed by 30% for 12 seconds.", "20%", "30%"] },
-  { id: 'endurance_training', name: 'Endurance Training', icon: 'spell_nature_reincarnation', maxPoints: 5, row: 0, col: 2, desc: ["Increases the Health of your pets by 2% and your total Health by 1%.", "4% / 2%", "6% / 3%", "8% / 4%", "10% / 5%"] },
+  { id: 'endurance_training', name: 'Endurance Training', icon: 'spell_nature_reincarnation', maxPoints: 5, row: 0, col: 2, desc: ["Increases the Health of your pets by 2%.", "4%", "6%", "8%", "10%"] },
   { id: 'thick_hide', name: 'Thick Hide', icon: 'inv_misc_pelt_bear_03', maxPoints: 2, row: 0, col: 0, desc: ["Increases the armor rating of your pets by 10% and your armor contribution from items by 5%.", "20% / 10%"] },
 
   // Tier 2
@@ -19,7 +19,7 @@ export const HUNTER_BM_TALENTS: Talent[] = [
 
   // Tier 4
   { id: 'frenzy', name: 'Frenzy', icon: 'inv_misc_monsterclaw_03', maxPoints: 5, row: 3, col: 2, requires: { id: 'ferocity', points: 2 }, desc: ["Gives your pet a 20% chance to gain a 30% attack speed increase for 8 seconds after dealing a critical strike.", "40%", "60%", "80%", "100%"] },
-  { id: 'animal_handler', name: 'Animal Handler', icon: 'ability_hunter_animalhandler', maxPoints: 2, row: 3, col: 0, desc: ["Increases your pet's chance to hit by 2% and reduces the cooldown of your Master's Call by 10 seconds.", "4% / 20 sec"] },
+  { id: 'animal_handler', name: 'Animal Handler', icon: 'ability_hunter_animalhandler', maxPoints: 2, row: 3, col: 0, desc: ["Increases your pet's chance to hit by 3% and reduces the cooldown of your Master's Call by 10 seconds.", "6% / 20 sec"] },
   { id: 'longevity', name: 'Longevity', icon: 'ability_hunter_longevity', maxPoints: 3, row: 3, col: 3, desc: ["Reduces the cooldown of your Bestial Wrath, Intimidation, and pet special abilities by 10%.", "20%", "30%"] },
 
   // Tier 5
@@ -50,7 +50,7 @@ export const HUNTER_MM_TALENTS: Talent[] = [
   { id: 'imp_arcane_shot', name: 'Improved Arcane Shot', icon: 'ability_impalingbolt', maxPoints: 2, row: 1, col: 3, desc: ["Reduces the cooldown of your Arcane Shot by 0.5 seconds.", "1 second"] },
 
   // Tier 3
-  { id: 'imp_stings', name: 'Improved Stings', icon: 'ability_hunter_quickshot', maxPoints: 3, row: 2, col: 0, desc: ["Increases the damage done by your Serpent Sting by 10% and reduces the Focus cost of all Stings by 10%.", "20% / 20%", "30% / 30%"] },
+  { id: 'imp_stings', name: 'Improved Stings', icon: 'ability_hunter_snipershot', maxPoints: 3, row: 2, col: 0, desc: ["Increases the damage done by your Serpent Sting by 10% and reduces the Focus cost of all Stings by 10%.", "20% / 20%", "30% / 30%"] },
   { id: 'aimed_shot', name: 'Aimed Shot', icon: 'inv_spear_07', maxPoints: 1, row: 2, col: 1, requires: { id: 'hawk_eye', points: 3 }, desc: ["An aimed shot that increases ranged damage. 3-second cast time."] },
   { id: 'mortal_shots', name: 'Mortal Shots', icon: 'ability_piercedamage', maxPoints: 5, row: 2, col: 2, desc: ["Increases your ranged weapon critical strike damage bonus by 6%.", "12%", "18%", "24%", "30%"] },
   { id: 'concussive_barrage', name: 'Concussive Barrage', icon: 'spell_frost_stun', maxPoints: 2, row: 2, col: 3, desc: ["Your successful Auto Shot attacks have a 3% chance to Daze the target for 4 seconds.", "6%"] },
@@ -105,7 +105,7 @@ export const HUNTER_SURVIVAL_TALENTS: Talent[] = [
   { id: 'expose_weakness', name: 'Expose Weakness', icon: 'ability_rogue_findweakness', maxPoints: 3, row: 5, col: 0, desc: ["Your ranged critical strikes have a 33% chance to apply an Expose Weakness effect to the target. Expose Weakness increases the Attack Power of all attackers against that target by 25% of your total Agility for 7 seconds.", "66%", "100%"] },
   { id: 'thrill_of_the_hunt', name: 'Thrill of the Hunt', icon: 'ability_hunter_thrillofthehunt', maxPoints: 2, row: 5, col: 1, requires: { id: 'wyvern_sting', points: 1 }, desc: ["Your critical strikes with abilities that cost Focus have a 50% chance to immediately restore 10 Focus.", "100%"] },
   { id: 'master_tactician', name: 'Master Tactician', icon: 'spell_nature_enchantarmor', maxPoints: 2, row: 5, col: 2, desc: ["Your successful ranged attacks have a 10% chance to increase your critical strike chance with all attacks by 5% for 8 seconds.", "10%"] },
-  { id: 'noxious_stings', name: 'Noxious Stings', icon: 'ability_hunter_potentvenom', maxPoints: 3, row: 5, col: 3, desc: ["Increases all damage done to targets afflicted by your Wyvern Sting or Serpent Sting by 1%.", "2%", "3%"] },
+  { id: 'noxious_stings', name: 'Noxious Stings', icon: 'spell_nature_corrosivebreath', maxPoints: 3, row: 5, col: 3, desc: ["Increases all damage done to targets afflicted by your Wyvern Sting or Serpent Sting by 1%.", "2%", "3%"] },
 
   // Tier 7
   { id: 'explosive_shot', name: 'Explosive Shot', icon: 'ability_hunter_explosiveshot', maxPoints: 1, row: 6, col: 1, requires: { id: 'thrill_of_the_hunt', points: 2 }, desc: ["You fire an explosive charge into the enemy target, dealing massive Fire damage. The charge will blast the target every second for an additional 2 seconds. 6 second cooldown."] }
