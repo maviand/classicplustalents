@@ -75,14 +75,14 @@ export const WARRIOR_PROTECTION_TALENTS: Talent[] = [
 
 export const WARRIOR_FURY_TALENTS: Talent[] = [
   // Tier 1
-  { id: 'cruelty', name: 'Cruelty', icon: 'ability_rogue_eviscerate', maxPoints: 5, row: 1, col: 0, desc: ["Increases your chance to get a critical strike with melee weapons by 1%.", "2%", "3%", "4%", "5%"] },
+  { id: 'cruelty', name: 'Cruelty', icon: 'ability_rogue_eviscerate', maxPoints: 5, row: 0, col: 1, desc: ["Increases your chance to get a critical strike with melee weapons by 0.6%.", "1.2%", "1.8%", "2.4%", "3.0%"] },
   { id: 'unbridled_wrath', name: 'Unbridled Wrath', icon: 'spell_nature_stoneclawtotem', maxPoints: 3, row: 0, col: 2, desc: ["Gives you a 15% chance to generate an additional Rage point when you deal melee damage with a weapon.", "30%", "45%"] },
   { id: 'imp_battle_shout', name: 'Improved Battle Shout', icon: 'ability_warrior_battleshout', maxPoints: 2, row: 0, col: 0, desc: ["Increases the melee attack power bonus of your Battle Shout by 13%.", "25%"] },
 
   // Tier 2
   { id: 'enrage', name: 'Enrage', icon: 'spell_shadow_unholyfrenzy', maxPoints: 3, row: 1, col: 1, requires: { id: 'cruelty', points: 5 }, desc: ["Gives you a 10% melee damage bonus for 12 seconds up to a maximum of 12 swings after being the victim of a critical strike.", "20%", "30%"] },
   { id: 'imp_cleave', name: 'Improved Cleave', icon: 'ability_warrior_cleave', maxPoints: 3, row: 1, col: 2, desc: ["Increases the bonus damage done by your Cleave by 40%.", "80%", "120%"] },
-  { id: 'imp_demoralizing_shout', name: 'Improved Demoralizing Shout', icon: 'ability_warrior_warcry', maxPoints: 2, row: 0, col: 1, desc: ["Increases the melee AP reduction of Demoralizing Shout by 20% and increases the daze duration of the baseline Piercing Howl by 1 sec.", "40% / 2 sec"] },
+  { id: 'imp_demoralizing_shout', name: 'Improved Demoralizing Shout', icon: 'ability_warrior_warcry', maxPoints: 2, row: 1, col: 0, desc: ["Increases the melee AP reduction of Demoralizing Shout by 20% and increases the daze duration of the baseline Piercing Howl by 1 sec.", "40% / 2 sec"] },
   { id: 'blood_craze', name: 'Blood Craze', icon: 'spell_shadow_summonimp', maxPoints: 3, row: 1, col: 3, desc: ["Regenerates 2% of your total Health over 6 seconds after being the victim of a critical strike.", "4%", "6%"] },
 
   // Tier 3

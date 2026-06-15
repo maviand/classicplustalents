@@ -49,8 +49,8 @@ export const MAGE_FIRE_TALENTS: Talent[] = [
 export const MAGE_FROST_TALENTS: Talent[] = [
   { id: 'permafrost', name: 'Permafrost', icon: 'spell_frost_wisp', maxPoints: 3, row: 0, col: 0, desc: ["Increases the duration of your Chill effects by 1 second, and reduces the target's speed by an additional 4%.", "2 seconds / 7%", "3 seconds / 10%"] },
   { id: 'imp_frostbolt', name: 'Improved Frostbolt', icon: 'spell_frost_frostbolt02', maxPoints: 5, row: 0, col: 1, desc: ["Reduces the casting time of your Frostbolt spell by 0.1 seconds.", "0.2 seconds", "0.3 seconds", "0.4 seconds", "0.5 seconds"] },
-  { id: 'ice_floes', name: 'Ice Floes', icon: 'spell_frost_icefloes', maxPoints: 2, row: 1, col: 0, desc: ["Reduces the cooldown of your Frost Nova, Cone of Cold, and Ice Block spells by 10%.", "20%"] },
-  { id: 'shatter', name: 'Shatter', icon: 'spell_frost_frostshock', maxPoints: 3, row: 0, col: 2, desc: ["Increases the critical strike chance of all your spells against frozen targets by 17%.", "34%", "50%"] },
+  { id: 'ice_floes', name: 'Ice Floes', icon: 'spell_frost_icefloes', maxPoints: 2, row: 0, col: 2, desc: ["Reduces the cooldown of your Frost Nova, Cone of Cold, and Ice Block spells by 10%.", "20%"] },
+  { id: 'shatter', name: 'Shatter', icon: 'spell_frost_frostshock', maxPoints: 3, row: 1, col: 0, desc: ["Increases the critical strike chance of all your spells against frozen targets by 10%.", "20%", "30%"] },
   { id: 'ice_shards', name: 'Ice Shards', icon: 'spell_frost_iceshard', maxPoints: 3, row: 1, col: 1, requires: { id: 'imp_frostbolt', points: 5 }, desc: ["Increases the critical strike damage bonus of your Frost spells by 33%.", "66%", "100%"] },
   { id: 'frostbite', name: 'Frostbite', icon: 'spell_frost_frostarmor', maxPoints: 2, row: 1, col: 2, desc: ["Gives your Chill effects an 8% chance to freeze the target for 5 seconds.", "15%"] },
   { id: 'piercing_ice', name: 'Piercing Ice', icon: 'spell_frost_frostbolt', maxPoints: 2, row: 1, col: 3, desc: ["Increases the damage done by your Frost spells by 3%.", "6%"] },

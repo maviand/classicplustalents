@@ -2,13 +2,13 @@ import { Talent } from '../types/talents';
 
 export const ROGUE_ASSASSINATION_TALENTS: Talent[] = [
   // Tier 1
-  { id: 'malice', name: 'Malice', icon: 'ability_racial_bloodrage', maxPoints: 5, row: 1, col: 0, desc: ["Increases your critical strike chance with all attacks by 1%.", "2%", "3%", "4%", "5%"] },
+  { id: 'malice', name: 'Malice', icon: 'ability_racial_bloodrage', maxPoints: 5, row: 0, col: 0, desc: ["Increases your critical strike chance with all attacks by 0.6%.", "1.2%", "1.8%", "2.4%", "3.0%"] },
   { id: 'imp_eviscerate', name: 'Improved Eviscerate', icon: 'ability_rogue_eviscerate', maxPoints: 3, row: 0, col: 1, desc: ["Increases the damage done by your Eviscerate ability by 5%.", "10%", "15%"] },
   { id: 'remorseless_attacks', name: 'Remorseless Attacks', icon: 'ability_fiegndead', maxPoints: 2, row: 0, col: 2, desc: ["After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Hemorrhage, Backstab, Mutilate, Ambush, or Ghostly Strike.", "40%"] },
 
   // Tier 2
   { id: 'ruthlessness', name: 'Ruthlessness', icon: 'ability_druid_disembowel', maxPoints: 3, row: 1, col: 2, desc: ["Gives your melee finishing moves a 20% chance to add a combo point to your target.", "40%", "60%"] },
-  { id: 'puncturing_wounds', name: 'Puncturing Wounds', icon: 'ability_backstab', maxPoints: 3, row: 0, col: 0, desc: ["Increases the critical strike chance of your Backstab and Mutilate abilities by 10%, and the critical strike chance of your Garrote ability by 5%.", "20% / 10%", "30% / 15%"] },
+  { id: 'puncturing_wounds', name: 'Puncturing Wounds', icon: 'ability_backstab', maxPoints: 3, row: 1, col: 0, desc: ["Increases the critical strike chance of your Backstab and Mutilate abilities by 10%, and the critical strike chance of your Garrote ability by 5%.", "20% / 10%", "30% / 15%"] },
   { id: 'vile_poisons', name: 'Vile Poisons', icon: 'ability_poisons', maxPoints: 2, row: 1, col: 1, desc: ["Increases the damage dealt by your poisons by 10% and gives your poisons an additional 20% chance to resist dispel effects.", "20% / 40%"] },
   { id: 'imp_snd', name: 'Improved Slice and Dice', icon: 'ability_rogue_slicedice', maxPoints: 2, row: 1, col: 3, desc: ["Increases the duration of your Slice and Dice ability by 25%.", "50%"] },
  

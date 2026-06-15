@@ -8,14 +8,17 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
     ]
   },
   {
-    id: 'natures_grasp', name: "Nature's Grasp", icon: 'spell_nature_natureswrath', maxPoints: 1, row: 1, col: 1,
-    desc: ["While active, any time an enemy strikes you in melee combat they have a 35% chance to become afflicted by Entangling Roots (Rank 1). Only useable outdoors. 1 charge. Lasts 45 sec."
+    id: 'natures_grasp', name: "Nature's Grasp", icon: 'spell_nature_natureswrath', maxPoints: 1, row: 0, col: 1,
+    desc: [
+      "While active, any time an enemy strikes the caster they have a 15% chance to become afflicted by Entangling Roots (Rank 1). Only useable outdoors. 1 charge. Lasts 45 sec.",
     ]
   },
   {
-    id: 'imp_natures_grasp', name: "Improved Nature's Grasp", icon: 'spell_nature_natureswrath', maxPoints: 2, row: 1, col: 2,
+    id: 'imp_natures_grasp', name: "Improved Nature's Grasp", icon: 'spell_nature_natureswrath', maxPoints: 2, row: 0, col: 2,
     requires: { id: 'natures_grasp', points: 1 },
-    desc: ["Increases the chance for your Nature's Grasp to entangle an enemy by 35%.", "70"
+    desc: [
+      "Increases the chance for your Nature's Grasp to entangle an enemy by 35%.",
+      "70%",
     ]
   },
   {
