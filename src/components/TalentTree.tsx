@@ -11,6 +11,7 @@ interface TalentTreeProps {
   handleLeftClick: (talent: Talent, treeTalents: Talent[]) => void;
   handleRightClick: (e: React.MouseEvent, talent: Talent) => void;
   canAddPoint: (talent: Talent, treeTalents: Talent[]) => boolean;
+  classColor: string;
 }
 
 export function TalentTree({
@@ -22,9 +23,35 @@ export function TalentTree({
   setHoveredData,
   handleLeftClick,
   handleRightClick,
-  canAddPoint
+  canAddPoint,
+  classColor
 }: TalentTreeProps) {
   const pointsInTree = treeTalents.reduce((sum, t) => sum + (points[t.id] || 0), 0);
+  const [ripples, setRipples] = React.useState<Record<string, boolean>>({});
+
+  const handleKeyDown = (e: React.KeyboardEvent, talent: Talent) => {
+    let targetRow = talent.row;
+    let targetCol = talent.col;
+    if (e.key === 'ArrowUp') targetRow--;
+    else if (e.key === 'ArrowDown') targetRow++;
+    else if (e.key === 'ArrowLeft') targetCol--;
+    else if (e.key === 'ArrowRight') targetCol++;
+    else if (e.key === 'Backspace' || e.key === 'Delete') {
+      const mockEvent = { preventDefault: () => {} } as React.MouseEvent;
+      handleRightClick(mockEvent, talent);
+      return;
+    } else {
+      return;
+    }
+    
+    e.preventDefault();
+    
+    const nextTalent = treeTalents.find(t => t.row === targetRow && t.col === targetCol);
+    if (nextTalent) {
+      const el = document.getElementById(`talent-${nextTalent.id}`);
+      el?.focus();
+    }
+  };
 
   return (
     <div className="relative w-[320px] wow-panel overflow-hidden">
@@ -49,6 +76,14 @@ export function TalentTree({
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,0,0,0.1)_0%,rgba(0,0,0,0.85)_100%)] pointer-events-none z-0"></div>
+
+        {/* Class-specific primary color radial gradient */}
+        <div 
+          className="absolute inset-0 pointer-events-none z-0 opacity-20"
+          style={{
+            background: `radial-gradient(circle, ${classColor} 0%, transparent 70%)`
+          }}
+        />
 
         <svg className="absolute inset-0 w-full h-full pointer-events-none z-0">
           <defs>
@@ -102,8 +137,16 @@ export function TalentTree({
                   <polygon points={`${endX - dir * 8},${endY - 8} ${endX - dir * 8},${endY + 8} ${endX + dir * 2},${endY}`} fill="#000000" />
                   
                   {/* Visual Layer */}
-                  <line x1={startX} y1={startY} x2={endX - dir * 6} y2={endY} stroke={strokeUrl} strokeWidth="4" filter={filter} />
-                  <polygon points={`${endX - dir * 6},${endY - 6} ${endX - dir * 6},${endY + 6} ${endX},${endY}`} fill={strokeUrl} filter={filter} />
+                  <line 
+                    x1={startX} y1={startY} x2={endX - dir * 6} y2={endY} 
+                    stroke={strokeUrl} strokeWidth="4" filter={filter} 
+                    style={{ transition: 'stroke 0.3s ease, fill 0.3s ease, filter 0.3s ease' }}
+                  />
+                  <polygon 
+                    points={`${endX - dir * 6},${endY - 6} ${endX - dir * 6},${endY + 6} ${endX},${endY}`} 
+                    fill={strokeUrl} filter={filter} 
+                    style={{ transition: 'stroke 0.3s ease, fill 0.3s ease, filter 0.3s ease' }}
+                  />
                 </g>
               );
             }
@@ -123,8 +166,16 @@ export function TalentTree({
                   <polygon points={`${endX-8},${endY-8} ${endX+8},${endY-8} ${endX},${endY+2}`} fill="#000000" />
 
                   {/* Visual Layer */}
-                  <path d={`M ${startX} ${startY} L ${startX} ${midY} L ${endX} ${midY} L ${endX} ${endY - 6}`} fill="none" stroke={strokeUrl} strokeWidth="4" strokeLinejoin="round" filter={filter} />
-                  <polygon points={`${endX-6},${endY-6} ${endX+6},${endY-6} ${endX},${endY}`} fill={strokeUrl} filter={filter} />
+                  <path 
+                    d={`M ${startX} ${startY} L ${startX} ${midY} L ${endX} ${midY} L ${endX} ${endY - 6}`} 
+                    fill="none" stroke={strokeUrl} strokeWidth="4" strokeLinejoin="round" filter={filter} 
+                    style={{ transition: 'stroke 0.3s ease, fill 0.3s ease, filter 0.3s ease' }}
+                  />
+                  <polygon 
+                    points={`${endX-6},${endY-6} ${endX+6},${endY-6} ${endX},${endY}`} 
+                    fill={strokeUrl} filter={filter} 
+                    style={{ transition: 'stroke 0.3s ease, fill 0.3s ease, filter 0.3s ease' }}
+                  />
                 </g>
               );
             }
@@ -143,8 +194,16 @@ export function TalentTree({
                   <polygon points={`${endX-8},${endY-8} ${endX+8},${endY-8} ${endX},${endY+2}`} fill="#000000" />
                   
                   {/* Visual Layer */}
-                  <line x1={startX} y1={startY} x2={endX} y2={endY - 6} stroke={strokeUrl} strokeWidth="4" filter={filter} />
-                  <polygon points={`${endX-6},${endY-6} ${endX+6},${endY-6} ${endX},${endY}`} fill={strokeUrl} filter={filter} />
+                  <line 
+                    x1={startX} y1={startY} x2={endX} y2={endY - 6} 
+                    stroke={strokeUrl} strokeWidth="4" filter={filter} 
+                    style={{ transition: 'stroke 0.3s ease, fill 0.3s ease, filter 0.3s ease' }}
+                  />
+                  <polygon 
+                    points={`${endX-6},${endY-6} ${endX+6},${endY-6} ${endX},${endY}`} 
+                    fill={strokeUrl} filter={filter} 
+                    style={{ transition: 'stroke 0.3s ease, fill 0.3s ease, filter 0.3s ease' }}
+                  />
                 </g>
               );
             }
@@ -159,11 +218,15 @@ export function TalentTree({
           const isSpell = talent.maxPoints === 1;
           
           let borderClass = "border-[#4a3c28]/80 opacity-70";
-          let filterClass = "grayscale-[100%] brightness-[20%] contrast-[90%]";
+          let filterClass = "grayscale-[100%] saturate-0 opacity-40 brightness-50 contrast-75";
+          let breathingClass = "";
           
           if (isMaxed) {
             borderClass = `border-[#ffd100] shadow-[0_0_12px_rgba(255,209,0,0.8)] ${isSpell ? 'rounded-full' : 'rounded-sm'}`;
             filterClass = "grayscale-0 opacity-100";
+            if (talent.row === 6) {
+              breathingClass = "animate-breathing";
+            }
           } else if (pts > 0) {
             borderClass = `border-[#1eff00] shadow-[0_0_10px_rgba(30,255,0,0.6)] ${isSpell ? 'rounded-full' : 'rounded-sm'}`;
             filterClass = "grayscale-0 opacity-100";
@@ -173,19 +236,33 @@ export function TalentTree({
           }
  
           return (
-            <div 
+            <button 
               key={talent.id}
-              className="absolute w-12 h-12 z-10 group"
+              id={`talent-${talent.id}`}
+              className={`absolute w-12 h-12 z-10 group rounded transition-all duration-200 outline-none before:absolute before:-inset-2.5 before:content-[''] before:z-0 ${breathingClass} ${canAddPoint(talent, treeTalents) ? 'hover:scale-105' : ''}`}
               style={{
                 left: `${24 + talent.col * 72}px`,
                 top: `${24 + talent.row * 80}px`
               }}
               onMouseEnter={(e) => setHoveredData({ talent, rect: e.currentTarget.getBoundingClientRect() })}
               onMouseLeave={() => setHoveredData(null)}
-              onClick={() => handleLeftClick(talent, treeTalents)}
+              onFocus={(e) => setHoveredData({ talent, rect: e.currentTarget.getBoundingClientRect() })}
+              onBlur={() => setHoveredData(null)}
+              onClick={() => {
+                if (canAddPoint(talent, treeTalents)) {
+                  setRipples(prev => ({ ...prev, [talent.id]: true }));
+                  setTimeout(() => {
+                    setRipples(prev => ({ ...prev, [talent.id]: false }));
+                  }, 350);
+                }
+                handleLeftClick(talent, treeTalents);
+              }}
               onContextMenu={(e) => handleRightClick(e, talent)}
+              onKeyDown={(e) => handleKeyDown(e, talent)}
+              role="button"
+              aria-label={`${talent.name} - Rank ${pts} of ${talent.maxPoints}. ${talent.requires ? `Requires ${talent.requires.points} points in prerequisite talent.` : ''}`}
             >
-              <div className={`w-full h-full ${isSpell ? 'rounded-full' : 'rounded-sm'} border-2 ${borderClass} transition-all duration-200 ${canAddPoint(talent, treeTalents) ? 'hover:scale-105' : ''} hover:brightness-110 cursor-pointer overflow-hidden bg-black relative shadow-[0_2px_8px_rgba(0,0,0,0.85)]`}>
+              <div className={`w-full h-full ${isSpell ? 'rounded-full' : 'rounded-sm'} border-2 ${borderClass} transition-all duration-200 hover:brightness-110 cursor-pointer overflow-hidden bg-black relative shadow-[0_2px_8px_rgba(0,0,0,0.85)]`}>
                 <img 
                   src={talent.icon.startsWith('http') ? talent.icon : `https://wow.zamimg.com/images/wow/icons/large/${talent.icon}.jpg`}
                   alt={talent.name}
@@ -193,13 +270,15 @@ export function TalentTree({
                 />
                 {/* Visual raised border bevel inner ring */}
                 <div className={`absolute inset-0 pointer-events-none border ${isSpell ? 'rounded-full border-white/10' : 'rounded-sm border-white/10'} mix-blend-overlay`}></div>
+                {/* Click ripple overlay */}
+                {ripples[talent.id] && <div className="click-ripple" />}
               </div>
               
               {/* Points Badge */}
               <div className={`absolute -bottom-1.5 -right-1.5 px-1.5 py-0.5 rounded-sm text-[10px] font-bold border wow-mono ${isMaxed ? 'bg-[#ffd100] text-black border-[#ffd100]' : 'bg-[#150f0a] text-[#1eff00] border-[#4a3b26]'} shadow-[0_2px_5px_rgba(0,0,0,0.8)] z-20 select-none`}>
                 {pts}/{talent.maxPoints}
               </div>
-            </div>
+            </button>
           );
         })}
       </div>

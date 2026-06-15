@@ -21,7 +21,9 @@
 
   --animate-border-pulse: border-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   --animate-gold-pulse: gold-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  
+  --animate-shake: shake 0.25s ease-in-out;
+  --animate-flash: flash-animation 0.4s ease-out;
+
   @keyframes border-pulse {
     0%, 100% {
       box-shadow: 0 0 5px rgba(30, 255, 0, 0.4);
@@ -43,29 +45,130 @@
       border-color: #ffd100;
     }
   }
+
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-4px); }
+    75% { transform: translateX(4px); }
+  }
+
+  @keyframes flash-animation {
+    0% { background-color: rgba(255, 209, 0, 0.4); }
+    100% { background-color: transparent; }
+  }
+}
+
+:root {
+  /* Colors */
+  --bg-color-main: #0a0705;
+  --bg-color-radial: radial-gradient(circle at top, #140d09 0%, #080605 60%, #000000 100%);
+  --panel-bg: #0b0907;
+  --panel-border: #3c3224;
+  --text-primary: #e4dcc7;
+  --text-highlight: #ffd100;
+  --text-header: #ffdd57;
+  --text-muted: #a69882;
+  --color-green: #1eff00;
+  --color-red: #ff3b3b;
+  
+  /* Sizing and spacings */
+  --font-size-base: clamp(16px, 1.1vw + 12px, 20px);
+  --font-size-title: clamp(2.5rem, 5vw + 1rem, 4.5rem);
+  --font-size-header: clamp(1.2rem, 2vw + 0.8rem, 2.2rem);
+  --font-size-normal: clamp(0.85rem, 1vw + 0.6rem, 1.1rem);
+  --font-size-small: clamp(0.75rem, 0.8vw + 0.5rem, 0.95rem);
+  
+  --margin-p: 0.75rem;
+}
+
+/* Sepia Theme */
+body.sepia-active {
+  filter: sepia(0.35) contrast(1.05) brightness(0.95);
+}
+
+/* High Contrast Theme */
+body.high-contrast-active {
+  --bg-color-main: #000000;
+  --bg-color-radial: none;
+  --text-primary: #ffffff;
+  --text-muted: #dcdcdc;
+  --text-highlight: #ffe169;
+  --text-header: #ffffff;
+  --panel-border: #80705c;
+}
+
+/* Reduced Motion Settings */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-delay: 0s !important;
+    animation-duration: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0s !important;
+    scroll-behavior: auto !important;
+    transform: none !important;
+  }
 }
 
 * {
   font-family: "Google Sans", sans-serif !important;
 }
 
+html, body {
+  min-height: 100%;
+  background-color: var(--bg-color-main);
+  background-image: var(--bg-color-radial);
+  color: var(--text-primary);
+  font-size: var(--font-size-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  /* Custom themed cursor */
+  cursor: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.5 3V17.5L8.5 13.5L12 20.5L14.5 19L11 12H16.5L4.5 3Z' fill='%23ffd100' stroke='%233c3224' stroke-width='1.5' stroke-linejoin='round'/%3E%3C/svg%3E"), auto;
+}
+
+button, a, [role="button"] {
+  /* Interactive cursor override */
+  cursor: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.5 3V17.5L8.5 13.5L12 20.5L14.5 19L11 12H16.5L4.5 3Z' fill='%23ffe885' stroke='%233c3224' stroke-width='1.5' stroke-linejoin='round'/%3E%3C/svg%3E"), pointer;
+}
+
+/* Vertical Rhythm Reset */
+p {
+  margin-bottom: var(--margin-p);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
 /* WoW Text Styles */
 .wow-title {
-  color: #ffd100;
-  text-shadow: 2px 2px 0px #000, 0 0 8px rgba(255, 209, 0, 0.4);
+  color: var(--text-highlight);
+  font-size: var(--font-size-title);
+  text-shadow: 2px 2px 0px #000, 0 0 12px rgba(255, 209, 0, 0.4);
 }
 
 .wow-header {
-  color: #ffdd57;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+  color: var(--text-header);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.95);
+  font-weight: 600;
+}
+
+.wow-mono {
+  font-weight: 600;
+}
+
+/* Focus Indicator */
+*:focus-visible {
+  outline: 2px solid var(--text-highlight);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(255, 209, 0, 0.3);
 }
 
 /* WoW Panels & Frames */
 .wow-panel {
-  background: #0b0907;
-  border: 3px solid #3c3224;
+  background: var(--panel-bg);
+  border: 3px solid var(--panel-border);
   box-shadow: 
-    0 8px 25px rgba(0, 0, 0, 0.95), 
+    0 8px 30px rgba(0, 0, 0, 0.95), 
     inset 0 0 10px rgba(0, 0, 0, 0.8),
     inset 0 0 0 1px rgba(255, 255, 255, 0.05);
   position: relative;
@@ -84,7 +187,7 @@
 .wow-button {
   background: linear-gradient(to bottom, #721611 0%, #460907 100%);
   border: 2px solid #a08151;
-  color: #ffd100;
+  color: var(--text-highlight);
   text-shadow: 1px 1px 1px #000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.15);
   transition: all 0.15s ease-in-out;
@@ -93,7 +196,7 @@
 
 .wow-button:hover:not(:disabled) {
   background: linear-gradient(to bottom, #881c15 0%, #560b09 100%);
-  border-color: #ffd100;
+  border-color: var(--text-highlight);
   box-shadow: 0 0 8px rgba(255, 209, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.25);
   color: #ffffff;
 }
@@ -112,15 +215,15 @@
 /* WoW Control Inputs */
 .wow-input {
   background: #0f0b08;
-  border: 2px solid #3c3224;
-  color: #e4dcc7;
+  border: 2px solid var(--panel-border);
+  color: var(--text-primary);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.8);
   transition: border-color 0.15s ease-in-out;
 }
 
 .wow-input:focus {
   outline: none;
-  border-color: #ffd100;
+  border-color: var(--text-highlight);
 }
 
 /* WoW Scrollbars */
@@ -143,4 +246,82 @@
 
 .blizzard-border {
   box-shadow: 0 0 0 1px #31281A, 0 0 0 2px #1E1710, inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+/* Click ripple keyframes */
+.click-ripple {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--text-highlight);
+  transform: translate(-50%, -50%) scale(0.8);
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 5;
+  animation: click-ripple-anim 0.35s ease-out forwards;
+}
+
+@keyframes click-ripple-anim {
+  to {
+    transform: translate(-50%, -50%) scale(1.6);
+    opacity: 0;
+  }
+}
+
+/* Breathing animation for ultimate (Tier 7) talents */
+.animate-breathing {
+  animation: breathing-glow 3s ease-in-out infinite;
+}
+
+@keyframes breathing-glow {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(255, 209, 0, 0.6), inset 0 0 4px rgba(255, 209, 0, 0.4);
+  }
+  50% {
+    transform: scale(1.04);
+    box-shadow: 0 0 22px rgba(255, 209, 0, 1), inset 0 0 8px rgba(255, 209, 0, 0.8);
+  }
+}
+
+/* Sequential page load fade-in sequence classes */
+.fade-in-tree-0 {
+  animation: tree-fade-in 0.4s ease-out forwards;
+  opacity: 0;
+}
+.fade-in-tree-1 {
+  animation: tree-fade-in 0.4s ease-out 0.15s forwards;
+  opacity: 0;
+}
+.fade-in-tree-2 {
+  animation: tree-fade-in 0.4s ease-out 0.3s forwards;
+  opacity: 0;
+}
+
+@keyframes tree-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Sequential page load fade-in sequence using main children */
+main > :nth-child(1) {
+  animation: tree-fade-in 0.4s ease-out forwards;
+  opacity: 0;
+}
+main > :nth-child(2) {
+  animation: tree-fade-in 0.4s ease-out 0.15s forwards;
+  opacity: 0;
+}
+main > :nth-child(3) {
+  animation: tree-fade-in 0.4s ease-out 0.3s forwards;
+  opacity: 0;
 }
