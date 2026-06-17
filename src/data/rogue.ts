@@ -39,8 +39,8 @@ export const ROGUE_ASSASSINATION_TALENTS: Talent[] = [
 export const ROGUE_COMBAT_TALENTS: Talent[] = [
   // Tier 1
   { id: 'deflection', name: 'Deflection', icon: 'ability_parry', maxPoints: 5, row: 0, col: 2, desc: ["Increases your chance to Parry by 1%.", "2%", "3%", "4%", "5%"] },
-  { id: 'imp_ss', name: 'Improved Sinister Strike', icon: 'spell_shadow_ritualofsacrifice', maxPoints: 3, row: 0, col: 1, desc: ["Reduces the Energy cost of your Sinister Strike ability by 1.", "2.", "3."] },
-  { id: 'imp_gouge', name: 'Improved Gouge', icon: 'ability_gouge', maxPoints: 2, row: 0, col: 0, desc: ["Increases the effect duration of your Gouge ability by 0.5 seconds.", "1.0 seconds"] },
+  { id: 'imp_ss', name: 'Improved Sinister Strike', icon: 'spell_shadow_ritualofsacrifice', maxPoints: 2, row: 0, col: 1, desc: ["Reduces the Energy cost of your Sinister Strike ability by 3.", "5."] },
+  { id: 'imp_gouge', name: 'Improved Gouge', icon: 'ability_gouge', maxPoints: 3, row: 0, col: 0, desc: ["Increases the effect duration of your Gouge ability by 0.5 seconds.", "1.0 seconds", "1.5 seconds"] },
 
   // Tier 2
   { id: 'precision', name: 'Precision', icon: 'ability_marksmanship', maxPoints: 3, row: 1, col: 0, desc: ["Increases your chance to hit with melee weapons by 1%.", "2%", "3%"] },
