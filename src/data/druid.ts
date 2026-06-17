@@ -8,8 +8,17 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
     ]
   },
   {
-    id: 'natural_weapons', name: 'Natural Weapons', icon: 'inv_staff_01', maxPoints: 5, row: 0, col: 1,
-    desc: ["Increases the damage you deal with physical attacks in all forms by 2%.", "4", "6", "8", "10"
+    id: 'natures_grasp', name: "Nature's Grasp", icon: 'spell_nature_natureswrath', maxPoints: 1, row: 0, col: 1,
+    desc: [
+      "While active, any time an enemy strikes the caster they have a 15% chance to become afflicted by Entangling Roots (Rank 1). Only useable outdoors. 1 charge. Lasts 45 sec.",
+    ]
+  },
+  {
+    id: 'imp_natures_grasp', name: "Improved Nature's Grasp", icon: 'spell_nature_natureswrath', maxPoints: 2, row: 0, col: 2,
+    requires: { id: 'natures_grasp', points: 1 },
+    desc: [
+      "Increases the chance for your Nature's Grasp to entangle an enemy by 35%.",
+      "70%",
     ]
   },
   {
@@ -26,6 +35,15 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
     id: 'imp_moonfire', name: 'Improved Moonfire', icon: 'spell_nature_starfall', maxPoints: 2, row: 1, col: 1,
     desc: ["Increases the damage and critical strike chance of your Moonfire spell by 5%.", "10"
     ]
+  },
+  {
+    id: 'natural_weapons', name: 'Natural Weapons', icon: 'inv_staff_01', maxPoints: 5, row: 1, col: 2,
+    desc: ["Increases the damage you deal with physical attacks in all forms by 2%.", "4", "6", "8", "10"
+    ]
+  },
+  {
+    id: 'natural_shapeshifter', name: 'Natural Shapeshifter', icon: 'spell_nature_wispheal', maxPoints: 3, row: 1, col: 3,
+    desc: ["Reduces the mana cost of all shapeshifting by 10%. Whenever you shift into a new form, you regenerate 1% of your total mana over 3 seconds.", "20 / 2", "30 / 3"]
   },
   // TIER 3
   {
@@ -112,7 +130,7 @@ export const DRUID_FERAL_TALENTS: Talent[] = [
   // TIER 2
   {
     id: 'fluid_form', name: 'Fluid Form', icon: 'spell_nature_healingway', maxPoints: 3, row: 1, col: 0,
-    desc: ["After shifting out of Dire Bear, Bear, or Cat form, the cast time of your next Nature or Arcane spell is reduced by 15%.", "30%", "45%"]
+    desc: ["After shifting out of Dire Bear, Bear, or Cat form, the cast time of your next Nature or Arcane spell is reduced by 15%. Shifting into Dire Bear, Bear or Cat form provides 5 Rage or 15 Energy.", "30 / 10 / 30", "45 / 15 / 45"]
   },
   {
     id: 'survival_instincts', name: 'Survival Instincts', icon: 'ability_hunter_survivalinstincts', maxPoints: 3, row: 1, col: 1,
@@ -170,13 +188,8 @@ export const DRUID_FERAL_TALENTS: Talent[] = [
     ]
   },
   {
-    id: 'leader_of_the_pack', name: 'Leader of the Pack', icon: 'spell_nature_unyeildingstamina', maxPoints: 1, row: 4, col: 1,
-    desc: ["While in Cat, Bear or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by 3%."
-    ]
-  },
-  {
-    id: 'faerie_fire_feral', name: 'Faerie Fire (Feral)', icon: 'spell_nature_faeriefire', maxPoints: 1, row: 4, col: 2,
-    desc: ["Decrease the armor of the target by 175 for 40 sec. While active, the target cannot stealth or turn invisible. Useable in Bear and Cat forms."
+    id: 'mangle', name: 'Mangle', icon: 'ability_druid_mangle2', maxPoints: 1, row: 4, col: 2,
+    desc: ["Mangle the target, inflicting damage and causing the target to take 30% additional damage from bleed effects and Shred for 1 min. Awards 1 combo point."
     ]
   },
   {
@@ -189,14 +202,14 @@ export const DRUID_FERAL_TALENTS: Talent[] = [
     desc: ["Increases your Intellect by 4%. In addition, while in Bear Form your Stamina is increased by 4%, and while in Cat Form your Attack Power is increased by 2%.", "8 / 8 / 4", "12 / 12 / 6", "16 / 16 / 8", "20 / 20 / 10"]
   },
   {
-    id: 'lacerating_strikes', name: 'Lacerating Strikes', icon: 'ability_druid_lacerate', maxPoints: 3, row: 5, col: 2,
-    desc: ["Your Maul and Swipe abilities have a 33% chance to cause the target to bleed for 15% of the damage dealt over 6 seconds.", "66%", "100%"]
+    id: 'survival_of_the_fittest', name: 'Survival of the Fittest', icon: 'ability_druid_enrage', maxPoints: 3, row: 5, col: 2,
+    desc: ["Reduces the chance you'll be critically hit by melee attacks by 1%, and increases your total armor contribution from items by 1%.", "2% / 2%", "3% / 3%"]
   },
   // TIER 7
   {
-    id: 'mangle', name: 'Mangle', icon: 'ability_druid_mangle2', maxPoints: 1, row: 6, col: 1,
+    id: 'leader_of_the_pack', name: 'Leader of the Pack', icon: 'spell_nature_unyeildingstamina', maxPoints: 1, row: 6, col: 1,
     requires: { id: 'heart_of_the_wild', points: 5 },
-    desc: ["Mangle the target, inflicting damage and causing the target to take 30% additional damage from bleed effects and Shred for 1 min. Awards 1 combo point. (Replaces Claw)"
+    desc: ["While in Cat, Bear or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by 3%."
     ]
   }
 ];
@@ -217,11 +230,6 @@ export const DRUID_RESTORATION_TALENTS: Talent[] = [
     desc: ["Gives you a 35% chance to avoid interruption caused by damage while casting Healing Touch, Regrowth, or Tranquility.", "70"
     ]
   },
-  {
-    id: 'subtlety', name: 'Subtlety', icon: 'ability_eyeoftheowl', maxPoints: 2, row: 0, col: 3,
-    desc: ["Reduces the threat generated by your Restoration spells by 10%.", "20%"
-    ]
-  },
   // TIER 2
   {
     id: 'furor', name: 'Furor', icon: 'spell_holy_ashestoashes', maxPoints: 3, row: 1, col: 0,
@@ -238,8 +246,9 @@ export const DRUID_RESTORATION_TALENTS: Talent[] = [
     desc: ["Reduces the threat generated by your healing spells by 10%. Whenever you take damage, you have a 10% chance to regenerate 2% of your total mana and health over 4 seconds.", "20 / 20", "30 / 30"]
   },
   {
-    id: 'natural_shapeshifter', name: 'Natural Shapeshifter', icon: 'spell_nature_wispheal', maxPoints: 3, row: 1, col: 3,
-    desc: ["Reduces the mana cost of all shapeshifting by 10%. Whenever you shift into a new form, you regenerate 1% of your total mana over 3 seconds.", "20 / 2", "30 / 3"]
+    id: 'imp_enrage', name: 'Improved Enrage', icon: 'ability_druid_enrage', maxPoints: 2, row: 1, col: 3,
+    desc: ["The Enrage ability now instantly generates 5 Rage.", "10"
+    ]
   },
   // TIER 3
   {
@@ -255,11 +264,6 @@ export const DRUID_RESTORATION_TALENTS: Talent[] = [
   {
     id: 'imp_rejuv', name: 'Improved Rejuvenation', icon: 'spell_nature_rejuvenation', maxPoints: 3, row: 2, col: 2,
     desc: ["Increases the effect of your Rejuvenation spell by 5%, and allows your Rejuvenation ticks to critically heal for 150% of their normal amount.", "10", "15"
-    ]
-  },
-  {
-    id: 'imp_enrage', name: 'Improved Enrage', icon: 'ability_druid_enrage', maxPoints: 2, row: 2, col: 3,
-    desc: ["The Enrage ability now instantly generates 5 Rage.", "10"
     ]
   },
   // TIER 4
@@ -321,10 +325,9 @@ export const CHANGELOG: string[] = [
   "Design Philosophy: A comprehensive modernization bringing TBC/WotLK coherence to the Druid toolkits.",
   "Omen of Clarity: This ability has been made baseline for all Druids.",
   "Nature's Grasp: This ability has been made baseline for all Druids.",
-  "Starfire Wrath: Consolidated from Improved Wrath and Improved Starfire.",
-  "Core Foundation: Starfire Wrath, Natural Weapons, Nature's Reach grouped in Tier 1.",
   "Balance",
   "Identity: Transforms into an astrally-empowered, crit-scaling caster capable of robust multi-dotting and devastating eclipse phases.",
+  "Core Foundation: Improved Wrath, Starlight Wrath, Nature's Grasp improved in Tier 1.",
   "Cross-Pollination: Control of Nature, Improved Moonfire, Brambles organized in Tier 2.",
   "Insect Swarm: Moved down to serve as the defining 11-point anchor.",
   "Reach & Cost: Nature's Reach, Moonglow, and Conjure Moonwell organized in Tier 3.",
@@ -335,18 +338,18 @@ export const CHANGELOG: string[] = [
   "Starfall: Added as the 31-point capstone, providing a spectacular cooldown for burst damage.",
   "Feral Combat",
   "Identity: Becomes a highly fluid shapeshifter with distinct Cat auto-attack engines and Bear mitigation tools unlocked early in the tree.",
-  "Core Foundation: Ferocity, Feral Aggression, Thick Hide grouped in Tier 1. Thick Hide now reduces critical strike chance.",
+  "Core Foundation: Ferocity, Feral Aggression, Thick Hide grouped in Tier 1.",
   "Cross-Pollination: Feral Swiftness, Brutal Impact, Sharpened Claws organized in Tier 2.",
   "Feral Charge: Moved down to serve as the 11-point anchor.",
   "Output & Mitigation: Predatory Strikes, Blood Frenzy, Primal Fury organized in Tier 3.",
   "Savage Fury: Provides a powerful damage modifier for core abilities in Tier 4.",
   "Faerie Fire (Feral): Positioned as the 21-point anchor.",
-  "The Active Engine: Heart of the Wild, Lacerating Strikes organized in Tier 6. Fluid Form no longer generates free energy to prevent infinite powershifting loops.",
+  "The Active Engine: Heart of the Wild, Survival of the Fittest organized in Tier 5 for immense statistical scaling.",
   "Sustain: Leader of the Pack, Improved Mangle organized in Tier 6.",
   "Mangle: Added as the 31-point capstone, replacing Claw and drastically smoothing the rotation.",
   "Restoration",
   "Identity: Solidifies as the ultimate reactive, heal-over-time master by compressing throughput talents and introducing lifebloom mechanics.",
-  "Core Foundation: Improved Mark of the Wild, Furor, Subtlety grouped in Tier 1.",
+  "Core Foundation: Improved Mark of the Wild, Furor, Naturalist grouped in Tier 1.",
   "Cross-Pollination: Nature's Focus, Natural Shapeshifter, Subtlety organized in Tier 2.",
   "Nature's Swiftness: Moved down to serve as the 11-point anchor.",
   "Output: Gift of Nature, Improved Rejuvenation organized in Tier 3.",
