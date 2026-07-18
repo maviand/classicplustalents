@@ -33,11 +33,11 @@ export const DRUID_BALANCE_TALENTS: Talent[] = [
     desc: ["Reduces the Mana cost of your Moonfire, Starfire, Wrath, Healing Touch, Regrowth and Rejuvenation spells by 3%, and your spell critical strikes regenerate mana equal to 15% of the spell's base cost.", "6 / 30", "9 / 45"]
   },
   {
-    id: 'conjure_moonwell', name: 'Conjure Moonwell', icon: 'spell_nature_wispsplode', maxPoints: 1, row: 2, col: 1,
+    id: 'conjure_moonwell', name: 'Conjure Moonwell', icon: 'spell_nature_wispsplode', maxPoints: 1, row: 2, col: 2,
     desc: ["Conjures a Moonwell at the caster's feet for 15 seconds. You and all party members standing within 10 yards of the Moonwell gain Elune's Blessing, which reduces the cast time of all spells by 0.5 seconds and restores 2% of maximum mana every 3 seconds. 3 minute cooldown."]
   },
   {
-    id: 'imp_faerie_fire', name: 'Improved Faerie Fire', icon: 'spell_nature_faeriefire', maxPoints: 3, row: 2, col: 2,
+    id: 'imp_faerie_fire', name: 'Improved Faerie Fire', icon: 'spell_nature_faeriefire', maxPoints: 3, row: 2, col: 3,
     desc: ["Your Faerie Fire spell also increases the chance the target will be hit by melee and ranged attacks by 1%.", "2%", "3%"]
   },
   // TIER 4
@@ -122,12 +122,12 @@ export const DRUID_FERAL_TALENTS: Talent[] = [
   },
   // TIER 3
   {
-    id: 'feral_charge', name: 'Feral Charge', icon: 'ability_hunter_pet_bear', maxPoints: 1, row: 2, col: 0,
-    desc: ["Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec."]
+    id: 'predatory_strikes', name: 'Predatory Strikes', icon: 'ability_hunter_pet_cat', maxPoints: 3, row: 2, col: 0,
+    desc: ["Increases your melee attack power in Cat, Bear and Dire Bear Forms by 50% of your level. Your Shred and Ravage abilities ignore 10% of the target's armor.", "100 / 20", "150 / 30"]
   },
   {
-    id: 'predatory_strikes', name: 'Predatory Strikes', icon: 'ability_hunter_pet_cat', maxPoints: 3, row: 2, col: 1,
-    desc: ["Increases your melee attack power in Cat, Bear and Dire Bear Forms by 50% of your level. Your Shred and Ravage abilities ignore 10% of the target's armor.", "100 / 20", "150 / 30"]
+    id: 'feral_charge', name: 'Feral Charge', icon: 'ability_hunter_pet_bear', maxPoints: 1, row: 2, col: 1,
+    desc: ["Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec."]
   },
   {
     id: 'sharpened_claws', name: 'Sharpened Claws', icon: 'inv_misc_monsterclaw_04', maxPoints: 3, row: 2, col: 2,
@@ -158,8 +158,8 @@ export const DRUID_FERAL_TALENTS: Talent[] = [
     desc: ["Increases the damage caused by your Claw, Rake, Maul and Swipe abilities by 10%.", "20"]
   },
   {
-    id: 'faerie_fire_feral', name: 'Faerie Fire (Feral)', icon: 'spell_nature_faeriefire', maxPoints: 1, row: 4, col: 1,
-    desc: ["A decrease in armor of the target by X for 40 sec. While active, the target cannot stealth or turn invisible. Can be used in Bear or Cat form."]
+    id: 'leader_of_the_pack', name: 'Leader of the Pack', icon: 'spell_nature_unyeildingstamina', maxPoints: 1, row: 4, col: 1,
+    desc: ["While in Cat, Bear or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by 3%."]
   },
   {
     id: 'primal_flurry', name: 'Primal Flurry', icon: 'ability_ghoulfrenzy', maxPoints: 3, row: 4, col: 2,
@@ -169,10 +169,6 @@ export const DRUID_FERAL_TALENTS: Talent[] = [
   {
     id: 'heart_of_the_wild', name: 'Heart of the Wild', icon: 'spell_holy_blessingofagility', maxPoints: 5, row: 5, col: 0,
     desc: ["Increases your Intellect by 4%. In addition, while in Bear Form your Stamina is increased by 4%, and while in Cat Form your Attack Power is increased by 2%.", "8 / 8 / 4", "12 / 12 / 6", "16 / 16 / 8", "20 / 20 / 10"]
-  },
-  {
-    id: 'leader_of_the_pack', name: 'Leader of the Pack', icon: 'spell_nature_unyeildingstamina', maxPoints: 1, row: 5, col: 1,
-    desc: ["While in Cat, Bear or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by 3%."]
   },
   {
     id: 'survival_of_the_fittest', name: 'Survival of the Fittest', icon: 'ability_druid_enrage', maxPoints: 3, row: 5, col: 2,
@@ -219,15 +215,15 @@ export const DRUID_RESTORATION_TALENTS: Talent[] = [
   },
   // TIER 3
   {
-    id: 'natures_swiftness', name: "Nature's Swiftness", icon: 'spell_nature_ravenform', maxPoints: 1, row: 2, col: 0,
-    desc: ["When activated, your next Nature spell with a casting time less than 10 sec becomes an instant cast spell. 3 min cooldown."]
-  },
-  {
-    id: 'reflection', name: 'Reflection', icon: 'spell_frost_windwalkon', maxPoints: 3, row: 2, col: 1,
+    id: 'reflection', name: 'Reflection', icon: 'spell_frost_windwalkon', maxPoints: 3, row: 2, col: 0,
     desc: ["Allows 5% of your Mana regeneration to continue while casting.", "10", "15"]
   },
   {
-    id: 'imp_rejuv', name: 'Improved Rejuvenation', icon: 'spell_nature_rejuvenation', maxPoints: 3, row: 2, col: 2,
+    id: 'natures_swiftness', name: "Nature's Swiftness", icon: 'spell_nature_ravenform', maxPoints: 1, row: 2, col: 1,
+    desc: ["When activated, your next Nature spell with a casting time less than 10 sec becomes an instant cast spell. 3 min cooldown."]
+  },
+  {
+    id: 'imp_rejuv', name: 'Improved Rejuvenation', icon: 'spell_nature_rejuvenation', maxPoints: 3, row: 2, col: 3,
     desc: ["Increases the effect of your Rejuvenation spell by 5%, and allows your Rejuvenation ticks to critically heal for 150% of their normal amount.", "10", "15"]
   },
   // TIER 4
@@ -249,16 +245,17 @@ export const DRUID_RESTORATION_TALENTS: Talent[] = [
     desc: ["Increases the critical effect chance of your Regrowth and Healing Touch spells by 10%.", "20", "30", "40", "50"]
   },
   {
-    id: 'swiftmend', name: 'Swiftmend', icon: 'inv_relics_idolofrejuvenation', maxPoints: 1, row: 4, col: 1,
-    desc: ["Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them for an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth."]
-  },
-  {
-    id: 'tree_of_life', name: 'Tree of Life Form', icon: 'ability_druid_treeoflife', maxPoints: 1, row: 4, col: 2,
+    id: 'tree_of_life', name: 'Tree of Life Form', icon: 'ability_druid_treeoflife', maxPoints: 1, row: 4, col: 1,
     requires: { id: 'empowered_rejuvenation', points: 5 },
     desc: ["Transforms the Druid into a Tree of Life. While in this form, healing received by all party members within 45 yards is increased by 10% and you can only cast Restoration spells."]
   },
   {
+    id: 'swiftmend', name: 'Swiftmend', icon: 'inv_relics_idolofrejuvenation', maxPoints: 1, row: 4, col: 2,
+    desc: ["Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them for an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth."]
+  },
+  {
     id: 'living_seed', name: 'Living Seed', icon: 'spell_nature_naturetouchgrow', maxPoints: 2, row: 4, col: 3,
+    requires: { id: 'imp_rejuv', points: 3 },
     desc: ["When you critically heal your target with Healing Touch or Regrowth, you plant a Living Seed on the target for 15% of the amount healed. The Living Seed will bloom when the target is next attacked, healing them.", "30"]
   },
   // TIER 6
