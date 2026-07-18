@@ -439,7 +439,7 @@ export default function App() {
 
       {/* Header Panel */}
       <header 
-        className="text-center mb-8 z-10 w-full max-w-[1050px] flex flex-col items-center gap-5 rounded-sm overflow-hidden relative"
+        className="text-center mb-4 z-10 w-full max-w-[1050px] flex flex-col items-center gap-4 rounded-sm overflow-hidden relative"
         style={{
           border: "3px solid #483e30",
           boxShadow: "inset 0 0 0 2px #0f0905, 0 8px 30px rgba(0,0,0,0.95)"
@@ -451,16 +451,16 @@ export default function App() {
         ></div>
         <div className="absolute inset-0 z-0 bg-gradient-to-b from-transparent to-[#0a0705] opacity-90"></div>
 
-        <div className="relative z-10 p-6 md:p-8 pt-8 md:pt-10 flex flex-col items-center w-full">
+        <div className="relative z-10 p-4 md:p-5 pt-4 md:pt-5 flex flex-col items-center w-full">
           <div className="text-center relative">
-            <h1 className="wow-title font-bold tracking-tight mb-2">
+            <h1 className="wow-title font-bold tracking-tight mb-1 text-3xl md:text-4xl">
               Classic+ Talents
             </h1>
-            <p className="text-[#a69882] text-sm md:text-base font-medium tracking-wide">A Community Theorycrafted Reimagining of the Original Talent Trees</p>
+            <p className="text-[#a69882] text-xs md:text-sm font-medium tracking-wide">A Community Theorycrafted Reimagining of the Original Talent Trees</p>
           </div>
 
           {/* Desktop Class Tab Navigation */}
-          <nav className="hidden lg:flex flex-wrap justify-center items-center gap-3 w-full mt-6" aria-label="Desktop Class selection">
+          <nav className="hidden lg:flex flex-wrap justify-center items-center gap-3 w-full mt-4" aria-label="Desktop Class selection">
             {CLASSES.map((cls) => {
               const isActive = activeClass === cls.name;
               return (
@@ -501,7 +501,7 @@ export default function App() {
           </div>
 
           {/* Points counter and Build Controls */}
-          <div className="w-full flex justify-between items-end mt-8 border-t border-[#31281A]/60 pt-4 pb-0 flex-wrap gap-4">
+          <div className="w-full flex justify-between items-end mt-5 border-t border-[#31281A]/60 pt-4 pb-0 flex-wrap gap-4">
             <div className={`flex flex-col p-2 rounded transition-all ${pointsFlash ? 'animate-flash' : ''}`}>
               <span className="text-[#ffd100] font-bold text-xl wow-header">Points Spent: <span className="text-white wow-mono">{totalPoints}</span><span className="text-[#8c7e6b]">/51</span></span>
               <span className="text-[#a69882] text-sm font-medium">Points Left: <span className="text-white wow-mono">{Math.max(0, 51 - totalPoints)}</span></span>
@@ -559,7 +559,7 @@ export default function App() {
           </div>
 
           {/* Import/Export URL sharing */}
-          <div className="w-full flex flex-wrap justify-between items-center gap-4 mt-4 pt-3 border-t border-[#31281A]/30">
+          <div className="w-full flex flex-wrap justify-between items-center gap-4 mt-3 pt-3 border-t border-[#31281A]/30">
             <div className="flex items-center gap-2 w-full sm:w-auto">
               <span className="text-xs text-[#a69882] font-semibold whitespace-nowrap">Import:</span>
               <input 
