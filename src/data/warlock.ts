@@ -106,52 +106,40 @@ export const WARLOCK_AFFLICTION_TALENTS: Talent[] = [
     ],
   },
   {
-    id: "siphon_life",
-    name: "Siphon Life",
-    icon: "spell_shadow_requiem",
-    maxPoints: 1,
-    row: 2,
-    col: 2,
-    requires: { id: "nightfall", points: 3 },
-    desc: [
-      "Transfers X health from the target to the caster every 3 seconds for 30 seconds.",
-    ],
-  },
-  {
     id: "empowered_corruption",
     name: "Empowered Corruption",
     icon: "spell_shadow_abominationexplosion",
     maxPoints: 3,
     row: 2,
-    col: 1,
+    col: 2,
     desc: [
       "Your Corruption spell gains an additional 12% of your bonus spell damage effects.",
       "24%",
       "36%",
     ],
   },
+  {
+    id: "siphon_life",
+    name: "Siphon Life",
+    icon: "spell_shadow_requiem",
+    maxPoints: 1,
+    row: 2,
+    col: 1,
+    requires: { id: "nightfall", points: 3 },
+    desc: [
+      "Transfers X health from the target to the caster every 3 seconds for 30 seconds.",
+    ],
+  },
 
   // Tier 4
   { id: 'everlasting_affliction', name: 'Everlasting Affliction', icon: 'spell_shadow_chilltouch', maxPoints: 2, row: 3, col: 0, desc: ["Your Corruption spell has a 33% chance to be automatically refreshed when you cast Drain Life, Drain Soul, or Shadow Bolt.", "66%"] },
-  {
-    id: "master_of_curses",
-    name: "Master of Curses",
-    icon: "spell_shadow_curseofmannoroth",
-    maxPoints: 2,
-    row: 3,
-    col: 1,
-    desc: [
-      "Increases the damage done by your Curse of Agony by 5%, and increases the movement speed reduction of your Curse of Exhaustion by an additional 10%.",
-      "10% / 20%",
-    ],
-  },
   {
     id: "shadow_mastery",
     name: "Shadow Mastery",
     icon: "spell_shadow_shadetruesight",
     maxPoints: 5,
     row: 3,
-    col: 2,
+    col: 1,
     requires: { id: "siphon_life", points: 1 },
     desc: [
       "Increases the damage dealt or life drained by your Shadow spells by 2%.",
@@ -159,6 +147,18 @@ export const WARLOCK_AFFLICTION_TALENTS: Talent[] = [
       "6%",
       "8%",
       "10%",
+    ],
+  },
+  {
+    id: "master_of_curses",
+    name: "Master of Curses",
+    icon: "spell_shadow_curseofmannoroth",
+    maxPoints: 2,
+    row: 3,
+    col: 2,
+    desc: [
+      "Increases the damage done by your Curse of Agony by 5%, and increases the movement speed reduction of your Curse of Exhaustion by an additional 10%.",
+      "10% / 20%",
     ],
   },
 

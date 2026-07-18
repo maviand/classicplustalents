@@ -4,7 +4,7 @@ export const PRIEST_DISC_TALENTS: Talent[] = [
   // Tier 1
   { id: 'unbreakable_will', name: 'Unbreakable Will', icon: 'spell_magic_magearmor', maxPoints: 5, row: 0, col: 0, desc: ["Reduces the duration of Stun, Fear, and Silence effects done to you by 3%.", "6%", "9%", "12%", "15%"] },
   { id: 'wand_spec', name: 'Wand Specialization', icon: 'inv_wand_01', maxPoints: 3, row: 0, col: 1, desc: ["Increases your damage with Wands by 8%.", "17%", "25%"] },
-  { id: 'imp_pwf', name: 'Improved Power Word: Fortitude', icon: 'spell_holy_wordfortitude', maxPoints: 3, row: 0, col: 2, desc: ["Increases the effect of your Power Word: Fortitude and Prayer of Fortitude spells by 10%.", "20%", "30%"] },
+  { id: 'imp_pwf', name: 'Improved Power Word: Fortitude', icon: 'spell_holy_wordfortitude', maxPoints: 2, row: 0, col: 2, desc: ["Increases the effect of your Power Word: Fortitude and Prayer of Fortitude spells by 15%.", "30%"] },
 
   // Tier 2
   { id: 'imp_pws', name: 'Improved Power Word: Shield', icon: 'spell_holy_powerwordshield', maxPoints: 3, row: 1, col: 0, desc: ["Increases the damage absorbed by your Power Word: Shield by 10%.", "20%", "30%"] },
@@ -13,7 +13,7 @@ export const PRIEST_DISC_TALENTS: Talent[] = [
   { id: 'imp_inner_fire', name: 'Improved Inner Fire', icon: 'spell_holy_innerfire', maxPoints: 2, row: 1, col: 3, desc: ["Increases the Armor bonus of your Inner Fire spell by 15% and increases the number of charges by 10.", "30% / 20 charges"] },
 
   // Tier 3
-  { id: 'mental_strength', name: 'Mental Strength', icon: 'spell_nature_enchantarmor', maxPoints: 5, row: 2, col: 3, desc: ["Increases your maximum Mana by 2%.", "4%", "6%", "8%", "10%"] },
+  { id: 'mental_strength', name: 'Mental Strength', icon: 'spell_nature_enchantarmor', maxPoints: 3, row: 2, col: 3, desc: ["Increases your maximum Mana by 4%.", "7%", "10%"] },
   { id: 'inner_focus', name: 'Inner Focus', icon: 'spell_frost_windwalkon', maxPoints: 1, row: 2, col: 1, desc: ["When activated, reduces the Mana cost of your next spell by 100% and increases its critical effect chance by 25% if it is capable of a critical effect. 3 minute cooldown."] },
   { id: 'meditation', name: 'Meditation', icon: 'spell_nature_sleep', maxPoints: 3, row: 2, col: 2, desc: ["Allows 10% of your Mana regeneration to continue while casting.", "20%", "30%"] },
 
@@ -99,8 +99,8 @@ export const PRIEST_SHADOW_TALENTS: Talent[] = [
 
   // Tier 6
   { id: 'shadow_power', name: 'Shadow Power', icon: 'spell_shadow_shadowpower', maxPoints: 2, row: 5, col: 0, desc: ["Increases the critical strike damage bonus of your Mind Blast and Shadow Word: Death spells by 50%.", "100%"] },
-  { id: 'pain_and_suffering', name: 'Pain and Suffering', icon: 'spell_shadow_painandsuffering', maxPoints: 3, row: 5, col: 1, desc: ["Your Mind Flay ticks have a 33% chance to refresh the duration of your Shadow Word: Pain on the target.", "66%", "100%"] },
-  { id: 'misery', name: 'Misery', icon: 'spell_shadow_misery', maxPoints: 3, row: 5, col: 2, desc: ["Your Shadow Word: Pain, Mind Flay, and Vampiric Touch spells also increase the spell damage taken by the target by 1%.", "2%", "3%"] },
+  { id: 'pain_and_suffering', name: 'Pain and Suffering', icon: 'spell_shadow_painandsuffering', maxPoints: 3, row: 5, col: 2, desc: ["Your Mind Flay ticks have a 33% chance to refresh the duration of your Shadow Word: Pain on the target.", "66%", "100%"] },
+  { id: 'misery', name: 'Misery', icon: 'spell_shadow_misery', maxPoints: 3, row: 5, col: 3, desc: ["Your Shadow Word: Pain, Mind Flay, and Vampiric Touch spells also increase the spell damage taken by the target by 1%.", "2%", "3%"] },
 
   // Tier 7
   { id: 'vampiric_touch', name: 'Vampiric Touch', icon: 'spell_holy_stoicism', maxPoints: 1, row: 6, col: 1, requires: { id: 'shadowform', points: 1 }, desc: ["Causes Shadow damage over 15 seconds to your target and causes all party members to gain mana equal to 5% of any Shadow damage you deal."] }

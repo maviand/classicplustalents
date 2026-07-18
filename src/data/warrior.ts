@@ -75,24 +75,24 @@ export const WARRIOR_PROTECTION_TALENTS: Talent[] = [
 
 export const WARRIOR_FURY_TALENTS: Talent[] = [
   // Tier 1
+  { id: 'unbridled_wrath', name: 'Unbridled Wrath', icon: 'spell_nature_stoneclawtotem', maxPoints: 3, row: 0, col: 0, desc: ["Gives you a 15% chance to generate an additional Rage point when you deal melee damage with a weapon.", "30%", "45%"] },
   { id: 'cruelty', name: 'Cruelty', icon: 'ability_rogue_eviscerate', maxPoints: 5, row: 0, col: 1, desc: ["Increases your chance to get a critical strike with melee weapons by 0.6%.", "1.2%", "1.8%", "2.4%", "3.0%"] },
-  { id: 'unbridled_wrath', name: 'Unbridled Wrath', icon: 'spell_nature_stoneclawtotem', maxPoints: 3, row: 0, col: 2, desc: ["Gives you a 15% chance to generate an additional Rage point when you deal melee damage with a weapon.", "30%", "45%"] },
-  { id: 'imp_battle_shout', name: 'Improved Battle Shout', icon: 'ability_warrior_battleshout', maxPoints: 2, row: 0, col: 0, desc: ["Increases the melee attack power bonus of your Battle Shout by 13%.", "25%"] },
+  { id: 'imp_battle_shout', name: 'Improved Battle Shout', icon: 'ability_warrior_battleshout', maxPoints: 2, row: 0, col: 2, desc: ["Increases the melee attack power bonus of your Battle Shout by 13%.", "25%"] },
 
   // Tier 2
-  { id: 'enrage', name: 'Enrage', icon: 'spell_shadow_unholyfrenzy', maxPoints: 3, row: 1, col: 1, requires: { id: 'cruelty', points: 5 }, desc: ["Gives you a 10% melee damage bonus for 12 seconds up to a maximum of 12 swings after being the victim of a critical strike.", "20%", "30%"] },
-  { id: 'imp_cleave', name: 'Improved Cleave', icon: 'ability_warrior_cleave', maxPoints: 3, row: 1, col: 2, desc: ["Increases the bonus damage done by your Cleave by 40%.", "80%", "120%"] },
-  { id: 'imp_demoralizing_shout', name: 'Improved Demoralizing Shout', icon: 'ability_warrior_warcry', maxPoints: 2, row: 1, col: 0, desc: ["Increases the melee AP reduction of Demoralizing Shout by 20% and increases the daze duration of the baseline Piercing Howl by 1 sec.", "40% / 2 sec"] },
+  { id: 'imp_cleave', name: 'Improved Cleave', icon: 'ability_warrior_cleave', maxPoints: 3, row: 1, col: 0, desc: ["Increases the bonus damage done by your Cleave by 40%.", "80%", "120%"] },
+  { id: 'imp_demoralizing_shout', name: 'Improved Demoralizing Shout', icon: 'ability_warrior_warcry', maxPoints: 2, row: 1, col: 1, desc: ["Increases the melee AP reduction of Demoralizing Shout by 20% and increases the daze duration of the baseline Piercing Howl by 1 sec.", "40% / 2 sec"] },
+  { id: 'enrage', name: 'Enrage', icon: 'spell_shadow_unholyfrenzy', maxPoints: 3, row: 1, col: 2, desc: ["Gives you a 10% melee damage bonus for 12 seconds up to a maximum of 12 swings after being the victim of a critical strike.", "20%", "30%"] },
   { id: 'blood_craze', name: 'Blood Craze', icon: 'spell_shadow_summonimp', maxPoints: 3, row: 1, col: 3, desc: ["Regenerates 2% of your total Health over 6 seconds after being the victim of a critical strike.", "4%", "6%"] },
 
   // Tier 3
+  { id: 'dual_wield_spec', name: 'Dual Wield Specialization', icon: 'ability_dualwield', maxPoints: 5, row: 2, col: 0, desc: ["Increases the damage done by your offhand melee weapon by 5%.", "10%", "15%", "20%", "25%"] },
   { id: 'death_wish', name: 'Death Wish', icon: 'spell_shadow_deathpact', maxPoints: 1, row: 2, col: 1, desc: ["When activated, increases your physical damage by 20% and makes you immune to Fear effects, but lowers your armor and all resistances by 20%. Lasts 30 sec. 3 minute cooldown."] },
-  { id: 'dual_wield_spec', name: 'Dual Wield Specialization', icon: 'ability_dualwield', maxPoints: 5, row: 2, col: 2, desc: ["Increases the damage done by your offhand melee weapon by 5%.", "10%", "15%", "20%", "25%"] },
   { id: 'imp_execute', name: 'Improved Execute', icon: 'inv_sword_48', maxPoints: 2, row: 2, col: 3, desc: ["Reduces the Rage cost of your Execute ability by 2.", "5"] },
 
   // Tier 4
-  { id: 'flurry', name: 'Flurry', icon: 'ability_ghoulfrenzy', maxPoints: 5, row: 3, col: 0, requires: { id: 'enrage', points: 3 }, desc: ["Increases your attack speed by 10% for your next 3 swings after dealing a melee critical strike.", "15%", "20%", "25%", "30%"] },
-  { id: 'battle_trance', name: 'Battle Trance', icon: 'spell_nature_bloodlust', maxPoints: 2, row: 3, col: 2, desc: ["Your melee critical strikes increase your melee attack power by 5% for 10 seconds.", "10%"] },
+  { id: 'battle_trance', name: 'Battle Trance', icon: 'spell_nature_bloodlust', maxPoints: 2, row: 3, col: 0, desc: ["Your melee critical strikes increase your melee attack power by 5% for 10 seconds.", "10%"] },
+  { id: 'flurry', name: 'Flurry', icon: 'ability_ghoulfrenzy', maxPoints: 5, row: 3, col: 2, requires: { id: 'enrage', points: 3 }, desc: ["Increases your attack speed by 10% for your next 3 swings after dealing a melee critical strike.", "15%", "20%", "25%", "30%"] },
   { id: 'imp_slam', name: 'Improved Slam', icon: 'ability_warrior_decisivestrike', maxPoints: 2, row: 3, col: 3, desc: ["Reduces the cast time of your Slam ability by 0.5 seconds.", "1.0 seconds"] },
 
   // Tier 5
