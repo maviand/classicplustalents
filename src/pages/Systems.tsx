@@ -70,6 +70,13 @@ export default function Systems() {
                 Set bonuses scale with the raid-size curve. 10-player tiers carry tighter 2-and-4-piece bonuses, 20-player tiers carry the traditional 2/4/6 spread, and Naxxramas's 40-player set is the only tier with a full 8-piece bonus.
               </p>
             </div>
+
+            <div className="bg-[#1a140e] p-5 rounded border border-[#3c3224] shadow-md relative overflow-hidden">
+              <h3 className="text-[#ffd100] font-bold mb-3 text-lg">Itemization & Scaling</h3>
+              <p className="text-sm text-[#d3c8b8] leading-relaxed">
+                Item stats, iLvl ranges, and mob HP get a comprehensive touch-up to support Camelot's progression. For example, Molten Core now drops iLvl 63-68 gear, while Blackwing Lair drops iLvl 67-71. This flattened scaling ensures that new parallel raids and dungeons remain relevant longer without trivializing previous tiers.
+              </p>
+            </div>
           </div>
 
           <div className="mt-8 bg-[#16120e] p-5 border border-[#3c3224] rounded shadow-md">
@@ -126,9 +133,19 @@ export default function Systems() {
                     <td className="p-3">Wildhammer, Forest Troll, Goblin, Dark Iron allied races; Azshara hub & BG; Tanaris pirate isles; guild halls unlock.</td>
                   </tr>
                   <tr className="border-b border-[#3c3224]/50">
-                    <td className="p-3 font-bold text-white">Phase 4</td>
+                    <td className="p-3 font-bold text-white">Phase 4.1</td>
                     <td className="p-3 font-bold text-[#ffd100]">60</td>
-                    <td className="p-3">Furbolg and High Elf allied races; Hyjal zone opens; Dark Portal destroyed; Crimson Atoll PvP island; Mazthoril Deeps; Demon Fall Canyon.</td>
+                    <td className="p-3">Fresh level 60 cap. Mazthoril Deeps and Demon Fall Canyon dungeons open to gear up.</td>
+                  </tr>
+                  <tr className="border-b border-[#3c3224]/50">
+                    <td className="p-3 font-bold text-white">Phase 4.2</td>
+                    <td className="p-3 font-bold text-[#ffd100]">60</td>
+                    <td className="p-3">Crimson Atoll PvP island launches, igniting the endgame Banner War.</td>
+                  </tr>
+                  <tr className="border-b border-[#3c3224]/50">
+                    <td className="p-3 font-bold text-white">Phase 4.3</td>
+                    <td className="p-3 font-bold text-[#ffd100]">60</td>
+                    <td className="p-3">Furbolg and High Elf allied races unlock. Hyjal zone opens, and the Dark Portal is destroyed.</td>
                   </tr>
                 </tbody>
               </table>

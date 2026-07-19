@@ -155,7 +155,7 @@ export default function PvE() {
             <h3 className="text-xl font-bold text-white mb-4">Raid Release Schedule</h3>
             <p className="text-[#a69882] text-sm mb-4">
               Raid sizes are retooled on the Season of Discovery model. Camelot does not flatten every raid to one size, though: scale is a design tool, 
-              and the classical tier sizes are restored and re-used deliberately.
+              and the classical tier sizes are restored and re-used deliberately. Furthermore, <strong>parallel raids</strong> are introduced to the same tiers (e.g., Grim Batol running alongside BWL) so players have multiple avenues of progression with sideways upgrades rather than a strictly vertical climb.
             </p>
             <div className="overflow-x-auto">
               <table className="w-full text-left border-collapse">
