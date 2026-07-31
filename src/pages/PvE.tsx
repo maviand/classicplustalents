@@ -95,6 +95,18 @@ export default function PvE() {
                             ))}
                           </div>
                         </div>
+                        <div className="bg-[#0b0907] p-3 rounded border border-[#3c3224]/50 border-l-2 border-l-[#a335ee] mt-4">
+                          <span className="text-[#a69882] text-xs uppercase tracking-wider font-bold block mb-2">Massive Loot Table:</span>
+                          <div className="flex flex-col gap-1 max-h-48 overflow-y-auto custom-scrollbar pr-2">
+                            {wing.loot.map((item: any, j: number) => (
+                              <div key={j} className="flex justify-between items-center text-sm bg-[#120e0a] p-1.5 rounded border border-[#3c3224]/30">
+                                <span className="text-[#0070dd] font-bold">{item.name}</span>
+                                <span className="text-[#a69882] text-xs">{item.type}</span>
+                                <span className="text-[#1eff00] text-xs ml-2 truncate max-w-[200px]" title={item.effect}>{item.effect}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
                       </div>
                     ))}
                   </div>
@@ -102,14 +114,29 @@ export default function PvE() {
 
                 {/* Render Bosses for Raids */}
                 {'bosses' in selectedDungeonData && !('wings' in selectedDungeonData) && (
-                  <div className="bg-[#1a140e] border border-[#3c3224] p-5 rounded-lg shadow-inner">
-                    <h4 className="text-[#ff8000] text-sm font-bold uppercase tracking-wider mb-4">Raid Encounters</h4>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                      {(selectedDungeonData as any).bosses.map((boss: string, i: number) => (
-                        <div key={i} className="bg-[#0b0907] p-3 rounded border border-[#3c3224]/50 text-[#a335ee] text-sm font-medium border-l-2 border-l-[#a335ee]">
-                          {boss}
-                        </div>
-                      ))}
+                  <div className="space-y-6">
+                    <div className="bg-[#1a140e] border border-[#3c3224] p-5 rounded-lg shadow-inner">
+                      <h4 className="text-[#ff8000] text-sm font-bold uppercase tracking-wider mb-4">Raid Encounters</h4>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        {(selectedDungeonData as any).bosses.map((boss: string, i: number) => (
+                          <div key={i} className="bg-[#0b0907] p-3 rounded border border-[#3c3224]/50 text-[#a335ee] text-sm font-medium border-l-2 border-l-[#a335ee]">
+                            {boss}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    
+                    <div className="bg-[#1a140e] border border-[#3c3224] p-5 rounded-lg shadow-inner">
+                      <h4 className="text-[#a335ee] text-sm font-bold uppercase tracking-wider mb-4">Massive Raid Loot Table</h4>
+                      <div className="flex flex-col gap-1 max-h-64 overflow-y-auto custom-scrollbar pr-2">
+                        {(selectedDungeonData as any).loot.map((item: any, j: number) => (
+                          <div key={j} className="flex justify-between items-center text-sm bg-[#0b0907] p-2 rounded border border-[#3c3224]/50">
+                            <span className="text-[#a335ee] font-bold">{item.name}</span>
+                            <span className="text-[#a69882] text-xs">{item.type}</span>
+                            <span className="text-[#1eff00] text-xs ml-2 truncate max-w-[300px]" title={item.effect}>{item.effect}</span>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 )}
