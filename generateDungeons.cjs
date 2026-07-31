@@ -22,10 +22,36 @@ function getRandom(arr) {
 function generateLoot(count) {
   const loot = [];
   for (let i = 0; i < count; i++) {
+    const isEpic = Math.random() > 0.7;
+    const rarity = isEpic ? 'Epic' : 'Rare';
+    const type = getRandom(['Plate', 'Mail', 'Leather', 'Cloth', 'Ring', 'Trinket', 'Weapon', 'Shield']);
+    
+    let slot = '';
+    if (type === 'Ring') slot = 'Finger';
+    else if (type === 'Trinket') slot = 'Trinket';
+    else if (type === 'Weapon') slot = getRandom(['Main Hand', 'One-Hand', 'Two-Hand', 'Ranged']);
+    else if (type === 'Shield') slot = 'Off Hand';
+    else slot = getRandom(['Head', 'Shoulder', 'Chest', 'Wrist', 'Hands', 'Waist', 'Legs', 'Feet']);
+
+    const stats = [];
+    if (type !== 'Trinket') {
+      const statTypes = ['Stamina', 'Intellect', 'Agility', 'Strength', 'Spirit'];
+      stats.push(`+${Math.floor(Math.random() * 20 + 5)} ${getRandom(statTypes)}`);
+      if (Math.random() > 0.5) {
+        stats.push(`+${Math.floor(Math.random() * 15 + 5)} ${getRandom(statTypes)}`);
+      }
+    }
+
     loot.push({
       name: `${getRandom(dPrefixes)} ${getRandom(dSuffixes)}`,
-      type: getRandom(['Plate', 'Mail', 'Leather', 'Cloth', 'Ring', 'Trinket', 'Weapon']),
-      effect: getRandom(dEffects)
+      rarity,
+      bindType: 'Binds when picked up',
+      slot,
+      type: type === 'Weapon' ? getRandom(['Sword', 'Mace', 'Axe', 'Staff', 'Dagger', 'Bow']) : type,
+      stats,
+      effect: getRandom(dEffects),
+      requiresLevel: 60,
+      sellPrice: `${Math.floor(Math.random() * 10 + 1)}g ${Math.floor(Math.random() * 99)}s`
     });
   }
   return loot;

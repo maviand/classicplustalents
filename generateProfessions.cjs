@@ -27,11 +27,52 @@ function getRandom(arr) {
 function generateRecipes(count, typeGen, nameGen) {
   const recipes = [];
   for (let i = 0; i < count; i++) {
+    const rawType = typeGen();
+    const isEpic = Math.random() > 0.8;
+    const rarity = isEpic ? 'Epic' : 'Rare';
+    
+    let slot = '';
+    let itemType = rawType;
+    if (rawType === 'Weapon') {
+      slot = getRandom(['Main Hand', 'Two-Hand']);
+      itemType = getRandom(['Sword', 'Axe', 'Mace']);
+    } else if (rawType === 'Shield') {
+      slot = 'Off Hand';
+    } else if (rawType === 'Heavy Armor') {
+      slot = getRandom(['Chest', 'Legs', 'Shoulder', 'Head', 'Hands', 'Feet']);
+      itemType = getRandom(['Plate', 'Mail']);
+    } else if (rawType === 'Trinket' || rawType === 'Gadget') {
+      slot = 'Trinket';
+    } else if (rawType === 'Explosive' || rawType === 'Flask' || rawType === 'Elixir' || rawType === 'Potion') {
+      itemType = 'Consumable';
+    } else if (rawType === 'Scope') {
+      itemType = 'Item Enhancement';
+    } else if (rawType === 'Mount') {
+      itemType = 'Mount';
+    } else if (rawType === 'Transmute') {
+      itemType = 'Trade Goods';
+    }
+
+    const stats = [];
+    if (slot && slot !== 'Trinket' && itemType !== 'Consumable' && itemType !== 'Item Enhancement') {
+      const statTypes = ['Stamina', 'Intellect', 'Agility', 'Strength', 'Spirit'];
+      stats.push(`+${Math.floor(Math.random() * 20 + 5)} ${getRandom(statTypes)}`);
+      if (Math.random() > 0.5) {
+        stats.push(`+${Math.floor(Math.random() * 15 + 5)} ${getRandom(statTypes)}`);
+      }
+    }
+
     recipes.push({
       name: nameGen(),
-      type: typeGen(),
+      rarity,
+      bindType: itemType === 'Consumable' || itemType === 'Item Enhancement' || itemType === 'Trade Goods' ? '' : 'Binds when equipped',
+      slot,
+      type: itemType,
+      stats,
       effect: getRandom(effects),
-      mats: `${Math.floor(Math.random() * 20 + 5)}x ${getRandom(materials)}, ${Math.floor(Math.random() * 10 + 2)}x ${getRandom(materials)}`
+      requiresLevel: 60,
+      mats: `${Math.floor(Math.random() * 20 + 5)}x ${getRandom(materials)}, ${Math.floor(Math.random() * 10 + 2)}x ${getRandom(materials)}`,
+      sellPrice: `${Math.floor(Math.random() * 5 + 1)}g ${Math.floor(Math.random() * 99)}s`
     });
   }
   return recipes;

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { WowTooltip } from '../components/WowTooltip';
+import { WowSpell } from '../types/items';
 
 const CLASS_ROSTER = [
   'Warrior', 'Paladin', 'Hunter', 'Rogue', 'Priest', 
@@ -7,6 +9,21 @@ const CLASS_ROSTER = [
 
 export default function Classes() {
   const [activeClass, setActiveClass] = useState('Warrior');
+  const [hoveredSpell, setHoveredSpell] = useState<{ spell: WowSpell, rect: DOMRect } | null>(null);
+
+  const handleSpellEnter = (e: React.MouseEvent, ability: any) => {
+    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+    const spell: WowSpell = {
+      name: ability.name,
+      castTime: ability.type,
+      description: ability.desc
+    };
+    setHoveredSpell({ spell, rect });
+  };
+
+  const handleSpellLeave = () => {
+    setHoveredSpell(null);
+  };
 
   const classData = {
     Warrior: {
@@ -155,6 +172,8 @@ export default function Classes() {
 
   return (
     <div className="space-y-8 animate-in fade-in duration-700 pb-20">
+      <WowTooltip spell={hoveredSpell?.spell} rect={hoveredSpell?.rect} />
+      
       <div className="flex flex-col items-center border-b border-[#3c3224]/50 pb-8 mb-8 relative">
         <div className="absolute inset-0 bg-gradient-to-t from-[#120e0a] to-transparent z-0 pointer-events-none" />
         <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#fff5c3] to-[#ffd100] wow-title drop-shadow-lg relative z-10 text-center">
@@ -223,16 +242,18 @@ export default function Classes() {
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={selectedData.color} strokeWidth="3"><path d="M12 2L2 22h20L12 2z"/></svg>
                     New Core Mechanics
                   </h4>
-                  <div className="space-y-4">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                     {selectedData.abilities.map((ability, i) => (
-                      <div key={i} className="border-b border-[#3c3224]/50 pb-3 last:border-0 last:pb-0">
-                        <div className="flex items-baseline gap-2 mb-1">
-                          <h5 className="font-bold text-white text-lg">{ability.name}</h5>
-                          <span className="text-[10px] uppercase tracking-wider text-[#a69882] bg-[#120e0a] px-2 py-0.5 rounded border border-[#3c3224]">
-                            {ability.type}
-                          </span>
-                        </div>
-                        <p className="text-[#d3c8b8] text-sm leading-relaxed">{ability.desc}</p>
+                      <div 
+                        key={i} 
+                        className="bg-[#120e0a] border border-[#3c3224]/50 p-3 rounded cursor-pointer hover:bg-[#0b0907] transition-colors"
+                        onMouseEnter={(e) => handleSpellEnter(e, ability)}
+                        onMouseLeave={handleSpellLeave}
+                      >
+                        <h5 className="font-bold text-[#ffd100] text-sm truncate">{ability.name}</h5>
+                        <span className="text-[10px] uppercase tracking-wider text-[#a69882] block mt-1">
+                          {ability.type}
+                        </span>
                       </div>
                     ))}
                   </div>

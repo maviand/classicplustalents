@@ -1,15 +1,40 @@
 import React, { useState } from 'react';
 import { PVE_CATS, pveData } from '../data/dungeons';
+import { WowTooltip } from '../components/WowTooltip';
+import { WowItem, ItemRarity } from '../types/items';
+
+const RARITY_COLORS: Record<string, string> = {
+  'Poor': '#9d9d9d',
+  'Common': '#ffffff',
+  'Uncommon': '#1eff00',
+  'Rare': '#0070dd',
+  'Epic': '#a335ee',
+  'Legendary': '#ff8000',
+  'Artifact': '#e6cc80'
+};
 
 export default function PvE() {
   const [activeCategory, setActiveCategory] = useState(PVE_CATS.DUNGEONS);
   const [activeDungeon, setActiveDungeon] = useState('StormwindVault');
+
+  const [hoveredItem, setHoveredItem] = useState<{ item: WowItem, rect: DOMRect } | null>(null);
+
+  const handleItemEnter = (e: React.MouseEvent, item: any) => {
+    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+    setHoveredItem({ item: item as WowItem, rect });
+  };
+
+  const handleItemLeave = () => {
+    setHoveredItem(null);
+  };
 
   const allDungeons = Object.values(pveData).flat();
   const selectedDungeonData = allDungeons.find(d => d.id === activeDungeon);
 
   return (
     <div className="space-y-8 animate-in fade-in duration-700 pb-20">
+      <WowTooltip item={hoveredItem?.item} rect={hoveredItem?.rect} />
+      
       <div className="flex flex-col items-center border-b border-[#3c3224]/50 pb-8 mb-8 relative">
         <div className="absolute inset-0 bg-gradient-to-t from-[#120e0a] to-transparent z-0 pointer-events-none" />
         <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#fff5c3] to-[#ffd100] wow-title drop-shadow-lg relative z-10 text-center">
@@ -99,10 +124,14 @@ export default function PvE() {
                           <span className="text-[#a69882] text-xs uppercase tracking-wider font-bold block mb-2">Massive Loot Table:</span>
                           <div className="flex flex-col gap-1 max-h-48 overflow-y-auto custom-scrollbar pr-2">
                             {wing.loot.map((item: any, j: number) => (
-                              <div key={j} className="flex justify-between items-center text-sm bg-[#120e0a] p-1.5 rounded border border-[#3c3224]/30">
-                                <span className="text-[#0070dd] font-bold">{item.name}</span>
+                              <div 
+                                key={j} 
+                                className="flex justify-between items-center text-sm bg-[#120e0a] p-1.5 rounded border border-[#3c3224]/30 cursor-pointer hover:bg-[#1a140e]"
+                                onMouseEnter={(e) => handleItemEnter(e, item)}
+                                onMouseLeave={handleItemLeave}
+                              >
+                                <span className="font-bold" style={{ color: RARITY_COLORS[item.rarity] || '#ffffff' }}>[{item.name}]</span>
                                 <span className="text-[#a69882] text-xs">{item.type}</span>
-                                <span className="text-[#1eff00] text-xs ml-2 truncate max-w-[200px]" title={item.effect}>{item.effect}</span>
                               </div>
                             ))}
                           </div>
@@ -130,10 +159,14 @@ export default function PvE() {
                       <h4 className="text-[#a335ee] text-sm font-bold uppercase tracking-wider mb-4">Massive Raid Loot Table</h4>
                       <div className="flex flex-col gap-1 max-h-64 overflow-y-auto custom-scrollbar pr-2">
                         {(selectedDungeonData as any).loot.map((item: any, j: number) => (
-                          <div key={j} className="flex justify-between items-center text-sm bg-[#0b0907] p-2 rounded border border-[#3c3224]/50">
-                            <span className="text-[#a335ee] font-bold">{item.name}</span>
+                          <div 
+                            key={j} 
+                            className="flex justify-between items-center text-sm bg-[#0b0907] p-2 rounded border border-[#3c3224]/50 cursor-pointer hover:bg-[#120e0a]"
+                            onMouseEnter={(e) => handleItemEnter(e, item)}
+                            onMouseLeave={handleItemLeave}
+                          >
+                            <span className="font-bold" style={{ color: RARITY_COLORS[item.rarity] || '#ffffff' }}>[{item.name}]</span>
                             <span className="text-[#a69882] text-xs">{item.type}</span>
-                            <span className="text-[#1eff00] text-xs ml-2 truncate max-w-[300px]" title={item.effect}>{item.effect}</span>
                           </div>
                         ))}
                       </div>
