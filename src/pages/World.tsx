@@ -1,135 +1,201 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+const REGIONS = {
+  EK: 'Eastern Kingdoms',
+  KAL: 'Kalimdor',
+  ISLES: 'The Uncharted Isles'
+};
 
 export default function World() {
+  const [activeRegion, setActiveRegion] = useState(REGIONS.EK);
+  const [activeZone, setActiveZone] = useState('Gilneas');
+
+  const zones = {
+    [REGIONS.EK]: [
+      {
+        id: 'Gilneas',
+        name: 'Gilneas (Beyond the Wall)',
+        level: '40-50',
+        description: 'The gates are sealed, but the sea route is not. Players infiltrate the peninsula to find a kingdom ripping itself apart. The Worgen curse is rampant, and the Forsaken navy is bombarding the northern shores.',
+        hubs: ['Greymane City (Contested City)', 'Keel Harbor', 'Tempest Watch'],
+        lore: 'A massive WC3 thread resolved: What happened to Genn Greymane? Players must navigate a three-way war between human loyalists, feral worgen packs (the Bloodfang), and Sylvanas\'s vanguard. The zone culminates in a server-wide effort to repair the Greymane Wall from the inside to stop a full Forsaken invasion.'
+      },
+      {
+        id: 'Northeron',
+        name: 'Northeron & Grim Batol Surface',
+        level: '50-55',
+        description: 'The Wildhammer heartland east of the Wetlands (what would later become Twilight Highlands, but drastically different in Vanilla). A rugged alpine zone focused on Gryphon mastery and the looming shadow of the Dragonmaw clan.',
+        hubs: ['Kirthaven', 'The Dragonmaw Gates', 'Thundermar'],
+        lore: 'The Red Dragonflight is broken, but not gone. Players assist Falstad Wildhammer in uniting the scattered dwarf clans to prepare a siege on Grim Batol. Features massive elite areas where players must hijack Dragonmaw anti-air cannons to clear the skies of corrupted drakes.'
+      },
+      {
+        id: 'NorthEPL',
+        name: 'The Northern Plaguelands (Quel\'Thalas Border)',
+        level: '55-60',
+        description: 'The scarred, impassable mountains north of Stratholme. A zone of pure horror where the Scourge has created massive flesh-stitcheries to breach the Elfgates.',
+        hubs: ['Argent Forward Camp', 'The Highborne Ruins'],
+        lore: 'Players finally see the physical border of Quel\'Thalas. The High Elves (now allied) provide quests to sabotage Scourge supply lines. This zone serves as the primary farming ground for Naxxramas attunement materials and features "The Charnel Pits," an open-world elite farming hub.'
+      },
+      {
+        id: 'Deadwind',
+        name: 'Deadwind Pass (Expanded)',
+        level: '55-60',
+        description: 'No longer just a hallway to Karazhan. The zone is fully realized with a sprawling ogre settlement, a hidden warlock conclave, and the terrifying Karazhan Crypts.',
+        hubs: ['Ariden\'s Camp (Neutral)', 'The Vice'],
+        lore: 'The lingering curse of Medivh. The zone has a passive debuff, "Medivh\'s Paranoia," requiring players to craft specific torches via Inscription/Alchemy to explore the deep corners of the zone without suffering constant hallucinations (spawning shadow-mobs that only the afflicted player can see).'
+      }
+    ],
+    [REGIONS.KAL]: [
+      {
+        id: 'Uldum',
+        name: 'Uldum (The Titan Vault)',
+        level: '55-60',
+        description: 'Located in southern Tanaris. This is the Vanilla concept of Uldum: an austere, mechanical, subterranean desert zone. No Egyptian pastiche, no Harrison Jones. Pure, terrifying Titan geometry.',
+        hubs: ['The Excavation (Goblin/Dwarf co-op)', 'Watcher\'s Rise'],
+        lore: 'Players breach the gates using the Discs of Norgannon (continuing the Uldaman questline). Inside, they find the Tol\'vir (obsidian centaurs, true to WC3) fighting a losing war against the Qiraji who have tunnelled in from Ahn\'Qiraj. A zone entirely focused on unearthing the true purpose of Azeroth.'
+      },
+      {
+        id: 'Hyjal',
+        name: 'Mount Hyjal',
+        level: '58-60',
+        description: 'The summit of Kalimdor, scarred by Archimonde\'s death in WC3. A high-level contested zone where the Emerald Nightmare bleeds into the waking world.',
+        hubs: ['Nordrassil Basecamp', 'The Whispering Gorge'],
+        lore: 'The aftermath of Warcraft 3. The demons are mostly dead, but their fel-blood has corrupted the Barrow Dens. Players work with the Cenarion Circle to purge the remaining Doomguards and confront the Nightmare-corrupted Furbolg tribes. Unlocks the epic "Hyjal Front" battleground.'
+      },
+      {
+        id: 'Azshara',
+        name: 'Azshara (The Shattered Coast)',
+        level: '45-55',
+        description: 'Transformed from a barren, unfinished cliffside into a bustling mid-high level hub. Features a massive goblin port, Naga ruins, and the Blue Dragonflight.',
+        hubs: ['Bilgewater Port', 'Valormok (Expanded)', 'Eldarath Ruins'],
+        lore: 'The Timbermaw War rages in the north. Guilds can compete in the "Azshara Crater" PvP zone. Azuregos now roams a much more dangerous, heavily populated elite region, requiring full raid coordination just to reach him.'
+      },
+      {
+        id: 'Winterspring',
+        name: 'Winterspring (Frostwhisper Gorge)',
+        level: '55-60',
+        description: 'The southern half is now a sprawling endgame zone leading up to the gates of Mount Hyjal.',
+        hubs: ['Starfall Village', 'Everlook (Expanded)'],
+        lore: 'Features the Mazthoril Deeps dungeon. Darkwhisper Pass is transformed into an elite farming zone where players must avoid level 62+ Elite Frost Giants while gathering highly sought-after phase 4 crafting materials.'
+      }
+    ],
+    [REGIONS.ISLES]: [
+      {
+        id: 'Gillijim',
+        name: 'Gillijim\'s Isle & Isle of Doctor Lapidis',
+        level: '50-55',
+        description: 'Two massive islands off the coast of Stranglethorn and Tanaris, restored directly from the Vanilla Alpha files.',
+        hubs: ['Booty Bay Forward Post', 'The Lapidis Estate'],
+        lore: 'Gillijim\'s Isle is a lush tropical warzone where the Bloodsail Buccaneers and the Steamwheedle Cartel fight a proxy war using players. Doctor Lapidis\'s island features a mad scientist (gnome/goblin hybrid experiments) creating terrifying biological weapons. Ties heavily into the Missing Diplomat questline.'
+      },
+      {
+        id: 'DragonIsles',
+        name: 'The Dragon Isles',
+        level: '60',
+        description: 'Not the modern expansion. This is the Vanilla concept: a small, ominous archipelago north of Lordaeron featuring an Old God temple (the original concept for Ulduar) and feral, devolved dragons.',
+        hubs: ['The Shattered Beachhead'],
+        lore: 'A pure endgame zone. No flight paths. Players must construct a ship via a massive server-wide effort to sail here. The zone is entirely Elite, functioning as an outdoor dungeon required for Tier 2.5 crafting and legendary weapon quests.'
+      },
+      {
+        id: 'CrimsonAtoll',
+        name: 'The Crimson Atoll',
+        level: 'Max Level PvP',
+        description: 'A dedicated high-level PvP island off the coast of Stranglethorn Vale, run on the Blood Moon model: scheduled events every 3 hours.',
+        hubs: ['None (Free for All)'],
+        lore: 'A lawless zone where grouping is disabled and nameplates are red. Escalating stakes, free-for-all mechanics, and Blood Coins that purchase exclusive mounts and epic-quality weapons. During the event, "Echoes" spawn randomly that must be escorted for massive rewards.'
+      }
+    ]
+  };
+
+  const allZones = [...zones[REGIONS.EK], ...zones[REGIONS.KAL], ...zones[REGIONS.ISLES]];
+  const selectedZoneData = allZones.find(z => z.id === activeZone);
+
   return (
-    <div className="space-y-12 animate-in fade-in duration-700">
+    <div className="space-y-8 animate-in fade-in duration-700 pb-20">
       <div className="flex flex-col items-center border-b border-[#3c3224]/50 pb-8 mb-8 relative">
         <div className="absolute inset-0 bg-gradient-to-t from-[#120e0a] to-transparent z-0 pointer-events-none" />
-        <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#fff5c3] to-[#ffd100] wow-title drop-shadow-lg relative z-10">
-          The Living World
+        <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#fff5c3] to-[#ffd100] wow-title drop-shadow-lg relative z-10 text-center">
+          The Living World: Expanded
         </h1>
-        <p className="text-[#d3c8b8] mt-3 text-lg font-medium tracking-wide relative z-10 drop-shadow-md text-center max-w-2xl">
-          Azeroth expanded. Unfinished zones realized, dead zones revitalized, and epic questlines that span continents.
+        <p className="text-[#d3c8b8] mt-3 text-lg font-medium tracking-wide relative z-10 drop-shadow-md text-center max-w-3xl">
+          15,000% more content. Every unfinished map area realized. Every Warcraft 3 thread pulled. Azeroth is whole.
         </p>
       </div>
 
-      <section className="bg-gradient-to-br from-[#120e0a] to-[#0f0c08] border border-[#3c3224] rounded-xl p-8 shadow-2xl space-y-8">
-        <div className="flex items-center gap-4 border-b border-[#3c3224] pb-4">
-           <div className="p-2 bg-[#1a140e] rounded border border-[#ffd100]/30 text-[#ffd100]">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-           </div>
-          <h2 className="text-3xl font-bold text-white tracking-wide">Zone Expansions</h2>
-        </div>
+      <div className="flex flex-col lg:flex-row gap-8">
         
-        <p className="text-[#b5a790] text-lg leading-relaxed">
-          Vanilla WoW shipped with massive swaths of empty geography—zones that were meant to be endgame hubs but were left bare due to time constraints. Camelot finishes the map.
-        </p>
-
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 mt-6">
-          <div className="bg-[#120e0a] border border-[#3c3224] p-6 rounded-lg hover:border-[#ffd100]/30 transition-all group">
-            <h3 className="text-[#ffd100] font-bold text-2xl mb-3 flex items-center gap-2">
-              <span className="w-4 h-4 bg-[#ff7d0a] rounded rotate-45 inline-block group-hover:animate-pulse"></span>
-              Azshara: The Shattered Coast
-            </h3>
-            <p className="text-sm text-[#d3c8b8] leading-relaxed mb-4">
-              Transformed from a barren cliffside into a bustling level 45-55 hub. 
-            </p>
-            <ul className="text-sm text-[#a69882] space-y-2 list-disc pl-4">
-              <li><strong className="text-white">Bilgewater Port:</strong> A neutral Goblin settlement carved into the cliffs, serving as the main quest hub.</li>
-              <li><strong className="text-white">The Timbermaw War:</strong> A massive reputation grind fighting back corrupt Furbolgs in the north.</li>
-              <li><strong className="text-white">Azshara Crater:</strong> The entrance to the new 25v25 MOBA-style Battleground.</li>
-            </ul>
-          </div>
-
-          <div className="bg-[#120e0a] border border-[#3c3224] p-6 rounded-lg hover:border-[#ffd100]/30 transition-all group">
-            <h3 className="text-[#ffd100] font-bold text-2xl mb-3 flex items-center gap-2">
-              <span className="w-4 h-4 bg-[#40c7eb] rounded rotate-45 inline-block group-hover:animate-pulse"></span>
-              Winterspring: The Frostwhisper Gorge
-            </h3>
-            <p className="text-sm text-[#d3c8b8] leading-relaxed mb-4">
-              The southern half of Winterspring is now a sprawling endgame zone leading up to Mount Hyjal.
-            </p>
-            <ul className="text-sm text-[#a69882] space-y-2 list-disc pl-4">
-              <li><strong className="text-white">Mazthoril Deeps:</strong> The new 5-player dungeon exploring the blue dragonflight's corrupted sanctum.</li>
-              <li><strong className="text-white">Darkwhisper Pass:</strong> Transformed into an elite farming zone for highly sought-after crafting materials (Phase 4).</li>
-              <li><strong className="text-white">Starfall Village:</strong> Expanded with a flight path and high-level daily quests.</li>
-            </ul>
-          </div>
-
-          <div className="bg-[#120e0a] border border-[#3c3224] p-6 rounded-lg hover:border-[#ffd100]/30 transition-all group xl:col-span-2 relative overflow-hidden">
-             <div className="absolute right-0 top-0 opacity-5 scale-150 pointer-events-none">
-                <svg width="200" height="200" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
-             </div>
-            <h3 className="text-[#ffd100] font-bold text-2xl mb-3 flex items-center gap-2 relative z-10">
-              <span className="w-4 h-4 bg-[#c41f3b] rounded rotate-45 inline-block group-hover:animate-pulse"></span>
-              The Deadwind Pass: Crypts of Karazhan
-            </h3>
-            <p className="text-sm text-[#d3c8b8] leading-relaxed mb-4 relative z-10">
-              The forgotten connector zone is now the focal point of Phase 3 and 4, hosting one of the most chilling environments in the game.
-            </p>
-            <div className="grid md:grid-cols-2 gap-4 relative z-10">
-               <div>
-                  <ul className="text-sm text-[#a69882] space-y-2 list-disc pl-4">
-                    <li><strong className="text-white">The Lower Karazhan Crypts:</strong> Fully realized as a massive 10-player mini-raid exploring the Upside-Down Sinners and the dark history of Medivh.</li>
-                    <li><strong className="text-white">Ariden's Camp:</strong> A neutral hub for outcast mages and warlocks.</li>
-                  </ul>
-               </div>
-               <div className="bg-[#1a140e] p-3 border border-[#3c3224] rounded">
-                 <strong className="text-[#ffd100] text-xs block mb-1">Environmental Hazard</strong>
-                 <p className="text-xs text-[#a69882]">The zone applies a creeping debuff called "Medivh's Paranoia". Players must craft special shadow-warding torches to survive deep exploration.</p>
-               </div>
+        {/* Sidebar Navigation */}
+        <div className="lg:w-1/3 space-y-6">
+          {Object.entries(zones).map(([region, regionZones]) => (
+            <div key={region} className="bg-[#120e0a] border border-[#3c3224] rounded-lg overflow-hidden shadow-lg">
+              <div className="bg-gradient-to-r from-[#1a140e] to-[#120e0a] p-4 border-b border-[#3c3224]">
+                <h3 className="font-bold text-[#ffd100] uppercase tracking-widest text-sm">{region}</h3>
+              </div>
+              <div className="flex flex-col">
+                {regionZones.map(zone => (
+                  <button
+                    key={zone.id}
+                    onClick={() => { setActiveRegion(region); setActiveZone(zone.id); }}
+                    className={`text-left p-3 text-sm transition-all border-l-4 ${
+                      activeZone === zone.id 
+                        ? 'border-[#ff8000] bg-[#1a140e] text-white font-bold' 
+                        : 'border-transparent text-[#a69882] hover:bg-[#16120e] hover:text-[#d3c8b8]'
+                    }`}
+                  >
+                    {zone.name}
+                  </button>
+                ))}
+              </div>
             </div>
-          </div>
+          ))}
         </div>
-      </section>
 
-      <section className="bg-gradient-to-br from-[#120e0a] to-[#0f0c08] border border-[#3c3224] rounded-xl p-8 shadow-2xl space-y-8">
-        <div className="flex items-center gap-4 border-b border-[#3c3224] pb-4">
-           <div className="p-2 bg-[#1a140e] rounded border border-[#ffd100]/30 text-[#ffd100]">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-           </div>
-          <h2 className="text-3xl font-bold text-white tracking-wide">Epic Questlines</h2>
+        {/* Content Display */}
+        <div className="lg:w-2/3">
+          {selectedZoneData && (
+            <div className="bg-gradient-to-br from-[#120e0a] to-[#0b0907] border border-[#3c3224] rounded-xl p-8 shadow-2xl animate-in slide-in-from-right-8 duration-500 relative overflow-hidden">
+              <div className="absolute top-0 right-0 opacity-5 scale-150 pointer-events-none">
+                <svg width="200" height="200" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
+              </div>
+
+              <div className="relative z-10">
+                <div className="flex justify-between items-start mb-6 border-b border-[#3c3224]/50 pb-4">
+                  <div>
+                    <h2 className="text-3xl font-extrabold text-white mb-2">{selectedZoneData.name}</h2>
+                    <span className="inline-block bg-[#1a140e] border border-[#ff8000]/50 text-[#ff8000] px-3 py-1 rounded text-xs font-bold tracking-widest">
+                      LEVEL {selectedZoneData.level}
+                    </span>
+                  </div>
+                </div>
+
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="text-[#a69882] text-xs font-bold uppercase tracking-wider mb-2">Geography & Purpose</h4>
+                    <p className="text-[#d3c8b8] leading-relaxed text-lg">{selectedZoneData.description}</p>
+                  </div>
+
+                  <div className="bg-[#1a140e] border border-[#3c3224] p-5 rounded-lg shadow-inner">
+                    <h4 className="text-[#0070dd] text-sm font-bold uppercase tracking-wider mb-3 flex items-center gap-2">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                      Quest Hubs & Settlements
+                    </h4>
+                    <ul className="list-disc pl-5 text-[#d3c8b8] space-y-1">
+                      {selectedZoneData.hubs.map((hub, i) => (
+                        <li key={i}>{hub}</li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <div className="bg-gradient-to-r from-[#1a140e] to-transparent border-l-4 border-[#a335ee] p-5 rounded-r-lg">
+                    <h4 className="text-[#a335ee] text-sm font-bold uppercase tracking-wider mb-2">Warcraft 3 Lore & Adventure</h4>
+                    <p className="text-[#d3c8b8] leading-relaxed italic">"{selectedZoneData.lore}"</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
-        
-        <p className="text-[#b5a790] text-lg leading-relaxed">
-          The best moments in Vanilla WoW were not sitting in a capital city waiting for a queue to pop. They were embarking on world-spanning journeys like the Onyxia Attunement or the Scepter of the Shifting Sands. Camelot introduces dozens of new, deeply narrative quest chains.
-        </p>
-
-        <div className="space-y-6 mt-6">
-          <div className="bg-gradient-to-r from-[#1a140e] to-[#120e0a] p-6 rounded-lg border-l-4 border-[#0070dd] shadow-md">
-            <div className="flex justify-between items-start mb-2">
-              <h3 className="font-bold text-[#0070dd] text-xl">The Ashbringer's Shadow</h3>
-              <span className="text-xs text-[#a69882] bg-[#120e0a] px-2 py-1 rounded border border-[#3c3224]">Requires Level 60</span>
-            </div>
-            <p className="text-sm text-[#d3c8b8] mb-3">
-              A paladin and warrior-exclusive chain that begins with a drop from the Four Horsemen. It tasks the player with tracing the history of Alexandros Mograine, leading to a solo scenario where you must defend the Scarlet Monastery from a Scourge assault.
-            </p>
-            <p className="text-xs text-[#a69882]"><strong>Reward:</strong> <span className="text-[#a335ee]">Corrupted Ashbringer</span> (if crafted via Blacksmithing) and the title <span className="text-white">"The Lightbringer"</span>.</p>
-          </div>
-
-          <div className="bg-gradient-to-r from-[#1a140e] to-[#120e0a] p-6 rounded-lg border-l-4 border-[#a335ee] shadow-md">
-            <div className="flex justify-between items-start mb-2">
-              <h3 className="font-bold text-[#a335ee] text-xl">The Missing Diplomat, Concluded</h3>
-              <span className="text-xs text-[#a69882] bg-[#120e0a] px-2 py-1 rounded border border-[#3c3224]">Requires Level 50</span>
-            </div>
-            <p className="text-sm text-[#d3c8b8] mb-3">
-              The infamous unfinished Vanilla questline is finally resolved. Players must infiltrate Alcaz Island, uncover the Defias/Naga conspiracy, and rescue King Varian Wrynn. This is a massive, multi-part stealth and combat operation requiring a dedicated 5-player group.
-            </p>
-            <p className="text-xs text-[#a69882]"><strong>Reward:</strong> Choice of a powerful Phase 3 Epic Ring, and the <span className="text-[#0070dd]">Stormwind Royal Signet</span> (teleports the user to Stormwind).</p>
-          </div>
-          
-          <div className="bg-gradient-to-r from-[#1a140e] to-[#120e0a] p-6 rounded-lg border-l-4 border-[#1eff00] shadow-md">
-            <div className="flex justify-between items-start mb-2">
-              <h3 className="font-bold text-[#1eff00] text-xl">The Emerald Dreamway</h3>
-              <span className="text-xs text-[#a69882] bg-[#120e0a] px-2 py-1 rounded border border-[#3c3224]">Requires Level 60 (Druid/Hunter/Shaman)</span>
-            </div>
-            <p className="text-sm text-[#d3c8b8] mb-3">
-              A chain that tasks nature-attuned classes with restoring the corrupted Dream Portals across Azeroth (Ashenvale, Duskwood, Feralas, Hinterlands). Involves phasing into mini-versions of the Emerald Dream to defeat Nightmare horrors.
-            </p>
-            <p className="text-xs text-[#a69882]"><strong>Reward:</strong> Permanent access to the Dreamway, allowing fast-travel between the four portals across the world.</p>
-          </div>
-        </div>
-      </section>
+      </div>
     </div>
   );
 }

@@ -1,414 +1,379 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+const CATEGORIES = {
+  STORM_VAULT: 'Stormwind Vault (Lvl 35-45)',
+  GILNEAS: 'Gilneas Defenses (Lvl 40-50)',
+  TIMBERMAW: 'Timbermaw Hold (Lvl 48-55)',
+  LAPIDIS: 'Labs of Lapidis (Lvl 50-55)',
+  ULDUM: 'Uldum Vaults (Lvl 55-60)',
+  GRIM_BATOL: 'Grim Batol (Lvl 55-60)',
+  HYJAL: 'Hyjal Barrow Dens (Lvl 60)',
+  CRYPTS: 'Karazhan Crypts (Lvl 60)',
+  RAIDS: 'Parallel Raid Tiers'
+};
 
 export default function PvE() {
-  const [activeTab, setActiveTab] = React.useState<'dungeons' | 'raids' | 'legendaries'>('raids');
+  const [activeCategory, setActiveCategory] = useState(CATEGORIES.STORM_VAULT);
+  const [activeInstance, setActiveInstance] = useState('Vault_Upper');
+
+  const instances = {
+    [CATEGORIES.STORM_VAULT]: [
+      {
+        id: 'Vault_Upper',
+        name: 'The Upper Brig',
+        level: '35-38',
+        size: '5 Player',
+        description: 'The outermost layer of the Stormwind Vault. Guarded by loyalists to the treacherous nobles, housing political prisoners and Defias leaders.',
+        bosses: ['Warden Thelwater\'s Successor', 'Rogue Noble Lessah', 'The Riot Caller'],
+        lore: 'Investigate the infiltration of the Stormwind Guard. Players discover that the Defias Brotherhood has been receiving inside help to orchestrate a massive breakout.'
+      },
+      {
+        id: 'Vault_Deep',
+        name: 'The Deep Cellblocks',
+        level: '38-42',
+        size: '5 Player',
+        description: 'Descending deeper into the bedrock. The cells here hold aberrations and magical experiments seized by the Kirin Tor but abandoned during the Third War.',
+        bosses: ['Arcane Amalgamation', 'The Mad Wizard', 'Flesh-Stitcher Gorm'],
+        lore: 'A horror-themed wing where prisoners have mutated due to unchecked arcane leakage. Players must seal the magical containment units.'
+      },
+      {
+        id: 'Vault_Interrogation',
+        name: 'The Interrogation Levels',
+        level: '42-45',
+        size: '5 Player',
+        description: 'The deepest, darkest pit of the Vault. The domain of Katrana Prestor\'s personal torturers and hidden black dragonspawn.',
+        bosses: ['Inquisitor Xar\'il', 'The Brood-Mother\'s Fang', 'Lord Gregor Lescovar'],
+        lore: 'The shocking revelation of the Onyxia attunement line. Players fight actual dragonspawn beneath Stormwind City, proving Prestor\'s treachery once and for all.'
+      }
+    ],
+    [CATEGORIES.GILNEAS]: [
+      {
+        id: 'Gilneas_Moors',
+        name: 'The Cursed Moors',
+        level: '40-44',
+        size: '5 Player',
+        description: 'The foggy, werewolf-infested swamps just beyond the Greymane Wall. Visibility is low, and the Worgen hunt in packs.',
+        bosses: ['Alpha Bloodfang', 'The Howling Terror', 'Lord Crowley (Infected)'],
+        lore: 'Players must rescue human refugees pinned down by the feral Worgen packs. Features mechanics where torches must be kept lit to prevent the Worgen from gaining stealth.'
+      },
+      {
+        id: 'Gilneas_Blackwald',
+        name: 'Blackwald Depths',
+        level: '44-47',
+        size: '5 Player',
+        description: 'An ancient, overgrown druidic cavern system beneath Gilneas where the origin of the Worgen curse is hidden.',
+        bosses: ['The Scythe-Bearer', 'Corrupted Ancient of War', 'Shadow of Goldrinn'],
+        lore: 'Explores the Night Elf origins of the Worgen curse. Players recover fragments of the Scythe of Elune to help the Gilneans retain their sanity.'
+      },
+      {
+        id: 'Gilneas_Manor',
+        name: 'Greymane Manor',
+        level: '47-50',
+        size: '5 Player',
+        description: 'The grand estate of King Genn Greymane, currently under siege by both feral Worgen and Forsaken infiltrators.',
+        bosses: ['Forsaken Apothecary Venin', 'The Manor Guards', 'Genn Greymane (Survival Event)'],
+        lore: 'A defense-oriented dungeon. Players do not kill Greymane; they must protect him and his inner circle from wave after wave of assassins until the royal guard secures the estate.'
+      }
+    ],
+    [CATEGORIES.TIMBERMAW]: [
+       {
+        id: 'Timbermaw_Outer',
+        name: 'The Outer Defenses',
+        level: '48-51',
+        size: '5 Player',
+        description: 'The massive wooden barricades and tunnel entrances connecting Felwood to Moonglade, held by the uncorrupted Timbermaw but under heavy assault.',
+        bosses: ['Deadwood Siegemaster', 'The Fel-Totem', 'Chieftain Bloodmaw'],
+        lore: 'Help the Timbermaw hold the line against the Deadwood tribe. A heavy rep-grind dungeon required to access the deeper wings.'
+      },
+      {
+        id: 'Timbermaw_Root',
+        name: 'The Corrupted Root-Caverns',
+        level: '51-53',
+        size: '5 Player',
+        description: 'Deep below the hold, where the roots of a minor world tree have been saturated with Fel blood.',
+        bosses: ['Blighted Treant', 'The Satyr Cult', 'Fel-Root Manifestation'],
+        lore: 'Players must use purified moonwell water to cleanse the corruption. Environmental hazards include pools of Fel acid and collapsing root-ceilings.'
+      },
+      {
+        id: 'Timbermaw_Core',
+        name: 'The Fel-Core',
+        level: '53-55',
+        size: '5 Player',
+        description: 'The epicenter of the corruption. A massive subterranean cavern overlooking an underground fel-lava lake.',
+        bosses: ['Gorgonn the Overseer', 'The Fel-Beast Matriarch', 'Avatar of the Legion'],
+        lore: 'The Shadow Council has established a base here to corrupt the entirety of northern Kalimdor. Defeating the Avatar seals the tunnels from demonic incursion.'
+      }
+    ],
+    [CATEGORIES.LAPIDIS]: [
+      {
+        id: 'Lapidis_Surface',
+        name: 'The Surface Labs',
+        level: '50-52',
+        size: '5 Player',
+        description: 'The island off the coast of Stranglethorn. The surface is littered with biological testing facilities and escaped mutant beasts.',
+        bosses: ['Subject 001', 'The Chimera Master', 'Head Researcher Fizzle'],
+        lore: 'Doctor Lapidis has been combining goblin engineering with horrific biology. Players discover the island is a weapons manufacturing facility for the highest bidder.'
+      },
+      {
+        id: 'Lapidis_Biome',
+        name: 'The Biome Chambers',
+        level: '52-54',
+        size: '5 Player',
+        description: 'Massive artificial terrariums built to test bioweapons in extreme conditions (Arctic, Desert, Jungle).',
+        bosses: ['The Frost-Wyrm Prototype', 'Sand-Worm Queen', 'The Overgrown Amalgam'],
+        lore: 'Players must traverse three distinct mini-zones within the dungeon, each with its own weather hazards and specific elemental resistances required.'
+      },
+      {
+        id: 'Lapidis_Factory',
+        name: 'The Abomination Factory',
+        level: '54-55',
+        size: '5 Player',
+        description: 'The deep underground complex where Lapidis creates flesh-golems rivalling the Scourge, but controlled by machinery.',
+        bosses: ['The Flesh-Forge', 'Mecha-Abomination', 'Doctor Lapidis'],
+        lore: 'The culmination of the island. Doctor Lapidis fights from within a massive flesh-and-steel mech suit. Drops unique engineering schematics and bizarre trinkets.'
+      }
+    ],
+    [CATEGORIES.ULDUM]: [
+      {
+        id: 'Uldum_Halls',
+        name: 'The Halls of Origination',
+        level: '55-57',
+        size: '5 Player',
+        description: 'The entrance to the southern Tanaris Titan facility. Pristine, geometric, and guarded by stone Tol\'vir.',
+        bosses: ['Gatekeeper Anubis', 'The Stone Council', 'Tol\'vir Vanguard'],
+        lore: 'Players breach the facility using the Discs of Norgannon. The first wing establishes the aesthetic of true Vanilla Uldum—no sand, no mummies, just cold, unfeeling Titan machinery.'
+      },
+      {
+        id: 'Uldum_Forges',
+        name: 'The Obsidian Forges',
+        level: '57-59',
+        size: '5 Player',
+        description: 'The manufacturing wing where the Obsidian Destroyers (from WC3) were built. Now malfunctioning and hostile.',
+        bosses: ['The Furnace Master', 'Obsidian Prototype', 'The Mo\'arg Saboteur'],
+        lore: 'The Burning Legion has sent operatives to steal the Obsidian Destroyer schematics. Players must navigate a 3-way fight between Titan constructs, Demons, and Qiraji tunnellers.'
+      },
+      {
+        id: 'Uldum_Terrace',
+        name: 'The Maker\'s Terrace',
+        level: '59-60',
+        size: '5 Player',
+        description: 'The heart of the facility, overlooking the Forge of Origination.',
+        bosses: ['The Re-Origination Protocol', 'Qiraji Emissary', 'Watcher Rajh'],
+        lore: 'The Qiraji have breached the core. The Watcher is preparing to activate the Forge to wipe out Kalimdor rather than let the Old Gods take it. Players must stop the Qiraji and disable the Watcher.'
+      }
+    ],
+    [CATEGORIES.GRIM_BATOL]: [
+      {
+        id: 'Grim_Gates',
+        name: 'The Dragonmaw Gates',
+        level: '55-57',
+        size: '5 Player',
+        description: 'The heavily fortified exterior entrance to the mountain city in Northeron. Guarded by Orcish anti-air flak cannons.',
+        bosses: ['Gate-Captain Torg', 'The Flak-Bringer', 'Dragonmaw Beastmaster'],
+        lore: 'The initial assault. Players must sabotage the anti-air defenses so the Wildhammer gryphon riders can provide air support for the deeper wings.'
+      },
+      {
+        id: 'Grim_Pits',
+        name: 'The Breeding Pits',
+        level: '57-59',
+        size: '5 Player',
+        description: 'The horrific caverns where the Dragonmaw clan breaks young red dragons into submission using the Demon Soul\'s lingering magic.',
+        bosses: ['The Dragon-Breaker', 'Corrupted Whelp Swarm', 'Matriarch\'s Sorrow'],
+        lore: 'A harrowing rescue mission. Players must free captive drakes while avoiding the enraged, broken mature dragons that cannot be saved.'
+      },
+      {
+        id: 'Grim_Sanctum',
+        name: 'The Obsidian Sanctum (Vanilla)',
+        level: '59-60',
+        size: '5 Player',
+        description: 'Deep below Grim Batol, the Black Dragonflight has a secret embassy brokering deals with the Dragonmaw.',
+        bosses: ['Ambassador Infernus', 'The Twilight Whelp', 'Sartharion (Young)'],
+        lore: 'Sets up the overarching Black Dragonflight conspiracy. Players discover that Deathwing\'s brood is manipulating the Orcs to wipe out the remaining Red dragons.'
+      }
+    ],
+    [CATEGORIES.HYJAL]: [
+      {
+        id: 'Hyjal_Nightmare',
+        name: 'The Nightmare Front',
+        level: '60',
+        size: '5 Player',
+        description: 'The outer edges of the Barrow Dens, where the Emerald Nightmare is aggressively bleeding into the waking world.',
+        bosses: ['Nightmare Stalker', 'The Sleeping Keeper', 'Manifestation of Dread'],
+        lore: 'The trees run black with corrupted sap. A highly chaotic dungeon with mechanics involving managing a "Sanity" meter while fighting.'
+      },
+      {
+        id: 'Hyjal_Druids',
+        name: 'The Slumbering Druids',
+        level: '60',
+        size: '5 Player',
+        description: 'Deep within the Barrow Dens. The Archdruids of the Cenarion Circle are trapped in a deep sleep, their dreams weaponized against them.',
+        bosses: ['The Dream-Eater', 'Keeper Remulos (Corrupted)', 'The Nightmare Illusion'],
+        lore: 'Players must dive into the minds of the sleeping druids (mini-phased boss arenas) to break their torpor and return them to the physical world.'
+      },
+      {
+        id: 'Hyjal_Demon',
+        name: 'The Demon-Scar',
+        level: '60',
+        size: '5 Player',
+        description: 'The crater where Archimonde fell. The raw demonic energy has crystallized, and surviving demons are attempting to summon reinforcements.',
+        bosses: ['The Crystal Fiend', 'Doomguard Commander', 'Echo of Archimonde'],
+        lore: 'A brutal DPS-check dungeon. The final boss is a lingering fragment of Archimonde\'s power, requiring immense raid-level coordination to defeat in a 5-man setting. Drops pre-BiS weapons.'
+      }
+    ],
+    [CATEGORIES.CRYPTS]: [
+      {
+        id: 'Crypts_Pauper',
+        name: 'The Pauper\'s Walk',
+        level: '60',
+        size: '5 Player',
+        description: 'The upper catacombs of Deadwind Pass. Massive, dusty halls filled with the restless dead of Medivh\'s victims.',
+        bosses: ['The Grave-Keeper', 'Restless Aristocrat', 'The Necromancer of Deadwind'],
+        lore: 'The entry point. Focuses heavily on shadow magic and undead crowd control. Sets the eerie, silent tone of the Crypts.'
+      },
+      {
+        id: 'Crypts_UpsideDown',
+        name: 'The Upside-Down Sinners',
+        level: '60',
+        size: '5 Player',
+        description: 'The legendary flooded cavern. A massive, horrific water-breathing puzzle filled with hanging, drowned corpses.',
+        bosses: ['The Drowned Behemoth', 'Spectral Tormentors', 'The Hanging Judge'],
+        lore: 'Players receive a water-breathing buff upon entry but must navigate carefully. Disturbing the floating corpses summons un-CCable elites. Pure survival horror.'
+      },
+      {
+        id: 'Crypts_Slough',
+        name: 'The Slough of Despair',
+        level: '60',
+        size: '5 Player',
+        description: 'The lowest point of the crypts. A cavern of flesh and shadow where Medivh discarded his most terrifying experiments.',
+        bosses: ['The Flesh-Mound', 'Shadow of the Guardian', 'The Nameless Horror'],
+        lore: 'A dungeon so dark it requires light-source offhands or torches to see the mechanics. Completing this unlocks the attunement to Karazhan (which comes in a later phase).'
+      }
+    ],
+    [CATEGORIES.RAIDS]: [
+      {
+        id: 'EmeraldDreamRaid',
+        name: 'The Emerald Nightmare',
+        level: 'Level 60 - Phase C1.2',
+        size: '40 Player Raid',
+        description: 'Accessed via the four corrupted world-tree portals. A massive, surreal, non-Euclidean raid environment where the rules of gravity and distance are warped.',
+        bosses: ['The Corrupted Green Aspects', 'Nightmare Lord Xavius', 'Hakkar the Soulflayer (Dream State)'],
+        lore: 'A massive WC3/Vanilla loose thread resolved. Hakkar\'s defeat in Zul\'Gurub only banished his spirit to the Dream, where he merged with the Nightmare. This is the parallel 40-man raid to Blackwing Lair.'
+      },
+      {
+        id: 'CrownOfTheDamned',
+        name: 'Crown of the Damned (Stratholme Zenith)',
+        level: 'Level 60 - Phase C1.4',
+        size: '40 Player Raid',
+        description: 'A floating necropolis hovering above the burning ruins of Stratholme. The true capital of the Scourge in Lordaeron.',
+        bosses: ['The Blood Princes', 'Frostwyrm Matriarch', 'Kel\'Thuzad (First Encounter)'],
+        lore: 'This is the raid that unlocks the Death Knight class. Players assault the necropolis to stop the Scourge from raising a new generation of commanders. Parallel to Naxxramas.'
+      },
+      {
+        id: 'GrimBatolRaid',
+        name: 'Grim Batol (The Inner Fortress)',
+        level: 'Level 60 - Phase C1.3',
+        size: '20 Player Raid',
+        description: 'The deep interior of the fortress. A brutal siege against the highest echelons of the Dragonmaw Clan.',
+        bosses: ['Nekros Skullcrusher', 'The Red Dragon Consorts', 'Deathwing\'s Emissary'],
+        lore: 'The 20-player catch-up raid for Phase 3, parallel to Ruins of Ahn\'Qiraj. Heavy focus on fire resistance and massive AoE encounters.'
+      }
+    ]
+  };
+
+  // Flatten the instances for the active instance lookup
+  const allInstances = Object.values(instances).flat();
+  const selectedInstanceData = allInstances.find(i => i.id === activeInstance);
 
   return (
-    <div className="space-y-8 animate-in fade-in duration-700">
+    <div className="space-y-8 animate-in fade-in duration-700 pb-20">
       <div className="flex flex-col items-center border-b border-[#3c3224]/50 pb-8 mb-8 relative">
         <div className="absolute inset-0 bg-gradient-to-t from-[#120e0a] to-transparent z-0 pointer-events-none" />
-        <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#fff5c3] to-[#ffd100] wow-title drop-shadow-lg relative z-10">
-          Player vs Environment
+        <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#ff8000] to-[#ffd100] wow-title drop-shadow-lg relative z-10 text-center">
+          Dungeon Hubs & Raids
         </h1>
-        <p className="text-[#d3c8b8] mt-3 text-lg font-medium tracking-wide relative z-10 drop-shadow-md text-center max-w-2xl">
-          The deepest PvE experience in Warcraft history. Parallel raiding, expansive dungeon crawls, and the legendary Titanforged Path.
+        <p className="text-[#d3c8b8] mt-3 text-lg font-medium tracking-wide relative z-10 drop-shadow-md text-center max-w-3xl">
+          24 brand new dungeons arranged into 8 massive "Winged" hubs, plus the new parallel raid tiers. The PvE endgame is vast, complex, and deeply tied to WC3 lore.
         </p>
       </div>
 
-      {/* Tabs */}
-      <div className="flex justify-center gap-3 mb-12 flex-wrap relative z-10">
-        {[
-          { id: 'dungeons', label: 'Dungeons & Mini-Dungeons' },
-          { id: 'raids', label: 'Raids & Endgame' },
-          { id: 'legendaries', label: 'The Titanforged Path' }
-        ].map(tab => (
-          <button
-            key={tab.id}
-            onClick={() => setActiveTab(tab.id as any)}
-            className={`px-6 py-3 rounded-lg font-bold transition-all duration-300 relative overflow-hidden group ${
-              activeTab === tab.id 
-                ? 'bg-gradient-to-br from-[#2a1f16] to-[#1a140e] text-[#ffd100] border border-[#ffd100]/60 shadow-[0_0_20px_rgba(255,209,0,0.4)]' 
-                : 'bg-[#120e0a] text-[#a69882] border border-[#3c3224] hover:bg-[#1a140e] hover:text-white hover:border-[#ffd100]/30'
-            }`}
-          >
-            {activeTab === tab.id && (
-              <span className="absolute inset-0 bg-[#ffd100]/5 animate-pulse rounded-lg" />
-            )}
-            <span className="relative z-10 drop-shadow-md">{tab.label}</span>
-          </button>
-        ))}
-      </div>
-
-      <div className="relative z-10">
-        {activeTab === 'dungeons' && (
-          <section className="bg-gradient-to-br from-[#120e0a] to-[#0f0c08] border border-[#3c3224] rounded-xl p-8 shadow-2xl space-y-8 animate-in slide-in-from-bottom-4 duration-500">
-            <div className="flex items-center gap-4 border-b border-[#3c3224] pb-4">
-              <div className="p-2 bg-[#1a140e] rounded border border-[#ffd100]/30 text-[#ffd100]">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      <div className="flex flex-col lg:flex-row gap-8">
+        
+        {/* Sidebar Navigation */}
+        <div className="lg:w-1/3 space-y-6 h-[800px] overflow-y-auto pr-2 custom-scrollbar">
+          {Object.entries(instances).map(([category, instList]) => (
+            <div key={category} className="bg-[#120e0a] border border-[#3c3224] rounded-lg overflow-hidden shadow-lg mb-4">
+              <div className="bg-gradient-to-r from-[#1a140e] to-[#120e0a] p-4 border-b border-[#3c3224]">
+                <h3 className="font-bold text-[#ffd100] uppercase tracking-widest text-[11px] leading-tight">{category}</h3>
               </div>
-              <h2 className="text-3xl font-bold text-white tracking-wide">Dungeons & Mini-Dungeons</h2>
-            </div>
-            
-            <p className="text-[#b5a790] text-lg leading-relaxed">
-              Every classic dungeon remains, retuned for the slower leveling curve and cap phases. But to make the world feel truly alive, over 20 new five-player instances arrive. This includes massive sprawling crawls, and new 15-to-20-minute, single-boss-chain "mini-dungeons" designed to make a zone's story playable without demanding a full evening.
-            </p>
-            
-            <div className="overflow-x-auto rounded-lg border border-[#3c3224] shadow-inner bg-[#0a0806]">
-              <table className="w-full text-left border-collapse">
-                <thead>
-                  <tr className="bg-[#1a140e] text-white border-b border-[#3c3224]">
-                    <th className="p-4 font-bold text-[#ffd100]">Dungeon</th>
-                    <th className="p-4 font-bold">Zone / Phase</th>
-                    <th className="p-4 font-bold">Levels</th>
-                    <th className="p-4 font-bold w-1/2">Theme & Bosses</th>
-                  </tr>
-                </thead>
-                <tbody className="text-[#a69882] text-sm">
-                  {/* Phase 1 */}
-                  <tr className="border-b border-[#3c3224]/50 hover:bg-[#1a140e]/70 transition-colors">
-                    <td className="p-4 font-semibold text-white">The Plague Convoy</td>
-                    <td className="p-4">Silverpine / P1</td>
-                    <td className="p-4 text-[#ffd100]">18–20</td>
-                    <td className="p-4">Mini-dungeon capstone of the Worgen starting experience. Defend a barricade against waves of ghouls before fighting a towering abomination.</td>
-                  </tr>
-                  <tr className="border-b border-[#3c3224]/50 hover:bg-[#1a140e]/70 transition-colors">
-                    <td className="p-4 font-semibold text-white">Bough of Sorrows</td>
-                    <td className="p-4">Ashenvale / P1</td>
-                    <td className="p-4 text-[#ffd100]">24–30</td>
-                    <td className="p-4">An ancient of war corrupted by felsludge. Navigate twisted roots, fighting satyrs and tainted dryads. Features 4 bosses, ending with the maddened Ancient itself.</td>
-                  </tr>
-                  <tr className="border-b border-[#3c3224]/50 hover:bg-[#1a140e]/70 transition-colors bg-[#16120e]">
-                    <td className="p-4 font-semibold text-white">Cove of the Bloodsail</td>
-                    <td className="p-4">Stranglethorn / P1</td>
-                    <td className="p-4 text-[#ffd100]">27–30</td>
-                    <td className="p-4">Mini-dungeon. Board a flagship anchored off the coast. Fight the captain to secure a stolen naval charter.</td>
-                  </tr>
-
-                  {/* Phase 2 */}
-                  <tr className="border-b border-[#3c3224]/50 hover:bg-[#1a140e]/70 transition-colors">
-                    <td className="p-4 font-semibold text-white">Raven Hill Catacombs</td>
-                    <td className="p-4">Duskwood / P2</td>
-                    <td className="p-4 text-[#ffd100]">32–38</td>
-                    <td className="p-4">Beneath the cemetery, Twilight cultists feed the curse that grips Duskwood. A massive labyrinth with 5 bosses, including a necromancer manipulating shadows.</td>
-                  </tr>
-                  <tr className="border-b border-[#3c3224]/50 hover:bg-[#1a140e]/70 transition-colors">
-                    <td className="p-4 font-semibold text-white">The Syndicate Conclave</td>
-                    <td className="p-4">Alterac Mts / P2</td>
-                    <td className="p-4 text-[#ffd100]">36–42</td>
-                    <td className="p-4">The rot beneath the ruins: Syndicate spymasters, poisoners, and paid steel. Navigate trap-filled halls to assassinate their regional leader.</td>
-                  </tr>
-                  <tr className="border-b border-[#3c3224]/50 hover:bg-[#1a140e]/70 transition-colors bg-[#16120e]">
-                    <td className="p-4 font-semibold text-white">Gordunni Outpost</td>
-                    <td className="p-4">Feralas / P2</td>
-                    <td className="p-4 text-[#ffd100]">38–40</td>
-                    <td className="p-4">Mini-dungeon. Assault an ogre mound to disrupt their supply lines, tying into the Ogre allied race unlock.</td>
-                  </tr>
-
-                  {/* Phase 3 */}
-                  <tr className="border-b border-[#3c3224]/50 hover:bg-[#1a140e]/70 transition-colors">
-                    <td className="p-4 font-semibold text-white">The Scuttled Fleet</td>
-                    <td className="p-4">Tanaris / P3</td>
-                    <td className="p-4 text-[#ffd100]">44–48</td>
-                    <td className="p-4">A pirate armada wrecked on the reefs of the new island chain. Fight through half-sunken galleons against undead buccaneers and sea giants. 4 Bosses.</td>
-                  </tr>
-                  <tr className="border-b border-[#3c3224]/50 hover:bg-[#1a140e]/70 transition-colors">
-                    <td className="p-4 font-semibold text-white">The Sundered Court</td>
-                    <td className="p-4">Azshara / P3</td>
-                    <td className="p-4 text-[#ffd100]">48–54</td>
-                    <td className="p-4">The drowned palace district of old Eldarath. Supported by three mini-dungeons. Highborne ghosts and Naga fight for control over ancient titan relics.</td>
-                  </tr>
-
-                  {/* Phase 4 */}
-                  <tr className="border-b border-[#3c3224]/50 hover:bg-[#1a140e]/70 transition-colors">
-                    <td className="p-4 font-semibold text-white">The Fel Hollows</td>
-                    <td className="p-4">Felwood / P4</td>
-                    <td className="p-4 text-[#ffd100]">52–56</td>
-                    <td className="p-4">A warren of corrupted root-caverns beneath Jaedenar. Eradicate Shadow Council summoners before they pull a pit lord into Azeroth.</td>
-                  </tr>
-                  <tr className="border-b border-[#3c3224]/50 hover:bg-[#1a140e]/70 transition-colors">
-                    <td className="p-4 font-semibold text-white">Mazthoril Deeps</td>
-                    <td className="p-4">Winterspring / P4</td>
-                    <td className="p-4 text-[#ffd100]">56–60</td>
-                    <td className="p-4">A three-wing dungeon beneath the wyrm caves. Blue dragonkin driven mad by arcane anomalies. Seeds the Hyjal raid storyline. 6 Bosses.</td>
-                  </tr>
-                  <tr className="border-b border-[#3c3224]/50 hover:bg-[#1a140e]/70 transition-colors">
-                    <td className="p-4 font-semibold text-white">Demon Fall Canyon</td>
-                    <td className="p-4">Ashenvale / P4</td>
-                    <td className="p-4 text-[#ffd100]">58–60</td>
-                    <td className="p-4">Legion remnants desecrate the monument where Grommash Hellscream fell. A brutal level 60 challenge requiring a geared, coordinated group.</td>
-                  </tr>
-
-                  {/* Post Naxx */}
-                  <tr className="hover:bg-[#1a140e]/70 transition-colors bg-[#1a0f0f]">
-                    <td className="p-4 font-semibold text-[#ff5050]">Karazhan Crypts</td>
-                    <td className="p-4">Deadwind / Post-Naxx</td>
-                    <td className="p-4 text-[#ffd100]">60</td>
-                    <td className="p-4">The inverted catacombs beneath Medivh's tower. A horrific 5-player test of endurance featuring the infamous Upside-Down Sinners.</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </section>
-        )}
-
-        {activeTab === 'raids' && (
-          <section className="bg-gradient-to-br from-[#120e0a] to-[#0f0c08] border border-[#3c3224] rounded-xl p-8 shadow-2xl space-y-8 animate-in slide-in-from-bottom-4 duration-500">
-            <div className="flex items-center gap-4 border-b border-[#3c3224] pb-4">
-              <div className="p-2 bg-[#1a140e] rounded border border-[#ff7d0a]/30 text-[#ff7d0a]">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              </div>
-              <h2 className="text-3xl font-bold text-white tracking-wide">Raids & Endgame</h2>
-            </div>
-            
-            <p className="text-[#b5a790] text-lg leading-relaxed">
-              The level cap has four phases, but the raid game does not stop at four. Camelot follows the classical pattern: 
-              a sequence of post-60 content patches, each opening new raids on top of a stable level cap. 
-            </p>
-
-            <div className="bg-gradient-to-r from-[#1a140e] to-[#241a10] p-6 border-l-4 border-[#ffd100] rounded-r-lg shadow-md relative overflow-hidden">
-               <div className="absolute -right-10 -top-10 opacity-5 scale-150">
-                <svg width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="#ffd100" strokeWidth="1"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              </div>
-              <h3 className="text-[#ffd100] font-bold text-xl mb-3 relative z-10">The Overarching Threat: The Hourglass Cabal</h3>
-              <p className="text-[#d3c8b8] leading-relaxed relative z-10">
-                One antagonist ties every patch together. Agents of the Infinite Dragonflight are working to unmake Camelot from within. 
-                Their fingerprints surface in the Scarlet Enclave's fanaticism, in the corruption feeding Hyjal, and in whatever waits at the end of Naxxramas. 
-                This is the thread that makes all raids one continuous, epic narrative. You are not just killing bosses; you are fighting for the timeline.
-              </p>
-            </div>
-
-            <div className="mt-8 space-y-4">
-              <h3 className="text-2xl font-bold text-white mb-4 border-b border-[#3c3224]/30 pb-2">Parallel Raiding & Release Schedule</h3>
-              <p className="text-[#a69882] mb-6">
-                Raid sizes vary deliberately to challenge different guild structures. Furthermore, Camelot introduces <strong>parallel raids</strong> to the same tiers. Instead of just grinding BWL every week, your guild can tackle Grim Batol alongside it for sideways upgrades, different tier-set visuals, and unique trinkets.
-              </p>
-              
-              <div className="grid gap-6">
-                {/* Tier 1 */}
-                <div className="bg-[#120e0a] border border-[#3c3224] rounded-lg p-5 hover:border-[#ff7d0a]/50 transition-colors group">
-                  <div className="flex justify-between items-start mb-3">
-                    <h4 className="text-[#ff7d0a] font-bold text-lg group-hover:text-[#ff9900] transition-colors">C1.1: The Core Awakens</h4>
-                    <span className="bg-[#1a140e] text-[#ffd100] px-3 py-1 rounded text-xs font-bold border border-[#3c3224]">10 Player</span>
-                  </div>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div>
-                      <strong className="text-white block mb-1">Molten Core</strong>
-                      <p className="text-sm text-[#a69882]">The Firelord's lair becomes an intimate 10-player raid. The roster shrinking makes room for growing: the boss list expands past the original ten with new Fireguard encounters.</p>
-                    </div>
-                    <div className="border-l border-[#3c3224] pl-4">
-                      <strong className="text-[#d3c8b8] block mb-1 flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-[#ffd100]"></span>Parallel: Lower Karazhan Crypts</strong>
-                      <p className="text-sm text-[#a69882]">A 10-player introduction to the deadlier horrors of Deadwind Pass. Drops side-grade tier pieces and heavily features shadow resistance gear.</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Tier 2 */}
-                <div className="bg-[#120e0a] border border-[#3c3224] rounded-lg p-5 hover:border-[#ff7d0a]/50 transition-colors group">
-                  <div className="flex justify-between items-start mb-3">
-                    <h4 className="text-[#ff7d0a] font-bold text-lg group-hover:text-[#ff9900] transition-colors">C1.2: Brood of the Black Dragon</h4>
-                    <span className="bg-[#1a140e] text-[#ffd100] px-3 py-1 rounded text-xs font-bold border border-[#3c3224]">20 Player</span>
-                  </div>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div>
-                      <strong className="text-white block mb-1">Onyxia's Lair</strong>
-                      <p className="text-sm text-[#a69882]">The first 20-player raid. Two new miniboss encounters are inserted into the cavernous approach before Onyxia's chamber, requiring complex splitting and tank-swapping.</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Tier 3 */}
-                <div className="bg-[#120e0a] border border-[#3c3224] rounded-lg p-5 hover:border-[#ff7d0a]/50 transition-colors group">
-                  <div className="flex justify-between items-start mb-3">
-                    <h4 className="text-[#ff7d0a] font-bold text-lg group-hover:text-[#ff9900] transition-colors">C1.3: The Blood God's Return</h4>
-                    <span className="bg-[#1a140e] text-[#ffd100] px-3 py-1 rounded text-xs font-bold border border-[#3c3224]">10 Player</span>
-                  </div>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div>
-                      <strong className="text-white block mb-1">Zul'Gurub</strong>
-                      <p className="text-sm text-[#a69882]">The troll capital stays intimate. All classic bosses return, retimed for a 10-player roster and reinforced by a sprawling new Swamp of Sorrows quest hub leading up to the gates.</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Tier 4 */}
-                <div className="bg-[#120e0a] border border-[#3c3224] rounded-lg p-5 hover:border-[#ff7d0a]/50 transition-colors group relative overflow-hidden">
-                   <div className="absolute -left-20 top-0 opacity-10 blur-sm pointer-events-none">
-                     <svg width="200" height="200" viewBox="0 0 24 24" fill="red"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/></svg>
-                   </div>
-                  <div className="flex justify-between items-start mb-3 relative z-10">
-                    <h4 className="text-[#ff7d0a] font-bold text-lg group-hover:text-[#ff9900] transition-colors">C1.4: Lords of Blackrock</h4>
-                    <span className="bg-[#1a140e] text-[#ffd100] px-3 py-1 rounded text-xs font-bold border border-[#3c3224]">20 Player</span>
-                  </div>
-                  <div className="grid md:grid-cols-3 gap-4 relative z-10">
-                    <div className="md:col-span-1">
-                      <strong className="text-white block mb-1">Blackwing Lair</strong>
-                      <p className="text-sm text-[#a69882]">Nefarian's lair holds at 20. The suppression room is redesigned to require coordinated team splits rather than just slowing the raid to a crawl.</p>
-                    </div>
-                    <div className="border-l border-[#3c3224] pl-4 md:col-span-1">
-                      <strong className="text-[#d3c8b8] block mb-1 flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-[#ff7d0a]"></span>Parallel: Grim Batol</strong>
-                      <p className="text-sm text-[#a69882]">A massive 20-player raid into the cursed dwarven fortress. Fight corrupted red dragons and deep-earth horrors. Offers alternative 8-piece tier armor.</p>
-                    </div>
-                     <div className="border-l border-[#3c3224] pl-4 md:col-span-1">
-                      <strong className="text-[#d3c8b8] block mb-1 flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-[#a335ee]"></span>Parallel: Crown of the Damned</strong>
-                      <p className="text-sm text-[#a69882]">A 20-player raid situated above Stratholme. This is the raid that canonically unlocks the Death Knight class for the realm.</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Tier 5 */}
-                <div className="bg-[#120e0a] border border-[#3c3224] rounded-lg p-5 hover:border-[#ff7d0a]/50 transition-colors group">
-                  <div className="flex justify-between items-start mb-3">
-                    <h4 className="text-[#ff7d0a] font-bold text-lg group-hover:text-[#ff9900] transition-colors">C1.5: The Shifting Sands</h4>
-                    <span className="bg-[#1a140e] text-[#ffd100] px-3 py-1 rounded text-xs font-bold border border-[#3c3224]">20 (Flex 40)</span>
-                  </div>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div>
-                      <strong className="text-white block mb-1">Ahn'Qiraj (Ruins & Temple)</strong>
-                      <p className="text-sm text-[#a69882]">The Ruins run as a strict 20-player. The Temple runs as a 20-player raid by default, but guilds can opt-in to a 40-player "War Mode" version for increased loot drops and an exclusive mount.</p>
-                    </div>
-                     <div className="border-l border-[#3c3224] pl-4">
-                      <strong className="text-[#d3c8b8] block mb-1 flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-[#ffd100]"></span>Parallel: Vault of Uldum</strong>
-                      <p className="text-sm text-[#a69882]">Finally opened. A titan facility under siege by Al'Akir's forces. 20-player raid featuring heavy puzzle mechanics and wind-based hazards.</p>
-                    </div>
-                  </div>
-                </div>
-
-                 {/* Tier 6 */}
-                 <div className="bg-[#120e0a] border border-[#3c3224] rounded-lg p-5 hover:border-[#ff7d0a]/50 transition-colors group border-x-4 border-x-[#a335ee]">
-                  <div className="flex justify-between items-start mb-3">
-                    <h4 className="text-[#ff7d0a] font-bold text-lg group-hover:text-[#ff9900] transition-colors">C1.6: The Dread Citadel</h4>
-                    <span className="bg-[#1a140e] text-[#ffd100] px-3 py-1 rounded text-xs font-bold border border-[#3c3224]">40 Player</span>
-                  </div>
-                  <div className="grid md:grid-cols-3 gap-4">
-                    <div className="md:col-span-1">
-                      <strong className="text-white block mb-1">Naxxramas</strong>
-                      <p className="text-sm text-[#a69882]">The tier's crescendo and the only permanent, mandatory 40-player raid in Camelot. The ultimate logistical and mechanical test.</p>
-                    </div>
-                    <div className="border-l border-[#3c3224] pl-4 md:col-span-1">
-                      <strong className="text-[#d3c8b8] block mb-1 flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-green-500"></span>Parallel: Battle for Hyjal</strong>
-                      <p className="text-sm text-[#a69882]">A 20-player outdoor raid. Defend the World Tree against the Burning Legion remnants and the Infinite Dragonflight's sabotage.</p>
-                    </div>
-                     <div className="border-l border-[#3c3224] pl-4 md:col-span-1">
-                      <strong className="text-[#d3c8b8] block mb-1 flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-red-600"></span>Parallel: Scarlet Enclave</strong>
-                      <p className="text-sm text-[#a69882]">A 20-player raid destroying the fanatical remnants of the Scarlet Crusade, armed with stolen Light-infused titan relics.</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Tier 7 */}
-                <div className="bg-gradient-to-r from-[#1a0f1a] to-[#120e0a] border border-[#3c3224] rounded-lg p-5 hover:border-[#ff7d0a]/50 transition-colors group">
-                  <div className="flex justify-between items-start mb-3">
-                    <h4 className="text-[#ff7d0a] font-bold text-lg group-hover:text-[#ff9900] transition-colors">C1.7: The Master's Tower</h4>
-                    <span className="bg-[#1a140e] text-[#ffd100] px-3 py-1 rounded text-xs font-bold border border-[#3c3224]">10 Player</span>
-                  </div>
-                  <div className="grid md:grid-cols-1 gap-4">
-                    <div>
-                      <strong className="text-white block mb-1">Karazhan</strong>
-                      <p className="text-sm text-[#a69882]">The post-Naxxramas endgame hub. The raid closes the story intimately, the same size it opened at: Medivh's tower unsealed a generation early to confront the true leader of the Hourglass Cabal.</p>
-                    </div>
-                  </div>
-                </div>
-
+              <div className="flex flex-col">
+                {instList.map(inst => (
+                  <button
+                    key={inst.id}
+                    onClick={() => { setActiveCategory(category); setActiveInstance(inst.id); }}
+                    className={`text-left p-3 text-sm transition-all border-l-4 ${
+                      activeInstance === inst.id 
+                        ? 'border-[#a335ee] bg-[#1a140e] text-white font-bold' 
+                        : 'border-transparent text-[#a69882] hover:bg-[#16120e] hover:text-[#d3c8b8]'
+                    }`}
+                  >
+                    {inst.name}
+                  </button>
+                ))}
               </div>
             </div>
-          </section>
-        )}
+          ))}
+        </div>
 
-        {activeTab === 'legendaries' && (
-          <section className="bg-gradient-to-br from-[#120e0a] to-[#0f0c08] border border-[#3c3224] rounded-xl p-8 shadow-2xl space-y-8 animate-in slide-in-from-bottom-4 duration-500">
-            <div className="flex items-center gap-4 border-b border-[#3c3224] pb-4">
-              <div className="p-2 bg-[#1a140e] rounded border border-[#ff8000]/50 text-[#ff8000]">
-                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        {/* Content Display */}
+        <div className="lg:w-2/3">
+          {selectedInstanceData && (
+            <div className="bg-gradient-to-br from-[#120e0a] to-[#0b0907] border border-[#3c3224] rounded-xl p-8 shadow-2xl animate-in slide-in-from-right-8 duration-500 relative overflow-hidden">
+               <div className="absolute top-0 right-0 opacity-5 scale-150 pointer-events-none">
+                <svg width="200" height="200" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
               </div>
-              <h2 className="text-3xl font-bold text-[#ff8000] tracking-wide">Legendaries: The Titanforged Path</h2>
+
+              <div className="relative z-10">
+                <div className="flex justify-between items-start mb-6 border-b border-[#3c3224]/50 pb-4">
+                  <div>
+                    <h2 className="text-3xl font-extrabold text-white mb-2">{selectedInstanceData.name}</h2>
+                    <div className="flex gap-3">
+                      <span className="inline-block bg-[#1a140e] border border-[#ff8000]/50 text-[#ff8000] px-3 py-1 rounded text-xs font-bold tracking-widest shadow-[0_0_10px_rgba(255,128,0,0.2)]">
+                        LEVEL {selectedInstanceData.level}
+                      </span>
+                      <span className="inline-block bg-[#1a140e] border border-[#a335ee]/50 text-[#a335ee] px-3 py-1 rounded text-xs font-bold tracking-widest shadow-[0_0_10px_rgba(163,53,238,0.2)]">
+                        {selectedInstanceData.size}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="text-[#a69882] text-xs font-bold uppercase tracking-wider mb-2">Instance Overview</h4>
+                    <p className="text-[#d3c8b8] leading-relaxed text-lg">{selectedInstanceData.description}</p>
+                  </div>
+
+                  <div className="bg-[#1a140e] border border-[#3c3224] p-5 rounded-lg shadow-inner border-l-2 border-l-[#c41f3b]">
+                    <h4 className="text-[#c41f3b] text-sm font-bold uppercase tracking-wider mb-3 flex items-center gap-2">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+                      Notable Encounters
+                    </h4>
+                    <ul className="list-disc pl-5 text-[#d3c8b8] space-y-2">
+                      {selectedInstanceData.bosses.map((boss, i) => (
+                        <li key={i} className="font-medium text-white tracking-wide">{boss}</li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <div className="bg-gradient-to-r from-[#1a140e] to-transparent border-l-4 border-[#0070dd] p-5 rounded-r-lg">
+                    <h4 className="text-[#0070dd] text-sm font-bold uppercase tracking-wider mb-2">Lore & WC3 Integration</h4>
+                    <p className="text-[#d3c8b8] leading-relaxed italic">"{selectedInstanceData.lore}"</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            
-            <div className="space-y-4 text-[#b5a790] text-lg leading-relaxed">
-              <p>
-                Camelot gives every playstyle a legendary weapon, and makes earning it mean something. Each legendary opens with a long, raid-spanning questline involving server-wide cooperation, massive material turn-ins, and solo mechanical trials. They are not simple RNG drops.
-              </p>
-              <p className="bg-[#1a140e] p-4 rounded-lg border-l-4 border-[#ff8000] text-[#d3c8b8] shadow-inner">
-                Once forged, a legendary does not stay static. It follows the <strong>Titanforged Path</strong>: an upgrade track where the weapon is re-forged at major reputation and raid milestones across later patches. Your legendary grows with you, rather than being replaced by the next tier's epic drops.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 mt-8">
-              {/* Legendary Cards */}
-              <div className="bg-[#120e0a] border border-[#ff8000]/30 rounded-lg p-5 hover:bg-[#1a140e] transition-colors">
-                <div className="flex justify-between items-start mb-2">
-                  <h4 className="text-[#ff8000] font-bold text-lg">Sulfuras, Hand of Ragnaros</h4>
-                  <span className="text-xs bg-[#24150b] text-[#ff8000] px-2 py-1 rounded border border-[#ff8000]/50">Melee / Tank</span>
-                </div>
-                <p className="text-xs text-white mb-3">Origin: C1.1, Molten Core</p>
-                <p className="text-sm text-[#a69882]">Restored exactly as legend remembers it: the Bindings drop from the Core's new Fireguard encounters, but the final forging happens over the anvil at the heart of the Firelord's own lair while holding off waves of lava elementals.</p>
-              </div>
-
-              <div className="bg-[#120e0a] border border-[#ff8000]/30 rounded-lg p-5 hover:bg-[#1a140e] transition-colors">
-                <div className="flex justify-between items-start mb-2">
-                  <h4 className="text-[#ff8000] font-bold text-lg">Thunderfury, Blessed Blade of the Windseeker</h4>
-                  <span className="text-xs bg-[#24150b] text-[#ff8000] px-2 py-1 rounded border border-[#ff8000]/50">Melee DPS</span>
-                </div>
-                <p className="text-xs text-white mb-3">Origin: C1.2, Onyxia's Lair</p>
-                <p className="text-sm text-[#a69882]">Bindings now drop from Onyxia's new miniboss pair as well as her own hoard. Requires farming materials across the highest level zones and a massive world boss summon in Silithus.</p>
-              </div>
-
-              <div className="bg-[#120e0a] border border-[#ff8000]/30 rounded-lg p-5 hover:bg-[#1a140e] transition-colors">
-                <div className="flex justify-between items-start mb-2">
-                  <h4 className="text-[#ff8000] font-bold text-lg">Anathema, Voice of the Loa</h4>
-                  <span className="text-xs bg-[#24150b] text-[#ff8000] px-2 py-1 rounded border border-[#ff8000]/50">Healer</span>
-                </div>
-                <p className="text-xs text-white mb-3">Origin: C1.3, Zul'Gurub</p>
-                <p className="text-sm text-[#a69882]">A hexer's blessing turned relic. The chain runs through every ZG boss for loa favor tokens. The final step is an intense solo-healing scenario where you must keep 5 NPCs alive against waves of Blood Trolls in the Swamp of Sorrows.</p>
-              </div>
-
-              <div className="bg-[#120e0a] border border-[#ff8000]/30 rounded-lg p-5 hover:bg-[#1a140e] transition-colors">
-                <div className="flex justify-between items-start mb-2">
-                  <h4 className="text-[#ff8000] font-bold text-lg">Nefarian's Reckoning</h4>
-                  <span className="text-xs bg-[#24150b] text-[#ff8000] px-2 py-1 rounded border border-[#ff8000]/50">Ranged DPS (Hunter)</span>
-                </div>
-                <p className="text-xs text-white mb-3">Origin: C1.4, Blackwing Lair & Grim Batol</p>
-                <p className="text-sm text-[#a69882]">Forged from a dragonkin war-engine salvaged across Blackwing Lair's phases, calibrated with arcane focusing lenses from Grim Batol, and proofed in a solo kiting trial through the burning streets of Stratholme.</p>
-              </div>
-              
-              <div className="bg-[#120e0a] border border-[#ff8000]/30 rounded-lg p-5 hover:bg-[#1a140e] transition-colors">
-                <div className="flex justify-between items-start mb-2">
-                  <h4 className="text-[#ff8000] font-bold text-lg">The Silithid Monarch's Barb</h4>
-                  <span className="text-xs bg-[#24150b] text-[#ff8000] px-2 py-1 rounded border border-[#ff8000]/50">Melee / Feral Tank</span>
-                </div>
-                <p className="text-xs text-white mb-3">Origin: C1.5, Ahn'Qiraj</p>
-                <p className="text-sm text-[#a69882]">A Qiraji royal weapon reclaimed rather than forged. Requires assembling scattered carapace fragments in the Silithus overworld, and ends in a duel against a Qiraji champion inside the Temple's throne room.</p>
-              </div>
-
-              <div className="bg-[#120e0a] border border-[#ff8000]/30 rounded-lg p-5 hover:bg-[#1a140e] transition-colors">
-                <div className="flex justify-between items-start mb-2">
-                  <h4 className="text-[#ff8000] font-bold text-lg">Kel'Thuzad's Last Whisper</h4>
-                  <span className="text-xs bg-[#24150b] text-[#ff8000] px-2 py-1 rounded border border-[#ff8000]/50">Caster DPS</span>
-                </div>
-                <p className="text-xs text-white mb-3">Origin: C1.6, Naxxramas</p>
-                <p className="text-sm text-[#a69882]">Assembled from four phylactery shards hidden deep in Naxxramas. Unlocked by outlasting a Kel'Thuzad phantom in a brutal solo arcane survival trial staged in the Scarlet Enclave's ruined chapel.</p>
-              </div>
-
-              <div className="bg-[#120e0a] border border-[#ff8000]/30 rounded-lg p-5 hover:bg-[#1a140e] transition-colors">
-                <div className="flex justify-between items-start mb-2">
-                  <h4 className="text-[#ff8000] font-bold text-lg">The Hourglass Fang</h4>
-                  <span className="text-xs bg-[#24150b] text-[#ff8000] px-2 py-1 rounded border border-[#ff8000]/50">Rogue / Agility Melee</span>
-                </div>
-                <p className="text-xs text-white mb-3">Origin: C1.6, Battle for Hyjal</p>
-                <p className="text-sm text-[#a69882]">A pair of daggers grown from Infinite Dragonflight sand. Closes with a heist mission requiring extreme stealth to steal the blades from a bronze dragon's own hoard in the Caverns of Time.</p>
-              </div>
-
-              <div className="bg-[#120e0a] border border-[#ff8000]/30 rounded-lg p-5 hover:bg-[#1a140e] transition-colors">
-                <div className="flex justify-between items-start mb-2">
-                  <h4 className="text-[#ff8000] font-bold text-lg">Aldrachi Warder's Aegis</h4>
-                  <span className="text-xs bg-[#24150b] text-[#ff8000] px-2 py-1 rounded border border-[#ff8000]/50">Tank (Shield)</span>
-                </div>
-                <p className="text-xs text-white mb-3">Origin: C1.7, Karazhan</p>
-                <p className="text-sm text-[#a69882]">The coda legendary. Forged across the Deadwind Pass hub's full reputation track and deep dives into Karazhan and its Crypts. Grants a massive on-use absorb shield that visually projects a holy dome.</p>
-              </div>
-
-            </div>
-          </section>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );
