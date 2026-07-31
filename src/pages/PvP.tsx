@@ -100,6 +100,62 @@ export default function PvP() {
                     <h4 className="text-[#c41f3b] text-sm font-bold uppercase tracking-wider mb-2">The War Effort (Lore)</h4>
                     <p className="text-[#d3c8b8] leading-relaxed italic">"{selectedPvPData.lore}"</p>
                   </div>
+
+                  {/* Deep Dive PvP Information */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                    {'mapLayout' in selectedPvPData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                        <h4 className="text-[#1eff00] font-bold text-sm mb-2 uppercase tracking-wider">Map Layout</h4>
+                        <p className="text-[#a69882] text-sm">{selectedPvPData.mapLayout}</p>
+                      </div>
+                    )}
+                    {'factionHistory' in selectedPvPData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                        <h4 className="text-[#00ccff] font-bold text-sm mb-2 uppercase tracking-wider">Faction History</h4>
+                        <p className="text-[#a69882] text-sm">{selectedPvPData.factionHistory}</p>
+                      </div>
+                    )}
+                    {'powerUps' in selectedPvPData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                        <h4 className="text-[#ffdd57] font-bold text-sm mb-2 uppercase tracking-wider">Power-ups & Buffs</h4>
+                        <ul className="list-disc pl-4 text-[#a69882] text-sm">
+                          {(selectedPvPData.powerUps as string[]).map((p, i) => <li key={i}>{p}</li>)}
+                        </ul>
+                      </div>
+                    )}
+                    {'topMetaComps' in selectedPvPData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                        <h4 className="text-[#ff3b3b] font-bold text-sm mb-2 uppercase tracking-wider">Top Meta Comps</h4>
+                        <ul className="list-disc pl-4 text-[#a69882] text-sm">
+                          {(selectedPvPData.topMetaComps as string[]).map((c, i) => <li key={i}>{c}</li>)}
+                        </ul>
+                      </div>
+                    )}
+                    {'associatedReputations' in selectedPvPData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                        <h4 className="text-[#4ade80] font-bold text-sm mb-2 uppercase tracking-wider">Reputations</h4>
+                        <ul className="list-disc pl-4 text-[#a69882] text-sm">
+                          {(selectedPvPData.associatedReputations as string[]).map((r, i) => <li key={i}>{r}</li>)}
+                        </ul>
+                      </div>
+                    )}
+                    {'achievements' in selectedPvPData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                        <h4 className="text-[#ff8000] font-bold text-sm mb-2 uppercase tracking-wider">Achievements</h4>
+                        <ul className="list-disc pl-4 text-[#a69882] text-sm">
+                          {(selectedPvPData.achievements as string[]).map((a, i) => <li key={i}>{a}</li>)}
+                        </ul>
+                      </div>
+                    )}
+                    {'uniqueRewards' in selectedPvPData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg md:col-span-2">
+                        <h4 className="text-[#b480ff] font-bold text-sm mb-2 uppercase tracking-wider">Unique Rewards</h4>
+                        <ul className="list-disc pl-4 text-[#a69882] text-sm">
+                          {(selectedPvPData.uniqueRewards as string[]).map((r, i) => <li key={i}>{r}</li>)}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>

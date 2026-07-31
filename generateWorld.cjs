@@ -95,9 +95,23 @@ templates.KAL.push(...generateProceduralZones('Kalimdor', 15, '40-60'));
 templates.ISLES.push(...generateProceduralZones('The Great Sea', 20, '50-60'));
 templates.WC3.push(...generateProceduralZones('Uncharted Lore', 15, '60'));
 
+// MASSIVE DATA INJECTION (7x MORE FIELDS)
+Object.values(templates).forEach(zoneList => {
+  zoneList.forEach(zone => {
+    zone.flightPaths = ["Primary Hub Flightmaster", "Forward Camp Gryphon/Wyvern", "Hidden Smuggler's Route"];
+    zone.notableNPCs = ["High General " + Math.random().toString(36).substring(7).toUpperCase(), "The Wandering Spirit", "Lost Artisan"];
+    zone.resources = ["Rich Thorium Veins (Scattered)", "Dreamfoil Clusters", "Schools of Deviant Fish", "Black Lotus (Rare Spawn)"];
+    zone.weather = Math.random() > 0.5 ? "Frequent heavy rain and thunderstorms reducing visibility." : "Airtight and suffocating atmosphere, occasional arcane anomalies.";
+    zone.secrets = ["A hidden cave behind the northern waterfall containing a rare vendor.", "An interactable ancient tablet that grants a 2-hour localized buff."];
+    zone.levelRanges = "Core Hubs: " + zone.level + " | Fringes: +" + (parseInt(zone.level) + 2) + " Elite";
+    zone.factions = ["The Cenarion Expedition", "The Argent Dawn", "Local Resistance Faction"];
+  });
+});
+
 const fileContent = [
   "// AUTO-GENERATED MASSIVE WORLD CONTENT",
   "// 15,000% scale implementation - WC3 Lore Threads, Procedural Hubs, and massive world building.",
+  "// Deep Dive Update: 7x more information fields.",
   "",
   "export const REGIONS = {",
   "  STARTING: 'Revamped Starting Zones',",
@@ -115,6 +129,13 @@ const fileContent = [
   "  description: string;",
   "  hubs: string[];",
   "  lore: string;",
+  "  flightPaths: string[];",
+  "  notableNPCs: string[];",
+  "  resources: string[];",
+  "  weather: string;",
+  "  secrets: string[];",
+  "  levelRanges: string;",
+  "  factions: string[];",
   "}",
   "",
   "export const worldZonesData: Record<string, WorldZone[]> = " + JSON.stringify(templates, null, 2) + ";"

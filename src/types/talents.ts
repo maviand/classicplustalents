@@ -12,4 +12,11 @@ export interface Talent {
   col: number;
   desc: string[];
   requires?: TalentReq;
+  statScaling?: string;
+  loreOrigins?: string;
+  synergies?: string[];
+  recommendedBuilds?: string[];
+  runeInteractions?: string;
+  devCommentary?: string;
+  visualEffect?: string;
 }

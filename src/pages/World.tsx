@@ -88,6 +88,62 @@ export default function World() {
                     <h4 className="text-[#a335ee] text-sm font-bold uppercase tracking-wider mb-2">Warcraft Lore & Dynamic Events</h4>
                     <p className="text-[#d3c8b8] leading-relaxed italic">"{selectedZoneData.lore}"</p>
                   </div>
+
+                  {/* Deep Dive Information */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                    {'levelRanges' in selectedZoneData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                        <h4 className="text-[#1eff00] font-bold text-sm mb-2 uppercase tracking-wider">Level Ranges</h4>
+                        <p className="text-[#a69882] text-sm">{selectedZoneData.levelRanges}</p>
+                      </div>
+                    )}
+                    {'weather' in selectedZoneData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                        <h4 className="text-[#00ccff] font-bold text-sm mb-2 uppercase tracking-wider">Weather & Atmosphere</h4>
+                        <p className="text-[#a69882] text-sm">{selectedZoneData.weather}</p>
+                      </div>
+                    )}
+                    {'factions' in selectedZoneData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                        <h4 className="text-[#ffdd57] font-bold text-sm mb-2 uppercase tracking-wider">Reputation Factions</h4>
+                        <ul className="list-disc pl-4 text-[#a69882] text-sm">
+                          {(selectedZoneData.factions as string[]).map((f, i) => <li key={i}>{f}</li>)}
+                        </ul>
+                      </div>
+                    )}
+                    {'resources' in selectedZoneData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                        <h4 className="text-[#ff8000] font-bold text-sm mb-2 uppercase tracking-wider">Gathering Resources</h4>
+                        <ul className="list-disc pl-4 text-[#a69882] text-sm">
+                          {(selectedZoneData.resources as string[]).map((r, i) => <li key={i}>{r}</li>)}
+                        </ul>
+                      </div>
+                    )}
+                    {'flightPaths' in selectedZoneData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                        <h4 className="text-[#4ade80] font-bold text-sm mb-2 uppercase tracking-wider">Flight Paths</h4>
+                        <ul className="list-disc pl-4 text-[#a69882] text-sm">
+                          {(selectedZoneData.flightPaths as string[]).map((f, i) => <li key={i}>{f}</li>)}
+                        </ul>
+                      </div>
+                    )}
+                    {'notableNPCs' in selectedZoneData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                        <h4 className="text-[#ff3b3b] font-bold text-sm mb-2 uppercase tracking-wider">Notable NPCs</h4>
+                        <ul className="list-disc pl-4 text-[#a69882] text-sm">
+                          {(selectedZoneData.notableNPCs as string[]).map((n, i) => <li key={i}>{n}</li>)}
+                        </ul>
+                      </div>
+                    )}
+                    {'secrets' in selectedZoneData && (
+                      <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg md:col-span-2">
+                        <h4 className="text-[#b480ff] font-bold text-sm mb-2 uppercase tracking-wider">Secrets & Discoveries</h4>
+                        <ul className="list-disc pl-4 text-[#a69882] text-sm">
+                          {(selectedZoneData.secrets as string[]).map((s, i) => <li key={i}>{s}</li>)}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>

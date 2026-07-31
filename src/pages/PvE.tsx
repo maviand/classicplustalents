@@ -97,6 +97,58 @@ export default function PvE() {
                   </div>
                 )}
 
+                {/* Render Deep Dive Fields */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                  {('loreHistory' in selectedDungeonData) && (
+                    <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                      <h4 className="text-[#00ccff] font-bold text-sm mb-2 uppercase tracking-wider">Lore & History</h4>
+                      <p className="text-[#a69882] text-sm italic">{selectedDungeonData.loreHistory}</p>
+                    </div>
+                  )}
+                  {('strategyGuide' in selectedDungeonData) && (
+                    <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                      <h4 className="text-[#ffdd57] font-bold text-sm mb-2 uppercase tracking-wider">Strategy Guide</h4>
+                      <p className="text-[#a69882] text-sm">{selectedDungeonData.strategyGuide}</p>
+                    </div>
+                  )}
+                  {('trashMobs' in selectedDungeonData) && (
+                    <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                      <h4 className="text-[#ff3b3b] font-bold text-sm mb-2 uppercase tracking-wider">Notable Trash Mobs</h4>
+                      <ul className="list-disc pl-4 text-[#a69882] text-sm">
+                        {(selectedDungeonData.trashMobs as string[]).map((mob, i) => <li key={i}>{mob}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                  {('associatedQuests' in selectedDungeonData) && (
+                    <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                      <h4 className="text-[#ffd100] font-bold text-sm mb-2 uppercase tracking-wider">Associated Quests</h4>
+                      <ul className="list-disc pl-4 text-[#a69882] text-sm">
+                        {(selectedDungeonData.associatedQuests as string[]).map((q, i) => <li key={i}>{q}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                  {('speedrunStrats' in selectedDungeonData) && (
+                    <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                      <h4 className="text-[#4ade80] font-bold text-sm mb-2 uppercase tracking-wider">Speedrun Strats</h4>
+                      <p className="text-[#a69882] text-sm">{selectedDungeonData.speedrunStrats}</p>
+                    </div>
+                  )}
+                  {('environmentalHazards' in selectedDungeonData) && (
+                    <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg">
+                      <h4 className="text-[#ff8000] font-bold text-sm mb-2 uppercase tracking-wider">Hazards</h4>
+                      <p className="text-[#a69882] text-sm">{selectedDungeonData.environmentalHazards}</p>
+                    </div>
+                  )}
+                  {('secrets' in selectedDungeonData) && (
+                    <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg md:col-span-2">
+                      <h4 className="text-[#b480ff] font-bold text-sm mb-2 uppercase tracking-wider">Secrets</h4>
+                      <ul className="list-disc pl-4 text-[#a69882] text-sm">
+                        {(selectedDungeonData.secrets as string[]).map((sec, i) => <li key={i}>{sec}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+
                 {/* Render Wings for Dungeons */}
                 {'wings' in selectedDungeonData && (
                   <div className="space-y-6">

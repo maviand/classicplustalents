@@ -239,6 +239,56 @@ export function Tooltip({ talent, points, activeTalents, rect,  }: TooltipProps)
         </div>
       )}
       
+      {/* Deep Dive Information (7x Scaling) */}
+      <div className="mt-3 pt-3 border-t border-[#3c3224] flex flex-col gap-2">
+        {talent.statScaling && (
+          <div className="text-[11px] leading-tight">
+            <span className="text-white font-semibold block mb-0.5">Stat Scaling:</span>
+            <span className="text-[#a69882]">{talent.statScaling}</span>
+          </div>
+        )}
+        {talent.loreOrigins && (
+          <div className="text-[11px] leading-tight">
+            <span className="text-[#00ccff] font-semibold block mb-0.5">Lore:</span>
+            <span className="text-[#a69882] italic">"{talent.loreOrigins}"</span>
+          </div>
+        )}
+        {talent.synergies && talent.synergies.length > 0 && (
+          <div className="text-[11px] leading-tight">
+            <span className="text-[#4ade80] font-semibold block mb-0.5">Synergies:</span>
+            <ul className="list-disc pl-3 text-[#a69882]">
+              {talent.synergies.map((s, i) => <li key={i}>{s}</li>)}
+            </ul>
+          </div>
+        )}
+        {talent.runeInteractions && (
+          <div className="text-[11px] leading-tight">
+            <span className="text-[#b480ff] font-semibold block mb-0.5">Rune Interaction:</span>
+            <span className="text-[#a69882]">{talent.runeInteractions}</span>
+          </div>
+        )}
+        {talent.recommendedBuilds && talent.recommendedBuilds.length > 0 && (
+          <div className="text-[11px] leading-tight">
+            <span className="text-[#ffdd57] font-semibold block mb-0.5">Key Builds:</span>
+            <ul className="list-disc pl-3 text-[#a69882]">
+              {talent.recommendedBuilds.map((b, i) => <li key={i}>{b}</li>)}
+            </ul>
+          </div>
+        )}
+        {talent.visualEffect && (
+          <div className="text-[11px] leading-tight">
+            <span className="text-[#ff5f00] font-semibold block mb-0.5">Visuals:</span>
+            <span className="text-[#a69882]">{talent.visualEffect}</span>
+          </div>
+        )}
+        {talent.devCommentary && (
+          <div className="text-[11px] leading-tight">
+            <span className="text-[#ffffff] font-semibold block mb-0.5">Dev Note:</span>
+            <span className="text-[#8c7e6b]">"{talent.devCommentary}"</span>
+          </div>
+        )}
+      </div>
+
       {/* Click instructions */}
       <div className="mt-3 pt-2 text-[#1eff00] text-[11px] leading-tight opacity-90 border-t border-[#3c3224]/50">
         {pts < talent.maxPoints && <p>• Click to learn</p>}
