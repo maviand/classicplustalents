@@ -59,17 +59,25 @@
 }
 
 :root {
-  /* Colors */
+  /* Core Palette */
   --bg-color-main: #0a0705;
   --bg-color-radial: radial-gradient(circle at top, #140d09 0%, #080605 60%, #000000 100%);
   --panel-bg: #0b0907;
   --panel-border: #3c3224;
+  
+  /* Text */
   --text-primary: #e4dcc7;
   --text-highlight: #ffd100;
   --text-header: #ffdd57;
   --text-muted: #a69882;
-  --color-green: #1eff00;
-  --color-red: #ff3b3b;
+  
+  /* Warcraft Specific Enhancements */
+  --wow-fel-green: #39ff14;
+  --wow-arcane-purple: #a335ee;
+  --wow-horde-red: #c41f3b;
+  --wow-alliance-blue: #0070dd;
+  --wow-legendary-orange: #ff8000;
+  --wow-artifact-gold: #e6cc80;
   
   /* Fluid Typography Sizing and spacings */
   --font-size-base: clamp(1rem, 1vw + 0.75rem, 1.125rem);
