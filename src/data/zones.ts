@@ -30,318 +30,492 @@ export interface WorldZone {
 export const worldZonesData: Record<string, WorldZone[]> = {
   "STARTING": [
     {
-      "id": "EchoIsles",
-      "name": "The Echo Isles (Troll)",
-      "level": "1-10",
-      "hubs": [
-        "Vol'jin's Vanguard",
-        "The Southern Atoll",
-        "Sen'jin Encampment"
-      ],
-      "desc": "Trolls no longer share the Valley of Trials with Orcs. Players start directly on the Echo Isles, fighting to secure a permanent beachhead against Zalazane's dark magic.",
-      "lore": "A desperate fight for survival. Players must help Vol'jin train raptors, construct defensive totems, and push Zalazane's mind-controlled trolls back into the interior. The zone culminates in a massive level 10 event where the entire zone rallies to hold off a Sea Witch invasion.",
-      "flightPaths": [
-        "Primary Hub Flightmaster",
-        "Forward Camp Gryphon/Wyvern",
-        "Hidden Smuggler's Route"
-      ],
-      "notableNPCs": [
-        "High General LIN16N",
-        "The Wandering Spirit",
-        "Lost Artisan"
-      ],
-      "resources": [
-        "Rich Thorium Veins (Scattered)",
-        "Dreamfoil Clusters",
-        "Schools of Deviant Fish",
-        "Black Lotus (Rare Spawn)"
-      ],
-      "weather": "Airtight and suffocating atmosphere, occasional arcane anomalies.",
-      "secrets": [
-        "A hidden cave behind the northern waterfall containing a rare vendor.",
-        "An interactable ancient tablet that grants a 2-hour localized buff."
-      ],
-      "levelRanges": "Core Hubs: 1-10 | Fringes: +3 Elite",
-      "factions": [
-        "The Cenarion Expedition",
-        "The Argent Dawn",
-        "Local Resistance Faction"
-      ]
+        "id": "NorthshireValley",
+        "name": "Northshire Valley (Human)",
+        "level": "1-10",
+        "desc": "The serene heart of Elwynn Forest is under siege. Defend the abbey against the resurgent Defias Brotherhood and Blackrock Orc incursions.",
+        "lore": "King Varian Wrynn commands all able-bodied citizens to take up arms as the borders of Elwynn are pressed from all sides.",
+        "flightPaths": [
+            "Northshire Abbey"
+        ],
+        "notableNPCs": [
+            "Marshal McBride",
+            "Brother Paxton"
+        ],
+        "resources": [
+            "Peacebloom",
+            "Silverleaf",
+            "Copper Ore"
+        ],
+        "weather": "Clear skies with occasional light rain.",
+        "secrets": [
+            "A hidden Defias cache behind the waterfall."
+        ],
+        "levelRanges": "1-10",
+        "factions": [
+            "Stormwind"
+        ],
+        "hubs": [
+            "Northshire Abbey",
+            "Echo Ridge Mine"
+        ]
     },
     {
-      "id": "NewTinkertown",
-      "name": "Gnomeregan Surface (Gnome)",
-      "level": "1-10",
-      "hubs": [
-        "Quarantine Zone 4",
-        "The Scrap-Yard",
-        "Mektorque's Command"
-      ],
-      "desc": "Gnomes begin in a heavily irradiated, quarantined camp right outside the sealed doors of Gnomeregan.",
-      "lore": "Pure technological survival. Players are tasked with venting radiation, saving irradiated survivors using experimental scrubbers, and testing the first prototypes of the Mechanostrider.",
-      "flightPaths": [
-        "Primary Hub Flightmaster",
-        "Forward Camp Gryphon/Wyvern",
-        "Hidden Smuggler's Route"
-      ],
-      "notableNPCs": [
-        "High General KN3MEJ",
-        "The Wandering Spirit",
-        "Lost Artisan"
-      ],
-      "resources": [
-        "Rich Thorium Veins (Scattered)",
-        "Dreamfoil Clusters",
-        "Schools of Deviant Fish",
-        "Black Lotus (Rare Spawn)"
-      ],
-      "weather": "Frequent heavy rain and thunderstorms reducing visibility.",
-      "secrets": [
-        "A hidden cave behind the northern waterfall containing a rare vendor.",
-        "An interactable ancient tablet that grants a 2-hour localized buff."
-      ],
-      "levelRanges": "Core Hubs: 1-10 | Fringes: +3 Elite",
-      "factions": [
-        "The Cenarion Expedition",
-        "The Argent Dawn",
-        "Local Resistance Faction"
-      ]
+        "id": "ValleyOfTrials",
+        "name": "Valley of Trials (Orc)",
+        "level": "1-10",
+        "desc": "The scorching red canyons of Durotar test the mettle of new Orcs. Survive the harsh environment and put down the encroaching centaur threat.",
+        "lore": "Thrall's new Horde demands strength. Only those who survive the Valley are deemed worthy to serve.",
+        "flightPaths": [
+            "Den of the Caller"
+        ],
+        "notableNPCs": [
+            "Gornek",
+            "Zuretha Fargaze"
+        ],
+        "resources": [
+            "Earthroot",
+            "Peacebloom",
+            "Copper Ore"
+        ],
+        "weather": "Blistering heat and sudden dust storms.",
+        "secrets": [
+            "An unmarked Burning Blade ritual site in the northern cliffs."
+        ],
+        "levelRanges": "1-10",
+        "factions": [
+            "Orgrimmar"
+        ],
+        "hubs": [
+            "Den of the Caller",
+            "Burning Blade Coven"
+        ]
     },
     {
-      "id": "NorthshireExpanded",
-      "name": "Northshire Valley (Human)",
-      "level": "1-10",
-      "hubs": [
-        "Northshire Abbey",
-        "The Hidden Resistance Camp",
-        "Echo Ridge Mine"
-      ],
-      "desc": "The iconic valley has been massively expanded. The Defias Brotherhood presence is not just a few thugs; it is a full-blown military occupation of the vineyards.",
-      "lore": "The Defias have cut off the valley from Goldshire. Players must organize a militia, sabotage Defias siege engines, and escort Marshal McBride in a climatic push to reopen the southern pass.",
-      "flightPaths": [
-        "Primary Hub Flightmaster",
-        "Forward Camp Gryphon/Wyvern",
-        "Hidden Smuggler's Route"
-      ],
-      "notableNPCs": [
-        "High General 0F6GEK",
-        "The Wandering Spirit",
-        "Lost Artisan"
-      ],
-      "resources": [
-        "Rich Thorium Veins (Scattered)",
-        "Dreamfoil Clusters",
-        "Schools of Deviant Fish",
-        "Black Lotus (Rare Spawn)"
-      ],
-      "weather": "Airtight and suffocating atmosphere, occasional arcane anomalies.",
-      "secrets": [
-        "A hidden cave behind the northern waterfall containing a rare vendor.",
-        "An interactable ancient tablet that grants a 2-hour localized buff."
-      ],
-      "levelRanges": "Core Hubs: 1-10 | Fringes: +3 Elite",
-      "factions": [
-        "The Cenarion Expedition",
-        "The Argent Dawn",
-        "Local Resistance Faction"
-      ]
+        "id": "ColdridgeValley",
+        "name": "Coldridge Valley (Dwarf)",
+        "level": "1-10",
+        "desc": "A freezing, snow-covered basin surrounded by impassable mountains. Reclaim the Anvilmar stronghold from frostmane trolls and troggs.",
+        "lore": "The trogg invasion has forced the dwarves to seal the tunnels, trapping many within the valley.",
+        "flightPaths": [
+            "Anvilmar"
+        ],
+        "notableNPCs": [
+            "Mountaineer Thalos",
+            "Grelin Whitebeard"
+        ],
+        "resources": [
+            "Silverleaf",
+            "Earthroot",
+            "Copper Ore"
+        ],
+        "weather": "Heavy snowfall and freezing blizzards.",
+        "secrets": [
+            "A hidden frostmane chest buried in the southern snowdrifts."
+        ],
+        "levelRanges": "1-10",
+        "factions": [
+            "Ironforge"
+        ],
+        "hubs": [
+            "Anvilmar",
+            "Frostmane Hold"
+        ]
     },
     {
-      "id": "ValleyOfTrials",
-      "name": "Valley of Trials (Orc)",
-      "level": "1-10",
-      "hubs": [
-        "The Proving Grounds",
-        "Kolkar's Ruin",
-        "Burning Blade Coven"
-      ],
-      "desc": "The harsh proving grounds are under direct assault by a massive Centaur warband seeking to wipe out the Orcs before they can establish Durotar.",
-      "lore": "A brutal introduction to Horde life. Players hold the northern choke-point against waves of Centaur raiders in a continuous, dynamic zone event.",
-      "flightPaths": [
-        "Primary Hub Flightmaster",
-        "Forward Camp Gryphon/Wyvern",
-        "Hidden Smuggler's Route"
-      ],
-      "notableNPCs": [
-        "High General C9AHD4",
-        "The Wandering Spirit",
-        "Lost Artisan"
-      ],
-      "resources": [
-        "Rich Thorium Veins (Scattered)",
-        "Dreamfoil Clusters",
-        "Schools of Deviant Fish",
-        "Black Lotus (Rare Spawn)"
-      ],
-      "weather": "Frequent heavy rain and thunderstorms reducing visibility.",
-      "secrets": [
-        "A hidden cave behind the northern waterfall containing a rare vendor.",
-        "An interactable ancient tablet that grants a 2-hour localized buff."
-      ],
-      "levelRanges": "Core Hubs: 1-10 | Fringes: +3 Elite",
-      "factions": [
-        "The Cenarion Expedition",
-        "The Argent Dawn",
-        "Local Resistance Faction"
-      ]
+        "id": "GnomereganSurface",
+        "name": "Gnomeregan Surface (Gnome)",
+        "level": "1-10",
+        "desc": "The irradiated outskirts of the fallen gnomish capital. Help High Tinker Mekkatorque establish a foothold to retake the city.",
+        "lore": "The gnomes refuse to abandon their home. Operation: Gnomeregan begins here on the snowy, irradiated surface.",
+        "flightPaths": [
+            "New Tinkertown"
+        ],
+        "notableNPCs": [
+            "High Tinker Mekkatorque",
+            "Captain Sparknozzle"
+        ],
+        "resources": [
+            "Irradiated Copper",
+            "Peacebloom"
+        ],
+        "weather": "Snowfall mixed with glowing green radioactive smog.",
+        "secrets": [
+            "An abandoned mechano-strider prototype that grants a temporary speed boost."
+        ],
+        "levelRanges": "1-10",
+        "factions": [
+            "Gnomeregan Exiles"
+        ],
+        "hubs": [
+            "New Tinkertown",
+            "The Toxic Airfield"
+        ]
     },
     {
-      "id": "Deathknell",
-      "name": "Deathknell (Undead)",
-      "level": "1-10",
-      "hubs": [
-        "The Shadow Grave",
-        "The Rotting Farm",
-        "Night Web's Hollow"
-      ],
-      "desc": "A splinter faction of the Scourge has infiltrated the starting area, leading to a civil war among the freshly raised dead.",
-      "lore": "Players awaken to utter chaos. You must prove your free will by actively resisting Lich King whispers (a unique debuff mechanic) while hunting down Scourge loyalists.",
-      "flightPaths": [
-        "Primary Hub Flightmaster",
-        "Forward Camp Gryphon/Wyvern",
-        "Hidden Smuggler's Route"
-      ],
-      "notableNPCs": [
-        "High General CBJQ4Q",
-        "The Wandering Spirit",
-        "Lost Artisan"
-      ],
-      "resources": [
-        "Rich Thorium Veins (Scattered)",
-        "Dreamfoil Clusters",
-        "Schools of Deviant Fish",
-        "Black Lotus (Rare Spawn)"
-      ],
-      "weather": "Frequent heavy rain and thunderstorms reducing visibility.",
-      "secrets": [
-        "A hidden cave behind the northern waterfall containing a rare vendor.",
-        "An interactable ancient tablet that grants a 2-hour localized buff."
-      ],
-      "levelRanges": "Core Hubs: 1-10 | Fringes: +3 Elite",
-      "factions": [
-        "The Cenarion Expedition",
-        "The Argent Dawn",
-        "Local Resistance Faction"
-      ]
+        "id": "Shadowglen",
+        "name": "Shadowglen (Night Elf)",
+        "level": "1-10",
+        "desc": "The lush, mystical starting area within the boughs of Teldrassil. The Emerald Nightmare has begun to seep into the valley.",
+        "lore": "A race against time. Players must use pure moonwell water to cleanse massive, pulsing nightmare nodes.",
+        "flightPaths": [
+            "Aldrassil"
+        ],
+        "notableNPCs": [
+            "Tenaron Stormgrip",
+            "Dirania Silvershine"
+        ],
+        "resources": [
+            "Silverleaf",
+            "Earthroot",
+            "Dreamfoil (Rare)"
+        ],
+        "weather": "Airtight and suffocating atmosphere, occasional arcane anomalies.",
+        "secrets": [
+            "A hidden cave behind the northern waterfall containing a rare vendor."
+        ],
+        "levelRanges": "1-10",
+        "factions": [
+            "Darnassus"
+        ],
+        "hubs": [
+            "Aldrassil",
+            "The Cleansing Pool"
+        ]
     },
     {
-      "id": "Shadowglen",
-      "name": "Shadowglen (Night Elf)",
-      "level": "1-10",
-      "hubs": [
-        "Aldrassil",
-        "The Cleansing Pool",
-        "Starbreeze Village"
-      ],
-      "desc": "Teldrassil is already failing. The Emerald Nightmare has seeped into the starting valley.",
-      "lore": "A race against time. Players must use pure moonwell water to cleanse massive, pulsing nightmare nodes.",
-      "flightPaths": [
-        "Primary Hub Flightmaster",
-        "Forward Camp Gryphon/Wyvern",
-        "Hidden Smuggler's Route"
-      ],
-      "notableNPCs": [
-        "High General A1PUBB",
-        "The Wandering Spirit",
-        "Lost Artisan"
-      ],
-      "resources": [
-        "Rich Thorium Veins (Scattered)",
-        "Dreamfoil Clusters",
-        "Schools of Deviant Fish",
-        "Black Lotus (Rare Spawn)"
-      ],
-      "weather": "Airtight and suffocating atmosphere, occasional arcane anomalies.",
-      "secrets": [
-        "A hidden cave behind the northern waterfall containing a rare vendor.",
-        "An interactable ancient tablet that grants a 2-hour localized buff."
-      ],
-      "levelRanges": "Core Hubs: 1-10 | Fringes: +3 Elite",
-      "factions": [
-        "The Cenarion Expedition",
-        "The Argent Dawn",
-        "Local Resistance Faction"
-      ]
+        "id": "Deathknell",
+        "name": "Deathknell (Undead)",
+        "level": "1-10",
+        "desc": "A gloomy graveyard where the newly raised Forsaken awaken. Prove your free will and hunt down Scarlet Crusade infiltrators.",
+        "lore": "Sylvanas commands her people to secure the borders of Tirisfal. You must ensure the Crusade does not establish a foothold.",
+        "flightPaths": [
+            "Deathknell Tower"
+        ],
+        "notableNPCs": [
+            "Shadow Priest Sarvis",
+            "Executor Arren"
+        ],
+        "resources": [
+            "Peacebloom",
+            "Silverleaf",
+            "Grave Moss (Rare)"
+        ],
+        "weather": "Constant gloom, fog, and light drizzle.",
+        "secrets": [
+            "A buried Scarlet Crusade lockbox in the town cemetery."
+        ],
+        "levelRanges": "1-10",
+        "factions": [
+            "The Forsaken"
+        ],
+        "hubs": [
+            "Deathknell Graveyard",
+            "The Rotting Farm"
+        ]
     },
     {
-      "id": "WildhammerPeak",
-      "name": "Aerie Peak Heights (Wildhammer Dwarf)",
-      "level": "1-10",
-      "hubs": [
-        "The Gryphon Roost",
-        "Storm-Caller's Ridge",
-        "The High Altar"
-      ],
-      "desc": "A new starting experience for Wildhammer Dwarves high in the Hinterlands.",
-      "lore": "Tame your first gryphon and defend the peak from Vilebranch Troll incursions.",
-      "flightPaths": [
-        "Primary Hub Flightmaster",
-        "Forward Camp Gryphon/Wyvern",
-        "Hidden Smuggler's Route"
-      ],
-      "notableNPCs": [
-        "High General GWKAP",
-        "The Wandering Spirit",
-        "Lost Artisan"
-      ],
-      "resources": [
-        "Rich Thorium Veins (Scattered)",
-        "Dreamfoil Clusters",
-        "Schools of Deviant Fish",
-        "Black Lotus (Rare Spawn)"
-      ],
-      "weather": "Frequent heavy rain and thunderstorms reducing visibility.",
-      "secrets": [
-        "A hidden cave behind the northern waterfall containing a rare vendor.",
-        "An interactable ancient tablet that grants a 2-hour localized buff."
-      ],
-      "levelRanges": "Core Hubs: 1-10 | Fringes: +3 Elite",
-      "factions": [
-        "The Cenarion Expedition",
-        "The Argent Dawn",
-        "Local Resistance Faction"
-      ]
+        "id": "CampNarache",
+        "name": "Camp Narache (Tauren)",
+        "level": "1-10",
+        "desc": "A peaceful mesa in Mulgore threatened by the aggressive Bristleback quilboar tribe. Protect the tribe's ancestral home.",
+        "lore": "Chief Hawkwind guides the young braves to embrace the Earth Mother and defend the tribe from encroaching enemies.",
+        "flightPaths": [
+            "Camp Narache Totem"
+        ],
+        "notableNPCs": [
+            "Chief Hawkwind",
+            "Grull Hawkoak"
+        ],
+        "resources": [
+            "Peacebloom",
+            "Silverleaf",
+            "Earthroot"
+        ],
+        "weather": "Clear, sunny skies with warm breezes.",
+        "secrets": [
+            "A hidden quilboar weapon cache in the brambles."
+        ],
+        "levelRanges": "1-10",
+        "factions": [
+            "Thunder Bluff"
+        ],
+        "hubs": [
+            "Camp Narache",
+            "Bramblade Ravine"
+        ]
     },
     {
-      "id": "RevantuskCoast",
-      "name": "Revantusk Shores (Forest Troll)",
-      "level": "1-10",
-      "hubs": [
-        "Revantusk Village",
-        "The Sunken Temple Beach",
-        "Zentabra's Hut"
-      ],
-      "desc": "Forest trolls loyal to the Horde start on the rugged eastern coast of the Hinterlands.",
-      "lore": "Reclaim ancient artifacts from the sea and battle murloc tribes to prove your worth to the Horde.",
-      "flightPaths": [
-        "Primary Hub Flightmaster",
-        "Forward Camp Gryphon/Wyvern",
-        "Hidden Smuggler's Route"
-      ],
-      "notableNPCs": [
-        "High General A4JSX2",
-        "The Wandering Spirit",
-        "Lost Artisan"
-      ],
-      "resources": [
-        "Rich Thorium Veins (Scattered)",
-        "Dreamfoil Clusters",
-        "Schools of Deviant Fish",
-        "Black Lotus (Rare Spawn)"
-      ],
-      "weather": "Frequent heavy rain and thunderstorms reducing visibility.",
-      "secrets": [
-        "A hidden cave behind the northern waterfall containing a rare vendor.",
-        "An interactable ancient tablet that grants a 2-hour localized buff."
-      ],
-      "levelRanges": "Core Hubs: 1-10 | Fringes: +3 Elite",
-      "factions": [
-        "The Cenarion Expedition",
-        "The Argent Dawn",
-        "Local Resistance Faction"
-      ]
+        "id": "EchoIsles",
+        "name": "The Echo Isles (Troll)",
+        "level": "1-10",
+        "desc": "Vol'jin's forces have secured a beachhead on the Echo Isles. Drive out Zalazane's hexed minions and reclaim the Darkspear home.",
+        "lore": "The Darkspear tribe will no longer live in exile. It is time to retake the isles from the traitor Zalazane.",
+        "flightPaths": [
+            "Darkspear Beach"
+        ],
+        "notableNPCs": [
+            "Vol'jin",
+            "Zentabra"
+        ],
+        "resources": [
+            "Peacebloom",
+            "Silverleaf",
+            "Stranglekelp"
+        ],
+        "weather": "Tropical humidity and frequent brief rain showers.",
+        "secrets": [
+            "A submerged tiki mask that provides underwater breathing."
+        ],
+        "levelRanges": "1-10",
+        "factions": [
+            "Darkspear Trolls"
+        ],
+        "hubs": [
+            "Darkspear Beach",
+            "Zalazane's Compound"
+        ]
+    },
+    {
+        "id": "GreymaneWall",
+        "name": "The Greymane Wall (Worgen)",
+        "level": "12-16",
+        "desc": "Players spawn atop the barricades defending against a localized Forsaken siege, push the blight back through Pyrewood Village, and learn to master the curse.",
+        "lore": "The Greymane Wall has fallen, but Gilneas holds. You must survive the initial onslaught.",
+        "flightPaths": [
+            "Greymane Barricade"
+        ],
+        "notableNPCs": [
+            "Genn Greymane",
+            "Darius Crowley"
+        ],
+        "resources": [
+            "Gilnean Supply Crates",
+            "Peacebloom"
+        ],
+        "weather": "Constant, oppressive rain and fog.",
+        "secrets": [
+            "Hidden cache in Pyrewood Village"
+        ],
+        "levelRanges": "12-16",
+        "factions": [
+            "Gilneas"
+        ],
+        "hubs": [
+            "Greymane Barricade",
+            "Pyrewood Outskirts"
+        ]
+    },
+    {
+        "id": "BrokenTables",
+        "name": "The Broken Tables (Ogre)",
+        "level": "35-39",
+        "desc": "Rooted in Feralas and Desolace, players earn their place among (or against) the Gordunni, Dreadmaul, and Mosh'Ogg clans to unify them under the Horde.",
+        "lore": "A charismatic Ogre leader seeks to unite the fractured clans and join the Horde.",
+        "flightPaths": [
+            "Gordunni Outpost"
+        ],
+        "notableNPCs": [
+            "Gordok the Uniter"
+        ],
+        "resources": [
+            "Ogre Battle-beads",
+            "Goldthorn"
+        ],
+        "weather": "Lush jungle rains.",
+        "secrets": [
+            "Hidden Gordok treasure room"
+        ],
+        "levelRanges": "35-39",
+        "factions": [
+            "The Unified Clans",
+            "Horde"
+        ],
+        "hubs": [
+            "The Broken Tables",
+            "Gordunni Camp"
+        ]
+    },
+    {
+        "id": "SunkenAltars",
+        "name": "The Sunken Altars (Forest Troll)",
+        "level": "40-44",
+        "desc": "Off Revantusk Village, players reclaim submerged tribal altars from rogue Naga and hostile Wildhammer scouts to secure the coast.",
+        "lore": "The Revantusk tribe fights to reclaim its ancestral waters from Naga invaders.",
+        "flightPaths": [
+            "Revantusk Pier"
+        ],
+        "notableNPCs": [
+            "Elder Torntusk"
+        ],
+        "resources": [
+            "Stranglekelp",
+            "Liferoot"
+        ],
+        "weather": "Coastal mist, intermittent showers.",
+        "secrets": [
+            "Sunken Troll Artifacts"
+        ],
+        "levelRanges": "40-44",
+        "factions": [
+            "Revantusk Tribe",
+            "Horde"
+        ],
+        "hubs": [
+            "The Sunken Altars",
+            "Revantusk Shoreline"
+        ]
+    },
+    {
+        "id": "HinterlandsOverlook",
+        "name": "The Overlook (Wildhammer Dwarf)",
+        "level": "40-44",
+        "desc": "Players secure gryphon roosts from aggressive Forest Trolls and establish aerial supply lines for the Alliance across the mountains.",
+        "lore": "The Wildhammer clan calls upon its finest to defend the roosts from the Vilebranch trolls.",
+        "flightPaths": [
+            "Aerie Peak High-Roost"
+        ],
+        "notableNPCs": [
+            "Falstad Wildhammer"
+        ],
+        "resources": [
+            "Gryphon Feathers",
+            "Iron Ore"
+        ],
+        "weather": "High altitude winds, occasional thunderstorms.",
+        "secrets": [
+            "Unmarked Vilebranch shrine"
+        ],
+        "levelRanges": "40-44",
+        "factions": [
+            "Wildhammer Clan"
+        ],
+        "hubs": [
+            "The Overlook",
+            "Aerie Peak Upper"
+        ]
+    },
+    {
+        "id": "ShatteredStrand",
+        "name": "The Shattered Strand (Goblin)",
+        "level": "45-49",
+        "desc": "A crashed zeppelin on the beaches of Azshara. Use salvage and explosives to establish a Steamwheedle beachhead against giants.",
+        "lore": "Survive the crash, salvage the cargo, and blow up anything that gets in your way.",
+        "flightPaths": [
+            "Crash Site Alpha"
+        ],
+        "notableNPCs": [
+            "Trade Prince Gallywix",
+            "Chief Engineer Lhizz"
+        ],
+        "resources": [
+            "Mithril Ore",
+            "Salvaged Parts"
+        ],
+        "weather": "Coastal breeze, clear skies.",
+        "secrets": [
+            "Hidden explosives cache"
+        ],
+        "levelRanges": "45-49",
+        "factions": [
+            "Steamwheedle Cartel",
+            "Horde"
+        ],
+        "hubs": [
+            "Crash Site Alpha",
+            "The Scrap Fort"
+        ]
+    },
+    {
+        "id": "LowerSlagPits",
+        "name": "The Lower Slag Pits (Dark Iron)",
+        "level": "45-49",
+        "desc": "A phased, subterranean rebellion in Searing Gorge: sabotaging the Emperor's forges, stealing weapon caches, and assassinating Ragnaros loyalists.",
+        "lore": "Moira Thaurissan's loyalists fight a shadow war against Ragnaros' fiery grip.",
+        "flightPaths": [
+            "The Shadowforge Resistance"
+        ],
+        "notableNPCs": [
+            "Moira Thaurissan"
+        ],
+        "resources": [
+            "Dark Iron Ore",
+            "Incendicite"
+        ],
+        "weather": "Sweltering heat, ash filled air.",
+        "secrets": [
+            "Hidden Ragnaros cultist shrine"
+        ],
+        "levelRanges": "45-49",
+        "factions": [
+            "Dark Iron Resistance",
+            "Alliance"
+        ],
+        "hubs": [
+            "The Shadowforge Resistance",
+            "The Sabotaged Forge"
+        ]
+    },
+    {
+        "id": "InnerBarrows",
+        "name": "The Inner Barrows (Timbermaw Furbolg)",
+        "level": "48-52",
+        "desc": "Awakening in the uncorrupted heart of Timbermaw Hold, players purge the Deadwood corruption leaking into the tunnels.",
+        "lore": "The last bastion of uncorrupted Furbolg society fights to survive.",
+        "flightPaths": [
+            "Timbermaw Heart"
+        ],
+        "notableNPCs": [
+            "Gorn One-Eye",
+            "Chief Bloodmaw"
+        ],
+        "resources": [
+            "Uncorrupted Roots",
+            "Glow-shrooms"
+        ],
+        "weather": "Subterranean, humid.",
+        "secrets": [
+            "Hidden passage to Winterspring"
+        ],
+        "levelRanges": "48-52",
+        "factions": [
+            "Timbermaw Hold"
+        ],
+        "hubs": [
+            "Timbermaw Heart",
+            "The Cleansed Den"
+        ]
+    },
+    {
+        "id": "QuelLithien",
+        "name": "Quel'Lithien Vanguard (High Elf)",
+        "level": "53-57",
+        "desc": "A fiercely contested, phased lodge on the Plaguelands border. Cleanse a corrupted ley-line to establish a permanent Alliance foothold.",
+        "lore": "The surviving High Elves refuse to abandon their homeland. They stand against the Scourge.",
+        "flightPaths": [
+            "Quel'Lithien Lodge"
+        ],
+        "notableNPCs": [
+            "Ranger Lord Hawkspear"
+        ],
+        "resources": [
+            "Dreamfoil",
+            "Plaguebloom"
+        ],
+        "weather": "Eerie Plaguelands glow, occasional ashfall.",
+        "secrets": [
+            "Hidden cache of High Elven relics"
+        ],
+        "levelRanges": "53-57",
+        "factions": [
+            "Silver Covenant"
+        ],
+        "hubs": [
+            "Quel'Lithien Lodge",
+            "The Purified Ley-line"
+        ]
     }
-  ],
+],
   "CAPITALS": [
     {
       "id": "GnomereganReclamation",

@@ -29,12 +29,12 @@ export const pveData: any = {
               "slot": "Ranged",
               "type": "Mace",
               "stats": [
-                "+21 Stamina",
-                "+5 Intellect"
+                "+4 Stamina",
+                "+1 Intellect"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 24s"
+              "requiresLevel": 23,
+              "sellPrice": "1g 24s"
             },
             {
               "name": "Amulet of the Forgotten",
@@ -43,12 +43,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+19 Agility",
-                "+17 Stamina"
+                "+3 Agility",
+                "+3 Stamina"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 93s"
+              "requiresLevel": 23,
+              "sellPrice": "1g 93s"
             },
             {
               "name": "Pauldrons of the Crimson King",
@@ -57,11 +57,11 @@ export const pveData: any = {
               "slot": "Two-Hand",
               "type": "Staff",
               "stats": [
-                "+18 Spirit"
+                "+3 Spirit"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 13s"
+              "requiresLevel": 23,
+              "sellPrice": "13s"
             },
             {
               "name": "Tome of Bloodletting",
@@ -70,11 +70,11 @@ export const pveData: any = {
               "slot": "Legs",
               "type": "Mail",
               "stats": [
-                "+22 Strength"
+                "+4 Strength"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 41s"
+              "requiresLevel": 23,
+              "sellPrice": "1g 41s"
             },
             {
               "name": "Helm of Shattered Souls",
@@ -83,12 +83,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+16 Agility",
-                "+15 Spirit"
+                "+3 Agility",
+                "+3 Spirit"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 82s"
+              "requiresLevel": 23,
+              "sellPrice": "82s"
             },
             {
               "name": "Signet of Eternal Slumber",
@@ -97,12 +97,12 @@ export const pveData: any = {
               "slot": "Ranged",
               "type": "Axe",
               "stats": [
-                "+13 Spirit",
-                "+16 Intellect"
+                "+2 Spirit",
+                "+3 Intellect"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 79s"
+              "requiresLevel": 23,
+              "sellPrice": "79s"
             },
             {
               "name": "Signet of the Void",
@@ -111,11 +111,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+6 Spirit"
+                "+1 Spirit"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 54s"
+              "requiresLevel": 23,
+              "sellPrice": "54s"
             },
             {
               "name": "Legguards of the Unseen",
@@ -124,11 +124,11 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Mail",
               "stats": [
-                "+15 Spirit"
+                "+3 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 5s"
+              "requiresLevel": 23,
+              "sellPrice": "5s"
             },
             {
               "name": "Legguards of the Unseen",
@@ -137,12 +137,12 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Mail",
               "stats": [
-                "+12 Agility",
-                "+14 Spirit"
+                "+2 Agility",
+                "+3 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 36s"
+              "requiresLevel": 23,
+              "sellPrice": "36s"
             },
             {
               "name": "Tome of the Void",
@@ -151,12 +151,12 @@ export const pveData: any = {
               "slot": "Legs",
               "type": "Leather",
               "stats": [
-                "+23 Agility",
-                "+19 Spirit"
+                "+4 Agility",
+                "+3 Spirit"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 59s"
+              "requiresLevel": 23,
+              "sellPrice": "59s"
             }
           ]
         },
@@ -176,12 +176,12 @@ export const pveData: any = {
               "slot": "Feet",
               "type": "Cloth",
               "stats": [
-                "+15 Stamina",
-                "+12 Strength"
+                "+8 Stamina",
+                "+7 Strength"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 81s"
+              "requiresLevel": 43,
+              "sellPrice": "1g 81s"
             },
             {
               "name": "Signet of Eternal Slumber",
@@ -191,8 +191,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 59s"
+              "requiresLevel": 43,
+              "sellPrice": "3g 59s"
             },
             {
               "name": "Breastplate of the Betrayer",
@@ -201,12 +201,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+8 Spirit",
-                "+9 Stamina"
+                "+5 Spirit",
+                "+5 Stamina"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 81s"
+              "requiresLevel": 43,
+              "sellPrice": "3g 81s"
             },
             {
               "name": "Helm of Eternal Slumber",
@@ -215,12 +215,12 @@ export const pveData: any = {
               "slot": "Two-Hand",
               "type": "Axe",
               "stats": [
-                "+17 Spirit",
-                "+6 Spirit"
+                "+10 Spirit",
+                "+4 Spirit"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 36s"
+              "requiresLevel": 43,
+              "sellPrice": "5g 36s"
             },
             {
               "name": "Pauldrons of the Archmage",
@@ -229,12 +229,12 @@ export const pveData: any = {
               "slot": "Head",
               "type": "Leather",
               "stats": [
-                "+18 Agility",
-                "+12 Strength"
+                "+11 Agility",
+                "+7 Strength"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 10s"
+              "requiresLevel": 43,
+              "sellPrice": "3g 10s"
             },
             {
               "name": "Sabatons of the Void",
@@ -243,11 +243,11 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Mail",
               "stats": [
-                "+19 Agility"
+                "+11 Agility"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 5s"
+              "requiresLevel": 43,
+              "sellPrice": "2g 5s"
             },
             {
               "name": "Helm of the Crimson King",
@@ -256,12 +256,12 @@ export const pveData: any = {
               "slot": "Legs",
               "type": "Mail",
               "stats": [
-                "+9 Agility",
-                "+17 Agility"
+                "+5 Agility",
+                "+10 Agility"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 12s"
+              "requiresLevel": 43,
+              "sellPrice": "1g 12s"
             },
             {
               "name": "Sabatons of the Archmage",
@@ -270,12 +270,12 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Leather",
               "stats": [
-                "+17 Stamina",
-                "+10 Spirit"
+                "+10 Stamina",
+                "+6 Spirit"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 23s"
+              "requiresLevel": 43,
+              "sellPrice": "23s"
             },
             {
               "name": "Legguards of Bloodletting",
@@ -284,11 +284,11 @@ export const pveData: any = {
               "slot": "Feet",
               "type": "Plate",
               "stats": [
-                "+11 Agility"
+                "+6 Agility"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 68s"
+              "requiresLevel": 43,
+              "sellPrice": "1g 68s"
             },
             {
               "name": "Signet of the Crimson King",
@@ -297,11 +297,11 @@ export const pveData: any = {
               "slot": "One-Hand",
               "type": "Staff",
               "stats": [
-                "+6 Strength"
+                "+4 Strength"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 98s"
+              "requiresLevel": 43,
+              "sellPrice": "98s"
             },
             {
               "name": "Helm of the Unseen",
@@ -310,11 +310,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+10 Stamina"
+                "+6 Stamina"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 48s"
+              "requiresLevel": 43,
+              "sellPrice": "3g 48s"
             },
             {
               "name": "Pauldrons of the Crimson King",
@@ -323,12 +323,12 @@ export const pveData: any = {
               "slot": "Head",
               "type": "Leather",
               "stats": [
-                "+20 Spirit",
-                "+8 Agility"
+                "+11 Spirit",
+                "+5 Agility"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 84s"
+              "requiresLevel": 43,
+              "sellPrice": "3g 84s"
             },
             {
               "name": "Sabatons of the Unseen",
@@ -337,12 +337,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+17 Agility",
-                "+6 Spirit"
+                "+10 Agility",
+                "+4 Spirit"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 6s"
+              "requiresLevel": 43,
+              "sellPrice": "4g 6s"
             },
             {
               "name": "Legguards of the Forgotten",
@@ -352,8 +352,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 16s"
+              "requiresLevel": 43,
+              "sellPrice": "5g 16s"
             },
             {
               "name": "Sabatons of the Forgotten",
@@ -362,12 +362,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+16 Agility",
-                "+14 Intellect"
+                "+9 Agility",
+                "+8 Intellect"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 63s"
+              "requiresLevel": 43,
+              "sellPrice": "63s"
             }
           ]
         },
@@ -387,11 +387,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+9 Intellect"
+                "+7 Intellect"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 14s"
+              "requiresLevel": 53,
+              "sellPrice": "2g 14s"
             },
             {
               "name": "Helm of the Archmage",
@@ -401,8 +401,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 77s"
+              "requiresLevel": 53,
+              "sellPrice": "2g 77s"
             },
             {
               "name": "Helm of Shattered Souls",
@@ -411,12 +411,12 @@ export const pveData: any = {
               "slot": "Feet",
               "type": "Leather",
               "stats": [
-                "+19 Stamina",
-                "+13 Stamina"
+                "+16 Stamina",
+                "+11 Stamina"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 78s"
+              "requiresLevel": 53,
+              "sellPrice": "3g 78s"
             },
             {
               "name": "Tome of the Crimson King",
@@ -426,8 +426,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 7s"
+              "requiresLevel": 53,
+              "sellPrice": "8g 7s"
             },
             {
               "name": "Helm of the Archmage",
@@ -436,11 +436,11 @@ export const pveData: any = {
               "slot": "One-Hand",
               "type": "Mace",
               "stats": [
-                "+24 Spirit"
+                "+20 Spirit"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 7s"
+              "requiresLevel": 53,
+              "sellPrice": "5g 7s"
             },
             {
               "name": "Band of Eternal Slumber",
@@ -449,12 +449,12 @@ export const pveData: any = {
               "slot": "Feet",
               "type": "Plate",
               "stats": [
-                "+20 Agility",
-                "+13 Strength"
+                "+17 Agility",
+                "+11 Strength"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 4s"
+              "requiresLevel": 53,
+              "sellPrice": "4s"
             },
             {
               "name": "Breastplate of the Betrayer",
@@ -463,11 +463,11 @@ export const pveData: any = {
               "slot": "Legs",
               "type": "Leather",
               "stats": [
-                "+23 Spirit"
+                "+19 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 27s"
+              "requiresLevel": 53,
+              "sellPrice": "7g 27s"
             },
             {
               "name": "Signet of Bloodletting",
@@ -476,11 +476,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+18 Spirit"
+                "+16 Spirit"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 37s"
+              "requiresLevel": 53,
+              "sellPrice": "3g 37s"
             },
             {
               "name": "Breastplate of the Void",
@@ -489,11 +489,11 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Cloth",
               "stats": [
-                "+16 Strength"
+                "+14 Strength"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 89s"
+              "requiresLevel": 53,
+              "sellPrice": "8g 89s"
             },
             {
               "name": "Band of the Archmage",
@@ -502,11 +502,11 @@ export const pveData: any = {
               "slot": "Two-Hand",
               "type": "Mace",
               "stats": [
-                "+14 Strength"
+                "+12 Strength"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 29s"
+              "requiresLevel": 53,
+              "sellPrice": "3g 29s"
             },
             {
               "name": "Legguards of the Deep",
@@ -516,8 +516,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 95s"
+              "requiresLevel": 53,
+              "sellPrice": "1g 95s"
             },
             {
               "name": "Cloak of the Forgotten",
@@ -526,11 +526,11 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Mail",
               "stats": [
-                "+10 Strength"
+                "+8 Strength"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 33s"
+              "requiresLevel": 53,
+              "sellPrice": "7g 33s"
             },
             {
               "name": "Signet of the Deep",
@@ -539,11 +539,11 @@ export const pveData: any = {
               "slot": "Main Hand",
               "type": "Axe",
               "stats": [
-                "+11 Agility"
+                "+9 Agility"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 59s"
+              "requiresLevel": 53,
+              "sellPrice": "1g 59s"
             },
             {
               "name": "Pauldrons of the Unseen",
@@ -552,11 +552,11 @@ export const pveData: any = {
               "slot": "Legs",
               "type": "Mail",
               "stats": [
-                "+16 Intellect"
+                "+14 Intellect"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 66s"
+              "requiresLevel": 53,
+              "sellPrice": "3g 66s"
             },
             {
               "name": "Band of the Betrayer",
@@ -565,11 +565,11 @@ export const pveData: any = {
               "slot": "Head",
               "type": "Mail",
               "stats": [
-                "+23 Strength"
+                "+19 Strength"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 16s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 16s"
             },
             {
               "name": "Helm of Bloodletting",
@@ -578,11 +578,11 @@ export const pveData: any = {
               "slot": "Feet",
               "type": "Plate",
               "stats": [
-                "+16 Agility"
+                "+14 Agility"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 78s"
+              "requiresLevel": 53,
+              "sellPrice": "3g 78s"
             },
             {
               "name": "Tome of the Void",
@@ -591,11 +591,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+11 Spirit"
+                "+9 Spirit"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 6s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 6s"
             },
             {
               "name": "Breastplate of Eternal Slumber",
@@ -607,8 +607,8 @@ export const pveData: any = {
                 "+6 Stamina"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 67s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 67s"
             },
             {
               "name": "Breastplate of the Unseen",
@@ -617,11 +617,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+24 Intellect"
+                "+20 Intellect"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 88s"
+              "requiresLevel": 53,
+              "sellPrice": "1g 88s"
             },
             {
               "name": "Helm of the Deep",
@@ -630,12 +630,12 @@ export const pveData: any = {
               "slot": "One-Hand",
               "type": "Axe",
               "stats": [
-                "+20 Strength",
+                "+17 Strength",
                 "+6 Intellect"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 30s"
+              "requiresLevel": 53,
+              "sellPrice": "5g 30s"
             },
             {
               "name": "Pauldrons of Bloodletting",
@@ -645,8 +645,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 93s"
+              "requiresLevel": 53,
+              "sellPrice": "7g 93s"
             },
             {
               "name": "Tome of the Unseen",
@@ -658,8 +658,8 @@ export const pveData: any = {
                 "+5 Agility"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 19s"
+              "requiresLevel": 53,
+              "sellPrice": "8g 19s"
             },
             {
               "name": "Band of Bloodletting",
@@ -668,11 +668,11 @@ export const pveData: any = {
               "slot": "Head",
               "type": "Cloth",
               "stats": [
-                "+22 Strength"
+                "+18 Strength"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 60s"
+              "requiresLevel": 53,
+              "sellPrice": "60s"
             },
             {
               "name": "Pauldrons of Eternal Slumber",
@@ -681,11 +681,11 @@ export const pveData: any = {
               "slot": "Two-Hand",
               "type": "Mace",
               "stats": [
-                "+20 Spirit"
+                "+17 Spirit"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 69s"
+              "requiresLevel": 53,
+              "sellPrice": "69s"
             },
             {
               "name": "Sabatons of Shattered Souls",
@@ -694,11 +694,11 @@ export const pveData: any = {
               "slot": "One-Hand",
               "type": "Bow",
               "stats": [
-                "+14 Strength"
+                "+12 Strength"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 88s"
+              "requiresLevel": 53,
+              "sellPrice": "2g 88s"
             }
           ]
         }
@@ -744,8 +744,8 @@ export const pveData: any = {
                 "+15 Strength"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 62s"
+              "requiresLevel": 56,
+              "sellPrice": "62s"
             },
             {
               "name": "Sabatons of Shattered Souls",
@@ -757,8 +757,8 @@ export const pveData: any = {
                 "+15 Agility"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 31s"
+              "requiresLevel": 56,
+              "sellPrice": "31s"
             },
             {
               "name": "Sabatons of the Unseen",
@@ -770,8 +770,8 @@ export const pveData: any = {
                 "+7 Intellect"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 29s"
+              "requiresLevel": 56,
+              "sellPrice": "1g 29s"
             },
             {
               "name": "Signet of the Crimson King",
@@ -783,8 +783,8 @@ export const pveData: any = {
                 "+7 Strength"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 64s"
+              "requiresLevel": 56,
+              "sellPrice": "64s"
             },
             {
               "name": "Sabatons of the Archmage",
@@ -793,12 +793,12 @@ export const pveData: any = {
               "slot": "Two-Hand",
               "type": "Axe",
               "stats": [
-                "+24 Stamina",
+                "+22 Stamina",
                 "+5 Intellect"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 72s"
+              "requiresLevel": 56,
+              "sellPrice": "72s"
             },
             {
               "name": "Pauldrons of Bloodletting",
@@ -811,8 +811,8 @@ export const pveData: any = {
                 "+15 Strength"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 52s"
+              "requiresLevel": 56,
+              "sellPrice": "8g 52s"
             },
             {
               "name": "Helm of the Crimson King",
@@ -825,8 +825,8 @@ export const pveData: any = {
                 "+8 Strength"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 79s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 79s"
             },
             {
               "name": "Helm of the Deep",
@@ -835,11 +835,11 @@ export const pveData: any = {
               "slot": "Two-Hand",
               "type": "Dagger",
               "stats": [
-                "+18 Strength"
+                "+16 Strength"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 95s"
+              "requiresLevel": 56,
+              "sellPrice": "8g 95s"
             },
             {
               "name": "Tome of the Forgotten",
@@ -848,11 +848,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+24 Intellect"
+                "+22 Intellect"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 61s"
+              "requiresLevel": 56,
+              "sellPrice": "5g 61s"
             },
             {
               "name": "Amulet of the Void",
@@ -861,11 +861,11 @@ export const pveData: any = {
               "slot": "Main Hand",
               "type": "Bow",
               "stats": [
-                "+21 Strength"
+                "+19 Strength"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 76s"
+              "requiresLevel": 56,
+              "sellPrice": "5g 76s"
             },
             {
               "name": "Helm of the Unseen",
@@ -877,8 +877,8 @@ export const pveData: any = {
                 "+11 Agility"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 57s"
+              "requiresLevel": 56,
+              "sellPrice": "57s"
             },
             {
               "name": "Helm of Bloodletting",
@@ -891,8 +891,8 @@ export const pveData: any = {
                 "+7 Intellect"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 63s"
+              "requiresLevel": 56,
+              "sellPrice": "6g 63s"
             },
             {
               "name": "Sabatons of Eternal Slumber",
@@ -904,8 +904,8 @@ export const pveData: any = {
                 "+6 Spirit"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 46s"
+              "requiresLevel": 56,
+              "sellPrice": "46s"
             },
             {
               "name": "Helm of the Archmage",
@@ -914,11 +914,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+24 Stamina"
+                "+22 Stamina"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 73s"
+              "requiresLevel": 56,
+              "sellPrice": "6g 73s"
             },
             {
               "name": "Breastplate of the Unseen",
@@ -928,8 +928,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 4s"
+              "requiresLevel": 56,
+              "sellPrice": "8g 4s"
             },
             {
               "name": "Tome of Eternal Slumber",
@@ -938,11 +938,11 @@ export const pveData: any = {
               "slot": "Head",
               "type": "Cloth",
               "stats": [
-                "+18 Spirit"
+                "+16 Spirit"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 17s"
+              "requiresLevel": 56,
+              "sellPrice": "4g 17s"
             },
             {
               "name": "Cloak of the Deep",
@@ -951,11 +951,11 @@ export const pveData: any = {
               "slot": "Two-Hand",
               "type": "Staff",
               "stats": [
-                "+24 Stamina"
+                "+22 Stamina"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 93s"
+              "requiresLevel": 56,
+              "sellPrice": "93s"
             },
             {
               "name": "Pauldrons of Bloodletting",
@@ -964,11 +964,11 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Plate",
               "stats": [
-                "+24 Spirit"
+                "+22 Spirit"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 50s"
+              "requiresLevel": 56,
+              "sellPrice": "1g 50s"
             },
             {
               "name": "Sabatons of Eternal Slumber",
@@ -980,8 +980,8 @@ export const pveData: any = {
                 "+12 Stamina"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 91s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 91s"
             },
             {
               "name": "Tome of the Crimson King",
@@ -990,11 +990,11 @@ export const pveData: any = {
               "slot": "Two-Hand",
               "type": "Staff",
               "stats": [
-                "+19 Intellect"
+                "+17 Intellect"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 23s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 23s"
             },
             {
               "name": "Sabatons of the Forgotten",
@@ -1006,8 +1006,8 @@ export const pveData: any = {
                 "+9 Strength"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 65s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 65s"
             },
             {
               "name": "Amulet of the Archmage",
@@ -1019,8 +1019,8 @@ export const pveData: any = {
                 "+7 Stamina"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 70s"
+              "requiresLevel": 56,
+              "sellPrice": "70s"
             },
             {
               "name": "Tome of the Betrayer",
@@ -1029,11 +1029,11 @@ export const pveData: any = {
               "slot": "Legs",
               "type": "Leather",
               "stats": [
-                "+18 Intellect"
+                "+16 Intellect"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 38s"
+              "requiresLevel": 56,
+              "sellPrice": "38s"
             },
             {
               "name": "Sabatons of the Betrayer",
@@ -1042,12 +1042,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+16 Agility",
+                "+15 Agility",
                 "+6 Agility"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 59s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 59s"
             },
             {
               "name": "Tome of the Betrayer",
@@ -1057,11 +1057,11 @@ export const pveData: any = {
               "type": "Cloth",
               "stats": [
                 "+7 Stamina",
-                "+17 Spirit"
+                "+15 Spirit"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 57s"
+              "requiresLevel": 56,
+              "sellPrice": "57s"
             }
           ]
         },
@@ -1085,7 +1085,7 @@ export const pveData: any = {
                 "+5 Agility"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 2s"
             },
             {
@@ -1098,7 +1098,7 @@ export const pveData: any = {
                 "+18 Agility"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 42s"
             },
             {
@@ -1111,7 +1111,7 @@ export const pveData: any = {
                 "+23 Agility"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 65s"
             },
             {
@@ -1125,7 +1125,7 @@ export const pveData: any = {
                 "+13 Strength"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 28s"
             },
             {
@@ -1138,7 +1138,7 @@ export const pveData: any = {
                 "+17 Strength"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 98s"
             },
             {
@@ -1151,7 +1151,7 @@ export const pveData: any = {
                 "+6 Strength"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 32s"
             },
             {
@@ -1165,7 +1165,7 @@ export const pveData: any = {
                 "+14 Strength"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 47s"
             },
             {
@@ -1179,7 +1179,7 @@ export const pveData: any = {
                 "+13 Intellect"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 57s"
             },
             {
@@ -1193,7 +1193,7 @@ export const pveData: any = {
                 "+8 Spirit"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 66s"
             },
             {
@@ -1206,7 +1206,7 @@ export const pveData: any = {
                 "+12 Intellect"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 73s"
             },
             {
@@ -1220,7 +1220,7 @@ export const pveData: any = {
                 "+14 Spirit"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 32s"
             },
             {
@@ -1233,7 +1233,7 @@ export const pveData: any = {
                 "+11 Strength"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 35s"
             },
             {
@@ -1247,7 +1247,7 @@ export const pveData: any = {
                 "+9 Intellect"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 19s"
             },
             {
@@ -1261,7 +1261,7 @@ export const pveData: any = {
                 "+15 Agility"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 24s"
             },
             {
@@ -1274,7 +1274,7 @@ export const pveData: any = {
                 "+24 Stamina"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 9s"
             },
             {
@@ -1287,7 +1287,7 @@ export const pveData: any = {
                 "+15 Intellect"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 59s"
             },
             {
@@ -1300,7 +1300,7 @@ export const pveData: any = {
                 "+24 Intellect"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 47s"
             },
             {
@@ -1313,7 +1313,7 @@ export const pveData: any = {
                 "+22 Intellect"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 17s"
             },
             {
@@ -1327,7 +1327,7 @@ export const pveData: any = {
                 "+11 Intellect"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 67s"
             },
             {
@@ -1341,7 +1341,7 @@ export const pveData: any = {
                 "+9 Intellect"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 0s"
             },
             {
@@ -1355,7 +1355,7 @@ export const pveData: any = {
                 "+19 Agility"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 37s"
             },
             {
@@ -1369,7 +1369,7 @@ export const pveData: any = {
                 "+16 Strength"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 48s"
             },
             {
@@ -1382,7 +1382,7 @@ export const pveData: any = {
                 "+7 Intellect"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 78s"
             },
             {
@@ -1396,7 +1396,7 @@ export const pveData: any = {
                 "+9 Agility"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 98s"
             },
             {
@@ -1409,7 +1409,7 @@ export const pveData: any = {
                 "+9 Intellect"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 49s"
             },
             {
@@ -1422,7 +1422,7 @@ export const pveData: any = {
                 "+11 Agility"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 44s"
             },
             {
@@ -1436,7 +1436,7 @@ export const pveData: any = {
                 "+13 Agility"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 22s"
             },
             {
@@ -1447,7 +1447,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 70s"
             },
             {
@@ -1460,7 +1460,7 @@ export const pveData: any = {
                 "+24 Spirit"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 25s"
             },
             {
@@ -1474,7 +1474,7 @@ export const pveData: any = {
                 "+7 Agility"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 72s"
             }
           ]
@@ -1496,7 +1496,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 87s"
             },
             {
@@ -1510,7 +1510,7 @@ export const pveData: any = {
                 "+15 Stamina"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 86s"
             },
             {
@@ -1524,7 +1524,7 @@ export const pveData: any = {
                 "+12 Spirit"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 83s"
             },
             {
@@ -1537,7 +1537,7 @@ export const pveData: any = {
                 "+5 Intellect"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 79s"
             },
             {
@@ -1548,7 +1548,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 69s"
             },
             {
@@ -1561,7 +1561,7 @@ export const pveData: any = {
                 "+24 Agility"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 18s"
             },
             {
@@ -1574,7 +1574,7 @@ export const pveData: any = {
                 "+23 Stamina"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 66s"
             },
             {
@@ -1587,7 +1587,7 @@ export const pveData: any = {
                 "+13 Stamina"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 63s"
             },
             {
@@ -1600,7 +1600,7 @@ export const pveData: any = {
                 "+7 Spirit"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 57s"
             },
             {
@@ -1614,7 +1614,7 @@ export const pveData: any = {
                 "+17 Stamina"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 29s"
             },
             {
@@ -1628,7 +1628,7 @@ export const pveData: any = {
                 "+15 Stamina"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 45s"
             },
             {
@@ -1641,7 +1641,7 @@ export const pveData: any = {
                 "+6 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 82s"
             },
             {
@@ -1655,7 +1655,7 @@ export const pveData: any = {
                 "+10 Spirit"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 80s"
             },
             {
@@ -1666,7 +1666,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 17s"
             },
             {
@@ -1679,7 +1679,7 @@ export const pveData: any = {
                 "+5 Intellect"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 38s"
             },
             {
@@ -1690,7 +1690,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 45s"
             },
             {
@@ -1701,7 +1701,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 3s"
             },
             {
@@ -1715,7 +1715,7 @@ export const pveData: any = {
                 "+9 Strength"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 18s"
             },
             {
@@ -1728,7 +1728,7 @@ export const pveData: any = {
                 "+6 Intellect"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 47s"
             },
             {
@@ -1741,7 +1741,7 @@ export const pveData: any = {
                 "+6 Agility"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 51s"
             },
             {
@@ -1754,7 +1754,7 @@ export const pveData: any = {
                 "+13 Intellect"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 24s"
             },
             {
@@ -1767,7 +1767,7 @@ export const pveData: any = {
                 "+23 Agility"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 51s"
             },
             {
@@ -1781,7 +1781,7 @@ export const pveData: any = {
                 "+5 Intellect"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 37s"
             },
             {
@@ -1794,7 +1794,7 @@ export const pveData: any = {
                 "+24 Intellect"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 29s"
             },
             {
@@ -1807,7 +1807,7 @@ export const pveData: any = {
                 "+24 Strength"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 84s"
             },
             {
@@ -1820,7 +1820,7 @@ export const pveData: any = {
                 "+6 Stamina"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 72s"
             },
             {
@@ -1833,7 +1833,7 @@ export const pveData: any = {
                 "+14 Strength"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 52s"
             },
             {
@@ -1846,7 +1846,7 @@ export const pveData: any = {
                 "+21 Agility"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 44s"
             },
             {
@@ -1860,7 +1860,7 @@ export const pveData: any = {
                 "+7 Stamina"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 53s"
             },
             {
@@ -1873,7 +1873,7 @@ export const pveData: any = {
                 "+9 Agility"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 80s"
             }
           ]
@@ -1917,12 +1917,12 @@ export const pveData: any = {
               "slot": "Feet",
               "type": "Plate",
               "stats": [
-                "+15 Spirit",
-                "+18 Intellect"
+                "+10 Spirit",
+                "+11 Intellect"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 50s"
+              "requiresLevel": 46,
+              "sellPrice": "3g 50s"
             },
             {
               "name": "Signet of the Forgotten",
@@ -1931,12 +1931,12 @@ export const pveData: any = {
               "slot": "Head",
               "type": "Plate",
               "stats": [
-                "+18 Stamina",
-                "+9 Agility"
+                "+11 Stamina",
+                "+6 Agility"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 83s"
+              "requiresLevel": 46,
+              "sellPrice": "6g 83s"
             },
             {
               "name": "Helm of Shattered Souls",
@@ -1945,11 +1945,11 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Mail",
               "stats": [
-                "+23 Agility"
+                "+14 Agility"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 96s"
+              "requiresLevel": 46,
+              "sellPrice": "4g 96s"
             },
             {
               "name": "Signet of Bloodletting",
@@ -1958,11 +1958,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+16 Strength"
+                "+10 Strength"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 17s"
+              "requiresLevel": 46,
+              "sellPrice": "17s"
             },
             {
               "name": "Breastplate of Bloodletting",
@@ -1971,11 +1971,11 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Plate",
               "stats": [
-                "+18 Intellect"
+                "+11 Intellect"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 51s"
+              "requiresLevel": 46,
+              "sellPrice": "3g 51s"
             },
             {
               "name": "Tome of the Unseen",
@@ -1984,12 +1984,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+15 Intellect",
-                "+17 Spirit"
+                "+10 Intellect",
+                "+11 Spirit"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 27s"
+              "requiresLevel": 46,
+              "sellPrice": "1g 27s"
             },
             {
               "name": "Pauldrons of Eternal Slumber",
@@ -1998,12 +1998,12 @@ export const pveData: any = {
               "slot": "Main Hand",
               "type": "Axe",
               "stats": [
-                "+19 Intellect",
-                "+18 Stamina"
+                "+12 Intellect",
+                "+11 Stamina"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 24s"
+              "requiresLevel": 46,
+              "sellPrice": "3g 24s"
             },
             {
               "name": "Helm of the Archmage",
@@ -2012,11 +2012,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+16 Agility"
+                "+10 Agility"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 28s"
+              "requiresLevel": 46,
+              "sellPrice": "1g 28s"
             },
             {
               "name": "Sabatons of the Unseen",
@@ -2025,12 +2025,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+23 Stamina",
-                "+5 Strength"
+                "+14 Stamina",
+                "+3 Strength"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 69s"
+              "requiresLevel": 46,
+              "sellPrice": "3g 69s"
             },
             {
               "name": "Tome of the Deep",
@@ -2039,11 +2039,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+23 Intellect"
+                "+14 Intellect"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 39s"
+              "requiresLevel": 46,
+              "sellPrice": "1g 39s"
             },
             {
               "name": "Sabatons of Bloodletting",
@@ -2053,8 +2053,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 63s"
+              "requiresLevel": 46,
+              "sellPrice": "4g 63s"
             },
             {
               "name": "Amulet of Eternal Slumber",
@@ -2063,11 +2063,11 @@ export const pveData: any = {
               "slot": "Legs",
               "type": "Cloth",
               "stats": [
-                "+24 Spirit"
+                "+15 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 27s"
+              "requiresLevel": 46,
+              "sellPrice": "1g 27s"
             },
             {
               "name": "Legguards of Shattered Souls",
@@ -2076,12 +2076,12 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Plate",
               "stats": [
-                "+14 Strength",
-                "+11 Stamina"
+                "+9 Strength",
+                "+7 Stamina"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 87s"
+              "requiresLevel": 46,
+              "sellPrice": "87s"
             },
             {
               "name": "Signet of the Unseen",
@@ -2091,8 +2091,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 95s"
+              "requiresLevel": 46,
+              "sellPrice": "2g 95s"
             },
             {
               "name": "Legguards of the Deep",
@@ -2101,12 +2101,12 @@ export const pveData: any = {
               "slot": "Legs",
               "type": "Plate",
               "stats": [
-                "+6 Stamina",
-                "+13 Agility"
+                "+4 Stamina",
+                "+8 Agility"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 93s"
+              "requiresLevel": 46,
+              "sellPrice": "1g 93s"
             }
           ]
         },
@@ -2127,8 +2127,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 95s"
+              "requiresLevel": 53,
+              "sellPrice": "1g 95s"
             },
             {
               "name": "Pauldrons of Eternal Slumber",
@@ -2137,11 +2137,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+20 Intellect"
+                "+17 Intellect"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 55s"
+              "requiresLevel": 53,
+              "sellPrice": "55s"
             },
             {
               "name": "Pauldrons of Bloodletting",
@@ -2150,11 +2150,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+8 Strength"
+                "+6 Strength"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 29s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 29s"
             },
             {
               "name": "Band of the Archmage",
@@ -2163,11 +2163,11 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Cloth",
               "stats": [
-                "+23 Strength"
+                "+19 Strength"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 46s"
+              "requiresLevel": 53,
+              "sellPrice": "46s"
             },
             {
               "name": "Band of Bloodletting",
@@ -2176,11 +2176,11 @@ export const pveData: any = {
               "slot": "Chest",
               "type": "Plate",
               "stats": [
-                "+21 Spirit"
+                "+17 Spirit"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 32s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 32s"
             },
             {
               "name": "Cloak of Shattered Souls",
@@ -2190,8 +2190,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 82s"
+              "requiresLevel": 53,
+              "sellPrice": "7g 82s"
             },
             {
               "name": "Signet of Shattered Souls",
@@ -2200,11 +2200,11 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Leather",
               "stats": [
-                "+15 Stamina"
+                "+13 Stamina"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 16s"
+              "requiresLevel": 53,
+              "sellPrice": "16s"
             },
             {
               "name": "Legguards of the Betrayer",
@@ -2217,8 +2217,8 @@ export const pveData: any = {
                 "+5 Agility"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 67s"
+              "requiresLevel": 53,
+              "sellPrice": "67s"
             },
             {
               "name": "Band of Shattered Souls",
@@ -2227,12 +2227,12 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Plate",
               "stats": [
-                "+12 Intellect",
-                "+15 Spirit"
+                "+10 Intellect",
+                "+13 Spirit"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 65s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 65s"
             },
             {
               "name": "Breastplate of the Crimson King",
@@ -2241,12 +2241,12 @@ export const pveData: any = {
               "slot": "Feet",
               "type": "Cloth",
               "stats": [
-                "+10 Stamina",
-                "+8 Strength"
+                "+8 Stamina",
+                "+6 Strength"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 73s"
+              "requiresLevel": 53,
+              "sellPrice": "73s"
             },
             {
               "name": "Cloak of the Deep",
@@ -2256,8 +2256,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 69s"
+              "requiresLevel": 53,
+              "sellPrice": "5g 69s"
             },
             {
               "name": "Amulet of Bloodletting",
@@ -2266,11 +2266,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+15 Stamina"
+                "+13 Stamina"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 39s"
+              "requiresLevel": 53,
+              "sellPrice": "7g 39s"
             },
             {
               "name": "Signet of Bloodletting",
@@ -2279,12 +2279,12 @@ export const pveData: any = {
               "slot": "Main Hand",
               "type": "Sword",
               "stats": [
-                "+12 Intellect",
-                "+18 Stamina"
+                "+10 Intellect",
+                "+16 Stamina"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 7s"
+              "requiresLevel": 53,
+              "sellPrice": "5g 7s"
             },
             {
               "name": "Tome of the Betrayer",
@@ -2293,12 +2293,12 @@ export const pveData: any = {
               "slot": "Ranged",
               "type": "Axe",
               "stats": [
-                "+21 Strength",
-                "+9 Agility"
+                "+17 Strength",
+                "+7 Agility"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 28s"
+              "requiresLevel": 53,
+              "sellPrice": "8g 28s"
             },
             {
               "name": "Amulet of Bloodletting",
@@ -2307,12 +2307,12 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Cloth",
               "stats": [
-                "+24 Stamina",
-                "+14 Strength"
+                "+20 Stamina",
+                "+12 Strength"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 77s"
+              "requiresLevel": 53,
+              "sellPrice": "7g 77s"
             },
             {
               "name": "Amulet of the Betrayer",
@@ -2321,11 +2321,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+12 Intellect"
+                "+10 Intellect"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 72s"
+              "requiresLevel": 53,
+              "sellPrice": "72s"
             },
             {
               "name": "Band of the Void",
@@ -2337,8 +2337,8 @@ export const pveData: any = {
                 "+6 Intellect"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 53s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 53s"
             },
             {
               "name": "Sabatons of the Crimson King",
@@ -2347,11 +2347,11 @@ export const pveData: any = {
               "slot": "Chest",
               "type": "Plate",
               "stats": [
-                "+13 Agility"
+                "+11 Agility"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 31s"
+              "requiresLevel": 53,
+              "sellPrice": "1g 31s"
             },
             {
               "name": "Amulet of the Deep",
@@ -2360,12 +2360,12 @@ export const pveData: any = {
               "slot": "Legs",
               "type": "Leather",
               "stats": [
-                "+12 Spirit",
+                "+10 Spirit",
                 "+6 Strength"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 63s"
+              "requiresLevel": 53,
+              "sellPrice": "2g 63s"
             },
             {
               "name": "Signet of the Crimson King",
@@ -2374,11 +2374,11 @@ export const pveData: any = {
               "slot": "Chest",
               "type": "Mail",
               "stats": [
-                "+22 Strength"
+                "+18 Strength"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 61s"
+              "requiresLevel": 53,
+              "sellPrice": "6g 61s"
             }
           ]
         },
@@ -2402,7 +2402,7 @@ export const pveData: any = {
                 "+8 Spirit"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 56s"
             },
             {
@@ -2415,7 +2415,7 @@ export const pveData: any = {
                 "+16 Stamina"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 88s"
             },
             {
@@ -2429,7 +2429,7 @@ export const pveData: any = {
                 "+18 Spirit"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 92s"
             },
             {
@@ -2443,7 +2443,7 @@ export const pveData: any = {
                 "+15 Intellect"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 26s"
             },
             {
@@ -2457,7 +2457,7 @@ export const pveData: any = {
                 "+16 Strength"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 41s"
             },
             {
@@ -2471,7 +2471,7 @@ export const pveData: any = {
                 "+17 Intellect"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 40s"
             },
             {
@@ -2485,7 +2485,7 @@ export const pveData: any = {
                 "+12 Spirit"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 37s"
             },
             {
@@ -2498,7 +2498,7 @@ export const pveData: any = {
                 "+14 Intellect"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 50s"
             },
             {
@@ -2512,7 +2512,7 @@ export const pveData: any = {
                 "+11 Agility"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 65s"
             },
             {
@@ -2526,7 +2526,7 @@ export const pveData: any = {
                 "+10 Intellect"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 72s"
             },
             {
@@ -2539,7 +2539,7 @@ export const pveData: any = {
                 "+10 Intellect"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 92s"
             },
             {
@@ -2553,7 +2553,7 @@ export const pveData: any = {
                 "+19 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 82s"
             },
             {
@@ -2566,7 +2566,7 @@ export const pveData: any = {
                 "+6 Spirit"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 17s"
             },
             {
@@ -2579,7 +2579,7 @@ export const pveData: any = {
                 "+20 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 63s"
             },
             {
@@ -2592,7 +2592,7 @@ export const pveData: any = {
                 "+17 Strength"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 52s"
             },
             {
@@ -2605,7 +2605,7 @@ export const pveData: any = {
                 "+5 Intellect"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 15s"
             },
             {
@@ -2619,7 +2619,7 @@ export const pveData: any = {
                 "+7 Strength"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 76s"
             },
             {
@@ -2633,7 +2633,7 @@ export const pveData: any = {
                 "+10 Strength"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 17s"
             },
             {
@@ -2646,7 +2646,7 @@ export const pveData: any = {
                 "+18 Spirit"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 35s"
             },
             {
@@ -2659,7 +2659,7 @@ export const pveData: any = {
                 "+7 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 2s"
             },
             {
@@ -2673,7 +2673,7 @@ export const pveData: any = {
                 "+18 Agility"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 48s"
             },
             {
@@ -2686,7 +2686,7 @@ export const pveData: any = {
                 "+23 Stamina"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 91s"
             },
             {
@@ -2700,7 +2700,7 @@ export const pveData: any = {
                 "+17 Strength"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 68s"
             },
             {
@@ -2714,7 +2714,7 @@ export const pveData: any = {
                 "+8 Intellect"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 80s"
             },
             {
@@ -2727,7 +2727,7 @@ export const pveData: any = {
                 "+12 Strength"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 88s"
             },
             {
@@ -2738,7 +2738,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 96s"
             },
             {
@@ -2751,7 +2751,7 @@ export const pveData: any = {
                 "+15 Agility"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 86s"
             },
             {
@@ -2765,7 +2765,7 @@ export const pveData: any = {
                 "+18 Strength"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 96s"
             },
             {
@@ -2776,7 +2776,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 60s"
             },
             {
@@ -2789,7 +2789,7 @@ export const pveData: any = {
                 "+18 Intellect"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 65s"
             }
           ]
@@ -2833,11 +2833,11 @@ export const pveData: any = {
               "slot": "Chest",
               "type": "Leather",
               "stats": [
-                "+20 Intellect"
+                "+17 Intellect"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 70s"
+              "requiresLevel": 53,
+              "sellPrice": "3g 70s"
             },
             {
               "name": "Pauldrons of the Forgotten",
@@ -2849,8 +2849,8 @@ export const pveData: any = {
                 "+5 Strength"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 98s"
+              "requiresLevel": 53,
+              "sellPrice": "8g 98s"
             },
             {
               "name": "Cloak of Bloodletting",
@@ -2859,12 +2859,12 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Mail",
               "stats": [
-                "+12 Strength",
-                "+8 Agility"
+                "+10 Strength",
+                "+6 Agility"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 69s"
+              "requiresLevel": 53,
+              "sellPrice": "3g 69s"
             },
             {
               "name": "Pauldrons of the Betrayer",
@@ -2873,11 +2873,11 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Plate",
               "stats": [
-                "+22 Intellect"
+                "+18 Intellect"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 70s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 70s"
             },
             {
               "name": "Pauldrons of Shattered Souls",
@@ -2887,8 +2887,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 38s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 38s"
             },
             {
               "name": "Pauldrons of Bloodletting",
@@ -2898,8 +2898,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 1s"
+              "requiresLevel": 53,
+              "sellPrice": "1g 1s"
             },
             {
               "name": "Breastplate of Bloodletting",
@@ -2908,12 +2908,12 @@ export const pveData: any = {
               "slot": "Ranged",
               "type": "Sword",
               "stats": [
-                "+15 Stamina",
-                "+13 Stamina"
+                "+13 Stamina",
+                "+11 Stamina"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 78s"
+              "requiresLevel": 53,
+              "sellPrice": "78s"
             },
             {
               "name": "Pauldrons of the Betrayer",
@@ -2922,11 +2922,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+8 Strength"
+                "+6 Strength"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 61s"
+              "requiresLevel": 53,
+              "sellPrice": "7g 61s"
             },
             {
               "name": "Band of Shattered Souls",
@@ -2935,11 +2935,11 @@ export const pveData: any = {
               "slot": "One-Hand",
               "type": "Axe",
               "stats": [
-                "+12 Agility"
+                "+10 Agility"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 15s"
+              "requiresLevel": 53,
+              "sellPrice": "5g 15s"
             },
             {
               "name": "Tome of Eternal Slumber",
@@ -2948,11 +2948,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+19 Agility"
+                "+16 Agility"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 79s"
+              "requiresLevel": 53,
+              "sellPrice": "79s"
             },
             {
               "name": "Tome of the Unseen",
@@ -2961,12 +2961,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+16 Intellect",
-                "+7 Intellect"
+                "+14 Intellect",
+                "+6 Intellect"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 97s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 97s"
             },
             {
               "name": "Legguards of Eternal Slumber",
@@ -2975,12 +2975,12 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Plate",
               "stats": [
-                "+17 Spirit",
-                "+10 Intellect"
+                "+15 Spirit",
+                "+8 Intellect"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 54s"
+              "requiresLevel": 53,
+              "sellPrice": "5g 54s"
             },
             {
               "name": "Legguards of Eternal Slumber",
@@ -2989,11 +2989,11 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Mail",
               "stats": [
-                "+11 Stamina"
+                "+9 Stamina"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 5s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 5s"
             },
             {
               "name": "Amulet of the Unseen",
@@ -3002,11 +3002,11 @@ export const pveData: any = {
               "slot": "Legs",
               "type": "Mail",
               "stats": [
-                "+17 Stamina"
+                "+15 Stamina"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 78s"
+              "requiresLevel": 53,
+              "sellPrice": "78s"
             },
             {
               "name": "Breastplate of the Deep",
@@ -3015,12 +3015,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+8 Stamina",
-                "+13 Stamina"
+                "+6 Stamina",
+                "+11 Stamina"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 76s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 76s"
             },
             {
               "name": "Amulet of the Void",
@@ -3029,12 +3029,12 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Cloth",
               "stats": [
-                "+22 Strength",
-                "+12 Strength"
+                "+18 Strength",
+                "+10 Strength"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 46s"
+              "requiresLevel": 53,
+              "sellPrice": "1g 46s"
             },
             {
               "name": "Sabatons of the Unseen",
@@ -3043,12 +3043,12 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Plate",
               "stats": [
-                "+22 Stamina",
-                "+15 Stamina"
+                "+18 Stamina",
+                "+13 Stamina"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 80s"
+              "requiresLevel": 53,
+              "sellPrice": "2g 80s"
             },
             {
               "name": "Tome of Shattered Souls",
@@ -3057,11 +3057,11 @@ export const pveData: any = {
               "slot": "Head",
               "type": "Cloth",
               "stats": [
-                "+17 Agility"
+                "+15 Agility"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 71s"
+              "requiresLevel": 53,
+              "sellPrice": "71s"
             },
             {
               "name": "Pauldrons of the Deep",
@@ -3071,8 +3071,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 96s"
+              "requiresLevel": 53,
+              "sellPrice": "6g 96s"
             },
             {
               "name": "Helm of Bloodletting",
@@ -3081,11 +3081,11 @@ export const pveData: any = {
               "slot": "Ranged",
               "type": "Staff",
               "stats": [
-                "+22 Spirit"
+                "+18 Spirit"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 77s"
+              "requiresLevel": 53,
+              "sellPrice": "77s"
             }
           ]
         },
@@ -3105,11 +3105,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+23 Agility"
+                "+21 Agility"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 17s"
+              "requiresLevel": 56,
+              "sellPrice": "7g 17s"
             },
             {
               "name": "Breastplate of Bloodletting",
@@ -3118,12 +3118,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+16 Intellect",
-                "+19 Agility"
+                "+15 Intellect",
+                "+17 Agility"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 32s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 32s"
             },
             {
               "name": "Cloak of the Archmage",
@@ -3133,8 +3133,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 55s"
+              "requiresLevel": 56,
+              "sellPrice": "55s"
             },
             {
               "name": "Tome of the Forgotten",
@@ -3146,8 +3146,8 @@ export const pveData: any = {
                 "+10 Stamina"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 68s"
+              "requiresLevel": 56,
+              "sellPrice": "68s"
             },
             {
               "name": "Tome of Eternal Slumber",
@@ -3157,11 +3157,11 @@ export const pveData: any = {
               "type": "Staff",
               "stats": [
                 "+15 Stamina",
-                "+19 Stamina"
+                "+17 Stamina"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 13s"
+              "requiresLevel": 56,
+              "sellPrice": "6g 13s"
             },
             {
               "name": "Tome of the Forgotten",
@@ -3171,11 +3171,11 @@ export const pveData: any = {
               "type": "Leather",
               "stats": [
                 "+5 Intellect",
-                "+18 Spirit"
+                "+16 Spirit"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 93s"
+              "requiresLevel": 56,
+              "sellPrice": "4g 93s"
             },
             {
               "name": "Tome of the Void",
@@ -3184,12 +3184,12 @@ export const pveData: any = {
               "slot": "Hands",
               "type": "Mail",
               "stats": [
-                "+24 Agility",
-                "+18 Stamina"
+                "+22 Agility",
+                "+16 Stamina"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 67s"
+              "requiresLevel": 56,
+              "sellPrice": "7g 67s"
             },
             {
               "name": "Band of the Void",
@@ -3198,11 +3198,11 @@ export const pveData: any = {
               "slot": "Hands",
               "type": "Cloth",
               "stats": [
-                "+20 Intellect"
+                "+18 Intellect"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 33s"
+              "requiresLevel": 56,
+              "sellPrice": "4g 33s"
             },
             {
               "name": "Helm of the Forgotten",
@@ -3214,8 +3214,8 @@ export const pveData: any = {
                 "+8 Stamina"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 36s"
+              "requiresLevel": 56,
+              "sellPrice": "1g 36s"
             },
             {
               "name": "Band of the Archmage",
@@ -3225,11 +3225,11 @@ export const pveData: any = {
               "type": "Plate",
               "stats": [
                 "+10 Agility",
-                "+17 Intellect"
+                "+15 Intellect"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 78s"
+              "requiresLevel": 56,
+              "sellPrice": "3g 78s"
             },
             {
               "name": "Cloak of the Betrayer",
@@ -3238,11 +3238,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+16 Agility"
+                "+15 Agility"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 81s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 81s"
             },
             {
               "name": "Cloak of the Crimson King",
@@ -3252,8 +3252,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 19s"
+              "requiresLevel": 56,
+              "sellPrice": "19s"
             },
             {
               "name": "Cloak of the Archmage",
@@ -3262,11 +3262,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+22 Strength"
+                "+20 Strength"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 76s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 76s"
             },
             {
               "name": "Tome of the Crimson King",
@@ -3279,8 +3279,8 @@ export const pveData: any = {
                 "+13 Stamina"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 39s"
+              "requiresLevel": 56,
+              "sellPrice": "39s"
             },
             {
               "name": "Tome of Bloodletting",
@@ -3293,8 +3293,8 @@ export const pveData: any = {
                 "+8 Agility"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 74s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 74s"
             },
             {
               "name": "Sabatons of Shattered Souls",
@@ -3304,11 +3304,11 @@ export const pveData: any = {
               "type": "Mail",
               "stats": [
                 "+8 Agility",
-                "+18 Stamina"
+                "+16 Stamina"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 41s"
+              "requiresLevel": 56,
+              "sellPrice": "41s"
             },
             {
               "name": "Breastplate of Bloodletting",
@@ -3321,8 +3321,8 @@ export const pveData: any = {
                 "+7 Spirit"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 62s"
+              "requiresLevel": 56,
+              "sellPrice": "1g 62s"
             },
             {
               "name": "Tome of the Crimson King",
@@ -3335,8 +3335,8 @@ export const pveData: any = {
                 "+8 Spirit"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 38s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 38s"
             },
             {
               "name": "Tome of the Archmage",
@@ -3348,8 +3348,8 @@ export const pveData: any = {
                 "+11 Agility"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 43s"
+              "requiresLevel": 56,
+              "sellPrice": "8g 43s"
             },
             {
               "name": "Amulet of Bloodletting",
@@ -3358,11 +3358,11 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Plate",
               "stats": [
-                "+22 Intellect"
+                "+20 Intellect"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 60s"
+              "requiresLevel": 56,
+              "sellPrice": "3g 60s"
             },
             {
               "name": "Cloak of the Deep",
@@ -3375,8 +3375,8 @@ export const pveData: any = {
                 "+11 Spirit"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 73s"
+              "requiresLevel": 56,
+              "sellPrice": "73s"
             },
             {
               "name": "Sabatons of Shattered Souls",
@@ -3385,11 +3385,11 @@ export const pveData: any = {
               "slot": "Feet",
               "type": "Mail",
               "stats": [
-                "+16 Stamina"
+                "+15 Stamina"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 86s"
+              "requiresLevel": 56,
+              "sellPrice": "1g 86s"
             },
             {
               "name": "Pauldrons of the Unseen",
@@ -3398,12 +3398,12 @@ export const pveData: any = {
               "slot": "Head",
               "type": "Mail",
               "stats": [
-                "+21 Agility",
-                "+17 Stamina"
+                "+19 Agility",
+                "+15 Stamina"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 62s"
+              "requiresLevel": 56,
+              "sellPrice": "5g 62s"
             },
             {
               "name": "Breastplate of the Crimson King",
@@ -3416,8 +3416,8 @@ export const pveData: any = {
                 "+6 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 74s"
+              "requiresLevel": 56,
+              "sellPrice": "4g 74s"
             },
             {
               "name": "Band of the Crimson King",
@@ -3430,8 +3430,8 @@ export const pveData: any = {
                 "+14 Stamina"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 0s"
+              "requiresLevel": 56,
+              "sellPrice": "8g 0s"
             }
           ]
         },
@@ -3452,7 +3452,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 56s"
             },
             {
@@ -3466,7 +3466,7 @@ export const pveData: any = {
                 "+19 Agility"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 0s"
             },
             {
@@ -3479,7 +3479,7 @@ export const pveData: any = {
                 "+8 Spirit"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 82s"
             },
             {
@@ -3490,7 +3490,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 93s"
             },
             {
@@ -3503,7 +3503,7 @@ export const pveData: any = {
                 "+18 Spirit"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 59s"
             },
             {
@@ -3517,7 +3517,7 @@ export const pveData: any = {
                 "+11 Agility"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 17s"
             },
             {
@@ -3531,7 +3531,7 @@ export const pveData: any = {
                 "+19 Strength"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 97s"
             },
             {
@@ -3545,7 +3545,7 @@ export const pveData: any = {
                 "+10 Agility"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 35s"
             },
             {
@@ -3559,7 +3559,7 @@ export const pveData: any = {
                 "+10 Agility"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 18s"
             },
             {
@@ -3573,7 +3573,7 @@ export const pveData: any = {
                 "+8 Spirit"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 82s"
             },
             {
@@ -3587,7 +3587,7 @@ export const pveData: any = {
                 "+18 Stamina"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 34s"
             },
             {
@@ -3601,7 +3601,7 @@ export const pveData: any = {
                 "+15 Stamina"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 46s"
             },
             {
@@ -3614,7 +3614,7 @@ export const pveData: any = {
                 "+16 Intellect"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 66s"
             },
             {
@@ -3627,7 +3627,7 @@ export const pveData: any = {
                 "+22 Spirit"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 70s"
             },
             {
@@ -3638,7 +3638,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 20s"
             },
             {
@@ -3651,7 +3651,7 @@ export const pveData: any = {
                 "+20 Strength"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 16s"
             },
             {
@@ -3665,7 +3665,7 @@ export const pveData: any = {
                 "+5 Stamina"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 91s"
             },
             {
@@ -3679,7 +3679,7 @@ export const pveData: any = {
                 "+11 Spirit"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 19s"
             },
             {
@@ -3692,7 +3692,7 @@ export const pveData: any = {
                 "+16 Strength"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 12s"
             },
             {
@@ -3705,7 +3705,7 @@ export const pveData: any = {
                 "+7 Agility"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 36s"
             },
             {
@@ -3718,7 +3718,7 @@ export const pveData: any = {
                 "+13 Spirit"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 27s"
             },
             {
@@ -3732,7 +3732,7 @@ export const pveData: any = {
                 "+6 Stamina"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 93s"
             },
             {
@@ -3746,7 +3746,7 @@ export const pveData: any = {
                 "+9 Stamina"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 84s"
             },
             {
@@ -3760,7 +3760,7 @@ export const pveData: any = {
                 "+7 Intellect"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 47s"
             },
             {
@@ -3773,7 +3773,7 @@ export const pveData: any = {
                 "+16 Strength"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 23s"
             },
             {
@@ -3786,7 +3786,7 @@ export const pveData: any = {
                 "+21 Strength"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 60s"
             },
             {
@@ -3799,7 +3799,7 @@ export const pveData: any = {
                 "+14 Intellect"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 65s"
             },
             {
@@ -3810,7 +3810,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 10s"
             },
             {
@@ -3824,7 +3824,7 @@ export const pveData: any = {
                 "+15 Strength"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 81s"
             },
             {
@@ -3837,7 +3837,7 @@ export const pveData: any = {
                 "+11 Spirit"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 79s"
             },
             {
@@ -3848,7 +3848,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 70s"
             },
             {
@@ -3861,7 +3861,7 @@ export const pveData: any = {
                 "+9 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 59s"
             },
             {
@@ -3875,7 +3875,7 @@ export const pveData: any = {
                 "+17 Agility"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 16s"
             },
             {
@@ -3889,7 +3889,7 @@ export const pveData: any = {
                 "+8 Stamina"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 2s"
             },
             {
@@ -3902,7 +3902,7 @@ export const pveData: any = {
                 "+24 Agility"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 28s"
             },
             {
@@ -3916,7 +3916,7 @@ export const pveData: any = {
                 "+11 Stamina"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 47s"
             },
             {
@@ -3930,7 +3930,7 @@ export const pveData: any = {
                 "+11 Agility"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 87s"
             },
             {
@@ -3944,7 +3944,7 @@ export const pveData: any = {
                 "+7 Intellect"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 51s"
             },
             {
@@ -3958,7 +3958,7 @@ export const pveData: any = {
                 "+13 Intellect"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 23s"
             },
             {
@@ -3969,7 +3969,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 92s"
             }
           ]
@@ -4013,12 +4013,12 @@ export const pveData: any = {
               "slot": "Two-Hand",
               "type": "Sword",
               "stats": [
-                "+9 Stamina",
-                "+12 Strength"
+                "+7 Stamina",
+                "+9 Strength"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 45s"
+              "requiresLevel": 50,
+              "sellPrice": "3g 45s"
             },
             {
               "name": "Amulet of the Deep",
@@ -4027,11 +4027,11 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Cloth",
               "stats": [
-                "+23 Agility"
+                "+17 Agility"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 20s"
+              "requiresLevel": 50,
+              "sellPrice": "1g 20s"
             },
             {
               "name": "Helm of the Deep",
@@ -4040,11 +4040,11 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Leather",
               "stats": [
-                "+23 Strength"
+                "+17 Strength"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 43s"
+              "requiresLevel": 50,
+              "sellPrice": "3g 43s"
             },
             {
               "name": "Band of Shattered Souls",
@@ -4053,12 +4053,12 @@ export const pveData: any = {
               "slot": "Head",
               "type": "Mail",
               "stats": [
-                "+21 Agility",
-                "+13 Strength"
+                "+16 Agility",
+                "+10 Strength"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 34s"
+              "requiresLevel": 50,
+              "sellPrice": "4g 34s"
             },
             {
               "name": "Amulet of the Betrayer",
@@ -4067,12 +4067,12 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Mail",
               "stats": [
-                "+9 Spirit",
-                "+6 Strength"
+                "+7 Spirit",
+                "+4 Strength"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 5s"
+              "requiresLevel": 50,
+              "sellPrice": "6g 5s"
             },
             {
               "name": "Breastplate of the Deep",
@@ -4081,12 +4081,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+10 Intellect",
-                "+10 Spirit"
+                "+8 Intellect",
+                "+8 Spirit"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 75s"
+              "requiresLevel": 50,
+              "sellPrice": "5g 75s"
             },
             {
               "name": "Band of the Forgotten",
@@ -4095,11 +4095,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+11 Stamina"
+                "+9 Stamina"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 65s"
+              "requiresLevel": 50,
+              "sellPrice": "1g 65s"
             },
             {
               "name": "Helm of the Archmage",
@@ -4108,12 +4108,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+12 Intellect",
-                "+12 Spirit"
+                "+9 Intellect",
+                "+9 Spirit"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 94s"
+              "requiresLevel": 50,
+              "sellPrice": "2g 94s"
             },
             {
               "name": "Amulet of the Forgotten",
@@ -4122,12 +4122,12 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Mail",
               "stats": [
-                "+22 Strength",
-                "+11 Spirit"
+                "+16 Strength",
+                "+9 Spirit"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 0s"
+              "requiresLevel": 50,
+              "sellPrice": "0s"
             },
             {
               "name": "Tome of the Forgotten",
@@ -4136,12 +4136,12 @@ export const pveData: any = {
               "slot": "Hands",
               "type": "Leather",
               "stats": [
-                "+14 Strength",
-                "+17 Spirit"
+                "+10 Strength",
+                "+13 Spirit"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 36s"
+              "requiresLevel": 50,
+              "sellPrice": "5g 36s"
             },
             {
               "name": "Amulet of Bloodletting",
@@ -4150,12 +4150,12 @@ export const pveData: any = {
               "slot": "Head",
               "type": "Cloth",
               "stats": [
-                "+8 Strength",
-                "+19 Stamina"
+                "+6 Strength",
+                "+14 Stamina"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 98s"
+              "requiresLevel": 50,
+              "sellPrice": "98s"
             },
             {
               "name": "Amulet of Bloodletting",
@@ -4164,11 +4164,11 @@ export const pveData: any = {
               "slot": "One-Hand",
               "type": "Sword",
               "stats": [
-                "+19 Spirit"
+                "+14 Spirit"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 34s"
+              "requiresLevel": 50,
+              "sellPrice": "6g 34s"
             },
             {
               "name": "Sabatons of the Betrayer",
@@ -4177,12 +4177,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+17 Stamina",
-                "+12 Intellect"
+                "+13 Stamina",
+                "+9 Intellect"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 70s"
+              "requiresLevel": 50,
+              "sellPrice": "3g 70s"
             },
             {
               "name": "Tome of the Crimson King",
@@ -4191,12 +4191,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+13 Agility",
-                "+10 Intellect"
+                "+10 Agility",
+                "+8 Intellect"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 48s"
+              "requiresLevel": 50,
+              "sellPrice": "48s"
             },
             {
               "name": "Band of the Betrayer",
@@ -4205,12 +4205,12 @@ export const pveData: any = {
               "slot": "One-Hand",
               "type": "Staff",
               "stats": [
-                "+13 Strength",
-                "+10 Strength"
+                "+10 Strength",
+                "+8 Strength"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 15s"
+              "requiresLevel": 50,
+              "sellPrice": "2g 15s"
             }
           ]
         },
@@ -4230,12 +4230,12 @@ export const pveData: any = {
               "slot": "Two-Hand",
               "type": "Dagger",
               "stats": [
-                "+16 Intellect",
-                "+13 Spirit"
+                "+14 Intellect",
+                "+11 Spirit"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 40s"
+              "requiresLevel": 53,
+              "sellPrice": "2g 40s"
             },
             {
               "name": "Tome of the Betrayer",
@@ -4244,12 +4244,12 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Mail",
               "stats": [
-                "+15 Agility",
-                "+7 Agility"
+                "+13 Agility",
+                "+6 Agility"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 57s"
+              "requiresLevel": 53,
+              "sellPrice": "3g 57s"
             },
             {
               "name": "Signet of Bloodletting",
@@ -4258,12 +4258,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+18 Strength",
-                "+10 Intellect"
+                "+16 Strength",
+                "+8 Intellect"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 36s"
+              "requiresLevel": 53,
+              "sellPrice": "8g 36s"
             },
             {
               "name": "Breastplate of Eternal Slumber",
@@ -4272,11 +4272,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+20 Stamina"
+                "+17 Stamina"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 64s"
+              "requiresLevel": 53,
+              "sellPrice": "6g 64s"
             },
             {
               "name": "Cloak of the Crimson King",
@@ -4286,8 +4286,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 49s"
+              "requiresLevel": 53,
+              "sellPrice": "49s"
             },
             {
               "name": "Cloak of the Archmage",
@@ -4297,11 +4297,11 @@ export const pveData: any = {
               "type": "Leather",
               "stats": [
                 "+5 Spirit",
-                "+10 Stamina"
+                "+8 Stamina"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 27s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 27s"
             },
             {
               "name": "Breastplate of Shattered Souls",
@@ -4310,11 +4310,11 @@ export const pveData: any = {
               "slot": "Legs",
               "type": "Leather",
               "stats": [
-                "+15 Stamina"
+                "+13 Stamina"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 46s"
+              "requiresLevel": 53,
+              "sellPrice": "1g 46s"
             },
             {
               "name": "Pauldrons of the Betrayer",
@@ -4324,8 +4324,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 28s"
+              "requiresLevel": 53,
+              "sellPrice": "7g 28s"
             },
             {
               "name": "Amulet of Eternal Slumber",
@@ -4334,12 +4334,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+16 Spirit",
-                "+18 Spirit"
+                "+14 Spirit",
+                "+16 Spirit"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 54s"
+              "requiresLevel": 53,
+              "sellPrice": "6g 54s"
             },
             {
               "name": "Tome of the Deep",
@@ -4348,11 +4348,11 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Cloth",
               "stats": [
-                "+12 Strength"
+                "+10 Strength"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 40s"
+              "requiresLevel": 53,
+              "sellPrice": "3g 40s"
             },
             {
               "name": "Legguards of the Unseen",
@@ -4361,12 +4361,12 @@ export const pveData: any = {
               "slot": "Chest",
               "type": "Cloth",
               "stats": [
-                "+9 Intellect",
-                "+14 Agility"
+                "+7 Intellect",
+                "+12 Agility"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 51s"
+              "requiresLevel": 53,
+              "sellPrice": "1g 51s"
             },
             {
               "name": "Sabatons of the Void",
@@ -4375,11 +4375,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+17 Stamina"
+                "+15 Stamina"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 74s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 74s"
             },
             {
               "name": "Cloak of the Archmage",
@@ -4388,11 +4388,11 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Mail",
               "stats": [
-                "+24 Agility"
+                "+20 Agility"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 91s"
+              "requiresLevel": 53,
+              "sellPrice": "5g 91s"
             },
             {
               "name": "Amulet of the Unseen",
@@ -4401,12 +4401,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+23 Strength",
-                "+17 Stamina"
+                "+19 Strength",
+                "+15 Stamina"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 95s"
+              "requiresLevel": 53,
+              "sellPrice": "3g 95s"
             },
             {
               "name": "Amulet of the Deep",
@@ -4415,11 +4415,11 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Cloth",
               "stats": [
-                "+24 Stamina"
+                "+20 Stamina"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 61s"
+              "requiresLevel": 53,
+              "sellPrice": "1g 61s"
             },
             {
               "name": "Pauldrons of the Void",
@@ -4428,11 +4428,11 @@ export const pveData: any = {
               "slot": "Ranged",
               "type": "Axe",
               "stats": [
-                "+7 Strength"
+                "+6 Strength"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 17s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 17s"
             },
             {
               "name": "Pauldrons of the Betrayer",
@@ -4441,12 +4441,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+22 Strength",
-                "+15 Intellect"
+                "+18 Strength",
+                "+13 Intellect"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 59s"
+              "requiresLevel": 53,
+              "sellPrice": "7g 59s"
             },
             {
               "name": "Tome of Eternal Slumber",
@@ -4455,11 +4455,11 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Plate",
               "stats": [
-                "+11 Stamina"
+                "+9 Stamina"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 47s"
+              "requiresLevel": 53,
+              "sellPrice": "47s"
             },
             {
               "name": "Pauldrons of the Crimson King",
@@ -4469,11 +4469,11 @@ export const pveData: any = {
               "type": "Shield",
               "stats": [
                 "+5 Agility",
-                "+19 Strength"
+                "+16 Strength"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 55s"
+              "requiresLevel": 53,
+              "sellPrice": "55s"
             },
             {
               "name": "Amulet of the Unseen",
@@ -4482,11 +4482,11 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Cloth",
               "stats": [
-                "+9 Stamina"
+                "+7 Stamina"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 40s"
+              "requiresLevel": 53,
+              "sellPrice": "40s"
             }
           ]
         },
@@ -4510,7 +4510,7 @@ export const pveData: any = {
                 "+18 Stamina"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 53s"
             },
             {
@@ -4524,7 +4524,7 @@ export const pveData: any = {
                 "+7 Strength"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 81s"
             },
             {
@@ -4535,7 +4535,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 79s"
             },
             {
@@ -4549,7 +4549,7 @@ export const pveData: any = {
                 "+17 Intellect"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 32s"
             },
             {
@@ -4560,7 +4560,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 68s"
             },
             {
@@ -4574,7 +4574,7 @@ export const pveData: any = {
                 "+15 Intellect"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 46s"
             },
             {
@@ -4585,7 +4585,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 18s"
             },
             {
@@ -4599,7 +4599,7 @@ export const pveData: any = {
                 "+12 Strength"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 30s"
             },
             {
@@ -4612,7 +4612,7 @@ export const pveData: any = {
                 "+9 Stamina"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 57s"
             },
             {
@@ -4625,7 +4625,7 @@ export const pveData: any = {
                 "+24 Strength"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 11s"
             },
             {
@@ -4636,7 +4636,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 28s"
             },
             {
@@ -4650,7 +4650,7 @@ export const pveData: any = {
                 "+19 Stamina"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 72s"
             },
             {
@@ -4663,7 +4663,7 @@ export const pveData: any = {
                 "+14 Spirit"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 85s"
             },
             {
@@ -4676,7 +4676,7 @@ export const pveData: any = {
                 "+22 Intellect"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 59s"
             },
             {
@@ -4689,7 +4689,7 @@ export const pveData: any = {
                 "+14 Strength"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 4s"
             },
             {
@@ -4703,7 +4703,7 @@ export const pveData: any = {
                 "+12 Stamina"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 22s"
             },
             {
@@ -4716,7 +4716,7 @@ export const pveData: any = {
                 "+5 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 95s"
             },
             {
@@ -4729,7 +4729,7 @@ export const pveData: any = {
                 "+17 Agility"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 89s"
             },
             {
@@ -4743,7 +4743,7 @@ export const pveData: any = {
                 "+5 Spirit"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 12s"
             },
             {
@@ -4757,7 +4757,7 @@ export const pveData: any = {
                 "+15 Spirit"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 44s"
             },
             {
@@ -4771,7 +4771,7 @@ export const pveData: any = {
                 "+19 Agility"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 56s"
             },
             {
@@ -4784,7 +4784,7 @@ export const pveData: any = {
                 "+5 Agility"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 62s"
             },
             {
@@ -4797,7 +4797,7 @@ export const pveData: any = {
                 "+13 Spirit"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 3s"
             },
             {
@@ -4810,7 +4810,7 @@ export const pveData: any = {
                 "+13 Strength"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 52s"
             },
             {
@@ -4823,7 +4823,7 @@ export const pveData: any = {
                 "+20 Spirit"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 85s"
             },
             {
@@ -4836,7 +4836,7 @@ export const pveData: any = {
                 "+5 Intellect"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 13s"
             },
             {
@@ -4847,7 +4847,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 64s"
             },
             {
@@ -4860,7 +4860,7 @@ export const pveData: any = {
                 "+18 Strength"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 18s"
             },
             {
@@ -4873,7 +4873,7 @@ export const pveData: any = {
                 "+9 Stamina"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 94s"
             },
             {
@@ -4886,7 +4886,7 @@ export const pveData: any = {
                 "+22 Intellect"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 21s"
             }
           ]
@@ -4931,8 +4931,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 16s"
+              "requiresLevel": 56,
+              "sellPrice": "1g 16s"
             },
             {
               "name": "Legguards of the Archmage",
@@ -4941,11 +4941,11 @@ export const pveData: any = {
               "slot": "Chest",
               "type": "Cloth",
               "stats": [
-                "+20 Agility"
+                "+18 Agility"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 28s"
+              "requiresLevel": 56,
+              "sellPrice": "28s"
             },
             {
               "name": "Signet of the Unseen",
@@ -4957,8 +4957,8 @@ export const pveData: any = {
                 "+14 Intellect"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 10s"
+              "requiresLevel": 56,
+              "sellPrice": "10s"
             },
             {
               "name": "Cloak of Eternal Slumber",
@@ -4967,11 +4967,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+19 Agility"
+                "+17 Agility"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 86s"
+              "requiresLevel": 56,
+              "sellPrice": "86s"
             },
             {
               "name": "Signet of the Archmage",
@@ -4981,11 +4981,11 @@ export const pveData: any = {
               "type": "Mail",
               "stats": [
                 "+8 Spirit",
-                "+18 Spirit"
+                "+16 Spirit"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 76s"
+              "requiresLevel": 56,
+              "sellPrice": "76s"
             },
             {
               "name": "Sabatons of Eternal Slumber",
@@ -4994,12 +4994,12 @@ export const pveData: any = {
               "slot": "Head",
               "type": "Leather",
               "stats": [
-                "+16 Spirit",
+                "+15 Spirit",
                 "+13 Strength"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 25s"
+              "requiresLevel": 56,
+              "sellPrice": "4g 25s"
             },
             {
               "name": "Breastplate of the Archmage",
@@ -5012,8 +5012,8 @@ export const pveData: any = {
                 "+7 Spirit"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 47s"
+              "requiresLevel": 56,
+              "sellPrice": "47s"
             },
             {
               "name": "Cloak of the Forgotten",
@@ -5025,8 +5025,8 @@ export const pveData: any = {
                 "+14 Intellect"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 22s"
+              "requiresLevel": 56,
+              "sellPrice": "22s"
             },
             {
               "name": "Tome of the Unseen",
@@ -5036,11 +5036,11 @@ export const pveData: any = {
               "type": "Shield",
               "stats": [
                 "+5 Intellect",
-                "+18 Strength"
+                "+16 Strength"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 24s"
+              "requiresLevel": 56,
+              "sellPrice": "24s"
             },
             {
               "name": "Sabatons of the Forgotten",
@@ -5049,11 +5049,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+18 Stamina"
+                "+16 Stamina"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 12s"
+              "requiresLevel": 56,
+              "sellPrice": "6g 12s"
             },
             {
               "name": "Legguards of the Crimson King",
@@ -5066,8 +5066,8 @@ export const pveData: any = {
                 "+14 Stamina"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 5s"
+              "requiresLevel": 56,
+              "sellPrice": "4g 5s"
             },
             {
               "name": "Signet of the Archmage",
@@ -5079,8 +5079,8 @@ export const pveData: any = {
                 "+10 Stamina"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 78s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 78s"
             },
             {
               "name": "Legguards of the Unseen",
@@ -5092,8 +5092,8 @@ export const pveData: any = {
                 "+14 Stamina"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 21s"
+              "requiresLevel": 56,
+              "sellPrice": "7g 21s"
             },
             {
               "name": "Tome of the Betrayer",
@@ -5102,12 +5102,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+16 Strength",
+                "+15 Strength",
                 "+7 Spirit"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 24s"
+              "requiresLevel": 56,
+              "sellPrice": "3g 24s"
             },
             {
               "name": "Legguards of Shattered Souls",
@@ -5120,8 +5120,8 @@ export const pveData: any = {
                 "+7 Agility"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 2s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 2s"
             },
             {
               "name": "Pauldrons of Bloodletting",
@@ -5130,11 +5130,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+20 Stamina"
+                "+18 Stamina"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 25s"
+              "requiresLevel": 56,
+              "sellPrice": "3g 25s"
             },
             {
               "name": "Breastplate of Shattered Souls",
@@ -5143,12 +5143,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+19 Agility",
+                "+17 Agility",
                 "+15 Intellect"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 0s"
+              "requiresLevel": 56,
+              "sellPrice": "5g 0s"
             },
             {
               "name": "Breastplate of the Forgotten",
@@ -5157,12 +5157,12 @@ export const pveData: any = {
               "slot": "Main Hand",
               "type": "Bow",
               "stats": [
-                "+18 Intellect",
+                "+16 Intellect",
                 "+11 Stamina"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 50s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 50s"
             },
             {
               "name": "Helm of the Crimson King",
@@ -5172,8 +5172,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 31s"
+              "requiresLevel": 56,
+              "sellPrice": "1g 31s"
             },
             {
               "name": "Amulet of the Forgotten",
@@ -5183,11 +5183,11 @@ export const pveData: any = {
               "type": "Ring",
               "stats": [
                 "+15 Intellect",
-                "+16 Stamina"
+                "+15 Stamina"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 8s"
+              "requiresLevel": 56,
+              "sellPrice": "8s"
             },
             {
               "name": "Legguards of the Deep",
@@ -5199,8 +5199,8 @@ export const pveData: any = {
                 "+8 Intellect"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 31s"
+              "requiresLevel": 56,
+              "sellPrice": "7g 31s"
             },
             {
               "name": "Amulet of the Archmage",
@@ -5212,8 +5212,8 @@ export const pveData: any = {
                 "+8 Strength"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 69s"
+              "requiresLevel": 56,
+              "sellPrice": "8g 69s"
             },
             {
               "name": "Cloak of the Archmage",
@@ -5222,11 +5222,11 @@ export const pveData: any = {
               "slot": "Legs",
               "type": "Cloth",
               "stats": [
-                "+22 Agility"
+                "+20 Agility"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 51s"
+              "requiresLevel": 56,
+              "sellPrice": "51s"
             },
             {
               "name": "Helm of the Deep",
@@ -5236,11 +5236,11 @@ export const pveData: any = {
               "type": "Plate",
               "stats": [
                 "+12 Spirit",
-                "+19 Stamina"
+                "+17 Stamina"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 55s"
+              "requiresLevel": 56,
+              "sellPrice": "2g 55s"
             },
             {
               "name": "Pauldrons of Bloodletting",
@@ -5253,8 +5253,8 @@ export const pveData: any = {
                 "+10 Strength"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 17s"
+              "requiresLevel": 56,
+              "sellPrice": "5g 17s"
             }
           ]
         },
@@ -5278,7 +5278,7 @@ export const pveData: any = {
                 "+15 Strength"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 27s"
             },
             {
@@ -5292,7 +5292,7 @@ export const pveData: any = {
                 "+6 Intellect"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 24s"
             },
             {
@@ -5305,7 +5305,7 @@ export const pveData: any = {
                 "+5 Strength"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 51s"
             },
             {
@@ -5319,7 +5319,7 @@ export const pveData: any = {
                 "+17 Strength"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 50s"
             },
             {
@@ -5332,7 +5332,7 @@ export const pveData: any = {
                 "+13 Intellect"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 64s"
             },
             {
@@ -5346,7 +5346,7 @@ export const pveData: any = {
                 "+7 Spirit"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 34s"
             },
             {
@@ -5360,7 +5360,7 @@ export const pveData: any = {
                 "+14 Stamina"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 40s"
             },
             {
@@ -5371,7 +5371,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 33s"
             },
             {
@@ -5384,7 +5384,7 @@ export const pveData: any = {
                 "+16 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 25s"
             },
             {
@@ -5397,7 +5397,7 @@ export const pveData: any = {
                 "+11 Spirit"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 72s"
             },
             {
@@ -5411,7 +5411,7 @@ export const pveData: any = {
                 "+13 Spirit"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 41s"
             },
             {
@@ -5424,7 +5424,7 @@ export const pveData: any = {
                 "+13 Strength"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "3g 75s"
             },
             {
@@ -5437,7 +5437,7 @@ export const pveData: any = {
                 "+18 Stamina"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "10g 51s"
             },
             {
@@ -5450,7 +5450,7 @@ export const pveData: any = {
                 "+9 Agility"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 78s"
             },
             {
@@ -5464,7 +5464,7 @@ export const pveData: any = {
                 "+16 Agility"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 30s"
             },
             {
@@ -5477,7 +5477,7 @@ export const pveData: any = {
                 "+22 Intellect"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 12s"
             },
             {
@@ -5490,7 +5490,7 @@ export const pveData: any = {
                 "+11 Intellect"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 42s"
             },
             {
@@ -5503,7 +5503,7 @@ export const pveData: any = {
                 "+5 Strength"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "2g 10s"
             },
             {
@@ -5516,7 +5516,7 @@ export const pveData: any = {
                 "+9 Strength"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 11s"
             },
             {
@@ -5530,7 +5530,7 @@ export const pveData: any = {
                 "+15 Intellect"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 65s"
             },
             {
@@ -5544,7 +5544,7 @@ export const pveData: any = {
                 "+18 Spirit"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "6g 64s"
             },
             {
@@ -5555,7 +5555,7 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "1g 23s"
             },
             {
@@ -5569,7 +5569,7 @@ export const pveData: any = {
                 "+6 Agility"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 63s"
             },
             {
@@ -5583,7 +5583,7 @@ export const pveData: any = {
                 "+12 Agility"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 12s"
             },
             {
@@ -5597,7 +5597,7 @@ export const pveData: any = {
                 "+9 Strength"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "8g 92s"
             },
             {
@@ -5610,7 +5610,7 @@ export const pveData: any = {
                 "+18 Stamina"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 12s"
             },
             {
@@ -5624,7 +5624,7 @@ export const pveData: any = {
                 "+13 Spirit"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "7g 25s"
             },
             {
@@ -5637,7 +5637,7 @@ export const pveData: any = {
                 "+17 Intellect"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "4g 86s"
             },
             {
@@ -5651,7 +5651,7 @@ export const pveData: any = {
                 "+6 Agility"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "9g 83s"
             },
             {
@@ -5665,7 +5665,7 @@ export const pveData: any = {
                 "+10 Agility"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
+              "requiresLevel": 58,
               "sellPrice": "5g 72s"
             }
           ]
@@ -5709,11 +5709,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+19 Intellect"
+                "+16 Intellect"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 10s"
+              "requiresLevel": 53,
+              "sellPrice": "2g 10s"
             },
             {
               "name": "Sabatons of the Deep",
@@ -5722,12 +5722,12 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Cloth",
               "stats": [
-                "+14 Strength",
-                "+14 Spirit"
+                "+12 Strength",
+                "+12 Spirit"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 50s"
+              "requiresLevel": 53,
+              "sellPrice": "8g 50s"
             },
             {
               "name": "Sabatons of Eternal Slumber",
@@ -5736,11 +5736,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+13 Spirit"
+                "+11 Spirit"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 97s"
+              "requiresLevel": 53,
+              "sellPrice": "1g 97s"
             },
             {
               "name": "Amulet of the Unseen",
@@ -5749,12 +5749,12 @@ export const pveData: any = {
               "slot": "Feet",
               "type": "Plate",
               "stats": [
-                "+12 Stamina",
-                "+16 Intellect"
+                "+10 Stamina",
+                "+14 Intellect"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 75s"
+              "requiresLevel": 53,
+              "sellPrice": "3g 75s"
             },
             {
               "name": "Cloak of Shattered Souls",
@@ -5763,12 +5763,12 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Cloth",
               "stats": [
-                "+21 Intellect",
+                "+17 Intellect",
                 "+5 Agility"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 11s"
+              "requiresLevel": 53,
+              "sellPrice": "8g 11s"
             },
             {
               "name": "Signet of the Crimson King",
@@ -5778,11 +5778,11 @@ export const pveData: any = {
               "type": "Cloth",
               "stats": [
                 "+6 Intellect",
-                "+11 Spirit"
+                "+9 Spirit"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 5s"
+              "requiresLevel": 53,
+              "sellPrice": "6g 5s"
             },
             {
               "name": "Pauldrons of the Void",
@@ -5791,12 +5791,12 @@ export const pveData: any = {
               "slot": "Hands",
               "type": "Cloth",
               "stats": [
-                "+12 Strength",
-                "+19 Spirit"
+                "+10 Strength",
+                "+16 Spirit"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 44s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 44s"
             },
             {
               "name": "Pauldrons of the Unseen",
@@ -5805,12 +5805,12 @@ export const pveData: any = {
               "slot": "Head",
               "type": "Leather",
               "stats": [
-                "+23 Spirit",
-                "+10 Stamina"
+                "+19 Spirit",
+                "+8 Stamina"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 32s"
+              "requiresLevel": 53,
+              "sellPrice": "32s"
             },
             {
               "name": "Signet of the Void",
@@ -5820,8 +5820,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 35s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 35s"
             },
             {
               "name": "Cloak of Shattered Souls",
@@ -5830,12 +5830,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+7 Agility",
-                "+15 Intellect"
+                "+6 Agility",
+                "+13 Intellect"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 77s"
+              "requiresLevel": 53,
+              "sellPrice": "77s"
             },
             {
               "name": "Legguards of the Crimson King",
@@ -5844,11 +5844,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+16 Intellect"
+                "+14 Intellect"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 35s"
+              "requiresLevel": 53,
+              "sellPrice": "7g 35s"
             },
             {
               "name": "Sabatons of the Forgotten",
@@ -5857,11 +5857,11 @@ export const pveData: any = {
               "slot": "Hands",
               "type": "Leather",
               "stats": [
-                "+8 Intellect"
+                "+6 Intellect"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 64s"
+              "requiresLevel": 53,
+              "sellPrice": "2g 64s"
             },
             {
               "name": "Breastplate of the Archmage",
@@ -5870,11 +5870,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+17 Spirit"
+                "+15 Spirit"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 57s"
+              "requiresLevel": 53,
+              "sellPrice": "6g 57s"
             },
             {
               "name": "Pauldrons of Shattered Souls",
@@ -5883,11 +5883,11 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Mail",
               "stats": [
-                "+9 Intellect"
+                "+7 Intellect"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 63s"
+              "requiresLevel": 53,
+              "sellPrice": "7g 63s"
             },
             {
               "name": "Pauldrons of the Forgotten",
@@ -5900,8 +5900,8 @@ export const pveData: any = {
                 "+5 Stamina"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 26s"
+              "requiresLevel": 53,
+              "sellPrice": "26s"
             },
             {
               "name": "Band of the Forgotten",
@@ -5910,11 +5910,11 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Leather",
               "stats": [
-                "+18 Stamina"
+                "+16 Stamina"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 70s"
+              "requiresLevel": 53,
+              "sellPrice": "7g 70s"
             },
             {
               "name": "Helm of the Void",
@@ -5923,11 +5923,11 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Mail",
               "stats": [
-                "+22 Spirit"
+                "+18 Spirit"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 66s"
+              "requiresLevel": 53,
+              "sellPrice": "8g 66s"
             },
             {
               "name": "Sabatons of the Forgotten",
@@ -5936,11 +5936,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+20 Stamina"
+                "+17 Stamina"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 77s"
+              "requiresLevel": 53,
+              "sellPrice": "3g 77s"
             },
             {
               "name": "Cloak of the Unseen",
@@ -5949,11 +5949,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+24 Intellect"
+                "+20 Intellect"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 83s"
+              "requiresLevel": 53,
+              "sellPrice": "8g 83s"
             },
             {
               "name": "Breastplate of the Void",
@@ -5963,8 +5963,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 63s"
+              "requiresLevel": 53,
+              "sellPrice": "8g 63s"
             },
             {
               "name": "Signet of Bloodletting",
@@ -5973,11 +5973,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+17 Strength"
+                "+15 Strength"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 84s"
+              "requiresLevel": 53,
+              "sellPrice": "5g 84s"
             },
             {
               "name": "Breastplate of the Crimson King",
@@ -5986,12 +5986,12 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Leather",
               "stats": [
-                "+7 Agility",
-                "+12 Stamina"
+                "+6 Agility",
+                "+10 Stamina"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 12s"
+              "requiresLevel": 53,
+              "sellPrice": "3g 12s"
             },
             {
               "name": "Cloak of the Void",
@@ -6001,11 +6001,11 @@ export const pveData: any = {
               "type": "Leather",
               "stats": [
                 "+5 Agility",
-                "+14 Spirit"
+                "+12 Spirit"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 39s"
+              "requiresLevel": 53,
+              "sellPrice": "4g 39s"
             },
             {
               "name": "Tome of the Crimson King",
@@ -6014,11 +6014,11 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Leather",
               "stats": [
-                "+24 Intellect"
+                "+20 Intellect"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 94s"
+              "requiresLevel": 53,
+              "sellPrice": "5g 94s"
             },
             {
               "name": "Breastplate of Shattered Souls",
@@ -6027,11 +6027,11 @@ export const pveData: any = {
               "slot": "Hands",
               "type": "Leather",
               "stats": [
-                "+7 Strength"
+                "+6 Strength"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 97s"
+              "requiresLevel": 53,
+              "sellPrice": "97s"
             }
           ]
         }
@@ -6074,12 +6074,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+11 Stamina",
-                "+5 Agility"
+                "+6 Stamina",
+                "+3 Agility"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 94s"
+              "requiresLevel": 43,
+              "sellPrice": "2g 94s"
             },
             {
               "name": "Amulet of Bloodletting",
@@ -6089,8 +6089,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 84s"
+              "requiresLevel": 43,
+              "sellPrice": "1g 84s"
             },
             {
               "name": "Tome of the Unseen",
@@ -6099,11 +6099,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+11 Intellect"
+                "+6 Intellect"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 11s"
+              "requiresLevel": 43,
+              "sellPrice": "4g 11s"
             },
             {
               "name": "Tome of the Archmage",
@@ -6112,11 +6112,11 @@ export const pveData: any = {
               "slot": "Ranged",
               "type": "Mace",
               "stats": [
-                "+16 Spirit"
+                "+9 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 60s"
+              "requiresLevel": 43,
+              "sellPrice": "1g 60s"
             },
             {
               "name": "Tome of Eternal Slumber",
@@ -6125,12 +6125,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+20 Strength",
-                "+13 Spirit"
+                "+11 Strength",
+                "+8 Spirit"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 31s"
+              "requiresLevel": 43,
+              "sellPrice": "31s"
             },
             {
               "name": "Sabatons of the Deep",
@@ -6139,12 +6139,12 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Cloth",
               "stats": [
-                "+23 Spirit",
-                "+9 Stamina"
+                "+13 Spirit",
+                "+5 Stamina"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 78s"
+              "requiresLevel": 43,
+              "sellPrice": "2g 78s"
             },
             {
               "name": "Signet of the Crimson King",
@@ -6154,8 +6154,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 14s"
+              "requiresLevel": 43,
+              "sellPrice": "4g 14s"
             },
             {
               "name": "Tome of the Crimson King",
@@ -6164,11 +6164,11 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Mail",
               "stats": [
-                "+16 Spirit"
+                "+9 Spirit"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 23s"
+              "requiresLevel": 43,
+              "sellPrice": "5g 23s"
             },
             {
               "name": "Helm of Bloodletting",
@@ -6178,8 +6178,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 83s"
+              "requiresLevel": 43,
+              "sellPrice": "83s"
             },
             {
               "name": "Tome of the Archmage",
@@ -6188,11 +6188,11 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+10 Spirit"
+                "+6 Spirit"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 26s"
+              "requiresLevel": 43,
+              "sellPrice": "26s"
             },
             {
               "name": "Breastplate of Shattered Souls",
@@ -6201,12 +6201,12 @@ export const pveData: any = {
               "slot": "Feet",
               "type": "Cloth",
               "stats": [
-                "+18 Intellect",
-                "+17 Stamina"
+                "+11 Intellect",
+                "+10 Stamina"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 38s"
+              "requiresLevel": 43,
+              "sellPrice": "4g 38s"
             },
             {
               "name": "Signet of the Deep",
@@ -6215,12 +6215,12 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Plate",
               "stats": [
-                "+7 Stamina",
-                "+18 Strength"
+                "+4 Stamina",
+                "+11 Strength"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 53s"
+              "requiresLevel": 43,
+              "sellPrice": "4g 53s"
             },
             {
               "name": "Band of the Deep",
@@ -6229,11 +6229,11 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Plate",
               "stats": [
-                "+6 Agility"
+                "+4 Agility"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 23s"
+              "requiresLevel": 43,
+              "sellPrice": "3g 23s"
             },
             {
               "name": "Pauldrons of Eternal Slumber",
@@ -6242,12 +6242,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+14 Intellect",
-                "+6 Stamina"
+                "+8 Intellect",
+                "+4 Stamina"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 58s"
+              "requiresLevel": 43,
+              "sellPrice": "58s"
             },
             {
               "name": "Sabatons of Eternal Slumber",
@@ -6256,12 +6256,12 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Cloth",
               "stats": [
-                "+15 Spirit",
-                "+14 Intellect"
+                "+8 Spirit",
+                "+8 Intellect"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 31s"
+              "requiresLevel": 43,
+              "sellPrice": "4g 31s"
             },
             {
               "name": "Tome of Eternal Slumber",
@@ -6270,11 +6270,11 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Cloth",
               "stats": [
-                "+18 Strength"
+                "+11 Strength"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 27s"
+              "requiresLevel": 43,
+              "sellPrice": "1g 27s"
             },
             {
               "name": "Legguards of the Archmage",
@@ -6283,12 +6283,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+8 Agility",
-                "+19 Strength"
+                "+5 Agility",
+                "+11 Strength"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 89s"
+              "requiresLevel": 43,
+              "sellPrice": "89s"
             },
             {
               "name": "Band of Shattered Souls",
@@ -6297,12 +6297,12 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Plate",
               "stats": [
-                "+18 Strength",
-                "+13 Intellect"
+                "+11 Strength",
+                "+8 Intellect"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 40s"
+              "requiresLevel": 43,
+              "sellPrice": "1g 40s"
             },
             {
               "name": "Breastplate of Eternal Slumber",
@@ -6311,12 +6311,12 @@ export const pveData: any = {
               "slot": "Hands",
               "type": "Cloth",
               "stats": [
-                "+7 Strength",
-                "+11 Agility"
+                "+4 Strength",
+                "+6 Agility"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 0s"
+              "requiresLevel": 43,
+              "sellPrice": "5g 0s"
             },
             {
               "name": "Helm of the Void",
@@ -6326,8 +6326,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 27s"
+              "requiresLevel": 43,
+              "sellPrice": "3g 27s"
             }
           ]
         }
@@ -6370,12 +6370,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+13 Agility",
-                "+5 Agility"
+                "+5 Agility",
+                "+2 Agility"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 3s"
+              "requiresLevel": 33,
+              "sellPrice": "2g 3s"
             },
             {
               "name": "Tome of the Void",
@@ -6384,12 +6384,12 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Cloth",
               "stats": [
-                "+8 Agility",
-                "+16 Strength"
+                "+3 Agility",
+                "+5 Strength"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 43s"
+              "requiresLevel": 33,
+              "sellPrice": "43s"
             },
             {
               "name": "Band of Shattered Souls",
@@ -6398,12 +6398,12 @@ export const pveData: any = {
               "slot": "Legs",
               "type": "Mail",
               "stats": [
-                "+11 Spirit",
-                "+18 Intellect"
+                "+4 Spirit",
+                "+6 Intellect"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 4s"
+              "requiresLevel": 33,
+              "sellPrice": "4s"
             },
             {
               "name": "Pauldrons of the Void",
@@ -6412,12 +6412,12 @@ export const pveData: any = {
               "slot": "Ranged",
               "type": "Sword",
               "stats": [
-                "+12 Intellect",
-                "+6 Intellect"
+                "+4 Intellect",
+                "+2 Intellect"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 22s"
+              "requiresLevel": 33,
+              "sellPrice": "1g 22s"
             },
             {
               "name": "Band of the Archmage",
@@ -6426,11 +6426,11 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Plate",
               "stats": [
-                "+10 Strength"
+                "+4 Strength"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 20s"
+              "requiresLevel": 33,
+              "sellPrice": "2g 20s"
             },
             {
               "name": "Pauldrons of the Crimson King",
@@ -6439,12 +6439,12 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Leather",
               "stats": [
-                "+5 Strength",
-                "+6 Agility"
+                "+2 Strength",
+                "+2 Agility"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 41s"
+              "requiresLevel": 33,
+              "sellPrice": "1g 41s"
             },
             {
               "name": "Signet of Eternal Slumber",
@@ -6453,11 +6453,11 @@ export const pveData: any = {
               "slot": "Feet",
               "type": "Mail",
               "stats": [
-                "+10 Agility"
+                "+4 Agility"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 49s"
+              "requiresLevel": 33,
+              "sellPrice": "2g 49s"
             },
             {
               "name": "Amulet of the Forgotten",
@@ -6467,8 +6467,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 82s"
+              "requiresLevel": 33,
+              "sellPrice": "82s"
             },
             {
               "name": "Sabatons of the Betrayer",
@@ -6477,12 +6477,12 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Cloth",
               "stats": [
-                "+15 Spirit",
-                "+16 Spirit"
+                "+5 Spirit",
+                "+5 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 95s"
+              "requiresLevel": 33,
+              "sellPrice": "1g 95s"
             },
             {
               "name": "Sabatons of the Betrayer",
@@ -6491,11 +6491,11 @@ export const pveData: any = {
               "slot": "Chest",
               "type": "Plate",
               "stats": [
-                "+20 Strength"
+                "+7 Strength"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 66s"
+              "requiresLevel": 33,
+              "sellPrice": "66s"
             },
             {
               "name": "Breastplate of the Archmage",
@@ -6504,12 +6504,12 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Mail",
               "stats": [
-                "+12 Stamina",
-                "+10 Spirit"
+                "+4 Stamina",
+                "+4 Spirit"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 32s"
+              "requiresLevel": 33,
+              "sellPrice": "2g 32s"
             },
             {
               "name": "Band of the Deep",
@@ -6518,11 +6518,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+16 Strength"
+                "+5 Strength"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 98s"
+              "requiresLevel": 33,
+              "sellPrice": "1g 98s"
             },
             {
               "name": "Band of Bloodletting",
@@ -6531,12 +6531,12 @@ export const pveData: any = {
               "slot": "Ranged",
               "type": "Mace",
               "stats": [
-                "+13 Strength",
-                "+12 Spirit"
+                "+5 Strength",
+                "+4 Spirit"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 55s"
+              "requiresLevel": 33,
+              "sellPrice": "1g 55s"
             },
             {
               "name": "Cloak of the Betrayer",
@@ -6545,12 +6545,12 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Leather",
               "stats": [
-                "+12 Intellect",
-                "+9 Agility"
+                "+4 Intellect",
+                "+3 Agility"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 1s"
+              "requiresLevel": 33,
+              "sellPrice": "2g 1s"
             },
             {
               "name": "Helm of the Crimson King",
@@ -6559,11 +6559,11 @@ export const pveData: any = {
               "slot": "Two-Hand",
               "type": "Sword",
               "stats": [
-                "+7 Spirit"
+                "+2 Spirit"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "9g 36s"
+              "requiresLevel": 33,
+              "sellPrice": "2g 36s"
             },
             {
               "name": "Legguards of the Crimson King",
@@ -6572,12 +6572,12 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Mail",
               "stats": [
-                "+14 Stamina",
-                "+18 Spirit"
+                "+5 Stamina",
+                "+6 Spirit"
               ],
               "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 36s"
+              "requiresLevel": 33,
+              "sellPrice": "2g 36s"
             },
             {
               "name": "Tome of Shattered Souls",
@@ -6586,11 +6586,11 @@ export const pveData: any = {
               "slot": "Main Hand",
               "type": "Axe",
               "stats": [
-                "+7 Strength"
+                "+2 Strength"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 82s"
+              "requiresLevel": 33,
+              "sellPrice": "82s"
             },
             {
               "name": "Pauldrons of the Deep",
@@ -6599,12 +6599,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+18 Spirit",
-                "+11 Agility"
+                "+6 Spirit",
+                "+4 Agility"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 0s"
+              "requiresLevel": 33,
+              "sellPrice": "2g 0s"
             },
             {
               "name": "Cloak of the Betrayer",
@@ -6613,12 +6613,12 @@ export const pveData: any = {
               "slot": "Chest",
               "type": "Leather",
               "stats": [
-                "+11 Strength",
-                "+12 Strength"
+                "+4 Strength",
+                "+4 Strength"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 78s"
+              "requiresLevel": 33,
+              "sellPrice": "1g 78s"
             },
             {
               "name": "Amulet of the Void",
@@ -6627,11 +6627,11 @@ export const pveData: any = {
               "slot": "Hands",
               "type": "Cloth",
               "stats": [
-                "+11 Agility"
+                "+4 Agility"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 89s"
+              "requiresLevel": 33,
+              "sellPrice": "1g 89s"
             }
           ]
         }
@@ -6674,12 +6674,12 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Leather",
               "stats": [
-                "+24 Spirit",
-                "+14 Spirit"
+                "+17 Spirit",
+                "+10 Spirit"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 17s"
+              "requiresLevel": 48,
+              "sellPrice": "17s"
             },
             {
               "name": "Signet of Shattered Souls",
@@ -6688,11 +6688,11 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Cloth",
               "stats": [
-                "+11 Stamina"
+                "+8 Stamina"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 84s"
+              "requiresLevel": 48,
+              "sellPrice": "3g 84s"
             },
             {
               "name": "Cloak of Shattered Souls",
@@ -6701,11 +6701,11 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Plate",
               "stats": [
-                "+13 Stamina"
+                "+9 Stamina"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 65s"
+              "requiresLevel": 48,
+              "sellPrice": "4g 65s"
             },
             {
               "name": "Cloak of Shattered Souls",
@@ -6714,11 +6714,11 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Plate",
               "stats": [
-                "+21 Intellect"
+                "+15 Intellect"
               ],
               "effect": "Equip: Restores 4 mana per 5 seconds.",
-              "requiresLevel": 60,
-              "sellPrice": "7g 48s"
+              "requiresLevel": 48,
+              "sellPrice": "4g 48s"
             },
             {
               "name": "Tome of Bloodletting",
@@ -6727,11 +6727,11 @@ export const pveData: any = {
               "slot": "Ranged",
               "type": "Sword",
               "stats": [
-                "+8 Agility"
+                "+6 Agility"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 3s"
+              "requiresLevel": 48,
+              "sellPrice": "4g 3s"
             },
             {
               "name": "Cloak of the Forgotten",
@@ -6740,11 +6740,11 @@ export const pveData: any = {
               "slot": "Hands",
               "type": "Leather",
               "stats": [
-                "+20 Stamina"
+                "+14 Stamina"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 62s"
+              "requiresLevel": 48,
+              "sellPrice": "1g 62s"
             },
             {
               "name": "Helm of the Void",
@@ -6753,12 +6753,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+16 Strength",
-                "+8 Agility"
+                "+11 Strength",
+                "+6 Agility"
               ],
               "effect": "Equip: +1% Critical Strike.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 22s"
+              "requiresLevel": 48,
+              "sellPrice": "2g 22s"
             },
             {
               "name": "Sabatons of Bloodletting",
@@ -6767,12 +6767,12 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Cloth",
               "stats": [
-                "+23 Strength",
-                "+14 Spirit"
+                "+16 Strength",
+                "+10 Spirit"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 94s"
+              "requiresLevel": 48,
+              "sellPrice": "6g 94s"
             },
             {
               "name": "Band of the Archmage",
@@ -6781,11 +6781,11 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+21 Intellect"
+                "+15 Intellect"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 39s"
+              "requiresLevel": 48,
+              "sellPrice": "2g 39s"
             },
             {
               "name": "Tome of the Unseen",
@@ -6794,12 +6794,12 @@ export const pveData: any = {
               "slot": "Feet",
               "type": "Cloth",
               "stats": [
-                "+5 Intellect",
-                "+8 Strength"
+                "+3 Intellect",
+                "+6 Strength"
               ],
               "effect": "Equip: +1% Hit chance.",
-              "requiresLevel": 60,
-              "sellPrice": "6g 34s"
+              "requiresLevel": 48,
+              "sellPrice": "4g 34s"
             },
             {
               "name": "Tome of Eternal Slumber",
@@ -6808,12 +6808,12 @@ export const pveData: any = {
               "slot": "Finger",
               "type": "Ring",
               "stats": [
-                "+12 Spirit",
-                "+13 Strength"
+                "+8 Spirit",
+                "+9 Strength"
               ],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 61s"
+              "requiresLevel": 48,
+              "sellPrice": "3g 61s"
             },
             {
               "name": "Pauldrons of the Archmage",
@@ -6822,12 +6822,12 @@ export const pveData: any = {
               "slot": "Waist",
               "type": "Mail",
               "stats": [
-                "+15 Stamina",
-                "+14 Stamina"
+                "+11 Stamina",
+                "+10 Stamina"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "2g 18s"
+              "requiresLevel": 48,
+              "sellPrice": "18s"
             },
             {
               "name": "Amulet of the Unseen",
@@ -6836,11 +6836,11 @@ export const pveData: any = {
               "slot": "Wrist",
               "type": "Cloth",
               "stats": [
-                "+17 Stamina"
+                "+12 Stamina"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "1g 36s"
+              "requiresLevel": 48,
+              "sellPrice": "36s"
             },
             {
               "name": "Tome of the Archmage",
@@ -6850,8 +6850,8 @@ export const pveData: any = {
               "type": "Trinket",
               "stats": [],
               "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 68s"
+              "requiresLevel": 48,
+              "sellPrice": "5g 68s"
             },
             {
               "name": "Amulet of Bloodletting",
@@ -6860,12 +6860,12 @@ export const pveData: any = {
               "slot": "Head",
               "type": "Mail",
               "stats": [
-                "+6 Stamina",
-                "+17 Intellect"
+                "+4 Stamina",
+                "+12 Intellect"
               ],
               "effect": "Equip: Increases spell damage by up to 15.",
-              "requiresLevel": 60,
-              "sellPrice": "10g 42s"
+              "requiresLevel": 48,
+              "sellPrice": "6g 42s"
             },
             {
               "name": "Legguards of Eternal Slumber",
@@ -6874,11 +6874,11 @@ export const pveData: any = {
               "slot": "Main Hand",
               "type": "Bow",
               "stats": [
-                "+20 Agility"
+                "+14 Agility"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 45s"
+              "requiresLevel": 48,
+              "sellPrice": "5g 45s"
             },
             {
               "name": "Tome of the Archmage",
@@ -6887,11 +6887,11 @@ export const pveData: any = {
               "slot": "Shoulder",
               "type": "Mail",
               "stats": [
-                "+10 Spirit"
+                "+7 Spirit"
               ],
               "effect": "Equip: +10 Shadow Resistance.",
-              "requiresLevel": 60,
-              "sellPrice": "5g 14s"
+              "requiresLevel": 48,
+              "sellPrice": "3g 14s"
             },
             {
               "name": "Helm of the Crimson King",
@@ -6900,11 +6900,11 @@ export const pveData: any = {
               "slot": "Chest",
               "type": "Cloth",
               "stats": [
-                "+8 Intellect"
+                "+6 Intellect"
               ],
               "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-              "requiresLevel": 60,
-              "sellPrice": "3g 23s"
+              "requiresLevel": 48,
+              "sellPrice": "1g 23s"
             },
             {
               "name": "Pauldrons of Bloodletting",
@@ -6913,11 +6913,11 @@ export const pveData: any = {
               "slot": "Hands",
               "type": "Mail",
               "stats": [
-                "+11 Intellect"
+                "+8 Intellect"
               ],
               "effect": "Equip: Increases healing done by up to 25.",
-              "requiresLevel": 60,
-              "sellPrice": "4g 41s"
+              "requiresLevel": 48,
+              "sellPrice": "2g 41s"
             },
             {
               "name": "Breastplate of Shattered Souls",
@@ -6926,12 +6926,12 @@ export const pveData: any = {
               "slot": "Off Hand",
               "type": "Shield",
               "stats": [
-                "+5 Stamina",
-                "+14 Agility"
+                "+3 Stamina",
+                "+10 Agility"
               ],
               "effect": "Equip: +20 Attack Power.",
-              "requiresLevel": 60,
-              "sellPrice": "8g 74s"
+              "requiresLevel": 48,
+              "sellPrice": "5g 74s"
             }
           ]
         }
