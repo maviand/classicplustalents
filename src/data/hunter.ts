@@ -25,7 +25,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Aspect of the Hawk critically hits.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Improved Aspect of the Hawk attack."
   },
   {
     "id": "endurance_training",
@@ -53,7 +53,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Endurance Training critically hits.",
     "devCommentary": "We wanted Endurance Training to define the Bm playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Endurance Training attack."
   },
   {
     "id": "thick_hide",
@@ -78,7 +78,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Thick Hide.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon impact."
+    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Thick Hide."
   },
   {
     "id": "focused_fire",
@@ -104,7 +104,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Focused Fire attack."
   },
   {
     "id": "imp_revive_pet",
@@ -129,7 +129,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your Improved Revive Pet leaves a lingering trail of wilds in your wake."
   },
   {
     "id": "bestial_discipline",
@@ -155,7 +155,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Bestial Discipline critically hits.",
     "devCommentary": "We wanted Bestial Discipline to define the Bm playstyle at all levels.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon impact."
+    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Bestial Discipline."
   },
   {
     "id": "pathfinding",
@@ -180,7 +180,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Pathfinding.",
     "devCommentary": "We wanted Pathfinding to define the Bm playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Pathfinding attack."
   },
   {
     "id": "intimidation",
@@ -204,7 +204,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Intimidation critically hits.",
     "devCommentary": "Initially, Intimidation was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in primal energy."
+    "visualEffect": "Casting Intimidation temporarily wreathes your character in primal energy."
   },
   {
     "id": "unleashed_fury",
@@ -232,7 +232,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Unleashed Fury.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your Unleashed Fury leaves a lingering trail of wilds in your wake."
   },
   {
     "id": "ferocity",
@@ -257,7 +257,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Ferocity.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your Ferocity leaves a lingering trail of wilds in your wake."
   },
   {
     "id": "frenzy",
@@ -289,7 +289,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Frenzy.",
     "devCommentary": "We wanted Frenzy to define the Bm playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Frenzy attack."
   },
   {
     "id": "animal_handler",
@@ -314,7 +314,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Animal Handler.",
     "devCommentary": "Initially, Animal Handler was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "The ground shatters as primal power courses through you."
+    "visualEffect": "The ground shatters as the primal power of Animal Handler courses through you."
   },
   {
     "id": "longevity",
@@ -340,7 +340,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in primal energy."
+    "visualEffect": "Casting Longevity temporarily wreathes your character in primal energy."
   },
   {
     "id": "bestial_wrath",
@@ -368,7 +368,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Bestial Wrath.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in primal energy."
+    "visualEffect": "Casting Bestial Wrath temporarily wreathes your character in primal energy."
   },
   {
     "id": "ferocious_inspiration",
@@ -394,7 +394,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Ferocious Inspiration.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your Ferocious Inspiration leaves a lingering trail of wilds in your wake."
   },
   {
     "id": "spirit_bond",
@@ -419,7 +419,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Spirit Bond.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in primal energy."
+    "visualEffect": "Casting Spirit Bond temporarily wreathes your character in primal energy."
   },
   {
     "id": "serpents_swiftness",
@@ -445,7 +445,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Serpent's Swiftness attack."
   },
   {
     "id": "invigoration",
@@ -474,7 +474,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Invigoration.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Invigoration attack."
   },
   {
     "id": "bestial_resolve",
@@ -499,7 +499,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Bestial Resolve.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your Bestial Resolve leaves a lingering trail of wilds in your wake."
   },
   {
     "id": "cobra_strikes",
@@ -525,7 +525,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your Cobra Strikes leaves a lingering trail of wilds in your wake."
   },
   {
     "id": "beast_mastery",
@@ -553,7 +553,7 @@ export const HUNTER_BM_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "The ground shatters as primal power courses through you."
+    "visualEffect": "The ground shatters as the primal power of Beast Mastery courses through you."
   }
 ];
 
@@ -582,7 +582,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Efficiency.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon impact."
+    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Efficiency."
   },
   {
     "id": "lethal_shots",
@@ -610,7 +610,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Lethal Shots attack."
   },
   {
     "id": "imp_hunters_mark",
@@ -635,7 +635,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Improved Hunter's Mark.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in primal energy."
+    "visualEffect": "Casting Improved Hunter's Mark temporarily wreathes your character in primal energy."
   },
   {
     "id": "go_for_the_throat",
@@ -661,7 +661,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
     "devCommentary": "Initially, Go for the Throat was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "The ground shatters as primal power courses through you."
+    "visualEffect": "The ground shatters as the primal power of Go for the Throat courses through you."
   },
   {
     "id": "hawk_eye",
@@ -687,7 +687,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in primal energy."
+    "visualEffect": "Casting Hawk Eye temporarily wreathes your character in primal energy."
   },
   {
     "id": "rapid_killing",
@@ -712,7 +712,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your Rapid Killing leaves a lingering trail of wilds in your wake."
   },
   {
     "id": "imp_arcane_shot",
@@ -737,7 +737,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Improved Arcane Shot.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon impact."
+    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Improved Arcane Shot."
   },
   {
     "id": "imp_stings",
@@ -763,7 +763,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Stings.",
     "devCommentary": "We wanted Improved Stings to define the Mm playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Improved Stings attack."
   },
   {
     "id": "aimed_shot",
@@ -791,7 +791,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Aimed Shot.",
     "devCommentary": "We wanted Aimed Shot to define the Mm playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Aimed Shot attack."
   },
   {
     "id": "mortal_shots",
@@ -819,7 +819,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your Mortal Shots leaves a lingering trail of wilds in your wake."
   },
   {
     "id": "concussive_barrage",
@@ -844,7 +844,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Concussive Barrage.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your Concussive Barrage leaves a lingering trail of wilds in your wake."
   },
   {
     "id": "barrage",
@@ -870,7 +870,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Barrage.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in primal energy."
+    "visualEffect": "Casting Barrage temporarily wreathes your character in primal energy."
   },
   {
     "id": "combat_experience",
@@ -895,7 +895,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your Combat Experience leaves a lingering trail of wilds in your wake."
   },
   {
     "id": "wild_quiver",
@@ -921,7 +921,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "The ground shatters as primal power courses through you."
+    "visualEffect": "The ground shatters as the primal power of Wild Quiver courses through you."
   },
   {
     "id": "trueshot_aura",
@@ -949,7 +949,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Trueshot Aura critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in primal energy."
+    "visualEffect": "Casting Trueshot Aura temporarily wreathes your character in primal energy."
   },
   {
     "id": "master_marksman",
@@ -975,7 +975,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Master Marksman.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "The ground shatters as primal power courses through you."
+    "visualEffect": "The ground shatters as the primal power of Master Marksman courses through you."
   },
   {
     "id": "rapid_recuperation",
@@ -1004,7 +1004,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Rapid Recuperation to define the Mm playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Rapid Recuperation attack."
   },
   {
     "id": "piercing_shots",
@@ -1030,7 +1030,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Piercing Shots.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Piercing Shots attack."
   },
   {
     "id": "sniper_training",
@@ -1059,7 +1059,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Sniper Training was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in primal energy."
+    "visualEffect": "Casting Sniper Training temporarily wreathes your character in primal energy."
   },
   {
     "id": "marked_for_death",
@@ -1084,7 +1084,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Marked for Death.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon impact."
+    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Marked for Death."
   },
   {
     "id": "chimera_shot",
@@ -1112,7 +1112,7 @@ export const HUNTER_MM_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Chimera Shot attack."
   }
 ];
 
@@ -1141,7 +1141,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Savage Strikes to define the Survival playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Savage Strikes attack."
   },
   {
     "id": "deflection",
@@ -1169,7 +1169,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Deflection.",
     "devCommentary": "We wanted Deflection to define the Survival playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Deflection attack."
   },
   {
     "id": "imp_tracking",
@@ -1194,7 +1194,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
     "devCommentary": "Initially, Improved Tracking was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "The ground shatters as primal power courses through you."
+    "visualEffect": "The ground shatters as the primal power of Improved Tracking courses through you."
   },
   {
     "id": "clever_traps",
@@ -1220,7 +1220,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Clever Traps to define the Survival playstyle at all levels.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon impact."
+    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Clever Traps."
   },
   {
     "id": "survivalist",
@@ -1246,7 +1246,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Survivalist critically hits.",
     "devCommentary": "We wanted Survivalist to define the Survival playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Survivalist attack."
   },
   {
     "id": "entrapment",
@@ -1271,7 +1271,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Entrapment was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "The ground shatters as primal power courses through you."
+    "visualEffect": "The ground shatters as the primal power of Entrapment courses through you."
   },
   {
     "id": "surefooted",
@@ -1296,7 +1296,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
     "devCommentary": "Initially, Surefooted was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in primal energy."
+    "visualEffect": "Casting Surefooted temporarily wreathes your character in primal energy."
   },
   {
     "id": "scatter_shot",
@@ -1324,7 +1324,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Scatter Shot critically hits.",
     "devCommentary": "We wanted Scatter Shot to define the Survival playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Scatter Shot attack."
   },
   {
     "id": "survival_instincts",
@@ -1352,7 +1352,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "The ground shatters as primal power courses through you."
+    "visualEffect": "The ground shatters as the primal power of Survival Instincts courses through you."
   },
   {
     "id": "trap_mastery",
@@ -1381,7 +1381,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Trap Mastery.",
     "devCommentary": "Initially, Trap Mastery was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in primal energy."
+    "visualEffect": "Casting Trap Mastery temporarily wreathes your character in primal energy."
   },
   {
     "id": "lock_and_load",
@@ -1407,7 +1407,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Lock and Load.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Lock and Load attack."
   },
   {
     "id": "killer_instinct",
@@ -1437,7 +1437,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Killer Instinct critically hits.",
     "devCommentary": "We wanted Killer Instinct to define the Survival playstyle at all levels.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon impact."
+    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Killer Instinct."
   },
   {
     "id": "counterattack",
@@ -1461,7 +1461,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Counterattack.",
     "devCommentary": "We wanted Counterattack to define the Survival playstyle at all levels.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon impact."
+    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Counterattack."
   },
   {
     "id": "wyvern_sting",
@@ -1489,7 +1489,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your Wyvern Sting leaves a lingering trail of wilds in your wake."
   },
   {
     "id": "lightning_reflexes",
@@ -1515,7 +1515,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Lightning Reflexes to define the Survival playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Lightning Reflexes attack."
   },
   {
     "id": "resourcefulness",
@@ -1540,7 +1540,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Resourcefulness attack."
   },
   {
     "id": "expose_weakness",
@@ -1566,7 +1566,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Expose Weakness critically hits.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Expose Weakness attack."
   },
   {
     "id": "thrill_of_the_hunt",
@@ -1595,7 +1595,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Thrill of the Hunt.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your Thrill of the Hunt leaves a lingering trail of wilds in your wake."
   },
   {
     "id": "master_tactician",
@@ -1620,7 +1620,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Master Tactician critically hits.",
     "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "The ground shatters as primal power courses through you."
+    "visualEffect": "The ground shatters as the primal power of Master Tactician courses through you."
   },
   {
     "id": "noxious_stings",
@@ -1646,7 +1646,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Noxious Stings.",
     "devCommentary": "Initially, Noxious Stings was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in primal energy."
+    "visualEffect": "Casting Noxious Stings temporarily wreathes your character in primal energy."
   },
   {
     "id": "explosive_shot",
@@ -1674,7 +1674,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Explosive Shot.",
     "devCommentary": "We wanted Explosive Shot to define the Survival playstyle at all levels.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon impact."
+    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Explosive Shot."
   }
 ];
 

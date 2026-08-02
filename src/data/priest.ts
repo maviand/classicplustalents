@@ -27,7 +27,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Unbreakable Will critically hits.",
     "devCommentary": "We wanted Unbreakable Will to define the Disc playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon impact."
+    "visualEffect": "A massive burst of light erupts from the target upon the impact of Unbreakable Will."
   },
   {
     "id": "wand_spec",
@@ -53,7 +53,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Wand Specialization.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Wand Specialization courses through you."
   },
   {
     "id": "imp_pwf",
@@ -78,7 +78,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Power Word: Fortitude critically hits.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Velen briefly mirrors your Improved Power Word: Fortitude attack."
   },
   {
     "id": "imp_pws",
@@ -104,7 +104,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Improved Power Word: Shield to define the Disc playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon impact."
+    "visualEffect": "A massive burst of light erupts from the target upon the impact of Improved Power Word: Shield."
   },
   {
     "id": "mental_agility",
@@ -130,7 +130,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Velen briefly mirrors your Mental Agility attack."
   },
   {
     "id": "martyrdom",
@@ -155,7 +155,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Martyrdom critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of light in your wake."
+    "visualEffect": "Your Martyrdom leaves a lingering trail of light in your wake."
   },
   {
     "id": "imp_inner_fire",
@@ -180,7 +180,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "A massive burst of light erupts from the target upon impact."
+    "visualEffect": "A massive burst of light erupts from the target upon the impact of Improved Inner Fire."
   },
   {
     "id": "mental_strength",
@@ -206,7 +206,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
     "devCommentary": "We wanted Mental Strength to define the Disc playstyle at all levels.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Velen briefly mirrors your Mental Strength attack."
   },
   {
     "id": "inner_focus",
@@ -230,7 +230,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Inner Focus courses through you."
   },
   {
     "id": "meditation",
@@ -256,7 +256,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "A massive burst of light erupts from the target upon impact."
+    "visualEffect": "A massive burst of light erupts from the target upon the impact of Meditation."
   },
   {
     "id": "soul_warding",
@@ -281,7 +281,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Velen briefly mirrors your Soul Warding attack."
   },
   {
     "id": "imp_divine_spirit",
@@ -306,7 +306,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Divine Spirit critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "Leaves a lingering trail of light in your wake."
+    "visualEffect": "Your Improved Divine Spirit leaves a lingering trail of light in your wake."
   },
   {
     "id": "focused_power",
@@ -332,7 +332,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Focused Power critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of light in your wake."
+    "visualEffect": "Your Focused Power leaves a lingering trail of light in your wake."
   },
   {
     "id": "absolution",
@@ -357,7 +357,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Absolution.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "A massive burst of light erupts from the target upon impact."
+    "visualEffect": "A massive burst of light erupts from the target upon the impact of Absolution."
   },
   {
     "id": "power_infusion",
@@ -385,7 +385,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Power Infusion.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Velen briefly mirrors your Power Infusion attack."
   },
   {
     "id": "enlightenment",
@@ -411,7 +411,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Enlightenment to define the Disc playstyle at all levels.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Velen briefly mirrors your Enlightenment attack."
   },
   {
     "id": "reflective_shield",
@@ -441,7 +441,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Reflective Shield.",
     "devCommentary": "Initially, Reflective Shield was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "Your character is temporarily wreathed in sacred energy."
+    "visualEffect": "Casting Reflective Shield temporarily wreathes your character in sacred energy."
   },
   {
     "id": "aspiration",
@@ -466,7 +466,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Aspiration courses through you."
   },
   {
     "id": "rapture",
@@ -491,7 +491,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Rapture.",
     "devCommentary": "We wanted Rapture to define the Disc playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon impact."
+    "visualEffect": "A massive burst of light erupts from the target upon the impact of Rapture."
   },
   {
     "id": "penance",
@@ -519,7 +519,7 @@ export const PRIEST_DISC_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Penance.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of light in your wake."
+    "visualEffect": "Your Penance leaves a lingering trail of light in your wake."
   }
 ];
 
@@ -547,7 +547,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Healing Focus critically hits.",
     "devCommentary": "We wanted Healing Focus to define the Holy playstyle at all levels.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Velen briefly mirrors your Healing Focus attack."
   },
   {
     "id": "imp_renew",
@@ -573,7 +573,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
     "devCommentary": "Initially, Improved Renew was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Improved Renew courses through you."
   },
   {
     "id": "spiritual_guidance",
@@ -601,7 +601,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Spiritual Guidance.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in sacred energy."
+    "visualEffect": "Casting Spiritual Guidance temporarily wreathes your character in sacred energy."
   },
   {
     "id": "spell_warding",
@@ -626,7 +626,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Spell Warding.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "Leaves a lingering trail of light in your wake."
+    "visualEffect": "Your Spell Warding leaves a lingering trail of light in your wake."
   },
   {
     "id": "divine_fury",
@@ -654,7 +654,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Divine Fury to define the Holy playstyle at all levels.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Velen briefly mirrors your Divine Fury attack."
   },
   {
     "id": "holy_specialization",
@@ -680,7 +680,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Holy Specialization.",
     "devCommentary": "We wanted Holy Specialization to define the Holy playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon impact."
+    "visualEffect": "A massive burst of light erupts from the target upon the impact of Holy Specialization."
   },
   {
     "id": "holy_nova",
@@ -704,7 +704,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Holy Nova.",
     "devCommentary": "Initially, Holy Nova was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Holy Nova courses through you."
   },
   {
     "id": "imp_healing",
@@ -730,7 +730,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Healing critically hits.",
     "devCommentary": "Initially, Improved Healing was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "Your character is temporarily wreathed in sacred energy."
+    "visualEffect": "Casting Improved Healing temporarily wreathes your character in sacred energy."
   },
   {
     "id": "inspiration",
@@ -760,7 +760,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Inspiration critically hits.",
     "devCommentary": "Initially, Inspiration was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Inspiration courses through you."
   },
   {
     "id": "holy_concentration",
@@ -786,7 +786,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Holy Concentration.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in sacred energy."
+    "visualEffect": "Casting Holy Concentration temporarily wreathes your character in sacred energy."
   },
   {
     "id": "holy_reach",
@@ -811,7 +811,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Holy Reach.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Holy Reach courses through you."
   },
   {
     "id": "spiritual_healing",
@@ -839,7 +839,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Spiritual Healing.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in sacred energy."
+    "visualEffect": "Casting Spiritual Healing temporarily wreathes your character in sacred energy."
   },
   {
     "id": "blessed_resilience",
@@ -864,7 +864,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Blessed Resilience critically hits.",
     "devCommentary": "Initially, Blessed Resilience was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "Your character is temporarily wreathed in sacred energy."
+    "visualEffect": "Casting Blessed Resilience temporarily wreathes your character in sacred energy."
   },
   {
     "id": "spirit_of_redemption",
@@ -892,7 +892,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
     "devCommentary": "Initially, Spirit of Redemption was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Spirit of Redemption courses through you."
   },
   {
     "id": "surge_of_light",
@@ -918,7 +918,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Surge of Light.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "Leaves a lingering trail of light in your wake."
+    "visualEffect": "Your Surge of Light leaves a lingering trail of light in your wake."
   },
   {
     "id": "test_of_faith",
@@ -943,7 +943,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Test of Faith critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "Leaves a lingering trail of light in your wake."
+    "visualEffect": "Your Test of Faith leaves a lingering trail of light in your wake."
   },
   {
     "id": "empowered_healing",
@@ -969,7 +969,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Empowered Healing critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "A massive burst of light erupts from the target upon impact."
+    "visualEffect": "A massive burst of light erupts from the target upon the impact of Empowered Healing."
   },
   {
     "id": "serendipity",
@@ -995,7 +995,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Serendipity.",
     "devCommentary": "Initially, Serendipity was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Serendipity courses through you."
   },
   {
     "id": "circle_of_healing",
@@ -1023,7 +1023,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Circle of Healing critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of light in your wake."
+    "visualEffect": "Your Circle of Healing leaves a lingering trail of light in your wake."
   }
 ];
 
@@ -1051,7 +1051,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Velen briefly mirrors your Spirit Tap attack."
   },
   {
     "id": "imp_swp",
@@ -1077,7 +1077,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Improved Shadow Word: Pain courses through you."
   },
   {
     "id": "shadow_focus",
@@ -1105,7 +1105,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Shadow Focus.",
     "devCommentary": "Initially, Shadow Focus was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Shadow Focus courses through you."
   },
   {
     "id": "shadow_affinity",
@@ -1131,7 +1131,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Shadow Affinity.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "A massive burst of light erupts from the target upon impact."
+    "visualEffect": "A massive burst of light erupts from the target upon the impact of Shadow Affinity."
   },
   {
     "id": "imp_mind_blast",
@@ -1156,7 +1156,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Improved Mind Blast to define the Shadow playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon impact."
+    "visualEffect": "A massive burst of light erupts from the target upon the impact of Improved Mind Blast."
   },
   {
     "id": "darkness",
@@ -1184,7 +1184,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Darkness to define the Shadow playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon impact."
+    "visualEffect": "A massive burst of light erupts from the target upon the impact of Darkness."
   },
   {
     "id": "imp_psychic_scream",
@@ -1209,7 +1209,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in sacred energy."
+    "visualEffect": "Casting Improved Psychic Scream temporarily wreathes your character in sacred energy."
   },
   {
     "id": "mind_flay",
@@ -1237,7 +1237,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of light in your wake."
+    "visualEffect": "Your Mind Flay leaves a lingering trail of light in your wake."
   },
   {
     "id": "shadow_weaving",
@@ -1265,7 +1265,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Shadow Weaving critically hits.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Velen briefly mirrors your Shadow Weaving attack."
   },
   {
     "id": "shadow_reach",
@@ -1290,7 +1290,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Shadow Reach.",
     "devCommentary": "We wanted Shadow Reach to define the Shadow playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon impact."
+    "visualEffect": "A massive burst of light erupts from the target upon the impact of Shadow Reach."
   },
   {
     "id": "imp_shadowform",
@@ -1315,7 +1315,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "A massive burst of light erupts from the target upon impact."
+    "visualEffect": "A massive burst of light erupts from the target upon the impact of Improved Shadowform."
   },
   {
     "id": "mind_melt",
@@ -1341,7 +1341,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Mind Melt.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "Leaves a lingering trail of light in your wake."
+    "visualEffect": "Your Mind Melt leaves a lingering trail of light in your wake."
   },
   {
     "id": "focused_mind",
@@ -1366,7 +1366,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Focused Mind critically hits.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Focused Mind courses through you."
   },
   {
     "id": "shadowform",
@@ -1394,7 +1394,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Shadowform.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "Leaves a lingering trail of light in your wake."
+    "visualEffect": "Your Shadowform leaves a lingering trail of light in your wake."
   },
   {
     "id": "vampiric_embrace",
@@ -1420,7 +1420,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Vampiric Embrace.",
     "devCommentary": "Initially, Vampiric Embrace was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "Your character is temporarily wreathed in sacred energy."
+    "visualEffect": "Casting Vampiric Embrace temporarily wreathes your character in sacred energy."
   },
   {
     "id": "shadow_power",
@@ -1445,7 +1445,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Shadow Power courses through you."
   },
   {
     "id": "pain_and_suffering",
@@ -1471,7 +1471,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Velen briefly mirrors your Pain and Suffering attack."
   },
   {
     "id": "misery",
@@ -1497,7 +1497,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
     "devCommentary": "Initially, Misery was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as sacred power courses through you."
+    "visualEffect": "The ground shatters as the sacred power of Misery courses through you."
   },
   {
     "id": "vampiric_touch",
@@ -1525,7 +1525,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Vampiric Touch.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in sacred energy."
+    "visualEffect": "Casting Vampiric Touch temporarily wreathes your character in sacred energy."
   }
 ];
 

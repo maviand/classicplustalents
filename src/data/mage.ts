@@ -25,7 +25,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "The ground shatters as mystical power courses through you."
+    "visualEffect": "The ground shatters as the mystical power of Arcane Concentration courses through you."
   },
   {
     "id": "arcane_focus",
@@ -53,7 +53,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Arcane Focus critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon impact."
+    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Arcane Focus."
   },
   {
     "id": "arcane_subtlety",
@@ -78,7 +78,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Arcane Subtlety to define the Arcane playstyle at all levels.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon impact."
+    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Arcane Subtlety."
   },
   {
     "id": "arcane_meditation",
@@ -104,7 +104,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Arcane Meditation.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in mystical energy."
+    "visualEffect": "Casting Arcane Meditation temporarily wreathes your character in mystical energy."
   },
   {
     "id": "wand_spec",
@@ -129,7 +129,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Wand Specialization.",
     "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "The ground shatters as mystical power courses through you."
+    "visualEffect": "The ground shatters as the mystical power of Wand Specialization courses through you."
   },
   {
     "id": "magic_absorption",
@@ -154,7 +154,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Magic Absorption.",
     "devCommentary": "Initially, Magic Absorption was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as mystical power courses through you."
+    "visualEffect": "The ground shatters as the mystical power of Magic Absorption courses through you."
   },
   {
     "id": "imp_arcane_missiles",
@@ -180,7 +180,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Arcane Missiles critically hits.",
     "devCommentary": "Initially, Improved Arcane Missiles was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "Your character is temporarily wreathed in mystical energy."
+    "visualEffect": "Casting Improved Arcane Missiles temporarily wreathes your character in mystical energy."
   },
   {
     "id": "presence_of_mind",
@@ -204,7 +204,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Presence of Mind was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as mystical power courses through you."
+    "visualEffect": "The ground shatters as the mystical power of Presence of Mind courses through you."
   },
   {
     "id": "arcane_impact",
@@ -230,7 +230,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in mystical energy."
+    "visualEffect": "Casting Arcane Impact temporarily wreathes your character in mystical energy."
   },
   {
     "id": "imp_counterspell",
@@ -255,7 +255,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in mystical energy."
+    "visualEffect": "Casting Improved Counterspell temporarily wreathes your character in mystical energy."
   },
   {
     "id": "arcane_flow",
@@ -280,7 +280,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Arcane Flow.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in mystical energy."
+    "visualEffect": "Casting Arcane Flow temporarily wreathes your character in mystical energy."
   },
   {
     "id": "arcane_mind",
@@ -312,7 +312,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Arcane Mind critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your Arcane Mind leaves a lingering trail of arcane in your wake."
   },
   {
     "id": "arcane_resilience",
@@ -337,7 +337,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Arcane Resilience.",
     "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Arcane Resilience attack."
   },
   {
     "id": "arcane_blast",
@@ -365,7 +365,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Arcane Blast.",
     "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "The ground shatters as mystical power courses through you."
+    "visualEffect": "The ground shatters as the mystical power of Arcane Blast courses through you."
   },
   {
     "id": "arcane_instability",
@@ -395,7 +395,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Arcane Instability critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your Arcane Instability leaves a lingering trail of arcane in your wake."
   },
   {
     "id": "prismatic_cloak",
@@ -420,7 +420,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Prismatic Cloak.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in mystical energy."
+    "visualEffect": "Casting Prismatic Cloak temporarily wreathes your character in mystical energy."
   },
   {
     "id": "netherwind_presence",
@@ -446,7 +446,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Netherwind Presence critically hits.",
     "devCommentary": "Initially, Netherwind Presence was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as mystical power courses through you."
+    "visualEffect": "The ground shatters as the mystical power of Netherwind Presence courses through you."
   },
   {
     "id": "mind_mastery",
@@ -476,7 +476,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Mind Mastery.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in mystical energy."
+    "visualEffect": "Casting Mind Mastery temporarily wreathes your character in mystical energy."
   },
   {
     "id": "arcane_potency",
@@ -505,7 +505,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Arcane Potency to define the Arcane playstyle at all levels.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon impact."
+    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Arcane Potency."
   },
   {
     "id": "arcane_power",
@@ -533,7 +533,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Arcane Power.",
     "devCommentary": "We wanted Arcane Power to define the Arcane playstyle at all levels.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon impact."
+    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Arcane Power."
   }
 ];
 
@@ -562,7 +562,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Ignite.",
     "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Ignite attack."
   },
   {
     "id": "imp_fireball",
@@ -590,7 +590,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Improved Fireball.",
     "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Improved Fireball attack."
   },
   {
     "id": "flame_throwing",
@@ -615,7 +615,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
     "devCommentary": "Initially, Flame Throwing was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as mystical power courses through you."
+    "visualEffect": "The ground shatters as the mystical power of Flame Throwing courses through you."
   },
   {
     "id": "impact",
@@ -641,7 +641,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Impact.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon impact."
+    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Impact."
   },
   {
     "id": "incineration",
@@ -667,7 +667,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Incineration.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your Incineration leaves a lingering trail of arcane in your wake."
   },
   {
     "id": "burning_soul",
@@ -692,7 +692,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Burning Soul critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in mystical energy."
+    "visualEffect": "Casting Burning Soul temporarily wreathes your character in mystical energy."
   },
   {
     "id": "imp_fire_blast",
@@ -717,7 +717,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Improved Fire Blast.",
     "devCommentary": "Initially, Improved Fire Blast was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as mystical power courses through you."
+    "visualEffect": "The ground shatters as the mystical power of Improved Fire Blast courses through you."
   },
   {
     "id": "combustion",
@@ -745,7 +745,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your Combustion leaves a lingering trail of arcane in your wake."
   },
   {
     "id": "master_of_elements",
@@ -771,7 +771,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Master of Elements critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in mystical energy."
+    "visualEffect": "Casting Master of Elements temporarily wreathes your character in mystical energy."
   },
   {
     "id": "critical_mass",
@@ -797,7 +797,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
     "devCommentary": "We wanted Critical Mass to define the Fire playstyle at all levels.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Critical Mass attack."
   },
   {
     "id": "pyromaniac",
@@ -823,7 +823,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your Pyromaniac leaves a lingering trail of arcane in your wake."
   },
   {
     "id": "fire_power",
@@ -853,7 +853,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your Fire Power leaves a lingering trail of arcane in your wake."
   },
   {
     "id": "imp_scorch",
@@ -882,7 +882,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Improved Scorch to define the Fire playstyle at all levels.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon impact."
+    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Improved Scorch."
   },
   {
     "id": "blast_wave",
@@ -910,7 +910,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Blast Wave to define the Fire playstyle at all levels.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon impact."
+    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Blast Wave."
   },
   {
     "id": "playing_with_fire",
@@ -936,7 +936,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
     "devCommentary": "We wanted Playing with Fire to define the Fire playstyle at all levels.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Playing with Fire attack."
   },
   {
     "id": "blazing_speed",
@@ -961,7 +961,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Blazing Speed critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in mystical energy."
+    "visualEffect": "Casting Blazing Speed temporarily wreathes your character in mystical energy."
   },
   {
     "id": "empowered_fire",
@@ -991,7 +991,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Empowered Fire.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your Empowered Fire leaves a lingering trail of arcane in your wake."
   },
   {
     "id": "fiery_payback",
@@ -1016,7 +1016,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Fiery Payback.",
     "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Fiery Payback attack."
   },
   {
     "id": "hot_streak",
@@ -1042,7 +1042,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Hot Streak.",
     "devCommentary": "We wanted Hot Streak to define the Fire playstyle at all levels.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon impact."
+    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Hot Streak."
   },
   {
     "id": "living_bomb",
@@ -1070,7 +1070,7 @@ export const MAGE_FIRE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Living Bomb.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your Living Bomb leaves a lingering trail of arcane in your wake."
   }
 ];
 
@@ -1099,7 +1099,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Permafrost attack."
   },
   {
     "id": "imp_frostbolt",
@@ -1127,7 +1127,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Improved Frostbolt was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "Your character is temporarily wreathed in mystical energy."
+    "visualEffect": "Casting Improved Frostbolt temporarily wreathes your character in mystical energy."
   },
   {
     "id": "ice_floes",
@@ -1152,7 +1152,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
     "devCommentary": "We wanted Ice Floes to define the Frost playstyle at all levels.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Ice Floes attack."
   },
   {
     "id": "shatter",
@@ -1178,7 +1178,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Shatter.",
     "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Shatter attack."
   },
   {
     "id": "ice_shards",
@@ -1208,7 +1208,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Ice Shards to define the Frost playstyle at all levels.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Ice Shards attack."
   },
   {
     "id": "frostbite",
@@ -1233,7 +1233,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
     "devCommentary": "Initially, Frostbite was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as mystical power courses through you."
+    "visualEffect": "The ground shatters as the mystical power of Frostbite courses through you."
   },
   {
     "id": "piercing_ice",
@@ -1258,7 +1258,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your Piercing Ice leaves a lingering trail of arcane in your wake."
   },
   {
     "id": "ice_block",
@@ -1286,7 +1286,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in mystical energy."
+    "visualEffect": "Casting Ice Block temporarily wreathes your character in mystical energy."
   },
   {
     "id": "imp_blizzard",
@@ -1312,7 +1312,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your Improved Blizzard leaves a lingering trail of arcane in your wake."
   },
   {
     "id": "arctic_reach",
@@ -1337,7 +1337,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Arctic Reach.",
     "devCommentary": "Initially, Arctic Reach was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "Your character is temporarily wreathed in mystical energy."
+    "visualEffect": "Casting Arctic Reach temporarily wreathes your character in mystical energy."
   },
   {
     "id": "winters_chill",
@@ -1363,7 +1363,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Winter's Chill critically hits.",
     "devCommentary": "Initially, Winter's Chill was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as mystical power courses through you."
+    "visualEffect": "The ground shatters as the mystical power of Winter's Chill courses through you."
   },
   {
     "id": "arctic_winds",
@@ -1389,7 +1389,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Arctic Winds attack."
   },
   {
     "id": "channeling_ice",
@@ -1414,7 +1414,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Channeling Ice.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon impact."
+    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Channeling Ice."
   },
   {
     "id": "ice_barrier",
@@ -1442,7 +1442,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
     "devCommentary": "Initially, Ice Barrier was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as mystical power courses through you."
+    "visualEffect": "The ground shatters as the mystical power of Ice Barrier courses through you."
   },
   {
     "id": "shattered_barrier",
@@ -1471,7 +1471,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Shattered Barrier.",
     "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "The ground shatters as mystical power courses through you."
+    "visualEffect": "The ground shatters as the mystical power of Shattered Barrier courses through you."
   },
   {
     "id": "brain_freeze",
@@ -1497,7 +1497,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Brain Freeze.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon impact."
+    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Brain Freeze."
   },
   {
     "id": "enduring_winter",
@@ -1523,7 +1523,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Enduring Winter critically hits.",
     "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "The ground shatters as mystical power courses through you."
+    "visualEffect": "The ground shatters as the mystical power of Enduring Winter courses through you."
   },
   {
     "id": "empowered_frostbolt",
@@ -1553,7 +1553,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Empowered Frostbolt critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon impact."
+    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Empowered Frostbolt."
   },
   {
     "id": "chilled_to_the_bone",
@@ -1578,7 +1578,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Chilled to the Bone.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your Chilled to the Bone leaves a lingering trail of arcane in your wake."
   },
   {
     "id": "summon_water_elemental",
@@ -1606,7 +1606,7 @@ export const MAGE_FROST_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your Summon Water Elemental leaves a lingering trail of arcane in your wake."
   }
 ];
 

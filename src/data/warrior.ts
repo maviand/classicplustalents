@@ -24,7 +24,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Tactical Mastery.",
     "devCommentary": "Designed to smooth out the rotation of brutal specs in long encounters.",
-    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your Tactical Mastery attack."
   },
   {
     "id": "deflection",
@@ -52,7 +52,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Deflection.",
     "devCommentary": "We wanted Deflection to define the Arms playstyle at all levels.",
-    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your Deflection attack."
   },
   {
     "id": "imp_rend",
@@ -78,7 +78,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "Initially, Improved Rend was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "The ground shatters as brutal power courses through you."
+    "visualEffect": "The ground shatters as the brutal power of Improved Rend courses through you."
   },
   {
     "id": "imp_charge",
@@ -103,7 +103,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Charge.",
     "devCommentary": "Initially, Improved Charge was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "The ground shatters as brutal power courses through you."
+    "visualEffect": "The ground shatters as the brutal power of Improved Charge courses through you."
   },
   {
     "id": "imp_overpower",
@@ -129,7 +129,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with brutal energy upon casting Improved Overpower.",
     "devCommentary": "We wanted Improved Overpower to define the Arms playstyle at all levels.",
-    "visualEffect": "A massive burst of fury erupts from the target upon impact."
+    "visualEffect": "A massive burst of fury erupts from the target upon the impact of Improved Overpower."
   },
   {
     "id": "deep_wounds",
@@ -159,7 +159,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Deep Wounds.",
     "devCommentary": "Initially, Deep Wounds was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Deep Wounds temporarily wreathes your character in brutal energy."
   },
   {
     "id": "imp_heroic_strike",
@@ -184,7 +184,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "We wanted Improved Heroic Strike to define the Arms playstyle at all levels.",
-    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your Improved Heroic Strike attack."
   },
   {
     "id": "two_handed_ws",
@@ -212,7 +212,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Two-Handed Weapon Specialization.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward fury ability.",
-    "visualEffect": "A massive burst of fury erupts from the target upon impact."
+    "visualEffect": "A massive burst of fury erupts from the target upon the impact of Two-Handed Weapon Specialization."
   },
   {
     "id": "sweeping_strikes",
@@ -236,7 +236,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with brutal energy upon casting Sweeping Strikes.",
     "devCommentary": "We wanted Sweeping Strikes to define the Arms playstyle at all levels.",
-    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your Sweeping Strikes attack."
   },
   {
     "id": "impale",
@@ -265,7 +265,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Impale.",
     "devCommentary": "Initially, Impale was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Impale temporarily wreathes your character in brutal energy."
   },
   {
     "id": "master_of_arms",
@@ -293,7 +293,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with brutal energy upon casting Master of Arms.",
     "devCommentary": "We wanted Master of Arms to define the Arms playstyle at all levels.",
-    "visualEffect": "A massive burst of fury erupts from the target upon impact."
+    "visualEffect": "A massive burst of fury erupts from the target upon the impact of Master of Arms."
   },
   {
     "id": "trauma",
@@ -318,7 +318,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Trauma critically hits.",
     "devCommentary": "We wanted Trauma to define the Arms playstyle at all levels.",
-    "visualEffect": "A massive burst of fury erupts from the target upon impact."
+    "visualEffect": "A massive burst of fury erupts from the target upon the impact of Trauma."
   },
   {
     "id": "imp_hamstring",
@@ -343,7 +343,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Improved Hamstring to define the Arms playstyle at all levels.",
-    "visualEffect": "A massive burst of fury erupts from the target upon impact."
+    "visualEffect": "A massive burst of fury erupts from the target upon the impact of Improved Hamstring."
   },
   {
     "id": "mortal_strike",
@@ -371,7 +371,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Mortal Strike to define the Arms playstyle at all levels.",
-    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your Mortal Strike attack."
   },
   {
     "id": "second_wind",
@@ -396,7 +396,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Second Wind.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward fury ability.",
-    "visualEffect": "A massive burst of fury erupts from the target upon impact."
+    "visualEffect": "A massive burst of fury erupts from the target upon the impact of Second Wind."
   },
   {
     "id": "blood_frenzy",
@@ -421,7 +421,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Blood Frenzy critically hits.",
     "devCommentary": "Designed to smooth out the rotation of brutal specs in long encounters.",
-    "visualEffect": "The ground shatters as brutal power courses through you."
+    "visualEffect": "The ground shatters as the brutal power of Blood Frenzy courses through you."
   },
   {
     "id": "strength_of_arms",
@@ -446,7 +446,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of fury in your wake."
+    "visualEffect": "Your Strength of Arms leaves a lingering trail of fury in your wake."
   },
   {
     "id": "sudden_death",
@@ -476,7 +476,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with brutal energy upon casting Sudden Death.",
     "devCommentary": "Initially, Sudden Death was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "The ground shatters as brutal power courses through you."
+    "visualEffect": "The ground shatters as the brutal power of Sudden Death courses through you."
   },
   {
     "id": "juggernaut",
@@ -501,7 +501,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with brutal energy upon casting Juggernaut.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Juggernaut temporarily wreathes your character in brutal energy."
   },
   {
     "id": "bladestorm",
@@ -529,7 +529,7 @@ export const WARRIOR_ARMS_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Bladestorm critically hits.",
     "devCommentary": "Initially, Bladestorm was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Bladestorm temporarily wreathes your character in brutal energy."
   }
 ];
 
@@ -557,7 +557,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with brutal energy upon casting Improved Bloodrage.",
     "devCommentary": "Designed to smooth out the rotation of brutal specs in long encounters.",
-    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your Improved Bloodrage attack."
   },
   {
     "id": "toughness",
@@ -583,7 +583,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "We wanted Toughness to define the Protection playstyle at all levels.",
-    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your Toughness attack."
   },
   {
     "id": "shield_spec",
@@ -611,7 +611,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Shield Specialization.",
     "devCommentary": "Designed to smooth out the rotation of brutal specs in long encounters.",
-    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your Shield Specialization attack."
   },
   {
     "id": "iron_will",
@@ -637,7 +637,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward fury ability.",
-    "visualEffect": "Leaves a lingering trail of fury in your wake."
+    "visualEffect": "Your Iron Will leaves a lingering trail of fury in your wake."
   },
   {
     "id": "imp_sunder_armor",
@@ -663,7 +663,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of fury in your wake."
+    "visualEffect": "Your Improved Sunder Armor leaves a lingering trail of fury in your wake."
   },
   {
     "id": "shield_mastery",
@@ -693,7 +693,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Shield Mastery critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Shield Mastery temporarily wreathes your character in brutal energy."
   },
   {
     "id": "imp_shield_block",
@@ -722,7 +722,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward fury ability.",
-    "visualEffect": "Leaves a lingering trail of fury in your wake."
+    "visualEffect": "Your Improved Shield Block leaves a lingering trail of fury in your wake."
   },
   {
     "id": "imp_revenge",
@@ -747,7 +747,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "Designed to smooth out the rotation of brutal specs in long encounters.",
-    "visualEffect": "The ground shatters as brutal power courses through you."
+    "visualEffect": "The ground shatters as the brutal power of Improved Revenge courses through you."
   },
   {
     "id": "last_stand",
@@ -771,7 +771,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Last Stand.",
     "devCommentary": "Designed to smooth out the rotation of brutal specs in long encounters.",
-    "visualEffect": "The ground shatters as brutal power courses through you."
+    "visualEffect": "The ground shatters as the brutal power of Last Stand courses through you."
   },
   {
     "id": "defiance",
@@ -797,7 +797,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Defiance.",
     "devCommentary": "Initially, Defiance was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Defiance temporarily wreathes your character in brutal energy."
   },
   {
     "id": "gag_order",
@@ -822,7 +822,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Gag Order.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward fury ability.",
-    "visualEffect": "Leaves a lingering trail of fury in your wake."
+    "visualEffect": "Your Gag Order leaves a lingering trail of fury in your wake."
   },
   {
     "id": "one_handed_ws",
@@ -850,7 +850,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever One-Handed Weapon Specialization critically hits.",
     "devCommentary": "We wanted One-Handed Weapon Specialization to define the Protection playstyle at all levels.",
-    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your One-Handed Weapon Specialization attack."
   },
   {
     "id": "imp_shield_wall",
@@ -875,7 +875,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "We wanted Improved Shield Wall to define the Protection playstyle at all levels.",
-    "visualEffect": "A massive burst of fury erupts from the target upon impact."
+    "visualEffect": "A massive burst of fury erupts from the target upon the impact of Improved Shield Wall."
   },
   {
     "id": "incite",
@@ -901,7 +901,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Incite critically hits.",
     "devCommentary": "Initially, Incite was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Incite temporarily wreathes your character in brutal energy."
   },
   {
     "id": "imp_defensive_stance",
@@ -926,7 +926,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Defensive Stance critically hits.",
     "devCommentary": "Initially, Improved Defensive Stance was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Improved Defensive Stance temporarily wreathes your character in brutal energy."
   },
   {
     "id": "concussion_blow",
@@ -954,7 +954,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Concussion Blow to define the Protection playstyle at all levels.",
-    "visualEffect": "A massive burst of fury erupts from the target upon impact."
+    "visualEffect": "A massive burst of fury erupts from the target upon the impact of Concussion Blow."
   },
   {
     "id": "vitality",
@@ -980,7 +980,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Vitality was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "The ground shatters as brutal power courses through you."
+    "visualEffect": "The ground shatters as the brutal power of Vitality courses through you."
   },
   {
     "id": "damage_shield",
@@ -1005,7 +1005,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Damage Shield critically hits.",
     "devCommentary": "Initially, Damage Shield was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "The ground shatters as brutal power courses through you."
+    "visualEffect": "The ground shatters as the brutal power of Damage Shield courses through you."
   },
   {
     "id": "critical_block",
@@ -1031,7 +1031,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with brutal energy upon casting Critical Block.",
     "devCommentary": "We wanted Critical Block to define the Protection playstyle at all levels.",
-    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your Critical Block attack."
   },
   {
     "id": "warbringer",
@@ -1055,7 +1055,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "We wanted Warbringer to define the Protection playstyle at all levels.",
-    "visualEffect": "A massive burst of fury erupts from the target upon impact."
+    "visualEffect": "A massive burst of fury erupts from the target upon the impact of Warbringer."
   },
   {
     "id": "devastate",
@@ -1083,7 +1083,7 @@ export const WARRIOR_PROTECTION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Devastate temporarily wreathes your character in brutal energy."
   }
 ];
 
@@ -1112,7 +1112,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Unbridled Wrath critically hits.",
     "devCommentary": "We wanted Unbridled Wrath to define the Fury playstyle at all levels.",
-    "visualEffect": "A massive burst of fury erupts from the target upon impact."
+    "visualEffect": "A massive burst of fury erupts from the target upon the impact of Unbridled Wrath."
   },
   {
     "id": "cruelty",
@@ -1140,7 +1140,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Cruelty.",
     "devCommentary": "We wanted Cruelty to define the Fury playstyle at all levels.",
-    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your Cruelty attack."
   },
   {
     "id": "imp_battle_shout",
@@ -1165,7 +1165,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "Initially, Improved Battle Shout was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Improved Battle Shout temporarily wreathes your character in brutal energy."
   },
   {
     "id": "imp_cleave",
@@ -1191,7 +1191,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Cleave critically hits.",
     "devCommentary": "Initially, Improved Cleave was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "The ground shatters as brutal power courses through you."
+    "visualEffect": "The ground shatters as the brutal power of Improved Cleave courses through you."
   },
   {
     "id": "imp_demoralizing_shout",
@@ -1216,7 +1216,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward fury ability.",
-    "visualEffect": "Leaves a lingering trail of fury in your wake."
+    "visualEffect": "Your Improved Demoralizing Shout leaves a lingering trail of fury in your wake."
   },
   {
     "id": "enrage",
@@ -1242,7 +1242,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with brutal energy upon casting Enrage.",
     "devCommentary": "Designed to smooth out the rotation of brutal specs in long encounters.",
-    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Varok Saurfang briefly mirrors your Enrage attack."
   },
   {
     "id": "blood_craze",
@@ -1268,7 +1268,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with brutal energy upon casting Blood Craze.",
     "devCommentary": "Initially, Blood Craze was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Blood Craze temporarily wreathes your character in brutal energy."
   },
   {
     "id": "dual_wield_spec",
@@ -1296,7 +1296,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "Initially, Dual Wield Specialization was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Dual Wield Specialization temporarily wreathes your character in brutal energy."
   },
   {
     "id": "death_wish",
@@ -1320,7 +1320,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "Designed to smooth out the rotation of brutal specs in long encounters.",
-    "visualEffect": "The ground shatters as brutal power courses through you."
+    "visualEffect": "The ground shatters as the brutal power of Death Wish courses through you."
   },
   {
     "id": "imp_execute",
@@ -1345,7 +1345,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of fury in your wake."
+    "visualEffect": "Your Improved Execute leaves a lingering trail of fury in your wake."
   },
   {
     "id": "battle_trance",
@@ -1370,7 +1370,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "We wanted Battle Trance to define the Fury playstyle at all levels.",
-    "visualEffect": "A massive burst of fury erupts from the target upon impact."
+    "visualEffect": "A massive burst of fury erupts from the target upon the impact of Battle Trance."
   },
   {
     "id": "flurry",
@@ -1402,7 +1402,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Flurry.",
     "devCommentary": "Initially, Flurry was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Flurry temporarily wreathes your character in brutal energy."
   },
   {
     "id": "imp_slam",
@@ -1427,7 +1427,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Slam.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward fury ability.",
-    "visualEffect": "Leaves a lingering trail of fury in your wake."
+    "visualEffect": "Your Improved Slam leaves a lingering trail of fury in your wake."
   },
   {
     "id": "bloodthirst",
@@ -1455,7 +1455,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Bloodthirst.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward fury ability.",
-    "visualEffect": "A massive burst of fury erupts from the target upon impact."
+    "visualEffect": "A massive burst of fury erupts from the target upon the impact of Bloodthirst."
   },
   {
     "id": "precision",
@@ -1481,7 +1481,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Precision.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in brutal energy."
+    "visualEffect": "Casting Precision temporarily wreathes your character in brutal energy."
   },
   {
     "id": "furious_attacks",
@@ -1506,7 +1506,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Furious Attacks.",
     "devCommentary": "Initially, Furious Attacks was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "The ground shatters as brutal power courses through you."
+    "visualEffect": "The ground shatters as the brutal power of Furious Attacks courses through you."
   },
   {
     "id": "enraged_regeneration",
@@ -1531,7 +1531,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "Initially, Enraged Regeneration was too weak, so we gave it massive brutal scaling.",
-    "visualEffect": "The ground shatters as brutal power courses through you."
+    "visualEffect": "The ground shatters as the brutal power of Enraged Regeneration courses through you."
   },
   {
     "id": "bloodsurge",
@@ -1556,7 +1556,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward fury ability.",
-    "visualEffect": "Leaves a lingering trail of fury in your wake."
+    "visualEffect": "Your Bloodsurge leaves a lingering trail of fury in your wake."
   },
   {
     "id": "intensify_rage",
@@ -1581,7 +1581,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward fury ability.",
-    "visualEffect": "Leaves a lingering trail of fury in your wake."
+    "visualEffect": "Your Intensify Rage leaves a lingering trail of fury in your wake."
   },
   {
     "id": "imp_berserker_stance",
@@ -1607,7 +1607,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary fury effect.",
     "devCommentary": "We wanted Improved Berserker Stance to define the Fury playstyle at all levels.",
-    "visualEffect": "A massive burst of fury erupts from the target upon impact."
+    "visualEffect": "A massive burst of fury erupts from the target upon the impact of Improved Berserker Stance."
   },
   {
     "id": "rampage",
@@ -1635,7 +1635,7 @@ export const WARRIOR_FURY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Rampage.",
     "devCommentary": "Designed to smooth out the rotation of brutal specs in long encounters.",
-    "visualEffect": "The ground shatters as brutal power courses through you."
+    "visualEffect": "The ground shatters as the brutal power of Rampage courses through you."
   }
 ];
 

@@ -27,7 +27,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Malice critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Malice temporarily wreathes your character in lethal energy."
   },
   {
     "id": "imp_eviscerate",
@@ -53,7 +53,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with lethal energy upon casting Improved Eviscerate.",
     "devCommentary": "Initially, Improved Eviscerate was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "The ground shatters as lethal power courses through you."
+    "visualEffect": "The ground shatters as the lethal power of Improved Eviscerate courses through you."
   },
   {
     "id": "remorseless_attacks",
@@ -78,7 +78,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Remorseless Attacks critically hits.",
     "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
-    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your Remorseless Attacks attack."
   },
   {
     "id": "ruthlessness",
@@ -104,7 +104,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
     "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
-    "visualEffect": "The ground shatters as lethal power courses through you."
+    "visualEffect": "The ground shatters as the lethal power of Ruthlessness courses through you."
   },
   {
     "id": "puncturing_wounds",
@@ -130,7 +130,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Puncturing Wounds critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Puncturing Wounds temporarily wreathes your character in lethal energy."
   },
   {
     "id": "vile_poisons",
@@ -155,7 +155,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Vile Poisons.",
     "devCommentary": "Initially, Vile Poisons was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "The ground shatters as lethal power courses through you."
+    "visualEffect": "The ground shatters as the lethal power of Vile Poisons courses through you."
   },
   {
     "id": "imp_snd",
@@ -180,7 +180,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Slice and Dice critically hits.",
     "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
-    "visualEffect": "The ground shatters as lethal power courses through you."
+    "visualEffect": "The ground shatters as the lethal power of Improved Slice and Dice courses through you."
   },
   {
     "id": "lethality",
@@ -212,7 +212,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Lethality critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Lethality leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "cold_blood",
@@ -236,7 +236,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Cold Blood was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Cold Blood temporarily wreathes your character in lethal energy."
   },
   {
     "id": "relentless_strikes",
@@ -265,7 +265,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Relentless Strikes.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Relentless Strikes temporarily wreathes your character in lethal energy."
   },
   {
     "id": "find_weakness",
@@ -291,7 +291,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Find Weakness critically hits.",
     "devCommentary": "Initially, Find Weakness was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "The ground shatters as lethal power courses through you."
+    "visualEffect": "The ground shatters as the lethal power of Find Weakness courses through you."
   },
   {
     "id": "imp_poisons",
@@ -323,7 +323,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Poisons critically hits.",
     "devCommentary": "We wanted Improved Poisons to define the Assassination playstyle at all levels.",
-    "visualEffect": "A massive burst of shadows erupts from the target upon impact."
+    "visualEffect": "A massive burst of shadows erupts from the target upon the impact of Improved Poisons."
   },
   {
     "id": "fleet_footed",
@@ -348,7 +348,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Fleet Footed.",
     "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
-    "visualEffect": "The ground shatters as lethal power courses through you."
+    "visualEffect": "The ground shatters as the lethal power of Fleet Footed courses through you."
   },
   {
     "id": "seal_fate",
@@ -378,7 +378,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Seal Fate leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "mutilate",
@@ -402,7 +402,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
     "devCommentary": "Initially, Mutilate was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Mutilate temporarily wreathes your character in lethal energy."
   },
   {
     "id": "quick_recovery",
@@ -427,7 +427,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
     "devCommentary": "We wanted Quick Recovery to define the Assassination playstyle at all levels.",
-    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your Quick Recovery attack."
   },
   {
     "id": "master_poisoner",
@@ -453,7 +453,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Master Poisoner leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "blood_spatter",
@@ -478,7 +478,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Blood Spatter.",
     "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
-    "visualEffect": "The ground shatters as lethal power courses through you."
+    "visualEffect": "The ground shatters as the lethal power of Blood Spatter courses through you."
   },
   {
     "id": "vigor",
@@ -503,7 +503,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Vigor.",
     "devCommentary": "We wanted Vigor to define the Assassination playstyle at all levels.",
-    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your Vigor attack."
   },
   {
     "id": "envenom",
@@ -531,7 +531,7 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Envenom.",
     "devCommentary": "We wanted Envenom to define the Assassination playstyle at all levels.",
-    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your Envenom attack."
   }
 ];
 
@@ -562,7 +562,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Deflection.",
     "devCommentary": "We wanted Deflection to define the Combat playstyle at all levels.",
-    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your Deflection attack."
   },
   {
     "id": "imp_ss",
@@ -587,7 +587,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Sinister Strike.",
     "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
-    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your Improved Sinister Strike attack."
   },
   {
     "id": "imp_gouge",
@@ -613,7 +613,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Gouge.",
     "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
-    "visualEffect": "The ground shatters as lethal power courses through you."
+    "visualEffect": "The ground shatters as the lethal power of Improved Gouge courses through you."
   },
   {
     "id": "precision",
@@ -639,7 +639,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Precision.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Precision temporarily wreathes your character in lethal energy."
   },
   {
     "id": "dual_wield_spec",
@@ -665,7 +665,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
     "devCommentary": "Initially, Dual Wield Specialization was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Dual Wield Specialization temporarily wreathes your character in lethal energy."
   },
   {
     "id": "imp_sprint",
@@ -690,7 +690,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Sprint critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Improved Sprint temporarily wreathes your character in lethal energy."
   },
   {
     "id": "endurance",
@@ -715,7 +715,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Endurance critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
-    "visualEffect": "A massive burst of shadows erupts from the target upon impact."
+    "visualEffect": "A massive burst of shadows erupts from the target upon the impact of Endurance."
   },
   {
     "id": "weapon_expertise",
@@ -747,7 +747,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with lethal energy upon casting Weapon Expertise.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Weapon Expertise leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "blade_flurry",
@@ -771,7 +771,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Blade Flurry leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "riposte",
@@ -799,7 +799,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Riposte was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Riposte temporarily wreathes your character in lethal energy."
   },
   {
     "id": "throwing_spec",
@@ -824,7 +824,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Throwing Specialization was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Throwing Specialization temporarily wreathes your character in lethal energy."
   },
   {
     "id": "aggression",
@@ -852,7 +852,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Aggression.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Aggression leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "vitality",
@@ -877,7 +877,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Vitality was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "The ground shatters as lethal power courses through you."
+    "visualEffect": "The ground shatters as the lethal power of Vitality courses through you."
   },
   {
     "id": "lightning_reflexes",
@@ -903,7 +903,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Lightning Reflexes to define the Combat playstyle at all levels.",
-    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your Lightning Reflexes attack."
   },
   {
     "id": "adrenaline_rush",
@@ -931,7 +931,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
-    "visualEffect": "A massive burst of shadows erupts from the target upon impact."
+    "visualEffect": "A massive burst of shadows erupts from the target upon the impact of Adrenaline Rush."
   },
   {
     "id": "combat_potency",
@@ -956,7 +956,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with lethal energy upon casting Combat Potency.",
     "devCommentary": "Initially, Combat Potency was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Combat Potency temporarily wreathes your character in lethal energy."
   },
   {
     "id": "surprise_attacks",
@@ -982,7 +982,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Surprise Attacks temporarily wreathes your character in lethal energy."
   },
   {
     "id": "unfair_advantage",
@@ -1007,7 +1007,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Unfair Advantage leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "blade_twisting",
@@ -1032,7 +1032,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Blade Twisting temporarily wreathes your character in lethal energy."
   },
   {
     "id": "killing_spree",
@@ -1060,7 +1060,7 @@ export const ROGUE_COMBAT_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Killing Spree.",
     "devCommentary": "Initially, Killing Spree was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Killing Spree temporarily wreathes your character in lethal energy."
   }
 ];
 
@@ -1091,7 +1091,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Master of Deception leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "opportunity",
@@ -1117,7 +1117,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Opportunity temporarily wreathes your character in lethal energy."
   },
   {
     "id": "camouflage",
@@ -1142,7 +1142,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Camouflage.",
     "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
-    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your Camouflage attack."
   },
   {
     "id": "initiative",
@@ -1172,7 +1172,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Initiative.",
     "devCommentary": "Initially, Initiative was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "The ground shatters as lethal power courses through you."
+    "visualEffect": "The ground shatters as the lethal power of Initiative courses through you."
   },
   {
     "id": "elusiveness",
@@ -1202,7 +1202,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Elusiveness critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Elusiveness leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "imp_ambush",
@@ -1227,7 +1227,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with lethal energy upon casting Improved Ambush.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Improved Ambush temporarily wreathes your character in lethal energy."
   },
   {
     "id": "dirty_tricks",
@@ -1252,7 +1252,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Dirty Tricks critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Dirty Tricks leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "serrated_blades",
@@ -1280,7 +1280,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Serrated Blades was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Serrated Blades temporarily wreathes your character in lethal energy."
   },
   {
     "id": "hemorrhage",
@@ -1304,7 +1304,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with lethal energy upon casting Hemorrhage.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Hemorrhage leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "setup",
@@ -1329,7 +1329,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
     "devCommentary": "We wanted Setup to define the Subtlety playstyle at all levels.",
-    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your Setup attack."
   },
   {
     "id": "sleight_of_hand",
@@ -1354,7 +1354,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Sleight of Hand leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "deadliness",
@@ -1382,7 +1382,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Deadliness critically hits.",
     "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
-    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your Deadliness attack."
   },
   {
     "id": "heightened_senses",
@@ -1407,7 +1407,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Heightened Senses critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Heightened Senses temporarily wreathes your character in lethal energy."
   },
   {
     "id": "dirty_deeds",
@@ -1433,7 +1433,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Dirty Deeds.",
     "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
-    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your Dirty Deeds attack."
   },
   {
     "id": "preparation",
@@ -1457,7 +1457,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Preparation critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Preparation temporarily wreathes your character in lethal energy."
   },
   {
     "id": "enveloping_shadows",
@@ -1482,7 +1482,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
     "devCommentary": "We wanted Enveloping Shadows to define the Subtlety playstyle at all levels.",
-    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your Enveloping Shadows attack."
   },
   {
     "id": "cheat_death",
@@ -1508,7 +1508,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Cheat Death critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in lethal energy."
+    "visualEffect": "Casting Cheat Death temporarily wreathes your character in lethal energy."
   },
   {
     "id": "honor_among_thieves",
@@ -1534,7 +1534,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Honor Among Thieves was too weak, so we gave it massive lethal scaling.",
-    "visualEffect": "The ground shatters as lethal power courses through you."
+    "visualEffect": "The ground shatters as the lethal power of Honor Among Thieves courses through you."
   },
   {
     "id": "master_of_subtlety",
@@ -1559,7 +1559,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with lethal energy upon casting Master of Subtlety.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Master of Subtlety leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "shadowstep",
@@ -1587,7 +1587,7 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Shadowstep.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of shadows in your wake."
+    "visualEffect": "Your Shadowstep leaves a lingering trail of shadows in your wake."
   }
 ];
 

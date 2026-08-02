@@ -27,7 +27,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Starfire Wrath leaves a lingering trail of nature in your wake."
   },
   {
     "id": "natural_weapons",
@@ -53,7 +53,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Natural Weapons leaves a lingering trail of nature in your wake."
   },
   {
     "id": "natures_reach",
@@ -78,7 +78,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
     "devCommentary": "We wanted Nature's Reach to define the Balance playstyle at all levels.",
-    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your Nature's Reach attack."
   },
   {
     "id": "control_of_nature",
@@ -104,7 +104,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Control of Nature.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Control of Nature leaves a lingering trail of nature in your wake."
   },
   {
     "id": "imp_moonfire",
@@ -129,7 +129,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Moonfire.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Improved Moonfire."
   },
   {
     "id": "brambleguard",
@@ -155,7 +155,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Brambleguard.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Brambleguard leaves a lingering trail of nature in your wake."
   },
   {
     "id": "moonglow",
@@ -181,7 +181,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Moonglow.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in feral energy."
+    "visualEffect": "Casting Moonglow temporarily wreathes your character in feral energy."
   },
   {
     "id": "conjure_moonwell",
@@ -205,7 +205,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Conjure Moonwell critically hits.",
     "devCommentary": "We wanted Conjure Moonwell to define the Balance playstyle at all levels.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Conjure Moonwell."
   },
   {
     "id": "imp_faerie_fire",
@@ -231,7 +231,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
     "devCommentary": "Initially, Improved Faerie Fire was too weak, so we gave it massive feral scaling.",
-    "visualEffect": "Your character is temporarily wreathed in feral energy."
+    "visualEffect": "Casting Improved Faerie Fire temporarily wreathes your character in feral energy."
   },
   {
     "id": "gale_winds",
@@ -256,7 +256,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Gale Winds.",
     "devCommentary": "Initially, Gale Winds was too weak, so we gave it massive feral scaling.",
-    "visualEffect": "The ground shatters as feral power courses through you."
+    "visualEffect": "The ground shatters as the feral power of Gale Winds courses through you."
   },
   {
     "id": "vengeance",
@@ -288,7 +288,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Vengeance critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Vengeance leaves a lingering trail of nature in your wake."
   },
   {
     "id": "celestial_focus",
@@ -314,7 +314,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Celestial Focus.",
     "devCommentary": "We wanted Celestial Focus to define the Balance playstyle at all levels.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Celestial Focus."
   },
   {
     "id": "dreamstate",
@@ -340,7 +340,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
     "devCommentary": "We wanted Dreamstate to define the Balance playstyle at all levels.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Dreamstate."
   },
   {
     "id": "moonkin_form",
@@ -364,7 +364,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Moonkin Form critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Moonkin Form leaves a lingering trail of nature in your wake."
   },
   {
     "id": "force_of_nature",
@@ -388,7 +388,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Force of Nature critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Force of Nature leaves a lingering trail of nature in your wake."
   },
   {
     "id": "owlkin_frenzy",
@@ -414,7 +414,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Owlkin Frenzy.",
     "devCommentary": "Initially, Owlkin Frenzy was too weak, so we gave it massive feral scaling.",
-    "visualEffect": "Your character is temporarily wreathed in feral energy."
+    "visualEffect": "Casting Owlkin Frenzy temporarily wreathes your character in feral energy."
   },
   {
     "id": "moonfury",
@@ -446,7 +446,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
     "devCommentary": "Initially, Moonfury was too weak, so we gave it massive feral scaling.",
-    "visualEffect": "The ground shatters as feral power courses through you."
+    "visualEffect": "The ground shatters as the feral power of Moonfury courses through you."
   },
   {
     "id": "lunar_guidance",
@@ -472,7 +472,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Lunar Guidance critically hits.",
     "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
-    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your Lunar Guidance attack."
   },
   {
     "id": "starfall",
@@ -500,7 +500,7 @@ export const DRUID_BALANCE_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Starfall leaves a lingering trail of nature in your wake."
   }
 ];
 
@@ -531,7 +531,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Ferocity.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Ferocity leaves a lingering trail of nature in your wake."
   },
   {
     "id": "thick_hide",
@@ -557,7 +557,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Thick Hide.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Thick Hide."
   },
   {
     "id": "feral_aggression",
@@ -582,7 +582,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Feral Aggression to define the Feral playstyle at all levels.",
-    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your Feral Aggression attack."
   },
   {
     "id": "fluid_form",
@@ -608,7 +608,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Fluid Form.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in feral energy."
+    "visualEffect": "Casting Fluid Form temporarily wreathes your character in feral energy."
   },
   {
     "id": "survival_instincts",
@@ -634,7 +634,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
-    "visualEffect": "The ground shatters as feral power courses through you."
+    "visualEffect": "The ground shatters as the feral power of Survival Instincts courses through you."
   },
   {
     "id": "brutal_impact",
@@ -659,7 +659,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Brutal Impact critically hits.",
     "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
-    "visualEffect": "The ground shatters as feral power courses through you."
+    "visualEffect": "The ground shatters as the feral power of Brutal Impact courses through you."
   },
   {
     "id": "primal_focus",
@@ -684,7 +684,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Primal Focus was too weak, so we gave it massive feral scaling.",
-    "visualEffect": "The ground shatters as feral power courses through you."
+    "visualEffect": "The ground shatters as the feral power of Primal Focus courses through you."
   },
   {
     "id": "predatory_strikes",
@@ -710,7 +710,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Predatory Strikes.",
     "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
-    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your Predatory Strikes attack."
   },
   {
     "id": "feral_charge",
@@ -734,7 +734,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Feral Charge to define the Feral playstyle at all levels.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Feral Charge."
   },
   {
     "id": "sharpened_claws",
@@ -760,7 +760,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Sharpened Claws."
   },
   {
     "id": "imp_shred",
@@ -785,7 +785,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in feral energy."
+    "visualEffect": "Casting Improved Shred temporarily wreathes your character in feral energy."
   },
   {
     "id": "nurturing_instinct",
@@ -810,7 +810,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Nurturing Instinct."
   },
   {
     "id": "primal_synergy",
@@ -839,7 +839,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Primal Synergy.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Primal Synergy."
   },
   {
     "id": "primal_frenzy",
@@ -868,7 +868,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Primal Frenzy."
   },
   {
     "id": "savage_fury",
@@ -893,7 +893,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Savage Fury.",
     "devCommentary": "We wanted Savage Fury to define the Feral playstyle at all levels.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Savage Fury."
   },
   {
     "id": "leader_of_the_pack",
@@ -917,7 +917,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Leader of the Pack to define the Feral playstyle at all levels.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Leader of the Pack."
   },
   {
     "id": "primal_flurry",
@@ -943,7 +943,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
-    "visualEffect": "The ground shatters as feral power courses through you."
+    "visualEffect": "The ground shatters as the feral power of Primal Flurry courses through you."
   },
   {
     "id": "heart_of_the_wild",
@@ -971,7 +971,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Heart of the Wild.",
     "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
-    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your Heart of the Wild attack."
   },
   {
     "id": "survival_of_the_fittest",
@@ -997,7 +997,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
     "devCommentary": "We wanted Survival of the Fittest to define the Feral playstyle at all levels.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Survival of the Fittest."
   },
   {
     "id": "mangle",
@@ -1025,7 +1025,7 @@ export const DRUID_FERAL_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Mangle critically hits.",
     "devCommentary": "We wanted Mangle to define the Feral playstyle at all levels.",
-    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your Mangle attack."
   }
 ];
 
@@ -1056,7 +1056,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Gift of Nature to define the Restoration playstyle at all levels.",
-    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your Gift of Nature attack."
   },
   {
     "id": "imp_motw",
@@ -1082,7 +1082,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Improved Mark of the Wild.",
     "devCommentary": "We wanted Improved Mark of the Wild to define the Restoration playstyle at all levels.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Improved Mark of the Wild."
   },
   {
     "id": "furor",
@@ -1107,7 +1107,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Furor.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Furor."
   },
   {
     "id": "subtlety",
@@ -1133,7 +1133,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Subtlety.",
     "devCommentary": "We wanted Subtlety to define the Restoration playstyle at all levels.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Subtlety."
   },
   {
     "id": "natural_shapeshifter",
@@ -1159,7 +1159,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Natural Shapeshifter.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Natural Shapeshifter leaves a lingering trail of nature in your wake."
   },
   {
     "id": "natures_focus",
@@ -1184,7 +1184,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Nature's Focus.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Nature's Focus leaves a lingering trail of nature in your wake."
   },
   {
     "id": "imp_enrage",
@@ -1209,7 +1209,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Enrage critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Improved Enrage leaves a lingering trail of nature in your wake."
   },
   {
     "id": "reflection",
@@ -1235,7 +1235,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Reflection.",
     "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
-    "visualEffect": "The ground shatters as feral power courses through you."
+    "visualEffect": "The ground shatters as the feral power of Reflection courses through you."
   },
   {
     "id": "natures_swiftness",
@@ -1259,7 +1259,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Nature's Swiftness.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Nature's Swiftness leaves a lingering trail of nature in your wake."
   },
   {
     "id": "imp_rejuv",
@@ -1285,7 +1285,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Rejuvenation critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Improved Rejuvenation."
   },
   {
     "id": "tranquil_spirit",
@@ -1311,7 +1311,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Tranquil Spirit critically hits.",
     "devCommentary": "Initially, Tranquil Spirit was too weak, so we gave it massive feral scaling.",
-    "visualEffect": "The ground shatters as feral power courses through you."
+    "visualEffect": "The ground shatters as the feral power of Tranquil Spirit courses through you."
   },
   {
     "id": "empowered_rejuvenation",
@@ -1339,7 +1339,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Empowered Rejuvenation.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Empowered Rejuvenation leaves a lingering trail of nature in your wake."
   },
   {
     "id": "sanctuary",
@@ -1364,7 +1364,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
-    "visualEffect": "The ground shatters as feral power courses through you."
+    "visualEffect": "The ground shatters as the feral power of Sanctuary courses through you."
   },
   {
     "id": "natures_bounty",
@@ -1392,7 +1392,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Nature's Bounty."
   },
   {
     "id": "tree_of_life",
@@ -1420,7 +1420,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Tree of Life Form.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Tree of Life Form."
   },
   {
     "id": "swiftmend",
@@ -1444,7 +1444,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Swiftmend.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of nature in your wake."
+    "visualEffect": "Your Swiftmend leaves a lingering trail of nature in your wake."
   },
   {
     "id": "living_seed",
@@ -1473,7 +1473,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Living Seed critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in feral energy."
+    "visualEffect": "Casting Living Seed temporarily wreathes your character in feral energy."
   },
   {
     "id": "empowered_touch",
@@ -1499,7 +1499,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Empowered Touch was too weak, so we gave it massive feral scaling.",
-    "visualEffect": "Your character is temporarily wreathed in feral energy."
+    "visualEffect": "Casting Empowered Touch temporarily wreathes your character in feral energy."
   },
   {
     "id": "gift_of_the_earthmother",
@@ -1524,7 +1524,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Gift of the Earthmother was too weak, so we gave it massive feral scaling.",
-    "visualEffect": "Your character is temporarily wreathed in feral energy."
+    "visualEffect": "Casting Gift of the Earthmother temporarily wreathes your character in feral energy."
   },
   {
     "id": "overgrowth",
@@ -1549,7 +1549,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Overgrowth.",
     "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
-    "visualEffect": "The ground shatters as feral power courses through you."
+    "visualEffect": "The ground shatters as the feral power of Overgrowth courses through you."
   },
   {
     "id": "wild_growth",
@@ -1577,7 +1577,7 @@ export const DRUID_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Wild Growth to define the Restoration playstyle at all levels.",
-    "visualEffect": "A massive burst of nature erupts from the target upon impact."
+    "visualEffect": "A massive burst of nature erupts from the target upon the impact of Wild Growth."
   }
 ];
 

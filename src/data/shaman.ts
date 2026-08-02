@@ -27,7 +27,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Concussion leaves a lingering trail of elements in your wake."
   },
   {
     "id": "call_of_flame",
@@ -53,7 +53,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Call of Flame.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in stormy energy."
+    "visualEffect": "Casting Call of Flame temporarily wreathes your character in stormy energy."
   },
   {
     "id": "earth_s_grasp",
@@ -78,7 +78,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Earth's Grasp leaves a lingering trail of elements in your wake."
   },
   {
     "id": "reverberation",
@@ -104,7 +104,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Reverberation.",
     "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
-    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your Reverberation attack."
   },
   {
     "id": "elemental_focus",
@@ -130,7 +130,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Elemental Focus critically hits.",
     "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Elemental Focus courses through you."
   },
   {
     "id": "elemental_warding",
@@ -155,7 +155,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Elemental Warding leaves a lingering trail of elements in your wake."
   },
   {
     "id": "storm_reach",
@@ -180,7 +180,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Storm Reach.",
     "devCommentary": "Initially, Storm Reach was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "Your character is temporarily wreathed in stormy energy."
+    "visualEffect": "Casting Storm Reach temporarily wreathes your character in stormy energy."
   },
   {
     "id": "elemental_devastation",
@@ -206,7 +206,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Elemental Devastation.",
     "devCommentary": "Initially, Elemental Devastation was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "Your character is temporarily wreathed in stormy energy."
+    "visualEffect": "Casting Elemental Devastation temporarily wreathes your character in stormy energy."
   },
   {
     "id": "call_of_thunder",
@@ -234,7 +234,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Call of Thunder critically hits.",
     "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
-    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your Call of Thunder attack."
   },
   {
     "id": "elemental_fury",
@@ -258,7 +258,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Elemental Fury critically hits.",
     "devCommentary": "Initially, Elemental Fury was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Elemental Fury courses through you."
   },
   {
     "id": "eye_of_the_storm",
@@ -284,7 +284,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Eye of the Storm critically hits.",
     "devCommentary": "Initially, Eye of the Storm was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "Your character is temporarily wreathed in stormy energy."
+    "visualEffect": "Casting Eye of the Storm temporarily wreathes your character in stormy energy."
   },
   {
     "id": "lava_flows",
@@ -310,7 +310,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Lava Flows leaves a lingering trail of elements in your wake."
   },
   {
     "id": "sef",
@@ -335,7 +335,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Storm, Earth, and Fire.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Storm, Earth, and Fire leaves a lingering trail of elements in your wake."
   },
   {
     "id": "lightning_mastery",
@@ -367,7 +367,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Lightning Mastery leaves a lingering trail of elements in your wake."
   },
   {
     "id": "thunderstorm",
@@ -391,7 +391,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Thunderstorm was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Thunderstorm courses through you."
   },
   {
     "id": "totemic_surge",
@@ -416,7 +416,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Totemic Surge.",
     "devCommentary": "We wanted Totemic Surge to define the Elemental playstyle at all levels.",
-    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your Totemic Surge attack."
   },
   {
     "id": "lightning_overload",
@@ -446,7 +446,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Lightning Overload critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Lightning Overload leaves a lingering trail of elements in your wake."
   },
   {
     "id": "elemental_precision",
@@ -472,7 +472,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Elemental Precision critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in stormy energy."
+    "visualEffect": "Casting Elemental Precision temporarily wreathes your character in stormy energy."
   },
   {
     "id": "totem_of_wrath",
@@ -500,7 +500,7 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Totem of Wrath.",
     "devCommentary": "Initially, Totem of Wrath was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Totem of Wrath courses through you."
   }
 ];
 
@@ -531,7 +531,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Ancestral Knowledge.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "A massive burst of elements erupts from the target upon impact."
+    "visualEffect": "A massive burst of elements erupts from the target upon the impact of Ancestral Knowledge."
   },
   {
     "id": "thundering_strikes",
@@ -557,7 +557,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Thundering Strikes.",
     "devCommentary": "Initially, Thundering Strikes was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "Your character is temporarily wreathed in stormy energy."
+    "visualEffect": "Casting Thundering Strikes temporarily wreathes your character in stormy energy."
   },
   {
     "id": "imp_ghost_wolf",
@@ -582,7 +582,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Improved Ghost Wolf.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Improved Ghost Wolf leaves a lingering trail of elements in your wake."
   },
   {
     "id": "mental_quickness",
@@ -608,7 +608,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Mental Quickness.",
     "devCommentary": "Initially, Mental Quickness was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "Your character is temporarily wreathed in stormy energy."
+    "visualEffect": "Casting Mental Quickness temporarily wreathes your character in stormy energy."
   },
   {
     "id": "elemental_weapons",
@@ -634,7 +634,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Elemental Weapons critically hits.",
     "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Elemental Weapons courses through you."
   },
   {
     "id": "enhancing_totems",
@@ -659,7 +659,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Enhancing Totems was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "Your character is temporarily wreathed in stormy energy."
+    "visualEffect": "Casting Enhancing Totems temporarily wreathes your character in stormy energy."
   },
   {
     "id": "imp_lightning_shield",
@@ -684,7 +684,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
-    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your Improved Lightning Shield attack."
   },
   {
     "id": "ancestral_mastery",
@@ -708,7 +708,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Ancestral Mastery critically hits.",
     "devCommentary": "Initially, Ancestral Mastery was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Ancestral Mastery courses through you."
   },
   {
     "id": "flurry",
@@ -740,7 +740,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Flurry.",
     "devCommentary": "Initially, Flurry was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "Your character is temporarily wreathed in stormy energy."
+    "visualEffect": "Casting Flurry temporarily wreathes your character in stormy energy."
   },
   {
     "id": "unleashed_rage",
@@ -766,7 +766,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
-    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your Unleashed Rage attack."
   },
   {
     "id": "frozen_power",
@@ -791,7 +791,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Frozen Power critically hits.",
     "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
-    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your Frozen Power attack."
   },
   {
     "id": "weapon_mastery",
@@ -823,7 +823,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Weapon Mastery.",
     "devCommentary": "Initially, Weapon Mastery was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Weapon Mastery courses through you."
   },
   {
     "id": "imp_weapon_totems",
@@ -848,7 +848,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
     "devCommentary": "We wanted Improved Weapon Totems to define the Enhancement playstyle at all levels.",
-    "visualEffect": "A massive burst of elements erupts from the target upon impact."
+    "visualEffect": "A massive burst of elements erupts from the target upon the impact of Improved Weapon Totems."
   },
   {
     "id": "earthen_power",
@@ -873,7 +873,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Earthen Power.",
     "devCommentary": "We wanted Earthen Power to define the Enhancement playstyle at all levels.",
-    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your Earthen Power attack."
   },
   {
     "id": "stormstrike",
@@ -901,7 +901,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in stormy energy."
+    "visualEffect": "Casting Stormstrike temporarily wreathes your character in stormy energy."
   },
   {
     "id": "static_shock",
@@ -927,7 +927,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
     "devCommentary": "We wanted Static Shock to define the Enhancement playstyle at all levels.",
-    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your Static Shock attack."
   },
   {
     "id": "shamanistic_focus",
@@ -952,7 +952,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Shamanistic Focus critically hits.",
     "devCommentary": "Initially, Shamanistic Focus was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Shamanistic Focus courses through you."
   },
   {
     "id": "primal_wisdom",
@@ -978,7 +978,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Primal Wisdom.",
     "devCommentary": "We wanted Primal Wisdom to define the Enhancement playstyle at all levels.",
-    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your Primal Wisdom attack."
   },
   {
     "id": "imp_stormstrike",
@@ -1007,7 +1007,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Improved Stormstrike leaves a lingering trail of elements in your wake."
   },
   {
     "id": "ancestral_power",
@@ -1032,7 +1032,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
     "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Ancestral Power courses through you."
   },
   {
     "id": "feral_spirit",
@@ -1060,7 +1060,7 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Feral Spirit leaves a lingering trail of elements in your wake."
   }
 ];
 
@@ -1088,7 +1088,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Reincarnation.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "A massive burst of elements erupts from the target upon impact."
+    "visualEffect": "A massive burst of elements erupts from the target upon the impact of Improved Reincarnation."
   },
   {
     "id": "tidal_focus",
@@ -1116,7 +1116,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Tidal Focus leaves a lingering trail of elements in your wake."
   },
   {
     "id": "imp_healing_wave",
@@ -1142,7 +1142,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Healing Wave.",
     "devCommentary": "We wanted Improved Healing Wave to define the Restoration playstyle at all levels.",
-    "visualEffect": "A massive burst of elements erupts from the target upon impact."
+    "visualEffect": "A massive burst of elements erupts from the target upon the impact of Improved Healing Wave."
   },
   {
     "id": "natures_guidance",
@@ -1168,7 +1168,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
     "devCommentary": "Initially, Nature's Guidance was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Nature's Guidance courses through you."
   },
   {
     "id": "ancestral_healing",
@@ -1194,7 +1194,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Ancestral Healing.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "A massive burst of elements erupts from the target upon impact."
+    "visualEffect": "A massive burst of elements erupts from the target upon the impact of Ancestral Healing."
   },
   {
     "id": "totemic_recall",
@@ -1219,7 +1219,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Totemic Recall critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Totemic Recall leaves a lingering trail of elements in your wake."
   },
   {
     "id": "healing_grace",
@@ -1244,7 +1244,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Healing Grace courses through you."
   },
   {
     "id": "natures_swiftness",
@@ -1268,7 +1268,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Nature's Swiftness.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Nature's Swiftness leaves a lingering trail of elements in your wake."
   },
   {
     "id": "tidal_mastery",
@@ -1300,7 +1300,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Tidal Mastery.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "A massive burst of elements erupts from the target upon impact."
+    "visualEffect": "A massive burst of elements erupts from the target upon the impact of Tidal Mastery."
   },
   {
     "id": "restorative_totems",
@@ -1326,7 +1326,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Restorative Totems.",
     "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
-    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your Restorative Totems attack."
   },
   {
     "id": "cleanse_spirit",
@@ -1354,7 +1354,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
     "devCommentary": "We wanted Cleanse Spirit to define the Restoration playstyle at all levels.",
-    "visualEffect": "A massive burst of elements erupts from the target upon impact."
+    "visualEffect": "A massive burst of elements erupts from the target upon the impact of Cleanse Spirit."
   },
   {
     "id": "purification",
@@ -1380,7 +1380,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Purification.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Purification leaves a lingering trail of elements in your wake."
   },
   {
     "id": "healing_way",
@@ -1406,7 +1406,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Healing Way.",
     "devCommentary": "We wanted Healing Way to define the Restoration playstyle at all levels.",
-    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your Healing Way attack."
   },
   {
     "id": "tidal_waves",
@@ -1431,7 +1431,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
     "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Tidal Waves courses through you."
   },
   {
     "id": "tidal_reach",
@@ -1456,7 +1456,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Tidal Reach critically hits.",
     "devCommentary": "Initially, Tidal Reach was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Tidal Reach courses through you."
   },
   {
     "id": "mana_tide_totem",
@@ -1484,7 +1484,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Mana Tide Totem.",
     "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Mana Tide Totem courses through you."
   },
   {
     "id": "imp_chain_heal",
@@ -1509,7 +1509,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
     "devCommentary": "Initially, Improved Chain Heal was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Improved Chain Heal courses through you."
   },
   {
     "id": "natures_blessing",
@@ -1535,7 +1535,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Nature's Blessing leaves a lingering trail of elements in your wake."
   },
   {
     "id": "earth_shield",
@@ -1559,7 +1559,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Earth Shield critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
-    "visualEffect": "A massive burst of elements erupts from the target upon impact."
+    "visualEffect": "A massive burst of elements erupts from the target upon the impact of Earth Shield."
   },
   {
     "id": "ancestral_awakening",
@@ -1585,7 +1585,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Ancestral Awakening critically hits.",
     "devCommentary": "Initially, Ancestral Awakening was too weak, so we gave it massive stormy scaling.",
-    "visualEffect": "The ground shatters as stormy power courses through you."
+    "visualEffect": "The ground shatters as the stormy power of Ancestral Awakening courses through you."
   },
   {
     "id": "imp_mana_tide",
@@ -1614,7 +1614,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Mana Tide critically hits.",
     "devCommentary": "We wanted Improved Mana Tide to define the Restoration playstyle at all levels.",
-    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your Improved Mana Tide attack."
   },
   {
     "id": "riptide",
@@ -1642,7 +1642,7 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Riptide critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of elements in your wake."
+    "visualEffect": "Your Riptide leaves a lingering trail of elements in your wake."
   }
 ];
 

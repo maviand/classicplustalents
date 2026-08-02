@@ -25,7 +25,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Suppression.",
     "devCommentary": "Initially, Suppression was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Suppression temporarily wreathes your character in demonic energy."
   },
   {
     "id": "imp_corruption",
@@ -53,7 +53,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with demonic energy upon casting Improved Corruption.",
     "devCommentary": "Initially, Improved Corruption was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Improved Corruption temporarily wreathes your character in demonic energy."
   },
   {
     "id": "imp_life_tap",
@@ -78,7 +78,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary void effect.",
     "devCommentary": "Initially, Improved Life Tap was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "The ground shatters as demonic power courses through you."
+    "visualEffect": "The ground shatters as the demonic power of Improved Life Tap courses through you."
   },
   {
     "id": "fel_concentration",
@@ -104,7 +104,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary void effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Fel Concentration temporarily wreathes your character in demonic energy."
   },
   {
     "id": "nightfall",
@@ -130,7 +130,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Nightfall critically hits.",
     "devCommentary": "We wanted Nightfall to define the Affliction playstyle at all levels.",
-    "visualEffect": "A massive burst of void erupts from the target upon impact."
+    "visualEffect": "A massive burst of void erupts from the target upon the impact of Nightfall."
   },
   {
     "id": "grim_reach",
@@ -155,7 +155,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with demonic energy upon casting Grim Reach.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward void ability.",
-    "visualEffect": "A massive burst of void erupts from the target upon impact."
+    "visualEffect": "A massive burst of void erupts from the target upon the impact of Grim Reach."
   },
   {
     "id": "soul_siphon",
@@ -180,7 +180,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Soul Siphon.",
     "devCommentary": "We wanted Soul Siphon to define the Affliction playstyle at all levels.",
-    "visualEffect": "A spectral projection of Gul'dan briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Gul'dan briefly mirrors your Soul Siphon attack."
   },
   {
     "id": "shadow_embrace",
@@ -205,7 +205,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with demonic energy upon casting Shadow Embrace.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Shadow Embrace temporarily wreathes your character in demonic energy."
   },
   {
     "id": "empowered_corruption",
@@ -231,7 +231,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with demonic energy upon casting Empowered Corruption.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of void in your wake."
+    "visualEffect": "Your Empowered Corruption leaves a lingering trail of void in your wake."
   },
   {
     "id": "siphon_life",
@@ -259,7 +259,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Siphon Life was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "The ground shatters as demonic power courses through you."
+    "visualEffect": "The ground shatters as the demonic power of Siphon Life courses through you."
   },
   {
     "id": "everlasting_affliction",
@@ -284,7 +284,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary void effect.",
     "devCommentary": "Designed to smooth out the rotation of demonic specs in long encounters.",
-    "visualEffect": "A spectral projection of Gul'dan briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Gul'dan briefly mirrors your Everlasting Affliction attack."
   },
   {
     "id": "shadow_mastery",
@@ -316,7 +316,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Shadow Mastery critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Shadow Mastery temporarily wreathes your character in demonic energy."
   },
   {
     "id": "master_of_curses",
@@ -341,7 +341,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Master of Curses critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward void ability.",
-    "visualEffect": "A massive burst of void erupts from the target upon impact."
+    "visualEffect": "A massive burst of void erupts from the target upon the impact of Master of Curses."
   },
   {
     "id": "contagion",
@@ -367,7 +367,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Contagion.",
     "devCommentary": "Initially, Contagion was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Contagion temporarily wreathes your character in demonic energy."
   },
   {
     "id": "dark_pact",
@@ -391,7 +391,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Dark Pact.",
     "devCommentary": "Designed to smooth out the rotation of demonic specs in long encounters.",
-    "visualEffect": "The ground shatters as demonic power courses through you."
+    "visualEffect": "The ground shatters as the demonic power of Dark Pact courses through you."
   },
   {
     "id": "eradication",
@@ -416,7 +416,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Eradication temporarily wreathes your character in demonic energy."
   },
   {
     "id": "deaths_embrace",
@@ -442,7 +442,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary void effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Deaths Embrace temporarily wreathes your character in demonic energy."
   },
   {
     "id": "pandemic",
@@ -472,7 +472,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Pandemic to define the Affliction playstyle at all levels.",
-    "visualEffect": "A massive burst of void erupts from the target upon impact."
+    "visualEffect": "A massive burst of void erupts from the target upon the impact of Pandemic."
   },
   {
     "id": "malediction",
@@ -497,7 +497,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with demonic energy upon casting Malediction.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of void in your wake."
+    "visualEffect": "Your Malediction leaves a lingering trail of void in your wake."
   },
   {
     "id": "unstable_affliction",
@@ -525,7 +525,7 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Unstable Affliction critically hits.",
     "devCommentary": "Designed to smooth out the rotation of demonic specs in long encounters.",
-    "visualEffect": "The ground shatters as demonic power courses through you."
+    "visualEffect": "The ground shatters as the demonic power of Unstable Affliction courses through you."
   }
 ];
 
@@ -553,7 +553,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary void effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Improved Healthstone temporarily wreathes your character in demonic energy."
   },
   {
     "id": "imp_imp",
@@ -579,7 +579,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with demonic energy upon casting Improved Imp.",
     "devCommentary": "We wanted Improved Imp to define the Demo playstyle at all levels.",
-    "visualEffect": "A massive burst of void erupts from the target upon impact."
+    "visualEffect": "A massive burst of void erupts from the target upon the impact of Improved Imp."
   },
   {
     "id": "demonic_embrace",
@@ -607,7 +607,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary void effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of void in your wake."
+    "visualEffect": "Your Demonic Embrace leaves a lingering trail of void in your wake."
   },
   {
     "id": "health_funnel",
@@ -632,7 +632,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward void ability.",
-    "visualEffect": "A massive burst of void erupts from the target upon impact."
+    "visualEffect": "A massive burst of void erupts from the target upon the impact of Health Funnel."
   },
   {
     "id": "fel_domination",
@@ -661,7 +661,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Fel Domination.",
     "devCommentary": "Designed to smooth out the rotation of demonic specs in long encounters.",
-    "visualEffect": "The ground shatters as demonic power courses through you."
+    "visualEffect": "The ground shatters as the demonic power of Fel Domination courses through you."
   },
   {
     "id": "imp_voidwalker",
@@ -687,7 +687,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Voidwalker.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Improved Voidwalker temporarily wreathes your character in demonic energy."
   },
   {
     "id": "demonic_intellect",
@@ -713,7 +713,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary void effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of void in your wake."
+    "visualEffect": "Your Demonic Intellect leaves a lingering trail of void in your wake."
   },
   {
     "id": "unholy_power",
@@ -738,7 +738,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with demonic energy upon casting Unholy Power.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward void ability.",
-    "visualEffect": "A massive burst of void erupts from the target upon impact."
+    "visualEffect": "A massive burst of void erupts from the target upon the impact of Unholy Power."
   },
   {
     "id": "soul_link",
@@ -766,7 +766,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Soul Link critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Soul Link temporarily wreathes your character in demonic energy."
   },
   {
     "id": "master_demonologist",
@@ -794,7 +794,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Master Demonologist critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward void ability.",
-    "visualEffect": "Leaves a lingering trail of void in your wake."
+    "visualEffect": "Your Master Demonologist leaves a lingering trail of void in your wake."
   },
   {
     "id": "demonic_aegis",
@@ -820,7 +820,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Demonic Aegis critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward void ability.",
-    "visualEffect": "A massive burst of void erupts from the target upon impact."
+    "visualEffect": "A massive burst of void erupts from the target upon the impact of Demonic Aegis."
   },
   {
     "id": "fel_synergy",
@@ -845,7 +845,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with demonic energy upon casting Fel Synergy.",
     "devCommentary": "Initially, Fel Synergy was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Fel Synergy temporarily wreathes your character in demonic energy."
   },
   {
     "id": "nemesis",
@@ -870,7 +870,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Nemesis critically hits.",
     "devCommentary": "Designed to smooth out the rotation of demonic specs in long encounters.",
-    "visualEffect": "A spectral projection of Gul'dan briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Gul'dan briefly mirrors your Nemesis attack."
   },
   {
     "id": "mana_feed",
@@ -895,7 +895,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Mana Feed was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Mana Feed temporarily wreathes your character in demonic energy."
   },
   {
     "id": "demonic_sacrifice",
@@ -923,7 +923,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Demonic Sacrifice.",
     "devCommentary": "Initially, Demonic Sacrifice was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Demonic Sacrifice temporarily wreathes your character in demonic energy."
   },
   {
     "id": "demonic_knowledge",
@@ -949,7 +949,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of demonic specs in long encounters.",
-    "visualEffect": "A spectral projection of Gul'dan briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Gul'dan briefly mirrors your Demonic Knowledge attack."
   },
   {
     "id": "demonic_resilience",
@@ -975,7 +975,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Demonic Resilience critically hits.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Demonic Resilience temporarily wreathes your character in demonic energy."
   },
   {
     "id": "master_conjuror",
@@ -1001,7 +1001,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with demonic energy upon casting Master Conjuror.",
     "devCommentary": "Initially, Master Conjuror was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "The ground shatters as demonic power courses through you."
+    "visualEffect": "The ground shatters as the demonic power of Master Conjuror courses through you."
   },
   {
     "id": "demonic_tactics",
@@ -1026,7 +1026,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with demonic energy upon casting Demonic Tactics.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward void ability.",
-    "visualEffect": "Leaves a lingering trail of void in your wake."
+    "visualEffect": "Your Demonic Tactics leaves a lingering trail of void in your wake."
   },
   {
     "id": "demonic_pact",
@@ -1056,7 +1056,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary void effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Demonic Pact temporarily wreathes your character in demonic energy."
   },
   {
     "id": "summon_felguard",
@@ -1084,7 +1084,7 @@ export const WARLOCK_DEMO_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Summon Felguard critically hits.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward void ability.",
-    "visualEffect": "Leaves a lingering trail of void in your wake."
+    "visualEffect": "Your Summon Felguard leaves a lingering trail of void in your wake."
   }
 ];
 
@@ -1112,7 +1112,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary void effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of void in your wake."
+    "visualEffect": "Your Bane leaves a lingering trail of void in your wake."
   },
   {
     "id": "imp_shadow_bolt",
@@ -1140,7 +1140,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary void effect.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of void in your wake."
+    "visualEffect": "Your Improved Shadow Bolt leaves a lingering trail of void in your wake."
   },
   {
     "id": "cataclysm",
@@ -1166,7 +1166,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Designed to smooth out the rotation of demonic specs in long encounters.",
-    "visualEffect": "A spectral projection of Gul'dan briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Gul'dan briefly mirrors your Cataclysm attack."
   },
   {
     "id": "intensity",
@@ -1192,7 +1192,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Intensity critically hits.",
     "devCommentary": "Designed to smooth out the rotation of demonic specs in long encounters.",
-    "visualEffect": "The ground shatters as demonic power courses through you."
+    "visualEffect": "The ground shatters as the demonic power of Intensity courses through you."
   },
   {
     "id": "devastation",
@@ -1220,7 +1220,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Modifies your bracer rune to synergize directly with Devastation.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward void ability.",
-    "visualEffect": "A massive burst of void erupts from the target upon impact."
+    "visualEffect": "A massive burst of void erupts from the target upon the impact of Devastation."
   },
   {
     "id": "aftermath",
@@ -1245,7 +1245,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward void ability.",
-    "visualEffect": "Leaves a lingering trail of void in your wake."
+    "visualEffect": "Your Aftermath leaves a lingering trail of void in your wake."
   },
   {
     "id": "destructive_reach",
@@ -1270,7 +1270,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary void effect.",
     "devCommentary": "Initially, Destructive Reach was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "The ground shatters as demonic power courses through you."
+    "visualEffect": "The ground shatters as the demonic power of Destructive Reach courses through you."
   },
   {
     "id": "shadowburn",
@@ -1298,7 +1298,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Causes your helm rune to trigger a secondary void effect.",
     "devCommentary": "Designed to smooth out the rotation of demonic specs in long encounters.",
-    "visualEffect": "A spectral projection of Gul'dan briefly mirrors your attack."
+    "visualEffect": "A spectral projection of Gul'dan briefly mirrors your Shadowburn attack."
   },
   {
     "id": "imp_immolate",
@@ -1326,7 +1326,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Improved Immolate was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "The ground shatters as demonic power courses through you."
+    "visualEffect": "The ground shatters as the demonic power of Improved Immolate courses through you."
   },
   {
     "id": "pyroclasm",
@@ -1352,7 +1352,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Pyroclasm critically hits.",
     "devCommentary": "Designed to smooth out the rotation of demonic specs in long encounters.",
-    "visualEffect": "The ground shatters as demonic power courses through you."
+    "visualEffect": "The ground shatters as the demonic power of Pyroclasm courses through you."
   },
   {
     "id": "fire_and_brimstone",
@@ -1380,7 +1380,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with demonic energy upon casting Fire and Brimstone.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Fire and Brimstone temporarily wreathes your character in demonic energy."
   },
   {
     "id": "nether_protection",
@@ -1405,7 +1405,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward void ability.",
-    "visualEffect": "A massive burst of void erupts from the target upon impact."
+    "visualEffect": "A massive burst of void erupts from the target upon the impact of Nether Protection."
   },
   {
     "id": "backlash",
@@ -1431,7 +1431,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Backlash was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "The ground shatters as demonic power courses through you."
+    "visualEffect": "The ground shatters as the demonic power of Backlash courses through you."
   },
   {
     "id": "imp_firestone",
@@ -1456,7 +1456,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "Initially, Improved Firestone was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Improved Firestone temporarily wreathes your character in demonic energy."
   },
   {
     "id": "conflagrate",
@@ -1484,7 +1484,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Conflagrate critically hits.",
     "devCommentary": "Initially, Conflagrate was too weak, so we gave it massive demonic scaling.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Conflagrate temporarily wreathes your character in demonic energy."
   },
   {
     "id": "soul_leech",
@@ -1509,7 +1509,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "We wanted Soul Leech to define the Destro playstyle at all levels.",
-    "visualEffect": "A massive burst of void erupts from the target upon impact."
+    "visualEffect": "A massive burst of void erupts from the target upon the impact of Soul Leech."
   },
   {
     "id": "shadow_and_flame",
@@ -1537,7 +1537,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Enhances your chest rune to pulse with demonic energy upon casting Shadow and Flame.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Leaves a lingering trail of void in your wake."
+    "visualEffect": "Your Shadow and Flame leaves a lingering trail of void in your wake."
   },
   {
     "id": "bane_of_havoc",
@@ -1562,7 +1562,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "This serves as the ultimate high-risk, high-reward void ability.",
-    "visualEffect": "Leaves a lingering trail of void in your wake."
+    "visualEffect": "Your Bane of Havoc leaves a lingering trail of void in your wake."
   },
   {
     "id": "shadowfury",
@@ -1590,7 +1590,7 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     ],
     "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
     "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your character is temporarily wreathed in demonic energy."
+    "visualEffect": "Casting Shadowfury temporarily wreathes your character in demonic energy."
   }
 ];
 
