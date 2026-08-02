@@ -13,7 +13,7 @@ const RARITY_COLORS: Record<string, string> = {
   'Artifact': '#e6cc80'
 };
 
-export default function Systems() {
+export default function Professions() {
   const [activeCategory, setActiveCategory] = useState(PROF_CATS.PRIMARY_CRAFTING);
   const [activeProfession, setActiveProfession] = useState('Engineering');
   
@@ -38,7 +38,7 @@ export default function Systems() {
       <div className="flex flex-col items-center border-b border-[#3c3224]/50 pb-8 mb-8 relative">
         <div className="absolute inset-0 bg-gradient-to-t from-[#120e0a] to-transparent z-0 pointer-events-none" />
         <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#fff5c3] to-[#ffd100] wow-title drop-shadow-lg relative z-10 text-center">
-          Professions & Systems
+          Professions Database
         </h1>
         <p className="text-[#d3c8b8] mt-3 text-lg font-medium tracking-wide relative z-10 drop-shadow-md text-center max-w-3xl">
           Crafting and gathering have been expanded into a massive endgame pillar. Below is the comprehensive database of new recipes, legendary items, and required materials.

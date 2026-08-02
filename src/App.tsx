@@ -10,7 +10,7 @@ import Runes from './pages/Runes';
 import Talents from './pages/Talents';
 import PvE from './pages/PvE';
 import PvP from './pages/PvP';
-import Systems from './pages/Systems';
+import Professions from './pages/Professions';
 
 export default function App() {
   return (
@@ -30,7 +30,7 @@ export default function App() {
           
           <Route path="pve" element={<PvE />} />
           <Route path="pvp" element={<PvP />} />
-          <Route path="systems" element={<Systems />} />
+          <Route path="professions" element={<Professions />} />
         </Route>
       </Routes>
     </HashRouter>

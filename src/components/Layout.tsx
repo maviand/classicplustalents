@@ -12,7 +12,7 @@ export default function Layout() {
     { path: '/player', label: 'Player' },
     { path: '/pve', label: 'PvE' },
     { path: '/pvp', label: 'PvP' },
-    { path: '/systems', label: 'Systems' },
+    { path: '/professions', label: 'Professions' },
   ];
 
   return (
