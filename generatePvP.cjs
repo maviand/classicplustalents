@@ -134,24 +134,138 @@ const templates = {
   [PVP_MODES.OFFENSIVES]: []
 };
 
-// Generate an extra 10 Offensives procedurally
-const bgLocs = ['Blackrock', 'Desolace', 'Feralas', 'Hinterlands', 'Badlands', 'Winterspring', 'Blasted Lands', 'Searing Gorge', 'Un\'Goro', 'Dustwallow'];
-
-bgLocs.forEach((loc, index) => {
-  templates[PVP_MODES.OFFENSIVES].push({
-    id: "ProcBG_" + loc.replace(/[^a-zA-Z]/g, ''),
-    name: "The " + loc + " Offensive",
+templates[PVP_MODES.OFFENSIVES].push(
+  {
+    id: "ProcBG_Blackrock",
+    name: "The Blackrock Offensive",
     size: 'Zone-Wide Phase',
-    type: 'Phased Warfront',
-    description: "A massive, phased war-style environment where you join the front lines of an eternally locked conflict in " + loc + ".",
+    type: 'Vertical Magma Siege',
+    description: "A massive, phased war-style environment where you join the front lines of an eternally locked conflict deep inside Blackrock Mountain.",
     mechanics: [
-      'Endless Reinforcements: NPCs from both factions constantly spawn and clash at the front lines.',
-      'Objective Conquest: Push the frontline forward by destroying enemy barricades and capturing forward command posts.',
-      'Commander Assassination: Winning requires drawing out and defeating the opposing faction\'s Supreme Commander.'
+      'Magma Flooding: Control pressure valves to flood enemy tunnels with magma.',
+      'Vertical Warfare: No traditional frontlines. Navigate a massive vertical shaft using elevators and precarious catwalks.',
+      'Structural Sabotage: Sabotage massive iron pillars to collapse sections of the mountain on the enemy base.'
     ],
-    lore: "The skirmishes of the Third War echo across " + loc + " as factions desperately secure borders and vital ley lines in a brutal war of attrition."
-  });
-});
+    lore: "The Dark Iron dwarves have been pushed back, but now the Alliance and Horde fight over who controls the deepest secrets of the mountain."
+  },
+  {
+    id: "ProcBG_UnGoro",
+    name: "The Un'Goro Offensive",
+    size: 'Zone-Wide Phase',
+    type: 'Primal Stampede',
+    description: "A chaotic 3-way war where the local dinosaur population is hostile to both factions.",
+    mechanics: [
+      'Dinosaur Taming: Teams must capture and tame roaming Devilsaurs, then ride them into battle as massive siege weapons.',
+      'Pterrodax Airstrikes: Control the high ground to call in pterrodax drops that stun enemy lines.',
+      'Primal Frenzy: Every 10 minutes, all untamed dinosaurs enrage, attacking everything in sight.'
+    ],
+    lore: "The dense crater holds Titan secrets, but securing them requires surviving the apex predators that rule the jungle."
+  },
+  {
+    id: "ProcBG_Winterspring",
+    name: "The Winterspring Offensive",
+    size: 'Zone-Wide Phase',
+    type: 'Avalanche Warfare',
+    description: "Fought on a steep incline in the freezing peaks of Winterspring.",
+    mechanics: [
+      'Trigger Avalanches: Controlling high-altitude outposts allows teams to trigger massive avalanches that instantly wipe out anyone caught in the valleys below.',
+      'Thermal Vents: The weather grows colder over time. Players must secure thermal vents or suffer constant freezing damage.',
+      'Ice Bridge Sabotage: Destroy ice bridges to cut off enemy supply lines.'
+    ],
+    lore: "The blue dragonflight has abandoned the region, leaving the Horde and Alliance to war over the ancient magical leylines buried beneath the snow."
+  },
+  {
+    id: "ProcBG_Desolace",
+    name: "The Desolace Offensive",
+    size: 'Zone-Wide Phase',
+    type: 'Necromantic Arms Race',
+    description: "A graveyard war fought in the bone-littered wastes of Desolace.",
+    mechanics: [
+      'Flesh Golem Construction: Dead players and NPCs leave behind corpses that can be harvested to build Flesh Golems.',
+      'Casualty Escalation: The more casualties a team suffers, the bigger the monster the opposing team can build.',
+      'Centaur Mercenaries: Bribe roaming centaur clans to ambush the enemy supply carts.'
+    ],
+    lore: "The Burning Blade have left a wake of death, providing the perfect fuel for a grim war of attrition."
+  },
+  {
+    id: "ProcBG_Feralas",
+    name: "The Feralas Offensive",
+    size: 'Zone-Wide Phase',
+    type: 'Canopy Skirmish',
+    description: "The ground is covered in toxic Emerald Nightmare fog. The entire war is fought in the canopy of the massive trees.",
+    mechanics: [
+      'Canopy Traversal: Navigate using grappling hooks, rope bridges, and goblin gliders.',
+      'Bridge Destruction: Destroying a rope bridge instantly kills anyone on it. Engineers can repair them.',
+      'Toxic updrafts: The Nightmare fog below occasionally erupts upwards, requiring players to grapple higher to avoid damage.'
+    ],
+    lore: "The Emerald Nightmare has seeped into the soil. The only safe ground is high above, where the night elves and the horde clash for dominance."
+  },
+  {
+    id: "ProcBG_Hinterlands",
+    name: "The Hinterlands Offensive",
+    size: 'Zone-Wide Phase',
+    type: 'Aerial Superiority',
+    description: "Focuses heavily on aerial combat above the peaks of the Hinterlands.",
+    mechanics: [
+      'Mount Up: Players mount heavily armored Wildhammer Gryphons and Horde Wyverns to engage in dogfights.',
+      'Bombing Runs: Secure explosives from the ground to drop on enemy anti-air turrets.',
+      'Mid-Air Boarding: Parachute onto enemy zeppelins/gunships to destroy their engines.'
+    ],
+    lore: "The Wildhammer dwarves refuse to cede their skies, leading to the most brutal aerial combat of the Third War."
+  },
+  {
+    id: "ProcBG_BlastedLands",
+    name: "The Blasted Lands Offensive",
+    size: 'Zone-Wide Phase',
+    type: 'Demonic Sabotage',
+    description: "A three-way war where the demon armies are the main threat.",
+    mechanics: [
+      'Ward Sabotage: Horde and Alliance compete to sabotage each other\'s demonic wards, forcing the Burning Legion to attack the enemy base.',
+      'Nether Portals: Close random Nether Portals before Doomguards pour out.',
+      'Demon Blood: Collect demon blood to empower your faction commander, granting them massive buffs.'
+    ],
+    lore: "The Dark Portal hums with energy. Factions must defend their outposts not only from each other, but from the endless demonic tide."
+  },
+  {
+    id: "ProcBG_SearingGorge",
+    name: "The Searing Gorge Offensive",
+    size: 'Zone-Wide Phase',
+    type: 'Underground Sabotage',
+    description: "Fought in an underground railway system connecting Dark Iron control points.",
+    mechanics: [
+      'Mole Machine Hijacking: Teams fight to hijack massive, heavily armed Dark Iron mole machines to drill into the enemy stronghold.',
+      'Lava Tides: Sections of the tunnels flood with lava on a set timer, forcing players to fight in chokepoints.',
+      'Gunpowder Kegs: Plant massive explosives to collapse enemy drilling tunnels.'
+    ],
+    lore: "The Thorium Brotherhood has hired mercenaries from both sides to clear out the remaining Dark Iron strongholds, turning the gorge into a warzone."
+  },
+  {
+    id: "ProcBG_Badlands",
+    name: "The Badlands Offensive",
+    size: 'Zone-Wide Phase',
+    type: 'Titan Excavation',
+    description: "Both factions are unearthing a massive Titan construct piece by piece in the dusty canyons.",
+    mechanics: [
+      'Excavation Sites: Teams fight over dig sites to recover Titan fragments.',
+      'Construct Assembly: The first team to assemble the construct gains control of it for a final, apocalyptic push.',
+      'Uldaman Defenses: Earthen guardians frequently awake to attack anyone near the dig sites.'
+    ],
+    lore: "Relics of the Titans are buried here. The faction that controls them controls the future of Azeroth."
+  },
+  {
+    id: "ProcBG_Dustwallow",
+    name: "The Dustwallow Offensive",
+    size: 'Zone-Wide Phase',
+    type: 'Swamp Subterfuge',
+    description: "Fought in the deep muck of Dustwallow Marsh, where visibility is heavily restricted.",
+    mechanics: [
+      'Heavy Fog: Deep fog severely limits vision and disables the mini-map.',
+      'Scout Towers: Players must build and defend flare towers to see the enemy coming.',
+      'Swamp Muck: The water slows movement significantly, making stealth classes and ambushes extremely deadly.'
+    ],
+    lore: "Theramore's forces clash with the Horde in the treacherous swamps, where shadows and mud are as deadly as the enemy."
+  }
+);
 
 // MASSIVE DATA INJECTION (7x MORE FIELDS)
 Object.values(templates).forEach(pvpList => {
