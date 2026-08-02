@@ -13,746 +13,702 @@ export const professionsData = {
       "description": "Master the brewing of powerful elixirs, flasks, and transmutations. Discover rare recipes lost to time.",
       "recipes": [
         {
-          "name": "Corrupted Draught",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
+          "name": "Major Flask",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
           "type": "Consumable",
           "stats": [
-            "+15 Strength",
-            "+15 Stamina"
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 23,
+          "mats": "Various materials",
+          "sellPrice": "8g 90s"
+        },
+        {
+          "name": "Minor Elixir",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 48,
+          "mats": "Various materials",
+          "sellPrice": "3g 42s"
+        },
+        {
+          "name": "Potion of Fire Resistance",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 21,
+          "mats": "Various materials",
+          "sellPrice": "1g 59s"
+        },
+        {
+          "name": "Corrupted Flask",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 12,
+          "mats": "Various materials",
+          "sellPrice": "9g 28s"
+        },
+        {
+          "name": "Corrupted Draught of Supreme Power",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
           "requiresLevel": 10,
           "mats": "Various materials",
-          "sellPrice": "9g 65s"
+          "sellPrice": "5g 6s"
         },
         {
-          "name": "Elixir",
+          "name": "Minor Vial",
           "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 36,
-          "mats": "Various materials",
-          "sellPrice": "8g 7s"
-        },
-        {
-          "name": "Lesser Draught",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 31,
-          "mats": "Various materials",
-          "sellPrice": "3g 61s"
-        },
-        {
-          "name": "Draught",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Consumable",
-          "stats": [
-            "+15 Intellect",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 5,
-          "mats": "Various materials",
-          "sellPrice": "10g 93s"
-        },
-        {
-          "name": "Potion of Free Action",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Spirit",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 30,
-          "mats": "Various materials",
-          "sellPrice": "6g 39s"
-        },
-        {
-          "name": "Minor Phial",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Consumable",
-          "stats": [
-            "+15 Agility",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 27,
-          "mats": "Various materials",
-          "sellPrice": "9g 87s"
-        },
-        {
-          "name": "Flask",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 33,
-          "mats": "Various materials",
-          "sellPrice": "10g 36s"
-        },
-        {
-          "name": "Minor Potion",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Consumable",
-          "stats": [
-            "+15 Agility",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 36,
-          "mats": "Various materials",
-          "sellPrice": "10g 16s"
-        },
-        {
-          "name": "Purified Phial",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Consumable",
-          "stats": [
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 16,
-          "mats": "Various materials",
-          "sellPrice": "6g 34s"
-        },
-        {
-          "name": "Volatile Elixir",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
+          "bindType": "",
           "slot": "",
           "type": "Consumable",
           "stats": [
-            "+15 Intellect"
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
-          "requiresLevel": 5,
+          "requiresLevel": 51,
           "mats": "Various materials",
-          "sellPrice": "1g 75s"
+          "sellPrice": "6g 43s"
         },
         {
-          "name": "Major Phial of Dreamless Sleep",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Consumable",
-          "stats": [
-            "+15 Stamina",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 34,
-          "mats": "Various materials",
-          "sellPrice": "6g 0s"
-        },
-        {
-          "name": "Phial of Supreme Power",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
+          "name": "Greater Potion",
+          "rarity": "Epic",
+          "bindType": "",
           "slot": "",
           "type": "Consumable",
           "stats": [
-            "+15 Intellect",
-            "+15 Agility",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "3g 71s"
-        },
-        {
-          "name": "Potion",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Consumable",
-          "stats": [
-            "+15 Intellect",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 24,
-          "mats": "Various materials",
-          "sellPrice": "1g 38s"
-        },
-        {
-          "name": "Corrupted Vial",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Consumable",
-          "stats": [
-            "+15 Strength",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 1,
-          "mats": "Various materials",
-          "sellPrice": "7g 91s"
-        },
-        {
-          "name": "Major Flask",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Consumable",
-          "stats": [
-            "+15 Spirit",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 40,
-          "mats": "Various materials",
-          "sellPrice": "3g 74s"
-        },
-        {
-          "name": "Volatile Vial of Shadow Power",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 56,
-          "mats": "Various materials",
-          "sellPrice": "9g 47s"
-        },
-        {
-          "name": "Major Draught of Dreamless Sleep",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 21,
-          "mats": "Various materials",
-          "sellPrice": "2g 60s"
-        },
-        {
-          "name": "Minor Elixir of Giants",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Consumable",
-          "stats": [
-            "+15 Agility",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 21,
-          "mats": "Various materials",
-          "sellPrice": "2g 56s"
-        },
-        {
-          "name": "Phial",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 19,
-          "mats": "Various materials",
-          "sellPrice": "10g 64s"
-        },
-        {
-          "name": "Purified Phial of Dreamless Sleep",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Consumable",
-          "stats": [
-            "+15 Strength",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 43,
-          "mats": "Various materials",
-          "sellPrice": "1g 51s"
-        },
-        {
-          "name": "Volatile Elixir of Free Action",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 20,
-          "mats": "Various materials",
-          "sellPrice": "2g 2s"
-        },
-        {
-          "name": "Vial of Free Action",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 34,
-          "mats": "Various materials",
-          "sellPrice": "7g 71s"
-        },
-        {
-          "name": "Purified Potion",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 34,
-          "mats": "Various materials",
-          "sellPrice": "6g 88s"
-        },
-        {
-          "name": "Lesser Potion of Supreme Power",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 41,
-          "mats": "Various materials",
-          "sellPrice": "8g 69s"
-        },
-        {
-          "name": "Greater Flask of Shadow Power",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Consumable",
-          "stats": [
-            "+15 Strength",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 26,
-          "mats": "Various materials",
-          "sellPrice": "10g 78s"
-        },
-        {
-          "name": "Greater Draught",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 33,
-          "mats": "Various materials",
-          "sellPrice": "10g 75s"
-        },
-        {
-          "name": "Corrupted Potion",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Consumable",
-          "stats": [
-            "+15 Intellect",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 35,
-          "mats": "Various materials",
-          "sellPrice": "7g 21s"
-        },
-        {
-          "name": "Major Vial",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 33,
-          "mats": "Various materials",
-          "sellPrice": "8g 33s"
-        },
-        {
-          "name": "Greater Phial of the Mongoose",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Consumable",
-          "stats": [
-            "+15 Spirit",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 17,
-          "mats": "Various materials",
-          "sellPrice": "3g 94s"
-        },
-        {
-          "name": "Volatile Draught of the Mongoose",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Consumable",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 12,
-          "mats": "Various materials",
-          "sellPrice": "1g 86s"
-        },
-        {
-          "name": "Greater Vial",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 45,
-          "mats": "Various materials",
-          "sellPrice": "9g 15s"
-        },
-        {
-          "name": "Flask of Free Action",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Consumable",
-          "stats": [
-            "+15 Stamina",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 54,
-          "mats": "Various materials",
-          "sellPrice": "8g 32s"
-        },
-        {
-          "name": "Greater Phial",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Consumable",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 8,
-          "mats": "Various materials",
-          "sellPrice": "6g 93s"
-        },
-        {
-          "name": "Lesser Flask of Fire Resistance",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Consumable",
-          "stats": [
-            "+15 Strength",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 20,
-          "mats": "Various materials",
-          "sellPrice": "6g 31s"
-        },
-        {
-          "name": "Corrupted Flask of Free Action",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Consumable",
-          "stats": [
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 38,
-          "mats": "Various materials",
-          "sellPrice": "5g 54s"
-        },
-        {
-          "name": "Major Elixir of Free Action",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 2,
-          "mats": "Various materials",
-          "sellPrice": "6g 65s"
-        },
-        {
-          "name": "Purified Draught",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Consumable",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 33,
-          "mats": "Various materials",
-          "sellPrice": "5g 15s"
-        },
-        {
-          "name": "Minor Phial of Shadow Power",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 46,
-          "mats": "Various materials",
-          "sellPrice": "5g 33s"
-        },
-        {
-          "name": "Greater Elixir",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 1,
-          "mats": "Various materials",
-          "sellPrice": "9g 97s"
-        },
-        {
-          "name": "Major Elixir",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 26,
-          "mats": "Various materials",
-          "sellPrice": "1g 87s"
-        },
-        {
-          "name": "Enchanted Elixir of Free Action",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Strength",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 40,
-          "mats": "Various materials",
-          "sellPrice": "7g 96s"
-        },
-        {
-          "name": "Volatile Vial",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Consumable",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 20,
-          "mats": "Various materials",
-          "sellPrice": "4g 98s"
-        },
-        {
-          "name": "Phial of Fire Resistance",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Consumable",
-          "stats": [
-            "+15 Agility",
-            "+15 Stamina",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 28,
-          "mats": "Various materials",
-          "sellPrice": "10g 72s"
-        },
-        {
-          "name": "Enchanted Vial of the Sage",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Consumable",
-          "stats": [
-            "+15 Stamina",
-            "+15 Intellect",
-            "Equip: Increases healing done by spells and effects by up to 33."
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
           "requiresLevel": 52,
           "mats": "Various materials",
-          "sellPrice": "1g 77s"
+          "sellPrice": "6g 61s"
         },
         {
-          "name": "Volatile Potion of Free Action",
+          "name": "Lesser Flask of Giants",
           "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
+          "bindType": "",
+          "slot": "",
           "type": "Consumable",
           "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "Equip: Improves your chance to get a critical strike by 1%."
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
           ],
           "effect": "",
-          "requiresLevel": 21,
+          "requiresLevel": 45,
           "mats": "Various materials",
-          "sellPrice": "9g 90s"
+          "sellPrice": "8g 60s"
         },
         {
-          "name": "Flask of Supreme Power",
+          "name": "Draught",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 37,
+          "mats": "Various materials",
+          "sellPrice": "9g 93s"
+        },
+        {
+          "name": "Phial of the Sage",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 44,
+          "mats": "Various materials",
+          "sellPrice": "9g 88s"
+        },
+        {
+          "name": "Purified Potion",
           "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
+          "bindType": "",
+          "slot": "",
           "type": "Consumable",
           "stats": [
-            "+15 Intellect",
-            "+15 Agility"
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
-          "requiresLevel": 34,
+          "requiresLevel": 33,
           "mats": "Various materials",
-          "sellPrice": "4g 1s"
+          "sellPrice": "4g 12s"
         },
         {
-          "name": "Enchanted Phial",
+          "name": "Major Vial",
           "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
+          "bindType": "",
+          "slot": "",
           "type": "Consumable",
           "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "Equip: Increases healing done by spells and effects by up to 33."
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 56,
+          "mats": "Various materials",
+          "sellPrice": "3g 34s"
+        },
+        {
+          "name": "Purified Draught",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 54,
+          "mats": "Various materials",
+          "sellPrice": "10g 34s"
+        },
+        {
+          "name": "Greater Elixir of Supreme Power",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 14,
+          "mats": "Various materials",
+          "sellPrice": "3g 57s"
+        },
+        {
+          "name": "Elixir of Dreamless Sleep",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 43,
+          "mats": "Various materials",
+          "sellPrice": "10g 53s"
+        },
+        {
+          "name": "Elixir",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 39,
+          "mats": "Various materials",
+          "sellPrice": "10g 47s"
+        },
+        {
+          "name": "Lesser Vial of Free Action",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 44,
+          "mats": "Various materials",
+          "sellPrice": "6g 76s"
+        },
+        {
+          "name": "Elixir of the Mongoose",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 2,
+          "mats": "Various materials",
+          "sellPrice": "2g 80s"
+        },
+        {
+          "name": "Volatile Vial",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
           "requiresLevel": 12,
           "mats": "Various materials",
-          "sellPrice": "3g 86s"
+          "sellPrice": "7g 2s"
         },
         {
-          "name": "Corrupted Vial of Dreamless Sleep",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
+          "name": "Flask",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
           "type": "Consumable",
           "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
           ],
           "effect": "",
-          "requiresLevel": 20,
+          "requiresLevel": 15,
           "mats": "Various materials",
-          "sellPrice": "4g 74s"
+          "sellPrice": "1g 48s"
+        },
+        {
+          "name": "Lesser Vial of Dreamless Sleep",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 33,
+          "mats": "Various materials",
+          "sellPrice": "1g 7s"
+        },
+        {
+          "name": "Corrupted Phial of Free Action",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 5,
+          "mats": "Various materials",
+          "sellPrice": "4g 21s"
+        },
+        {
+          "name": "Enchanted Vial",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 13,
+          "mats": "Various materials",
+          "sellPrice": "9g 97s"
+        },
+        {
+          "name": "Lesser Potion",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 45,
+          "mats": "Various materials",
+          "sellPrice": "3g 83s"
+        },
+        {
+          "name": "Volatile Phial of Supreme Power",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 5,
+          "mats": "Various materials",
+          "sellPrice": "6g 32s"
+        },
+        {
+          "name": "Enchanted Potion of Fire Resistance",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 56,
+          "mats": "Various materials",
+          "sellPrice": "3g 22s"
+        },
+        {
+          "name": "Minor Flask of the Mongoose",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 19,
+          "mats": "Various materials",
+          "sellPrice": "9g 96s"
+        },
+        {
+          "name": "Minor Flask",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 1,
+          "mats": "Various materials",
+          "sellPrice": "7g 50s"
+        },
+        {
+          "name": "Purified Flask",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 4,
+          "mats": "Various materials",
+          "sellPrice": "2g 97s"
+        },
+        {
+          "name": "Phial of Supreme Power",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 4,
+          "mats": "Various materials",
+          "sellPrice": "1g 32s"
+        },
+        {
+          "name": "Greater Elixir",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 1,
+          "mats": "Various materials",
+          "sellPrice": "5g 63s"
+        },
+        {
+          "name": "Major Phial of Supreme Power",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 23,
+          "mats": "Various materials",
+          "sellPrice": "10g 7s"
+        },
+        {
+          "name": "Lesser Vial of Fire Resistance",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 22,
+          "mats": "Various materials",
+          "sellPrice": "2g 44s"
+        },
+        {
+          "name": "Corrupted Vial",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 56,
+          "mats": "Various materials",
+          "sellPrice": "10g 25s"
+        },
+        {
+          "name": "Corrupted Phial of Supreme Power",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 44,
+          "mats": "Various materials",
+          "sellPrice": "6g 71s"
+        },
+        {
+          "name": "Lesser Flask of the Mongoose",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 42,
+          "mats": "Various materials",
+          "sellPrice": "10g 34s"
+        },
+        {
+          "name": "Greater Phial",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 18,
+          "mats": "Various materials",
+          "sellPrice": "10g 87s"
+        },
+        {
+          "name": "Corrupted Vial of Free Action",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 49,
+          "mats": "Various materials",
+          "sellPrice": "10g 92s"
+        },
+        {
+          "name": "Volatile Flask of Giants",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 55,
+          "mats": "Various materials",
+          "sellPrice": "1g 34s"
+        },
+        {
+          "name": "Potion of Supreme Power",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 51,
+          "mats": "Various materials",
+          "sellPrice": "1g 7s"
+        },
+        {
+          "name": "Lesser Draught of Dreamless Sleep",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 50,
+          "mats": "Various materials",
+          "sellPrice": "7g 69s"
+        },
+        {
+          "name": "Enchanted Elixir of the Sage",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 23,
+          "mats": "Various materials",
+          "sellPrice": "1g 57s"
+        },
+        {
+          "name": "Corrupted Vial of Fire Resistance",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 47,
+          "mats": "Various materials",
+          "sellPrice": "4g 30s"
+        },
+        {
+          "name": "Vial of Supreme Power",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 43,
+          "mats": "Various materials",
+          "sellPrice": "2g 69s"
+        },
+        {
+          "name": "Greater Draught of Fire Resistance",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 44,
+          "mats": "Various materials",
+          "sellPrice": "8g 82s"
+        },
+        {
+          "name": "Purified Draught of Free Action",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 14,
+          "mats": "Various materials",
+          "sellPrice": "9g 60s"
+        },
+        {
+          "name": "Phial of the Mongoose",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 22,
+          "mats": "Various materials",
+          "sellPrice": "10g 49s"
+        },
+        {
+          "name": "Greater Draught",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 18,
+          "mats": "Various materials",
+          "sellPrice": "4g 70s"
+        },
+        {
+          "name": "Volatile Potion of Fire Resistance",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 52,
+          "mats": "Various materials",
+          "sellPrice": "3g 13s"
         },
         {
           "name": "Greater Draught of Supreme Power",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
           "type": "Consumable",
           "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Intellect"
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
-          "requiresLevel": 57,
-          "mats": "Various materials",
-          "sellPrice": "8g 40s"
-        },
-        {
-          "name": "Greater Elixir of Giants",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Consumable",
-          "stats": [
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 34,
+          "requiresLevel": 56,
           "mats": "Various materials",
           "sellPrice": "5g 16s"
         }
@@ -765,746 +721,745 @@ export const professionsData = {
       "description": "Forge mighty weapons and impenetrable plate armor from the world's rarest ores.",
       "recipes": [
         {
-          "name": "Blood-forged Gauntlets of the Gorilla",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Armor/Weapon",
+          "name": "Arcanite Claymore of the Gorilla",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
           "stats": [
-            "+15 Spirit",
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "Equip: Increases healing done by spells and effects by up to 33."
+          ],
+          "effect": "",
+          "requiresLevel": 47,
+          "mats": "Various materials",
+          "sellPrice": "5g 63s"
+        },
+        {
+          "name": "Arcanite Gauntlets of the Monkey",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Hands",
+          "type": "Plate",
+          "stats": [
             "+15 Intellect"
           ],
           "effect": "",
-          "requiresLevel": 56,
+          "requiresLevel": 19,
           "mats": "Various materials",
-          "sellPrice": "2g 64s"
+          "sellPrice": "10g 88s"
+        },
+        {
+          "name": "Thorium Battleaxe of the Bear",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Axe",
+          "stats": [
+            "+15 Intellect",
+            "+15 Strength",
+            "Equip: Improves your chance to get a critical strike by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 35,
+          "mats": "Various materials",
+          "sellPrice": "6g 35s"
+        },
+        {
+          "name": "Broadsword of the Warlord",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "One-Hand",
+          "type": "Sword",
+          "stats": [
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 55,
+          "mats": "Various materials",
+          "sellPrice": "4g 72s"
+        },
+        {
+          "name": "Thorium Warhammer of the Monkey",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Mace",
+          "stats": [
+            "+15 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 23,
+          "mats": "Various materials",
+          "sellPrice": "5g 39s"
         },
         {
           "name": "Shield",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Armor/Weapon",
+          "slot": "Off Hand",
+          "type": "Shield",
           "stats": [
-            "+15 Stamina"
+            "+15 Strength"
           ],
           "effect": "",
-          "requiresLevel": 42,
+          "requiresLevel": 45,
           "mats": "Various materials",
-          "sellPrice": "4g 90s"
+          "sellPrice": "9g 54s"
         },
         {
-          "name": "Shield of Striking",
+          "name": "Warhammer",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Mace",
+          "stats": [
+            "+15 Strength",
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 14,
+          "mats": "Various materials",
+          "sellPrice": "10g 73s"
+        },
+        {
+          "name": "True-silver Shield",
           "rarity": "Uncommon",
           "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Armor/Weapon",
+          "slot": "Off Hand",
+          "type": "Shield",
           "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Intellect"
+            "+15 Strength"
           ],
           "effect": "",
-          "requiresLevel": 40,
+          "requiresLevel": 33,
           "mats": "Various materials",
-          "sellPrice": "6g 46s"
+          "sellPrice": "3g 72s"
         },
         {
-          "name": "Thorium Broadsword",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Armor/Weapon",
+          "name": "Arcanite Shield",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Off Hand",
+          "type": "Shield",
           "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%."
+            "+15 Agility",
+            "Equip: Increases your chance to hit by 1%."
           ],
           "effect": "",
           "requiresLevel": 51,
           "mats": "Various materials",
-          "sellPrice": "4g 86s"
+          "sellPrice": "7g 15s"
         },
         {
-          "name": "Dark Iron Broadsword",
+          "name": "Battleaxe of the Monkey",
           "rarity": "Rare",
           "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor/Weapon",
+          "slot": "Two-Hand",
+          "type": "Axe",
           "stats": [
-            "+15 Agility",
-            "+15 Spirit",
-            "+15 Intellect"
+            "+15 Strength"
           ],
           "effect": "",
-          "requiresLevel": 23,
+          "requiresLevel": 28,
           "mats": "Various materials",
-          "sellPrice": "7g 32s"
+          "sellPrice": "6g 3s"
         },
         {
-          "name": "Obsidian Warhammer",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 57,
-          "mats": "Various materials",
-          "sellPrice": "3g 32s"
-        },
-        {
-          "name": "Breastplate",
+          "name": "Elementium Pauldrons of the Champion",
           "rarity": "Epic",
           "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor/Weapon",
+          "slot": "Shoulder",
+          "type": "Plate",
+          "stats": [
+            "+15 Strength",
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 17,
+          "mats": "Various materials",
+          "sellPrice": "6g 67s"
+        },
+        {
+          "name": "Dark Iron Claymore of the Bear",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Two-Hand",
+          "type": "Sword",
           "stats": [
             "+15 Intellect"
           ],
           "effect": "",
-          "requiresLevel": 57,
+          "requiresLevel": 46,
           "mats": "Various materials",
-          "sellPrice": "7g 6s"
+          "sellPrice": "2g 95s"
         },
         {
-          "name": "True-silver Gauntlets of the Warlord",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor/Weapon",
+          "name": "Thorium Breastplate",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Chest",
+          "type": "Plate",
           "stats": [
-            "+15 Spirit",
+            "Equip: Increases healing done by spells and effects by up to 33."
+          ],
+          "effect": "",
+          "requiresLevel": 8,
+          "mats": "Various materials",
+          "sellPrice": "9g 20s"
+        },
+        {
+          "name": "Elementium Breastplate of the Tiger",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Chest",
+          "type": "Plate",
+          "stats": [
+            "+15 Agility",
             "+15 Intellect"
           ],
           "effect": "",
-          "requiresLevel": 30,
+          "requiresLevel": 58,
           "mats": "Various materials",
-          "sellPrice": "7g 31s"
+          "sellPrice": "8g 22s"
         },
         {
-          "name": "Blood-forged Breastplate of the Monkey",
-          "rarity": "Rare",
+          "name": "True-silver Sabatons of the Tiger",
+          "rarity": "Uncommon",
           "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Armor/Weapon",
+          "slot": "Feet",
+          "type": "Plate",
           "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
+            "+15 Strength",
+            "+20 Stamina",
+            "+15 Intellect"
+          ],
+          "effect": "",
+          "requiresLevel": 5,
+          "mats": "Various materials",
+          "sellPrice": "6g 56s"
+        },
+        {
+          "name": "Arcanite Greatsword of the Bear",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%.",
+            "+15 Intellect",
+            "Equip: Improves your chance to get a critical strike by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 59,
+          "mats": "Various materials",
+          "sellPrice": "5g 18s"
+        },
+        {
+          "name": "Thorium Gauntlets",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Hands",
+          "type": "Plate",
+          "stats": [
+            "+15 Strength",
             "Equip: Increases damage and healing done by magical spells and effects by up to 21."
           ],
           "effect": "",
-          "requiresLevel": 49,
+          "requiresLevel": 1,
           "mats": "Various materials",
-          "sellPrice": "4g 10s"
+          "sellPrice": "9g 73s"
         },
         {
-          "name": "Dark Iron Gauntlets",
-          "rarity": "Epic",
+          "name": "Sabatons of Striking",
+          "rarity": "Common",
           "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Armor/Weapon",
+          "slot": "Feet",
+          "type": "Plate",
           "stats": [
             "+15 Spirit",
             "+15 Strength"
           ],
           "effect": "",
-          "requiresLevel": 38,
+          "requiresLevel": 31,
           "mats": "Various materials",
-          "sellPrice": "5g 26s"
+          "sellPrice": "5g 72s"
         },
         {
-          "name": "Thorium Shield of the Bear",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Stamina",
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 48,
-          "mats": "Various materials",
-          "sellPrice": "8g 55s"
-        },
-        {
-          "name": "Dark Iron Claymore of the Monkey",
-          "rarity": "Common",
+          "name": "Greatsword of the Gorilla",
+          "rarity": "Uncommon",
           "bindType": "Binds when picked up",
           "slot": "Two-Hand",
-          "type": "Armor/Weapon",
+          "type": "Sword",
           "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Stamina"
+            "+15 Agility",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
           ],
           "effect": "",
-          "requiresLevel": 34,
+          "requiresLevel": 40,
           "mats": "Various materials",
-          "sellPrice": "1g 27s"
+          "sellPrice": "5g 46s"
         },
         {
-          "name": "Dark Iron Sabatons",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor/Weapon",
+          "name": "Stronghold Broadsword of the Warlord",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "One-Hand",
+          "type": "Sword",
           "stats": [
-            "+15 Strength",
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 29,
+          "mats": "Various materials",
+          "sellPrice": "10g 36s"
+        },
+        {
+          "name": "Void-Touched Warhammer of the Champion",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Two-Hand",
+          "type": "Mace",
+          "stats": [
             "+15 Intellect"
           ],
           "effect": "",
-          "requiresLevel": 56,
+          "requiresLevel": 60,
           "mats": "Various materials",
-          "sellPrice": "6g 97s"
+          "sellPrice": "1g 34s"
         },
         {
-          "name": "Elementium Claymore of the Monkey",
+          "name": "Elementium Pauldrons",
           "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor/Weapon",
+          "slot": "Shoulder",
+          "type": "Plate",
           "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Agility",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 47,
-          "mats": "Various materials",
-          "sellPrice": "4g 22s"
-        },
-        {
-          "name": "Dark Iron Battleaxe of the Monkey",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Strength",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
             "Equip: Increases healing done by spells and effects by up to 33."
           ],
           "effect": "",
           "requiresLevel": 18,
           "mats": "Various materials",
-          "sellPrice": "4g 68s"
+          "sellPrice": "7g 55s"
         },
         {
-          "name": "Dark Iron Warhammer of the Warlord",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Armor/Weapon",
+          "name": "Elementium Battleaxe of the Bear",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Two-Hand",
+          "type": "Axe",
           "stats": [
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 12,
+          "mats": "Various materials",
+          "sellPrice": "5g 75s"
+        },
+        {
+          "name": "Dark Iron Gauntlets of the Warlord",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Hands",
+          "type": "Plate",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
             "Equip: Improves your chance to get a critical strike by 1%."
           ],
           "effect": "",
-          "requiresLevel": 37,
+          "requiresLevel": 56,
           "mats": "Various materials",
-          "sellPrice": "9g 57s"
+          "sellPrice": "4g 51s"
         },
         {
-          "name": "Elementium Warhammer of the Monkey",
+          "name": "Blood-forged Pauldrons",
           "rarity": "Uncommon",
           "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor/Weapon",
+          "slot": "Shoulder",
+          "type": "Plate",
           "stats": [
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 5,
-          "mats": "Various materials",
-          "sellPrice": "7g 44s"
-        },
-        {
-          "name": "Lionheart Broadsword",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 14,
-          "mats": "Various materials",
-          "sellPrice": "1g 94s"
-        },
-        {
-          "name": "Dark Iron Shield",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Armor/Weapon",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
             "+15 Strength",
+            "+15 Intellect",
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 15,
+          "mats": "Various materials",
+          "sellPrice": "3g 34s"
+        },
+        {
+          "name": "Elementium Sabatons of the Champion",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Feet",
+          "type": "Plate",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
             "+15 Agility"
           ],
           "effect": "",
-          "requiresLevel": 19,
+          "requiresLevel": 25,
           "mats": "Various materials",
-          "sellPrice": "5g 68s"
+          "sellPrice": "1g 51s"
         },
         {
-          "name": "Stronghold Shield",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor/Weapon",
+          "name": "True-silver Warhammer of the Gorilla",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Mace",
           "stats": [
+            "+15 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+          ],
+          "effect": "",
+          "requiresLevel": 42,
+          "mats": "Various materials",
+          "sellPrice": "10g 93s"
+        },
+        {
+          "name": "Claymore",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "+15 Agility",
             "Equip: Improves your chance to get a critical strike by 1%."
           ],
           "effect": "",
           "requiresLevel": 46,
           "mats": "Various materials",
-          "sellPrice": "7g 38s"
+          "sellPrice": "3g 90s"
         },
         {
-          "name": "True-silver Greatsword of the Gorilla",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 34,
-          "mats": "Various materials",
-          "sellPrice": "1g 24s"
-        },
-        {
-          "name": "Obsidian Gauntlets of Striking",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Stamina",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 55,
-          "mats": "Various materials",
-          "sellPrice": "1g 41s"
-        },
-        {
-          "name": "Pauldrons of the Bear",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Stamina",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 53,
-          "mats": "Various materials",
-          "sellPrice": "7g 81s"
-        },
-        {
-          "name": "Dark Iron Sabatons of the Gorilla",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Stamina",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 31,
-          "mats": "Various materials",
-          "sellPrice": "8g 42s"
-        },
-        {
-          "name": "Obsidian Broadsword",
+          "name": "Stronghold Sabatons",
           "rarity": "Epic",
           "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Armor/Weapon",
+          "slot": "Feet",
+          "type": "Plate",
           "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 45,
-          "mats": "Various materials",
-          "sellPrice": "4g 79s"
-        },
-        {
-          "name": "Blood-forged Gauntlets",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Strength",
             "+15 Intellect"
           ],
           "effect": "",
-          "requiresLevel": 18,
+          "requiresLevel": 25,
           "mats": "Various materials",
-          "sellPrice": "1g 50s"
+          "sellPrice": "10g 48s"
         },
         {
-          "name": "Thorium Claymore of Striking",
+          "name": "Obsidian Sabatons",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Feet",
+          "type": "Plate",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%.",
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 15,
+          "mats": "Various materials",
+          "sellPrice": "3g 68s"
+        },
+        {
+          "name": "Void-Touched Battleaxe of the Champion",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Two-Hand",
+          "type": "Axe",
+          "stats": [
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 54,
+          "mats": "Various materials",
+          "sellPrice": "3g 59s"
+        },
+        {
+          "name": "Void-Touched Sabatons of the Champion",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Feet",
+          "type": "Plate",
+          "stats": [
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 4,
+          "mats": "Various materials",
+          "sellPrice": "6g 4s"
+        },
+        {
+          "name": "True-silver Shield of Striking",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Off Hand",
+          "type": "Shield",
+          "stats": [
+            "+15 Intellect",
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 48,
+          "mats": "Various materials",
+          "sellPrice": "6g 74s"
+        },
+        {
+          "name": "Dark Iron Greatsword of the Warlord",
           "rarity": "Uncommon",
           "bindType": "Binds when picked up",
           "slot": "Two-Hand",
-          "type": "Armor/Weapon",
+          "type": "Sword",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 29,
+          "mats": "Various materials",
+          "sellPrice": "6g 22s"
+        },
+        {
+          "name": "Elementium Pauldrons of the Warlord",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Shoulder",
+          "type": "Plate",
+          "stats": [
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 50,
+          "mats": "Various materials",
+          "sellPrice": "1g 79s"
+        },
+        {
+          "name": "Obsidian Battleaxe",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Two-Hand",
+          "type": "Axe",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+          ],
+          "effect": "",
+          "requiresLevel": 51,
+          "mats": "Various materials",
+          "sellPrice": "8g 90s"
+        },
+        {
+          "name": "Warhammer of the Champion",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Mace",
           "stats": [
             "Equip: Increases healing done by spells and effects by up to 33."
           ],
           "effect": "",
-          "requiresLevel": 22,
+          "requiresLevel": 10,
           "mats": "Various materials",
-          "sellPrice": "10g 4s"
+          "sellPrice": "5g 13s"
         },
         {
-          "name": "Arcanite Broadsword of Defense",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 22,
-          "mats": "Various materials",
-          "sellPrice": "8g 75s"
-        },
-        {
-          "name": "Blood-forged Greatsword of Striking",
-          "rarity": "Uncommon",
+          "name": "Dark Iron Breastplate of the Gorilla",
+          "rarity": "Rare",
           "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor/Weapon",
+          "slot": "Chest",
+          "type": "Plate",
           "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Stamina",
-            "Equip: Improves your chance to get a critical strike by 1%."
+            "+20 Stamina",
+            "Equip: Increases healing done by spells and effects by up to 33."
           ],
           "effect": "",
-          "requiresLevel": 33,
+          "requiresLevel": 60,
           "mats": "Various materials",
           "sellPrice": "8g 37s"
         },
         {
-          "name": "Lionheart Warhammer",
+          "name": "Greatsword of the Tiger",
           "rarity": "Rare",
           "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor/Weapon",
+          "slot": "Two-Hand",
+          "type": "Sword",
           "stats": [
-            "+15 Strength",
-            "+15 Stamina"
+            "+15 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
           ],
           "effect": "",
-          "requiresLevel": 12,
+          "requiresLevel": 11,
           "mats": "Various materials",
-          "sellPrice": "1g 81s"
+          "sellPrice": "2g 20s"
         },
         {
-          "name": "Sabatons of Striking",
-          "rarity": "Common",
+          "name": "Breastplate of Striking",
+          "rarity": "Rare",
           "bindType": "Binds when equipped",
           "slot": "Chest",
-          "type": "Armor/Weapon",
+          "type": "Plate",
           "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Strength",
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 16,
+          "mats": "Various materials",
+          "sellPrice": "9g 64s"
+        },
+        {
+          "name": "Breastplate",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Chest",
+          "type": "Plate",
+          "stats": [
+            "+15 Agility",
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 1,
+          "mats": "Various materials",
+          "sellPrice": "10g 7s"
+        },
+        {
+          "name": "Gauntlets of the Warlord",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Hands",
+          "type": "Plate",
+          "stats": [
+            "+15 Intellect"
+          ],
+          "effect": "",
+          "requiresLevel": 60,
+          "mats": "Various materials",
+          "sellPrice": "3g 80s"
+        },
+        {
+          "name": "Blood-forged Claymore",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+15 Agility",
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 47,
+          "mats": "Various materials",
+          "sellPrice": "9g 52s"
+        },
+        {
+          "name": "Warhammer of the Monkey",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Two-Hand",
+          "type": "Mace",
+          "stats": [
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "+15 Spirit",
+            "Equip: Increases healing done by spells and effects by up to 33."
+          ],
+          "effect": "",
+          "requiresLevel": 47,
+          "mats": "Various materials",
+          "sellPrice": "10g 30s"
+        },
+        {
+          "name": "Void-Touched Claymore of Striking",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+15 Intellect",
             "Equip: Improves your chance to get a critical strike by 1%."
           ],
           "effect": "",
           "requiresLevel": 56,
           "mats": "Various materials",
-          "sellPrice": "6g 60s"
+          "sellPrice": "10g 81s"
         },
         {
-          "name": "Thorium Sabatons",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Armor/Weapon",
+          "name": "Lionheart Battleaxe",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Axe",
           "stats": [
+            "Equip: Increases healing done by spells and effects by up to 33.",
+            "+15 Strength",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+          ],
+          "effect": "",
+          "requiresLevel": 38,
+          "mats": "Various materials",
+          "sellPrice": "10g 20s"
+        },
+        {
+          "name": "Gauntlets of the Bear",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Hands",
+          "type": "Plate",
+          "stats": [
+            "+20 Stamina",
             "+15 Strength"
           ],
           "effect": "",
           "requiresLevel": 17,
           "mats": "Various materials",
-          "sellPrice": "7g 32s"
+          "sellPrice": "2g 26s"
         },
         {
-          "name": "Thorium Battleaxe",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Spirit",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 10,
-          "mats": "Various materials",
-          "sellPrice": "4g 14s"
-        },
-        {
-          "name": "Arcanite Gauntlets of the Gorilla",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Strength",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 55,
-          "mats": "Various materials",
-          "sellPrice": "1g 4s"
-        },
-        {
-          "name": "Stronghold Warhammer of the Warlord",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 44,
-          "mats": "Various materials",
-          "sellPrice": "10g 52s"
-        },
-        {
-          "name": "Stronghold Broadsword of the Monkey",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor/Weapon",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 14,
-          "mats": "Various materials",
-          "sellPrice": "5g 78s"
-        },
-        {
-          "name": "Claymore of the Warlord",
-          "rarity": "Uncommon",
+          "name": "Dark Iron Claymore",
+          "rarity": "Common",
           "bindType": "Binds when equipped",
           "slot": "Two-Hand",
-          "type": "Armor/Weapon",
+          "type": "Sword",
           "stats": [
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 15,
-          "mats": "Various materials",
-          "sellPrice": "6g 13s"
-        },
-        {
-          "name": "Lionheart Pauldrons",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Armor/Weapon",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 51,
-          "mats": "Various materials",
-          "sellPrice": "1g 69s"
-        },
-        {
-          "name": "Battleaxe",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Armor/Weapon",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 20,
-          "mats": "Various materials",
-          "sellPrice": "6g 64s"
-        },
-        {
-          "name": "Obsidian Gauntlets of the Champion",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Armor/Weapon",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Agility",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 20,
-          "mats": "Various materials",
-          "sellPrice": "5g 95s"
-        },
-        {
-          "name": "Stronghold Gauntlets",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Spirit",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 27,
-          "mats": "Various materials",
-          "sellPrice": "8g 84s"
-        },
-        {
-          "name": "Gauntlets of the Monkey",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Spirit",
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 55,
-          "mats": "Various materials",
-          "sellPrice": "4g 47s"
-        },
-        {
-          "name": "Arcanite Warhammer",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Armor/Weapon",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 45,
-          "mats": "Various materials",
-          "sellPrice": "8g 95s"
-        },
-        {
-          "name": "Void-Touched Gauntlets",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor/Weapon",
-          "stats": [
+            "+15 Strength",
             "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 25,
-          "mats": "Various materials",
-          "sellPrice": "8g 7s"
-        },
-        {
-          "name": "Lionheart Greatsword",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Armor/Weapon",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Spirit",
-            "Equip: Improves your chance to get a critical strike by 1%."
           ],
           "effect": "",
           "requiresLevel": 36,
           "mats": "Various materials",
-          "sellPrice": "2g 3s"
+          "sellPrice": "3g 90s"
         },
         {
-          "name": "Blood-forged Sabatons of Striking",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Armor/Weapon",
+          "name": "Dark Iron Pauldrons of Defense",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Shoulder",
+          "type": "Plate",
           "stats": [
             "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Stamina"
+            "+15 Spirit"
           ],
           "effect": "",
-          "requiresLevel": 2,
+          "requiresLevel": 52,
           "mats": "Various materials",
-          "sellPrice": "1g 35s"
+          "sellPrice": "3g 92s"
         },
         {
-          "name": "Stronghold Shield of the Champion",
+          "name": "Elementium Sabatons",
           "rarity": "Common",
           "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Armor/Weapon",
+          "slot": "Feet",
+          "type": "Plate",
           "stats": [
-            "+15 Stamina",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 20,
-          "mats": "Various materials",
-          "sellPrice": "9g 17s"
-        },
-        {
-          "name": "Void-Touched Sabatons of the Bear",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor/Weapon",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Agility",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "+15 Strength",
             "+15 Intellect"
           ],
           "effect": "",
-          "requiresLevel": 57,
+          "requiresLevel": 60,
           "mats": "Various materials",
-          "sellPrice": "4g 9s"
-        },
-        {
-          "name": "Claymore",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Armor/Weapon",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Strength",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 2,
-          "mats": "Various materials",
-          "sellPrice": "3g 93s"
-        },
-        {
-          "name": "Obsidian Claymore",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Armor/Weapon",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 14,
-          "mats": "Various materials",
-          "sellPrice": "9g 51s"
+          "sellPrice": "10g 73s"
         }
       ]
     },
@@ -1512,744 +1467,744 @@ export const professionsData = {
       "id": "Engineering",
       "name": "Engineering",
       "icon": "trade_engineering",
-      "description": "The pinnacle of utility. Build explosives, gadgets, and personal flying prototypes.",
+      "description": "The pinnacle of utility. Build explosives, trinkets, and personal flying prototypes.",
       "recipes": [
         {
-          "name": "Volatile Rocket Boots Mk. II",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Gadget",
+          "name": "Goblin Repair Bot",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Miscellaneous",
           "stats": [
-            "+15 Spirit",
-            "+15 Stamina"
+            "Equip: Increases your chance to hit by 1%.",
+            "Equip: Improves your chance to get a critical strike by 1%."
           ],
           "effect": "",
           "requiresLevel": 30,
           "mats": "Various materials",
-          "sellPrice": "7g 0s"
+          "sellPrice": "8g 88s"
         },
         {
-          "name": "Ultrasafe Net-o-Matic v1.0",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Gadget",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 40,
-          "mats": "Various materials",
-          "sellPrice": "2g 54s"
-        },
-        {
-          "name": "Goblin Battle Chicken Mk. II",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Gadget",
-          "stats": [
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 54,
-          "mats": "Various materials",
-          "sellPrice": "8g 66s"
-        },
-        {
-          "name": "Volatile Shrink Ray XL",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Gadget",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 52,
-          "mats": "Various materials",
-          "sellPrice": "1g 14s"
-        },
-        {
-          "name": "Volatile Shrink Ray",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Gadget",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "7g 81s"
-        },
-        {
-          "name": "Net-o-Matic",
+          "name": "Grenade v3.0",
           "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Gadget",
+          "bindType": "",
+          "slot": "",
+          "type": "Explosive",
           "stats": [
-            "+15 Agility"
+            "Use: Inflicts 300 to 500 Fire damage and stuns targets for 3 sec in a 3 yard radius."
           ],
           "effect": "",
-          "requiresLevel": 24,
+          "requiresLevel": 8,
           "mats": "Various materials",
-          "sellPrice": "6g 55s"
+          "sellPrice": "3g 91s"
         },
         {
-          "name": "Mind Control Cap XL",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Gadget",
+          "name": "Repair Bot v2.0",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Miscellaneous",
           "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "Equip: Increases healing done by spells and effects by up to 33."
+            "+15 Intellect"
           ],
           "effect": "",
           "requiresLevel": 18,
           "mats": "Various materials",
-          "sellPrice": "2g 19s"
+          "sellPrice": "6g 46s"
         },
         {
-          "name": "Arcane-Powered Death-Ray",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Gadget",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 55,
-          "mats": "Various materials",
-          "sellPrice": "2g 30s"
-        },
-        {
-          "name": "Volatile Repair Bot v3.0",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Gadget",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 29,
-          "mats": "Various materials",
-          "sellPrice": "5g 57s"
-        },
-        {
-          "name": "Goblin Dynamite Prototype",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Gadget",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 15,
-          "mats": "Various materials",
-          "sellPrice": "5g 92s"
-        },
-        {
-          "name": "Experimental Mind Control Cap",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Gadget",
-          "stats": [
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 36,
-          "mats": "Various materials",
-          "sellPrice": "5g 88s"
-        },
-        {
-          "name": "Overcharged Rocket Boots",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Gadget",
-          "stats": [
-            "+15 Spirit",
-            "+15 Intellect",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 55,
-          "mats": "Various materials",
-          "sellPrice": "1g 18s"
-        },
-        {
-          "name": "Gnomish Repair Bot XL",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Gadget",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 17,
-          "mats": "Various materials",
-          "sellPrice": "5g 86s"
-        },
-        {
-          "name": "Arcane-Powered Rocket Boots XL",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Gadget",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 49,
-          "mats": "Various materials",
-          "sellPrice": "2g 63s"
-        },
-        {
-          "name": "Arcane-Powered Net-o-Matic",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Gadget",
-          "stats": [
-            "+15 Strength",
-            "+15 Agility",
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 29,
-          "mats": "Various materials",
-          "sellPrice": "7g 96s"
-        },
-        {
-          "name": "Repair Bot",
+          "name": "Clockwork Defibrillator XL",
           "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Gadget",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "Equip: Improves your chance to get a critical strike by 1%."
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
           ],
           "effect": "",
-          "requiresLevel": 60,
+          "requiresLevel": 21,
           "mats": "Various materials",
-          "sellPrice": "3g 12s"
+          "sellPrice": "6g 67s"
+        },
+        {
+          "name": "Shrink Ray",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 16,
+          "mats": "Various materials",
+          "sellPrice": "10g 78s"
+        },
+        {
+          "name": "Clockwork Shrink Ray Prototype",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 4,
+          "mats": "Various materials",
+          "sellPrice": "1g 72s"
+        },
+        {
+          "name": "Dynamite",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Explosive",
+          "stats": [
+            "Use: Inflicts 300 to 500 Fire damage and stuns targets for 3 sec in a 3 yard radius."
+          ],
+          "effect": "",
+          "requiresLevel": 42,
+          "mats": "Various materials",
+          "sellPrice": "2g 48s"
+        },
+        {
+          "name": "Overcharged Grenade",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Explosive",
+          "stats": [
+            "Use: Inflicts 300 to 500 Fire damage and stuns targets for 3 sec in a 3 yard radius."
+          ],
+          "effect": "",
+          "requiresLevel": 25,
+          "mats": "Various materials",
+          "sellPrice": "4g 52s"
+        },
+        {
+          "name": "Goblin Grenade",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Explosive",
+          "stats": [
+            "Use: Inflicts 300 to 500 Fire damage and stuns targets for 3 sec in a 3 yard radius."
+          ],
+          "effect": "",
+          "requiresLevel": 23,
+          "mats": "Various materials",
+          "sellPrice": "2g 36s"
+        },
+        {
+          "name": "Clockwork Death-Ray",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 9,
+          "mats": "Various materials",
+          "sellPrice": "4g 85s"
         },
         {
           "name": "Arcane-Powered Defibrillator",
-          "rarity": "Common",
+          "rarity": "Uncommon",
           "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Gadget",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
-            "+15 Agility"
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
           ],
           "effect": "",
           "requiresLevel": 22,
           "mats": "Various materials",
-          "sellPrice": "8g 41s"
+          "sellPrice": "1g 87s"
         },
         {
-          "name": "Goblin Defibrillator",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Gadget",
+          "name": "Ultrasafe Shrink Ray",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "Equip: Increases healing done by spells and effects by up to 33."
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
           ],
           "effect": "",
-          "requiresLevel": 45,
+          "requiresLevel": 17,
           "mats": "Various materials",
-          "sellPrice": "8g 12s"
+          "sellPrice": "5g 81s"
+        },
+        {
+          "name": "Goblin Mind Control Cap",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "+15 Intellect",
+            "Equip: Increases your chance to hit by 1%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+          ],
+          "effect": "",
+          "requiresLevel": 35,
+          "mats": "Various materials",
+          "sellPrice": "3g 25s"
+        },
+        {
+          "name": "Ultrasafe Grenade",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Explosive",
+          "stats": [
+            "Use: Inflicts 300 to 500 Fire damage and stuns targets for 3 sec in a 3 yard radius."
+          ],
+          "effect": "",
+          "requiresLevel": 16,
+          "mats": "Various materials",
+          "sellPrice": "1g 98s"
+        },
+        {
+          "name": "Volatile Grenade Mk. II",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Explosive",
+          "stats": [
+            "Use: Inflicts 300 to 500 Fire damage and stuns targets for 3 sec in a 3 yard radius."
+          ],
+          "effect": "",
+          "requiresLevel": 31,
+          "mats": "Various materials",
+          "sellPrice": "7g 76s"
+        },
+        {
+          "name": "Goblin Defibrillator XL",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 54,
+          "mats": "Various materials",
+          "sellPrice": "6g 35s"
+        },
+        {
+          "name": "Goblin Shrink Ray",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 8,
+          "mats": "Various materials",
+          "sellPrice": "3g 73s"
+        },
+        {
+          "name": "Grenade",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Explosive",
+          "stats": [
+            "Use: Inflicts 300 to 500 Fire damage and stuns targets for 3 sec in a 3 yard radius."
+          ],
+          "effect": "",
+          "requiresLevel": 38,
+          "mats": "Various materials",
+          "sellPrice": "2g 76s"
+        },
+        {
+          "name": "Goblin Mind Control Cap v1.0",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 47,
+          "mats": "Various materials",
+          "sellPrice": "1g 90s"
+        },
+        {
+          "name": "Arcane-Powered Grenade Prototype",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Explosive",
+          "stats": [
+            "Use: Inflicts 300 to 500 Fire damage and stuns targets for 3 sec in a 3 yard radius."
+          ],
+          "effect": "",
+          "requiresLevel": 18,
+          "mats": "Various materials",
+          "sellPrice": "10g 61s"
         },
         {
           "name": "Clockwork Net-o-Matic",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Gadget",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 36,
+          "mats": "Various materials",
+          "sellPrice": "10g 65s"
+        },
+        {
+          "name": "Goblin Death-Ray v1.0",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 5,
+          "mats": "Various materials",
+          "sellPrice": "2g 28s"
+        },
+        {
+          "name": "Experimental Death-Ray",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 44,
+          "mats": "Various materials",
+          "sellPrice": "4g 42s"
+        },
+        {
+          "name": "Clockwork Grenade v3.0",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Explosive",
+          "stats": [
+            "Use: Inflicts 300 to 500 Fire damage and stuns targets for 3 sec in a 3 yard radius."
+          ],
+          "effect": "",
+          "requiresLevel": 55,
+          "mats": "Various materials",
+          "sellPrice": "8g 15s"
+        },
+        {
+          "name": "Overcharged Battle Chicken Prototype",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 24,
+          "mats": "Various materials",
+          "sellPrice": "5g 72s"
+        },
+        {
+          "name": "Gnomish Battle Chicken v1.0",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 44,
+          "mats": "Various materials",
+          "sellPrice": "5g 90s"
+        },
+        {
+          "name": "Rocket Boots v3.0",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases healing done by spells and effects by up to 33.",
+            "Equip: Improves your chance to get a critical strike by 1%.",
             "+15 Strength"
           ],
           "effect": "",
-          "requiresLevel": 34,
+          "requiresLevel": 24,
           "mats": "Various materials",
-          "sellPrice": "2g 92s"
+          "sellPrice": "4g 28s"
         },
         {
-          "name": "Repair Bot v3.0",
-          "rarity": "Common",
+          "name": "Gnomish Mind Control Cap",
+          "rarity": "Epic",
           "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Gadget",
+          "slot": "Head",
+          "type": "Cloth",
           "stats": [
-            "+15 Stamina",
-            "Equip: Improves your chance to get a critical strike by 1%."
+            "Equip: Increases your chance to hit by 1%."
           ],
           "effect": "",
-          "requiresLevel": 30,
+          "requiresLevel": 17,
           "mats": "Various materials",
-          "sellPrice": "1g 49s"
+          "sellPrice": "4g 30s"
+        },
+        {
+          "name": "Volatile Death-Ray",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 60,
+          "mats": "Various materials",
+          "sellPrice": "5g 33s"
+        },
+        {
+          "name": "Mind Control Cap v1.0",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "+15 Intellect",
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60,
+          "mats": "Various materials",
+          "sellPrice": "5g 30s"
+        },
+        {
+          "name": "Gnomish Battle Chicken",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 53,
+          "mats": "Various materials",
+          "sellPrice": "4g 98s"
         },
         {
           "name": "Rocket Boots",
           "rarity": "Common",
           "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Gadget",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 23,
-          "mats": "Various materials",
-          "sellPrice": "5g 44s"
-        },
-        {
-          "name": "Ultrasafe Repair Bot Mk. II",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Gadget",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Agility",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 24,
-          "mats": "Various materials",
-          "sellPrice": "5g 15s"
-        },
-        {
-          "name": "Experimental Net-o-Matic XL",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Gadget",
-          "stats": [
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 49,
-          "mats": "Various materials",
-          "sellPrice": "9g 92s"
-        },
-        {
-          "name": "Arcane-Powered Repair Bot",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Gadget",
-          "stats": [
-            "+15 Spirit",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 30,
-          "mats": "Various materials",
-          "sellPrice": "7g 90s"
-        },
-        {
-          "name": "Overcharged Shrink Ray XL",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Gadget",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 40,
-          "mats": "Various materials",
-          "sellPrice": "4g 30s"
-        },
-        {
-          "name": "Arcane-Powered Dynamite",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Gadget",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 18,
-          "mats": "Various materials",
-          "sellPrice": "6g 60s"
-        },
-        {
-          "name": "Gnomish Mind Control Cap",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Gadget",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 58,
-          "mats": "Various materials",
-          "sellPrice": "1g 92s"
-        },
-        {
-          "name": "Clockwork Repair Bot v3.0",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Gadget",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 60,
-          "mats": "Various materials",
-          "sellPrice": "6g 27s"
-        },
-        {
-          "name": "Overcharged Battle Chicken v1.0",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Gadget",
+          "slot": "Feet",
+          "type": "Cloth",
           "stats": [
             "+15 Agility",
-            "Equip: Improves your chance to get a critical strike by 1%."
+            "+20 Stamina"
           ],
           "effect": "",
-          "requiresLevel": 44,
-          "mats": "Various materials",
-          "sellPrice": "2g 6s"
-        },
-        {
-          "name": "Goblin Net-o-Matic v1.0",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Gadget",
-          "stats": [
-            "+15 Stamina",
-            "+15 Strength",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 60,
-          "mats": "Various materials",
-          "sellPrice": "1g 40s"
-        },
-        {
-          "name": "Ultrasafe Death-Ray",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Gadget",
-          "stats": [
-            "+15 Intellect",
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 50,
-          "mats": "Various materials",
-          "sellPrice": "9g 84s"
-        },
-        {
-          "name": "Volatile Rocket Boots v1.0",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Gadget",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Intellect",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 15,
-          "mats": "Various materials",
-          "sellPrice": "2g 89s"
-        },
-        {
-          "name": "Dynamite",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Gadget",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Spirit",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 42,
-          "mats": "Various materials",
-          "sellPrice": "2g 81s"
-        },
-        {
-          "name": "Battle Chicken",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Gadget",
-          "stats": [
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 50,
-          "mats": "Various materials",
-          "sellPrice": "5g 86s"
-        },
-        {
-          "name": "Rocket Boots v2.0",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Gadget",
-          "stats": [
-            "+15 Strength",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 48,
-          "mats": "Various materials",
-          "sellPrice": "5g 70s"
-        },
-        {
-          "name": "Experimental Dynamite Prototype",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Gadget",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 18,
-          "mats": "Various materials",
-          "sellPrice": "1g 40s"
-        },
-        {
-          "name": "Overcharged Grenade Mk. II",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Gadget",
-          "stats": [
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 43,
+          "requiresLevel": 3,
           "mats": "Various materials",
           "sellPrice": "4g 81s"
         },
         {
-          "name": "Arcane-Powered Grenade",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Gadget",
+          "name": "Ultrasafe Dynamite v1.0",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Explosive",
           "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
+            "Use: Inflicts 300 to 500 Fire damage and stuns targets for 3 sec in a 3 yard radius."
           ],
           "effect": "",
-          "requiresLevel": 27,
+          "requiresLevel": 29,
           "mats": "Various materials",
-          "sellPrice": "5g 67s"
+          "sellPrice": "1g 27s"
         },
         {
-          "name": "Ultrasafe Battle Chicken v1.0",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Gadget",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 52,
-          "mats": "Various materials",
-          "sellPrice": "9g 28s"
-        },
-        {
-          "name": "Repair Bot XL",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Gadget",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 27,
-          "mats": "Various materials",
-          "sellPrice": "2g 96s"
-        },
-        {
-          "name": "Arcane-Powered Death-Ray Prototype",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Gadget",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 17,
-          "mats": "Various materials",
-          "sellPrice": "5g 86s"
-        },
-        {
-          "name": "Defibrillator Prototype",
+          "name": "Defibrillator",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Gadget",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
-            "+15 Spirit",
-            "+15 Agility",
-            "+15 Strength"
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
           ],
           "effect": "",
-          "requiresLevel": 30,
+          "requiresLevel": 23,
           "mats": "Various materials",
-          "sellPrice": "7g 28s"
+          "sellPrice": "7g 70s"
         },
         {
-          "name": "Volatile Repair Bot",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Gadget",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 31,
-          "mats": "Various materials",
-          "sellPrice": "3g 63s"
-        },
-        {
-          "name": "Rocket Boots v1.0",
+          "name": "Arcane-Powered Net-o-Matic v2.0",
           "rarity": "Uncommon",
           "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Gadget",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 58,
+          "mats": "Various materials",
+          "sellPrice": "7g 78s"
+        },
+        {
+          "name": "Experimental Net-o-Matic v3.0",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 35,
+          "mats": "Various materials",
+          "sellPrice": "6g 67s"
+        },
+        {
+          "name": "Ultrasafe Rocket Boots",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%.",
             "+15 Intellect"
           ],
           "effect": "",
-          "requiresLevel": 46,
+          "requiresLevel": 36,
           "mats": "Various materials",
-          "sellPrice": "9g 86s"
+          "sellPrice": "4g 90s"
         },
         {
-          "name": "Ultrasafe Net-o-Matic",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Gadget",
+          "name": "Goblin Net-o-Matic Prototype",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
-            "+15 Stamina"
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
           ],
           "effect": "",
-          "requiresLevel": 59,
+          "requiresLevel": 53,
           "mats": "Various materials",
-          "sellPrice": "2g 1s"
+          "sellPrice": "9g 13s"
         },
         {
-          "name": "Experimental Shrink Ray",
+          "name": "Gnomish Death-Ray",
           "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Gadget",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
-            "+15 Spirit",
-            "+15 Agility"
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 8,
+          "mats": "Various materials",
+          "sellPrice": "4g 52s"
+        },
+        {
+          "name": "Gnomish Death-Ray v1.0",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 9,
+          "mats": "Various materials",
+          "sellPrice": "1g 84s"
+        },
+        {
+          "name": "Overcharged Death-Ray v1.0",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
           ],
           "effect": "",
           "requiresLevel": 18,
           "mats": "Various materials",
-          "sellPrice": "6g 52s"
+          "sellPrice": "9g 93s"
         },
         {
-          "name": "Goblin Net-o-Matic",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Gadget",
-          "stats": [
-            "+15 Stamina",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 50,
-          "mats": "Various materials",
-          "sellPrice": "2g 97s"
-        },
-        {
-          "name": "Gnomish Net-o-Matic",
+          "name": "Clockwork Mind Control Cap XL",
           "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Gadget",
+          "bindType": "Binds when picked up",
+          "slot": "Head",
+          "type": "Cloth",
           "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Strength",
+            "+15 Agility",
             "Equip: Increases healing done by spells and effects by up to 33."
           ],
           "effect": "",
-          "requiresLevel": 33,
+          "requiresLevel": 60,
           "mats": "Various materials",
-          "sellPrice": "1g 93s"
+          "sellPrice": "9g 35s"
         },
         {
-          "name": "Mind Control Cap",
-          "rarity": "Uncommon",
+          "name": "Ultrasafe Defibrillator",
+          "rarity": "Common",
           "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Gadget",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
-            "+15 Intellect"
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
           ],
           "effect": "",
-          "requiresLevel": 41,
+          "requiresLevel": 52,
           "mats": "Various materials",
-          "sellPrice": "1g 42s"
+          "sellPrice": "4g 67s"
         },
         {
-          "name": "Net-o-Matic v3.0",
-          "rarity": "Uncommon",
+          "name": "Clockwork Battle Chicken",
+          "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Gadget",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
-            "+15 Stamina",
-            "+15 Intellect"
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 49,
+          "mats": "Various materials",
+          "sellPrice": "1g 96s"
+        },
+        {
+          "name": "Repair Bot v3.0",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Miscellaneous",
+          "stats": [
+            "+15 Agility"
           ],
           "effect": "",
           "requiresLevel": 45,
           "mats": "Various materials",
-          "sellPrice": "6g 46s"
+          "sellPrice": "4g 69s"
+        },
+        {
+          "name": "Shrink Ray Mk. II",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 27,
+          "mats": "Various materials",
+          "sellPrice": "2g 28s"
+        },
+        {
+          "name": "Overcharged Defibrillator",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 6,
+          "mats": "Various materials",
+          "sellPrice": "8g 2s"
+        },
+        {
+          "name": "Gnomish Net-o-Matic",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 46,
+          "mats": "Various materials",
+          "sellPrice": "9g 61s"
+        },
+        {
+          "name": "Dynamite v3.0",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Explosive",
+          "stats": [
+            "Use: Inflicts 300 to 500 Fire damage and stuns targets for 3 sec in a 3 yard radius."
+          ],
+          "effect": "",
+          "requiresLevel": 59,
+          "mats": "Various materials",
+          "sellPrice": "3g 66s"
+        },
+        {
+          "name": "Volatile Net-o-Matic v2.0",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 22,
+          "mats": "Various materials",
+          "sellPrice": "10g 41s"
         }
       ]
     },
@@ -2260,742 +2215,734 @@ export const professionsData = {
       "description": "Weave magical cloths into powerful robes, bags, and spellcaster garments.",
       "recipes": [
         {
-          "name": "Leggings of the Whale",
+          "name": "Dreamweave Mantle",
           "rarity": "Uncommon",
           "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Armor/Bag",
+          "slot": "Shoulder",
+          "type": "Cloth",
           "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 57,
-          "mats": "Various materials",
-          "sellPrice": "2g 65s"
-        },
-        {
-          "name": "Gloves",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 1,
-          "mats": "Various materials",
-          "sellPrice": "7g 87s"
-        },
-        {
-          "name": "Shadoweave Mantle of the Owl",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 50,
-          "mats": "Various materials",
-          "sellPrice": "5g 12s"
-        },
-        {
-          "name": "Cowl",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 10,
-          "mats": "Various materials",
-          "sellPrice": "8g 91s"
-        },
-        {
-          "name": "Robe of Healing",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 27,
-          "mats": "Various materials",
-          "sellPrice": "9g 18s"
-        },
-        {
-          "name": "Shadoweave Mantle",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Stamina"
+            "+15 Agility",
+            "Equip: Increases your chance to hit by 1%.",
+            "Equip: Increases healing done by spells and effects by up to 33."
           ],
           "effect": "",
           "requiresLevel": 24,
           "mats": "Various materials",
-          "sellPrice": "6g 14s"
+          "sellPrice": "6g 16s"
         },
         {
-          "name": "Ghostweave Cowl",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Spirit",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 56,
-          "mats": "Various materials",
-          "sellPrice": "6g 37s"
-        },
-        {
-          "name": "Felcloth Robe",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 41,
-          "mats": "Various materials",
-          "sellPrice": "7g 43s"
-        },
-        {
-          "name": "Shadoweave Tunic of the Eagle",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 15,
-          "mats": "Various materials",
-          "sellPrice": "1g 85s"
-        },
-        {
-          "name": "Dreamweave Boots",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Stamina",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 11,
-          "mats": "Various materials",
-          "sellPrice": "1g 74s"
-        },
-        {
-          "name": "Leggings",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "2g 5s"
-        },
-        {
-          "name": "Mantle of the Archmage",
+          "name": "Runecloth Bag of the Whale",
           "rarity": "Epic",
           "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor/Bag",
+          "slot": "Bag",
+          "type": "Container",
           "stats": [
-            "+15 Agility",
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 33,
-          "mats": "Various materials",
-          "sellPrice": "6g 64s"
-        },
-        {
-          "name": "Shadoweave Boots of the Eagle",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Intellect",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 29,
-          "mats": "Various materials",
-          "sellPrice": "7g 24s"
-        },
-        {
-          "name": "Spellfire Leggings",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 9,
-          "mats": "Various materials",
-          "sellPrice": "2g 78s"
-        },
-        {
-          "name": "Felcloth Bag",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 59,
-          "mats": "Various materials",
-          "sellPrice": "7g 39s"
-        },
-        {
-          "name": "Spellfire Satchel of Sorcery",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Intellect",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 47,
-          "mats": "Various materials",
-          "sellPrice": "9g 74s"
-        },
-        {
-          "name": "Mantle",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 6,
-          "mats": "Various materials",
-          "sellPrice": "8g 23s"
-        },
-        {
-          "name": "Dreamweave Mantle of Sorcery",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 45,
-          "mats": "Various materials",
-          "sellPrice": "9g 86s"
-        },
-        {
-          "name": "Runecloth Boots of the Owl",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 15,
-          "mats": "Various materials",
-          "sellPrice": "6g 86s"
-        },
-        {
-          "name": "Ghostweave Leggings of Healing",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 20,
-          "mats": "Various materials",
-          "sellPrice": "7g 3s"
-        },
-        {
-          "name": "Bag",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 56,
-          "mats": "Various materials",
-          "sellPrice": "6g 58s"
-        },
-        {
-          "name": "Dreamweave Leggings",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 57,
-          "mats": "Various materials",
-          "sellPrice": "9g 72s"
-        },
-        {
-          "name": "Mooncloth Cowl of the Owl",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 6,
-          "mats": "Various materials",
-          "sellPrice": "6g 13s"
-        },
-        {
-          "name": "Runecloth Cowl of the Archmage",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 2,
-          "mats": "Various materials",
-          "sellPrice": "9g 98s"
-        },
-        {
-          "name": "Ghostweave Satchel of the Eagle",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Strength",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 23,
-          "mats": "Various materials",
-          "sellPrice": "2g 10s"
-        },
-        {
-          "name": "Felcloth Bag of the Owl",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 5,
-          "mats": "Various materials",
-          "sellPrice": "10g 12s"
-        },
-        {
-          "name": "Mooncloth Gloves",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 10,
-          "mats": "Various materials",
-          "sellPrice": "4g 30s"
-        },
-        {
-          "name": "Felcloth Robe of the Whale",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 37,
-          "mats": "Various materials",
-          "sellPrice": "1g 94s"
-        },
-        {
-          "name": "Dreamweave Satchel",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 52,
-          "mats": "Various materials",
-          "sellPrice": "3g 72s"
-        },
-        {
-          "name": "Ghostweave Boots",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 28,
-          "mats": "Various materials",
-          "sellPrice": "9g 9s"
-        },
-        {
-          "name": "Bag of the Whale",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Stamina",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 50,
-          "mats": "Various materials",
-          "sellPrice": "3g 39s"
-        },
-        {
-          "name": "Mooncloth Leggings of Healing",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Spirit",
-            "+15 Intellect",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 42,
-          "mats": "Various materials",
-          "sellPrice": "9g 11s"
-        },
-        {
-          "name": "Dreamweave Mantle of the Eagle",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Spirit",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "8g 96s"
-        },
-        {
-          "name": "Dreamweave Robe",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Stamina",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 44,
-          "mats": "Various materials",
-          "sellPrice": "1g 13s"
-        },
-        {
-          "name": "Runecloth Bag of Healing",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 16,
-          "mats": "Various materials",
-          "sellPrice": "4g 12s"
-        },
-        {
-          "name": "Spellfire Cowl of Sorcery",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 54,
-          "mats": "Various materials",
-          "sellPrice": "2g 47s"
-        },
-        {
-          "name": "Spellfire Mantle",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "10g 80s"
-        },
-        {
-          "name": "Mooncloth Cowl",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Strength",
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 57,
-          "mats": "Various materials",
-          "sellPrice": "8g 53s"
-        },
-        {
-          "name": "Felcloth Leggings",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Intellect",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 52,
-          "mats": "Various materials",
-          "sellPrice": "3g 92s"
-        },
-        {
-          "name": "Robe of the Eagle",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Intellect",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 3,
-          "mats": "Various materials",
-          "sellPrice": "6g 56s"
-        },
-        {
-          "name": "Spellfire Bag",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Spirit",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 2,
-          "mats": "Various materials",
-          "sellPrice": "6g 88s"
-        },
-        {
-          "name": "Dreamweave Mantle of the Whale",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Spirit",
-            "+15 Agility",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 20,
-          "mats": "Various materials",
-          "sellPrice": "1g 45s"
-        },
-        {
-          "name": "Robe",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 45,
-          "mats": "Various materials",
-          "sellPrice": "10g 1s"
-        },
-        {
-          "name": "Runecloth Tunic of the Whale",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Intellect",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 46,
-          "mats": "Various materials",
-          "sellPrice": "4g 37s"
-        },
-        {
-          "name": "Mooncloth Mantle of Healing",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 12,
-          "mats": "Various materials",
-          "sellPrice": "10g 92s"
-        },
-        {
-          "name": "Mooncloth Satchel of Healing",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Stamina"
+            "16 Slot Bag"
           ],
           "effect": "",
           "requiresLevel": 35,
           "mats": "Various materials",
+          "sellPrice": "1g 41s"
+        },
+        {
+          "name": "Mooncloth Cowl of the Whale",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "Equip: Increases healing done by spells and effects by up to 33.",
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 30,
+          "mats": "Various materials",
           "sellPrice": "5g 83s"
         },
         {
-          "name": "Gloves of Healing",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Agility",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 38,
-          "mats": "Various materials",
-          "sellPrice": "5g 14s"
-        },
-        {
-          "name": "Dreamweave Leggings of the Archmage",
+          "name": "Bag of the Eagle",
           "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor/Bag",
+          "bindType": "Binds when picked up",
+          "slot": "Bag",
+          "type": "Container",
           "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Intellect"
+            "16 Slot Bag"
           ],
           "effect": "",
-          "requiresLevel": 9,
+          "requiresLevel": 13,
           "mats": "Various materials",
-          "sellPrice": "9g 84s"
+          "sellPrice": "10g 10s"
         },
         {
-          "name": "Mooncloth Bag of the Eagle",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor/Bag",
-          "stats": [
-            "+15 Stamina",
-            "+15 Strength",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 53,
-          "mats": "Various materials",
-          "sellPrice": "2g 34s"
-        },
-        {
-          "name": "Gloves of Sorcery",
+          "name": "Spellfire Gloves of Sorcery",
           "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor/Bag",
+          "bindType": "Binds when picked up",
+          "slot": "Hands",
+          "type": "Cloth",
           "stats": [
             "Equip: Improves your chance to get a critical strike by 1%."
           ],
           "effect": "",
-          "requiresLevel": 19,
+          "requiresLevel": 43,
+          "mats": "Various materials",
+          "sellPrice": "9g 74s"
+        },
+        {
+          "name": "Cowl of the Whale",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "Equip: Increases healing done by spells and effects by up to 33."
+          ],
+          "effect": "",
+          "requiresLevel": 60,
+          "mats": "Various materials",
+          "sellPrice": "6g 13s"
+        },
+        {
+          "name": "Felcloth Cowl of Sorcery",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "+15 Spirit",
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 27,
+          "mats": "Various materials",
+          "sellPrice": "1g 72s"
+        },
+        {
+          "name": "Ghostweave Gloves of the Owl",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases healing done by spells and effects by up to 33.",
+            "+20 Stamina",
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 30,
+          "mats": "Various materials",
+          "sellPrice": "7g 97s"
+        },
+        {
+          "name": "Dreamweave Tunic of the Eagle",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 48,
+          "mats": "Various materials",
+          "sellPrice": "4g 30s"
+        },
+        {
+          "name": "Felcloth Satchel of Healing",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Bag",
+          "type": "Container",
+          "stats": [
+            "16 Slot Bag"
+          ],
+          "effect": "",
+          "requiresLevel": 32,
+          "mats": "Various materials",
+          "sellPrice": "3g 59s"
+        },
+        {
+          "name": "Spellfire Cowl of the Owl",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "+15 Intellect",
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "+15 Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 46,
+          "mats": "Various materials",
+          "sellPrice": "1g 92s"
+        },
+        {
+          "name": "Tunic",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "+15 Strength",
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 24,
+          "mats": "Various materials",
+          "sellPrice": "1g 59s"
+        },
+        {
+          "name": "Shadoweave Satchel of the Owl",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Bag",
+          "type": "Container",
+          "stats": [
+            "16 Slot Bag"
+          ],
+          "effect": "",
+          "requiresLevel": 34,
+          "mats": "Various materials",
+          "sellPrice": "3g 6s"
+        },
+        {
+          "name": "Dreamweave Boots of the Archmage",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 30,
+          "mats": "Various materials",
+          "sellPrice": "5g 38s"
+        },
+        {
+          "name": "Tunic of the Eagle",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "+15 Spirit",
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 28,
+          "mats": "Various materials",
+          "sellPrice": "3g 30s"
+        },
+        {
+          "name": "Ghostweave Mantle",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Shoulder",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%.",
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 47,
           "mats": "Various materials",
           "sellPrice": "6g 46s"
+        },
+        {
+          "name": "Mantle of Healing",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Shoulder",
+          "type": "Cloth",
+          "stats": [
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 19,
+          "mats": "Various materials",
+          "sellPrice": "9g 8s"
+        },
+        {
+          "name": "Spellfire Leggings of Healing",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 10,
+          "mats": "Various materials",
+          "sellPrice": "10g 41s"
+        },
+        {
+          "name": "Felcloth Leggings",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "+15 Spirit",
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 39,
+          "mats": "Various materials",
+          "sellPrice": "9g 59s"
+        },
+        {
+          "name": "Spellfire Gloves",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 14,
+          "mats": "Various materials",
+          "sellPrice": "10g 69s"
+        },
+        {
+          "name": "Dreamweave Cowl",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 59,
+          "mats": "Various materials",
+          "sellPrice": "9g 44s"
+        },
+        {
+          "name": "Robe",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "+15 Intellect"
+          ],
+          "effect": "",
+          "requiresLevel": 19,
+          "mats": "Various materials",
+          "sellPrice": "7g 75s"
+        },
+        {
+          "name": "Runecloth Robe",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 27,
+          "mats": "Various materials",
+          "sellPrice": "2g 63s"
+        },
+        {
+          "name": "Leggings of the Archmage",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases healing done by spells and effects by up to 33.",
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 13,
+          "mats": "Various materials",
+          "sellPrice": "8g 49s"
+        },
+        {
+          "name": "Gloves",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 19,
+          "mats": "Various materials",
+          "sellPrice": "2g 24s"
+        },
+        {
+          "name": "Gloves of Sorcery",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "+15 Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 9,
+          "mats": "Various materials",
+          "sellPrice": "3g 6s"
+        },
+        {
+          "name": "Satchel",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Bag",
+          "type": "Container",
+          "stats": [
+            "16 Slot Bag"
+          ],
+          "effect": "",
+          "requiresLevel": 1,
+          "mats": "Various materials",
+          "sellPrice": "8g 20s"
+        },
+        {
+          "name": "Mooncloth Leggings",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "+15 Strength",
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 57,
+          "mats": "Various materials",
+          "sellPrice": "7g 73s"
+        },
+        {
+          "name": "Mantle",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Shoulder",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 13,
+          "mats": "Various materials",
+          "sellPrice": "2g 16s"
+        },
+        {
+          "name": "Ghostweave Leggings",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "+15 Intellect"
+          ],
+          "effect": "",
+          "requiresLevel": 45,
+          "mats": "Various materials",
+          "sellPrice": "7g 62s"
+        },
+        {
+          "name": "Spellfire Tunic of the Eagle",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%.",
+            "Equip: Improves your chance to get a critical strike by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 48,
+          "mats": "Various materials",
+          "sellPrice": "4g 7s"
+        },
+        {
+          "name": "Runecloth Gloves of the Owl",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 36,
+          "mats": "Various materials",
+          "sellPrice": "9g 74s"
+        },
+        {
+          "name": "Spellfire Bag of the Whale",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Bag",
+          "type": "Container",
+          "stats": [
+            "16 Slot Bag"
+          ],
+          "effect": "",
+          "requiresLevel": 23,
+          "mats": "Various materials",
+          "sellPrice": "2g 59s"
+        },
+        {
+          "name": "Dreamweave Leggings of the Whale",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Improves your chance to get a critical strike by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 33,
+          "mats": "Various materials",
+          "sellPrice": "6g 8s"
+        },
+        {
+          "name": "Bloodvine Boots",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 38,
+          "mats": "Various materials",
+          "sellPrice": "2g 48s"
+        },
+        {
+          "name": "Felcloth Cowl of the Owl",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "+15 Strength",
+            "+15 Spirit",
+            "Equip: Increases healing done by spells and effects by up to 33."
+          ],
+          "effect": "",
+          "requiresLevel": 54,
+          "mats": "Various materials",
+          "sellPrice": "1g 60s"
+        },
+        {
+          "name": "Bloodvine Gloves",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "Equip: Improves your chance to get a critical strike by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 28,
+          "mats": "Various materials",
+          "sellPrice": "2g 15s"
+        },
+        {
+          "name": "Tunic of the Whale",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 58,
+          "mats": "Various materials",
+          "sellPrice": "7g 71s"
+        },
+        {
+          "name": "Dreamweave Bag",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Bag",
+          "type": "Container",
+          "stats": [
+            "16 Slot Bag"
+          ],
+          "effect": "",
+          "requiresLevel": 31,
+          "mats": "Various materials",
+          "sellPrice": "5g 43s"
+        },
+        {
+          "name": "Felcloth Gloves of Healing",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+          ],
+          "effect": "",
+          "requiresLevel": 2,
+          "mats": "Various materials",
+          "sellPrice": "2g 43s"
+        },
+        {
+          "name": "Bag",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Bag",
+          "type": "Container",
+          "stats": [
+            "16 Slot Bag"
+          ],
+          "effect": "",
+          "requiresLevel": 45,
+          "mats": "Various materials",
+          "sellPrice": "10g 63s"
+        },
+        {
+          "name": "Shadoweave Gloves of the Eagle",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+          ],
+          "effect": "",
+          "requiresLevel": 15,
+          "mats": "Various materials",
+          "sellPrice": "6g 51s"
+        },
+        {
+          "name": "Felcloth Boots of Healing",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "+20 Stamina",
+            "+15 Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 46,
+          "mats": "Various materials",
+          "sellPrice": "4g 86s"
+        },
+        {
+          "name": "Runecloth Bag",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Bag",
+          "type": "Container",
+          "stats": [
+            "16 Slot Bag"
+          ],
+          "effect": "",
+          "requiresLevel": 55,
+          "mats": "Various materials",
+          "sellPrice": "9g 6s"
+        },
+        {
+          "name": "Spellfire Gloves of the Whale",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases healing done by spells and effects by up to 33.",
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 53,
+          "mats": "Various materials",
+          "sellPrice": "9g 38s"
+        },
+        {
+          "name": "Runecloth Cowl of Sorcery",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "+15 Intellect"
+          ],
+          "effect": "",
+          "requiresLevel": 7,
+          "mats": "Various materials",
+          "sellPrice": "1g 61s"
+        },
+        {
+          "name": "Robe of the Archmage",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases healing done by spells and effects by up to 33.",
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 14,
+          "mats": "Various materials",
+          "sellPrice": "4g 0s"
+        },
+        {
+          "name": "Cowl of the Eagle",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "+20 Stamina",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 6,
+          "mats": "Various materials",
+          "sellPrice": "6g 7s"
+        },
+        {
+          "name": "Shadoweave Boots of the Archmage",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+          ],
+          "effect": "",
+          "requiresLevel": 9,
+          "mats": "Various materials",
+          "sellPrice": "4g 15s"
+        },
+        {
+          "name": "Spellfire Satchel",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Bag",
+          "type": "Container",
+          "stats": [
+            "16 Slot Bag"
+          ],
+          "effect": "",
+          "requiresLevel": 13,
+          "mats": "Various materials",
+          "sellPrice": "6g 83s"
         }
       ]
     },
@@ -3006,758 +2953,749 @@ export const professionsData = {
       "description": "Craft leather and mail armor from the hides of dangerous beasts.",
       "recipes": [
         {
-          "name": "Wolfshead Bracers",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor",
-          "stats": [
-            "+15 Strength",
-            "+15 Agility",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 57,
-          "mats": "Various materials",
-          "sellPrice": "2g 54s"
-        },
-        {
-          "name": "Tunic",
-          "rarity": "Epic",
+          "name": "Belt",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Armor",
+          "slot": "Waist",
+          "type": "Leather",
           "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 32,
-          "mats": "Various materials",
-          "sellPrice": "5g 76s"
-        },
-        {
-          "name": "Helm",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Armor",
-          "stats": [
-            "+15 Agility",
-            "+15 Intellect",
+            "+15 Spirit",
             "Equip: Increases healing done by spells and effects by up to 33."
           ],
           "effect": "",
-          "requiresLevel": 8,
+          "requiresLevel": 19,
           "mats": "Various materials",
-          "sellPrice": "2g 80s"
+          "sellPrice": "8g 22s"
         },
         {
-          "name": "Black Dragonscale Spaulders of the Wolf",
+          "name": "Corehound Boots of Agility",
           "rarity": "Uncommon",
           "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Armor",
+          "slot": "Feet",
+          "type": "Leather",
           "stats": [
-            "+15 Spirit"
+            "+15 Agility",
+            "+15 Strength"
           ],
           "effect": "",
-          "requiresLevel": 40,
+          "requiresLevel": 1,
           "mats": "Various materials",
-          "sellPrice": "10g 27s"
+          "sellPrice": "7g 3s"
         },
         {
-          "name": "Spaulders of the Wolf",
+          "name": "Thick Legguards of the Tracker",
           "rarity": "Uncommon",
           "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Armor",
+          "slot": "Legs",
+          "type": "Mail",
           "stats": [
-            "+15 Stamina",
-            "+15 Agility"
+            "+15 Spirit",
+            "+15 Intellect"
           ],
           "effect": "",
-          "requiresLevel": 42,
+          "requiresLevel": 11,
           "mats": "Various materials",
-          "sellPrice": "6g 28s"
+          "sellPrice": "1g 89s"
         },
         {
-          "name": "Black Dragonscale Helm",
-          "rarity": "Uncommon",
+          "name": "Bracers",
+          "rarity": "Epic",
           "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor",
+          "slot": "Wrist",
+          "type": "Leather",
           "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%."
+            "+20 Stamina",
+            "+15 Intellect"
           ],
           "effect": "",
-          "requiresLevel": 36,
+          "requiresLevel": 3,
           "mats": "Various materials",
-          "sellPrice": "10g 93s"
+          "sellPrice": "4g 31s"
         },
         {
-          "name": "Corehound Spaulders",
-          "rarity": "Common",
+          "name": "Corehound Boots",
+          "rarity": "Rare",
           "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor",
+          "slot": "Feet",
+          "type": "Leather",
           "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Intellect",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 52,
-          "mats": "Various materials",
-          "sellPrice": "6g 50s"
-        },
-        {
-          "name": "Black Dragonscale Legguards of the Wolf",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Armor",
-          "stats": [
-            "+15 Intellect",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+            "Equip: Increases your chance to hit by 1%.",
+            "+15 Strength",
+            "+15 Intellect"
           ],
           "effect": "",
           "requiresLevel": 20,
           "mats": "Various materials",
-          "sellPrice": "7g 37s"
+          "sellPrice": "10g 54s"
+        },
+        {
+          "name": "Wolfshead Legguards",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "+15 Strength",
+            "+15 Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 55,
+          "mats": "Various materials",
+          "sellPrice": "5g 42s"
+        },
+        {
+          "name": "Legguards",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "+15 Intellect"
+          ],
+          "effect": "",
+          "requiresLevel": 31,
+          "mats": "Various materials",
+          "sellPrice": "2g 17s"
+        },
+        {
+          "name": "Black Dragonscale Legguards",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "+15 Agility",
+            "Equip: Improves your chance to get a critical strike by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 31,
+          "mats": "Various materials",
+          "sellPrice": "4g 20s"
+        },
+        {
+          "name": "Cloak of Agility",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "+15 Spirit",
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 32,
+          "mats": "Various materials",
+          "sellPrice": "9g 52s"
+        },
+        {
+          "name": "Chimeric Tunic of the Tracker",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "+15 Agility",
+            "Equip: Increases healing done by spells and effects by up to 33."
+          ],
+          "effect": "",
+          "requiresLevel": 18,
+          "mats": "Various materials",
+          "sellPrice": "5g 77s"
+        },
+        {
+          "name": "Bracers of Agility",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Wrist",
+          "type": "Leather",
+          "stats": [
+            "+15 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+          ],
+          "effect": "",
+          "requiresLevel": 43,
+          "mats": "Various materials",
+          "sellPrice": "4g 3s"
+        },
+        {
+          "name": "Legguards of the Tracker",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 37,
+          "mats": "Various materials",
+          "sellPrice": "5g 33s"
+        },
+        {
+          "name": "Bracers of the Falcon",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Wrist",
+          "type": "Leather",
+          "stats": [
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 18,
+          "mats": "Various materials",
+          "sellPrice": "2g 92s"
+        },
+        {
+          "name": "Thick Cloak of the Monkey",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "+20 Stamina",
+            "Equip: Increases healing done by spells and effects by up to 33."
+          ],
+          "effect": "",
+          "requiresLevel": 54,
+          "mats": "Various materials",
+          "sellPrice": "2g 11s"
         },
         {
           "name": "Helm of the Tracker",
           "rarity": "Uncommon",
           "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor",
+          "slot": "Head",
+          "type": "Leather",
           "stats": [
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 16,
+          "mats": "Various materials",
+          "sellPrice": "3g 73s"
+        },
+        {
+          "name": "Devilsaur Spaulders of the Monkey",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Shoulder",
+          "type": "Mail",
+          "stats": [
+            "Equip: Increases healing done by spells and effects by up to 33."
+          ],
+          "effect": "",
+          "requiresLevel": 15,
+          "mats": "Various materials",
+          "sellPrice": "6g 28s"
+        },
+        {
+          "name": "Rugged Bracers",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Wrist",
+          "type": "Leather",
+          "stats": [
+            "Equip: Increases healing done by spells and effects by up to 33."
+          ],
+          "effect": "",
+          "requiresLevel": 19,
+          "mats": "Various materials",
+          "sellPrice": "7g 49s"
+        },
+        {
+          "name": "Corehound Belt",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Waist",
+          "type": "Leather",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%.",
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 24,
+          "mats": "Various materials",
+          "sellPrice": "10g 71s"
+        },
+        {
+          "name": "Chimeric Belt of the Falcon",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Waist",
+          "type": "Leather",
+          "stats": [
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 35,
+          "mats": "Various materials",
+          "sellPrice": "2g 93s"
+        },
+        {
+          "name": "Devilsaur Cloak",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%.",
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 14,
+          "mats": "Various materials",
+          "sellPrice": "5g 82s"
+        },
+        {
+          "name": "Rugged Cloak",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "+15 Strength",
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 27,
+          "mats": "Various materials",
+          "sellPrice": "3g 14s"
+        },
+        {
+          "name": "Rugged Cloak of the Tracker",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%.",
+            "+15 Spirit",
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 33,
+          "mats": "Various materials",
+          "sellPrice": "2g 76s"
+        },
+        {
+          "name": "Chimeric Tunic",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 38,
+          "mats": "Various materials",
+          "sellPrice": "8g 52s"
+        },
+        {
+          "name": "Helm",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 18,
+          "mats": "Various materials",
+          "sellPrice": "9g 22s"
+        },
+        {
+          "name": "Black Dragonscale Helm",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+          ],
+          "effect": "",
+          "requiresLevel": 4,
+          "mats": "Various materials",
+          "sellPrice": "3g 69s"
+        },
+        {
+          "name": "Boots of the Wolf",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "+15 Intellect",
+            "Equip: Increases healing done by spells and effects by up to 33."
+          ],
+          "effect": "",
+          "requiresLevel": 31,
+          "mats": "Various materials",
+          "sellPrice": "3g 55s"
+        },
+        {
+          "name": "Helm of the Falcon",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "+20 Stamina",
+            "Equip: Improves your chance to get a critical strike by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 7,
+          "mats": "Various materials",
+          "sellPrice": "6g 95s"
+        },
+        {
+          "name": "Wolfshead Tunic of the Tracker",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "+20 Stamina",
+            "+15 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+          ],
+          "effect": "",
+          "requiresLevel": 12,
+          "mats": "Various materials",
+          "sellPrice": "10g 72s"
+        },
+        {
+          "name": "Belt of Agility",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Waist",
+          "type": "Leather",
+          "stats": [
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 29,
+          "mats": "Various materials",
+          "sellPrice": "2g 55s"
+        },
+        {
+          "name": "Thick Boots",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "+15 Intellect"
+          ],
+          "effect": "",
+          "requiresLevel": 2,
+          "mats": "Various materials",
+          "sellPrice": "1g 56s"
+        },
+        {
+          "name": "Wolfshead Cloak",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 57,
+          "mats": "Various materials",
+          "sellPrice": "6g 85s"
+        },
+        {
+          "name": "Corehound Bracers",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Wrist",
+          "type": "Leather",
+          "stats": [
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 51,
+          "mats": "Various materials",
+          "sellPrice": "10g 42s"
+        },
+        {
+          "name": "Cured Legguards of the Falcon",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "Equip: Improves your chance to get a critical strike by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 14,
+          "mats": "Various materials",
+          "sellPrice": "1g 47s"
+        },
+        {
+          "name": "Tunic of Agility",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "+20 Stamina",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "Equip: Increases healing done by spells and effects by up to 33."
+          ],
+          "effect": "",
+          "requiresLevel": 3,
+          "mats": "Various materials",
+          "sellPrice": "3g 65s"
+        },
+        {
+          "name": "Chimeric Cloak of Agility",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "+20 Stamina",
+            "+15 Strength",
+            "+15 Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 14,
+          "mats": "Various materials",
+          "sellPrice": "6g 18s"
+        },
+        {
+          "name": "Rugged Cloak of the Wolf",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "+15 Strength",
+            "+15 Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 27,
+          "mats": "Various materials",
+          "sellPrice": "6g 46s"
+        },
+        {
+          "name": "Corehound Cloak of Agility",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
             "+15 Agility"
           ],
           "effect": "",
           "requiresLevel": 9,
           "mats": "Various materials",
-          "sellPrice": "1g 63s"
-        },
-        {
-          "name": "Cloak",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Armor",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 19,
-          "mats": "Various materials",
-          "sellPrice": "1g 50s"
-        },
-        {
-          "name": "Bracers",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Armor",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Spirit",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 19,
-          "mats": "Various materials",
-          "sellPrice": "6g 49s"
+          "sellPrice": "4g 21s"
         },
         {
           "name": "Wolfshead Belt",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Armor",
-          "stats": [
-            "+15 Spirit",
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 42,
-          "mats": "Various materials",
-          "sellPrice": "9g 77s"
-        },
-        {
-          "name": "Tunic of the Falcon",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Armor",
-          "stats": [
-            "+15 Spirit",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 24,
-          "mats": "Various materials",
-          "sellPrice": "6g 21s"
-        },
-        {
-          "name": "Corehound Boots of the Wolf",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor",
-          "stats": [
-            "+15 Spirit",
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 48,
-          "mats": "Various materials",
-          "sellPrice": "9g 15s"
-        },
-        {
-          "name": "Rugged Belt",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 32,
-          "mats": "Various materials",
-          "sellPrice": "8g 74s"
-        },
-        {
-          "name": "Rugged Legguards of the Falcon",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor",
-          "stats": [
-            "+15 Spirit",
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 6,
-          "mats": "Various materials",
-          "sellPrice": "7g 34s"
-        },
-        {
-          "name": "Cloak of Agility",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Armor",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 34,
-          "mats": "Various materials",
-          "sellPrice": "5g 5s"
-        },
-        {
-          "name": "Chimeric Helm",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Armor",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 49,
-          "mats": "Various materials",
-          "sellPrice": "8g 95s"
-        },
-        {
-          "name": "Tunic of the Monkey",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Armor",
-          "stats": [
-            "+15 Intellect",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 4,
-          "mats": "Various materials",
-          "sellPrice": "9g 52s"
-        },
-        {
-          "name": "Black Dragonscale Legguards",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor",
+          "slot": "Waist",
+          "type": "Leather",
           "stats": [
-            "+15 Spirit",
-            "+15 Agility",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 24,
-          "mats": "Various materials",
-          "sellPrice": "5g 50s"
-        },
-        {
-          "name": "Thick Cloak of the Monkey",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Armor",
-          "stats": [
-            "+15 Agility",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 6,
-          "mats": "Various materials",
-          "sellPrice": "5g 26s"
-        },
-        {
-          "name": "Cured Bracers",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Armor",
-          "stats": [
-            "+15 Stamina",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 42,
-          "mats": "Various materials",
-          "sellPrice": "7g 87s"
-        },
-        {
-          "name": "Spaulders of the Tracker",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 57,
-          "mats": "Various materials",
-          "sellPrice": "2g 69s"
-        },
-        {
-          "name": "Thick Spaulders of the Wolf",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 56,
-          "mats": "Various materials",
-          "sellPrice": "7g 71s"
-        },
-        {
-          "name": "Devilsaur Helm of the Falcon",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Armor",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 8,
-          "mats": "Various materials",
-          "sellPrice": "5g 98s"
-        },
-        {
-          "name": "Devilsaur Legguards of the Tracker",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Armor",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 2,
-          "mats": "Various materials",
-          "sellPrice": "2g 25s"
-        },
-        {
-          "name": "Thick Belt",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor",
-          "stats": [
-            "+15 Agility",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 43,
-          "mats": "Various materials",
-          "sellPrice": "8g 53s"
-        },
-        {
-          "name": "Rugged Spaulders",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor",
-          "stats": [
-            "+15 Strength",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 54,
-          "mats": "Various materials",
-          "sellPrice": "10g 92s"
-        },
-        {
-          "name": "Corehound Cloak of the Falcon",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Armor",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 56,
-          "mats": "Various materials",
-          "sellPrice": "9g 28s"
-        },
-        {
-          "name": "Spaulders of the Falcon",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor",
-          "stats": [
-            "+15 Strength",
+            "Equip: Increases your chance to hit by 1%.",
             "Equip: Increases damage and healing done by magical spells and effects by up to 21."
           ],
           "effect": "",
-          "requiresLevel": 54,
+          "requiresLevel": 23,
           "mats": "Various materials",
-          "sellPrice": "8g 61s"
+          "sellPrice": "2g 28s"
         },
         {
-          "name": "Boots",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Armor",
-          "stats": [
-            "+15 Spirit",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 7,
-          "mats": "Various materials",
-          "sellPrice": "4g 93s"
-        },
-        {
-          "name": "Wolfshead Cloak of Agility",
-          "rarity": "Common",
+          "name": "Rugged Helm",
+          "rarity": "Uncommon",
           "bindType": "Binds when picked up",
           "slot": "Head",
-          "type": "Armor",
+          "type": "Leather",
           "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Spirit",
             "+15 Intellect"
           ],
           "effect": "",
-          "requiresLevel": 57,
+          "requiresLevel": 26,
           "mats": "Various materials",
-          "sellPrice": "7g 90s"
+          "sellPrice": "7g 37s"
+        },
+        {
+          "name": "Cured Boots of the Wolf",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "+15 Intellect",
+            "+15 Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 3,
+          "mats": "Various materials",
+          "sellPrice": "4g 63s"
+        },
+        {
+          "name": "Legguards of the Monkey",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "+15 Intellect"
+          ],
+          "effect": "",
+          "requiresLevel": 23,
+          "mats": "Various materials",
+          "sellPrice": "5g 61s"
+        },
+        {
+          "name": "Chimeric Tunic of the Monkey",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "+15 Agility",
+            "+15 Intellect",
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 15,
+          "mats": "Various materials",
+          "sellPrice": "9g 6s"
         },
         {
           "name": "Cured Boots",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 19,
-          "mats": "Various materials",
-          "sellPrice": "4g 20s"
-        },
-        {
-          "name": "Cured Boots of the Tracker",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor",
-          "stats": [
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 51,
-          "mats": "Various materials",
-          "sellPrice": "7g 85s"
-        },
-        {
-          "name": "Cured Spaulders",
           "rarity": "Epic",
           "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor",
+          "slot": "Feet",
+          "type": "Leather",
           "stats": [
-            "+15 Intellect",
-            "+15 Strength"
+            "Equip: Increases your chance to hit by 1%."
           ],
           "effect": "",
-          "requiresLevel": 27,
+          "requiresLevel": 21,
           "mats": "Various materials",
-          "sellPrice": "10g 57s"
+          "sellPrice": "1g 33s"
         },
         {
-          "name": "Rugged Cloak",
+          "name": "Chimeric Boots of the Tracker",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Armor",
-          "stats": [
-            "+15 Stamina",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 33,
-          "mats": "Various materials",
-          "sellPrice": "9g 50s"
-        },
-        {
-          "name": "Thick Helm",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Armor",
-          "stats": [
-            "+15 Agility",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "10g 47s"
-        },
-        {
-          "name": "Black Dragonscale Cloak of the Tracker",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Armor",
-          "stats": [
-            "+15 Spirit",
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 51,
-          "mats": "Various materials",
-          "sellPrice": "5g 8s"
-        },
-        {
-          "name": "Cured Tunic",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Armor",
-          "stats": [
-            "+15 Strength",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 42,
-          "mats": "Various materials",
-          "sellPrice": "9g 16s"
-        },
-        {
-          "name": "Rugged Belt of the Wolf",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Armor",
+          "slot": "Feet",
+          "type": "Leather",
           "stats": [
             "Equip: Increases healing done by spells and effects by up to 33.",
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 6,
-          "mats": "Various materials",
-          "sellPrice": "7g 0s"
-        },
-        {
-          "name": "Thick Boots",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Intellect",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 47,
-          "mats": "Various materials",
-          "sellPrice": "6g 73s"
-        },
-        {
-          "name": "Corehound Belt",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor",
-          "stats": [
-            "+15 Spirit",
             "Equip: Improves your chance to get a critical strike by 1%."
           ],
           "effect": "",
-          "requiresLevel": 27,
+          "requiresLevel": 24,
           "mats": "Various materials",
-          "sellPrice": "3g 17s"
+          "sellPrice": "2g 82s"
         },
         {
-          "name": "Black Dragonscale Spaulders of the Falcon",
+          "name": "Black Dragonscale Belt",
           "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Armor",
+          "bindType": "Binds when equipped",
+          "slot": "Waist",
+          "type": "Leather",
           "stats": [
-            "+15 Intellect",
-            "+15 Stamina"
+            "+15 Agility",
+            "Equip: Improves your chance to get a critical strike by 1%."
           ],
           "effect": "",
           "requiresLevel": 52,
           "mats": "Various materials",
-          "sellPrice": "10g 12s"
+          "sellPrice": "9g 42s"
         },
         {
-          "name": "Wolfshead Bracers of Agility",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Armor",
-          "stats": [
-            "+15 Stamina",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 2,
-          "mats": "Various materials",
-          "sellPrice": "1g 22s"
-        },
-        {
-          "name": "Corehound Tunic",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Armor",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 12,
-          "mats": "Various materials",
-          "sellPrice": "6g 97s"
-        },
-        {
-          "name": "Boots of the Tracker",
+          "name": "Chimeric Legguards",
           "rarity": "Rare",
           "bindType": "Binds when picked up",
           "slot": "Legs",
-          "type": "Armor",
+          "type": "Mail",
           "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 57,
-          "mats": "Various materials",
-          "sellPrice": "1g 65s"
-        },
-        {
-          "name": "Chimeric Spaulders of the Falcon",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Armor",
-          "stats": [
-            "+15 Spirit",
             "+15 Strength",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+            "Equip: Improves your chance to get a critical strike by 1%."
           ],
           "effect": "",
-          "requiresLevel": 44,
+          "requiresLevel": 21,
           "mats": "Various materials",
-          "sellPrice": "5g 3s"
+          "sellPrice": "6g 0s"
         },
         {
-          "name": "Legguards of the Tracker",
-          "rarity": "Common",
+          "name": "Corehound Cloak",
+          "rarity": "Uncommon",
           "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Armor",
+          "slot": "Back",
+          "type": "Cloth",
           "stats": [
-            "+15 Stamina",
+            "+15 Intellect",
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 10,
+          "mats": "Various materials",
+          "sellPrice": "10g 85s"
+        },
+        {
+          "name": "Cloak of the Falcon",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "+15 Agility",
             "+15 Spirit"
           ],
           "effect": "",
-          "requiresLevel": 16,
+          "requiresLevel": 23,
           "mats": "Various materials",
-          "sellPrice": "10g 14s"
+          "sellPrice": "8g 91s"
         },
         {
-          "name": "Cured Spaulders of the Wolf",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Armor",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 59,
-          "mats": "Various materials",
-          "sellPrice": "1g 18s"
-        },
-        {
-          "name": "Corehound Bracers",
+          "name": "Cured Legguards of the Tracker",
           "rarity": "Rare",
           "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Armor",
+          "slot": "Legs",
+          "type": "Mail",
           "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Strength",
-            "+15 Stamina"
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
           ],
           "effect": "",
-          "requiresLevel": 30,
+          "requiresLevel": 46,
           "mats": "Various materials",
-          "sellPrice": "4g 33s"
+          "sellPrice": "1g 39s"
+        },
+        {
+          "name": "Wolfshead Belt of Agility",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Waist",
+          "type": "Leather",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+          ],
+          "effect": "",
+          "requiresLevel": 1,
+          "mats": "Various materials",
+          "sellPrice": "5g 90s"
         }
       ]
     },
@@ -3768,704 +3706,704 @@ export const professionsData = {
       "description": "Disenchant items into magical essences to permanently augment gear.",
       "recipes": [
         {
-          "name": "Superior Enchant Boots - Agility",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 57,
-          "mats": "Various materials",
-          "sellPrice": "9g 71s"
-        },
-        {
-          "name": "Enchant Cloak",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 15,
-          "mats": "Various materials",
-          "sellPrice": "9g 44s"
-        },
-        {
-          "name": "Minor Enchant Cloak",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
+          "name": "Enchant Gloves - Crusader",
+          "rarity": "Epic",
+          "bindType": "",
           "slot": "",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 56,
-          "mats": "Various materials",
-          "sellPrice": "7g 5s"
-        },
-        {
-          "name": "Superior Enchant Boots - Icy Chill",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 24,
-          "mats": "Various materials",
-          "sellPrice": "3g 88s"
-        },
-        {
-          "name": "Enchant Gloves",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 7,
-          "mats": "Various materials",
-          "sellPrice": "6g 42s"
-        },
-        {
-          "name": "Superior Enchant Gloves",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 11,
-          "mats": "Various materials",
-          "sellPrice": "1g 89s"
-        },
-        {
-          "name": "Minor Enchant Shield",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 49,
-          "mats": "Various materials",
-          "sellPrice": "9g 28s"
-        },
-        {
-          "name": "Brilliant Mana Oil - Spell Power",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Enchantment",
+          "type": "Consumable",
           "stats": [
             "Use: Permanently enchants an item."
           ],
           "effect": "",
           "requiresLevel": 45,
           "mats": "Various materials",
-          "sellPrice": "8g 44s"
+          "sellPrice": "3g 16s"
         },
         {
-          "name": "Major Enchant Cloak",
+          "name": "Lesser Enchant Chest",
           "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 59,
-          "mats": "Various materials",
-          "sellPrice": "4g 91s"
-        },
-        {
-          "name": "Enchant Boots - Fiery Weapon",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 28,
-          "mats": "Various materials",
-          "sellPrice": "2g 25s"
-        },
-        {
-          "name": "Lesser Enchant Shield",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
+          "bindType": "",
           "slot": "",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 29,
-          "mats": "Various materials",
-          "sellPrice": "8g 87s"
-        },
-        {
-          "name": "Brilliant Wizard Oil",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 3,
-          "mats": "Various materials",
-          "sellPrice": "6g 2s"
-        },
-        {
-          "name": "Enchant Bracer - Fiery Weapon",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 28,
-          "mats": "Various materials",
-          "sellPrice": "1g 92s"
-        },
-        {
-          "name": "Excellent Enchant Weapon - Agility",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 7,
-          "mats": "Various materials",
-          "sellPrice": "5g 94s"
-        },
-        {
-          "name": "Greater Enchant Cloak - Agility",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 28,
-          "mats": "Various materials",
-          "sellPrice": "6g 42s"
-        },
-        {
-          "name": "Enchant Shield - Agility",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 60,
-          "mats": "Various materials",
-          "sellPrice": "7g 72s"
-        },
-        {
-          "name": "Excellent Enchant Cloak - Crusader",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 59,
-          "mats": "Various materials",
-          "sellPrice": "8g 65s"
-        },
-        {
-          "name": "Major Enchant Shield - Fiery Weapon",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 45,
-          "mats": "Various materials",
-          "sellPrice": "3g 88s"
-        },
-        {
-          "name": "Greater Enchant Chest",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 16,
-          "mats": "Various materials",
-          "sellPrice": "8g 98s"
-        },
-        {
-          "name": "Lesser Enchant Weapon",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 39,
-          "mats": "Various materials",
-          "sellPrice": "3g 1s"
-        },
-        {
-          "name": "Minor Enchant Shield - Minor Speed",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 6,
-          "mats": "Various materials",
-          "sellPrice": "7g 41s"
-        },
-        {
-          "name": "Lesser Brilliant Wizard Oil",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 8,
-          "mats": "Various materials",
-          "sellPrice": "2g 31s"
-        },
-        {
-          "name": "Greater Enchant Boots - Spell Power",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 34,
-          "mats": "Various materials",
-          "sellPrice": "10g 85s"
-        },
-        {
-          "name": "Enchant Weapon",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 2,
-          "mats": "Various materials",
-          "sellPrice": "1g 5s"
-        },
-        {
-          "name": "Enchant Gloves - Lifestealing",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 2,
-          "mats": "Various materials",
-          "sellPrice": "4g 82s"
-        },
-        {
-          "name": "Lesser Enchant Bracer - Lifestealing",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 19,
-          "mats": "Various materials",
-          "sellPrice": "9g 89s"
-        },
-        {
-          "name": "Superior Enchant Shield",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 7,
-          "mats": "Various materials",
-          "sellPrice": "1g 28s"
-        },
-        {
-          "name": "Greater Brilliant Wizard Oil",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 53,
-          "mats": "Various materials",
-          "sellPrice": "6g 89s"
-        },
-        {
-          "name": "Excellent Enchant Gloves - Greater Stats",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 5,
-          "mats": "Various materials",
-          "sellPrice": "4g 37s"
-        },
-        {
-          "name": "Minor Enchant Gloves - Crusader",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 49,
-          "mats": "Various materials",
-          "sellPrice": "4g 89s"
-        },
-        {
-          "name": "Greater Enchant Weapon",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 49,
-          "mats": "Various materials",
-          "sellPrice": "10g 42s"
-        },
-        {
-          "name": "Major Brilliant Wizard Oil - Fiery Weapon",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 37,
-          "mats": "Various materials",
-          "sellPrice": "3g 89s"
-        },
-        {
-          "name": "Major Brilliant Wizard Oil",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 57,
-          "mats": "Various materials",
-          "sellPrice": "6g 93s"
-        },
-        {
-          "name": "Enchant Boots - Crusader",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "3g 44s"
-        },
-        {
-          "name": "Enchant Boots",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 43,
-          "mats": "Various materials",
-          "sellPrice": "3g 33s"
-        },
-        {
-          "name": "Superior Enchant Bracer - Greater Stats",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 4,
-          "mats": "Various materials",
-          "sellPrice": "5g 79s"
-        },
-        {
-          "name": "Enchant Bracer",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 22,
-          "mats": "Various materials",
-          "sellPrice": "5g 4s"
-        },
-        {
-          "name": "Lesser Enchant Boots",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 24,
-          "mats": "Various materials",
-          "sellPrice": "8g 48s"
-        },
-        {
-          "name": "Greater Enchant Gloves - Greater Stats",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 20,
-          "mats": "Various materials",
-          "sellPrice": "5g 82s"
-        },
-        {
-          "name": "Major Enchant Weapon - Minor Speed",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 57,
-          "mats": "Various materials",
-          "sellPrice": "3g 32s"
-        },
-        {
-          "name": "Enchant Shield - Crusader",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 52,
-          "mats": "Various materials",
-          "sellPrice": "4g 27s"
-        },
-        {
-          "name": "Superior Enchant Weapon - Crusader",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 29,
-          "mats": "Various materials",
-          "sellPrice": "10g 12s"
-        },
-        {
-          "name": "Major Enchant Cloak - Spell Power",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Enchantment",
+          "type": "Consumable",
           "stats": [
             "Use: Permanently enchants an item."
           ],
           "effect": "",
           "requiresLevel": 26,
           "mats": "Various materials",
-          "sellPrice": "3g 23s"
+          "sellPrice": "7g 27s"
         },
         {
-          "name": "Superior Enchant Shield - Crusader",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Enchantment",
+          "name": "Excellent Brilliant Mana Oil",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
-            "Use: Permanently enchants an item."
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
-          "requiresLevel": 10,
+          "requiresLevel": 2,
           "mats": "Various materials",
-          "sellPrice": "4g 77s"
+          "sellPrice": "1g 25s"
         },
         {
-          "name": "Superior Brilliant Wizard Oil - Minor Speed",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Enchantment",
+          "name": "Excellent Enchant Gloves",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
             "Use: Permanently enchants an item."
           ],
           "effect": "",
           "requiresLevel": 31,
           "mats": "Various materials",
-          "sellPrice": "1g 5s"
+          "sellPrice": "1g 65s"
         },
         {
-          "name": "Minor Enchant Bracer - Spell Power",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Enchantment",
-          "stats": [
-            "Use: Permanently enchants an item."
-          ],
-          "effect": "",
-          "requiresLevel": 28,
-          "mats": "Various materials",
-          "sellPrice": "2g 29s"
-        },
-        {
-          "name": "Excellent Brilliant Wizard Oil - Lifestealing",
+          "name": "Major Enchant Cloak - Icy Chill",
           "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Enchantment",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
             "Use: Permanently enchants an item."
           ],
           "effect": "",
           "requiresLevel": 21,
           "mats": "Various materials",
-          "sellPrice": "10g 27s"
+          "sellPrice": "2g 93s"
         },
         {
-          "name": "Major Enchant Cloak - Greater Stats",
+          "name": "Minor Enchant Gloves - Greater Stats",
           "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Enchantment",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 32,
+          "mats": "Various materials",
+          "sellPrice": "3g 84s"
+        },
+        {
+          "name": "Excellent Enchant Bracer",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 46,
+          "mats": "Various materials",
+          "sellPrice": "6g 4s"
+        },
+        {
+          "name": "Major Brilliant Mana Oil",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 34,
+          "mats": "Various materials",
+          "sellPrice": "6g 40s"
+        },
+        {
+          "name": "Lesser Enchant Bracer - Spell Power",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 9,
+          "mats": "Various materials",
+          "sellPrice": "9g 97s"
+        },
+        {
+          "name": "Greater Enchant Cloak",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 16,
+          "mats": "Various materials",
+          "sellPrice": "2g 21s"
+        },
+        {
+          "name": "Enchant Cloak - Fiery Weapon",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 50,
+          "mats": "Various materials",
+          "sellPrice": "3g 21s"
+        },
+        {
+          "name": "Major Enchant Weapon",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 8,
+          "mats": "Various materials",
+          "sellPrice": "1g 32s"
+        },
+        {
+          "name": "Enchant Weapon - Agility",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 15,
+          "mats": "Various materials",
+          "sellPrice": "7g 19s"
+        },
+        {
+          "name": "Greater Enchant Boots - Crusader",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
             "Use: Permanently enchants an item."
           ],
           "effect": "",
           "requiresLevel": 45,
           "mats": "Various materials",
-          "sellPrice": "7g 30s"
+          "sellPrice": "3g 57s"
         },
         {
-          "name": "Minor Brilliant Wizard Oil - Minor Speed",
+          "name": "Greater Enchant Gloves - Icy Chill",
           "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Enchantment",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 56,
+          "mats": "Various materials",
+          "sellPrice": "9g 86s"
+        },
+        {
+          "name": "Minor Enchant Weapon",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 11,
+          "mats": "Various materials",
+          "sellPrice": "7g 44s"
+        },
+        {
+          "name": "Superior Brilliant Mana Oil - Greater Stats",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 53,
+          "mats": "Various materials",
+          "sellPrice": "3g 74s"
+        },
+        {
+          "name": "Enchant Cloak",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 28,
+          "mats": "Various materials",
+          "sellPrice": "6g 86s"
+        },
+        {
+          "name": "Enchant Boots",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 22,
+          "mats": "Various materials",
+          "sellPrice": "5g 6s"
+        },
+        {
+          "name": "Enchant Weapon",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 36,
+          "mats": "Various materials",
+          "sellPrice": "4g 5s"
+        },
+        {
+          "name": "Lesser Enchant Chest - Spell Power",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
             "Use: Permanently enchants an item."
           ],
           "effect": "",
           "requiresLevel": 26,
           "mats": "Various materials",
-          "sellPrice": "6g 40s"
+          "sellPrice": "8g 56s"
         },
         {
-          "name": "Brilliant Mana Oil - Lifestealing",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Enchantment",
+          "name": "Lesser Brilliant Mana Oil",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 51,
+          "mats": "Various materials",
+          "sellPrice": "3g 56s"
+        },
+        {
+          "name": "Greater Enchant Gloves - Crusader",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
             "Use: Permanently enchants an item."
           ],
           "effect": "",
-          "requiresLevel": 48,
+          "requiresLevel": 52,
           "mats": "Various materials",
-          "sellPrice": "1g 22s"
+          "sellPrice": "4g 78s"
+        },
+        {
+          "name": "Brilliant Wizard Oil",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 47,
+          "mats": "Various materials",
+          "sellPrice": "8g 74s"
+        },
+        {
+          "name": "Minor Enchant Gloves",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 41,
+          "mats": "Various materials",
+          "sellPrice": "9g 39s"
+        },
+        {
+          "name": "Lesser Enchant Shield",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 19,
+          "mats": "Various materials",
+          "sellPrice": "4g 48s"
+        },
+        {
+          "name": "Greater Enchant Weapon - Agility",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 55,
+          "mats": "Various materials",
+          "sellPrice": "2g 2s"
+        },
+        {
+          "name": "Lesser Enchant Boots",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 47,
+          "mats": "Various materials",
+          "sellPrice": "4g 3s"
+        },
+        {
+          "name": "Enchant Chest - Crusader",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 16,
+          "mats": "Various materials",
+          "sellPrice": "8g 41s"
+        },
+        {
+          "name": "Major Enchant Cloak",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 42,
+          "mats": "Various materials",
+          "sellPrice": "1g 61s"
+        },
+        {
+          "name": "Excellent Enchant Cloak - Agility",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 1,
+          "mats": "Various materials",
+          "sellPrice": "4g 84s"
+        },
+        {
+          "name": "Minor Enchant Chest - Fiery Weapon",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 18,
+          "mats": "Various materials",
+          "sellPrice": "3g 45s"
+        },
+        {
+          "name": "Superior Enchant Cloak - Crusader",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 9,
+          "mats": "Various materials",
+          "sellPrice": "1g 76s"
+        },
+        {
+          "name": "Superior Enchant Weapon - Greater Stats",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 2,
+          "mats": "Various materials",
+          "sellPrice": "5g 2s"
+        },
+        {
+          "name": "Major Enchant Bracer - Fiery Weapon",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 27,
+          "mats": "Various materials",
+          "sellPrice": "5g 73s"
+        },
+        {
+          "name": "Lesser Enchant Gloves - Crusader",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 7,
+          "mats": "Various materials",
+          "sellPrice": "4g 36s"
+        },
+        {
+          "name": "Minor Brilliant Mana Oil - Spell Power",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 38,
+          "mats": "Various materials",
+          "sellPrice": "6g 79s"
+        },
+        {
+          "name": "Superior Enchant Cloak - Spell Power",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 34,
+          "mats": "Various materials",
+          "sellPrice": "10g 60s"
+        },
+        {
+          "name": "Superior Brilliant Wizard Oil",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 21,
+          "mats": "Various materials",
+          "sellPrice": "5g 69s"
+        },
+        {
+          "name": "Greater Enchant Shield - Greater Stats",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 1,
+          "mats": "Various materials",
+          "sellPrice": "5g 82s"
+        },
+        {
+          "name": "Minor Enchant Cloak - Agility",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 31,
+          "mats": "Various materials",
+          "sellPrice": "7g 6s"
+        },
+        {
+          "name": "Minor Enchant Boots - Lifestealing",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 32,
+          "mats": "Various materials",
+          "sellPrice": "7g 50s"
+        },
+        {
+          "name": "Major Enchant Bracer - Crusader",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 58,
+          "mats": "Various materials",
+          "sellPrice": "8g 86s"
+        },
+        {
+          "name": "Minor Brilliant Wizard Oil - Icy Chill",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 38,
+          "mats": "Various materials",
+          "sellPrice": "7g 68s"
+        },
+        {
+          "name": "Minor Enchant Weapon - Agility",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 18,
+          "mats": "Various materials",
+          "sellPrice": "9g 54s"
+        },
+        {
+          "name": "Enchant Chest - Greater Stats",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 14,
+          "mats": "Various materials",
+          "sellPrice": "2g 69s"
+        },
+        {
+          "name": "Excellent Brilliant Wizard Oil",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 50,
+          "mats": "Various materials",
+          "sellPrice": "2g 60s"
+        },
+        {
+          "name": "Greater Enchant Bracer - Agility",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 58,
+          "mats": "Various materials",
+          "sellPrice": "6g 93s"
+        },
+        {
+          "name": "Greater Enchant Boots - Fiery Weapon",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 12,
+          "mats": "Various materials",
+          "sellPrice": "4g 27s"
+        },
+        {
+          "name": "Lesser Enchant Shield - Lifestealing",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Permanently enchants an item."
+          ],
+          "effect": "",
+          "requiresLevel": 19,
+          "mats": "Various materials",
+          "sellPrice": "1g 41s"
         }
       ]
     },
@@ -4476,753 +4414,666 @@ export const professionsData = {
       "description": "Cut raw gems into powerful jewels to socket into your gear, or craft ornate rings and amulets.",
       "recipes": [
         {
-          "name": "Sparkling Amulet of the Earth",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 23,
-          "mats": "Various materials",
-          "sellPrice": "5g 21s"
-        },
-        {
-          "name": "Flashing Pendant of the Moon",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
+          "name": "Runed Diamond of the Moon",
+          "rarity": "Rare",
+          "bindType": "",
           "slot": "",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Spirit"
-          ],
+          "type": "Gem",
+          "stats": [],
           "effect": "",
-          "requiresLevel": 30,
+          "requiresLevel": 53,
           "mats": "Various materials",
-          "sellPrice": "5g 45s"
+          "sellPrice": "7g 68s"
         },
         {
-          "name": "Amulet",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Strength",
-            "+15 Agility",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 50,
-          "mats": "Various materials",
-          "sellPrice": "8g 92s"
-        },
-        {
-          "name": "Runed Opal",
+          "name": "Amulet of the Earth",
           "rarity": "Common",
           "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Gem/Jewelry",
+          "slot": "Neck",
+          "type": "Jewelry",
           "stats": [
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 5,
-          "mats": "Various materials",
-          "sellPrice": "8g 69s"
-        },
-        {
-          "name": "Shifting Emerald of the Sky",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Spirit",
-            "+15 Stamina",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 56,
-          "mats": "Various materials",
-          "sellPrice": "4g 90s"
-        },
-        {
-          "name": "Solid Opal",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Stamina",
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 7,
-          "mats": "Various materials",
-          "sellPrice": "10g 36s"
-        },
-        {
-          "name": "Opal of the Earth",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 37,
-          "mats": "Various materials",
-          "sellPrice": "5g 51s"
-        },
-        {
-          "name": "Opal",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 41,
-          "mats": "Various materials",
-          "sellPrice": "4g 78s"
-        },
-        {
-          "name": "Sapphire of the Sea",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 6,
-          "mats": "Various materials",
-          "sellPrice": "9g 95s"
-        },
-        {
-          "name": "Runed Emerald of the Earth",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Agility",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 49,
-          "mats": "Various materials",
-          "sellPrice": "9g 69s"
-        },
-        {
-          "name": "Solid Ruby of the Sea",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Agility",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 22,
-          "mats": "Various materials",
-          "sellPrice": "4g 49s"
-        },
-        {
-          "name": "Topaz of the Moon",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 60,
-          "mats": "Various materials",
-          "sellPrice": "2g 20s"
-        },
-        {
-          "name": "Pendant of the Earth",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 40,
-          "mats": "Various materials",
-          "sellPrice": "2g 26s"
-        },
-        {
-          "name": "Glinting Topaz of the Sun",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 31,
-          "mats": "Various materials",
-          "sellPrice": "9g 89s"
-        },
-        {
-          "name": "Brilliant Necklace of the Sky",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 31,
-          "mats": "Various materials",
-          "sellPrice": "5g 75s"
-        },
-        {
-          "name": "Flashing Ruby",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Spirit",
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 33,
-          "mats": "Various materials",
-          "sellPrice": "2g 94s"
-        },
-        {
-          "name": "Shifting Amulet of the Earth",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+            "+15 Intellect"
           ],
           "effect": "",
           "requiresLevel": 19,
           "mats": "Various materials",
-          "sellPrice": "6g 89s"
+          "sellPrice": "3g 83s"
         },
         {
-          "name": "Shifting Sapphire of the Earth",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Agility"
-          ],
+          "name": "Solid Diamond",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
           "effect": "",
-          "requiresLevel": 45,
+          "requiresLevel": 42,
+          "mats": "Various materials",
+          "sellPrice": "6g 52s"
+        },
+        {
+          "name": "Runed Topaz",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 8,
           "mats": "Various materials",
           "sellPrice": "9g 98s"
         },
         {
-          "name": "Diamond of the Moon",
+          "name": "Solid Pendant",
           "rarity": "Uncommon",
           "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Gem/Jewelry",
+          "slot": "Neck",
+          "type": "Jewelry",
           "stats": [
-            "+15 Spirit",
-            "+15 Strength"
+            "Equip: Improves your chance to get a critical strike by 1%."
           ],
           "effect": "",
-          "requiresLevel": 1,
+          "requiresLevel": 12,
           "mats": "Various materials",
-          "sellPrice": "1g 50s"
+          "sellPrice": "1g 20s"
         },
         {
-          "name": "Delicate Emerald of the Sky",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Intellect",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 38,
-          "mats": "Various materials",
-          "sellPrice": "9g 47s"
-        },
-        {
-          "name": "Diamond of the Sun",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Intellect",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 34,
-          "mats": "Various materials",
-          "sellPrice": "3g 30s"
-        },
-        {
-          "name": "Sparkling Opal of the Earth",
+          "name": "Pendant of the Sky",
           "rarity": "Epic",
           "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Gem/Jewelry",
+          "slot": "Neck",
+          "type": "Jewelry",
           "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Strength",
             "+15 Agility"
           ],
           "effect": "",
-          "requiresLevel": 59,
+          "requiresLevel": 17,
           "mats": "Various materials",
-          "sellPrice": "6g 45s"
-        },
-        {
-          "name": "Ruby of the Earth",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Strength",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 48,
-          "mats": "Various materials",
-          "sellPrice": "1g 28s"
-        },
-        {
-          "name": "Shifting Pendant",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Intellect",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "5g 5s"
-        },
-        {
-          "name": "Flashing Sapphire of the Earth",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 53,
-          "mats": "Various materials",
-          "sellPrice": "4g 79s"
-        },
-        {
-          "name": "Sparkling Emerald of the Sky",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Intellect",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 4,
-          "mats": "Various materials",
-          "sellPrice": "6g 68s"
-        },
-        {
-          "name": "Shifting Emerald",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Spirit",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 25,
-          "mats": "Various materials",
-          "sellPrice": "3g 44s"
-        },
-        {
-          "name": "Ring of the Moon",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "6g 76s"
+          "sellPrice": "2g 55s"
         },
         {
           "name": "Sapphire",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Agility",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 6,
-          "mats": "Various materials",
-          "sellPrice": "1g 58s"
-        },
-        {
-          "name": "Emerald",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33.",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 18,
-          "mats": "Various materials",
-          "sellPrice": "10g 46s"
-        },
-        {
-          "name": "Brilliant Diamond",
           "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Strength"
-          ],
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
           "effect": "",
-          "requiresLevel": 19,
+          "requiresLevel": 40,
           "mats": "Various materials",
-          "sellPrice": "3g 66s"
+          "sellPrice": "8g 52s"
         },
         {
-          "name": "Flashing Diamond",
-          "rarity": "Uncommon",
+          "name": "Pendant",
+          "rarity": "Common",
           "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Gem/Jewelry",
+          "slot": "Neck",
+          "type": "Jewelry",
           "stats": [
+            "+15 Intellect",
             "Equip: Increases damage and healing done by magical spells and effects by up to 21."
           ],
           "effect": "",
-          "requiresLevel": 3,
+          "requiresLevel": 10,
           "mats": "Various materials",
-          "sellPrice": "1g 31s"
+          "sellPrice": "2g 92s"
         },
         {
-          "name": "Shifting Amulet",
-          "rarity": "Epic",
+          "name": "Solid Emerald",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 40,
+          "mats": "Various materials",
+          "sellPrice": "1g 52s"
+        },
+        {
+          "name": "Shifting Pendant of the Earth",
+          "rarity": "Rare",
           "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Gem/Jewelry",
+          "slot": "Neck",
+          "type": "Jewelry",
           "stats": [
-            "+15 Strength",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
             "Equip: Increases healing done by spells and effects by up to 33."
           ],
           "effect": "",
-          "requiresLevel": 25,
+          "requiresLevel": 9,
           "mats": "Various materials",
-          "sellPrice": "7g 70s"
+          "sellPrice": "6g 0s"
         },
         {
-          "name": "Shifting Necklace",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Intellect",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 22,
-          "mats": "Various materials",
-          "sellPrice": "4g 11s"
-        },
-        {
-          "name": "Runed Pendant of the Earth",
+          "name": "Sparkling Necklace of the Moon",
           "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Gem/Jewelry",
+          "bindType": "Binds when equipped",
+          "slot": "Neck",
+          "type": "Jewelry",
           "stats": [
             "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Spirit"
+            "+15 Intellect"
           ],
           "effect": "",
-          "requiresLevel": 1,
+          "requiresLevel": 17,
+          "mats": "Various materials",
+          "sellPrice": "4g 24s"
+        },
+        {
+          "name": "Runed Opal of the Earth",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 15,
+          "mats": "Various materials",
+          "sellPrice": "8g 34s"
+        },
+        {
+          "name": "Runed Diamond of the Sun",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 10,
+          "mats": "Various materials",
+          "sellPrice": "1g 85s"
+        },
+        {
+          "name": "Solid Opal of the Moon",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 46,
+          "mats": "Various materials",
+          "sellPrice": "2g 0s"
+        },
+        {
+          "name": "Solid Pendant of the Sun",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Neck",
+          "type": "Jewelry",
+          "stats": [
+            "+15 Agility"
+          ],
+          "effect": "",
+          "requiresLevel": 26,
+          "mats": "Various materials",
+          "sellPrice": "7g 87s"
+        },
+        {
+          "name": "Sapphire of the Earth",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 53,
           "mats": "Various materials",
           "sellPrice": "10g 28s"
         },
         {
-          "name": "Solid Pendant",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Gem/Jewelry",
+          "name": "Flashing Ring",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Jewelry",
           "stats": [
-            "+15 Spirit",
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 6,
+          "mats": "Various materials",
+          "sellPrice": "5g 74s"
+        },
+        {
+          "name": "Delicate Necklace of the Sky",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Neck",
+          "type": "Jewelry",
+          "stats": [
+            "+15 Strength",
+            "Equip: Increases healing done by spells and effects by up to 33.",
             "+15 Intellect"
           ],
           "effect": "",
-          "requiresLevel": 60,
+          "requiresLevel": 33,
           "mats": "Various materials",
-          "sellPrice": "4g 15s"
+          "sellPrice": "9g 44s"
         },
         {
-          "name": "Flashing Ruby of the Earth",
+          "name": "Necklace",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Neck",
+          "type": "Jewelry",
+          "stats": [
+            "Equip: Increases healing done by spells and effects by up to 33.",
+            "+15 Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 32,
+          "mats": "Various materials",
+          "sellPrice": "9g 31s"
+        },
+        {
+          "name": "Glinting Diamond",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 40,
+          "mats": "Various materials",
+          "sellPrice": "7g 15s"
+        },
+        {
+          "name": "Delicate Necklace of the Moon",
           "rarity": "Rare",
           "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Gem/Jewelry",
+          "slot": "Neck",
+          "type": "Jewelry",
           "stats": [
             "+15 Agility",
-            "+15 Intellect",
-            "Equip: Increases healing done by spells and effects by up to 33."
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
           ],
           "effect": "",
-          "requiresLevel": 42,
+          "requiresLevel": 52,
           "mats": "Various materials",
-          "sellPrice": "7g 1s"
+          "sellPrice": "4g 76s"
         },
         {
-          "name": "Emerald of the Earth",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Strength",
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 18,
-          "mats": "Various materials",
-          "sellPrice": "3g 96s"
-        },
-        {
-          "name": "Runed Ruby of the Earth",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
+          "name": "Brilliant Diamond",
+          "rarity": "Common",
+          "bindType": "",
           "slot": "",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
+          "type": "Gem",
+          "stats": [],
           "effect": "",
-          "requiresLevel": 56,
+          "requiresLevel": 13,
           "mats": "Various materials",
-          "sellPrice": "1g 53s"
+          "sellPrice": "7g 72s"
         },
         {
-          "name": "Delicate Amulet of the Sky",
+          "name": "Glinting Ruby of the Earth",
           "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Intellect",
-            "+15 Spirit",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 12,
+          "mats": "Various materials",
+          "sellPrice": "3g 57s"
+        },
+        {
+          "name": "Diamond of the Sky",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
           "effect": "",
           "requiresLevel": 60,
           "mats": "Various materials",
-          "sellPrice": "7g 56s"
+          "sellPrice": "4g 58s"
+        },
+        {
+          "name": "Ruby of the Sky",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 1,
+          "mats": "Various materials",
+          "sellPrice": "6g 27s"
+        },
+        {
+          "name": "Emerald",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 51,
+          "mats": "Various materials",
+          "sellPrice": "4g 52s"
+        },
+        {
+          "name": "Shifting Ring",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Jewelry",
+          "stats": [
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 40,
+          "mats": "Various materials",
+          "sellPrice": "3g 48s"
+        },
+        {
+          "name": "Runed Diamond",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 40,
+          "mats": "Various materials",
+          "sellPrice": "4g 34s"
+        },
+        {
+          "name": "Solid Necklace of the Sky",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Neck",
+          "type": "Jewelry",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+          ],
+          "effect": "",
+          "requiresLevel": 58,
+          "mats": "Various materials",
+          "sellPrice": "8g 81s"
+        },
+        {
+          "name": "Brilliant Necklace",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Neck",
+          "type": "Jewelry",
+          "stats": [
+            "+15 Intellect",
+            "+20 Stamina"
+          ],
+          "effect": "",
+          "requiresLevel": 55,
+          "mats": "Various materials",
+          "sellPrice": "1g 41s"
+        },
+        {
+          "name": "Glinting Amulet of the Sea",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Neck",
+          "type": "Jewelry",
+          "stats": [
+            "+20 Stamina",
+            "+15 Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 57,
+          "mats": "Various materials",
+          "sellPrice": "9g 5s"
+        },
+        {
+          "name": "Topaz of the Earth",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 12,
+          "mats": "Various materials",
+          "sellPrice": "3g 95s"
+        },
+        {
+          "name": "Delicate Pendant of the Sky",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Neck",
+          "type": "Jewelry",
+          "stats": [
+            "Equip: Increases healing done by spells and effects by up to 33.",
+            "+15 Strength",
+            "+15 Intellect"
+          ],
+          "effect": "",
+          "requiresLevel": 14,
+          "mats": "Various materials",
+          "sellPrice": "7g 61s"
+        },
+        {
+          "name": "Brilliant Topaz",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 19,
+          "mats": "Various materials",
+          "sellPrice": "4g 96s"
+        },
+        {
+          "name": "Solid Sapphire",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 13,
+          "mats": "Various materials",
+          "sellPrice": "1g 79s"
+        },
+        {
+          "name": "Flashing Topaz",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 53,
+          "mats": "Various materials",
+          "sellPrice": "3g 46s"
+        },
+        {
+          "name": "Delicate Opal",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 46,
+          "mats": "Various materials",
+          "sellPrice": "10g 14s"
+        },
+        {
+          "name": "Ring",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Jewelry",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "Equip: Increases healing done by spells and effects by up to 33."
+          ],
+          "effect": "",
+          "requiresLevel": 48,
+          "mats": "Various materials",
+          "sellPrice": "6g 98s"
         },
         {
           "name": "Delicate Ring",
           "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Gem/Jewelry",
+          "slot": "Finger",
+          "type": "Jewelry",
           "stats": [
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 3,
-          "mats": "Various materials",
-          "sellPrice": "8g 59s"
-        },
-        {
-          "name": "Flashing Ring of the Moon",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Spirit",
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 43,
-          "mats": "Various materials",
-          "sellPrice": "2g 35s"
-        },
-        {
-          "name": "Sparkling Necklace",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 50,
-          "mats": "Various materials",
-          "sellPrice": "5g 40s"
-        },
-        {
-          "name": "Flashing Sapphire of the Sea",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Agility",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 18,
-          "mats": "Various materials",
-          "sellPrice": "10g 30s"
-        },
-        {
-          "name": "Glinting Topaz",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 41,
-          "mats": "Various materials",
-          "sellPrice": "8g 8s"
-        },
-        {
-          "name": "Shifting Ring",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Intellect",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 19,
-          "mats": "Various materials",
-          "sellPrice": "8g 0s"
-        },
-        {
-          "name": "Flashing Amulet",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Gem/Jewelry",
-          "stats": [
+            "Equip: Improves your chance to get a critical strike by 1%.",
             "+15 Strength"
           ],
           "effect": "",
-          "requiresLevel": 47,
+          "requiresLevel": 21,
           "mats": "Various materials",
-          "sellPrice": "1g 67s"
+          "sellPrice": "10g 79s"
         },
         {
-          "name": "Shifting Amulet of the Sea",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "+15 Strength",
-            "+15 Agility",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 29,
-          "mats": "Various materials",
-          "sellPrice": "4g 64s"
-        },
-        {
-          "name": "Delicate Ring of the Sky",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Gem/Jewelry",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 48,
-          "mats": "Various materials",
-          "sellPrice": "4g 65s"
-        },
-        {
-          "name": "Solid Topaz",
+          "name": "Runed Necklace of the Sun",
           "rarity": "Epic",
           "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Gem/Jewelry",
+          "slot": "Neck",
+          "type": "Jewelry",
           "stats": [
-            "+15 Spirit",
-            "Equip: Improves your chance to get a critical strike by 1%."
+            "+20 Stamina",
+            "+15 Intellect"
           ],
+          "effect": "",
+          "requiresLevel": 32,
+          "mats": "Various materials",
+          "sellPrice": "6g 25s"
+        },
+        {
+          "name": "Brilliant Amulet of the Sun",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Neck",
+          "type": "Jewelry",
+          "stats": [
+            "Equip: Increases healing done by spells and effects by up to 33.",
+            "+15 Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 25,
+          "mats": "Various materials",
+          "sellPrice": "3g 28s"
+        },
+        {
+          "name": "Delicate Ruby",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 56,
+          "mats": "Various materials",
+          "sellPrice": "4g 3s"
+        },
+        {
+          "name": "Shifting Emerald",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 28,
+          "mats": "Various materials",
+          "sellPrice": "3g 57s"
+        },
+        {
+          "name": "Delicate Sapphire of the Moon",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 38,
+          "mats": "Various materials",
+          "sellPrice": "8g 13s"
+        },
+        {
+          "name": "Brilliant Sapphire",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 38,
+          "mats": "Various materials",
+          "sellPrice": "3g 68s"
+        },
+        {
+          "name": "Runed Pendant",
+          "rarity": "Epic",
+          "bindType": "Binds when equipped",
+          "slot": "Neck",
+          "type": "Jewelry",
+          "stats": [
+            "Equip: Increases your chance to hit by 1%.",
+            "Equip: Increases healing done by spells and effects by up to 33.",
+            "+15 Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 14,
+          "mats": "Various materials",
+          "sellPrice": "7g 56s"
+        },
+        {
+          "name": "Ruby",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 35,
+          "mats": "Various materials",
+          "sellPrice": "8g 78s"
+        },
+        {
+          "name": "Sparkling Opal",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
           "effect": "",
           "requiresLevel": 55,
           "mats": "Various materials",
-          "sellPrice": "9g 80s"
+          "sellPrice": "4g 39s"
+        },
+        {
+          "name": "Runed Diamond of the Earth",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Gem",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 42,
+          "mats": "Various materials",
+          "sellPrice": "7g 39s"
+        },
+        {
+          "name": "Ring of the Earth",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Jewelry",
+          "stats": [
+            "Equip: Improves your chance to get a critical strike by 1%.",
+            "Equip: Increases your chance to hit by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 51,
+          "mats": "Various materials",
+          "sellPrice": "4g 73s"
         }
       ]
     },
@@ -5233,737 +5084,674 @@ export const professionsData = {
       "description": "Mill herbs into pigments to create powerful glyphs, scrolls, and off-hand tomes.",
       "recipes": [
         {
-          "name": "Major Tome",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Intellect",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 18,
-          "mats": "Various materials",
-          "sellPrice": "2g 32s"
-        },
-        {
-          "name": "Arcane Tome of Recall",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 40,
-          "mats": "Various materials",
-          "sellPrice": "1g 37s"
-        },
-        {
-          "name": "Scroll of Recall",
+          "name": "Minor Tarot of Intellect",
           "rarity": "Common",
           "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Scroll/Glyph",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
           ],
           "effect": "",
-          "requiresLevel": 26,
+          "requiresLevel": 1,
+          "mats": "Various materials",
+          "sellPrice": "10g 86s"
+        },
+        {
+          "name": "Arcane Glyph",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Glyph",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 47,
+          "mats": "Various materials",
+          "sellPrice": "9g 20s"
+        },
+        {
+          "name": "Minor Vellum of Strength",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 6,
+          "mats": "Various materials",
+          "sellPrice": "10g 79s"
+        },
+        {
+          "name": "Minor Vellum of Intellect",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 35,
+          "mats": "Various materials",
+          "sellPrice": "2g 77s"
+        },
+        {
+          "name": "Tome of Strength",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Off Hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+            "+15 Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 22,
           "mats": "Various materials",
           "sellPrice": "7g 72s"
         },
         {
-          "name": "Scroll of Agility",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 14,
-          "mats": "Various materials",
-          "sellPrice": "10g 48s"
-        },
-        {
-          "name": "Arcane Vellum",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 59,
-          "mats": "Various materials",
-          "sellPrice": "10g 67s"
-        },
-        {
-          "name": "Tome of Strength",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 41,
-          "mats": "Various materials",
-          "sellPrice": "8g 91s"
-        },
-        {
-          "name": "Shadowy Scroll",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
+          "name": "Lesser Scroll",
+          "rarity": "Rare",
+          "bindType": "",
           "slot": "",
-          "type": "Scroll/Glyph",
+          "type": "Consumable",
           "stats": [
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
-            "+15 Stamina",
-            "Equip: Increases healing done by spells and effects by up to 33."
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
-          "requiresLevel": 24,
+          "requiresLevel": 55,
           "mats": "Various materials",
-          "sellPrice": "1g 68s"
+          "sellPrice": "9g 28s"
         },
         {
-          "name": "Major Vellum of Intellect",
+          "name": "Lesser Vellum",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 11,
+          "mats": "Various materials",
+          "sellPrice": "10g 19s"
+        },
+        {
+          "name": "Minor Vellum",
           "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Scroll/Glyph",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 51,
+          "mats": "Various materials",
+          "sellPrice": "5g 20s"
+        },
+        {
+          "name": "Scroll",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 35,
+          "mats": "Various materials",
+          "sellPrice": "2g 86s"
+        },
+        {
+          "name": "Divine Vellum",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 44,
+          "mats": "Various materials",
+          "sellPrice": "2g 41s"
+        },
+        {
+          "name": "Major Tome of Agility",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Off Hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "+15 Strength",
             "+15 Spirit",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 34,
-          "mats": "Various materials",
-          "sellPrice": "4g 27s"
-        },
-        {
-          "name": "Shadowy Tome of Protection",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Stamina",
-            "+15 Agility"
+            "Equip: Increases your chance to hit by 1%."
           ],
           "effect": "",
           "requiresLevel": 51,
           "mats": "Various materials",
-          "sellPrice": "4g 40s"
+          "sellPrice": "1g 19s"
         },
         {
-          "name": "Greater Tome",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 41,
-          "mats": "Various materials",
-          "sellPrice": "9g 87s"
-        },
-        {
-          "name": "Lesser Tarot",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 48,
-          "mats": "Various materials",
-          "sellPrice": "7g 76s"
-        },
-        {
-          "name": "Divine Tarot of Agility",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 26,
-          "mats": "Various materials",
-          "sellPrice": "8g 39s"
-        },
-        {
-          "name": "Arcane Scroll",
+          "name": "Major Tome of Intellect",
           "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 14,
-          "mats": "Various materials",
-          "sellPrice": "6g 93s"
-        },
-        {
-          "name": "Vellum",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Agility",
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 47,
-          "mats": "Various materials",
-          "sellPrice": "6g 83s"
-        },
-        {
-          "name": "Minor Tome of the Gladiator",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 32,
-          "mats": "Various materials",
-          "sellPrice": "10g 66s"
-        },
-        {
-          "name": "Tome",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Spirit",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 19,
-          "mats": "Various materials",
-          "sellPrice": "8g 46s"
-        },
-        {
-          "name": "Arcane Tome",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 27,
-          "mats": "Various materials",
-          "sellPrice": "8g 71s"
-        },
-        {
-          "name": "Tarot",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Intellect",
-            "+15 Spirit",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 44,
-          "mats": "Various materials",
-          "sellPrice": "2g 74s"
-        },
-        {
-          "name": "Shadowy Tome",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 41,
-          "mats": "Various materials",
-          "sellPrice": "7g 59s"
-        },
-        {
-          "name": "Minor Scroll of Protection",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Agility",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 31,
-          "mats": "Various materials",
-          "sellPrice": "7g 80s"
-        },
-        {
-          "name": "Arcane Scroll of Intellect",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 3,
-          "mats": "Various materials",
-          "sellPrice": "4g 6s"
-        },
-        {
-          "name": "Mystic Scroll",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Scroll/Glyph",
+          "slot": "Off Hand",
+          "type": "Miscellaneous",
           "stats": [
             "+15 Strength"
           ],
           "effect": "",
-          "requiresLevel": 31,
+          "requiresLevel": 30,
           "mats": "Various materials",
-          "sellPrice": "2g 20s"
+          "sellPrice": "1g 77s"
         },
         {
-          "name": "Vellum of the Gladiator",
-          "rarity": "Common",
+          "name": "Divine Scroll of Protection",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 36,
+          "mats": "Various materials",
+          "sellPrice": "5g 6s"
+        },
+        {
+          "name": "Shadowy Tome of Strength",
+          "rarity": "Epic",
           "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Scroll/Glyph",
+          "slot": "Off Hand",
+          "type": "Miscellaneous",
           "stats": [
             "+15 Intellect"
           ],
           "effect": "",
-          "requiresLevel": 40,
+          "requiresLevel": 18,
           "mats": "Various materials",
-          "sellPrice": "2g 63s"
+          "sellPrice": "1g 58s"
         },
         {
-          "name": "Minor Glyph of Recall",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 3,
-          "mats": "Various materials",
-          "sellPrice": "6g 51s"
-        },
-        {
-          "name": "Major Vellum of Strength",
+          "name": "Mystic Scroll of Protection",
           "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Scroll/Glyph",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Strength",
-            "+15 Agility"
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
-          "requiresLevel": 28,
+          "requiresLevel": 41,
           "mats": "Various materials",
-          "sellPrice": "6g 20s"
-        },
-        {
-          "name": "Arcane Tarot of Strength",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 49,
-          "mats": "Various materials",
-          "sellPrice": "10g 49s"
-        },
-        {
-          "name": "Glyph",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Strength",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 51,
-          "mats": "Various materials",
-          "sellPrice": "2g 88s"
+          "sellPrice": "3g 18s"
         },
         {
           "name": "Greater Glyph",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 16,
-          "mats": "Various materials",
-          "sellPrice": "3g 45s"
-        },
-        {
-          "name": "Lesser Vellum of the Gladiator",
           "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Intellect",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 27,
-          "mats": "Various materials",
-          "sellPrice": "8g 19s"
-        },
-        {
-          "name": "Mystic Glyph of Protection",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 51,
-          "mats": "Various materials",
-          "sellPrice": "4g 7s"
-        },
-        {
-          "name": "Mystic Vellum of Agility",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
+          "bindType": "",
           "slot": "",
-          "type": "Scroll/Glyph",
+          "type": "Glyph",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 12,
+          "mats": "Various materials",
+          "sellPrice": "2g 17s"
+        },
+        {
+          "name": "Divine Tarot of Protection",
+          "rarity": "Common",
+          "bindType": "Binds when equipped",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
-            "+15 Spirit",
-            "+15 Stamina"
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
           ],
           "effect": "",
           "requiresLevel": 56,
           "mats": "Various materials",
-          "sellPrice": "1g 12s"
+          "sellPrice": "10g 83s"
         },
         {
-          "name": "Minor Glyph",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Intellect",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 3,
-          "mats": "Various materials",
-          "sellPrice": "7g 96s"
-        },
-        {
-          "name": "Major Tome of Recall",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Spirit",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 50,
-          "mats": "Various materials",
-          "sellPrice": "5g 29s"
-        },
-        {
-          "name": "Greater Vellum of Strength",
+          "name": "Minor Tarot of the Gladiator",
           "rarity": "Epic",
           "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Scroll/Glyph",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 45,
+          "mats": "Various materials",
+          "sellPrice": "4g 88s"
+        },
+        {
+          "name": "Tome",
+          "rarity": "Uncommon",
+          "bindType": "Binds when equipped",
+          "slot": "Off Hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "+20 Stamina",
+            "Equip: Improves your chance to get a critical strike by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 34,
+          "mats": "Various materials",
+          "sellPrice": "5g 49s"
+        },
+        {
+          "name": "Minor Scroll",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 43,
+          "mats": "Various materials",
+          "sellPrice": "7g 78s"
+        },
+        {
+          "name": "Greater Glyph of Recall",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Glyph",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 2,
+          "mats": "Various materials",
+          "sellPrice": "6g 27s"
+        },
+        {
+          "name": "Tarot",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 20,
+          "mats": "Various materials",
+          "sellPrice": "3g 96s"
+        },
+        {
+          "name": "Arcane Tarot of Agility",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 32,
+          "mats": "Various materials",
+          "sellPrice": "1g 64s"
+        },
+        {
+          "name": "Major Glyph of Recall",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Glyph",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 10,
+          "mats": "Various materials",
+          "sellPrice": "10g 36s"
+        },
+        {
+          "name": "Mystic Vellum of the Gladiator",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 9,
+          "mats": "Various materials",
+          "sellPrice": "1g 73s"
+        },
+        {
+          "name": "Major Glyph of Agility",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Glyph",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 24,
+          "mats": "Various materials",
+          "sellPrice": "5g 20s"
+        },
+        {
+          "name": "Lesser Vellum of the Gladiator",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 23,
+          "mats": "Various materials",
+          "sellPrice": "8g 36s"
+        },
+        {
+          "name": "Lesser Tome",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Off Hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "+15 Agility",
+            "Equip: Increases healing done by spells and effects by up to 33.",
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 10,
+          "mats": "Various materials",
+          "sellPrice": "9g 60s"
+        },
+        {
+          "name": "Shadowy Tarot of Strength",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 40,
+          "mats": "Various materials",
+          "sellPrice": "5g 91s"
+        },
+        {
+          "name": "Tome of Protection",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Off Hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "+15 Agility",
+            "+15 Strength"
+          ],
+          "effect": "",
+          "requiresLevel": 11,
+          "mats": "Various materials",
+          "sellPrice": "9g 28s"
+        },
+        {
+          "name": "Major Vellum",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 42,
+          "mats": "Various materials",
+          "sellPrice": "6g 95s"
+        },
+        {
+          "name": "Glyph",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Glyph",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 54,
+          "mats": "Various materials",
+          "sellPrice": "8g 71s"
+        },
+        {
+          "name": "Scroll of Protection",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 51,
+          "mats": "Various materials",
+          "sellPrice": "4g 52s"
+        },
+        {
+          "name": "Lesser Tarot of Protection",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 55,
+          "mats": "Various materials",
+          "sellPrice": "9g 67s"
+        },
+        {
+          "name": "Divine Tome",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Off Hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+          ],
+          "effect": "",
+          "requiresLevel": 36,
+          "mats": "Various materials",
+          "sellPrice": "10g 60s"
+        },
+        {
+          "name": "Arcane Vellum",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 24,
+          "mats": "Various materials",
+          "sellPrice": "10g 73s"
+        },
+        {
+          "name": "Shadowy Glyph",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Glyph",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 4,
+          "mats": "Various materials",
+          "sellPrice": "4g 2s"
+        },
+        {
+          "name": "Lesser Vellum of Recall",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 28,
+          "mats": "Various materials",
+          "sellPrice": "6g 61s"
+        },
+        {
+          "name": "Mystic Vellum of Intellect",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 54,
+          "mats": "Various materials",
+          "sellPrice": "9g 9s"
+        },
+        {
+          "name": "Arcane Tarot of Recall",
+          "rarity": "Common",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 60,
+          "mats": "Various materials",
+          "sellPrice": "6g 54s"
+        },
+        {
+          "name": "Vellum",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 43,
+          "mats": "Various materials",
+          "sellPrice": "5g 69s"
+        },
+        {
+          "name": "Tarot of Protection",
+          "rarity": "Uncommon",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Equip: Increases your chance to critically hit by 2%.",
+            "Use: Increases attack power by 250 for 20 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 29,
+          "mats": "Various materials",
+          "sellPrice": "2g 36s"
+        },
+        {
+          "name": "Shadowy Glyph of Intellect",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Glyph",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 7,
+          "mats": "Various materials",
+          "sellPrice": "1g 19s"
+        },
+        {
+          "name": "Greater Scroll of Protection",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 58,
+          "mats": "Various materials",
+          "sellPrice": "1g 74s"
+        },
+        {
+          "name": "Scroll of Strength",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 10,
+          "mats": "Various materials",
+          "sellPrice": "5g 21s"
+        },
+        {
+          "name": "Shadowy Vellum of Intellect",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 31,
+          "mats": "Various materials",
+          "sellPrice": "4g 74s"
+        },
+        {
+          "name": "Vellum of Strength",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 24,
+          "mats": "Various materials",
+          "sellPrice": "5g 49s"
+        },
+        {
+          "name": "Arcane Glyph of Protection",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Glyph",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 7,
+          "mats": "Various materials",
+          "sellPrice": "10g 74s"
+        },
+        {
+          "name": "Mystic Vellum",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 37,
+          "mats": "Various materials",
+          "sellPrice": "1g 35s"
+        },
+        {
+          "name": "Mystic Tome of Agility",
+          "rarity": "Rare",
+          "bindType": "Binds when equipped",
+          "slot": "Off Hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "+15 Strength",
+            "+15 Agility",
             "+15 Intellect"
           ],
           "effect": "",
           "requiresLevel": 6,
           "mats": "Various materials",
-          "sellPrice": "4g 53s"
-        },
-        {
-          "name": "Mystic Tarot of Strength",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Agility",
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 49,
-          "mats": "Various materials",
-          "sellPrice": "2g 3s"
-        },
-        {
-          "name": "Lesser Scroll of Protection",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 15,
-          "mats": "Various materials",
-          "sellPrice": "6g 9s"
-        },
-        {
-          "name": "Greater Scroll of Recall",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Stamina",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 12,
-          "mats": "Various materials",
-          "sellPrice": "8g 59s"
-        },
-        {
-          "name": "Mystic Tome of Agility",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 16,
-          "mats": "Various materials",
-          "sellPrice": "4g 51s"
-        },
-        {
-          "name": "Lesser Tome of Strength",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Intellect"
-          ],
-          "effect": "",
-          "requiresLevel": 20,
-          "mats": "Various materials",
-          "sellPrice": "2g 39s"
-        },
-        {
-          "name": "Mystic Tome",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Spirit"
-          ],
-          "effect": "",
-          "requiresLevel": 47,
-          "mats": "Various materials",
-          "sellPrice": "3g 12s"
-        },
-        {
-          "name": "Shadowy Tarot of Protection",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Stamina",
-            "+15 Strength"
-          ],
-          "effect": "",
-          "requiresLevel": 12,
-          "mats": "Various materials",
-          "sellPrice": "7g 83s"
-        },
-        {
-          "name": "Mystic Vellum of the Gladiator",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Stamina",
-            "Equip: Increases damage and healing done by magical spells and effects by up to 21."
-          ],
-          "effect": "",
-          "requiresLevel": 49,
-          "mats": "Various materials",
-          "sellPrice": "8g 74s"
-        },
-        {
-          "name": "Greater Tarot of the Gladiator",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "+15 Spirit",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 27,
-          "mats": "Various materials",
-          "sellPrice": "9g 9s"
-        },
-        {
-          "name": "Divine Tome of Recall",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%.",
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 59,
-          "mats": "Various materials",
-          "sellPrice": "5g 65s"
-        },
-        {
-          "name": "Mystic Scroll of Protection",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Increases healing done by spells and effects by up to 33."
-          ],
-          "effect": "",
-          "requiresLevel": 48,
-          "mats": "Various materials",
-          "sellPrice": "2g 73s"
-        },
-        {
-          "name": "Greater Glyph of Intellect",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Spirit",
-            "+15 Agility"
-          ],
-          "effect": "",
-          "requiresLevel": 45,
-          "mats": "Various materials",
-          "sellPrice": "10g 8s"
-        },
-        {
-          "name": "Glyph of the Gladiator",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Intellect",
-            "+15 Strength",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 17,
-          "mats": "Various materials",
-          "sellPrice": "9g 0s"
-        },
-        {
-          "name": "Major Tome of Agility",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 17,
-          "mats": "Various materials",
-          "sellPrice": "6g 13s"
-        },
-        {
-          "name": "Divine Tome",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "+15 Strength",
-            "+15 Stamina"
-          ],
-          "effect": "",
-          "requiresLevel": 28,
-          "mats": "Various materials",
-          "sellPrice": "2g 43s"
-        },
-        {
-          "name": "Vellum of Intellect",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Scroll/Glyph",
-          "stats": [
-            "Equip: Improves your chance to get a critical strike by 1%."
-          ],
-          "effect": "",
-          "requiresLevel": 59,
-          "mats": "Various materials",
-          "sellPrice": "10g 30s"
+          "sellPrice": "9g 32s"
         }
       ]
     }
@@ -5976,244 +5764,244 @@ export const professionsData = {
       "description": "Extract precious ores and gems from the earth.",
       "recipes": [
         {
-          "name": "Ore",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
+          "name": "Tin Crystal",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 16,
+          "mats": "Various materials",
+          "sellPrice": "6g 7s"
+        },
+        {
+          "name": "Tin Ore",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 45,
+          "mats": "Various materials",
+          "sellPrice": "10g 92s"
+        },
+        {
+          "name": "Crystal ",
+          "rarity": "Common",
+          "bindType": "",
           "slot": "",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
           "requiresLevel": 17,
           "mats": "Various materials",
-          "sellPrice": "6g 42s"
+          "sellPrice": "7g 85s"
         },
         {
-          "name": "Thorium Crystal ",
+          "name": "Bar",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 9,
+          "mats": "Various materials",
+          "sellPrice": "10g 15s"
+        },
+        {
+          "name": "Crystal",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 42,
+          "mats": "Various materials",
+          "sellPrice": "5g 17s"
+        },
+        {
+          "name": "Arcanite Bar",
           "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 43,
+          "mats": "Various materials",
+          "sellPrice": "2g 66s"
+        },
+        {
+          "name": "Elementium Bar ",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 52,
+          "mats": "Various materials",
+          "sellPrice": "3g 79s"
+        },
+        {
+          "name": "Elementium Stone ",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 37,
+          "mats": "Various materials",
+          "sellPrice": "3g 14s"
+        },
+        {
+          "name": "Iron Stone",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 31,
+          "mats": "Various materials",
+          "sellPrice": "3g 68s"
+        },
+        {
+          "name": "Arcanite Ore ",
+          "rarity": "Epic",
+          "bindType": "",
           "slot": "",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
           "requiresLevel": 26,
           "mats": "Various materials",
-          "sellPrice": "5g 19s"
+          "sellPrice": "3g 80s"
         },
         {
-          "name": "Tin Bar ",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 36,
-          "mats": "Various materials",
-          "sellPrice": "2g 42s"
-        },
-        {
-          "name": "Dark Iron Crystal",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 31,
-          "mats": "Various materials",
-          "sellPrice": "7g 12s"
-        },
-        {
-          "name": "Elementium Bar",
+          "name": "Stone ",
           "rarity": "Common",
-          "bindType": "Binds when picked up",
+          "bindType": "",
           "slot": "",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
-          "requiresLevel": 30,
+          "requiresLevel": 45,
           "mats": "Various materials",
-          "sellPrice": "5g 83s"
+          "sellPrice": "7g 49s"
         },
         {
-          "name": "Iron Crystal ",
+          "name": "Elementium Ore ",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 10,
+          "mats": "Various materials",
+          "sellPrice": "6g 95s"
+        },
+        {
+          "name": "Thorium Ore ",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 50,
+          "mats": "Various materials",
+          "sellPrice": "8g 79s"
+        },
+        {
+          "name": "Iron Crystal",
           "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 18,
+          "mats": "Various materials",
+          "sellPrice": "9g 56s"
+        },
+        {
+          "name": "Thorium Crystal",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 7,
+          "mats": "Various materials",
+          "sellPrice": "6g 47s"
+        },
+        {
+          "name": "Iron Stone ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 42,
+          "mats": "Various materials",
+          "sellPrice": "7g 89s"
+        },
+        {
+          "name": "Iron Ore ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
           "requiresLevel": 2,
           "mats": "Various materials",
-          "sellPrice": "3g 28s"
+          "sellPrice": "10g 51s"
         },
         {
-          "name": "Mithril Bar ",
+          "name": "Dark Iron Bar",
           "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 56,
-          "mats": "Various materials",
-          "sellPrice": "8g 52s"
-        },
-        {
-          "name": "Crystal ",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
+          "bindType": "",
           "slot": "",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
           "requiresLevel": 17,
           "mats": "Various materials",
-          "sellPrice": "2g 12s"
+          "sellPrice": "8g 74s"
         },
         {
-          "name": "Bar ",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 22,
-          "mats": "Various materials",
-          "sellPrice": "2g 12s"
-        },
-        {
-          "name": "Mithril Ore",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 50,
-          "mats": "Various materials",
-          "sellPrice": "2g 96s"
-        },
-        {
-          "name": "Tin Stone",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 29,
-          "mats": "Various materials",
-          "sellPrice": "1g 5s"
-        },
-        {
-          "name": "Thorium Bar",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 44,
-          "mats": "Various materials",
-          "sellPrice": "4g 37s"
-        },
-        {
-          "name": "Bar",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 31,
-          "mats": "Various materials",
-          "sellPrice": "9g 22s"
-        },
-        {
-          "name": "Tin Stone ",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 50,
-          "mats": "Various materials",
-          "sellPrice": "7g 48s"
-        },
-        {
-          "name": "Thorium Ore",
+          "name": "Arcanite Crystal",
           "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
+          "bindType": "",
+          "slot": "",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
-          "requiresLevel": 2,
+          "requiresLevel": 24,
           "mats": "Various materials",
-          "sellPrice": "2g 50s"
+          "sellPrice": "7g 95s"
         },
         {
-          "name": "Tin Crystal ",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 12,
-          "mats": "Various materials",
-          "sellPrice": "5g 74s"
-        },
-        {
-          "name": "Thorium Stone ",
+          "name": "Mithril Bar",
           "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
+          "bindType": "",
+          "slot": "",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
-          "requiresLevel": 25,
+          "requiresLevel": 40,
           "mats": "Various materials",
-          "sellPrice": "9g 33s"
-        },
-        {
-          "name": "Elementium Stone ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 2,
-          "mats": "Various materials",
-          "sellPrice": "8g 53s"
-        },
-        {
-          "name": "Crystal",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 47,
-          "mats": "Various materials",
-          "sellPrice": "7g 18s"
-        },
-        {
-          "name": "Tin Ore",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 9,
-          "mats": "Various materials",
-          "sellPrice": "7g 56s"
+          "sellPrice": "7g 75s"
         }
       ]
     },
@@ -6224,244 +6012,244 @@ export const professionsData = {
       "description": "Gather rare herbs and flora from across the world.",
       "recipes": [
         {
-          "name": "Fadeleaf Root",
+          "name": "Icecap Leaf",
           "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 27,
-          "mats": "Various materials",
-          "sellPrice": "2g 11s"
-        },
-        {
-          "name": "Earthroot Bloom",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 17,
-          "mats": "Various materials",
-          "sellPrice": "4g 65s"
-        },
-        {
-          "name": "Kingsblood Root ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 2,
-          "mats": "Various materials",
-          "sellPrice": "4g 55s"
-        },
-        {
-          "name": "Earthroot Root ",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "4g 82s"
-        },
-        {
-          "name": "Icecap Clover ",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
+          "bindType": "",
           "slot": "",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 34,
-          "mats": "Various materials",
-          "sellPrice": "4g 10s"
-        },
-        {
-          "name": "Dreamfoil Bloom",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 21,
-          "mats": "Various materials",
-          "sellPrice": "5g 14s"
-        },
-        {
-          "name": "Leaf ",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
           "requiresLevel": 9,
           "mats": "Various materials",
-          "sellPrice": "1g 57s"
+          "sellPrice": "5g 79s"
         },
         {
-          "name": "Fadeleaf Weed ",
+          "name": "Root",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 60,
+          "mats": "Various materials",
+          "sellPrice": "1g 6s"
+        },
+        {
+          "name": "Fadeleaf Root",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 55,
+          "mats": "Various materials",
+          "sellPrice": "4g 93s"
+        },
+        {
+          "name": "Icecap Leaf ",
           "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 20,
+          "mats": "Various materials",
+          "sellPrice": "5g 11s"
+        },
+        {
+          "name": "Icecap Lotus",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 49,
+          "mats": "Various materials",
+          "sellPrice": "6g 79s"
+        },
+        {
+          "name": "Silverleaf Root",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 23,
+          "mats": "Various materials",
+          "sellPrice": "10g 33s"
+        },
+        {
+          "name": "Dreamfoil Root ",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
           "requiresLevel": 41,
           "mats": "Various materials",
-          "sellPrice": "9g 66s"
+          "sellPrice": "4g 13s"
         },
         {
-          "name": "Fadeleaf Lotus ",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
+          "name": "Bloom ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
-          "requiresLevel": 37,
+          "requiresLevel": 18,
           "mats": "Various materials",
-          "sellPrice": "10g 19s"
+          "sellPrice": "1g 36s"
         },
         {
-          "name": "Mageroyal Weed ",
+          "name": "Weed",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 38,
+          "mats": "Various materials",
+          "sellPrice": "8g 22s"
+        },
+        {
+          "name": "Mageroyal Lotus ",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 48,
+          "mats": "Various materials",
+          "sellPrice": "1g 14s"
+        },
+        {
+          "name": "Dreamfoil Bloom",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 43,
+          "mats": "Various materials",
+          "sellPrice": "4g 56s"
+        },
+        {
+          "name": "Blindweed Root",
           "rarity": "Epic",
-          "bindType": "Binds when picked up",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 51,
+          "mats": "Various materials",
+          "sellPrice": "10g 51s"
+        },
+        {
+          "name": "Sungrass Bloom ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 4,
+          "mats": "Various materials",
+          "sellPrice": "3g 69s"
+        },
+        {
+          "name": "Lotus ",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 28,
+          "mats": "Various materials",
+          "sellPrice": "9g 37s"
+        },
+        {
+          "name": "Fadeleaf Bloom",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 47,
+          "mats": "Various materials",
+          "sellPrice": "5g 65s"
+        },
+        {
+          "name": "Blindweed Clover ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 43,
+          "mats": "Various materials",
+          "sellPrice": "10g 75s"
+        },
+        {
+          "name": "Sungrass Weed ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 60,
+          "mats": "Various materials",
+          "sellPrice": "1g 16s"
+        },
+        {
+          "name": "Mountain Silversage Clover ",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 25,
+          "mats": "Various materials",
+          "sellPrice": "4g 0s"
+        },
+        {
+          "name": "Mountain Silversage Bloom ",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 35,
+          "mats": "Various materials",
+          "sellPrice": "8g 46s"
+        },
+        {
+          "name": "Sungrass Lotus",
+          "rarity": "Uncommon",
+          "bindType": "",
           "slot": "",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
           "requiresLevel": 45,
           "mats": "Various materials",
-          "sellPrice": "9g 67s"
-        },
-        {
-          "name": "Mageroyal Bloom",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 36,
-          "mats": "Various materials",
-          "sellPrice": "9g 13s"
-        },
-        {
-          "name": "Dreamfoil Root",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 49,
-          "mats": "Various materials",
-          "sellPrice": "3g 82s"
-        },
-        {
-          "name": "Plaguebloom Weed ",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 4,
-          "mats": "Various materials",
-          "sellPrice": "3g 33s"
-        },
-        {
-          "name": "Black Lotus Weed",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 15,
-          "mats": "Various materials",
-          "sellPrice": "8g 80s"
-        },
-        {
-          "name": "Blindweed Leaf",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "9g 55s"
-        },
-        {
-          "name": "Root ",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 49,
-          "mats": "Various materials",
-          "sellPrice": "3g 18s"
-        },
-        {
-          "name": "Liferoot Weed",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 29,
-          "mats": "Various materials",
-          "sellPrice": "5g 65s"
-        },
-        {
-          "name": "Liferoot Lotus ",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 60,
-          "mats": "Various materials",
-          "sellPrice": "6g 75s"
-        },
-        {
-          "name": "Ghost Mushroom Clover ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 52,
-          "mats": "Various materials",
-          "sellPrice": "9g 39s"
-        },
-        {
-          "name": "Liferoot Bloom ",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 6,
-          "mats": "Various materials",
-          "sellPrice": "3g 83s"
+          "sellPrice": "5g 72s"
         }
       ]
     },
@@ -6472,244 +6260,244 @@ export const professionsData = {
       "description": "Harvest leathers, hides, and scales from slain beasts.",
       "recipes": [
         {
-          "name": "Leather",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 52,
-          "mats": "Various materials",
-          "sellPrice": "5g 11s"
-        },
-        {
-          "name": "Scale ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
+          "name": "Thick Leather",
+          "rarity": "Rare",
+          "bindType": "",
           "slot": "",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
-          "requiresLevel": 44,
+          "requiresLevel": 16,
           "mats": "Various materials",
-          "sellPrice": "4g 26s"
+          "sellPrice": "7g 81s"
         },
         {
-          "name": "Heavy Scale",
+          "name": "Ruined Leather",
           "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 47,
-          "mats": "Various materials",
-          "sellPrice": "6g 35s"
-        },
-        {
-          "name": "Light Hide ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 8,
-          "mats": "Various materials",
-          "sellPrice": "1g 43s"
-        },
-        {
-          "name": "Thick Scale ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 30,
-          "mats": "Various materials",
-          "sellPrice": "2g 57s"
-        },
-        {
-          "name": "Light Pelt",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 3,
-          "mats": "Various materials",
-          "sellPrice": "4g 35s"
-        },
-        {
-          "name": "Rugged Pelt ",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 21,
-          "mats": "Various materials",
-          "sellPrice": "1g 52s"
-        },
-        {
-          "name": "Medium Hide ",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 50,
-          "mats": "Various materials",
-          "sellPrice": "3g 64s"
-        },
-        {
-          "name": "Heavy Scale ",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 19,
-          "mats": "Various materials",
-          "sellPrice": "2g 45s"
-        },
-        {
-          "name": "Ruined Scale",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 6,
-          "mats": "Various materials",
-          "sellPrice": "7g 75s"
-        },
-        {
-          "name": "Scale",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 42,
-          "mats": "Various materials",
-          "sellPrice": "3g 24s"
-        },
-        {
-          "name": "Hide ",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 52,
-          "mats": "Various materials",
-          "sellPrice": "8g 93s"
-        },
-        {
-          "name": "Dragonscale Hide",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 23,
-          "mats": "Various materials",
-          "sellPrice": "4g 38s"
-        },
-        {
-          "name": "Devilsaur Leather",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 48,
-          "mats": "Various materials",
-          "sellPrice": "8g 95s"
-        },
-        {
-          "name": "Heavy Leather",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 9,
-          "mats": "Various materials",
-          "sellPrice": "3g 4s"
-        },
-        {
-          "name": "Pelt",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 28,
-          "mats": "Various materials",
-          "sellPrice": "8g 8s"
-        },
-        {
-          "name": "Medium Leather ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 59,
-          "mats": "Various materials",
-          "sellPrice": "8g 60s"
-        },
-        {
-          "name": "Chimera Pelt",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Trade Good",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 1,
-          "mats": "Various materials",
-          "sellPrice": "1g 76s"
-        },
-        {
-          "name": "Hide",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
+          "bindType": "",
           "slot": "",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
           "requiresLevel": 38,
           "mats": "Various materials",
-          "sellPrice": "8g 5s"
+          "sellPrice": "3g 4s"
         },
         {
-          "name": "Devilsaur Pelt ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
+          "name": "Thick Hide ",
+          "rarity": "Common",
+          "bindType": "",
           "slot": "",
           "type": "Trade Good",
           "stats": [],
           "effect": "",
-          "requiresLevel": 41,
+          "requiresLevel": 14,
           "mats": "Various materials",
-          "sellPrice": "6g 80s"
+          "sellPrice": "2g 29s"
+        },
+        {
+          "name": "Dragonscale Pelt ",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 44,
+          "mats": "Various materials",
+          "sellPrice": "3g 67s"
+        },
+        {
+          "name": "Leather ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 47,
+          "mats": "Various materials",
+          "sellPrice": "5g 75s"
+        },
+        {
+          "name": "Devilsaur Leather",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 19,
+          "mats": "Various materials",
+          "sellPrice": "5g 82s"
+        },
+        {
+          "name": "Hide ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 5,
+          "mats": "Various materials",
+          "sellPrice": "2g 51s"
+        },
+        {
+          "name": "Scale ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 15,
+          "mats": "Various materials",
+          "sellPrice": "7g 26s"
+        },
+        {
+          "name": "Devilsaur Hide",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 32,
+          "mats": "Various materials",
+          "sellPrice": "8g 10s"
+        },
+        {
+          "name": "Corehound Hide ",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 7,
+          "mats": "Various materials",
+          "sellPrice": "6g 32s"
+        },
+        {
+          "name": "Dragonscale Leather",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 10,
+          "mats": "Various materials",
+          "sellPrice": "4g 57s"
+        },
+        {
+          "name": "Rugged Leather",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 47,
+          "mats": "Various materials",
+          "sellPrice": "4g 83s"
+        },
+        {
+          "name": "Rugged Leather ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 52,
+          "mats": "Various materials",
+          "sellPrice": "2g 60s"
+        },
+        {
+          "name": "Hide",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 35,
+          "mats": "Various materials",
+          "sellPrice": "5g 7s"
+        },
+        {
+          "name": "Pelt",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 22,
+          "mats": "Various materials",
+          "sellPrice": "7g 91s"
+        },
+        {
+          "name": "Corehound Pelt ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 54,
+          "mats": "Various materials",
+          "sellPrice": "1g 38s"
+        },
+        {
+          "name": "Leather",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 22,
+          "mats": "Various materials",
+          "sellPrice": "4g 16s"
+        },
+        {
+          "name": "Devilsaur Scale ",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 5,
+          "mats": "Various materials",
+          "sellPrice": "7g 6s"
+        },
+        {
+          "name": "Corehound Scale",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 21,
+          "mats": "Various materials",
+          "sellPrice": "7g 32s"
+        },
+        {
+          "name": "Light Pelt ",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 35,
+          "mats": "Various materials",
+          "sellPrice": "1g 34s"
         }
       ]
     }
@@ -6722,424 +6510,424 @@ export const professionsData = {
       "description": "Prepare hearty meals that provide long-lasting buffs.",
       "recipes": [
         {
-          "name": "Raptor Delight",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 4,
-          "mats": "Various materials",
-          "sellPrice": "4g 38s"
-        },
-        {
-          "name": "Dirge's Kickin' Chops",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 24,
-          "mats": "Various materials",
-          "sellPrice": "8g 15s"
-        },
-        {
-          "name": "Raptor Surprise ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 34,
-          "mats": "Various materials",
-          "sellPrice": "9g 60s"
-        },
-        {
-          "name": "Dragonbreath Pie ",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 19,
-          "mats": "Various materials",
-          "sellPrice": "1g 65s"
-        },
-        {
-          "name": "Dirge's Kickin' Steak",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 47,
-          "mats": "Various materials",
-          "sellPrice": "3g 34s"
-        },
-        {
-          "name": "Chops",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 9,
-          "mats": "Various materials",
-          "sellPrice": "5g 26s"
-        },
-        {
-          "name": "Wolf Chops ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 39,
-          "mats": "Various materials",
-          "sellPrice": "6g 94s"
-        },
-        {
-          "name": "Surprise ",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 18,
-          "mats": "Various materials",
-          "sellPrice": "10g 93s"
-        },
-        {
-          "name": "Dragonbreath Soup ",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 22,
-          "mats": "Various materials",
-          "sellPrice": "8g 80s"
-        },
-        {
-          "name": "Savory Deviate Soup ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 59,
-          "mats": "Various materials",
-          "sellPrice": "9g 62s"
-        },
-        {
-          "name": "Ribs ",
+          "name": "Boar Pie",
           "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 49,
-          "mats": "Various materials",
-          "sellPrice": "5g 41s"
-        },
-        {
-          "name": "Raptor Soup ",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 28,
-          "mats": "Various materials",
-          "sellPrice": "3g 11s"
-        },
-        {
-          "name": "Delight ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 10,
-          "mats": "Various materials",
-          "sellPrice": "4g 36s"
-        },
-        {
-          "name": "Wolf Pie ",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "4g 25s"
-        },
-        {
-          "name": "Delight",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 50,
-          "mats": "Various materials",
-          "sellPrice": "2g 52s"
-        },
-        {
-          "name": "Raptor Delight ",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 10,
-          "mats": "Various materials",
-          "sellPrice": "4g 52s"
-        },
-        {
-          "name": "Dragonbreath Stew",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
+          "bindType": "",
           "slot": "",
-          "type": "Food",
+          "type": "Consumable",
           "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
-          "requiresLevel": 13,
+          "requiresLevel": 15,
           "mats": "Various materials",
-          "sellPrice": "5g 27s"
+          "sellPrice": "2g 74s"
         },
         {
-          "name": "Raptor Soup",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Food",
+          "name": "Surprise",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
           "requiresLevel": 33,
           "mats": "Various materials",
-          "sellPrice": "1g 79s"
+          "sellPrice": "6g 50s"
         },
         {
-          "name": "Steak ",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 6,
-          "mats": "Various materials",
-          "sellPrice": "2g 50s"
-        },
-        {
-          "name": "Stew",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 44,
-          "mats": "Various materials",
-          "sellPrice": "10g 31s"
-        },
-        {
-          "name": "Wolf Stew",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 8,
-          "mats": "Various materials",
-          "sellPrice": "7g 98s"
-        },
-        {
-          "name": "Pie",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 29,
-          "mats": "Various materials",
-          "sellPrice": "3g 68s"
-        },
-        {
-          "name": "Bear Pie ",
+          "name": "Dragonbreath Surprise",
           "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Food",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
           "requiresLevel": 31,
           "mats": "Various materials",
-          "sellPrice": "4g 20s"
+          "sellPrice": "7g 20s"
         },
         {
-          "name": "Bear Chops",
+          "name": "Bear Delight",
           "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Food",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
-          "requiresLevel": 36,
+          "requiresLevel": 25,
           "mats": "Various materials",
-          "sellPrice": "6g 92s"
+          "sellPrice": "2g 23s"
         },
         {
-          "name": "Dirge's Kickin' Delight",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Food",
+          "name": "Dirge's Kickin' Ribs",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 19,
-          "mats": "Various materials",
-          "sellPrice": "4g 1s"
-        },
-        {
-          "name": "Dragonbreath Surprise",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 38,
-          "mats": "Various materials",
-          "sellPrice": "2g 41s"
-        },
-        {
-          "name": "Bear Steak ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 17,
-          "mats": "Various materials",
-          "sellPrice": "1g 50s"
-        },
-        {
-          "name": "Bear Sausage ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 45,
-          "mats": "Various materials",
-          "sellPrice": "8g 0s"
-        },
-        {
-          "name": "Spider Delight ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
-          ],
-          "effect": "",
-          "requiresLevel": 27,
-          "mats": "Various materials",
-          "sellPrice": "7g 90s"
-        },
-        {
-          "name": "Dirge's Kickin' Sausage ",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Food",
-          "stats": [
-            "Use: Restores 2148 health over 30 sec. Must remain seated."
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
           "requiresLevel": 48,
           "mats": "Various materials",
-          "sellPrice": "8g 76s"
+          "sellPrice": "6g 87s"
+        },
+        {
+          "name": "Dragonbreath Surprise ",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 43,
+          "mats": "Various materials",
+          "sellPrice": "2g 4s"
+        },
+        {
+          "name": "Savory Deviate Delight",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 9,
+          "mats": "Various materials",
+          "sellPrice": "4g 3s"
+        },
+        {
+          "name": "Steak",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 49,
+          "mats": "Various materials",
+          "sellPrice": "6g 87s"
+        },
+        {
+          "name": "Spider Sausage ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 58,
+          "mats": "Various materials",
+          "sellPrice": "6g 5s"
+        },
+        {
+          "name": "Dirge's Kickin' Soup ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 2,
+          "mats": "Various materials",
+          "sellPrice": "9g 32s"
+        },
+        {
+          "name": "Dragonbreath Soup ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 20,
+          "mats": "Various materials",
+          "sellPrice": "4g 58s"
+        },
+        {
+          "name": "Boar Delight",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 17,
+          "mats": "Various materials",
+          "sellPrice": "4g 61s"
+        },
+        {
+          "name": "Wolf Steak ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 33,
+          "mats": "Various materials",
+          "sellPrice": "8g 84s"
+        },
+        {
+          "name": "Chops ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 55,
+          "mats": "Various materials",
+          "sellPrice": "2g 34s"
+        },
+        {
+          "name": "Pie",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 46,
+          "mats": "Various materials",
+          "sellPrice": "5g 46s"
+        },
+        {
+          "name": "Stew ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 58,
+          "mats": "Various materials",
+          "sellPrice": "3g 82s"
+        },
+        {
+          "name": "Raptor Stew ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 46,
+          "mats": "Various materials",
+          "sellPrice": "4g 77s"
+        },
+        {
+          "name": "Ribs ",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 37,
+          "mats": "Various materials",
+          "sellPrice": "5g 50s"
+        },
+        {
+          "name": "Spider Soup",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 47,
+          "mats": "Various materials",
+          "sellPrice": "7g 83s"
+        },
+        {
+          "name": "Raptor Chops",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 28,
+          "mats": "Various materials",
+          "sellPrice": "8g 75s"
+        },
+        {
+          "name": "Savory Deviate Ribs ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 4,
+          "mats": "Various materials",
+          "sellPrice": "7g 18s"
+        },
+        {
+          "name": "Wolf Surprise",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 33,
+          "mats": "Various materials",
+          "sellPrice": "5g 25s"
+        },
+        {
+          "name": "Dirge's Kickin' Surprise ",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 7,
+          "mats": "Various materials",
+          "sellPrice": "1g 64s"
+        },
+        {
+          "name": "Raptor Sausage",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 7,
+          "mats": "Various materials",
+          "sellPrice": "9g 3s"
+        },
+        {
+          "name": "Dragonbreath Soup",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 47,
+          "mats": "Various materials",
+          "sellPrice": "1g 41s"
+        },
+        {
+          "name": "Spider Surprise ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 55,
+          "mats": "Various materials",
+          "sellPrice": "9g 30s"
+        },
+        {
+          "name": "Bear Surprise",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 17,
+          "mats": "Various materials",
+          "sellPrice": "1g 17s"
+        },
+        {
+          "name": "Boar Chops",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 21,
+          "mats": "Various materials",
+          "sellPrice": "10g 2s"
+        },
+        {
+          "name": "Bear Steak ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 2148 health and mana over 30 sec. Must remain seated."
+          ],
+          "effect": "",
+          "requiresLevel": 50,
+          "mats": "Various materials",
+          "sellPrice": "4g 92s"
+        },
+        {
+          "name": "Delight ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 22,
+          "mats": "Various materials",
+          "sellPrice": "2g 16s"
         }
       ]
     },
@@ -7150,364 +6938,364 @@ export const professionsData = {
       "description": "Catch fish from the waters of Azeroth for cooking or alchemy.",
       "recipes": [
         {
-          "name": "Deviate Fish",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "6g 24s"
-        },
-        {
-          "name": "Bristle Whisker Trout ",
+          "name": "Stonescale Squid",
           "rarity": "Rare",
-          "bindType": "Binds when picked up",
+          "bindType": "",
           "slot": "",
-          "type": "Fish",
+          "type": "Trade Good",
           "stats": [],
           "effect": "",
-          "requiresLevel": 10,
+          "requiresLevel": 56,
           "mats": "Various materials",
-          "sellPrice": "10g 79s"
+          "sellPrice": "3g 54s"
         },
         {
-          "name": "Bristle Whisker Salmon",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 34,
-          "mats": "Various materials",
-          "sellPrice": "9g 85s"
-        },
-        {
-          "name": "Mackerel ",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 58,
-          "mats": "Various materials",
-          "sellPrice": "10g 80s"
-        },
-        {
-          "name": "Winter Mackerel",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 34,
-          "mats": "Various materials",
-          "sellPrice": "6g 93s"
-        },
-        {
-          "name": "Spotted Deviate Fish ",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 21,
-          "mats": "Various materials",
-          "sellPrice": "9g 86s"
-        },
-        {
-          "name": "Yellowtail ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Chest",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 1,
-          "mats": "Various materials",
-          "sellPrice": "3g 44s"
-        },
-        {
-          "name": "Oily Squid ",
+          "name": "Trout ",
           "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Chest",
-          "type": "Fish",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 24,
+          "mats": "Various materials",
+          "sellPrice": "1g 38s"
+        },
+        {
+          "name": "Bristle Whisker Catfish",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 36,
+          "mats": "Various materials",
+          "sellPrice": "7g 15s"
+        },
+        {
+          "name": "Winter Deviate Fish",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 28,
+          "mats": "Various materials",
+          "sellPrice": "10g 32s"
+        },
+        {
+          "name": "Oily Squid",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 23,
+          "mats": "Various materials",
+          "sellPrice": "9g 68s"
+        },
+        {
+          "name": "Catfish",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 27,
+          "mats": "Various materials",
+          "sellPrice": "5g 97s"
+        },
+        {
+          "name": "Spotted Catfish ",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 24,
+          "mats": "Various materials",
+          "sellPrice": "6g 2s"
+        },
+        {
+          "name": "Bristle Whisker Deviate Fish ",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 17,
+          "mats": "Various materials",
+          "sellPrice": "10g 54s"
+        },
+        {
+          "name": "Bristle Whisker Catfish ",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
           "stats": [],
           "effect": "",
           "requiresLevel": 16,
           "mats": "Various materials",
-          "sellPrice": "2g 49s"
+          "sellPrice": "7g 0s"
         },
         {
-          "name": "Stonescale Yellowtail ",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 40,
-          "mats": "Various materials",
-          "sellPrice": "8g 18s"
-        },
-        {
-          "name": "Slitherskin Trout ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 59,
-          "mats": "Various materials",
-          "sellPrice": "6g 48s"
-        },
-        {
-          "name": "Spotted Yellowtail ",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 58,
-          "mats": "Various materials",
-          "sellPrice": "2g 54s"
-        },
-        {
-          "name": "Trout ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 54,
-          "mats": "Various materials",
-          "sellPrice": "2g 83s"
-        },
-        {
-          "name": "Grouper",
+          "name": "Oily Grouper",
           "rarity": "Epic",
-          "bindType": "Binds when equipped",
+          "bindType": "",
           "slot": "",
-          "type": "Fish",
+          "type": "Trade Good",
           "stats": [],
           "effect": "",
-          "requiresLevel": 10,
+          "requiresLevel": 43,
           "mats": "Various materials",
-          "sellPrice": "6g 30s"
+          "sellPrice": "7g 78s"
         },
         {
-          "name": "Yellowtail",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Fish",
+          "name": "Stonescale Salmon ",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
           "stats": [],
           "effect": "",
-          "requiresLevel": 7,
+          "requiresLevel": 45,
           "mats": "Various materials",
-          "sellPrice": "2g 23s"
+          "sellPrice": "1g 92s"
         },
         {
-          "name": "Firefin Squid",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Fish",
+          "name": "Raw Snapper ",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
           "stats": [],
           "effect": "",
           "requiresLevel": 50,
           "mats": "Various materials",
-          "sellPrice": "1g 22s"
+          "sellPrice": "10g 13s"
         },
         {
-          "name": "Firefin Grouper",
+          "name": "Winter Snapper ",
           "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 13,
-          "mats": "Various materials",
-          "sellPrice": "1g 6s"
-        },
-        {
-          "name": "Spotted Catfish",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 5,
-          "mats": "Various materials",
-          "sellPrice": "2g 68s"
-        },
-        {
-          "name": "Winter Salmon ",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 51,
-          "mats": "Various materials",
-          "sellPrice": "8g 75s"
-        },
-        {
-          "name": "Oily Mackerel ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Fish",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
           "stats": [],
           "effect": "",
           "requiresLevel": 32,
           "mats": "Various materials",
-          "sellPrice": "10g 43s"
+          "sellPrice": "7g 51s"
         },
         {
-          "name": "Slitherskin Catfish ",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 31,
-          "mats": "Various materials",
-          "sellPrice": "5g 34s"
-        },
-        {
-          "name": "Slitherskin Deviate Fish",
+          "name": "Oily Squid ",
           "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 51,
-          "mats": "Various materials",
-          "sellPrice": "5g 90s"
-        },
-        {
-          "name": "Stonescale Grouper ",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 58,
-          "mats": "Various materials",
-          "sellPrice": "6g 36s"
-        },
-        {
-          "name": "Longjaw Deviate Fish",
-          "rarity": "Uncommon",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 37,
-          "mats": "Various materials",
-          "sellPrice": "10g 59s"
-        },
-        {
-          "name": "Longjaw Trout",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
+          "bindType": "",
           "slot": "",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 38,
-          "mats": "Various materials",
-          "sellPrice": "6g 70s"
-        },
-        {
-          "name": "Stonescale Mackerel ",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Head",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 58,
-          "mats": "Various materials",
-          "sellPrice": "6g 38s"
-        },
-        {
-          "name": "Bristle Whisker Trout",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 25,
-          "mats": "Various materials",
-          "sellPrice": "6g 12s"
-        },
-        {
-          "name": "Trout",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Fish",
-          "stats": [],
-          "effect": "",
-          "requiresLevel": 11,
-          "mats": "Various materials",
-          "sellPrice": "9g 98s"
-        },
-        {
-          "name": "Salmon",
-          "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Fish",
+          "type": "Trade Good",
           "stats": [],
           "effect": "",
           "requiresLevel": 42,
           "mats": "Various materials",
-          "sellPrice": "9g 7s"
+          "sellPrice": "6g 60s"
         },
         {
-          "name": "Catfish",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Fish",
+          "name": "Snapper ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
           "stats": [],
           "effect": "",
-          "requiresLevel": 1,
+          "requiresLevel": 60,
           "mats": "Various materials",
-          "sellPrice": "2g 78s"
+          "sellPrice": "6g 23s"
         },
         {
-          "name": "Squid ",
+          "name": "Slitherskin Mackerel ",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 31,
+          "mats": "Various materials",
+          "sellPrice": "1g 34s"
+        },
+        {
+          "name": "Spotted Deviate Fish ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 52,
+          "mats": "Various materials",
+          "sellPrice": "9g 79s"
+        },
+        {
+          "name": "Grouper ",
           "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "Legs",
-          "type": "Fish",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
           "stats": [],
           "effect": "",
-          "requiresLevel": 40,
+          "requiresLevel": 4,
           "mats": "Various materials",
-          "sellPrice": "9g 60s"
+          "sellPrice": "8g 40s"
+        },
+        {
+          "name": "Slitherskin Deviate Fish ",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 55,
+          "mats": "Various materials",
+          "sellPrice": "3g 5s"
+        },
+        {
+          "name": "Snapper",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 5,
+          "mats": "Various materials",
+          "sellPrice": "3g 39s"
+        },
+        {
+          "name": "Oily Trout ",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 49,
+          "mats": "Various materials",
+          "sellPrice": "4g 43s"
+        },
+        {
+          "name": "Stonescale Mackerel ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 35,
+          "mats": "Various materials",
+          "sellPrice": "2g 15s"
+        },
+        {
+          "name": "Salmon",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 11,
+          "mats": "Various materials",
+          "sellPrice": "1g 42s"
+        },
+        {
+          "name": "Spotted Squid",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 13,
+          "mats": "Various materials",
+          "sellPrice": "4g 15s"
+        },
+        {
+          "name": "Yellowtail",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 60,
+          "mats": "Various materials",
+          "sellPrice": "3g 54s"
+        },
+        {
+          "name": "Trout",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 46,
+          "mats": "Various materials",
+          "sellPrice": "3g 72s"
+        },
+        {
+          "name": "Oily Catfish ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 20,
+          "mats": "Various materials",
+          "sellPrice": "1g 36s"
+        },
+        {
+          "name": "Mackerel ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 2,
+          "mats": "Various materials",
+          "sellPrice": "8g 49s"
+        },
+        {
+          "name": "Bristle Whisker Mackerel",
+          "rarity": "Common",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 2,
+          "mats": "Various materials",
+          "sellPrice": "5g 21s"
+        },
+        {
+          "name": "Longjaw Snapper ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Trade Good",
+          "stats": [],
+          "effect": "",
+          "requiresLevel": 28,
+          "mats": "Various materials",
+          "sellPrice": "2g 73s"
         }
       ]
     },
@@ -7518,214 +7306,214 @@ export const professionsData = {
       "description": "Create bandages and anti-venoms to quickly heal wounds in combat.",
       "recipes": [
         {
-          "name": "Runecloth Bandage ",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Bandage",
-          "stats": [
-            "Use: Heals 2000 damage over 8 sec."
-          ],
-          "effect": "",
-          "requiresLevel": 7,
-          "mats": "Various materials",
-          "sellPrice": "1g 57s"
-        },
-        {
-          "name": "Heavy Linen Anti-Venom ",
-          "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Bandage",
-          "stats": [
-            "Use: Heals 2000 damage over 8 sec."
-          ],
-          "effect": "",
-          "requiresLevel": 18,
-          "mats": "Various materials",
-          "sellPrice": "9g 95s"
-        },
-        {
-          "name": "Wool Anti-Venom ",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Bandage",
-          "stats": [
-            "Use: Heals 2000 damage over 8 sec."
-          ],
-          "effect": "",
-          "requiresLevel": 36,
-          "mats": "Various materials",
-          "sellPrice": "1g 93s"
-        },
-        {
-          "name": "Anti-Venom ",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Bandage",
-          "stats": [
-            "Use: Heals 2000 damage over 8 sec."
-          ],
-          "effect": "",
-          "requiresLevel": 55,
-          "mats": "Various materials",
-          "sellPrice": "3g 79s"
-        },
-        {
-          "name": "Heavy Mageweave Anti-Venom ",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "One-Hand",
-          "type": "Bandage",
-          "stats": [
-            "Use: Heals 2000 damage over 8 sec."
-          ],
-          "effect": "",
-          "requiresLevel": 27,
-          "mats": "Various materials",
-          "sellPrice": "3g 34s"
-        },
-        {
-          "name": "Mageweave Anti-Venom",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "One-Hand",
-          "type": "Bandage",
-          "stats": [
-            "Use: Heals 2000 damage over 8 sec."
-          ],
-          "effect": "",
-          "requiresLevel": 18,
-          "mats": "Various materials",
-          "sellPrice": "2g 16s"
-        },
-        {
-          "name": "Powerful Bandage",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Bandage",
-          "stats": [
-            "Use: Heals 2000 damage over 8 sec."
-          ],
-          "effect": "",
-          "requiresLevel": 1,
-          "mats": "Various materials",
-          "sellPrice": "5g 72s"
-        },
-        {
-          "name": "Wool Bandage ",
+          "name": "Bandage ",
           "rarity": "Common",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Bandage",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
             "Use: Heals 2000 damage over 8 sec."
           ],
           "effect": "",
-          "requiresLevel": 13,
+          "requiresLevel": 2,
           "mats": "Various materials",
-          "sellPrice": "3g 46s"
+          "sellPrice": "9g 4s"
         },
         {
           "name": "Heavy Runecloth Anti-Venom",
-          "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Legs",
-          "type": "Bandage",
-          "stats": [
-            "Use: Heals 2000 damage over 8 sec."
-          ],
-          "effect": "",
-          "requiresLevel": 52,
-          "mats": "Various materials",
-          "sellPrice": "6g 2s"
-        },
-        {
-          "name": "Anti-Venom",
-          "rarity": "Rare",
-          "bindType": "Binds when picked up",
-          "slot": "",
-          "type": "Bandage",
-          "stats": [
-            "Use: Heals 2000 damage over 8 sec."
-          ],
-          "effect": "",
-          "requiresLevel": 22,
-          "mats": "Various materials",
-          "sellPrice": "1g 74s"
-        },
-        {
-          "name": "Heavy Wool Anti-Venom ",
           "rarity": "Uncommon",
-          "bindType": "Binds when equipped",
-          "slot": "Two-Hand",
-          "type": "Bandage",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 37,
+          "mats": "Various materials",
+          "sellPrice": "6g 60s"
+        },
+        {
+          "name": "Heavy Mageweave Bandage",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
             "Use: Heals 2000 damage over 8 sec."
           ],
           "effect": "",
-          "requiresLevel": 40,
+          "requiresLevel": 6,
           "mats": "Various materials",
-          "sellPrice": "8g 35s"
+          "sellPrice": "6g 58s"
         },
         {
-          "name": "Heavy Runecloth Bandage ",
-          "rarity": "Common",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Bandage",
+          "name": "Wool Anti-Venom ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
-            "Use: Heals 2000 damage over 8 sec."
-          ],
-          "effect": "",
-          "requiresLevel": 48,
-          "mats": "Various materials",
-          "sellPrice": "10g 55s"
-        },
-        {
-          "name": "Mageweave Bandage ",
-          "rarity": "Epic",
-          "bindType": "Binds when equipped",
-          "slot": "Head",
-          "type": "Bandage",
-          "stats": [
-            "Use: Heals 2000 damage over 8 sec."
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
           "requiresLevel": 38,
           "mats": "Various materials",
-          "sellPrice": "10g 36s"
+          "sellPrice": "5g 4s"
+        },
+        {
+          "name": "Anti-Venom",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 29,
+          "mats": "Various materials",
+          "sellPrice": "7g 38s"
+        },
+        {
+          "name": "Runecloth Anti-Venom",
+          "rarity": "Rare",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 21,
+          "mats": "Various materials",
+          "sellPrice": "7g 36s"
         },
         {
           "name": "Bandage",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Main Hand",
-          "type": "Bandage",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
             "Use: Heals 2000 damage over 8 sec."
           ],
           "effect": "",
-          "requiresLevel": 46,
+          "requiresLevel": 59,
           "mats": "Various materials",
-          "sellPrice": "4g 51s"
+          "sellPrice": "10g 11s"
         },
         {
-          "name": "Heavy Wool Bandage",
+          "name": "Powerful Bandage ",
           "rarity": "Rare",
-          "bindType": "Binds when equipped",
-          "slot": "Main Hand",
-          "type": "Bandage",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
           "stats": [
             "Use: Heals 2000 damage over 8 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 19,
+          "mats": "Various materials",
+          "sellPrice": "1g 43s"
+        },
+        {
+          "name": "Heavy Mageweave Anti-Venom ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 9,
+          "mats": "Various materials",
+          "sellPrice": "4g 32s"
+        },
+        {
+          "name": "Silk Bandage ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Heals 2000 damage over 8 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 50,
+          "mats": "Various materials",
+          "sellPrice": "5g 50s"
+        },
+        {
+          "name": "Anti-Venom ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
           ],
           "effect": "",
           "requiresLevel": 40,
           "mats": "Various materials",
-          "sellPrice": "2g 48s"
+          "sellPrice": "7g 57s"
+        },
+        {
+          "name": "Heavy Linen Bandage ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Heals 2000 damage over 8 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 49,
+          "mats": "Various materials",
+          "sellPrice": "5g 65s"
+        },
+        {
+          "name": "Wool Bandage ",
+          "rarity": "Uncommon",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Heals 2000 damage over 8 sec."
+          ],
+          "effect": "",
+          "requiresLevel": 51,
+          "mats": "Various materials",
+          "sellPrice": "10g 13s"
+        },
+        {
+          "name": "Heavy Wool Anti-Venom ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 40,
+          "mats": "Various materials",
+          "sellPrice": "3g 36s"
+        },
+        {
+          "name": "Heavy Silk Anti-Venom ",
+          "rarity": "Epic",
+          "bindType": "",
+          "slot": "",
+          "type": "Consumable",
+          "stats": [
+            "Use: Restores 1000 health and 1500 mana."
+          ],
+          "effect": "",
+          "requiresLevel": 40,
+          "mats": "Various materials",
+          "sellPrice": "8g 71s"
         }
       ]
     }
