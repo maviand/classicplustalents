@@ -1,13 +1,26 @@
 import React, { useState } from 'react';
 
 import { pvpData, PVP_MODES } from '../data/pvpData';
+import { WowTooltip } from '../components/WowTooltip';
 
 export default function PvP() {
   const [activeMode, setActiveMode] = useState(PVP_MODES.BATTLEGROUNDS);
   const [activeItem, setActiveItem] = useState('AzsharaCrater');
+  
+  // Tooltip state
+  const [hoveredReward, setHoveredReward] = useState<{item: any, rect: DOMRect} | null>(null);
 
-  const allPvP = [...pvpData[PVP_MODES.BATTLEGROUNDS], ...pvpData[PVP_MODES.WORLD_PVP], ...pvpData[PVP_MODES.ARENA]];
+  const allPvP = Object.values(pvpData).flat();
   const selectedPvPData = allPvP.find(p => p.id === activeItem);
+
+  const handleRewardEnter = (e: React.MouseEvent, item: any) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    setHoveredReward({ item, rect });
+  };
+
+  const handleRewardLeave = () => {
+    setHoveredReward(null);
+  };
 
   return (
     <div className="space-y-8 animate-in fade-in duration-700 pb-20">
@@ -20,6 +33,10 @@ export default function PvP() {
           5 brand new Battlegrounds, dynamic World PvP events, and the chaotic 10v10 Gurubashi Arena. The war in Warcraft is fully realized.
         </p>
       </div>
+
+      {hoveredReward && (
+        <WowTooltip item={hoveredReward.item} rect={hoveredReward.rect} />
+      )}
 
       <div className="flex flex-col lg:flex-row gap-8">
         
@@ -150,8 +167,18 @@ export default function PvP() {
                     {'uniqueRewards' in selectedPvPData && (
                       <div className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg md:col-span-2">
                         <h4 className="text-[#b480ff] font-bold text-sm mb-2 uppercase tracking-wider">Unique Rewards</h4>
-                        <ul className="list-disc pl-4 text-[#a69882] text-sm">
-                          {(selectedPvPData.uniqueRewards as string[]).map((r, i) => <li key={i}>{r}</li>)}
+                        <ul className="list-none pl-0 text-sm mt-2 flex flex-wrap gap-2">
+                          {(selectedPvPData.uniqueRewards as any[]).map((r, i) => (
+                            <li 
+                              key={i}
+                              onMouseEnter={(e) => handleRewardEnter(e, r)}
+                              onMouseLeave={handleRewardLeave}
+                              className="text-[#a335ee] cursor-help hover:underline bg-[#16120e] border border-[#3c3224] px-3 py-1.5 rounded flex items-center gap-2"
+                            >
+                              <div className="w-4 h-4 rounded-sm bg-[#3c3224]" />
+                              {r.name || r}
+                            </li>
+                          ))}
                         </ul>
                       </div>
                     )}

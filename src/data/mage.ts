@@ -13,19 +13,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "21/30/0 Elemental PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "arcane_focus",
@@ -41,19 +41,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "8% / 4%",
       "10% / 5%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "17/31/3 Deep Fire PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "arcane_subtlety",
@@ -66,19 +66,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Reduces your target's spell resistance to all your spells by 5, and reduces the threat caused by your Arcane spells by 20%.",
       "10 / 40%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "arcane_meditation",
@@ -92,19 +92,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "An ancient incantation from the restricted section of the Dalaran archives.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "17/31/3 Deep Fire PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "wand_spec",
@@ -117,19 +117,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Increases your damage with Wands by 13%.",
       "25%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "17/31/3 Deep Fire PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "magic_absorption",
@@ -142,19 +142,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Increases all resistances by 5 and causes all spells you fully resist to restore 2% of your total mana.",
       "10 / 4%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "imp_arcane_missiles",
@@ -168,19 +168,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "presence_of_mind",
@@ -192,19 +192,19 @@ export const MAGE_ARCANE_TALENTS: any = [
     "desc": [
       "When activated, your next Mage spell with a casting time less than 10 seconds becomes an instant cast spell. 3 minute cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "arcane_impact",
@@ -218,19 +218,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "imp_counterspell",
@@ -243,19 +243,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Gives your Counterspell a 50% chance to silence the target for 4 seconds.",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "17/31/3 Deep Fire PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "arcane_flow",
@@ -268,19 +268,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Reduces the cooldown of your Presence of Mind and Evocation spells by 15%.",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "arcane_mind",
@@ -300,19 +300,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "8%",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "arcane_resilience",
@@ -325,19 +325,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Increases your armor by an amount equal to 25% of your Intellect, and reduces the mana cost of your Mana Shield, Frost Ward, and Fire Ward by 25%.",
       "50% / 50%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "An ancient incantation from the restricted section of the Dalaran archives.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "17/31/3 Deep Fire PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "arcane_blast",
@@ -353,19 +353,19 @@ export const MAGE_ARCANE_TALENTS: any = [
     "desc": [
       "Blasts the target with energy, dealing X Arcane damage. Each time you cast Arcane Blast, the damage of your Arcane spells is increased by 15% and the mana cost of your Arcane Blast is increased by 175%. Effect stacks up to 3 times and lasts 8 seconds. Casting Arcane Missiles or Arcane Explosion consumes this effect."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "An ancient incantation from the restricted section of the Dalaran archives.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "arcane_instability",
@@ -383,19 +383,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "An ancient incantation from the restricted section of the Dalaran archives.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "prismatic_cloak",
@@ -408,19 +408,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Reduces all damage taken by 2% and reduces the casting time lost when taking damage by 25%.",
       "4% / 50%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "21/30/0 Elemental PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "netherwind_presence",
@@ -434,19 +434,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "mind_mastery",
@@ -464,19 +464,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "arcane_potency",
@@ -493,19 +493,19 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Increases the critical strike chance of your next spell by 15% when you gain Clearcasting.",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "21/30/0 Elemental PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "arcane_power",
@@ -521,19 +521,19 @@ export const MAGE_ARCANE_TALENTS: any = [
     "desc": [
       "When activated, you radiate Arcane Power for 15 seconds. You and all party members within 30 yards deal 15% increased spell damage. During this time, 50% of the mana you spend is evenly distributed to affected party members. 3 minute cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "21/30/0 Elemental PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Crackles with intense arcane energy."
   }
 ];
 
@@ -550,19 +550,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "26%",
       "40%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "imp_fireball",
@@ -578,19 +578,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "0.4 seconds",
       "0.5 seconds"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "21/30/0 Elemental PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "flame_throwing",
@@ -603,19 +603,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "Increases the range of your Fire spells by 3 yards.",
       "6 yards"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "17/31/3 Deep Fire PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "impact",
@@ -629,19 +629,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "21/30/0 Elemental PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "incineration",
@@ -655,19 +655,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "burning_soul",
@@ -680,19 +680,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "Gives your Fire spells a 35% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 15%.",
       "70% / 30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "imp_fire_blast",
@@ -705,19 +705,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "Reduces the cooldown of your Fire Blast spell by 1 second.",
       "2 seconds"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "An ancient incantation from the restricted section of the Dalaran archives.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "combustion",
@@ -733,19 +733,19 @@ export const MAGE_FIRE_TALENTS: any = [
     "desc": [
       "Each of your Fire damage spell hits increases your critical strike chance with Fire damage spells by 10%. This effect lasts until you have caused 3 critical strikes with Fire spells. 3 minute cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "master_of_elements",
@@ -759,19 +759,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "critical_mass",
@@ -785,19 +785,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "pyromaniac",
@@ -811,19 +811,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "2% / 2%",
       "3% / 3%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "fire_power",
@@ -841,19 +841,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "21/30/0 Elemental PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "imp_scorch",
@@ -870,19 +870,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "Your Scorch spells have a 50% chance to cause your target to be vulnerable to Fire damage. This vulnerability increases the Fire damage dealt to your target by 3% and lasts 30 seconds. Stacks up to 5 times.",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "blast_wave",
@@ -898,19 +898,19 @@ export const MAGE_FIRE_TALENTS: any = [
     "desc": [
       "A wave of flame radiates outward from the caster, dealing Fire damage to all enemies caught within and dazing them, reducing movement speed by 50% for 6 seconds."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "playing_with_fire",
@@ -924,19 +924,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "2% / 2%",
       "3% / 3%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "blazing_speed",
@@ -949,19 +949,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "Gives you a 5% chance when hit by a melee or ranged attack to increase your movement speed by 50% and dispel all movement impairing effects. Lasts 8 seconds.",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "17/31/3 Deep Fire PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "empowered_fire",
@@ -979,19 +979,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "An ancient incantation from the restricted section of the Dalaran archives.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "fiery_payback",
@@ -1004,19 +1004,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "When your health drops below 35%, all damage taken is reduced by 10% and the cast time of your Pyroblast spell is reduced by 1.75 seconds.",
       "20% / 3.5 seconds"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "hot_streak",
@@ -1030,19 +1030,19 @@ export const MAGE_FIRE_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "living_bomb",
@@ -1058,19 +1058,19 @@ export const MAGE_FIRE_TALENTS: any = [
     "desc": [
       "The target becomes a Living Bomb, taking Fire damage over 12 seconds. After 12 seconds or when the spell is dispelled, the target explodes dealing Fire damage to all enemies within 10 yards."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Crackles with intense arcane energy."
   }
 ];
 
@@ -1087,19 +1087,19 @@ export const MAGE_FROST_TALENTS: any = [
       "2 seconds / 7%",
       "3 seconds / 10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "17/31/3 Deep Fire PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "imp_frostbolt",
@@ -1115,19 +1115,19 @@ export const MAGE_FROST_TALENTS: any = [
       "0.4 seconds",
       "0.5 seconds"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "ice_floes",
@@ -1140,19 +1140,19 @@ export const MAGE_FROST_TALENTS: any = [
       "Reduces the cooldown of your Frost Nova, Cone of Cold, and Ice Block spells by 10%.",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "An ancient incantation from the restricted section of the Dalaran archives.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "shatter",
@@ -1166,19 +1166,19 @@ export const MAGE_FROST_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "21/30/0 Elemental PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "ice_shards",
@@ -1196,19 +1196,19 @@ export const MAGE_FROST_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "frostbite",
@@ -1221,19 +1221,19 @@ export const MAGE_FROST_TALENTS: any = [
       "Gives your Chill effects an 8% chance to freeze the target for 5 seconds.",
       "15%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "An ancient incantation from the restricted section of the Dalaran archives.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "21/30/0 Elemental PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "piercing_ice",
@@ -1246,19 +1246,19 @@ export const MAGE_FROST_TALENTS: any = [
       "Increases the damage done by your Frost spells by 3%.",
       "6%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "21/30/0 Elemental PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "ice_block",
@@ -1274,19 +1274,19 @@ export const MAGE_FROST_TALENTS: any = [
     "desc": [
       "You become encased in a block of ice, protecting you from all physical attacks and spells for 10 seconds, but during that time you cannot attack, move, or cast spells. 5 minute cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "A Highborne spell recovered from Dire Maul.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "17/31/3 Deep Fire PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "imp_blizzard",
@@ -1300,19 +1300,19 @@ export const MAGE_FROST_TALENTS: any = [
       "50%",
       "70%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "arctic_reach",
@@ -1325,19 +1325,19 @@ export const MAGE_FROST_TALENTS: any = [
       "Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 10%.",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "winters_chill",
@@ -1351,19 +1351,19 @@ export const MAGE_FROST_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "arctic_winds",
@@ -1377,19 +1377,19 @@ export const MAGE_FROST_TALENTS: any = [
       "2% / 2%",
       "3% / 3%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "An ancient incantation from the restricted section of the Dalaran archives.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "channeling_ice",
@@ -1402,19 +1402,19 @@ export const MAGE_FROST_TALENTS: any = [
       "Reduces the mana cost of all Frost spells by 5% and reduces the threat generated by Frost spells by 10%.",
       "10% / 20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "An ancient incantation from the restricted section of the Dalaran archives.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "21/30/0 Elemental PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "ice_barrier",
@@ -1430,19 +1430,19 @@ export const MAGE_FROST_TALENTS: any = [
     "desc": [
       "Instantly shields you, absorbing X damage. Lasts 1 minute. While the shield holds, spells will not be interrupted. 30 second cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "An ancient incantation from the restricted section of the Dalaran archives.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "17/31/3 Deep Fire PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "shattered_barrier",
@@ -1459,19 +1459,19 @@ export const MAGE_FROST_TALENTS: any = [
       "When your Ice Barrier is destroyed or dispelled, it triggers a localized frost nova, freezing all enemies within 10 yards for 4 seconds.",
       "8 seconds"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "brain_freeze",
@@ -1485,19 +1485,19 @@ export const MAGE_FROST_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "An ancient incantation from the restricted section of the Dalaran archives.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   },
   {
     "id": "enduring_winter",
@@ -1511,19 +1511,19 @@ export const MAGE_FROST_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "17/31/3 Deep Fire PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "empowered_frostbolt",
@@ -1541,19 +1541,19 @@ export const MAGE_FROST_TALENTS: any = [
       "10% / 4%",
       "15% / 6%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Frost Damage.",
+    "loreOrigins": "An ancient incantation from the restricted section of the Dalaran archives.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "17/31/3 Deep Fire PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Engulfs the target in a pillar of flame."
   },
   {
     "id": "chilled_to_the_bone",
@@ -1566,19 +1566,19 @@ export const MAGE_FROST_TALENTS: any = [
       "Increases the damage caused by your Frostbolt and Cone of Cold spells by 3% and reduces the movement speed of all your chilled targets by an additional 5%.",
       "6% / 10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Spell Power.",
+    "loreOrigins": "Developed by the Kirin Tor during the Second War.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "21/30/0 Elemental PvP",
+      "11/0/40 Deep Frost"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Crackles with intense arcane energy."
   },
   {
     "id": "summon_water_elemental",
@@ -1594,19 +1594,19 @@ export const MAGE_FROST_TALENTS: any = [
     "desc": [
       "Summons a Water Elemental to fight for the caster for 45 seconds. The elemental casts Waterbolts and has the 'Water Elemental Freeze' ability, which acts as a ranged Frost Nova. 3 minute cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage.",
+    "loreOrigins": "A risky technique popularized by reckless Pyromancers.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "11/0/40 Deep Frost",
+      "17/31/3 Deep Fire PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves a trail of frost on the ground."
   }
 ];
 

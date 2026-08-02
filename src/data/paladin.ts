@@ -12,19 +12,19 @@ export const RETRIBUTION_TALENTS: any = [
       "Decreases the cooldown of your Judgement spell by 1 sec.",
       "2"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "31/20/0 Deep Holy PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "imp_bom",
@@ -38,19 +38,19 @@ export const RETRIBUTION_TALENTS: any = [
       "10",
       "15"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "divine_strength",
@@ -66,19 +66,19 @@ export const RETRIBUTION_TALENTS: any = [
       "8",
       "10"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "zealous_momentum",
@@ -91,19 +91,19 @@ export const RETRIBUTION_TALENTS: any = [
       "After casting any Judgement, your movement speed is increased by 15% for 3 seconds, and you gain 15% resistance to slow effects for the duration.",
       "30 / 30"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "31/20/0 Deep Holy PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "imp_sotc",
@@ -117,19 +117,19 @@ export const RETRIBUTION_TALENTS: any = [
       "20 / 2",
       "30 / 3"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "deflection",
@@ -145,19 +145,19 @@ export const RETRIBUTION_TALENTS: any = [
       "4 / 8",
       "5 / 10"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "vindication",
@@ -171,19 +171,19 @@ export const RETRIBUTION_TALENTS: any = [
       "10",
       "15"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "0/31/20 Protection AoE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "conviction",
@@ -199,19 +199,19 @@ export const RETRIBUTION_TALENTS: any = [
       "4",
       "5"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Holy damage scales with Spell Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "soc",
@@ -223,19 +223,19 @@ export const RETRIBUTION_TALENTS: any = [
     "desc": [
       "Gives the Paladin a chance to deal additional Holy damage equal to 70% of normal weapon damage. Only one Seal can be active on the Paladin at any one time. Lasts 30 sec."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "poj",
@@ -248,19 +248,19 @@ export const RETRIBUTION_TALENTS: any = [
       "Increases movement and mounted movement speed by 4%. Reduces the duration of all Root and Snare effects on you by 10%. This does not stack with other movement speed increasing effects.",
       "8 / 20"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A righteous strike used during the cleansing of Stratholme.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "0/31/20 Protection AoE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "eye_for_an_eye",
@@ -273,19 +273,19 @@ export const RETRIBUTION_TALENTS: any = [
       "All spell criticals against you cause 15% of the damage taken to the caster as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.",
       "30"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "0/31/20 Protection AoE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "the_art_of_war",
@@ -298,19 +298,19 @@ export const RETRIBUTION_TALENTS: any = [
       "Critical hits with your melee auto-attacks reduce the cast time of your next Flash of Light or Exorcism by 50%.",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "imp_ret_aura",
@@ -323,19 +323,19 @@ export const RETRIBUTION_TALENTS: any = [
       "Increases the damage done by your Retribution Aura by 25%, and causes your Retribution Aura to generate a high amount of threat for the party members it protects.",
       "50"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "31/20/0 Deep Holy PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "two_handed_spec",
@@ -349,19 +349,19 @@ export const RETRIBUTION_TALENTS: any = [
       "4",
       "6"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "31/20/0 Deep Holy PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "crusader_strike",
@@ -373,19 +373,19 @@ export const RETRIBUTION_TALENTS: any = [
     "desc": [
       "An instant strike that causes 110% of your weapon damage and refreshes all Judgements on the target."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Holy damage scales with Spell Power.",
+    "loreOrigins": "A righteous strike used during the cleansing of Stratholme.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "0/31/20 Protection AoE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "sanctity_aura",
@@ -397,19 +397,19 @@ export const RETRIBUTION_TALENTS: any = [
     "desc": [
       "Increases Holy damage done by party members within 30 yards by 10%. Players may only have one Aura on them per Paladin at any one time."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "imp_sanctity_aura",
@@ -426,19 +426,19 @@ export const RETRIBUTION_TALENTS: any = [
       "The amount of damage caused by targets affected by Sanctity Aura is increased by 1%.",
       "2"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Holy damage scales with Spell Power.",
+    "loreOrigins": "A righteous strike used during the cleansing of Stratholme.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "vengeance",
@@ -458,19 +458,19 @@ export const RETRIBUTION_TALENTS: any = [
       "12",
       "15"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Holy damage scales with Spell Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "righteous_vengeance",
@@ -484,19 +484,19 @@ export const RETRIBUTION_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Holy damage scales with Spell Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "divine_storm",
@@ -508,19 +508,19 @@ export const RETRIBUTION_TALENTS: any = [
     "desc": [
       "An instant weapon attack that causes 110% of weapon damage to up to 4 enemies within 8 yards. The Divine Storm heals up to 3 party or raid members totaling 25% of the damage caused."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Holy damage scales with Spell Power.",
+    "loreOrigins": "A righteous strike used during the cleansing of Stratholme.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "31/20/0 Deep Holy PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   }
 ];
 
@@ -536,19 +536,19 @@ export const HOLY_TALENTS: any = [
       "Gives your Flash of Light and Holy Light spells a 35% chance to not lose casting time when you take damage.",
       "70"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "benediction",
@@ -562,19 +562,19 @@ export const HOLY_TALENTS: any = [
       "10",
       "15"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A righteous strike used during the cleansing of Stratholme.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "31/20/0 Deep Holy PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "divine_intellect",
@@ -590,19 +590,19 @@ export const HOLY_TALENTS: any = [
       "8",
       "10"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A righteous strike used during the cleansing of Stratholme.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "pure_of_heart",
@@ -615,19 +615,19 @@ export const HOLY_TALENTS: any = [
       "Reduces the duration of all Curse, Disease, and Poison effects on you and your allies by 15%.",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Holy damage scales with Spell Power.",
+    "loreOrigins": "A righteous strike used during the cleansing of Stratholme.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "0/31/20 Protection AoE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "guiding_light",
@@ -643,19 +643,19 @@ export const HOLY_TALENTS: any = [
       "4 / 8",
       "5 / 10"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "imp_sor",
@@ -671,19 +671,19 @@ export const HOLY_TALENTS: any = [
       "12 / 8",
       "15 / 10"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "healing_light",
@@ -697,19 +697,19 @@ export const HOLY_TALENTS: any = [
       "8",
       "12"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "aura_mastery",
@@ -721,19 +721,19 @@ export const HOLY_TALENTS: any = [
     "desc": [
       "Activates your Aura Mastery, increasing the radius of your Auras to 40 yards and increasing the effectiveness of your active Aura by 100% for 6 sec."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A righteous strike used during the cleansing of Stratholme.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "imp_loh",
@@ -746,19 +746,19 @@ export const HOLY_TALENTS: any = [
       "Gives the target of your Lay on Hands spell a 15% bonus to their armor value from items for 2 min. In addition, the cooldown for your Lay on Hands spell is reduced by 10 min.",
       "30 / 20"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "0/31/20 Protection AoE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "unyielding_faith",
@@ -771,19 +771,19 @@ export const HOLY_TALENTS: any = [
       "Reduces the duration of all crowd control effects on you by 10%.",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "0/31/20 Protection AoE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "illumination",
@@ -797,19 +797,19 @@ export const HOLY_TALENTS: any = [
       "40%",
       "60%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Holy damage scales with Spell Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "imp_bow",
@@ -822,19 +822,19 @@ export const HOLY_TALENTS: any = [
       "Increases the effect of your Blessing of Wisdom spell by 10%.",
       "20"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "31/20/0 Deep Holy PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "divine_favor",
@@ -850,19 +850,19 @@ export const HOLY_TALENTS: any = [
     "desc": [
       "When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Holy damage scales with Spell Power.",
+    "loreOrigins": "A righteous strike used during the cleansing of Stratholme.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "lasting_judgement",
@@ -876,19 +876,19 @@ export const HOLY_TALENTS: any = [
       "20 / 20",
       "30 / 30"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "31/20/0 Deep Holy PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "judgements_of_the_pure",
@@ -904,19 +904,19 @@ export const HOLY_TALENTS: any = [
       "12%",
       "15%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "holy_power",
@@ -932,19 +932,19 @@ export const HOLY_TALENTS: any = [
       "4",
       "5"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "holy_shock",
@@ -960,19 +960,19 @@ export const HOLY_TALENTS: any = [
     "desc": [
       "Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or 204 to 220 healing to an ally. Cooldown reduced to 15 seconds."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Holy damage scales with Spell Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A consecrated aura burns the ground."
   }
 ];
 
@@ -988,19 +988,19 @@ export const PROTECTION_TALENTS: any = [
       "Increases all healing done by you and all healing received by you by 2%.",
       "4"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "precision",
@@ -1014,19 +1014,19 @@ export const PROTECTION_TALENTS: any = [
       "2",
       "3"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "redoubt",
@@ -1042,19 +1042,19 @@ export const PROTECTION_TALENTS: any = [
       "24",
       "30"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A righteous strike used during the cleansing of Stratholme.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "toughness",
@@ -1070,19 +1070,19 @@ export const PROTECTION_TALENTS: any = [
       "8 / 40",
       "10 / 50"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "31/20/0 Deep Holy PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "righteous_resolve",
@@ -1096,19 +1096,19 @@ export const PROTECTION_TALENTS: any = [
       "20 / 66",
       "30 / 100"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "31/20/0 Deep Holy PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "imp_devotion",
@@ -1121,19 +1121,19 @@ export const PROTECTION_TALENTS: any = [
       "Increases the armor bonus of your Devotion Aura by 10%.",
       "20"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "bos",
@@ -1145,19 +1145,19 @@ export const PROTECTION_TALENTS: any = [
     "desc": [
       "Places a Blessing on the friendly target, reducing damage dealt from all sources by up to 10 for 5 min. In addition, when the target blocks a melee attack the attacker will take 14 Holy damage. Players may only have one Blessing on them per Paladin at any one time."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Holy damage scales with Spell Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "anticipation",
@@ -1173,19 +1173,19 @@ export const PROTECTION_TALENTS: any = [
       "8 / 40",
       "10 / 50"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "sacred_duty",
@@ -1198,19 +1198,19 @@ export const PROTECTION_TALENTS: any = [
       "Increases your total Stamina by 2%, and reduces the cooldown of your Divine Protection and Divine Shield by 30 seconds.",
       "4% / 60 seconds"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "31/20/0 Deep Holy PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "shield_spec",
@@ -1228,19 +1228,19 @@ export const PROTECTION_TALENTS: any = [
       "20 / 66",
       "30 / 100"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "guardians_favor",
@@ -1253,19 +1253,19 @@ export const PROTECTION_TALENTS: any = [
       "Reduces the cooldown of Blessing of Protection by 60 sec, and while Blessing of Freedom is active, the target's movement speed is increased by 10%.",
       "120 / 20"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "imp_rf",
@@ -1279,19 +1279,19 @@ export const PROTECTION_TALENTS: any = [
       "33 / 4",
       "50 / 6"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Protection AoE",
+      "31/20/0 Deep Holy PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "holy_shield",
@@ -1307,19 +1307,19 @@ export const PROTECTION_TALENTS: any = [
     "desc": [
       "Increases chance to block by 30% for 10 sec, and deals 65 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. 4 charges."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "31/20/0 Deep Holy PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   },
   {
     "id": "reckoning",
@@ -1333,19 +1333,19 @@ export const PROTECTION_TALENTS: any = [
       "7",
       "10"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Strength and Melee Attack Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "ardent_defender",
@@ -1359,19 +1359,19 @@ export const PROTECTION_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A foundational tenet of the Knights of the Silver Hand.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A blinding flash of holy light."
   },
   {
     "id": "one_handed_spec",
@@ -1387,19 +1387,19 @@ export const PROTECTION_TALENTS: any = [
       "8",
       "10"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Holy damage scales with Spell Power.",
+    "loreOrigins": "A rigorous devotion taught by the Blood Knights.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Deep Holy PvE",
+      "0/20/31 Retribution PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A consecrated aura burns the ground."
   },
   {
     "id": "avengers_shield",
@@ -1415,19 +1415,19 @@ export const PROTECTION_TALENTS: any = [
     "desc": [
       "Hurls a holy shield at the enemy, dealing 400 to 480 Holy damage, Dazing them and then jumping to additional nearby enemies. Affects 3 total targets. Lasts 10 sec."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Spell Power and Healing Power.",
+    "loreOrigins": "A blessing derived from the Naaru's light.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/20/31 Retribution PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Your weapon is wreathed in golden fire."
   }
 ];
 

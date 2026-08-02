@@ -15,19 +15,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "0.4",
       "0.5"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "natural_weapons",
@@ -41,19 +41,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "natures_reach",
@@ -66,19 +66,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "Increases the range of your Balance spells and Faerie Fire by 10%, and increases the radius of your Demoralizing Roar and challenging spells by 10%.",
       "20 / 20"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "control_of_nature",
@@ -92,19 +92,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "70",
       "100"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "imp_moonfire",
@@ -117,19 +117,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "Increases the damage and critical strike chance of your Moonfire spell by 5%.",
       "10"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "brambleguard",
@@ -143,19 +143,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "50 / 20",
       "75 / 30"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "moonglow",
@@ -169,19 +169,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "6 / 30",
       "9 / 45"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "conjure_moonwell",
@@ -193,19 +193,19 @@ export const DRUID_BALANCE_TALENTS: any = [
     "desc": [
       "Conjures a Moonwell at the caster's feet for 15 seconds. You and all party members standing within 10 yards of the Moonwell gain Elune's Blessing, which reduces the cast time of all spells by 0.5 seconds and restores 2% of maximum mana every 3 seconds. 3 minute cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "imp_faerie_fire",
@@ -219,19 +219,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "gale_winds",
@@ -244,19 +244,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "Reduces pushback suffered from damaging attacks while casting Hurricane by 50%, and increases the damage of your Hurricane spell by 15%.",
       "100% / 30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "vengeance",
@@ -276,19 +276,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "80",
       "100"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "celestial_focus",
@@ -302,19 +302,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "50 / 1.0",
       "75 / 1.5"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "dreamstate",
@@ -328,19 +328,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "30/0/21 Balance PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "moonkin_form",
@@ -352,19 +352,19 @@ export const DRUID_BALANCE_TALENTS: any = [
     "desc": [
       "Transforms the Druid into Moonkin Form. Increases armor by 360% and grants all party members within 30 yards 3% Spell Critical strike chance. While in this form, your melee attacks regenerate 2% of your maximum mana, and 1% of your party's maximum mana. Cannot cast healing spells."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "force_of_nature",
@@ -376,19 +376,19 @@ export const DRUID_BALANCE_TALENTS: any = [
     "desc": [
       "Summons 3 Treants to assist you in combat for 30 seconds. The Treants deal Physical damage and each of their attacks has a 15% chance to reduce the target's resistance to Nature and Arcane spells by 10 (Stacks up to 3 times). 3 minute cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "owlkin_frenzy",
@@ -402,19 +402,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "moonfury",
@@ -434,19 +434,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "8",
       "10"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "lunar_guidance",
@@ -460,19 +460,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "16%",
       "25%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "starfall",
@@ -488,19 +488,19 @@ export const DRUID_BALANCE_TALENTS: any = [
     "desc": [
       "You summon a flurry of stars from the sky on all targets within 30 yards of the caster, each dealing Arcane damage. Lasts 10 sec. 3 min cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Your form shifts with a phantom roar."
   }
 ];
 
@@ -519,19 +519,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "4",
       "5"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "30/0/21 Balance PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "thick_hide",
@@ -545,19 +545,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "8 / 4",
       "12 / 6"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "feral_aggression",
@@ -570,19 +570,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Increases the threat generated by your Bear Form abilities by 8%, and increases the damage caused by your Ferocious Bite by 8%.",
       "15 / 15"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "fluid_form",
@@ -596,19 +596,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "40%",
       "60%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "survival_instincts",
@@ -622,19 +622,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "10 / 2",
       "15 / 3"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "brutal_impact",
@@ -647,19 +647,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Increases the stun duration of your Bash and Pounce abilities by 0.5 sec. Spells cast against targets stunned by your Bash or Pounce have a 25% increased critical strike chance.",
       "1 / 50"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "30/0/21 Balance PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "primal_focus",
@@ -672,19 +672,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "When you critically hit with a melee attack in Bear or Cat form, the mana cost of your next Healing Touch, Regrowth, or Rejuvenation is reduced by 25%.",
       "50"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "predatory_strikes",
@@ -698,19 +698,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "100 / 20",
       "150 / 30"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "feral_charge",
@@ -722,19 +722,19 @@ export const DRUID_FERAL_TALENTS: any = [
     "desc": [
       "Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "sharpened_claws",
@@ -748,19 +748,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "4",
       "6"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "30/0/21 Balance PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "imp_shred",
@@ -773,19 +773,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Reduces the Energy cost of your Shred ability by 6.",
       "12"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "nurturing_instinct",
@@ -798,19 +798,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Increases your healing spells by 50% of your Agility.",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "primal_synergy",
@@ -827,19 +827,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Your physical critical strikes have a 50% chance to add an additional combo point in Cat Form, or generate 5 additional Rage in Bear Form.",
       "100"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "30/0/21 Balance PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "primal_frenzy",
@@ -856,19 +856,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Reduces the cooldown of your Enrage and Tiger's Fury abilities by 15 seconds. In addition, using Tiger's Fury instantly restores 15 Energy, and the armor penalty of your Enrage is reduced by 50%.",
       "30 / 30 / 100"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "savage_fury",
@@ -881,19 +881,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Increases the damage caused by your Claw, Rake, Maul and Swipe abilities by 10%.",
       "20"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "leader_of_the_pack",
@@ -905,19 +905,19 @@ export const DRUID_FERAL_TALENTS: any = [
     "desc": [
       "While in Cat, Bear or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by 3%."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "primal_flurry",
@@ -931,19 +931,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "20 / 2 / 4",
       "30 / 3 / 6"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "30/0/21 Balance PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "heart_of_the_wild",
@@ -959,19 +959,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "16 / 16 / 8",
       "20 / 20 / 10"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "survival_of_the_fittest",
@@ -985,19 +985,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "mangle",
@@ -1013,19 +1013,19 @@ export const DRUID_FERAL_TALENTS: any = [
     "desc": [
       "Mangle the target, inflicting damage and causing the target to take 30% additional damage from bleed effects and Shred for 1 min. Awards 1 combo point. This ability replaces Claw."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A column of moonlight strikes the earth."
   }
 ];
 
@@ -1044,19 +1044,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "0.4 / 8",
       "0.5 / 10"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "imp_motw",
@@ -1070,19 +1070,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "30",
       "45"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "30/0/21 Balance PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "furor",
@@ -1095,19 +1095,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "Gives you a 50% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or retain up to 40 Energy when you shapeshift into Cat Form.",
       "100"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "subtlety",
@@ -1121,19 +1121,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "20 / 20",
       "30 / 30"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "natural_shapeshifter",
@@ -1147,19 +1147,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "20 / 2",
       "30 / 3"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "30/0/21 Balance PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "natures_focus",
@@ -1172,19 +1172,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "Gives you a 35% chance to avoid interruption caused by damage while casting Healing Touch, Regrowth, or Tranquility.",
       "70"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "imp_enrage",
@@ -1197,19 +1197,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "The Enrage ability now instantly generates 5 Rage.",
       "10"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "reflection",
@@ -1223,19 +1223,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "10",
       "15"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "natures_swiftness",
@@ -1247,19 +1247,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
     "desc": [
       "When activated, your next Nature spell with a casting time less than 10 sec becomes an instant cast spell. 3 min cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "imp_rejuv",
@@ -1273,19 +1273,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "10",
       "15"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "tranquil_spirit",
@@ -1299,19 +1299,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "7%",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "empowered_rejuvenation",
@@ -1327,19 +1327,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "16%",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "sanctuary",
@@ -1352,19 +1352,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "Reduces the cooldown of your Tranquility by 50% and reduces the threat it generates by 100%. Tranquility can now be channeled while moving.",
       "100"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "natures_bounty",
@@ -1380,19 +1380,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "40",
       "50"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "30/0/21 Balance PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A column of moonlight strikes the earth."
   },
   {
     "id": "tree_of_life",
@@ -1408,19 +1408,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
     "desc": [
       "Transforms the Druid into a Tree of Life. While in this form, healing received by all party members within 45 yards is increased by 10% and you can only cast Restoration spells."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "30/0/21 Balance PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "swiftmend",
@@ -1432,19 +1432,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
     "desc": [
       "Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them for an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
+    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "24/0/27 Moonglow Resto"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "living_seed",
@@ -1461,19 +1461,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "When you critically heal your target with Healing Touch or Regrowth, you plant a Living Seed on the target for 15% of the amount healed. The Living Seed will bloom when the target is next attacked, healing them.",
       "30"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Agility and Strength in forms.",
+    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your form shifts with a phantom roar."
   },
   {
     "id": "empowered_touch",
@@ -1487,19 +1487,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "20",
       "30"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "30/0/21 Balance PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "gift_of_the_earthmother",
@@ -1512,19 +1512,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "Reduces the global cooldown of your Rejuvenation and Wild Growth spells by 10%.",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "24/0/27 Moonglow Resto",
+      "30/0/21 Balance PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "overgrowth",
@@ -1537,19 +1537,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "Your Rejuvenation ticks have a 5% chance to spread a copy of the Rejuvenation effect to another injured party member within 15 yards.",
       "10"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "14/32/5 Feral DPS/Tank",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Leaves flutter around the target."
   },
   {
     "id": "wild_growth",
@@ -1565,19 +1565,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
     "desc": [
       "Heals up to 5 friendly party members within 15 yards of the target for X over 7 sec. The amount healed is applied quickly at first, and slows down as the Wild Growth reaches its full duration. 8 second cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Arcane and Nature Spell Power.",
+    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 Balance PvP",
+      "14/32/5 Feral DPS/Tank"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Leaves flutter around the target."
   }
 ];
 

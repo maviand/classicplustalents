@@ -13,19 +13,19 @@ export const HUNTER_BM_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "31/20/0 Beast Mastery Leveling"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "endurance_training",
@@ -41,19 +41,19 @@ export const HUNTER_BM_TALENTS: any = [
       "8%",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "thick_hide",
@@ -66,19 +66,19 @@ export const HUNTER_BM_TALENTS: any = [
       "Increases the armor rating of your pets by 10% and your armor contribution from items by 5%.",
       "20% / 10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "31/20/0 Beast Mastery Leveling"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "focused_fire",
@@ -92,19 +92,19 @@ export const HUNTER_BM_TALENTS: any = [
       "2% / 10%",
       "3% / 15%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "31/20/0 Beast Mastery Leveling"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "imp_revive_pet",
@@ -117,19 +117,19 @@ export const HUNTER_BM_TALENTS: any = [
       "Reduces the casting time of your Revive Pet spell by 3 seconds, reduces the Focus cost by 25%, and increases the health your pet returns with by 15%.",
       "6 sec / 50% / 30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "bestial_discipline",
@@ -143,19 +143,19 @@ export const HUNTER_BM_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "pathfinding",
@@ -168,19 +168,19 @@ export const HUNTER_BM_TALENTS: any = [
       "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 4%.",
       "8%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "intimidation",
@@ -192,19 +192,19 @@ export const HUNTER_BM_TALENTS: any = [
     "desc": [
       "Command your pet to intimidate the target on the next successful melee attack, causing a high amount of threat and stunning the target for 3 seconds. 1 minute cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "31/20/0 Beast Mastery Leveling"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "unleashed_fury",
@@ -220,19 +220,19 @@ export const HUNTER_BM_TALENTS: any = [
       "16%",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "ferocity",
@@ -245,19 +245,19 @@ export const HUNTER_BM_TALENTS: any = [
       "Increases the critical strike chance of your pets by 5%.",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "frenzy",
@@ -277,19 +277,19 @@ export const HUNTER_BM_TALENTS: any = [
       "80%",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "animal_handler",
@@ -302,19 +302,19 @@ export const HUNTER_BM_TALENTS: any = [
       "Increases your pet's chance to hit by 3% and reduces the cooldown of your Master's Call by 10 seconds.",
       "6% / 20 sec"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "longevity",
@@ -328,19 +328,19 @@ export const HUNTER_BM_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "bestial_wrath",
@@ -356,19 +356,19 @@ export const HUNTER_BM_TALENTS: any = [
     "desc": [
       "Send your pet into a rage causing 50% additional damage for 18 seconds. While your pet is enraged, you also go into a rage causing 10% additional damage and reducing the Focus cost of all shots and strikes by 50% for 18 seconds. While enraged, neither you nor your pet feel pity, remorse, or fear, and you are both immune to all movement impairing and loss of control effects. 2 minute cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "A beast mastery technique of the Frostwolf clan.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "31/20/0 Beast Mastery Leveling"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "ferocious_inspiration",
@@ -382,19 +382,19 @@ export const HUNTER_BM_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "spirit_bond",
@@ -407,19 +407,19 @@ export const HUNTER_BM_TALENTS: any = [
       "While your pet is active, you and your pet regenerate 1% of total health every 10 seconds.",
       "2%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "A beast mastery technique of the Frostwolf clan.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "serpents_swiftness",
@@ -433,19 +433,19 @@ export const HUNTER_BM_TALENTS: any = [
       "7% / 7%",
       "10% / 10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "invigoration",
@@ -462,19 +462,19 @@ export const HUNTER_BM_TALENTS: any = [
       "When your pet scores a critical hit with a special ability, you instantly regenerate 4 Focus.",
       "8 Focus"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "A beast mastery technique of the Frostwolf clan.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "bestial_resolve",
@@ -487,19 +487,19 @@ export const HUNTER_BM_TALENTS: any = [
       "Reduces the damage your pet takes from area of effect abilities by 25%.",
       "50%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "31/20/0 Beast Mastery Leveling"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "cobra_strikes",
@@ -513,19 +513,19 @@ export const HUNTER_BM_TALENTS: any = [
       "40%",
       "60%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "0/21/30 Survival PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "beast_mastery",
@@ -541,19 +541,19 @@ export const HUNTER_BM_TALENTS: any = [
     "desc": [
       "You master the true art of Beast training, granting you the ability to tame Exotic Pets. In addition, your total amount of Pet Skill Points is increased by 5."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "0/21/30 Survival PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A spectral beast briefly manifests."
   }
 ];
 
@@ -570,19 +570,19 @@ export const HUNTER_MM_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "31/20/0 Beast Mastery Leveling"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "lethal_shots",
@@ -598,19 +598,19 @@ export const HUNTER_MM_TALENTS: any = [
       "4%",
       "5%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "imp_hunters_mark",
@@ -623,19 +623,19 @@ export const HUNTER_MM_TALENTS: any = [
       "Causes 50% of your Hunter's Mark ability's base ranged attack power to apply to melee attack power as well.",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "0/21/30 Survival PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "go_for_the_throat",
@@ -649,19 +649,19 @@ export const HUNTER_MM_TALENTS: any = [
       "16 Focus",
       "25 Focus"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "31/20/0 Beast Mastery Leveling"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "hawk_eye",
@@ -675,19 +675,19 @@ export const HUNTER_MM_TALENTS: any = [
       "4 yards.",
       "6 yards."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "rapid_killing",
@@ -700,19 +700,19 @@ export const HUNTER_MM_TALENTS: any = [
       "Reduces the cooldown of your Rapid Fire ability by 1 minute.",
       "2 minutes"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "imp_arcane_shot",
@@ -725,19 +725,19 @@ export const HUNTER_MM_TALENTS: any = [
       "Reduces the cooldown of your Arcane Shot by 0.5 seconds.",
       "1 second"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "31/20/0 Beast Mastery Leveling"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "imp_stings",
@@ -751,19 +751,19 @@ export const HUNTER_MM_TALENTS: any = [
       "20% / 20%",
       "30% / 30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "aimed_shot",
@@ -779,19 +779,19 @@ export const HUNTER_MM_TALENTS: any = [
     "desc": [
       "An aimed shot that increases ranged damage. 3-second cast time."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "0/21/30 Survival PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "mortal_shots",
@@ -807,19 +807,19 @@ export const HUNTER_MM_TALENTS: any = [
       "24%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "concussive_barrage",
@@ -832,19 +832,19 @@ export const HUNTER_MM_TALENTS: any = [
       "Your successful Auto Shot attacks have a 3% chance to Daze the target for 4 seconds.",
       "6%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "0/21/30 Survival PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "barrage",
@@ -858,19 +858,19 @@ export const HUNTER_MM_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "combat_experience",
@@ -883,19 +883,19 @@ export const HUNTER_MM_TALENTS: any = [
       "Increases your total Agility by 2%.",
       "4%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "A beast mastery technique of the Frostwolf clan.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "wild_quiver",
@@ -909,19 +909,19 @@ export const HUNTER_MM_TALENTS: any = [
       "8%",
       "12%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "31/20/0 Beast Mastery Leveling"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "trueshot_aura",
@@ -937,19 +937,19 @@ export const HUNTER_MM_TALENTS: any = [
     "desc": [
       "Increases the attack power of party members within 45 yards by 10%. Lasts 30 minutes."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "master_marksman",
@@ -963,19 +963,19 @@ export const HUNTER_MM_TALENTS: any = [
       "2% / 10%",
       "3% / 15%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "rapid_recuperation",
@@ -992,19 +992,19 @@ export const HUNTER_MM_TALENTS: any = [
       "While under the effect of Rapid Fire, the Focus cost of all your abilities is reduced by 25%.",
       "50%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "piercing_shots",
@@ -1018,19 +1018,19 @@ export const HUNTER_MM_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "A beast mastery technique of the Frostwolf clan.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "0/21/30 Survival PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "sniper_training",
@@ -1047,19 +1047,19 @@ export const HUNTER_MM_TALENTS: any = [
       "When you stand still for 6 seconds, you gain a 3% damage increase to your ranged attacks. Effect lasts 15 seconds or until you move.",
       "6%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "marked_for_death",
@@ -1072,19 +1072,19 @@ export const HUNTER_MM_TALENTS: any = [
       "Increases the damage you deal to targets afflicted by your Hunter's Mark by 2%.",
       "4%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "chimera_shot",
@@ -1100,19 +1100,19 @@ export const HUNTER_MM_TALENTS: any = [
     "desc": [
       "You deal 125% weapon damage, refreshing the current Sting on your target and triggering an effect: Serpent Sting - Instantly deals 40% of the Sting's total damage. Viper Sting - Instantly restores 15 Focus. Scorpid Sting - Attempts to Disarm the target for 10 sec. 10 second cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "0/21/30 Survival PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A spectral beast briefly manifests."
   }
 ];
 
@@ -1129,19 +1129,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "0/21/30 Survival PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "deflection",
@@ -1157,19 +1157,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "4% / 16%",
       "5% / 20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "imp_tracking",
@@ -1182,19 +1182,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Increases all damage caused to targets that are being tracked by 2%.",
       "4%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "clever_traps",
@@ -1208,19 +1208,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "20% / 20%",
       "30% / 30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "survivalist",
@@ -1234,19 +1234,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "0/21/30 Survival PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "entrapment",
@@ -1259,19 +1259,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Gives your Immolation Trap, Frost Trap, and Explosive Trap a 13% chance to entrap the target, preventing them from moving for 4 seconds.",
       "25%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "A beast mastery technique of the Frostwolf clan.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "surefooted",
@@ -1284,19 +1284,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Increases your hit chance by 1% and increases your resistance to movement impairing effects by an additional 10%.",
       "2% / 20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "scatter_shot",
@@ -1312,19 +1312,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     "desc": [
       "A short-range shot that deals 50% weapon damage and disorients the target for 4 seconds. Any damage caused will remove the effect. Turns off your attack when used. 30 second cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "survival_instincts",
@@ -1340,19 +1340,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "4% / 4%",
       "5% / 5%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "31/20/0 Beast Mastery Leveling"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "trap_mastery",
@@ -1369,19 +1369,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Reduces the cooldown of all traps by 2 seconds.",
       "4 seconds"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "A beast mastery technique of the Frostwolf clan.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "lock_and_load",
@@ -1395,19 +1395,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "0/21/30 Survival PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "killer_instinct",
@@ -1425,19 +1425,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "counterattack",
@@ -1449,19 +1449,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     "desc": [
       "A strike that becomes active after parrying an opponent's attack. This attack deals damage and immobilizes the target for 5 seconds. Counterattack cannot be blocked, dodged, or parried."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "Used by the Shadow hunter elites of the Darkspear.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "wyvern_sting",
@@ -1477,19 +1477,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     "desc": [
       "A stinging shot that puts the target to sleep for 12 seconds. Any damage will cancel the effect. Cuando the target wakes up, the Sting causes Nature damage over 12 seconds. 1 minute cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "A beast mastery technique of the Frostwolf clan.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "31/20/0 Beast Mastery Leveling"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "lightning_reflexes",
@@ -1503,19 +1503,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "0/21/30 Survival PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "resourcefulness",
@@ -1528,19 +1528,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Reduces the Focus cost of all traps and melee abilities by 10%.",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "The signature shot of the Farstriders.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "0/21/30 Survival PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "expose_weakness",
@@ -1554,19 +1554,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Ranged Attack Power and Agility.",
+    "loreOrigins": "A beast mastery technique of the Frostwolf clan.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "thrill_of_the_hunt",
@@ -1583,19 +1583,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Your critical strikes with abilities that cost Focus have a 50% chance to immediately restore 10 Focus.",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "31/20/0 Beast Mastery Leveling",
+      "0/31/20 Marksman Raiding"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A spectral beast briefly manifests."
   },
   {
     "id": "master_tactician",
@@ -1608,19 +1608,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Your successful ranged attacks have a 10% chance to increase your critical strike chance with all attacks by 5% for 8 seconds.",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "A beast mastery technique of the Frostwolf clan.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "31/20/0 Beast Mastery Leveling"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Leaves a freezing aura on the ground."
   },
   {
     "id": "noxious_stings",
@@ -1634,19 +1634,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet damage scales with a percentage of your Attack Power.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Survival PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Your arrows glow with natural energy."
   },
   {
     "id": "explosive_shot",
@@ -1662,19 +1662,19 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     "desc": [
       "You fire an explosive charge into the enemy target, dealing massive Fire damage. The charge will blast the target every second for an additional 2 seconds. 6 second cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Trap damage scales with Spell Power and Attack Power.",
+    "loreOrigins": "A survivalist trick learned from Hemet Nesingwary.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/31/20 Marksman Raiding",
+      "0/21/30 Survival PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A spectral beast briefly manifests."
   }
 ];
 

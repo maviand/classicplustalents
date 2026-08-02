@@ -1,31 +1,4 @@
-// AUTO-GENERATED MASSIVE PVP CONTENT
-// 15,000% scale implementation - Battlegrounds, World PvP, and Arenas.
-// Deep Dive Update: 7x more information fields.
-
-export const PVP_MODES = {
-  BATTLEGROUNDS: 'New Battlegrounds',
-  WORLD_PVP: 'World PvP & Banner Wars',
-  ARENA: 'The Gurubashi Arena System'
-};
-
-export interface PvPItem {
-  id: string;
-  name: string;
-  size: string;
-  type: string;
-  description: string;
-  mechanics: string[];
-  lore: string;
-  mapLayout: string;
-  powerUps: string[];
-  factionHistory: string;
-  topMetaComps: string[];
-  achievements: string[];
-  associatedReputations: string[];
-  uniqueRewards: string[];
-}
-
-export const pvpData: Record<string, PvPItem[]> = {
+// AUTO-GENERATED MASSIVE PVP CONTENT\n// 15,000% scale implementation - Battlegrounds, World PvP, and Arenas.\n// Deep Dive Update: 7x more information fields.\n\nexport const PVP_MODES = {\n  BATTLEGROUNDS: 'New Battlegrounds',\n  WORLD_PVP: 'World PvP & Banner Wars',\n  ARENA: 'The Gurubashi Arena System'\n};\n\nexport interface PvPItem {\n  id: string;\n  name: string;\n  size: string;\n  type: string;\n  description: string;\n  mechanics: string[];\n  lore: string;\n  mapLayout: string;\n  powerUps: string[];\n  factionHistory: string;\n  topMetaComps: string[];\n  achievements: string[];\n  associatedReputations: string[];\n  uniqueRewards: any[];\n}\n\nexport const pvpData: Record<string, PvPItem[]> = {
   "New Battlegrounds": [
     {
       "id": "AzsharaCrater",
@@ -60,9 +33,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 0",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 0",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -98,9 +96,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 1",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 1",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -136,9 +159,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 2",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 2",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -174,9 +222,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 3",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 3",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -212,389 +285,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
-      ]
-    },
-    {
-      "id": "ProcBG_Blackrock",
-      "name": "The Blackrock Offensive",
-      "size": "15v15",
-      "type": "Assassination",
-      "description": "A new front has opened up in Blackrock, demanding immediate reinforcements.",
-      "mechanics": [
-        "Strategic Nodes: Capture outposts to provide global buffs to your team.",
-        "Wilderness Threats: Elite beasts roam the battleground, dropping powerful temporary items when slain.",
-        "Sudden Death: After 20 minutes, all players take 5% maximum health damage every 10 seconds."
-      ],
-      "lore": "The skirmishes of the Third War echo across Blackrock as factions desperately secure borders and vital ley lines.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
-      "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
-      ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
-      "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
-      ],
-      "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
-      ],
-      "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
-      ],
-      "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
-      ]
-    },
-    {
-      "id": "ProcBG_Desolace",
-      "name": "The Desolace Offensive",
-      "size": "10v10",
-      "type": "Assassination",
-      "description": "A new front has opened up in Desolace, demanding immediate reinforcements.",
-      "mechanics": [
-        "Strategic Nodes: Capture outposts to provide global buffs to your team.",
-        "Wilderness Threats: Elite beasts roam the battleground, dropping powerful temporary items when slain.",
-        "Sudden Death: After 20 minutes, all players take 5% maximum health damage every 10 seconds."
-      ],
-      "lore": "The skirmishes of the Third War echo across Desolace as factions desperately secure borders and vital ley lines.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
-      "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
-      ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
-      "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
-      ],
-      "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
-      ],
-      "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
-      ],
-      "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
-      ]
-    },
-    {
-      "id": "ProcBG_Feralas",
-      "name": "The Feralas Offensive",
-      "size": "20v20",
-      "type": "Territory Control",
-      "description": "A new front has opened up in Feralas, demanding immediate reinforcements.",
-      "mechanics": [
-        "Strategic Nodes: Capture outposts to provide global buffs to your team.",
-        "Wilderness Threats: Elite beasts roam the battleground, dropping powerful temporary items when slain.",
-        "Sudden Death: After 20 minutes, all players take 5% maximum health damage every 10 seconds."
-      ],
-      "lore": "The skirmishes of the Third War echo across Feralas as factions desperately secure borders and vital ley lines.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
-      "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
-      ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
-      "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
-      ],
-      "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
-      ],
-      "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
-      ],
-      "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
-      ]
-    },
-    {
-      "id": "ProcBG_Hinterlands",
-      "name": "The Hinterlands Offensive",
-      "size": "40v40",
-      "type": "Payload",
-      "description": "A new front has opened up in Hinterlands, demanding immediate reinforcements.",
-      "mechanics": [
-        "Strategic Nodes: Capture outposts to provide global buffs to your team.",
-        "Wilderness Threats: Elite beasts roam the battleground, dropping powerful temporary items when slain.",
-        "Sudden Death: After 20 minutes, all players take 5% maximum health damage every 10 seconds."
-      ],
-      "lore": "The skirmishes of the Third War echo across Hinterlands as factions desperately secure borders and vital ley lines.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
-      "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
-      ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
-      "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
-      ],
-      "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
-      ],
-      "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
-      ],
-      "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
-      ]
-    },
-    {
-      "id": "ProcBG_Badlands",
-      "name": "The Badlands Offensive",
-      "size": "15v15",
-      "type": "Territory Control",
-      "description": "A new front has opened up in Badlands, demanding immediate reinforcements.",
-      "mechanics": [
-        "Strategic Nodes: Capture outposts to provide global buffs to your team.",
-        "Wilderness Threats: Elite beasts roam the battleground, dropping powerful temporary items when slain.",
-        "Sudden Death: After 20 minutes, all players take 5% maximum health damage every 10 seconds."
-      ],
-      "lore": "The skirmishes of the Third War echo across Badlands as factions desperately secure borders and vital ley lines.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
-      "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
-      ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
-      "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
-      ],
-      "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
-      ],
-      "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
-      ],
-      "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
-      ]
-    },
-    {
-      "id": "ProcBG_Winterspring",
-      "name": "The Winterspring Offensive",
-      "size": "20v20",
-      "type": "Territory Control",
-      "description": "A new front has opened up in Winterspring, demanding immediate reinforcements.",
-      "mechanics": [
-        "Strategic Nodes: Capture outposts to provide global buffs to your team.",
-        "Wilderness Threats: Elite beasts roam the battleground, dropping powerful temporary items when slain.",
-        "Sudden Death: After 20 minutes, all players take 5% maximum health damage every 10 seconds."
-      ],
-      "lore": "The skirmishes of the Third War echo across Winterspring as factions desperately secure borders and vital ley lines.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
-      "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
-      ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
-      "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
-      ],
-      "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
-      ],
-      "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
-      ],
-      "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
-      ]
-    },
-    {
-      "id": "ProcBG_BlastedLands",
-      "name": "The Blasted Lands Offensive",
-      "size": "20v20",
-      "type": "Assassination",
-      "description": "A new front has opened up in Blasted Lands, demanding immediate reinforcements.",
-      "mechanics": [
-        "Strategic Nodes: Capture outposts to provide global buffs to your team.",
-        "Wilderness Threats: Elite beasts roam the battleground, dropping powerful temporary items when slain.",
-        "Sudden Death: After 20 minutes, all players take 5% maximum health damage every 10 seconds."
-      ],
-      "lore": "The skirmishes of the Third War echo across Blasted Lands as factions desperately secure borders and vital ley lines.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
-      "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
-      ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
-      "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
-      ],
-      "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
-      ],
-      "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
-      ],
-      "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
-      ]
-    },
-    {
-      "id": "ProcBG_SearingGorge",
-      "name": "The Searing Gorge Offensive",
-      "size": "20v20",
-      "type": "Territory Control",
-      "description": "A new front has opened up in Searing Gorge, demanding immediate reinforcements.",
-      "mechanics": [
-        "Strategic Nodes: Capture outposts to provide global buffs to your team.",
-        "Wilderness Threats: Elite beasts roam the battleground, dropping powerful temporary items when slain.",
-        "Sudden Death: After 20 minutes, all players take 5% maximum health damage every 10 seconds."
-      ],
-      "lore": "The skirmishes of the Third War echo across Searing Gorge as factions desperately secure borders and vital ley lines.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
-      "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
-      ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
-      "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
-      ],
-      "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
-      ],
-      "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
-      ],
-      "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
-      ]
-    },
-    {
-      "id": "ProcBG_UnGoro",
-      "name": "The Un'Goro Offensive",
-      "size": "40v40",
-      "type": "Capture the Flag",
-      "description": "A new front has opened up in Un'Goro, demanding immediate reinforcements.",
-      "mechanics": [
-        "Strategic Nodes: Capture outposts to provide global buffs to your team.",
-        "Wilderness Threats: Elite beasts roam the battleground, dropping powerful temporary items when slain.",
-        "Sudden Death: After 20 minutes, all players take 5% maximum health damage every 10 seconds."
-      ],
-      "lore": "The skirmishes of the Third War echo across Un'Goro as factions desperately secure borders and vital ley lines.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
-      "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
-      ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
-      "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
-      ],
-      "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
-      ],
-      "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
-      ],
-      "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
-      ]
-    },
-    {
-      "id": "ProcBG_Dustwallow",
-      "name": "The Dustwallow Offensive",
-      "size": "20v20",
-      "type": "Assassination",
-      "description": "A new front has opened up in Dustwallow, demanding immediate reinforcements.",
-      "mechanics": [
-        "Strategic Nodes: Capture outposts to provide global buffs to your team.",
-        "Wilderness Threats: Elite beasts roam the battleground, dropping powerful temporary items when slain.",
-        "Sudden Death: After 20 minutes, all players take 5% maximum health damage every 10 seconds."
-      ],
-      "lore": "The skirmishes of the Third War echo across Dustwallow as factions desperately secure borders and vital ley lines.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
-      "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
-      ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
-      "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
-      ],
-      "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
-      ],
-      "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
-      ],
-      "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 4",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 4",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     }
   ],
@@ -632,9 +350,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 0",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 0",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -670,9 +413,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 1",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 1",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -708,9 +476,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 2",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 2",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -745,9 +538,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 3",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 3",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -782,9 +600,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 4",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 4",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -819,9 +662,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 5",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 5",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -856,9 +724,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 6",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 6",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -893,9 +786,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 7",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 7",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -930,9 +848,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 8",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 8",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -967,9 +910,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 9",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 9",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -1004,9 +972,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 10",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 10",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -1041,9 +1034,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 11",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 11",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     },
     {
@@ -1078,9 +1096,34 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 12",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 12",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     }
   ],
@@ -1118,9 +1161,666 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
-        "Epic Mount: Vicious War Steed",
-        "Tabard of the Bloodthirsty",
-        "Title: The Justiciar"
+        {
+          "name": "Vicious Gladiator's Greatsword 0",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 0",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
+      ]
+    }
+  ],
+  "Warfront Offensives": [
+    {
+      "id": "ProcBG_Blackrock",
+      "name": "The Blackrock Offensive",
+      "size": "Zone-Wide Phase",
+      "type": "Phased Warfront",
+      "description": "A massive, phased war-style environment where you join the front lines of an eternally locked conflict in Blackrock.",
+      "mechanics": [
+        "Endless Reinforcements: NPCs from both factions constantly spawn and clash at the front lines.",
+        "Objective Conquest: Push the frontline forward by destroying enemy barricades and capturing forward command posts.",
+        "Commander Assassination: Winning requires drawing out and defeating the opposing faction's Supreme Commander."
+      ],
+      "lore": "The skirmishes of the Third War echo across Blackrock as factions desperately secure borders and vital ley lines in a brutal war of attrition.",
+      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "powerUps": [
+        "Berserker Buff (100% damage increase)",
+        "Restoration Buff (Heals 10% per second)",
+        "Speed Boots (150% movement speed)"
+      ],
+      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "topMetaComps": [
+        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
+        "5 Stealth Burst (Rogue/Druid)"
+      ],
+      "achievements": [
+        "Flawless Victory (Win without losing a single player)",
+        "Iron Defender (Defend 5 nodes in one match)"
+      ],
+      "associatedReputations": [
+        "The Defilers",
+        "League of Arathor",
+        "Silverwing Sentinels"
+      ],
+      "uniqueRewards": [
+        {
+          "name": "Vicious Gladiator's Greatsword 0",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 0",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
+      ]
+    },
+    {
+      "id": "ProcBG_Desolace",
+      "name": "The Desolace Offensive",
+      "size": "Zone-Wide Phase",
+      "type": "Phased Warfront",
+      "description": "A massive, phased war-style environment where you join the front lines of an eternally locked conflict in Desolace.",
+      "mechanics": [
+        "Endless Reinforcements: NPCs from both factions constantly spawn and clash at the front lines.",
+        "Objective Conquest: Push the frontline forward by destroying enemy barricades and capturing forward command posts.",
+        "Commander Assassination: Winning requires drawing out and defeating the opposing faction's Supreme Commander."
+      ],
+      "lore": "The skirmishes of the Third War echo across Desolace as factions desperately secure borders and vital ley lines in a brutal war of attrition.",
+      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "powerUps": [
+        "Berserker Buff (100% damage increase)",
+        "Restoration Buff (Heals 10% per second)",
+        "Speed Boots (150% movement speed)"
+      ],
+      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "topMetaComps": [
+        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
+        "5 Stealth Burst (Rogue/Druid)"
+      ],
+      "achievements": [
+        "Flawless Victory (Win without losing a single player)",
+        "Iron Defender (Defend 5 nodes in one match)"
+      ],
+      "associatedReputations": [
+        "The Defilers",
+        "League of Arathor",
+        "Silverwing Sentinels"
+      ],
+      "uniqueRewards": [
+        {
+          "name": "Vicious Gladiator's Greatsword 1",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 1",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
+      ]
+    },
+    {
+      "id": "ProcBG_Feralas",
+      "name": "The Feralas Offensive",
+      "size": "Zone-Wide Phase",
+      "type": "Phased Warfront",
+      "description": "A massive, phased war-style environment where you join the front lines of an eternally locked conflict in Feralas.",
+      "mechanics": [
+        "Endless Reinforcements: NPCs from both factions constantly spawn and clash at the front lines.",
+        "Objective Conquest: Push the frontline forward by destroying enemy barricades and capturing forward command posts.",
+        "Commander Assassination: Winning requires drawing out and defeating the opposing faction's Supreme Commander."
+      ],
+      "lore": "The skirmishes of the Third War echo across Feralas as factions desperately secure borders and vital ley lines in a brutal war of attrition.",
+      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "powerUps": [
+        "Berserker Buff (100% damage increase)",
+        "Restoration Buff (Heals 10% per second)",
+        "Speed Boots (150% movement speed)"
+      ],
+      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "topMetaComps": [
+        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
+        "5 Stealth Burst (Rogue/Druid)"
+      ],
+      "achievements": [
+        "Flawless Victory (Win without losing a single player)",
+        "Iron Defender (Defend 5 nodes in one match)"
+      ],
+      "associatedReputations": [
+        "The Defilers",
+        "League of Arathor",
+        "Silverwing Sentinels"
+      ],
+      "uniqueRewards": [
+        {
+          "name": "Vicious Gladiator's Greatsword 2",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 2",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
+      ]
+    },
+    {
+      "id": "ProcBG_Hinterlands",
+      "name": "The Hinterlands Offensive",
+      "size": "Zone-Wide Phase",
+      "type": "Phased Warfront",
+      "description": "A massive, phased war-style environment where you join the front lines of an eternally locked conflict in Hinterlands.",
+      "mechanics": [
+        "Endless Reinforcements: NPCs from both factions constantly spawn and clash at the front lines.",
+        "Objective Conquest: Push the frontline forward by destroying enemy barricades and capturing forward command posts.",
+        "Commander Assassination: Winning requires drawing out and defeating the opposing faction's Supreme Commander."
+      ],
+      "lore": "The skirmishes of the Third War echo across Hinterlands as factions desperately secure borders and vital ley lines in a brutal war of attrition.",
+      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "powerUps": [
+        "Berserker Buff (100% damage increase)",
+        "Restoration Buff (Heals 10% per second)",
+        "Speed Boots (150% movement speed)"
+      ],
+      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "topMetaComps": [
+        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
+        "5 Stealth Burst (Rogue/Druid)"
+      ],
+      "achievements": [
+        "Flawless Victory (Win without losing a single player)",
+        "Iron Defender (Defend 5 nodes in one match)"
+      ],
+      "associatedReputations": [
+        "The Defilers",
+        "League of Arathor",
+        "Silverwing Sentinels"
+      ],
+      "uniqueRewards": [
+        {
+          "name": "Vicious Gladiator's Greatsword 3",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 3",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
+      ]
+    },
+    {
+      "id": "ProcBG_Badlands",
+      "name": "The Badlands Offensive",
+      "size": "Zone-Wide Phase",
+      "type": "Phased Warfront",
+      "description": "A massive, phased war-style environment where you join the front lines of an eternally locked conflict in Badlands.",
+      "mechanics": [
+        "Endless Reinforcements: NPCs from both factions constantly spawn and clash at the front lines.",
+        "Objective Conquest: Push the frontline forward by destroying enemy barricades and capturing forward command posts.",
+        "Commander Assassination: Winning requires drawing out and defeating the opposing faction's Supreme Commander."
+      ],
+      "lore": "The skirmishes of the Third War echo across Badlands as factions desperately secure borders and vital ley lines in a brutal war of attrition.",
+      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "powerUps": [
+        "Berserker Buff (100% damage increase)",
+        "Restoration Buff (Heals 10% per second)",
+        "Speed Boots (150% movement speed)"
+      ],
+      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "topMetaComps": [
+        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
+        "5 Stealth Burst (Rogue/Druid)"
+      ],
+      "achievements": [
+        "Flawless Victory (Win without losing a single player)",
+        "Iron Defender (Defend 5 nodes in one match)"
+      ],
+      "associatedReputations": [
+        "The Defilers",
+        "League of Arathor",
+        "Silverwing Sentinels"
+      ],
+      "uniqueRewards": [
+        {
+          "name": "Vicious Gladiator's Greatsword 4",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 4",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
+      ]
+    },
+    {
+      "id": "ProcBG_Winterspring",
+      "name": "The Winterspring Offensive",
+      "size": "Zone-Wide Phase",
+      "type": "Phased Warfront",
+      "description": "A massive, phased war-style environment where you join the front lines of an eternally locked conflict in Winterspring.",
+      "mechanics": [
+        "Endless Reinforcements: NPCs from both factions constantly spawn and clash at the front lines.",
+        "Objective Conquest: Push the frontline forward by destroying enemy barricades and capturing forward command posts.",
+        "Commander Assassination: Winning requires drawing out and defeating the opposing faction's Supreme Commander."
+      ],
+      "lore": "The skirmishes of the Third War echo across Winterspring as factions desperately secure borders and vital ley lines in a brutal war of attrition.",
+      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "powerUps": [
+        "Berserker Buff (100% damage increase)",
+        "Restoration Buff (Heals 10% per second)",
+        "Speed Boots (150% movement speed)"
+      ],
+      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "topMetaComps": [
+        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
+        "5 Stealth Burst (Rogue/Druid)"
+      ],
+      "achievements": [
+        "Flawless Victory (Win without losing a single player)",
+        "Iron Defender (Defend 5 nodes in one match)"
+      ],
+      "associatedReputations": [
+        "The Defilers",
+        "League of Arathor",
+        "Silverwing Sentinels"
+      ],
+      "uniqueRewards": [
+        {
+          "name": "Vicious Gladiator's Greatsword 5",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 5",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
+      ]
+    },
+    {
+      "id": "ProcBG_BlastedLands",
+      "name": "The Blasted Lands Offensive",
+      "size": "Zone-Wide Phase",
+      "type": "Phased Warfront",
+      "description": "A massive, phased war-style environment where you join the front lines of an eternally locked conflict in Blasted Lands.",
+      "mechanics": [
+        "Endless Reinforcements: NPCs from both factions constantly spawn and clash at the front lines.",
+        "Objective Conquest: Push the frontline forward by destroying enemy barricades and capturing forward command posts.",
+        "Commander Assassination: Winning requires drawing out and defeating the opposing faction's Supreme Commander."
+      ],
+      "lore": "The skirmishes of the Third War echo across Blasted Lands as factions desperately secure borders and vital ley lines in a brutal war of attrition.",
+      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "powerUps": [
+        "Berserker Buff (100% damage increase)",
+        "Restoration Buff (Heals 10% per second)",
+        "Speed Boots (150% movement speed)"
+      ],
+      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "topMetaComps": [
+        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
+        "5 Stealth Burst (Rogue/Druid)"
+      ],
+      "achievements": [
+        "Flawless Victory (Win without losing a single player)",
+        "Iron Defender (Defend 5 nodes in one match)"
+      ],
+      "associatedReputations": [
+        "The Defilers",
+        "League of Arathor",
+        "Silverwing Sentinels"
+      ],
+      "uniqueRewards": [
+        {
+          "name": "Vicious Gladiator's Greatsword 6",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 6",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
+      ]
+    },
+    {
+      "id": "ProcBG_SearingGorge",
+      "name": "The Searing Gorge Offensive",
+      "size": "Zone-Wide Phase",
+      "type": "Phased Warfront",
+      "description": "A massive, phased war-style environment where you join the front lines of an eternally locked conflict in Searing Gorge.",
+      "mechanics": [
+        "Endless Reinforcements: NPCs from both factions constantly spawn and clash at the front lines.",
+        "Objective Conquest: Push the frontline forward by destroying enemy barricades and capturing forward command posts.",
+        "Commander Assassination: Winning requires drawing out and defeating the opposing faction's Supreme Commander."
+      ],
+      "lore": "The skirmishes of the Third War echo across Searing Gorge as factions desperately secure borders and vital ley lines in a brutal war of attrition.",
+      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "powerUps": [
+        "Berserker Buff (100% damage increase)",
+        "Restoration Buff (Heals 10% per second)",
+        "Speed Boots (150% movement speed)"
+      ],
+      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "topMetaComps": [
+        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
+        "5 Stealth Burst (Rogue/Druid)"
+      ],
+      "achievements": [
+        "Flawless Victory (Win without losing a single player)",
+        "Iron Defender (Defend 5 nodes in one match)"
+      ],
+      "associatedReputations": [
+        "The Defilers",
+        "League of Arathor",
+        "Silverwing Sentinels"
+      ],
+      "uniqueRewards": [
+        {
+          "name": "Vicious Gladiator's Greatsword 7",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 7",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
+      ]
+    },
+    {
+      "id": "ProcBG_UnGoro",
+      "name": "The Un'Goro Offensive",
+      "size": "Zone-Wide Phase",
+      "type": "Phased Warfront",
+      "description": "A massive, phased war-style environment where you join the front lines of an eternally locked conflict in Un'Goro.",
+      "mechanics": [
+        "Endless Reinforcements: NPCs from both factions constantly spawn and clash at the front lines.",
+        "Objective Conquest: Push the frontline forward by destroying enemy barricades and capturing forward command posts.",
+        "Commander Assassination: Winning requires drawing out and defeating the opposing faction's Supreme Commander."
+      ],
+      "lore": "The skirmishes of the Third War echo across Un'Goro as factions desperately secure borders and vital ley lines in a brutal war of attrition.",
+      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "powerUps": [
+        "Berserker Buff (100% damage increase)",
+        "Restoration Buff (Heals 10% per second)",
+        "Speed Boots (150% movement speed)"
+      ],
+      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "topMetaComps": [
+        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
+        "5 Stealth Burst (Rogue/Druid)"
+      ],
+      "achievements": [
+        "Flawless Victory (Win without losing a single player)",
+        "Iron Defender (Defend 5 nodes in one match)"
+      ],
+      "associatedReputations": [
+        "The Defilers",
+        "League of Arathor",
+        "Silverwing Sentinels"
+      ],
+      "uniqueRewards": [
+        {
+          "name": "Vicious Gladiator's Greatsword 8",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 8",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
+      ]
+    },
+    {
+      "id": "ProcBG_Dustwallow",
+      "name": "The Dustwallow Offensive",
+      "size": "Zone-Wide Phase",
+      "type": "Phased Warfront",
+      "description": "A massive, phased war-style environment where you join the front lines of an eternally locked conflict in Dustwallow.",
+      "mechanics": [
+        "Endless Reinforcements: NPCs from both factions constantly spawn and clash at the front lines.",
+        "Objective Conquest: Push the frontline forward by destroying enemy barricades and capturing forward command posts.",
+        "Commander Assassination: Winning requires drawing out and defeating the opposing faction's Supreme Commander."
+      ],
+      "lore": "The skirmishes of the Third War echo across Dustwallow as factions desperately secure borders and vital ley lines in a brutal war of attrition.",
+      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "powerUps": [
+        "Berserker Buff (100% damage increase)",
+        "Restoration Buff (Heals 10% per second)",
+        "Speed Boots (150% movement speed)"
+      ],
+      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "topMetaComps": [
+        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
+        "5 Stealth Burst (Rogue/Druid)"
+      ],
+      "achievements": [
+        "Flawless Victory (Win without losing a single player)",
+        "Iron Defender (Defend 5 nodes in one match)"
+      ],
+      "associatedReputations": [
+        "The Defilers",
+        "League of Arathor",
+        "Silverwing Sentinels"
+      ],
+      "uniqueRewards": [
+        {
+          "name": "Vicious Gladiator's Greatsword 9",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "+35 Stamina",
+            "+30 Strength",
+            "Equip: Improves your chance to get a critical strike by 2%."
+          ],
+          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "requiresLevel": 60
+        },
+        {
+          "name": "Bloodthirsty Ring of the Justiciar 9",
+          "rarity": "Epic",
+          "bindType": "Binds when picked up",
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+15 Stamina",
+            "+20 Agility",
+            "Equip: Increases your hit rating by 1%."
+          ],
+          "effect": "",
+          "requiresLevel": 60
+        }
       ]
     }
   ]

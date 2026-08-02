@@ -13,19 +13,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "imp_corruption",
@@ -41,19 +41,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "1.6 seconds.",
       "2.0 seconds."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "imp_life_tap",
@@ -66,19 +66,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "Increases the amount of Mana awarded by your Life Tap spell by 10%.",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "fel_concentration",
@@ -92,19 +92,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "50%",
       "75%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A forbidden curse practiced by the Black Harvest.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "nightfall",
@@ -118,19 +118,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "6%",
       "9%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A destructive ritual stolen from the Burning Legion.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "grim_reach",
@@ -143,19 +143,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "Increases the range of your Affliction spells by 10%.",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A forbidden curse practiced by the Black Harvest.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "soul_siphon",
@@ -168,19 +168,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "Increases the amount drained by your Drain Life and Drain Soul spells by 5% for each Affliction effect on the target, up to a maximum of 15% additional effect.",
       "10% / 30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "shadow_embrace",
@@ -193,19 +193,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "Your Shadow Bolt and Affliction spells apply a debuff reducing physical damage dealt by 2% and increasing periodic Shadow damage taken by 3%.",
       "4% / 6%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A forbidden curse practiced by the Black Harvest.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "empowered_corruption",
@@ -219,19 +219,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "24%",
       "36%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A destructive ritual stolen from the Burning Legion.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "siphon_life",
@@ -247,19 +247,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     "desc": [
       "Transfers X health from the target to the caster every 3 seconds for 30 seconds."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage and Spell Power.",
+    "loreOrigins": "A forbidden curse practiced by the Black Harvest.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "everlasting_affliction",
@@ -272,19 +272,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "Your Corruption spell has a 33% chance to be automatically refreshed when you cast Drain Life, Drain Soul, or Shadow Bolt.",
       "66%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A destructive ritual stolen from the Burning Legion.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "30/0/21 SM/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "shadow_mastery",
@@ -304,19 +304,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "8%",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "master_of_curses",
@@ -329,19 +329,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "Increases the damage done by your Curse of Agony by 5%, and increases the movement speed reduction of your Curse of Exhaustion by an additional 10%.",
       "10% / 20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "contagion",
@@ -355,19 +355,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "dark_pact",
@@ -379,19 +379,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     "desc": [
       "Drains X of your pet's Mana, returning 100% to you."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "eradication",
@@ -404,19 +404,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "Your Corruption ticks have a 10% chance to increase your spell casting speed by 20% for 8 seconds.",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "deaths_embrace",
@@ -430,19 +430,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "8%",
       "12%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "30/0/21 SM/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "pandemic",
@@ -460,19 +460,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "100%",
       "150%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "30/0/21 SM/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "malediction",
@@ -485,19 +485,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
       "Reduces the cooldown of your Amplify Curse by 1 minute, and increases the damage bonus of your Curse of the Elements and Curse of Shadow by 1%.",
       "2 minutes / 2%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "unstable_affliction",
@@ -513,19 +513,19 @@ export const WARLOCK_AFFLICTION_TALENTS: any = [
     "desc": [
       "Shadow energy slowly destroys the target, causing X damage over 15 seconds. If the Unstable Affliction is dispelled, it will cause X damage to the dispeller and silence them for 5 seconds."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   }
 ];
 
@@ -541,19 +541,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "Increases the amount of Health restored by your Healthstone by 10%.",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A destructive ritual stolen from the Burning Legion.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "imp_imp",
@@ -567,19 +567,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "demonic_embrace",
@@ -595,19 +595,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "12%",
       "15%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "health_funnel",
@@ -620,19 +620,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "Increases the amount of Health transferred by your Health Funnel spell by 10% and reduces the health cost by 10%.",
       "20% / 20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "fel_domination",
@@ -649,19 +649,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "Reduces the casting time of your Summon Imp, Voidwalker, Succubus, and Felhunter spells by 2.5 seconds and reduces their mana cost by 25%.",
       "5.0 seconds / 50%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "imp_voidwalker",
@@ -675,19 +675,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "30/0/21 SM/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "demonic_intellect",
@@ -701,19 +701,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "unholy_power",
@@ -726,19 +726,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "Increases the damage done by your Voidwalker, Succubus, Felhunter, and Felguard's melee attacks by 10%.",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "soul_link",
@@ -754,19 +754,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
     "desc": [
       "When active, 30% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead. In addition, both the demon and master will inflict 3% more damage."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "master_demonologist",
@@ -782,19 +782,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "Grants both the Warlock and the summoned demon an effect as long as that demon is active.\nImp - Reduces threat caused by 16%.\nVoidwalker - Reduces physical damage taken by 8%.\nSuccubus - Increases all damage caused by 8%.\nFelhunter - Increases all resistances by 0.8 per level.\nFelguard - Increases all damage caused by 4% and reduces all damage taken by 4%.",
       "Grants both the Warlock and the summoned demon an effect as long as that demon is active.\nImp - Reduces threat caused by 20%.\nVoidwalker - Reduces physical damage taken by 10%.\nSuccubus - Increases all damage caused by 10%.\nFelhunter - Increases all resistances by 1 per level.\nFelguard - Increases all damage caused by 5% and reduces all damage taken by 5%."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage and Spell Power.",
+    "loreOrigins": "A forbidden curse practiced by the Black Harvest.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "demonic_aegis",
@@ -808,19 +808,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A forbidden curse practiced by the Black Harvest.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "fel_synergy",
@@ -833,19 +833,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "You have a 50% chance to heal your pet for 15% of the amount of spell damage done by you.",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "nemesis",
@@ -858,19 +858,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "Reduces the cooldown of your Demonic Sacrifice and Fel Domination spells by 15% and increases your summoned demon's Stamina and Intellect by 5%.",
       "30% / 10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "mana_feed",
@@ -883,19 +883,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "When you gain mana from Drain Mana or Life Tap, your pet gains 50% of the mana you gain.",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "demonic_sacrifice",
@@ -911,19 +911,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
     "desc": [
       "When activated, sacrifices your summoned demon to grant you an effect that lasts 30 minutes. The effect is canceled if any Demon is summoned."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "demonic_knowledge",
@@ -937,19 +937,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A forbidden curse practiced by the Black Harvest.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "demonic_resilience",
@@ -963,19 +963,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "master_conjuror",
@@ -989,19 +989,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "30%",
       "45%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "demonic_tactics",
@@ -1014,19 +1014,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "Increases melee and spell critical strike chance for you and your summoned demon by 2%.",
       "4%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A destructive ritual stolen from the Burning Legion.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "demonic_pact",
@@ -1044,19 +1044,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
       "Your pet's criticals apply the Demonic Pact effect to your party or raid members. Demonic Pact increases spell power by 7% of your Spell Damage for 45 sec.",
       "Your pet's criticals apply the Demonic Pact effect to your party or raid members. Demonic Pact increases spell power by 10% of your Spell Damage for 45 sec."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "summon_felguard",
@@ -1072,19 +1072,19 @@ export const WARLOCK_DEMO_TALENTS: any = [
     "desc": [
       "Summons a Felguard under the command of the Warlock. The Felguard can Cleave, Intercept, and acts as a premier physical bruiser."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   }
 ];
 
@@ -1100,19 +1100,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "Reduces the casting time of your Immolate and Shadow Bolt spells by 0.2 seconds.",
       "0.5 seconds."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A destructive ritual stolen from the Burning Legion.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "30/0/21 SM/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "imp_shadow_bolt",
@@ -1128,19 +1128,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "16%",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A destructive ritual stolen from the Burning Legion.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "cataclysm",
@@ -1154,19 +1154,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A destructive ritual stolen from the Burning Legion.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "intensity",
@@ -1180,19 +1180,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "devastation",
@@ -1208,19 +1208,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "4%",
       "5%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "30/0/21 SM/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "aftermath",
@@ -1233,19 +1233,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "Gives your Destruction spells a 5% chance to daze the target for 5 seconds.",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales with Fire Damage and Spell Power.",
+    "loreOrigins": "A destructive ritual stolen from the Burning Legion.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "destructive_reach",
@@ -1258,19 +1258,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "Increases the range of your Destruction spells by 10% and reduces threat caused by Destruction spells by 10%.",
       "20% / 20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A forbidden curse practiced by the Black Harvest.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "shadowburn",
@@ -1286,19 +1286,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     "desc": [
       "Instantly blasts the target for X Shadow damage. Requires 1 Soul Shard. If the target dies within 5 seconds, the Soul Shard is refunded."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A destructive ritual stolen from the Burning Legion.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "imp_immolate",
@@ -1314,19 +1314,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "20%",
       "25%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "pyroclasm",
@@ -1340,19 +1340,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "16%",
       "26%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A destructive ritual stolen from the Burning Legion.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "fire_and_brimstone",
@@ -1368,19 +1368,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "8%",
       "10%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Creates a feedback loop when paired with rapid attacks.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "nether_protection",
@@ -1393,19 +1393,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "After being hit with a Shadow or Fire spell, you have a 10% chance to become immune to Shadow and Fire damage for 4 seconds.",
       "20%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "backlash",
@@ -1419,19 +1419,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "2% / 16%",
       "3% / 25%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Provides a massive power spike when paired with critical strike rating.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "30/0/21 SM/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "imp_firestone",
@@ -1444,19 +1444,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "Increases the bonus Fire damage from Firestones and the Firestone effect by 15%.",
       "30%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A destructive ritual stolen from the Burning Legion.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "20/31/0 Soul Link PvP"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "conflagrate",
@@ -1472,19 +1472,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     "desc": [
       "Consumes an Immolate or Shadowflame effect on the enemy target to instantly deal damage equal to 60% of your Immolate, and causes an additional 40% damage over 6 seconds. 10 second cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Pet scaling benefits from your Stamina and Spell Power.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "30/0/21 SM/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "soul_leech",
@@ -1497,19 +1497,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "Your Shadow Bolt, Shadowburn, and Conflagrate critical strikes have a 50% chance to return health equal to 20% of the damage dealt.",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Highly effective when used alongside your class tier sets.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   },
   {
     "id": "shadow_and_flame",
@@ -1525,19 +1525,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "16% / 80%",
       "20% / 100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A dark pact from the grimoires of the Shadow Council.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Perfect for area-of-effect focused builds.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "20/31/0 Soul Link PvP",
+      "Hybrid PvP/PvE"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Causes your helm rune to trigger an additional time.",
+    "devCommentary": "A high-risk, high-reward option for seasoned players.",
+    "visualEffect": "A demonic rune flares on the ground."
   },
   {
     "id": "bane_of_havoc",
@@ -1550,19 +1550,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
       "Your critical strikes have a 50% chance to copy 15% of the damage to a secondary target.",
       "100%"
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "A destructive ritual stolen from the Burning Legion.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "30/0/21 SM/Ruin",
+      "0/21/30 Demonic Sacrifice/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
+    "visualEffect": "Flames of fel-green erupt from the target."
   },
   {
     "id": "shadowfury",
@@ -1578,19 +1578,19 @@ export const WARLOCK_DESTRO_TALENTS: any = [
     "desc": [
       "Shadowfury is unleashed, causing X Shadow damage to all enemies within 8 yards, and stunning them for 3 seconds. 20 second cooldown."
     ],
-    "statScaling": "Scales at 0.45 coefficient with Attack Power / Spell Power.",
-    "loreOrigins": "Originally a forbidden technique passed down during the Troll Wars.",
+    "statScaling": "Scales at 0.85 coefficient with Shadow Damage.",
+    "loreOrigins": "Necromantic magic from the halls of Scholomance.",
     "synergies": [
-      "Works exceptionally well with the new 'Mark of the Wild' changes.",
-      "Combines with 'Deep Wounds' to trigger guaranteed bleeds."
+      "Combines exceptionally well with your primary cooldowns.",
+      "Crucial for optimizing damage or healing output."
     ],
     "recommendedBuilds": [
-      "The 'Iron Juggernaut' 31/20/0 Build",
-      "The 'Feral Swiftness' 0/31/20 Hybrid"
+      "0/21/30 Demonic Sacrifice/Ruin",
+      "30/0/21 SM/Ruin"
     ],
-    "runeInteractions": "This talent modifies the 'Blood Surge' rune, increasing its proc chance by an additional 5%.",
-    "devCommentary": "We wanted to ensure this capstone actually feels like a defining choice rather than a passive stat stick.",
-    "visualEffect": "Causes the weapon to glow with a brilliant golden/crimson aura when active."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
+    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
+    "visualEffect": "Shadowy tendrils grasp the enemy."
   }
 ];
 

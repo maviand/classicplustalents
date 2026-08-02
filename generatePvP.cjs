@@ -3,7 +3,8 @@ const fs = require('fs');
 const PVP_MODES = {
   BATTLEGROUNDS: 'New Battlegrounds',
   WORLD_PVP: 'World PvP & Banner Wars',
-  ARENA: 'The Gurubashi Arena System'
+  ARENA: 'The Gurubashi Arena System',
+  OFFENSIVES: 'Warfront Offensives'
 };
 
 const templates = {
@@ -129,26 +130,26 @@ const templates = {
       ],
       lore: 'The Steamwheedle Cartel has taken over the Gurubashi Arena, broadcasting the fights via gnomish radio to all of Azeroth. It\'s brutal, it\'s unfair, and it\'s extremely profitable.'
     }
-  ]
+  ],
+  [PVP_MODES.OFFENSIVES]: []
 };
 
-// Generate an extra 10 Battlegrounds procedurally
+// Generate an extra 10 Offensives procedurally
 const bgLocs = ['Blackrock', 'Desolace', 'Feralas', 'Hinterlands', 'Badlands', 'Winterspring', 'Blasted Lands', 'Searing Gorge', 'Un\'Goro', 'Dustwallow'];
-const bgTypes = ['Resource Race', 'Capture the Flag', 'Territory Control', 'Payload', 'Assassination'];
 
 bgLocs.forEach((loc, index) => {
-  templates[PVP_MODES.BATTLEGROUNDS].push({
+  templates[PVP_MODES.OFFENSIVES].push({
     id: "ProcBG_" + loc.replace(/[^a-zA-Z]/g, ''),
     name: "The " + loc + " Offensive",
-    size: ['10v10', '15v15', '20v20', '40v40'][Math.floor(Math.random() * 4)],
-    type: bgTypes[Math.floor(Math.random() * bgTypes.length)],
-    description: "A new front has opened up in " + loc + ", demanding immediate reinforcements.",
+    size: 'Zone-Wide Phase',
+    type: 'Phased Warfront',
+    description: "A massive, phased war-style environment where you join the front lines of an eternally locked conflict in " + loc + ".",
     mechanics: [
-      'Strategic Nodes: Capture outposts to provide global buffs to your team.',
-      'Wilderness Threats: Elite beasts roam the battleground, dropping powerful temporary items when slain.',
-      'Sudden Death: After 20 minutes, all players take 5% maximum health damage every 10 seconds.'
+      'Endless Reinforcements: NPCs from both factions constantly spawn and clash at the front lines.',
+      'Objective Conquest: Push the frontline forward by destroying enemy barricades and capturing forward command posts.',
+      'Commander Assassination: Winning requires drawing out and defeating the opposing faction\'s Supreme Commander.'
     ],
-    lore: "The skirmishes of the Third War echo across " + loc + " as factions desperately secure borders and vital ley lines."
+    lore: "The skirmishes of the Third War echo across " + loc + " as factions desperately secure borders and vital ley lines in a brutal war of attrition."
   });
 });
 
@@ -172,14 +173,35 @@ templates["World PvP & Banner Wars"].push(...generateProceduralPvP(10, "World Pv
 
 // MASSIVE DATA INJECTION (7x MORE FIELDS)
 Object.values(templates).forEach(pvpList => {
-  pvpList.forEach(pvp => {
+  pvpList.forEach((pvp, idx) => {
     pvp.mapLayout = "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.";
     pvp.powerUps = ["Berserker Buff (100% damage increase)", "Restoration Buff (Heals 10% per second)", "Speed Boots (150% movement speed)"];
     pvp.factionHistory = "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.";
     pvp.topMetaComps = ["3 Healers, 2 Warriors, 1 Mage (Peel Comp)", "5 Stealth Burst (Rogue/Druid)"];
     pvp.achievements = ["Flawless Victory (Win without losing a single player)", "Iron Defender (Defend 5 nodes in one match)"];
     pvp.associatedReputations = ["The Defilers", "League of Arathor", "Silverwing Sentinels"];
-    pvp.uniqueRewards = ["Epic Mount: Vicious War Steed", "Tabard of the Bloodthirsty", "Title: The Justiciar"];
+    pvp.uniqueRewards = [
+      {
+        name: `Vicious Gladiator's Greatsword ${idx}`,
+        rarity: "Epic",
+        bindType: "Binds when picked up",
+        slot: "Two-Hand",
+        type: "Sword",
+        stats: ["+35 Stamina", "+30 Strength", "Equip: Improves your chance to get a critical strike by 2%."],
+        effect: "Use: Increases attack power by 200 for 15 sec.",
+        requiresLevel: 60
+      },
+      {
+        name: `Bloodthirsty Ring of the Justiciar ${idx}`,
+        rarity: "Epic",
+        bindType: "Binds when picked up",
+        slot: "Finger",
+        type: "Ring",
+        stats: ["+15 Stamina", "+20 Agility", "Equip: Increases your hit rating by 1%."],
+        effect: "",
+        requiresLevel: 60
+      }
+    ];
   });
 });
 
@@ -208,11 +230,11 @@ const fileContent = [
   "  topMetaComps: string[];",
   "  achievements: string[];",
   "  associatedReputations: string[];",
-  "  uniqueRewards: string[];",
+  "  uniqueRewards: any[];",
   "}",
   "",
   "export const pvpData: Record<string, PvPItem[]> = " + JSON.stringify(templates, null, 2) + ";"
-].join("\n");
+].join("\\n");
 
 fs.writeFileSync('src/data/pvpData.ts', fileContent);
 console.log('Successfully generated massively expanded pvpData.ts (15+ BGs and World Events)');

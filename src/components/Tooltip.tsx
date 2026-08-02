@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { Talent } from '../types/talents';
 
 interface TooltipProps {
@@ -33,24 +34,39 @@ export function Tooltip({ talent, points, activeTalents, rect,  }: TooltipProps)
       return;
     }
 
+    // Measure unscaled dimensions (since opacity is 0 on mount, no scale is applied yet)
     const tt = tooltipRef.current.getBoundingClientRect();
+    
+    const viewportWidth = document.documentElement.clientWidth;
+    const viewportHeight = document.documentElement.clientHeight;
     
     // Apply offset of 15px to avoid obscuring cursor
     let left = rect.right + 15;
     let top = rect.top;
     
-    if (left + tt.width > window.innerWidth - 10) {
-      left = Math.max(10, rect.left - tt.width - 15);
+    // Determine scale if tooltip is taller than viewport
+    let scale = 1;
+    if (tt.height > viewportHeight - 20) {
+      scale = Math.max(0.5, (viewportHeight - 20) / tt.height);
     }
     
-    if (top + tt.height > window.innerHeight - 10) {
-      top = Math.max(10, window.innerHeight - tt.height - 10);
+    const actualWidth = tt.width * scale;
+    const actualHeight = tt.height * scale;
+    
+    if (left + actualWidth > viewportWidth - 10) {
+      left = Math.max(10, rect.left - actualWidth - 15);
+    }
+    
+    if (top + actualHeight > viewportHeight - 10) {
+      top = Math.max(10, viewportHeight - actualHeight - 10);
     }
     
     setPosition({ 
       top, 
       left, 
       opacity: 1,
+      transform: `scale(${scale})`,
+      transformOrigin: 'top left',
       transition: 'opacity 0.15s ease-in-out'
     });
   }, [rect, talent]);
@@ -166,10 +182,10 @@ export function Tooltip({ talent, points, activeTalents, rect,  }: TooltipProps)
 
   const requiredLevel = 10 + talent.row * 5;
 
-  return (
+  return createPortal(
     <div 
       ref={tooltipRef}
-      className="fixed z-50 p-3.5 w-80 text-[#ffd100] border-2 shadow-2xl pointer-events-none"
+      className="fixed z-[9999] p-3.5 w-80 text-[#ffd100] border-2 shadow-2xl pointer-events-none"
       style={{
         ...position,
         background: "rgba(10, 8, 6, 0.94)",
@@ -294,6 +310,7 @@ export function Tooltip({ talent, points, activeTalents, rect,  }: TooltipProps)
         {pts < talent.maxPoints && <p>• Click to learn</p>}
         {pts > 0 && <p className="mt-0.5">• Right-click to unlearn</p>}
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

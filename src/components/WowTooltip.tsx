@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { WowItem, WowSpell, ItemRarity } from '../types/items';
 
 interface WowTooltipProps {
@@ -43,22 +44,34 @@ export function WowTooltip({ item, spell, rect }: WowTooltipProps) {
     }
 
     const tt = tooltipRef.current.getBoundingClientRect();
+    const viewportWidth = document.documentElement.clientWidth;
+    const viewportHeight = document.documentElement.clientHeight;
     
     let left = rect.right + 15;
     let top = rect.top;
     
-    if (left + tt.width > window.innerWidth - 10) {
-      left = Math.max(10, rect.left - tt.width - 15);
+    let scale = 1;
+    if (tt.height > viewportHeight - 20) {
+      scale = Math.max(0.5, (viewportHeight - 20) / tt.height);
     }
     
-    if (top + tt.height > window.innerHeight - 10) {
-      top = Math.max(10, window.innerHeight - tt.height - 10);
+    const actualWidth = tt.width * scale;
+    const actualHeight = tt.height * scale;
+    
+    if (left + actualWidth > viewportWidth - 10) {
+      left = Math.max(10, rect.left - actualWidth - 15);
+    }
+    
+    if (top + actualHeight > viewportHeight - 10) {
+      top = Math.max(10, viewportHeight - actualHeight - 10);
     }
     
     setPosition({ 
       top, 
       left, 
       opacity: 1,
+      transform: `scale(${scale})`,
+      transformOrigin: 'top left',
       transition: 'opacity 0.05s ease-in-out'
     });
   }, [rect, item, spell]);
@@ -66,10 +79,10 @@ export function WowTooltip({ item, spell, rect }: WowTooltipProps) {
   if (!item && !spell) return null;
   if (!rect) return null;
 
-  return (
+  return createPortal(
     <div 
       ref={tooltipRef}
-      className="fixed z-[100] pointer-events-none text-left"
+      className="fixed z-[9999] pointer-events-none text-left"
       style={{
         ...position,
         backgroundColor: '#070c14',
@@ -167,6 +180,7 @@ export function WowTooltip({ item, spell, rect }: WowTooltipProps) {
           </div>
         )}
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
