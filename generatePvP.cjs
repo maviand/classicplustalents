@@ -334,7 +334,33 @@ function getRandom(arr, count) {
   return shuffled.slice(0, count);
 }
 
-// Item Level Scaling Logic
+function getRandomItem(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+const pvpSlotNames = {
+  Head: ['Helm', 'Crown', 'Circlet', 'Cowl', 'Mask'],
+  Shoulder: ['Spaulders', 'Mantle', 'Pauldrons', 'Epaulets', 'Amice'],
+  Chest: ['Breastplate', 'Robes', 'Vest', 'Harness', 'Tunic'],
+  Wrist: ['Bracers', 'Wristguards', 'Bindings', 'Cuffs', 'Vambraces'],
+  Hands: ['Gauntlets', 'Gloves', 'Handguards', 'Grips', 'Mitts'],
+  Waist: ['Belt', 'Girdle', 'Sash', 'Waistguard', 'Cord'],
+  Legs: ['Legguards', 'Pants', 'Kilt', 'Greaves', 'Leggings'],
+  Feet: ['Sabatons', 'Boots', 'Treads', 'Footpads', 'Slippers'],
+  Finger: ['Band', 'Signet', 'Loop', 'Ring', 'Seal'],
+  Trinket: ['Talisman', 'Charm', 'Medallion', 'Brooch', 'Relic'],
+  Neck: ['Amulet', 'Pendant', 'Necklace', 'Choker', 'Collar'],
+  Weapon: ['Greatsword', 'Blade', 'Staff', 'Gavel', 'Axe', 'Dagger', 'Bow'],
+  Shield: ['Shield', 'Bulwark', 'Defender', 'Aegis', 'Buckler']
+};
+
+const pvpArchetypes = {
+  PhysicalDPS: { armorTypes: ['Plate', 'Mail', 'Leather'], stats: ['Agility', 'Strength'] },
+  CasterDPS: { armorTypes: ['Cloth'], stats: ['Intellect', 'Spell Damage'] },
+  Healer: { armorTypes: ['Cloth', 'Leather', 'Mail'], stats: ['Intellect', 'Healing', 'Mana per 5 sec'] },
+  Tank: { armorTypes: ['Plate'], stats: ['Defense', 'Dodge', 'Shield Block'] }
+};
+
 function generateRewards(idx, pvpName) {
   const isEpic = Math.random() > 0.5;
   const rarity = isEpic ? "Epic" : "Rare";
@@ -346,35 +372,56 @@ function generateRewards(idx, pvpName) {
   const stamStat = Math.floor(itemLevel * 0.5);
   const critMod = isEpic ? Math.max(1, Math.floor(itemLevel / 40)) : 0;
   
-  const weapons = ["Greatsword", "Staff", "Dagger", "Bow", "Mace"];
-  const armor = ["Ring", "Necklace", "Trinket", "Cloak", "Helm"];
+  const archKeys = Object.keys(pvpArchetypes);
   
-  const weaponType = weapons[Math.floor(Math.random() * weapons.length)];
-  const armorType = armor[Math.floor(Math.random() * armor.length)];
-  
-  const weaponStats = [`+${stamStat} Stamina`, `+${mainStat} Strength/Agility`];
+  // Weapon generation
+  let wArch = pvpArchetypes[getRandomItem(archKeys)];
+  let wType = getRandomItem(['Sword', 'Mace', 'Axe', 'Staff', 'Dagger', 'Bow']);
+  let wSlot = (wType === 'Staff' || wType === 'Bow') ? 'Two-Hand' : getRandomItem(['Main Hand', 'One-Hand']);
+  let wNoun = getRandomItem(pvpSlotNames.Weapon);
+  let wMain = getRandomItem(wArch.stats);
+  const weaponStats = [`+${stamStat} Stamina`, `+${mainStat} ${wMain}`];
   if (critMod > 0) weaponStats.push(`Equip: Improves your chance to get a critical strike by ${critMod}%.`);
   
-  const armorStats = [`+${Math.floor(stamStat * 0.8)} Stamina`, `+${Math.floor(mainStat * 0.8)} Intellect/Spirit`];
+  // Armor generation
+  let aArchName = getRandomItem(archKeys);
+  let aArch = pvpArchetypes[aArchName];
+  let aIsJewelry = Math.random() > 0.7;
+  let aType = '';
+  let aSlot = '';
+  let aNoun = '';
+  
+  if (aIsJewelry) {
+    aType = getRandomItem(['Ring', 'Trinket', 'Necklace']);
+    aSlot = aType === 'Ring' ? 'Finger' : (aType === 'Necklace' ? 'Neck' : 'Trinket');
+    aNoun = getRandomItem(pvpSlotNames[aSlot]);
+  } else {
+    aType = getRandomItem(aArch.armorTypes);
+    aSlot = getRandomItem(['Head', 'Shoulder', 'Chest', 'Wrist', 'Hands', 'Waist', 'Legs', 'Feet']);
+    aNoun = getRandomItem(pvpSlotNames[aSlot]);
+  }
+  
+  let aMain = getRandomItem(aArch.stats);
+  const armorStats = [`+${Math.floor(stamStat * 0.8)} Stamina`, `+${Math.floor(mainStat * 0.8)} ${aMain}`];
   if (critMod > 0) armorStats.push(`Equip: Increases your hit rating by ${critMod}%.`);
 
   return [
     {
-      name: `${isEpic ? "Vicious" : "Bloodthirsty"} ${weaponType} of ${pvpName.split(' ')[0]}`,
+      name: `${isEpic ? "Vicious" : "Bloodthirsty"} ${wNoun} of ${pvpName.split(' ')[0]}`,
       rarity: rarity,
       bindType: "Binds when picked up",
-      slot: "Weapon",
-      type: weaponType,
+      slot: wSlot,
+      type: wType,
       stats: weaponStats,
       effect: isEpic ? `Use: Increases attack power by ${itemLevel * 3} for 15 sec.` : "",
       requiresLevel: reqLevel
     },
     {
-      name: `${isEpic ? "Gladiator's" : "Veteran's"} ${armorType} of the ${pvpName.split(' ').pop()}`,
+      name: `${isEpic ? "Gladiator's" : "Veteran's"} ${aNoun} of the ${pvpName.split(' ').pop()}`,
       rarity: rarity,
       bindType: "Binds when picked up",
-      slot: armorType === "Ring" ? "Finger" : (armorType === "Necklace" ? "Neck" : armorType),
-      type: armorType,
+      slot: aSlot,
+      type: aType,
       stats: armorStats,
       effect: "",
       requiresLevel: reqLevel

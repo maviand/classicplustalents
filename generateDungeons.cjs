@@ -1,8 +1,23 @@
 const fs = require('fs');
 
-const dPrefixes = ['Band of', 'Helm of', 'Pauldrons of', 'Breastplate of', 'Legguards of', 'Sabatons of', 'Amulet of', 'Signet of', 'Cloak of', 'Tome of'];
-const dSuffixes = ['the Crimson King', 'the Unseen', 'Eternal Slumber', 'the Archmage', 'Shattered Souls', 'the Forgotten', 'the Void', 'Bloodletting', 'the Deep', 'the Betrayer'];
-const dEffects = [
+function getRandom(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+const wackyEffects = [
+  'Chance on hit: Blasts the target for 150 Nature damage.',
+  'Equip: When struck in melee, inflicts 15 Fire damage to the attacker.',
+  'Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.',
+  'Equip: Your healing spells have a 2% chance to restore 300 mana.',
+  'Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.',
+  'Equip: Increases your resistance to all schools of magic by 10.',
+  'Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.',
+  'Chance on hit: Drains 50 life from the target and gives it to the wielder.',
+  'Equip: Increases the critical effect of your holy spells by 2%.',
+  'Use: Instantly heals the target for 500, but silences you for 3 sec.'
+];
+
+const standardEffects = [
   'Equip: Increases healing done by up to 25.',
   'Equip: +1% Critical Strike.',
   'Equip: +1% Hit chance.',
@@ -15,41 +30,115 @@ const dEffects = [
   'Use: Absorbs 500 magic damage for 10 sec.'
 ];
 
-function getRandom(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
-}
+const slotNames = {
+  Head: ['Helm', 'Crown', 'Circlet', 'Cowl', 'Mask'],
+  Shoulder: ['Spaulders', 'Mantle', 'Pauldrons', 'Epaulets', 'Amice'],
+  Chest: ['Breastplate', 'Robes', 'Vest', 'Harness', 'Tunic'],
+  Wrist: ['Bracers', 'Wristguards', 'Bindings', 'Cuffs', 'Vambraces'],
+  Hands: ['Gauntlets', 'Gloves', 'Handguards', 'Grips', 'Mitts'],
+  Waist: ['Belt', 'Girdle', 'Sash', 'Waistguard', 'Cord'],
+  Legs: ['Legguards', 'Pants', 'Kilt', 'Greaves', 'Leggings'],
+  Feet: ['Sabatons', 'Boots', 'Treads', 'Footpads', 'Slippers'],
+  Finger: ['Band', 'Signet', 'Loop', 'Ring', 'Seal'],
+  Trinket: ['Talisman', 'Charm', 'Medallion', 'Brooch', 'Relic'],
+  Neck: ['Amulet', 'Pendant', 'Necklace', 'Choker', 'Collar'],
+  Weapon: ['Greatsword', 'Blade', 'Staff', 'Gavel', 'Axe', 'Dagger', 'Bow'],
+  Shield: ['Shield', 'Bulwark', 'Defender', 'Aegis', 'Buckler']
+};
+
+const prefixes = ['Venerable', 'Corrupted', 'Shimmering', 'Blood-Forged', 'Ancient', 'Void-Touched', 'Shadow', 'Holy', 'Ethereal', 'Savage'];
+const suffixes = ['of the Crimson King', 'of the Unseen', 'of Eternal Slumber', 'of the Archmage', 'of Shattered Souls', 'of the Forgotten', 'of the Void', 'of Bloodletting', 'of the Deep', 'of the Betrayer'];
+
+const archetypes = {
+  PhysicalDPS: {
+    armorTypes: ['Plate', 'Mail', 'Leather'],
+    stats: ['Agility', 'Strength', 'Stamina']
+  },
+  CasterDPS: {
+    armorTypes: ['Cloth'],
+    stats: ['Intellect', 'Stamina', 'Spirit']
+  },
+  Healer: {
+    armorTypes: ['Cloth', 'Leather', 'Mail'],
+    stats: ['Intellect', 'Spirit', 'Stamina']
+  },
+  Tank: {
+    armorTypes: ['Plate'],
+    stats: ['Stamina', 'Strength', 'Agility']
+  }
+};
 
 function generateLoot(count) {
   const loot = [];
   for (let i = 0; i < count; i++) {
     const isEpic = Math.random() > 0.7;
     const rarity = isEpic ? 'Epic' : 'Rare';
-    const type = getRandom(['Plate', 'Mail', 'Leather', 'Cloth', 'Ring', 'Trinket', 'Weapon', 'Shield']);
     
+    const archetypeKeys = Object.keys(archetypes);
+    const archName = getRandom(archetypeKeys);
+    const arch = archetypes[archName];
+    
+    const isWeapon = Math.random() > 0.8;
+    const isJewelry = Math.random() > 0.7 && !isWeapon;
+    const isShield = archName === 'Tank' && Math.random() > 0.8;
+    
+    let type = '';
     let slot = '';
-    if (type === 'Ring') slot = 'Finger';
-    else if (type === 'Trinket') slot = 'Trinket';
-    else if (type === 'Weapon') slot = getRandom(['Main Hand', 'One-Hand', 'Two-Hand', 'Ranged']);
-    else if (type === 'Shield') slot = 'Off Hand';
-    else slot = getRandom(['Head', 'Shoulder', 'Chest', 'Wrist', 'Hands', 'Waist', 'Legs', 'Feet']);
+    let noun = '';
+
+    if (isWeapon) {
+      type = getRandom(['Sword', 'Mace', 'Axe', 'Staff', 'Dagger', 'Bow']);
+      if (type === 'Staff' || type === 'Bow') {
+        slot = 'Two-Hand';
+      } else {
+        slot = getRandom(['Main Hand', 'One-Hand']);
+      }
+      noun = getRandom(slotNames.Weapon);
+    } else if (isShield) {
+      type = 'Shield';
+      slot = 'Off Hand';
+      noun = getRandom(slotNames.Shield);
+    } else if (isJewelry) {
+      type = getRandom(['Ring', 'Trinket', 'Necklace']);
+      if (type === 'Ring') slot = 'Finger';
+      else if (type === 'Necklace') slot = 'Neck';
+      else slot = 'Trinket';
+      noun = getRandom(slotNames[slot]);
+    } else {
+      type = getRandom(arch.armorTypes);
+      slot = getRandom(['Head', 'Shoulder', 'Chest', 'Wrist', 'Hands', 'Waist', 'Legs', 'Feet']);
+      noun = getRandom(slotNames[slot]);
+    }
+
+    const name = `${getRandom(prefixes)} ${noun} ${getRandom(suffixes)}`;
 
     const stats = [];
     if (type !== 'Trinket') {
-      const statTypes = ['Stamina', 'Intellect', 'Agility', 'Strength', 'Spirit'];
-      stats.push(`+${Math.floor(Math.random() * 20 + 5)} ${getRandom(statTypes)}`);
-      if (Math.random() > 0.5) {
-        stats.push(`+${Math.floor(Math.random() * 15 + 5)} ${getRandom(statTypes)}`);
+      const mainStat = getRandom(arch.stats);
+      stats.push(`+${Math.floor(Math.random() * 20 + 10)} ${mainStat}`);
+      if (Math.random() > 0.4) {
+        const secStat = getRandom(arch.stats.filter(s => s !== mainStat));
+        stats.push(`+${Math.floor(Math.random() * 15 + 5)} ${secStat}`);
+      }
+    }
+
+    let effect = '';
+    if (isEpic || type === 'Trinket' || Math.random() > 0.5) {
+      if (Math.random() > 0.7) {
+        effect = getRandom(wackyEffects);
+      } else {
+        effect = getRandom(standardEffects);
       }
     }
 
     loot.push({
-      name: `${getRandom(dPrefixes)} ${getRandom(dSuffixes)}`,
+      name,
       rarity,
       bindType: 'Binds when picked up',
       slot,
-      type: type === 'Weapon' ? getRandom(['Sword', 'Mace', 'Axe', 'Staff', 'Dagger', 'Bow']) : type,
+      type,
       stats,
-      effect: getRandom(dEffects),
+      effect,
       requiresLevel: 60,
       sellPrice: `${Math.floor(Math.random() * 10 + 1)}g ${Math.floor(Math.random() * 99)}s`
     });
