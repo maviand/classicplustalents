@@ -68,12 +68,44 @@ const archetypes = {
   }
 };
 
-function generateLoot(count, levelStr = '60') {
+
+const loreThemes = {
+  EmeraldNightmare: {
+    prefixes: ['Dream-Scarred', 'Nightmare-Forged', 'Corrupted', 'Slumbering', 'Emerald'],
+    suffixes: ['of the Waking Dream', 'of Ysera\'s Fall', 'of the Deep Slumber', 'of the Nightmare']
+  },
+  GrimBatolRaid: {
+    prefixes: ['Dragonmaw', 'Red Scale', 'Enslaved', 'Mountain-Forged', 'Searing'],
+    suffixes: ['of the Demon Soul', 'of the Red Flight', 'of the Queen\'s Captivity', 'of the Forge']
+  },
+  CrownOfTheDamned: {
+    prefixes: ['Necrotic', 'Plague-Ridden', 'Scourge-Forged', 'Cursed', 'Death-Bound'],
+    suffixes: ['of the Lich King', 'of the Ziggurat', 'of the Phylactery', 'of Naxxramas']
+  },
+  KarazhanRaid: {
+    prefixes: ['Astral', 'Medivh\'s', 'Ethereal', 'Rift-Touched', 'Timeless'],
+    suffixes: ['of the Guardian\'s Fall', 'of the Rift', 'of the Ivory Tower', 'of the Nether']
+  },
+  DragonIslesRaid: {
+    prefixes: ['Faceless', 'Tentacled', 'Void-Touched', 'Maddening', 'Whispering'],
+    suffixes: ['of the Black Empire', 'of the Insane', 'of the Old Gods', 'of the Deep Void']
+  }
+};
+
+function generateLoot(count, levelStr = '60', theme = null) {
   let reqLevel = 60;
-  if (levelStr.includes('-')) {
+  let iLvl = 60;
+  if (levelStr.includes('Tier 1.5')) iLvl = 70;
+  else if (levelStr.includes('Tier 2.5')) iLvl = 81;
+  else if (levelStr.includes('Tier 2')) iLvl = 76;
+  else if (levelStr.includes('Tier 3.5')) iLvl = 92;
+  else if (levelStr.includes('Tier 3')) iLvl = 86;
+  else if (levelStr.includes('-')) {
     reqLevel = parseInt(levelStr.split('-')[1], 10);
+    iLvl = reqLevel;
   } else {
     reqLevel = parseInt(levelStr, 10);
+    iLvl = reqLevel;
   }
 
   const loot = [];
@@ -117,12 +149,20 @@ function generateLoot(count, levelStr = '60') {
       noun = getRandom(slotNames[slot]);
     }
 
-    const name = `${getRandom(prefixes)} ${noun} ${getRandom(suffixes)}`;
+    
+    let pList = prefixes;
+    let sList = suffixes;
+    if (theme && loreThemes[theme]) {
+      pList = loreThemes[theme].prefixes;
+      sList = loreThemes[theme].suffixes;
+    }
+    const name = `${getRandom(pList)} ${noun} ${getRandom(sList)}`;
+
 
     const stats = [];
     if (type !== 'Trinket') {
       const mainStat = getRandom(arch.stats);
-      const statBudget = Math.floor(reqLevel * 0.5) + (isEpic ? 10 : 0);
+      const statBudget = Math.floor(iLvl * 0.5) + (isEpic ? 10 : 0);
       stats.push(`+${Math.floor(statBudget * 0.6)} ${mainStat}`);
       if (Math.random() > 0.4) {
         const secStat = getRandom(arch.stats.filter(s => s !== mainStat));
@@ -322,7 +362,7 @@ const raids = [
     environmentalHazards: 'The Nightmare Fog constantly shifts. Standing in it too long mind-controls the player.',
     secrets: ['Collecting the hidden Dream Fragments allows you to forge a unique Nature Resistance epic trinket.'],
     bosses: ['Lethon', 'Emeriss', 'Taerar', 'Ysondre', 'Eranikus'],
-    loot: generateLoot(50)
+    loot: generateLoot(50, 'Tier 1.5', 'EmeraldNightmare')
   },
   {
     id: 'GrimBatolRaid',
@@ -337,7 +377,7 @@ const raids = [
     environmentalHazards: 'Massive blast furnaces periodically erupt, requiring the raid to hide behind forge anvils.',
     secrets: ['A secret blacksmithing forge allows players with Exalted Thorium Brotherhood rep to craft legendary-tier fire resistance gear.'],
     bosses: ['Warchief Nek\'rosh', 'The Demon Soul', 'Alexstrasza (Enslaved)', 'The Crimson Behemoth'],
-    loot: generateLoot(80)
+    loot: generateLoot(80, 'Tier 2', 'GrimBatolRaid')
   },
   {
     id: 'CrownOfTheDamned',
@@ -352,7 +392,7 @@ const raids = [
     environmentalHazards: 'Plague Cauldrons slowly fill the room with toxic gas during boss fights.',
     secrets: ['Using the Corrupted Ashbringer here triggers hidden dialogue from Highlord Mograine.'],
     bosses: ['Highlord Mograine', 'The Blood Council', 'Kel\'Thuzad\'s Phylactery-Guard'],
-    loot: generateLoot(50)
+    loot: generateLoot(50, 'Tier 2.5', 'CrownOfTheDamned')
   },
   {
     id: 'KarazhanRaid',
@@ -367,7 +407,7 @@ const raids = [
     environmentalHazards: 'Gravity reverses in the Nether Spire, requiring the raid to fight on the ceiling while dodging falling debris.',
     secrets: ['Solving the Library\'s book puzzle unlocks a hidden boss fight against a corrupted Guardian.'],
     bosses: ['Attumen', 'Moroes', 'The Curator', 'Shade of Aran', 'Prince Malchezaar', 'Nightbane'],
-    loot: generateLoot(100)
+    loot: generateLoot(100, 'Tier 3', 'KarazhanRaid')
   },
   {
     id: 'DragonIslesRaid',
@@ -382,7 +422,7 @@ const raids = [
     environmentalHazards: 'The geometry of the temple physically shifts and changes layout every week, making memorization impossible.',
     secrets: ['A completely hidden 4th Old God encounter is accessible only if a player in the raid wields the Scepter of the Shifting Sands.'],
     bosses: ['The Devolved Aspect', 'The Faceless General', 'Avatar of the Old God'],
-    loot: generateLoot(100)
+    loot: generateLoot(100, 'Tier 3.5', 'DragonIslesRaid')
   }
 ];
 

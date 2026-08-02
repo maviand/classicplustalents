@@ -38,137 +38,134 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Ethereal Bow of the Deep",
+            "name": "Holy Legguards of the Betrayer",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Dagger",
+            "slot": "Legs",
+            "type": "Mail",
+            "stats": [
+              "+9 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 30,
+            "sellPrice": "3g 91s"
+          },
+          {
+            "name": "Blood-Forged Amice of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Cloth",
             "stats": [
               "+9 Stamina"
             ],
-            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
+            "effect": "",
             "requiresLevel": 30,
-            "sellPrice": "4g 54s"
+            "sellPrice": "5g 50s"
           },
           {
-            "name": "Corrupted Amulet of the Forgotten",
+            "name": "Holy Amice of the Void",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+9 Intellect"
-            ],
-            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-            "requiresLevel": 30,
-            "sellPrice": "4g 23s"
-          },
-          {
-            "name": "Corrupted Robes of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
+            "slot": "Shoulder",
             "type": "Plate",
             "stats": [
-              "+9 Stamina",
-              "+6 Agility"
+              "+9 Strength"
             ],
             "effect": "",
             "requiresLevel": 30,
-            "sellPrice": "10g 86s"
+            "sellPrice": "8g 4s"
           },
           {
-            "name": "Shadow Tunic of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Cloth",
-            "stats": [
-              "+9 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 30,
-            "sellPrice": "3g 63s"
-          },
-          {
-            "name": "Ancient Charm of Bloodletting",
+            "name": "Ethereal Brooch of the Archmage",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Trinket",
             "type": "Trinket",
             "stats": [],
-            "effect": "Equip: Increases healing done by up to 25.",
+            "effect": "Equip: +1% Critical Strike.",
             "requiresLevel": 30,
-            "sellPrice": "6g 24s"
+            "sellPrice": "2g 36s"
           },
           {
-            "name": "Blood-Forged Robes of the Crimson King",
-            "rarity": "Rare",
+            "name": "Ancient Relic of the Unseen",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Cloth",
-            "stats": [
-              "+9 Spirit",
-              "+6 Stamina"
-            ],
-            "effect": "",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
             "requiresLevel": 30,
-            "sellPrice": "5g 43s"
+            "sellPrice": "8g 34s"
           },
           {
-            "name": "Holy Footpads of the Deep",
+            "name": "Savage Slippers of the Void",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Feet",
-            "type": "Cloth",
+            "type": "Leather",
             "stats": [
-              "+15 Spirit",
-              "+10 Intellect"
+              "+15 Strength",
+              "+10 Stamina"
             ],
-            "effect": "Equip: +1% Hit chance.",
+            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
             "requiresLevel": 30,
-            "sellPrice": "4g 27s"
+            "sellPrice": "3g 52s"
           },
           {
-            "name": "Corrupted Defender of the Unseen",
-            "rarity": "Epic",
+            "name": "Holy Dagger of the Archmage",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
+            "slot": "Main Hand",
+            "type": "Sword",
             "stats": [
-              "+15 Agility",
-              "+10 Strength"
+              "+9 Spirit"
             ],
-            "effect": "Equip: +10 Shadow Resistance.",
+            "effect": "",
             "requiresLevel": 30,
-            "sellPrice": "7g 25s"
+            "sellPrice": "10g 6s"
           },
           {
-            "name": "Venerable Band of Eternal Slumber",
+            "name": "Ancient Axe of Eternal Slumber",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
+            "slot": "One-Hand",
+            "type": "Dagger",
             "stats": [
               "+15 Spirit",
               "+10 Stamina"
             ],
-            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
             "requiresLevel": 30,
-            "sellPrice": "10g 27s"
+            "sellPrice": "4g 34s"
           },
           {
-            "name": "Void-Touched Crown of the Void",
+            "name": "Void-Touched Necklace of the Archmage",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Cloth",
+            "slot": "Neck",
+            "type": "Necklace",
             "stats": [
-              "+9 Stamina"
+              "+9 Spirit",
+              "+6 Stamina"
             ],
-            "effect": "",
+            "effect": "Equip: Increases spell damage by up to 15.",
             "requiresLevel": 30,
-            "sellPrice": "7g 65s"
+            "sellPrice": "7g 77s"
+          },
+          {
+            "name": "Corrupted Necklace of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+15 Agility",
+              "+10 Stamina"
+            ],
+            "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
+            "requiresLevel": 30,
+            "sellPrice": "10g 5s"
           }
         ]
       },
@@ -182,207 +179,206 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Shimmering Tunic of the Void",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Cloth",
-            "stats": [
-              "+21 Spirit",
-              "+14 Stamina"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 50,
-            "sellPrice": "4g 4s"
-          },
-          {
-            "name": "Savage Amulet of the Betrayer",
+            "name": "Corrupted Band of Eternal Slumber",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
+            "slot": "Finger",
+            "type": "Ring",
             "stats": [
-              "+15 Stamina",
+              "+15 Intellect",
               "+10 Spirit"
             ],
-            "effect": "",
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
             "requiresLevel": 50,
-            "sellPrice": "5g 16s"
+            "sellPrice": "9g 96s"
           },
           {
-            "name": "Shimmering Waistguard of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Mail",
-            "stats": [
-              "+15 Spirit",
-              "+10 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 50,
-            "sellPrice": "9g 64s"
-          },
-          {
-            "name": "Void-Touched Grips of the Archmage",
+            "name": "Venerable Handguards of Eternal Slumber",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Hands",
+            "type": "Mail",
+            "stats": [
+              "+15 Agility",
+              "+10 Strength"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 50,
+            "sellPrice": "1g 63s"
+          },
+          {
+            "name": "Venerable Blade of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Bow",
+            "stats": [
+              "+15 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 50,
+            "sellPrice": "2g 26s"
+          },
+          {
+            "name": "Ethereal Vambraces of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Leather",
+            "stats": [
+              "+15 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 50,
+            "sellPrice": "2g 50s"
+          },
+          {
+            "name": "Shadow Treads of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Plate",
+            "stats": [
+              "+15 Stamina",
+              "+10 Strength"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 50,
+            "sellPrice": "8g 39s"
+          },
+          {
+            "name": "Savage Mantle of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
             "type": "Cloth",
             "stats": [
               "+15 Spirit"
             ],
             "effect": "",
             "requiresLevel": 50,
-            "sellPrice": "1g 14s"
+            "sellPrice": "6g 35s"
           },
           {
-            "name": "Void-Touched Bow of Eternal Slumber",
-            "rarity": "Epic",
+            "name": "Void-Touched Sabatons of Bloodletting",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Staff",
+            "slot": "Feet",
+            "type": "Mail",
             "stats": [
-              "+21 Strength",
-              "+14 Stamina"
+              "+15 Stamina",
+              "+10 Agility"
             ],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "effect": "",
             "requiresLevel": 50,
-            "sellPrice": "4g 27s"
+            "sellPrice": "2g 68s"
           },
           {
-            "name": "Blood-Forged Crown of the Void",
-            "rarity": "Epic",
+            "name": "Ancient Mask of the Betrayer",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Head",
             "type": "Leather",
             "stats": [
-              "+21 Stamina"
+              "+15 Stamina"
             ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "effect": "Equip: +1% Critical Strike.",
             "requiresLevel": 50,
-            "sellPrice": "4g 76s"
+            "sellPrice": "5g 4s"
           },
           {
-            "name": "Ethereal Legguards of Bloodletting",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Mail",
-            "stats": [
-              "+21 Spirit"
-            ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-            "requiresLevel": 50,
-            "sellPrice": "8g 7s"
-          },
-          {
-            "name": "Ethereal Ring of the Crimson King",
+            "name": "Blood-Forged Amulet of Eternal Slumber",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
+            "slot": "Neck",
+            "type": "Necklace",
             "stats": [
-              "+15 Agility"
+              "+15 Agility",
+              "+10 Strength"
             ],
-            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+            "effect": "",
             "requiresLevel": 50,
-            "sellPrice": "3g 19s"
+            "sellPrice": "7g 51s"
           },
           {
-            "name": "Ethereal Greatsword of the Deep",
+            "name": "Holy Bindings of the Archmage",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Staff",
+            "slot": "Wrist",
+            "type": "Plate",
             "stats": [
               "+21 Strength",
               "+14 Stamina"
             ],
-            "effect": "Equip: +1% Critical Strike.",
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
             "requiresLevel": 50,
-            "sellPrice": "2g 96s"
+            "sellPrice": "3g 16s"
           },
           {
-            "name": "Void-Touched Kilt of the Unseen",
+            "name": "Shimmering Talisman of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Leather",
-            "stats": [
-              "+15 Intellect",
-              "+10 Spirit"
-            ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: +1% Critical Strike.",
             "requiresLevel": 50,
-            "sellPrice": "4g 27s"
+            "sellPrice": "5g 15s"
           },
           {
             "name": "Holy Pants of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Legs",
-            "type": "Mail",
+            "type": "Cloth",
             "stats": [
-              "+15 Intellect",
+              "+15 Stamina",
               "+10 Spirit"
             ],
             "effect": "",
             "requiresLevel": 50,
-            "sellPrice": "2g 80s"
+            "sellPrice": "9g 3s"
           },
           {
-            "name": "Void-Touched Breastplate of Bloodletting",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Leather",
-            "stats": [
-              "+21 Spirit"
-            ],
-            "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
-            "requiresLevel": 50,
-            "sellPrice": "8g 31s"
-          },
-          {
-            "name": "Ethereal Dagger of the Crimson King",
+            "name": "Void-Touched Cuffs of the Unseen",
             "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Staff",
-            "stats": [
-              "+15 Strength"
-            ],
-            "effect": "Equip: +10 Shadow Resistance.",
-            "requiresLevel": 50,
-            "sellPrice": "8g 74s"
-          },
-          {
-            "name": "Venerable Greaves of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Mail",
-            "stats": [
-              "+15 Intellect"
-            ],
-            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
-            "requiresLevel": 50,
-            "sellPrice": "3g 13s"
-          },
-          {
-            "name": "Venerable Cuffs of the Void",
-            "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Wrist",
-            "type": "Plate",
+            "type": "Cloth",
             "stats": [
-              "+21 Agility",
-              "+14 Strength"
+              "+15 Intellect",
+              "+10 Stamina"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 50,
+            "sellPrice": "4g 42s"
+          },
+          {
+            "name": "Ethereal Seal of Bloodletting",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+21 Stamina"
+            ],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 50,
+            "sellPrice": "6g 84s"
+          },
+          {
+            "name": "Venerable Mitts of the Void",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Cloth",
+            "stats": [
+              "+21 Intellect",
+              "+14 Spirit"
             ],
             "effect": "Use: Absorbs 500 magic damage for 10 sec.",
             "requiresLevel": 50,
-            "sellPrice": "1g 50s"
+            "sellPrice": "5g 31s"
           }
         ]
       },
@@ -396,340 +392,342 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Ancient Girdle of the Archmage",
+            "name": "Holy Signet of the Void",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Cloth",
+            "slot": "Finger",
+            "type": "Ring",
             "stats": [
               "+18 Stamina",
               "+12 Intellect"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "10g 59s"
+            "sellPrice": "7g 90s"
           },
           {
-            "name": "Shadow Sabatons of Bloodletting",
+            "name": "Shadow Amulet of the Forgotten",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+24 Agility"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 81s"
+          },
+          {
+            "name": "Savage Handguards of Eternal Slumber",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Plate",
+            "stats": [
+              "+24 Stamina"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "6g 39s"
+          },
+          {
+            "name": "Venerable Loop of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+18 Stamina",
+              "+12 Intellect"
+            ],
+            "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 62s"
+          },
+          {
+            "name": "Void-Touched Treads of the Betrayer",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Cloth",
+            "stats": [
+              "+24 Stamina",
+              "+16 Intellect"
+            ],
+            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 7s"
+          },
+          {
+            "name": "Ethereal Robes of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 22s"
+          },
+          {
+            "name": "Void-Touched Helm of the Unseen",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Leather",
+            "stats": [
+              "+24 Intellect",
+              "+16 Stamina"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "8g 36s"
+          },
+          {
+            "name": "Savage Ring of Shattered Souls",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+24 Stamina",
+              "+16 Intellect"
+            ],
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 54s"
+          },
+          {
+            "name": "Blood-Forged Boots of the Betrayer",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Feet",
             "type": "Cloth",
+            "stats": [
+              "+18 Spirit"
+            ],
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 97s"
+          },
+          {
+            "name": "Holy Amulet of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+18 Strength",
+              "+12 Agility"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 3s"
+          },
+          {
+            "name": "Corrupted Grips of the Crimson King",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Cloth",
+            "stats": [
+              "+24 Stamina"
+            ],
+            "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 82s"
+          },
+          {
+            "name": "Ancient Blade of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Dagger",
+            "stats": [
+              "+18 Stamina",
+              "+12 Agility"
+            ],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 60,
+            "sellPrice": "4g 65s"
+          },
+          {
+            "name": "Corrupted Dagger of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Sword",
+            "stats": [
+              "+18 Spirit"
+            ],
+            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 17s"
+          },
+          {
+            "name": "Venerable Axe of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Mace",
+            "stats": [
+              "+18 Agility",
+              "+12 Strength"
+            ],
+            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 73s"
+          },
+          {
+            "name": "Void-Touched Wristguards of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 18s"
+          },
+          {
+            "name": "Holy Helm of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Leather",
+            "stats": [
+              "+18 Stamina",
+              "+12 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "3g 27s"
+          },
+          {
+            "name": "Shadow Mask of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Mail",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "requiresLevel": 60,
+            "sellPrice": "4g 70s"
+          },
+          {
+            "name": "Ethereal Seal of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+18 Stamina",
+              "+12 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "5g 41s"
+          },
+          {
+            "name": "Shadow Loop of Shattered Souls",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+24 Strength"
+            ],
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 25s"
+          },
+          {
+            "name": "Ancient Axe of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Sword",
+            "stats": [
+              "+18 Spirit",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "10g 91s"
+          },
+          {
+            "name": "Holy Staff of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Mace",
             "stats": [
               "+18 Spirit",
               "+12 Intellect"
             ],
             "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
             "requiresLevel": 60,
-            "sellPrice": "2g 6s"
+            "sellPrice": "9g 86s"
           },
           {
-            "name": "Ancient Treads of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Leather",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 8s"
-          },
-          {
-            "name": "Shadow Bindings of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Plate",
-            "stats": [
-              "+18 Strength",
-              "+12 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "3g 47s"
-          },
-          {
-            "name": "Ancient Necklace of the Betrayer",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+24 Strength",
-              "+16 Agility"
-            ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 10s"
-          },
-          {
-            "name": "Ethereal Harness of the Unseen",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Cloth",
-            "stats": [
-              "+24 Intellect",
-              "+16 Spirit"
-            ],
-            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 45s"
-          },
-          {
-            "name": "Void-Touched Bulwark of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
-            "stats": [
-              "+18 Strength",
-              "+12 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "9g 24s"
-          },
-          {
-            "name": "Shadow Spaulders of Shattered Souls",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Mail",
-            "stats": [
-              "+24 Stamina",
-              "+16 Strength"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "9g 71s"
-          },
-          {
-            "name": "Blood-Forged Waistguard of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Cloth",
-            "stats": [
-              "+18 Spirit"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 52s"
-          },
-          {
-            "name": "Corrupted Charm of Bloodletting",
+            "name": "Savage Medallion of the Betrayer",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Trinket",
             "type": "Trinket",
             "stats": [],
-            "effect": "Equip: +20 Attack Power.",
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
             "requiresLevel": 60,
-            "sellPrice": "5g 81s"
+            "sellPrice": "10g 12s"
           },
           {
-            "name": "Void-Touched Bindings of the Unseen",
+            "name": "Shimmering Cowl of the Betrayer",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Leather",
+            "slot": "Head",
+            "type": "Mail",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "1g 57s"
+          },
+          {
+            "name": "Venerable Breastplate of the Betrayer",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Mail",
+            "stats": [
+              "+24 Intellect"
+            ],
+            "effect": "Equip: +10 Shadow Resistance.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 43s"
+          },
+          {
+            "name": "Shimmering Necklace of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
             "stats": [
               "+18 Strength"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "2g 62s"
-          },
-          {
-            "name": "Venerable Gauntlets of the Betrayer",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Plate",
-            "stats": [
-              "+24 Strength"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "4g 7s"
-          },
-          {
-            "name": "Void-Touched Handguards of the Deep",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Cloth",
-            "stats": [
-              "+24 Stamina",
-              "+16 Spirit"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 55s"
-          },
-          {
-            "name": "Void-Touched Necklace of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+18 Spirit",
-              "+12 Intellect"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 18s"
-          },
-          {
-            "name": "Ancient Helm of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Cloth",
-            "stats": [
-              "+24 Intellect",
-              "+16 Stamina"
-            ],
-            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 21s"
-          },
-          {
-            "name": "Shimmering Gloves of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Mail",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 12s"
-          },
-          {
-            "name": "Ancient Mask of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Cloth",
-            "stats": [
-              "+18 Spirit",
-              "+12 Intellect"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 61s"
-          },
-          {
-            "name": "Blood-Forged Belt of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Leather",
-            "stats": [
-              "+18 Spirit",
-              "+12 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "4g 15s"
-          },
-          {
-            "name": "Shadow Mitts of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Cloth",
-            "stats": [
-              "+18 Intellect",
-              "+12 Spirit"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 0s"
-          },
-          {
-            "name": "Holy Slippers of the Void",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Mail",
-            "stats": [
-              "+24 Spirit"
-            ],
-            "effect": "Equip: Increases healing done by up to 25.",
-            "requiresLevel": 60,
-            "sellPrice": "10g 77s"
-          },
-          {
-            "name": "Corrupted Dagger of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Axe",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 23s"
-          },
-          {
-            "name": "Holy Bindings of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Plate",
-            "stats": [
-              "+18 Strength",
-              "+12 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "6g 95s"
-          },
-          {
-            "name": "Blood-Forged Treads of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Cloth",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 90s"
-          },
-          {
-            "name": "Corrupted Treads of the Unseen",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Leather",
-            "stats": [
-              "+24 Stamina",
-              "+16 Intellect"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 71s"
-          },
-          {
-            "name": "Blood-Forged Brooch of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 95s"
+            "sellPrice": "7g 26s"
           }
         ]
       }
@@ -768,340 +766,331 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Venerable Helm of Eternal Slumber",
+            "name": "Corrupted Sabatons of Shattered Souls",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Head",
+            "slot": "Feet",
             "type": "Cloth",
             "stats": [
-              "+18 Intellect"
+              "+18 Stamina"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "2g 97s"
+            "sellPrice": "3g 18s"
           },
           {
-            "name": "Holy Seal of the Archmage",
+            "name": "Savage Cuffs of the Void",
             "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 60,
+            "sellPrice": "8g 91s"
+          },
+          {
+            "name": "Shimmering Handguards of Eternal Slumber",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Plate",
+            "stats": [
+              "+24 Strength"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 51s"
+          },
+          {
+            "name": "Savage Ring of Bloodletting",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Finger",
             "type": "Ring",
             "stats": [
-              "+18 Stamina",
-              "+12 Intellect"
+              "+24 Spirit"
             ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "effect": "Equip: +1% Critical Strike.",
             "requiresLevel": 60,
-            "sellPrice": "2g 11s"
+            "sellPrice": "5g 84s"
           },
           {
-            "name": "Holy Aegis of the Betrayer",
+            "name": "Holy Medallion of the Unseen",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: Increases healing done by up to 25.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 14s"
+          },
+          {
+            "name": "Shadow Bulwark of the Crimson King",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Off Hand",
             "type": "Shield",
             "stats": [
-              "+18 Agility",
-              "+12 Stamina"
+              "+18 Stamina",
+              "+12 Strength"
             ],
-            "effect": "",
+            "effect": "Equip: Increases spell damage by up to 15.",
             "requiresLevel": 60,
-            "sellPrice": "7g 46s"
+            "sellPrice": "3g 40s"
           },
           {
-            "name": "Corrupted Legguards of the Void",
+            "name": "Shadow Legguards of the Void",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Legs",
             "type": "Cloth",
             "stats": [
-              "+18 Spirit",
-              "+12 Stamina"
+              "+18 Spirit"
             ],
-            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "effect": "Equip: Increases healing done by up to 25.",
             "requiresLevel": 60,
-            "sellPrice": "6g 28s"
+            "sellPrice": "5g 97s"
           },
           {
-            "name": "Blood-Forged Ring of Bloodletting",
-            "rarity": "Epic",
+            "name": "Venerable Bulwark of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Off Hand",
+            "type": "Shield",
+            "stats": [
+              "+18 Strength",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "9g 35s"
+          },
+          {
+            "name": "Savage Relic of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 60,
+            "sellPrice": "8g 20s"
+          },
+          {
+            "name": "Ancient Seal of Shattered Souls",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Finger",
             "type": "Ring",
             "stats": [
-              "+24 Intellect",
-              "+16 Spirit"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 39s"
-          },
-          {
-            "name": "Venerable Cord of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Cloth",
-            "stats": [
-              "+24 Spirit",
-              "+16 Stamina"
-            ],
-            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 2s"
-          },
-          {
-            "name": "Void-Touched Bow of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Sword",
-            "stats": [
-              "+18 Spirit"
-            ],
-            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 19s"
-          },
-          {
-            "name": "Shadow Talisman of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
-            "requiresLevel": 60,
-            "sellPrice": "9g 45s"
-          },
-          {
-            "name": "Ancient Charm of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 37s"
-          },
-          {
-            "name": "Shimmering Vest of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Leather",
-            "stats": [
-              "+18 Intellect"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "9g 7s"
-          },
-          {
-            "name": "Shimmering Spaulders of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Plate",
-            "stats": [
-              "+18 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "9g 77s"
-          },
-          {
-            "name": "Venerable Circlet of the Deep",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Mail",
-            "stats": [
-              "+24 Stamina",
-              "+16 Strength"
-            ],
-            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
-            "requiresLevel": 60,
-            "sellPrice": "1g 72s"
-          },
-          {
-            "name": "Void-Touched Crown of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Mail",
-            "stats": [
               "+18 Intellect",
-              "+12 Spirit"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "9g 9s"
-          },
-          {
-            "name": "Shimmering Axe of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
-            "stats": [
-              "+18 Strength",
               "+12 Stamina"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "10g 37s"
+            "sellPrice": "3g 62s"
           },
           {
-            "name": "Ancient Epaulets of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Cloth",
-            "stats": [
-              "+18 Stamina",
-              "+12 Spirit"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "3g 27s"
-          },
-          {
-            "name": "Ethereal Treads of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Mail",
-            "stats": [
-              "+18 Strength",
-              "+12 Agility"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "10g 69s"
-          },
-          {
-            "name": "Void-Touched Greatsword of Bloodletting",
+            "name": "Ancient Choker of the Betrayer",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Axe",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+24 Spirit",
+              "+16 Intellect"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 53s"
+          },
+          {
+            "name": "Venerable Greaves of the Void",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Mail",
             "stats": [
               "+24 Spirit"
             ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "effect": "Equip: Increases spell damage by up to 15.",
             "requiresLevel": 60,
-            "sellPrice": "9g 93s"
+            "sellPrice": "8g 97s"
           },
           {
-            "name": "Venerable Ring of the Crimson King",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
-            "stats": [
-              "+24 Strength",
-              "+16 Agility"
-            ],
-            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 18s"
-          },
-          {
-            "name": "Ancient Girdle of the Archmage",
+            "name": "Holy Medallion of the Crimson King",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Plate",
-            "stats": [
-              "+18 Stamina",
-              "+12 Strength"
-            ],
-            "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: +20 Attack Power.",
             "requiresLevel": 60,
-            "sellPrice": "7g 70s"
+            "sellPrice": "8g 87s"
           },
           {
-            "name": "Ancient Breastplate of the Forgotten",
+            "name": "Blood-Forged Vambraces of the Archmage",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Cloth",
+            "slot": "Wrist",
+            "type": "Leather",
             "stats": [
               "+18 Intellect"
             ],
             "effect": "Equip: +10 Shadow Resistance.",
             "requiresLevel": 60,
-            "sellPrice": "4g 2s"
+            "sellPrice": "4g 14s"
           },
           {
-            "name": "Void-Touched Amice of the Crimson King",
+            "name": "Shimmering Blade of Bloodletting",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Shoulder",
+            "slot": "Main Hand",
+            "type": "Mace",
+            "stats": [
+              "+18 Intellect"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "10g 55s"
+          },
+          {
+            "name": "Ancient Pendant of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 33s"
+          },
+          {
+            "name": "Holy Pants of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Cloth",
+            "stats": [
+              "+24 Intellect"
+            ],
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 87s"
+          },
+          {
+            "name": "Ethereal Collar of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+18 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "3g 70s"
+          },
+          {
+            "name": "Venerable Medallion of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 25s"
+          },
+          {
+            "name": "Shadow Bindings of Bloodletting",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Plate",
+            "stats": [
+              "+24 Agility"
+            ],
+            "effect": "Equip: Increases healing done by up to 25.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 14s"
+          },
+          {
+            "name": "Blood-Forged Wristguards of the Betrayer",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Plate",
+            "stats": [
+              "+24 Agility",
+              "+16 Strength"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 57s"
+          },
+          {
+            "name": "Shadow Belt of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Plate",
+            "stats": [
+              "+24 Strength"
+            ],
+            "effect": "Equip: +10 Shadow Resistance.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 21s"
+          },
+          {
+            "name": "Shadow Gauntlets of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Cloth",
+            "stats": [
+              "+24 Intellect",
+              "+16 Stamina"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 24s"
+          },
+          {
+            "name": "Shadow Harness of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
             "type": "Plate",
             "stats": [
               "+18 Agility",
               "+12 Strength"
             ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
             "requiresLevel": 60,
-            "sellPrice": "5g 62s"
+            "sellPrice": "2g 56s"
           },
           {
-            "name": "Venerable Breastplate of Eternal Slumber",
+            "name": "Ancient Amulet of the Deep",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Cloth",
+            "slot": "Neck",
+            "type": "Necklace",
             "stats": [
-              "+18 Spirit"
-            ],
-            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
-            "requiresLevel": 60,
-            "sellPrice": "1g 14s"
-          },
-          {
-            "name": "Ethereal Aegis of Bloodletting",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
-            "stats": [
-              "+24 Strength",
-              "+16 Agility"
-            ],
-            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
-            "requiresLevel": 60,
-            "sellPrice": "9g 87s"
-          },
-          {
-            "name": "Blood-Forged Boots of Eternal Slumber",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Cloth",
-            "stats": [
-              "+24 Spirit"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 30s"
-          },
-          {
-            "name": "Shadow Waistguard of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Leather",
-            "stats": [
-              "+18 Intellect",
-              "+12 Spirit"
+              "+18 Spirit",
+              "+12 Stamina"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "10g 54s"
+            "sellPrice": "8g 10s"
           }
         ]
       },
@@ -1115,403 +1104,405 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Shadow Mitts of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Cloth",
-            "stats": [
-              "+24 Intellect",
-              "+16 Spirit"
-            ],
-            "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 43s"
-          },
-          {
-            "name": "Holy Medallion of Shattered Souls",
+            "name": "Blood-Forged Legguards of Shattered Souls",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 71s"
-          },
-          {
-            "name": "Ancient Staff of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Axe",
+            "slot": "Legs",
+            "type": "Mail",
             "stats": [
               "+18 Agility",
               "+12 Stamina"
             ],
-            "effect": "Equip: +20 Attack Power.",
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
             "requiresLevel": 60,
-            "sellPrice": "6g 64s"
+            "sellPrice": "2g 65s"
           },
           {
-            "name": "Ancient Gavel of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Mace",
-            "stats": [
-              "+18 Strength",
-              "+12 Stamina"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 38s"
-          },
-          {
-            "name": "Holy Choker of the Crimson King",
+            "name": "Blood-Forged Collar of the Betrayer",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Neck",
             "type": "Necklace",
             "stats": [
-              "+18 Spirit",
-              "+12 Intellect"
+              "+18 Strength"
             ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "1g 7s"
+            "sellPrice": "8g 44s"
           },
           {
-            "name": "Blood-Forged Footpads of the Void",
+            "name": "Venerable Blade of the Deep",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Mail",
+            "slot": "Main Hand",
+            "type": "Sword",
+            "stats": [
+              "+18 Stamina",
+              "+12 Spirit"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 60,
+            "sellPrice": "7g 40s"
+          },
+          {
+            "name": "Ethereal Dagger of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Bow",
             "stats": [
               "+18 Stamina",
               "+12 Strength"
             ],
-            "effect": "",
+            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
             "requiresLevel": 60,
-            "sellPrice": "5g 84s"
+            "sellPrice": "9g 33s"
           },
           {
-            "name": "Savage Amice of the Betrayer",
+            "name": "Corrupted Charm of Shattered Souls",
             "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Leather",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 84s"
-          },
-          {
-            "name": "Blood-Forged Greaves of the Betrayer",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Cloth",
-            "stats": [
-              "+24 Intellect"
-            ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 60,
-            "sellPrice": "4g 26s"
-          },
-          {
-            "name": "Blood-Forged Charm of the Unseen",
-            "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Trinket",
             "type": "Trinket",
             "stats": [],
             "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
             "requiresLevel": 60,
-            "sellPrice": "6g 70s"
+            "sellPrice": "6g 11s"
           },
           {
-            "name": "Venerable Choker of Shattered Souls",
+            "name": "Ancient Legguards of Shattered Souls",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
+            "slot": "Legs",
+            "type": "Plate",
             "stats": [
-              "+18 Strength",
-              "+12 Stamina"
+              "+18 Agility"
             ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "4g 55s"
+            "sellPrice": "1g 42s"
           },
           {
-            "name": "Shimmering Collar of the Betrayer",
+            "name": "Void-Touched Spaulders of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Plate",
+            "stats": [
+              "+18 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "4g 73s"
+          },
+          {
+            "name": "Corrupted Cord of the Betrayer",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
+            "slot": "Waist",
+            "type": "Mail",
             "stats": [
               "+24 Agility",
               "+16 Stamina"
             ],
             "effect": "Equip: +1% Critical Strike.",
             "requiresLevel": 60,
-            "sellPrice": "8g 79s"
+            "sellPrice": "1g 72s"
           },
           {
-            "name": "Shadow Cord of Shattered Souls",
+            "name": "Ethereal Ring of Bloodletting",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Cloth",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "Equip: +10 Shadow Resistance.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 2s"
-          },
-          {
-            "name": "Shimmering Mantle of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Mail",
-            "stats": [
-              "+18 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "7g 92s"
-          },
-          {
-            "name": "Ethereal Bracers of Bloodletting",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Cloth",
-            "stats": [
-              "+24 Spirit",
-              "+16 Stamina"
-            ],
-            "effect": "Equip: +10 Shadow Resistance.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 18s"
-          },
-          {
-            "name": "Corrupted Bindings of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Plate",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "2g 84s"
-          },
-          {
-            "name": "Holy Belt of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Plate",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 63s"
-          },
-          {
-            "name": "Ethereal Bindings of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Plate",
-            "stats": [
-              "+18 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "4g 41s"
-          },
-          {
-            "name": "Shadow Buckler of the Deep",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
-            "stats": [
-              "+24 Agility"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 17s"
-          },
-          {
-            "name": "Blood-Forged Footpads of Shattered Souls",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Cloth",
-            "stats": [
-              "+24 Intellect",
-              "+16 Spirit"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "1g 58s"
-          },
-          {
-            "name": "Shadow Blade of the Betrayer",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Sword",
-            "stats": [
-              "+24 Strength",
-              "+16 Agility"
-            ],
-            "effect": "Equip: Increases healing done by up to 25.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 6s"
-          },
-          {
-            "name": "Savage Circlet of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Leather",
+            "slot": "Finger",
+            "type": "Ring",
             "stats": [
               "+18 Stamina"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "3g 32s"
+            "sellPrice": "1g 90s"
           },
           {
-            "name": "Corrupted Dagger of Bloodletting",
+            "name": "Shimmering Vambraces of the Deep",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Main Hand",
+            "slot": "Wrist",
+            "type": "Cloth",
+            "stats": [
+              "+18 Stamina",
+              "+12 Spirit"
+            ],
+            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+            "requiresLevel": 60,
+            "sellPrice": "4g 31s"
+          },
+          {
+            "name": "Void-Touched Pendant of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+18 Intellect"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 44s"
+          },
+          {
+            "name": "Holy Greatsword of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
             "type": "Axe",
             "stats": [
-              "+18 Agility"
+              "+18 Stamina"
             ],
-            "effect": "",
+            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
             "requiresLevel": 60,
-            "sellPrice": "5g 19s"
+            "sellPrice": "6g 75s"
           },
           {
-            "name": "Shadow Boots of the Void",
+            "name": "Ancient Gavel of Eternal Slumber",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Cloth",
+            "slot": "One-Hand",
+            "type": "Sword",
             "stats": [
               "+18 Spirit",
               "+12 Stamina"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "5g 1s"
+            "sellPrice": "2g 83s"
           },
           {
-            "name": "Shimmering Belt of Shattered Souls",
+            "name": "Void-Touched Bow of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Leather",
+            "slot": "Two-Hand",
+            "type": "Staff",
             "stats": [
-              "+18 Strength"
+              "+18 Intellect",
+              "+12 Stamina"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 36s"
+          },
+          {
+            "name": "Corrupted Dagger of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Staff",
+            "stats": [
+              "+18 Intellect",
+              "+12 Spirit"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "4g 84s"
+            "sellPrice": "2g 23s"
           },
           {
-            "name": "Holy Belt of Shattered Souls",
-            "rarity": "Epic",
+            "name": "Savage Defender of Eternal Slumber",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Leather",
+            "slot": "Off Hand",
+            "type": "Shield",
             "stats": [
-              "+24 Stamina",
-              "+16 Agility"
+              "+18 Strength",
+              "+12 Stamina"
             ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "effect": "Equip: Increases healing done by up to 25.",
             "requiresLevel": 60,
-            "sellPrice": "5g 94s"
+            "sellPrice": "7g 11s"
           },
           {
-            "name": "Corrupted Kilt of the Deep",
-            "rarity": "Epic",
+            "name": "Ethereal Legguards of the Deep",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Legs",
-            "type": "Plate",
+            "type": "Leather",
             "stats": [
-              "+24 Stamina"
+              "+18 Stamina",
+              "+12 Intellect"
             ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "9g 35s"
+            "sellPrice": "5g 51s"
           },
           {
-            "name": "Shimmering Sabatons of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Mail",
-            "stats": [
-              "+24 Intellect"
-            ],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
-            "requiresLevel": 60,
-            "sellPrice": "4g 74s"
-          },
-          {
-            "name": "Holy Blade of Eternal Slumber",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Sword",
-            "stats": [
-              "+24 Agility",
-              "+16 Stamina"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 62s"
-          },
-          {
-            "name": "Void-Touched Sabatons of the Betrayer",
+            "name": "Ancient Bindings of the Crimson King",
             "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Cloth",
+            "stats": [
+              "+18 Intellect"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "5g 46s"
+          },
+          {
+            "name": "Void-Touched Robes of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Leather",
+            "stats": [
+              "+18 Agility",
+              "+12 Strength"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "1g 26s"
+          },
+          {
+            "name": "Blood-Forged Sabatons of Eternal Slumber",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Feet",
             "type": "Cloth",
             "stats": [
-              "+18 Stamina"
+              "+24 Stamina"
             ],
-            "effect": "",
+            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
             "requiresLevel": 60,
-            "sellPrice": "7g 63s"
+            "sellPrice": "1g 42s"
           },
           {
-            "name": "Holy Slippers of the Unseen",
+            "name": "Savage Gauntlets of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
+            "requiresLevel": 60,
+            "sellPrice": "8g 86s"
+          },
+          {
+            "name": "Venerable Mask of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Cloth",
+            "stats": [
+              "+18 Intellect"
+            ],
+            "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "6g 62s"
+          },
+          {
+            "name": "Shimmering Belt of the Betrayer",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Plate",
+            "stats": [
+              "+24 Stamina",
+              "+16 Agility"
+            ],
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 12s"
+          },
+          {
+            "name": "Shadow Boots of Bloodletting",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Feet",
-            "type": "Plate",
+            "type": "Leather",
             "stats": [
-              "+18 Stamina"
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 97s"
+          },
+          {
+            "name": "Ancient Slippers of the Forgotten",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Leather",
+            "stats": [
+              "+24 Agility"
             ],
             "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
             "requiresLevel": 60,
-            "sellPrice": "7g 70s"
+            "sellPrice": "6g 91s"
+          },
+          {
+            "name": "Corrupted Signet of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+18 Stamina",
+              "+12 Spirit"
+            ],
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+            "requiresLevel": 60,
+            "sellPrice": "7g 37s"
+          },
+          {
+            "name": "Shimmering Signet of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+18 Stamina",
+              "+12 Intellect"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 57s"
+          },
+          {
+            "name": "Holy Necklace of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+18 Stamina",
+              "+12 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "5g 34s"
+          },
+          {
+            "name": "Void-Touched Talisman of the Deep",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: +10 Shadow Resistance.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 22s"
+          },
+          {
+            "name": "Ethereal Talisman of Shattered Souls",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "requiresLevel": 60,
+            "sellPrice": "8g 20s"
           }
         ]
       },
@@ -1525,78 +1516,51 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Holy Mantle of Shattered Souls",
-            "rarity": "Rare",
+            "name": "Savage Pants of the Crimson King",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Mail",
+            "slot": "Legs",
+            "type": "Cloth",
             "stats": [
-              "+18 Stamina",
-              "+12 Intellect"
+              "+24 Stamina",
+              "+16 Intellect"
             ],
-            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
             "requiresLevel": 60,
-            "sellPrice": "6g 95s"
+            "sellPrice": "5g 59s"
           },
           {
-            "name": "Blood-Forged Necklace of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "7g 73s"
-          },
-          {
-            "name": "Venerable Gloves of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Mail",
-            "stats": [
-              "+18 Strength",
-              "+12 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "1g 76s"
-          },
-          {
-            "name": "Shadow Dagger of the Archmage",
+            "name": "Void-Touched Dagger of Bloodletting",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Main Hand",
             "type": "Axe",
             "stats": [
-              "+24 Stamina"
+              "+24 Strength"
             ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
             "requiresLevel": 60,
-            "sellPrice": "1g 20s"
+            "sellPrice": "2g 24s"
           },
           {
-            "name": "Ethereal Leggings of Shattered Souls",
+            "name": "Void-Touched Helm of the Betrayer",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Plate",
+            "slot": "Head",
+            "type": "Cloth",
             "stats": [
-              "+18 Stamina",
-              "+12 Agility"
+              "+18 Intellect",
+              "+12 Spirit"
             ],
-            "effect": "Equip: +20 Attack Power.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "8g 49s"
+            "sellPrice": "2g 52s"
           },
           {
-            "name": "Void-Touched Amice of Shattered Souls",
+            "name": "Blood-Forged Gloves of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Shoulder",
+            "slot": "Hands",
             "type": "Cloth",
             "stats": [
               "+18 Stamina",
@@ -1604,330 +1568,359 @@ export const pveData = {
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "9g 91s"
+            "sellPrice": "10g 98s"
           },
           {
-            "name": "Shadow Axe of the Crimson King",
+            "name": "Corrupted Leggings of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Axe",
+            "slot": "Legs",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility"
+            ],
+            "effect": "Equip: Increases healing done by up to 25.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 92s"
+          },
+          {
+            "name": "Shimmering Dagger of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Staff",
+            "stats": [
+              "+18 Intellect"
+            ],
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "requiresLevel": 60,
+            "sellPrice": "4g 88s"
+          },
+          {
+            "name": "Blood-Forged Necklace of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
             "stats": [
               "+18 Intellect",
               "+12 Stamina"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "1g 86s"
+            "sellPrice": "9g 18s"
           },
           {
-            "name": "Corrupted Slippers of the Deep",
+            "name": "Corrupted Waistguard of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "2g 59s"
+          },
+          {
+            "name": "Savage Grips of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "2g 48s"
+          },
+          {
+            "name": "Holy Buckler of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Off Hand",
+            "type": "Shield",
+            "stats": [
+              "+18 Stamina",
+              "+12 Strength"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "1g 84s"
+          },
+          {
+            "name": "Shimmering Wristguards of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Leather",
+            "stats": [
+              "+24 Stamina"
+            ],
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 72s"
+          },
+          {
+            "name": "Shadow Waistguard of the Void",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Cloth",
+            "stats": [
+              "+24 Stamina",
+              "+16 Spirit"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 5s"
+          },
+          {
+            "name": "Holy Mask of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Leather",
+            "stats": [
+              "+18 Spirit",
+              "+12 Intellect"
+            ],
+            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 4s"
+          },
+          {
+            "name": "Blood-Forged Slippers of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Feet",
-            "type": "Plate",
+            "type": "Mail",
             "stats": [
               "+18 Stamina",
               "+12 Agility"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "4g 79s"
+            "sellPrice": "2g 95s"
           },
           {
-            "name": "Corrupted Blade of the Deep",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Mace",
-            "stats": [
-              "+24 Intellect"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "9g 65s"
-          },
-          {
-            "name": "Holy Cowl of the Betrayer",
+            "name": "Ethereal Cord of the Crimson King",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Cloth",
+            "slot": "Waist",
+            "type": "Leather",
             "stats": [
-              "+18 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "8g 75s"
-          },
-          {
-            "name": "Blood-Forged Pendant of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+18 Strength",
-              "+12 Stamina"
-            ],
-            "effect": "Equip: +10 Shadow Resistance.",
-            "requiresLevel": 60,
-            "sellPrice": "10g 71s"
-          },
-          {
-            "name": "Blood-Forged Vambraces of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Mail",
-            "stats": [
-              "+18 Stamina",
-              "+12 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "2g 73s"
-          },
-          {
-            "name": "Venerable Legguards of Bloodletting",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Cloth",
-            "stats": [
-              "+24 Stamina",
-              "+16 Intellect"
+              "+18 Agility"
             ],
             "effect": "Equip: Increases your resistance to all schools of magic by 10.",
             "requiresLevel": 60,
-            "sellPrice": "2g 9s"
+            "sellPrice": "8g 33s"
           },
           {
-            "name": "Corrupted Aegis of Eternal Slumber",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
-            "stats": [
-              "+24 Strength"
-            ],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 34s"
-          },
-          {
-            "name": "Ethereal Cuffs of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Plate",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "5g 10s"
-          },
-          {
-            "name": "Ethereal Gauntlets of the Void",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Plate",
-            "stats": [
-              "+24 Stamina",
-              "+16 Agility"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 25s"
-          },
-          {
-            "name": "Shimmering Seal of the Forgotten",
+            "name": "Shimmering Loop of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Finger",
             "type": "Ring",
             "stats": [
-              "+18 Stamina",
+              "+18 Agility",
               "+12 Strength"
             ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "1g 3s"
+            "sellPrice": "1g 76s"
           },
           {
-            "name": "Shadow Staff of the Void",
-            "rarity": "Rare",
+            "name": "Ancient Staff of Eternal Slumber",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Two-Hand",
             "type": "Staff",
             "stats": [
-              "+18 Spirit",
-              "+12 Intellect"
+              "+24 Intellect",
+              "+16 Stamina"
             ],
-            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
             "requiresLevel": 60,
-            "sellPrice": "3g 88s"
+            "sellPrice": "3g 39s"
           },
           {
-            "name": "Savage Pendant of the Forgotten",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+24 Strength"
-            ],
-            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 15s"
-          },
-          {
-            "name": "Ethereal Boots of Shattered Souls",
+            "name": "Savage Spaulders of the Forgotten",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Mail",
+            "slot": "Shoulder",
+            "type": "Cloth",
             "stats": [
-              "+18 Strength"
+              "+18 Intellect",
+              "+12 Stamina"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "2g 56s"
+            "sellPrice": "5g 20s"
           },
           {
-            "name": "Shadow Handguards of the Forgotten",
+            "name": "Ethereal Pants of Bloodletting",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Hands",
+            "slot": "Legs",
             "type": "Plate",
             "stats": [
               "+24 Agility",
               "+16 Strength"
             ],
-            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
+            "effect": "Equip: +1% Critical Strike.",
             "requiresLevel": 60,
-            "sellPrice": "10g 43s"
+            "sellPrice": "2g 80s"
           },
           {
-            "name": "Shimmering Collar of the Void",
+            "name": "Corrupted Mantle of Bloodletting",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
+            "slot": "Shoulder",
+            "type": "Plate",
             "stats": [
-              "+18 Spirit",
-              "+12 Stamina"
+              "+18 Strength"
             ],
-            "effect": "",
+            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
             "requiresLevel": 60,
-            "sellPrice": "4g 43s"
+            "sellPrice": "7g 52s"
           },
           {
-            "name": "Blood-Forged Bow of Shattered Souls",
+            "name": "Holy Cowl of Shattered Souls",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Staff",
+            "slot": "Head",
+            "type": "Leather",
             "stats": [
               "+24 Stamina",
-              "+16 Intellect"
+              "+16 Spirit"
             ],
-            "effect": "Equip: +1% Hit chance.",
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
             "requiresLevel": 60,
-            "sellPrice": "10g 15s"
+            "sellPrice": "4g 28s"
           },
           {
-            "name": "Ancient Sash of the Unseen",
+            "name": "Blood-Forged Grips of the Betrayer",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Plate",
+            "slot": "Hands",
+            "type": "Leather",
             "stats": [
-              "+18 Agility"
+              "+18 Stamina"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "2g 77s"
+            "sellPrice": "5g 65s"
           },
           {
-            "name": "Savage Slippers of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Plate",
-            "stats": [
-              "+18 Agility",
-              "+12 Stamina"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 3s"
-          },
-          {
-            "name": "Savage Charm of the Deep",
+            "name": "Blood-Forged Charm of the Void",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Trinket",
             "type": "Trinket",
             "stats": [],
-            "effect": "Equip: +10 Shadow Resistance.",
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
             "requiresLevel": 60,
-            "sellPrice": "8g 40s"
+            "sellPrice": "8g 92s"
           },
           {
-            "name": "Corrupted Waistguard of Shattered Souls",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Cloth",
-            "stats": [
-              "+24 Spirit",
-              "+16 Intellect"
-            ],
-            "effect": "Equip: +10 Shadow Resistance.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 19s"
-          },
-          {
-            "name": "Venerable Amice of the Unseen",
+            "name": "Corrupted Gloves of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Shoulder",
+            "slot": "Hands",
+            "type": "Leather",
+            "stats": [
+              "+18 Strength",
+              "+12 Stamina"
+            ],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 51s"
+          },
+          {
+            "name": "Ancient Loop of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+18 Agility",
+              "+12 Strength"
+            ],
+            "effect": "Equip: Increases healing done by up to 25.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 82s"
+          },
+          {
+            "name": "Void-Touched Bow of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Axe",
+            "stats": [
+              "+18 Strength",
+              "+12 Stamina"
+            ],
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "requiresLevel": 60,
+            "sellPrice": "7g 57s"
+          },
+          {
+            "name": "Corrupted Kilt of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
             "type": "Cloth",
             "stats": [
               "+18 Spirit"
             ],
-            "effect": "Equip: +10 Shadow Resistance.",
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
             "requiresLevel": 60,
-            "sellPrice": "6g 93s"
+            "sellPrice": "1g 84s"
           },
           {
-            "name": "Holy Spaulders of Bloodletting",
-            "rarity": "Epic",
+            "name": "Void-Touched Signet of Eternal Slumber",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Cloth",
+            "slot": "Finger",
+            "type": "Ring",
             "stats": [
-              "+24 Stamina"
+              "+18 Stamina"
             ],
-            "effect": "Equip: +20 Attack Power.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "9g 28s"
+            "sellPrice": "9g 35s"
           },
           {
-            "name": "Savage Greatsword of the Unseen",
-            "rarity": "Epic",
+            "name": "Corrupted Shield of the Void",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Sword",
+            "slot": "Off Hand",
+            "type": "Shield",
             "stats": [
-              "+24 Spirit"
+              "+18 Stamina",
+              "+12 Agility"
             ],
-            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "5g 66s"
+            "sellPrice": "5g 49s"
+          },
+          {
+            "name": "Void-Touched Handguards of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Mail",
+            "stats": [
+              "+18 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "6g 25s"
           }
         ]
       }
@@ -1965,202 +1958,202 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Blood-Forged Medallion of the Forgotten",
-            "rarity": "Rare",
+            "name": "Blood-Forged Pauldrons of the Deep",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "slot": "Shoulder",
+            "type": "Cloth",
+            "stats": [
+              "+21 Stamina",
+              "+14 Intellect"
+            ],
+            "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
             "requiresLevel": 52,
-            "sellPrice": "9g 21s"
+            "sellPrice": "10g 25s"
           },
           {
-            "name": "Venerable Loop of the Deep",
+            "name": "Holy Epaulets of the Crimson King",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
+            "slot": "Shoulder",
+            "type": "Cloth",
             "stats": [
-              "+15 Strength",
-              "+10 Agility"
+              "+15 Spirit"
             ],
             "effect": "",
             "requiresLevel": 52,
-            "sellPrice": "4g 15s"
+            "sellPrice": "4g 56s"
           },
           {
-            "name": "Ethereal Necklace of the Crimson King",
+            "name": "Ancient Vambraces of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
+            "slot": "Wrist",
+            "type": "Leather",
             "stats": [
-              "+15 Stamina"
+              "+15 Intellect",
+              "+10 Stamina"
             ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "effect": "",
             "requiresLevel": 52,
-            "sellPrice": "3g 39s"
+            "sellPrice": "7g 79s"
           },
           {
-            "name": "Venerable Tunic of Eternal Slumber",
-            "rarity": "Epic",
+            "name": "Savage Breastplate of the Forgotten",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Chest",
             "type": "Cloth",
             "stats": [
-              "+21 Spirit"
-            ],
-            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
-            "requiresLevel": 52,
-            "sellPrice": "9g 91s"
-          },
-          {
-            "name": "Void-Touched Buckler of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
-            "stats": [
-              "+15 Agility",
+              "+15 Spirit",
               "+10 Stamina"
             ],
-            "effect": "Equip: Increases spell damage by up to 15.",
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
             "requiresLevel": 52,
-            "sellPrice": "3g 10s"
+            "sellPrice": "2g 48s"
           },
           {
-            "name": "Shadow Grips of the Crimson King",
-            "rarity": "Epic",
+            "name": "Ethereal Cowl of the Unseen",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Hands",
+            "slot": "Head",
             "type": "Leather",
             "stats": [
-              "+21 Spirit"
+              "+15 Spirit",
+              "+10 Stamina"
             ],
             "effect": "Equip: +1% Hit chance.",
             "requiresLevel": 52,
-            "sellPrice": "7g 88s"
+            "sellPrice": "3g 42s"
           },
           {
-            "name": "Corrupted Treads of the Forgotten",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Mail",
-            "stats": [
-              "+21 Strength"
-            ],
-            "effect": "Equip: Increases healing done by up to 25.",
-            "requiresLevel": 52,
-            "sellPrice": "10g 66s"
-          },
-          {
-            "name": "Venerable Necklace of the Unseen",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+21 Agility",
-              "+14 Strength"
-            ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-            "requiresLevel": 52,
-            "sellPrice": "2g 15s"
-          },
-          {
-            "name": "Ancient Waistguard of the Crimson King",
+            "name": "Blood-Forged Sabatons of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Waist",
+            "slot": "Feet",
             "type": "Cloth",
             "stats": [
               "+15 Intellect",
-              "+10 Spirit"
+              "+10 Stamina"
             ],
             "effect": "",
             "requiresLevel": 52,
-            "sellPrice": "9g 27s"
+            "sellPrice": "10g 56s"
           },
           {
-            "name": "Void-Touched Choker of the Void",
+            "name": "Savage Greatsword of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Dagger",
+            "stats": [
+              "+15 Intellect"
+            ],
+            "effect": "",
+            "requiresLevel": 52,
+            "sellPrice": "1g 79s"
+          },
+          {
+            "name": "Blood-Forged Axe of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Dagger",
+            "stats": [
+              "+15 Intellect"
+            ],
+            "effect": "",
+            "requiresLevel": 52,
+            "sellPrice": "5g 67s"
+          },
+          {
+            "name": "Holy Tunic of the Forgotten",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
+            "slot": "Chest",
+            "type": "Plate",
             "stats": [
-              "+21 Intellect"
+              "+21 Strength"
             ],
-            "effect": "Equip: Increases healing done by up to 25.",
+            "effect": "Equip: +10 Shadow Resistance.",
             "requiresLevel": 52,
-            "sellPrice": "3g 56s"
+            "sellPrice": "8g 53s"
           },
           {
-            "name": "Blood-Forged Charm of the Crimson King",
+            "name": "Ancient Talisman of the Forgotten",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Trinket",
             "type": "Trinket",
             "stats": [],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "effect": "Equip: +10 Shadow Resistance.",
             "requiresLevel": 52,
-            "sellPrice": "5g 21s"
+            "sellPrice": "6g 10s"
           },
           {
-            "name": "Savage Seal of Shattered Souls",
+            "name": "Corrupted Blade of the Crimson King",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
+            "slot": "One-Hand",
+            "type": "Dagger",
             "stats": [
-              "+21 Intellect",
-              "+14 Stamina"
+              "+21 Strength",
+              "+14 Agility"
             ],
-            "effect": "Equip: Increases spell damage by up to 15.",
+            "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
             "requiresLevel": 52,
-            "sellPrice": "6g 80s"
+            "sellPrice": "2g 45s"
           },
           {
-            "name": "Shimmering Signet of Shattered Souls",
+            "name": "Ancient Boots of the Crimson King",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
+            "slot": "Feet",
+            "type": "Cloth",
             "stats": [
-              "+15 Stamina",
-              "+10 Spirit"
-            ],
-            "effect": "Equip: Increases healing done by up to 25.",
-            "requiresLevel": 52,
-            "sellPrice": "8g 54s"
-          },
-          {
-            "name": "Corrupted Epaulets of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Mail",
-            "stats": [
-              "+15 Stamina",
-              "+10 Intellect"
-            ],
-            "effect": "Equip: +1% Hit chance.",
-            "requiresLevel": 52,
-            "sellPrice": "3g 31s"
-          },
-          {
-            "name": "Venerable Choker of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+15 Stamina"
+              "+15 Spirit",
+              "+10 Stamina"
             ],
             "effect": "Use: Absorbs 500 magic damage for 10 sec.",
             "requiresLevel": 52,
-            "sellPrice": "7g 36s"
+            "sellPrice": "7g 80s"
+          },
+          {
+            "name": "Ancient Medallion of Bloodletting",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 52,
+            "sellPrice": "5g 29s"
+          },
+          {
+            "name": "Shadow Grips of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Leather",
+            "stats": [
+              "+15 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 52,
+            "sellPrice": "8g 15s"
+          },
+          {
+            "name": "Shadow Greaves of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Cloth",
+            "stats": [
+              "+15 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 52,
+            "sellPrice": "8g 74s"
           }
         ]
       },
@@ -2174,270 +2167,271 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Ancient Harness of the Crimson King",
+            "name": "Venerable Vest of the Deep",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Chest",
-            "type": "Cloth",
+            "type": "Leather",
             "stats": [
-              "+17 Stamina",
-              "+11 Spirit"
+              "+17 Spirit"
+            ],
+            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+            "requiresLevel": 58,
+            "sellPrice": "4g 97s"
+          },
+          {
+            "name": "Shadow Epaulets of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Mail",
+            "stats": [
+              "+17 Intellect"
             ],
             "effect": "",
             "requiresLevel": 58,
-            "sellPrice": "6g 88s"
+            "sellPrice": "2g 58s"
           },
           {
-            "name": "Corrupted Signet of Bloodletting",
+            "name": "Void-Touched Wristguards of the Void",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Cloth",
+            "stats": [
+              "+23 Stamina"
+            ],
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "requiresLevel": 58,
+            "sellPrice": "3g 94s"
+          },
+          {
+            "name": "Holy Sabatons of the Forgotten",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
+            "slot": "Feet",
+            "type": "Plate",
             "stats": [
               "+17 Strength"
             ],
-            "effect": "Equip: Increases healing done by up to 25.",
+            "effect": "",
             "requiresLevel": 58,
-            "sellPrice": "9g 6s"
+            "sellPrice": "9g 73s"
           },
           {
-            "name": "Venerable Tunic of the Deep",
+            "name": "Corrupted Girdle of the Archmage",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Chest",
+            "slot": "Waist",
+            "type": "Cloth",
+            "stats": [
+              "+23 Spirit",
+              "+15 Stamina"
+            ],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 58,
+            "sellPrice": "5g 22s"
+          },
+          {
+            "name": "Ancient Epaulets of Eternal Slumber",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
             "type": "Plate",
             "stats": [
               "+23 Strength"
             ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "effect": "Equip: Increases healing done by up to 25.",
             "requiresLevel": 58,
-            "sellPrice": "6g 13s"
+            "sellPrice": "6g 74s"
           },
           {
-            "name": "Void-Touched Crown of the Void",
+            "name": "Shimmering Bindings of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Leather",
+            "stats": [
+              "+17 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 58,
+            "sellPrice": "9g 86s"
+          },
+          {
+            "name": "Void-Touched Bindings of the Forgotten",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Plate",
+            "stats": [
+              "+23 Strength"
+            ],
+            "effect": "Equip: +10 Shadow Resistance.",
+            "requiresLevel": 58,
+            "sellPrice": "5g 12s"
+          },
+          {
+            "name": "Ethereal Loop of the Deep",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+23 Stamina"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 58,
+            "sellPrice": "6g 76s"
+          },
+          {
+            "name": "Shimmering Mask of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Cloth",
+            "stats": [
+              "+17 Spirit"
+            ],
+            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+            "requiresLevel": 58,
+            "sellPrice": "2g 38s"
+          },
+          {
+            "name": "Ethereal Cowl of the Void",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Head",
-            "type": "Plate",
-            "stats": [
-              "+23 Strength",
-              "+15 Stamina"
-            ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-            "requiresLevel": 58,
-            "sellPrice": "7g 11s"
-          },
-          {
-            "name": "Savage Staff of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Sword",
-            "stats": [
-              "+17 Intellect"
-            ],
-            "effect": "Equip: +1% Hit chance.",
-            "requiresLevel": 58,
-            "sellPrice": "10g 97s"
-          },
-          {
-            "name": "Void-Touched Axe of the Deep",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Sword",
+            "type": "Leather",
             "stats": [
               "+23 Stamina"
             ],
             "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
             "requiresLevel": 58,
-            "sellPrice": "8g 68s"
+            "sellPrice": "9g 9s"
           },
           {
-            "name": "Ethereal Tunic of the Archmage",
+            "name": "Blood-Forged Boots of the Void",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Leather",
+            "slot": "Feet",
+            "type": "Mail",
             "stats": [
               "+23 Strength",
               "+15 Stamina"
             ],
-            "effect": "Equip: Increases healing done by up to 25.",
+            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
             "requiresLevel": 58,
-            "sellPrice": "7g 53s"
+            "sellPrice": "7g 74s"
           },
           {
-            "name": "Ancient Collar of Eternal Slumber",
-            "rarity": "Rare",
+            "name": "Shimmering Staff of the Unseen",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Staff",
+            "stats": [
+              "+23 Intellect",
+              "+15 Stamina"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 58,
+            "sellPrice": "2g 26s"
+          },
+          {
+            "name": "Ethereal Amulet of the Deep",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Neck",
             "type": "Necklace",
             "stats": [
-              "+17 Strength"
+              "+23 Intellect",
+              "+15 Stamina"
             ],
-            "effect": "Equip: +1% Critical Strike.",
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
             "requiresLevel": 58,
-            "sellPrice": "6g 57s"
+            "sellPrice": "2g 10s"
           },
           {
-            "name": "Shimmering Ring of Eternal Slumber",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
-            "stats": [
-              "+23 Spirit",
-              "+15 Intellect"
-            ],
-            "effect": "Equip: +10 Shadow Resistance.",
-            "requiresLevel": 58,
-            "sellPrice": "9g 87s"
-          },
-          {
-            "name": "Ethereal Grips of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Plate",
-            "stats": [
-              "+17 Stamina"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 58,
-            "sellPrice": "1g 77s"
-          },
-          {
-            "name": "Shadow Band of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
-            "stats": [
-              "+17 Spirit",
-              "+11 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "8g 27s"
-          },
-          {
-            "name": "Venerable Amice of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Plate",
-            "stats": [
-              "+17 Stamina",
-              "+11 Agility"
-            ],
-            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
-            "requiresLevel": 58,
-            "sellPrice": "5g 24s"
-          },
-          {
-            "name": "Shimmering Sabatons of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Cloth",
-            "stats": [
-              "+17 Spirit"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "10g 15s"
-          },
-          {
-            "name": "Blood-Forged Blade of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
-            "stats": [
-              "+17 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "4g 55s"
-          },
-          {
-            "name": "Corrupted Staff of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Dagger",
-            "stats": [
-              "+17 Strength"
-            ],
-            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-            "requiresLevel": 58,
-            "sellPrice": "3g 1s"
-          },
-          {
-            "name": "Holy Dagger of the Deep",
+            "name": "Holy Staff of the Void",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Two-Hand",
             "type": "Bow",
             "stats": [
               "+17 Agility",
-              "+11 Stamina"
+              "+11 Strength"
             ],
-            "effect": "Equip: +1% Critical Strike.",
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
             "requiresLevel": 58,
-            "sellPrice": "3g 35s"
+            "sellPrice": "4g 80s"
           },
           {
-            "name": "Venerable Grips of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Cloth",
-            "stats": [
-              "+17 Intellect"
-            ],
-            "effect": "Equip: +1% Hit chance.",
-            "requiresLevel": 58,
-            "sellPrice": "6g 12s"
-          },
-          {
-            "name": "Shimmering Brooch of Shattered Souls",
-            "rarity": "Rare",
+            "name": "Shimmering Medallion of the Forgotten",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Trinket",
             "type": "Trinket",
             "stats": [],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
             "requiresLevel": 58,
-            "sellPrice": "1g 64s"
+            "sellPrice": "1g 50s"
           },
           {
-            "name": "Corrupted Boots of the Crimson King",
+            "name": "Corrupted Gavel of the Void",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Leather",
-            "stats": [
-              "+17 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "1g 3s"
-          },
-          {
-            "name": "Shadow Treads of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Mail",
+            "slot": "Main Hand",
+            "type": "Axe",
             "stats": [
               "+17 Stamina",
-              "+11 Agility"
+              "+11 Intellect"
             ],
             "effect": "",
             "requiresLevel": 58,
-            "sellPrice": "10g 20s"
+            "sellPrice": "4g 8s"
+          },
+          {
+            "name": "Shimmering Loop of Bloodletting",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+23 Strength",
+              "+15 Agility"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 58,
+            "sellPrice": "3g 15s"
+          },
+          {
+            "name": "Ethereal Collar of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+17 Spirit",
+              "+11 Intellect"
+            ],
+            "effect": "",
+            "requiresLevel": 58,
+            "sellPrice": "9g 61s"
+          },
+          {
+            "name": "Corrupted Wristguards of the Unseen",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Cloth",
+            "stats": [
+              "+23 Stamina",
+              "+15 Spirit"
+            ],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 58,
+            "sellPrice": "10g 1s"
           }
         ]
       },
@@ -2451,253 +2445,116 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Shadow Gavel of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Axe",
-            "stats": [
-              "+18 Strength",
-              "+12 Stamina"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 8s"
-          },
-          {
-            "name": "Venerable Dagger of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Mace",
-            "stats": [
-              "+18 Strength",
-              "+12 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "9g 62s"
-          },
-          {
-            "name": "Holy Pendant of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+18 Stamina",
-              "+12 Agility"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 17s"
-          },
-          {
-            "name": "Ancient Harness of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Leather",
-            "stats": [
-              "+18 Spirit",
-              "+12 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "6g 47s"
-          },
-          {
-            "name": "Blood-Forged Band of the Archmage",
+            "name": "Shimmering Loop of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Finger",
             "type": "Ring",
             "stats": [
-              "+18 Agility",
-              "+12 Stamina"
+              "+18 Spirit"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "7g 2s"
+            "sellPrice": "5g 45s"
           },
           {
-            "name": "Corrupted Staff of the Unseen",
-            "rarity": "Rare",
+            "name": "Corrupted Greatsword of the Deep",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Sword",
+            "slot": "Two-Hand",
+            "type": "Staff",
             "stats": [
-              "+18 Stamina"
+              "+24 Stamina",
+              "+16 Intellect"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 53s"
+          },
+          {
+            "name": "Blood-Forged Circlet of the Unseen",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Leather",
+            "stats": [
+              "+24 Stamina",
+              "+16 Agility"
             ],
             "effect": "Equip: +20 Attack Power.",
             "requiresLevel": 60,
-            "sellPrice": "7g 72s"
+            "sellPrice": "1g 54s"
           },
           {
-            "name": "Ancient Crown of the Crimson King",
+            "name": "Void-Touched Mitts of the Forgotten",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Head",
+            "slot": "Hands",
             "type": "Cloth",
             "stats": [
-              "+18 Spirit"
+              "+18 Spirit",
+              "+12 Stamina"
             ],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "effect": "Equip: +1% Hit chance.",
             "requiresLevel": 60,
-            "sellPrice": "7g 58s"
+            "sellPrice": "6g 98s"
           },
           {
-            "name": "Venerable Staff of Bloodletting",
+            "name": "Ethereal Gauntlets of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Cloth",
+            "stats": [
+              "+18 Stamina"
+            ],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 60,
+            "sellPrice": "6g 77s"
+          },
+          {
+            "name": "Blood-Forged Gavel of Bloodletting",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Two-Hand",
             "type": "Bow",
             "stats": [
-              "+24 Strength",
+              "+24 Agility",
               "+16 Stamina"
             ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
             "requiresLevel": 60,
-            "sellPrice": "4g 63s"
+            "sellPrice": "6g 9s"
           },
           {
-            "name": "Venerable Ring of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 89s"
-          },
-          {
-            "name": "Corrupted Leggings of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Cloth",
-            "stats": [
-              "+18 Stamina",
-              "+12 Spirit"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "4g 39s"
-          },
-          {
-            "name": "Blood-Forged Axe of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Sword",
-            "stats": [
-              "+18 Agility",
-              "+12 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "10g 28s"
-          },
-          {
-            "name": "Shimmering Mantle of the Forgotten",
+            "name": "Shimmering Spaulders of the Forgotten",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Shoulder",
-            "type": "Plate",
+            "type": "Cloth",
             "stats": [
-              "+18 Agility"
+              "+18 Intellect",
+              "+12 Stamina"
             ],
-            "effect": "",
+            "effect": "Equip: +20 Attack Power.",
             "requiresLevel": 60,
-            "sellPrice": "2g 42s"
+            "sellPrice": "4g 90s"
           },
           {
-            "name": "Ethereal Necklace of Eternal Slumber",
-            "rarity": "Epic",
+            "name": "Venerable Pendant of Shattered Souls",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Neck",
             "type": "Necklace",
             "stats": [
-              "+24 Spirit",
-              "+16 Stamina"
+              "+18 Stamina"
             ],
-            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
             "requiresLevel": 60,
-            "sellPrice": "2g 76s"
+            "sellPrice": "1g 23s"
           },
           {
-            "name": "Venerable Ring of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
-            "stats": [
-              "+18 Stamina",
-              "+12 Strength"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 22s"
-          },
-          {
-            "name": "Venerable Staff of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Staff",
-            "stats": [
-              "+18 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "10g 50s"
-          },
-          {
-            "name": "Shadow Gavel of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Mace",
-            "stats": [
-              "+18 Agility",
-              "+12 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "10g 45s"
-          },
-          {
-            "name": "Void-Touched Epaulets of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Leather",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "Equip: Increases healing done by up to 25.",
-            "requiresLevel": 60,
-            "sellPrice": "9g 91s"
-          },
-          {
-            "name": "Void-Touched Grips of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Mail",
-            "stats": [
-              "+18 Agility",
-              "+12 Stamina"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 6s"
-          },
-          {
-            "name": "Void-Touched Buckler of the Crimson King",
+            "name": "Corrupted Bulwark of the Forgotten",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Off Hand",
@@ -2708,40 +2565,252 @@ export const pveData = {
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "8g 74s"
+            "sellPrice": "3g 5s"
           },
           {
-            "name": "Shimmering Staff of the Void",
+            "name": "Void-Touched Wristguards of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Plate",
+            "stats": [
+              "+24 Strength",
+              "+16 Agility"
+            ],
+            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
+            "requiresLevel": 60,
+            "sellPrice": "4g 62s"
+          },
+          {
+            "name": "Shimmering Medallion of the Forgotten",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Sword",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 60,
+            "sellPrice": "7g 46s"
+          },
+          {
+            "name": "Ancient Collar of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
             "stats": [
-              "+18 Intellect"
+              "+18 Stamina",
+              "+12 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "8g 19s"
+          },
+          {
+            "name": "Blood-Forged Collar of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+18 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "7g 65s"
+          },
+          {
+            "name": "Savage Necklace of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+18 Agility"
+            ],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 7s"
+          },
+          {
+            "name": "Void-Touched Amice of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Leather",
+            "stats": [
+              "+18 Stamina",
+              "+12 Intellect"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "2g 69s"
+          },
+          {
+            "name": "Void-Touched Bindings of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Plate",
+            "stats": [
+              "+18 Strength"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "7g 12s"
+          },
+          {
+            "name": "Holy Relic of the Forgotten",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 11s"
+          },
+          {
+            "name": "Holy Bow of the Void",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Mace",
+            "stats": [
+              "+24 Spirit"
+            ],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 84s"
+          },
+          {
+            "name": "Blood-Forged Crown of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "10g 58s"
+          },
+          {
+            "name": "Corrupted Tunic of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Cloth",
+            "stats": [
+              "+18 Intellect",
+              "+12 Stamina"
             ],
             "effect": "Equip: +1% Critical Strike.",
             "requiresLevel": 60,
-            "sellPrice": "2g 79s"
+            "sellPrice": "2g 85s"
           },
           {
-            "name": "Blood-Forged Amice of the Forgotten",
-            "rarity": "Epic",
+            "name": "Ethereal Treads of the Archmage",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Shoulder",
+            "slot": "Feet",
+            "type": "Plate",
+            "stats": [
+              "+18 Strength",
+              "+12 Stamina"
+            ],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 17s"
+          },
+          {
+            "name": "Shadow Bindings of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
             "type": "Cloth",
             "stats": [
-              "+24 Spirit",
-              "+16 Intellect"
+              "+18 Stamina"
             ],
-            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "3g 29s"
+            "sellPrice": "2g 11s"
           },
           {
-            "name": "Shimmering Girdle of the Deep",
+            "name": "Ethereal Band of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+18 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "10g 35s"
+          },
+          {
+            "name": "Holy Vambraces of the Betrayer",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Plate",
+            "stats": [
+              "+24 Agility",
+              "+16 Strength"
+            ],
+            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 74s"
+          },
+          {
+            "name": "Savage Bow of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Mace",
+            "stats": [
+              "+18 Intellect"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 60,
+            "sellPrice": "4g 86s"
+          },
+          {
+            "name": "Corrupted Waistguard of the Archmage",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Waist",
+            "type": "Cloth",
+            "stats": [
+              "+18 Spirit",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "6g 7s"
+          },
+          {
+            "name": "Shimmering Kilt of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Leather",
+            "stats": [
+              "+18 Spirit",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "1g 98s"
+          },
+          {
+            "name": "Ethereal Legguards of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
             "type": "Leather",
             "stats": [
               "+18 Agility",
@@ -2749,114 +2818,34 @@ export const pveData = {
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "4g 49s"
+            "sellPrice": "3g 68s"
           },
           {
-            "name": "Shimmering Harness of the Unseen",
+            "name": "Shimmering Necklace of the Void",
             "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Plate",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "1g 29s"
-          },
-          {
-            "name": "Ethereal Dagger of the Betrayer",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Mace",
-            "stats": [
-              "+24 Strength"
-            ],
-            "effect": "Equip: Increases healing done by up to 25.",
-            "requiresLevel": 60,
-            "sellPrice": "10g 38s"
-          },
-          {
-            "name": "Shimmering Seal of the Void",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
-            "stats": [
-              "+24 Spirit",
-              "+16 Stamina"
-            ],
-            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 8s"
-          },
-          {
-            "name": "Ancient Tunic of the Deep",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Plate",
-            "stats": [
-              "+24 Strength",
-              "+16 Stamina"
-            ],
-            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 8s"
-          },
-          {
-            "name": "Savage Pants of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Cloth",
-            "stats": [
-              "+18 Intellect",
-              "+12 Stamina"
-            ],
-            "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 85s"
-          },
-          {
-            "name": "Void-Touched Relic of Shattered Souls",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 39s"
-          },
-          {
-            "name": "Shimmering Necklace of the Forgotten",
-            "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Neck",
             "type": "Necklace",
             "stats": [
-              "+24 Intellect",
-              "+16 Stamina"
+              "+18 Stamina"
             ],
-            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "3g 89s"
+            "sellPrice": "1g 52s"
           },
           {
-            "name": "Shimmering Blade of the Unseen",
+            "name": "Shadow Gavel of the Crimson King",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Two-Hand",
             "type": "Staff",
             "stats": [
               "+24 Stamina",
-              "+16 Agility"
+              "+16 Intellect"
             ],
-            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+            "effect": "Equip: +1% Critical Strike.",
             "requiresLevel": 60,
-            "sellPrice": "1g 11s"
+            "sellPrice": "1g 62s"
           }
         ]
       }
@@ -2894,269 +2883,276 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Ethereal Loop of the Betrayer",
+            "name": "Blood-Forged Bow of the Deep",
             "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Sword",
+            "stats": [
+              "+23 Stamina"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 58,
+            "sellPrice": "4g 34s"
+          },
+          {
+            "name": "Shadow Amice of Shattered Souls",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Cloth",
+            "stats": [
+              "+23 Spirit",
+              "+15 Stamina"
+            ],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 58,
+            "sellPrice": "5g 43s"
+          },
+          {
+            "name": "Venerable Vest of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Plate",
+            "stats": [
+              "+17 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 58,
+            "sellPrice": "9g 94s"
+          },
+          {
+            "name": "Ancient Signet of the Archmage",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Finger",
             "type": "Ring",
             "stats": [
-              "+23 Spirit",
-              "+15 Intellect"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 58,
-            "sellPrice": "2g 83s"
-          },
-          {
-            "name": "Ancient Medallion of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: +1% Hit chance.",
-            "requiresLevel": 58,
-            "sellPrice": "9g 36s"
-          },
-          {
-            "name": "Corrupted Grips of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Mail",
-            "stats": [
-              "+17 Agility",
-              "+11 Strength"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 58,
-            "sellPrice": "9g 4s"
-          },
-          {
-            "name": "Shadow Bow of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Dagger",
-            "stats": [
-              "+17 Stamina"
+              "+17 Intellect"
             ],
             "effect": "",
             "requiresLevel": 58,
-            "sellPrice": "1g 81s"
+            "sellPrice": "3g 65s"
           },
           {
-            "name": "Venerable Bracers of Bloodletting",
+            "name": "Ethereal Staff of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Sword",
+            "stats": [
+              "+23 Stamina",
+              "+15 Spirit"
+            ],
+            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+            "requiresLevel": 58,
+            "sellPrice": "4g 21s"
+          },
+          {
+            "name": "Shimmering Bow of the Void",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Mail",
+            "slot": "Two-Hand",
+            "type": "Staff",
             "stats": [
-              "+17 Stamina"
+              "+17 Spirit"
             ],
-            "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
+            "effect": "",
             "requiresLevel": 58,
-            "sellPrice": "8g 65s"
+            "sellPrice": "1g 64s"
           },
           {
-            "name": "Blood-Forged Necklace of the Betrayer",
+            "name": "Shadow Necklace of the Archmage",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Neck",
             "type": "Necklace",
             "stats": [
-              "+17 Agility",
-              "+11 Strength"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 58,
-            "sellPrice": "5g 29s"
-          },
-          {
-            "name": "Venerable Cord of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Mail",
-            "stats": [
-              "+17 Spirit",
-              "+11 Stamina"
-            ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 58,
-            "sellPrice": "4g 52s"
-          },
-          {
-            "name": "Shimmering Mitts of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Plate",
-            "stats": [
-              "+17 Agility"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 58,
-            "sellPrice": "1g 40s"
-          },
-          {
-            "name": "Corrupted Shield of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
-            "stats": [
-              "+17 Stamina",
-              "+11 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "9g 0s"
-          },
-          {
-            "name": "Venerable Gavel of the Void",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
-            "stats": [
-              "+23 Agility",
-              "+15 Stamina"
-            ],
-            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
-            "requiresLevel": 58,
-            "sellPrice": "4g 73s"
-          },
-          {
-            "name": "Ancient Legguards of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Leather",
-            "stats": [
-              "+17 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "5g 86s"
-          },
-          {
-            "name": "Blood-Forged Pauldrons of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Cloth",
-            "stats": [
-              "+17 Spirit"
-            ],
-            "effect": "Equip: +1% Hit chance.",
-            "requiresLevel": 58,
-            "sellPrice": "1g 27s"
-          },
-          {
-            "name": "Shadow Kilt of the Deep",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Cloth",
-            "stats": [
-              "+23 Intellect"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 58,
-            "sellPrice": "1g 0s"
-          },
-          {
-            "name": "Shadow Talisman of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 58,
-            "sellPrice": "10g 90s"
-          },
-          {
-            "name": "Ethereal Pants of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Plate",
-            "stats": [
-              "+23 Agility"
-            ],
-            "effect": "Equip: Increases healing done by up to 25.",
-            "requiresLevel": 58,
-            "sellPrice": "10g 31s"
-          },
-          {
-            "name": "Shimmering Dagger of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
-            "stats": [
-              "+17 Spirit",
-              "+11 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "7g 8s"
-          },
-          {
-            "name": "Ancient Ring of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
-            "stats": [
-              "+17 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "9g 49s"
-          },
-          {
-            "name": "Shadow Bow of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Mace",
-            "stats": [
               "+17 Intellect",
               "+11 Spirit"
             ],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "effect": "Equip: +1% Hit chance.",
             "requiresLevel": 58,
-            "sellPrice": "5g 47s"
+            "sellPrice": "2g 70s"
           },
           {
-            "name": "Blood-Forged Ring of the Archmage",
-            "rarity": "Epic",
+            "name": "Ancient Belt of the Archmage",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
+            "slot": "Waist",
+            "type": "Cloth",
             "stats": [
-              "+23 Strength"
+              "+17 Stamina",
+              "+11 Intellect"
             ],
-            "effect": "Equip: Increases spell damage by up to 15.",
+            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
             "requiresLevel": 58,
-            "sellPrice": "7g 87s"
+            "sellPrice": "9g 67s"
           },
           {
-            "name": "Ancient Greatsword of the Betrayer",
+            "name": "Ethereal Choker of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+17 Intellect",
+              "+11 Stamina"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 58,
+            "sellPrice": "8g 35s"
+          },
+          {
+            "name": "Ancient Tunic of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Cloth",
+            "stats": [
+              "+17 Stamina",
+              "+11 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 58,
+            "sellPrice": "4g 32s"
+          },
+          {
+            "name": "Savage Gavel of the Archmage",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "One-Hand",
             "type": "Axe",
             "stats": [
-              "+17 Agility",
-              "+11 Strength"
+              "+17 Intellect"
             ],
             "effect": "",
             "requiresLevel": 58,
-            "sellPrice": "5g 24s"
+            "sellPrice": "10g 41s"
+          },
+          {
+            "name": "Corrupted Collar of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+23 Intellect",
+              "+15 Stamina"
+            ],
+            "effect": "Equip: Increases healing done by up to 25.",
+            "requiresLevel": 58,
+            "sellPrice": "7g 97s"
+          },
+          {
+            "name": "Savage Leggings of the Deep",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Plate",
+            "stats": [
+              "+23 Strength"
+            ],
+            "effect": "Equip: Increases healing done by up to 25.",
+            "requiresLevel": 58,
+            "sellPrice": "3g 43s"
+          },
+          {
+            "name": "Shadow Axe of the Crimson King",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Axe",
+            "stats": [
+              "+23 Intellect"
+            ],
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+            "requiresLevel": 58,
+            "sellPrice": "1g 2s"
+          },
+          {
+            "name": "Ethereal Legguards of the Unseen",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Cloth",
+            "stats": [
+              "+23 Spirit",
+              "+15 Stamina"
+            ],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 58,
+            "sellPrice": "9g 19s"
+          },
+          {
+            "name": "Shadow Blade of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Axe",
+            "stats": [
+              "+17 Stamina",
+              "+11 Spirit"
+            ],
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "requiresLevel": 58,
+            "sellPrice": "4g 3s"
+          },
+          {
+            "name": "Shimmering Dagger of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Dagger",
+            "stats": [
+              "+23 Stamina",
+              "+15 Strength"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 58,
+            "sellPrice": "2g 22s"
+          },
+          {
+            "name": "Holy Spaulders of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Plate",
+            "stats": [
+              "+17 Agility",
+              "+11 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 58,
+            "sellPrice": "7g 19s"
+          },
+          {
+            "name": "Shadow Breastplate of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Plate",
+            "stats": [
+              "+17 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 58,
+            "sellPrice": "6g 18s"
+          },
+          {
+            "name": "Holy Cowl of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Cloth",
+            "stats": [
+              "+17 Intellect",
+              "+11 Stamina"
+            ],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 58,
+            "sellPrice": "2g 21s"
           }
         ]
       },
@@ -3170,345 +3166,336 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Shimmering Crown of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Plate",
-            "stats": [
-              "+18 Stamina",
-              "+12 Agility"
-            ],
-            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 68s"
-          },
-          {
-            "name": "Savage Gloves of the Void",
+            "name": "Ethereal Bindings of the Forgotten",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Cloth",
+            "slot": "Wrist",
+            "type": "Mail",
             "stats": [
-              "+24 Stamina",
-              "+16 Spirit"
+              "+24 Stamina"
             ],
-            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+            "effect": "Equip: +1% Hit chance.",
             "requiresLevel": 60,
-            "sellPrice": "6g 19s"
+            "sellPrice": "9g 81s"
           },
           {
-            "name": "Corrupted Collar of the Crimson King",
-            "rarity": "Rare",
+            "name": "Shadow Choker of the Crimson King",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Neck",
             "type": "Necklace",
             "stats": [
-              "+18 Spirit",
-              "+12 Stamina"
+              "+24 Stamina",
+              "+16 Agility"
             ],
-            "effect": "",
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
             "requiresLevel": 60,
-            "sellPrice": "2g 32s"
+            "sellPrice": "7g 41s"
           },
           {
-            "name": "Ancient Kilt of the Forgotten",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Cloth",
-            "stats": [
-              "+24 Spirit",
-              "+16 Stamina"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 46s"
-          },
-          {
-            "name": "Holy Vambraces of the Void",
+            "name": "Shimmering Cuffs of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Wrist",
-            "type": "Cloth",
-            "stats": [
-              "+18 Spirit",
-              "+12 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "6g 81s"
-          },
-          {
-            "name": "Corrupted Gavel of Eternal Slumber",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Mace",
-            "stats": [
-              "+24 Strength",
-              "+16 Agility"
-            ],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
-            "requiresLevel": 60,
-            "sellPrice": "10g 22s"
-          },
-          {
-            "name": "Ethereal Spaulders of the Deep",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Plate",
-            "stats": [
-              "+24 Strength",
-              "+16 Agility"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 60,
-            "sellPrice": "1g 80s"
-          },
-          {
-            "name": "Shimmering Mask of the Unseen",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Plate",
-            "stats": [
-              "+24 Strength",
-              "+16 Stamina"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 54s"
-          },
-          {
-            "name": "Corrupted Mask of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
             "type": "Mail",
             "stats": [
               "+18 Stamina"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "1g 29s"
+            "sellPrice": "9g 16s"
           },
           {
-            "name": "Blood-Forged Cord of the Void",
+            "name": "Venerable Cuffs of the Void",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Mail",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 22s"
-          },
-          {
-            "name": "Shimmering Amice of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
+            "slot": "Wrist",
             "type": "Cloth",
             "stats": [
               "+18 Intellect"
             ],
-            "effect": "Equip: +1% Hit chance.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "8g 63s"
+            "sellPrice": "6g 69s"
           },
           {
-            "name": "Shimmering Helm of the Betrayer",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Mail",
-            "stats": [
-              "+24 Strength",
-              "+16 Agility"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 6s"
-          },
-          {
-            "name": "Savage Staff of the Forgotten",
+            "name": "Corrupted Vest of Shattered Souls",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
+            "slot": "Chest",
+            "type": "Cloth",
             "stats": [
-              "+18 Spirit",
-              "+12 Intellect"
+              "+18 Stamina"
             ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
             "requiresLevel": 60,
-            "sellPrice": "7g 15s"
+            "sellPrice": "5g 64s"
           },
           {
-            "name": "Blood-Forged Staff of the Void",
+            "name": "Corrupted Staff of the Void",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Dagger",
+            "stats": [
+              "+24 Agility"
+            ],
+            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 25s"
+          },
+          {
+            "name": "Blood-Forged Harness of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Leather",
+            "stats": [
+              "+18 Stamina",
+              "+12 Spirit"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 40s"
+          },
+          {
+            "name": "Void-Touched Blade of the Archmage",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "One-Hand",
             "type": "Dagger",
+            "stats": [
+              "+18 Stamina",
+              "+12 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "2g 14s"
+          },
+          {
+            "name": "Blood-Forged Amice of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Mail",
+            "stats": [
+              "+18 Intellect"
+            ],
+            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+            "requiresLevel": 60,
+            "sellPrice": "6g 5s"
+          },
+          {
+            "name": "Savage Mitts of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 26s"
+          },
+          {
+            "name": "Corrupted Treads of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Leather",
+            "stats": [
+              "+18 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "6g 46s"
+          },
+          {
+            "name": "Savage Belt of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Plate",
+            "stats": [
+              "+18 Stamina",
+              "+12 Agility"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 60,
+            "sellPrice": "7g 10s"
+          },
+          {
+            "name": "Holy Ring of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+18 Agility",
+              "+12 Strength"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "1g 72s"
+          },
+          {
+            "name": "Void-Touched Bow of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Axe",
             "stats": [
               "+18 Stamina",
               "+12 Strength"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "7g 79s"
+            "sellPrice": "4g 72s"
           },
           {
-            "name": "Blood-Forged Bow of the Unseen",
+            "name": "Shadow Handguards of the Betrayer",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Leather",
+            "stats": [
+              "+24 Spirit"
+            ],
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 43s"
+          },
+          {
+            "name": "Ancient Vest of Eternal Slumber",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Sword",
+            "slot": "Chest",
+            "type": "Mail",
             "stats": [
-              "+18 Spirit",
-              "+12 Stamina"
+              "+18 Intellect"
             ],
-            "effect": "",
+            "effect": "Equip: +1% Critical Strike.",
             "requiresLevel": 60,
-            "sellPrice": "3g 79s"
+            "sellPrice": "6g 25s"
           },
           {
-            "name": "Holy Kilt of the Crimson King",
+            "name": "Shadow Bracers of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Cloth",
+            "stats": [
+              "+18 Stamina"
+            ],
+            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 13s"
+          },
+          {
+            "name": "Corrupted Legguards of the Betrayer",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Legs",
-            "type": "Plate",
-            "stats": [
-              "+18 Strength",
-              "+12 Stamina"
-            ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 60,
-            "sellPrice": "9g 77s"
-          },
-          {
-            "name": "Corrupted Signet of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
+            "type": "Cloth",
             "stats": [
               "+18 Stamina",
               "+12 Spirit"
             ],
-            "effect": "Equip: +1% Critical Strike.",
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
             "requiresLevel": 60,
-            "sellPrice": "2g 58s"
+            "sellPrice": "4g 85s"
           },
           {
-            "name": "Blood-Forged Kilt of the Unseen",
+            "name": "Shadow Charm of Shattered Souls",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Legs",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 67s"
+          },
+          {
+            "name": "Ancient Treads of Shattered Souls",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Plate",
+            "stats": [
+              "+24 Strength"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 68s"
+          },
+          {
+            "name": "Blood-Forged Mitts of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
             "type": "Cloth",
             "stats": [
               "+18 Intellect",
               "+12 Stamina"
             ],
-            "effect": "Equip: Increases healing done by up to 25.",
+            "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
             "requiresLevel": 60,
-            "sellPrice": "5g 98s"
+            "sellPrice": "8g 64s"
           },
           {
-            "name": "Holy Girdle of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Mail",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "2g 83s"
-          },
-          {
-            "name": "Ethereal Blade of the Void",
+            "name": "Savage Bindings of the Betrayer",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Dagger",
+            "slot": "Wrist",
+            "type": "Plate",
             "stats": [
               "+24 Strength"
             ],
-            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
             "requiresLevel": 60,
-            "sellPrice": "6g 11s"
+            "sellPrice": "4g 93s"
           },
           {
-            "name": "Shadow Amulet of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "4g 95s"
-          },
-          {
-            "name": "Corrupted Treads of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Leather",
-            "stats": [
-              "+18 Agility",
-              "+12 Stamina"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 22s"
-          },
-          {
-            "name": "Shadow Brooch of Shattered Souls",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 22s"
-          },
-          {
-            "name": "Holy Tunic of Eternal Slumber",
+            "name": "Shimmering Harness of the Forgotten",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Chest",
-            "type": "Leather",
+            "type": "Cloth",
             "stats": [
-              "+18 Agility",
+              "+18 Intellect",
               "+12 Stamina"
+            ],
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+            "requiresLevel": 60,
+            "sellPrice": "8g 77s"
+          },
+          {
+            "name": "Venerable Gavel of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Dagger",
+            "stats": [
+              "+18 Spirit"
+            ],
+            "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 69s"
+          },
+          {
+            "name": "Ethereal Treads of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Mail",
+            "stats": [
+              "+18 Intellect"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "5g 82s"
-          },
-          {
-            "name": "Venerable Spaulders of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Cloth",
-            "stats": [
-              "+18 Spirit",
-              "+12 Stamina"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 60,
-            "sellPrice": "9g 5s"
+            "sellPrice": "3g 41s"
           }
         ]
       },
@@ -3522,355 +3509,274 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Corrupted Robes of Shattered Souls",
+            "name": "Ethereal Bow of Bloodletting",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Mail",
-            "stats": [
-              "+18 Stamina",
-              "+12 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "8g 92s"
-          },
-          {
-            "name": "Corrupted Amice of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Plate",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "10g 76s"
-          },
-          {
-            "name": "Holy Mitts of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Cloth",
-            "stats": [
-              "+18 Stamina",
-              "+12 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "2g 81s"
-          },
-          {
-            "name": "Shadow Pendant of Shattered Souls",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+24 Stamina",
-              "+16 Intellect"
-            ],
-            "effect": "Equip: Increases healing done by up to 25.",
-            "requiresLevel": 60,
-            "sellPrice": "1g 78s"
-          },
-          {
-            "name": "Ethereal Helm of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Plate",
+            "slot": "Two-Hand",
+            "type": "Bow",
             "stats": [
               "+18 Strength",
               "+12 Stamina"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "3g 6s"
+            "sellPrice": "2g 80s"
           },
           {
-            "name": "Ancient Cord of the Archmage",
+            "name": "Corrupted Seal of the Archmage",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Cloth",
+            "slot": "Finger",
+            "type": "Ring",
             "stats": [
               "+18 Stamina"
             ],
-            "effect": "Equip: Increases healing done by up to 25.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "2g 81s"
+            "sellPrice": "6g 1s"
           },
           {
-            "name": "Shadow Harness of Eternal Slumber",
+            "name": "Savage Talisman of the Void",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Chest",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 91s"
+          },
+          {
+            "name": "Shadow Amice of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
             "type": "Cloth",
             "stats": [
               "+18 Stamina"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "1g 26s"
+            "sellPrice": "3g 0s"
           },
           {
-            "name": "Ethereal Cord of Eternal Slumber",
-            "rarity": "Rare",
+            "name": "Shadow Waistguard of the Unseen",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Waist",
             "type": "Mail",
+            "stats": [
+              "+24 Stamina",
+              "+16 Agility"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 60,
+            "sellPrice": "6g 96s"
+          },
+          {
+            "name": "Venerable Leggings of Shattered Souls",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Leather",
+            "stats": [
+              "+24 Stamina",
+              "+16 Agility"
+            ],
+            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 98s"
+          },
+          {
+            "name": "Corrupted Greatsword of the Unseen",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Staff",
+            "stats": [
+              "+24 Stamina"
+            ],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 6s"
+          },
+          {
+            "name": "Savage Grips of the Crimson King",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Cloth",
+            "stats": [
+              "+24 Stamina"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 20s"
+          },
+          {
+            "name": "Ancient Axe of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Axe",
+            "stats": [
+              "+18 Stamina",
+              "+12 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "5g 32s"
+          },
+          {
+            "name": "Venerable Relic of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 33s"
+          },
+          {
+            "name": "Void-Touched Mantle of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Cloth",
+            "stats": [
+              "+18 Stamina",
+              "+12 Intellect"
+            ],
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 39s"
+          },
+          {
+            "name": "Blood-Forged Greatsword of Bloodletting",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Dagger",
+            "stats": [
+              "+24 Strength",
+              "+16 Agility"
+            ],
+            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 32s"
+          },
+          {
+            "name": "Ethereal Slippers of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Leather",
             "stats": [
               "+18 Agility",
               "+12 Strength"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "4g 64s"
+            "sellPrice": "10g 84s"
           },
           {
-            "name": "Corrupted Bow of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Axe",
-            "stats": [
-              "+18 Intellect",
-              "+12 Stamina"
-            ],
-            "effect": "Equip: +10 Shadow Resistance.",
-            "requiresLevel": 60,
-            "sellPrice": "4g 3s"
-          },
-          {
-            "name": "Blood-Forged Pendant of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+18 Strength"
-            ],
-            "effect": "Equip: +10 Shadow Resistance.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 14s"
-          },
-          {
-            "name": "Shadow Spaulders of the Betrayer",
+            "name": "Venerable Buckler of Shattered Souls",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Plate",
+            "slot": "Off Hand",
+            "type": "Shield",
             "stats": [
-              "+24 Agility"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 18s"
-          },
-          {
-            "name": "Shadow Belt of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Mail",
-            "stats": [
-              "+24 Stamina"
-            ],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 37s"
-          },
-          {
-            "name": "Shadow Mitts of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Plate",
-            "stats": [
-              "+18 Strength"
-            ],
-            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 96s"
-          },
-          {
-            "name": "Savage Epaulets of Bloodletting",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Plate",
-            "stats": [
-              "+24 Stamina",
-              "+16 Agility"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 84s"
-          },
-          {
-            "name": "Shadow Bindings of Bloodletting",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Mail",
-            "stats": [
-              "+24 Agility",
+              "+24 Strength",
               "+16 Stamina"
             ],
-            "effect": "Equip: +10 Shadow Resistance.",
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
             "requiresLevel": 60,
-            "sellPrice": "1g 20s"
+            "sellPrice": "4g 83s"
           },
           {
-            "name": "Ethereal Necklace of the Deep",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+24 Stamina",
-              "+16 Spirit"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 60,
-            "sellPrice": "10g 19s"
-          },
-          {
-            "name": "Ethereal Charm of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 58s"
-          },
-          {
-            "name": "Shimmering Belt of the Crimson King",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Leather",
-            "stats": [
-              "+24 Agility"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 80s"
-          },
-          {
-            "name": "Shimmering Boots of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Cloth",
-            "stats": [
-              "+18 Intellect",
-              "+12 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "8g 48s"
-          },
-          {
-            "name": "Corrupted Greatsword of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Axe",
-            "stats": [
-              "+18 Spirit"
-            ],
-            "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 56s"
-          },
-          {
-            "name": "Savage Waistguard of the Forgotten",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Cloth",
-            "stats": [
-              "+24 Spirit"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 2s"
-          },
-          {
-            "name": "Holy Handguards of the Crimson King",
+            "name": "Void-Touched Mitts of the Crimson King",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Hands",
-            "type": "Plate",
+            "type": "Leather",
             "stats": [
               "+18 Stamina"
             ],
-            "effect": "Equip: Increases healing done by up to 25.",
+            "effect": "Equip: +1% Critical Strike.",
             "requiresLevel": 60,
-            "sellPrice": "5g 7s"
+            "sellPrice": "6g 8s"
           },
           {
-            "name": "Savage Gavel of Eternal Slumber",
+            "name": "Blood-Forged Vest of Shattered Souls",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
-            "stats": [
-              "+24 Strength"
-            ],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 87s"
-          },
-          {
-            "name": "Ancient Crown of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
+            "slot": "Chest",
             "type": "Mail",
             "stats": [
-              "+18 Spirit",
-              "+12 Intellect"
+              "+24 Intellect",
+              "+16 Stamina"
+            ],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 60,
+            "sellPrice": "7g 84s"
+          },
+          {
+            "name": "Savage Wristguards of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Plate",
+            "stats": [
+              "+18 Strength"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "3g 94s"
+            "sellPrice": "3g 21s"
           },
           {
-            "name": "Venerable Axe of the Betrayer",
-            "rarity": "Epic",
+            "name": "Venerable Greatsword of Shattered Souls",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Main Hand",
-            "type": "Sword",
+            "type": "Dagger",
             "stats": [
-              "+24 Agility"
+              "+18 Stamina",
+              "+12 Strength"
             ],
-            "effect": "Equip: +20 Attack Power.",
+            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
             "requiresLevel": 60,
-            "sellPrice": "9g 52s"
+            "sellPrice": "5g 64s"
           },
           {
-            "name": "Venerable Pendant of the Forgotten",
-            "rarity": "Epic",
+            "name": "Shimmering Legguards of the Unseen",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
+            "slot": "Legs",
+            "type": "Cloth",
             "stats": [
-              "+24 Spirit",
-              "+16 Stamina"
+              "+18 Stamina"
             ],
-            "effect": "Equip: Increases healing done by up to 25.",
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
             "requiresLevel": 60,
-            "sellPrice": "2g 45s"
+            "sellPrice": "2g 90s"
           },
           {
-            "name": "Shimmering Tunic of the Betrayer",
+            "name": "Savage Sash of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 60,
+            "sellPrice": "8g 11s"
+          },
+          {
+            "name": "Void-Touched Tunic of the Void",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Chest",
@@ -3878,175 +3784,92 @@ export const pveData = {
             "stats": [
               "+18 Stamina"
             ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
             "requiresLevel": 60,
-            "sellPrice": "9g 2s"
+            "sellPrice": "8g 49s"
           },
           {
-            "name": "Shadow Legguards of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Leather",
-            "stats": [
-              "+18 Stamina",
-              "+12 Intellect"
-            ],
-            "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 29s"
-          },
-          {
-            "name": "Void-Touched Bulwark of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
-            "stats": [
-              "+18 Stamina",
-              "+12 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "3g 86s"
-          },
-          {
-            "name": "Shadow Bow of the Deep",
+            "name": "Void-Touched Staff of the Forgotten",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "One-Hand",
             "type": "Dagger",
             "stats": [
-              "+18 Stamina",
-              "+12 Agility"
+              "+18 Strength"
             ],
-            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "8g 71s"
+            "sellPrice": "3g 14s"
           },
           {
-            "name": "Ancient Aegis of Bloodletting",
+            "name": "Ancient Breastplate of Bloodletting",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
+            "slot": "Chest",
+            "type": "Mail",
             "stats": [
               "+18 Strength",
               "+12 Stamina"
             ],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
             "requiresLevel": 60,
-            "sellPrice": "6g 26s"
+            "sellPrice": "9g 69s"
           },
           {
-            "name": "Blood-Forged Greatsword of the Deep",
+            "name": "Holy Slippers of the Deep",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Axe",
-            "stats": [
-              "+18 Stamina",
-              "+12 Strength"
-            ],
-            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
-            "requiresLevel": 60,
-            "sellPrice": "4g 86s"
-          },
-          {
-            "name": "Blood-Forged Vambraces of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Cloth",
-            "stats": [
-              "+18 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "10g 30s"
-          },
-          {
-            "name": "Ethereal Sash of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
+            "slot": "Feet",
             "type": "Mail",
+            "stats": [
+              "+18 Strength"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 31s"
+          },
+          {
+            "name": "Ethereal Sabatons of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Leather",
             "stats": [
               "+18 Spirit"
             ],
-            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 62s"
-          },
-          {
-            "name": "Venerable Bulwark of the Forgotten",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
-            "stats": [
-              "+24 Stamina",
-              "+16 Strength"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 45s"
-          },
-          {
-            "name": "Savage Epaulets of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Cloth",
-            "stats": [
-              "+18 Stamina",
-              "+12 Intellect"
-            ],
-            "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
+            "effect": "Equip: +1% Hit chance.",
             "requiresLevel": 60,
             "sellPrice": "1g 85s"
           },
           {
-            "name": "Void-Touched Mantle of Shattered Souls",
+            "name": "Blood-Forged Bulwark of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Off Hand",
+            "type": "Shield",
+            "stats": [
+              "+18 Strength"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "6g 47s"
+          },
+          {
+            "name": "Shadow Mantle of the Forgotten",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Shoulder",
-            "type": "Cloth",
+            "type": "Leather",
             "stats": [
-              "+18 Intellect",
-              "+12 Spirit"
+              "+18 Spirit",
+              "+12 Stamina"
             ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
             "requiresLevel": 60,
-            "sellPrice": "9g 23s"
+            "sellPrice": "6g 90s"
           },
           {
-            "name": "Void-Touched Legguards of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Plate",
-            "stats": [
-              "+18 Stamina",
-              "+12 Strength"
-            ],
-            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 4s"
-          },
-          {
-            "name": "Ethereal Medallion of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 3s"
-          },
-          {
-            "name": "Corrupted Ring of the Betrayer",
+            "name": "Ethereal Loop of the Crimson King",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Finger",
@@ -4055,9 +3878,167 @@ export const pveData = {
               "+24 Spirit",
               "+16 Stamina"
             ],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 80s"
+          },
+          {
+            "name": "Shadow Pauldrons of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Cloth",
+            "stats": [
+              "+18 Stamina"
+            ],
             "effect": "Equip: Increases healing done by up to 25.",
             "requiresLevel": 60,
-            "sellPrice": "9g 98s"
+            "sellPrice": "1g 85s"
+          },
+          {
+            "name": "Savage Bow of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Staff",
+            "stats": [
+              "+18 Strength"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "2g 24s"
+          },
+          {
+            "name": "Ancient Amulet of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+18 Spirit",
+              "+12 Intellect"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "8g 32s"
+          },
+          {
+            "name": "Blood-Forged Mask of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Cloth",
+            "stats": [
+              "+18 Intellect",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "10g 33s"
+          },
+          {
+            "name": "Shadow Bow of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Mace",
+            "stats": [
+              "+24 Strength"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "8g 58s"
+          },
+          {
+            "name": "Shadow Cowl of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Mail",
+            "stats": [
+              "+18 Strength"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 4s"
+          },
+          {
+            "name": "Savage Harness of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Cloth",
+            "stats": [
+              "+18 Intellect",
+              "+12 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "3g 55s"
+          },
+          {
+            "name": "Ancient Bow of the Void",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Sword",
+            "stats": [
+              "+24 Agility"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 27s"
+          },
+          {
+            "name": "Shimmering Charm of the Void",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: +10 Shadow Resistance.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 24s"
+          },
+          {
+            "name": "Void-Touched Belt of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Mail",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 13s"
+          },
+          {
+            "name": "Shadow Gavel of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Axe",
+            "stats": [
+              "+18 Agility"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 97s"
+          },
+          {
+            "name": "Ancient Vambraces of the Betrayer",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Cloth",
+            "stats": [
+              "+24 Intellect"
+            ],
+            "effect": "Equip: Increases healing done by up to 25.",
+            "requiresLevel": 60,
+            "sellPrice": "7g 2s"
           }
         ]
       }
@@ -4095,200 +4076,208 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Holy Charm of Eternal Slumber",
+            "name": "Venerable Gavel of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: +1% Hit chance.",
+            "slot": "One-Hand",
+            "type": "Mace",
+            "stats": [
+              "+16 Spirit",
+              "+10 Intellect"
+            ],
+            "effect": "Equip: Increases healing done by up to 25.",
             "requiresLevel": 55,
-            "sellPrice": "10g 53s"
+            "sellPrice": "3g 88s"
           },
           {
-            "name": "Shimmering Cowl of the Crimson King",
+            "name": "Corrupted Robes of the Betrayer",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Mail",
+            "stats": [
+              "+22 Stamina",
+              "+14 Strength"
+            ],
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "requiresLevel": 55,
+            "sellPrice": "6g 70s"
+          },
+          {
+            "name": "Void-Touched Robes of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Plate",
+            "stats": [
+              "+16 Strength"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 55,
+            "sellPrice": "9g 90s"
+          },
+          {
+            "name": "Savage Vest of the Forgotten",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Leather",
+            "stats": [
+              "+22 Stamina"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 55,
+            "sellPrice": "2g 90s"
+          },
+          {
+            "name": "Venerable Crown of the Deep",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Cloth",
+            "stats": [
+              "+22 Spirit",
+              "+14 Intellect"
+            ],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 55,
+            "sellPrice": "10g 26s"
+          },
+          {
+            "name": "Ethereal Cowl of Shattered Souls",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Head",
             "type": "Cloth",
             "stats": [
               "+16 Spirit",
-              "+10 Stamina"
+              "+10 Intellect"
             ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
             "requiresLevel": 55,
-            "sellPrice": "5g 0s"
+            "sellPrice": "8g 16s"
           },
           {
-            "name": "Shadow Mitts of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Plate",
-            "stats": [
-              "+16 Stamina"
-            ],
-            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
-            "requiresLevel": 55,
-            "sellPrice": "2g 94s"
-          },
-          {
-            "name": "Venerable Footpads of the Deep",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Leather",
-            "stats": [
-              "+22 Stamina"
-            ],
-            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-            "requiresLevel": 55,
-            "sellPrice": "2g 25s"
-          },
-          {
-            "name": "Blood-Forged Medallion of Bloodletting",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 55,
-            "sellPrice": "1g 26s"
-          },
-          {
-            "name": "Corrupted Leggings of the Unseen",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Leather",
-            "stats": [
-              "+22 Intellect",
-              "+14 Stamina"
-            ],
-            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-            "requiresLevel": 55,
-            "sellPrice": "5g 57s"
-          },
-          {
-            "name": "Corrupted Sabatons of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Cloth",
-            "stats": [
-              "+16 Stamina",
-              "+10 Spirit"
-            ],
-            "effect": "",
-            "requiresLevel": 55,
-            "sellPrice": "5g 93s"
-          },
-          {
-            "name": "Ancient Greatsword of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Axe",
-            "stats": [
-              "+16 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 55,
-            "sellPrice": "9g 68s"
-          },
-          {
-            "name": "Holy Collar of the Void",
+            "name": "Void-Touched Choker of the Archmage",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Neck",
             "type": "Necklace",
             "stats": [
-              "+22 Intellect",
-              "+14 Spirit"
+              "+22 Intellect"
             ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "effect": "Equip: +10 Shadow Resistance.",
             "requiresLevel": 55,
-            "sellPrice": "4g 83s"
+            "sellPrice": "6g 85s"
           },
           {
-            "name": "Blood-Forged Girdle of the Deep",
+            "name": "Ancient Vambraces of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Plate",
+            "stats": [
+              "+16 Agility",
+              "+10 Strength"
+            ],
+            "effect": "Equip: +10 Shadow Resistance.",
+            "requiresLevel": 55,
+            "sellPrice": "5g 46s"
+          },
+          {
+            "name": "Blood-Forged Loop of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+16 Strength",
+              "+10 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 55,
+            "sellPrice": "3g 10s"
+          },
+          {
+            "name": "Void-Touched Sabatons of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Leather",
+            "stats": [
+              "+16 Agility",
+              "+10 Strength"
+            ],
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+            "requiresLevel": 55,
+            "sellPrice": "8g 29s"
+          },
+          {
+            "name": "Blood-Forged Cuffs of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Leather",
+            "stats": [
+              "+16 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 55,
+            "sellPrice": "7g 63s"
+          },
+          {
+            "name": "Ethereal Pauldrons of the Crimson King",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Plate",
+            "stats": [
+              "+22 Strength",
+              "+14 Stamina"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 55,
+            "sellPrice": "2g 8s"
+          },
+          {
+            "name": "Blood-Forged Cord of Bloodletting",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Waist",
             "type": "Cloth",
             "stats": [
               "+16 Intellect",
-              "+10 Stamina"
+              "+10 Spirit"
             ],
-            "effect": "",
+            "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
             "requiresLevel": 55,
-            "sellPrice": "7g 44s"
+            "sellPrice": "4g 25s"
           },
           {
-            "name": "Venerable Amice of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Cloth",
-            "stats": [
-              "+16 Spirit"
-            ],
-            "effect": "",
-            "requiresLevel": 55,
-            "sellPrice": "5g 34s"
-          },
-          {
-            "name": "Shadow Mask of Bloodletting",
+            "name": "Corrupted Mask of the Archmage",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Head",
             "type": "Cloth",
             "stats": [
-              "+16 Spirit",
-              "+10 Stamina"
+              "+16 Stamina"
             ],
-            "effect": "",
-            "requiresLevel": 55,
-            "sellPrice": "6g 88s"
-          },
-          {
-            "name": "Ancient Medallion of the Betrayer",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
             "effect": "Use: Absorbs 500 magic damage for 10 sec.",
             "requiresLevel": 55,
-            "sellPrice": "3g 4s"
+            "sellPrice": "2g 58s"
           },
           {
-            "name": "Void-Touched Bindings of the Unseen",
+            "name": "Shimmering Robes of Bloodletting",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Leather",
+            "slot": "Chest",
+            "type": "Plate",
             "stats": [
-              "+16 Spirit"
+              "+16 Strength"
             ],
-            "effect": "",
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
             "requiresLevel": 55,
-            "sellPrice": "4g 72s"
-          },
-          {
-            "name": "Blood-Forged Vambraces of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Cloth",
-            "stats": [
-              "+16 Stamina",
-              "+10 Intellect"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 55,
-            "sellPrice": "7g 14s"
+            "sellPrice": "1g 58s"
           }
         ]
       },
@@ -4302,276 +4291,273 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Ancient Signet of the Forgotten",
-            "rarity": "Rare",
+            "name": "Venerable Defender of the Betrayer",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Off Hand",
+            "type": "Shield",
+            "stats": [
+              "+23 Agility",
+              "+15 Stamina"
+            ],
+            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+            "requiresLevel": 58,
+            "sellPrice": "8g 14s"
+          },
+          {
+            "name": "Holy Staff of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Dagger",
+            "stats": [
+              "+23 Stamina",
+              "+15 Intellect"
+            ],
+            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+            "requiresLevel": 58,
+            "sellPrice": "8g 50s"
+          },
+          {
+            "name": "Holy Signet of the Crimson King",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Finger",
             "type": "Ring",
             "stats": [
+              "+23 Agility"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 58,
+            "sellPrice": "2g 23s"
+          },
+          {
+            "name": "Blood-Forged Waistguard of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Plate",
+            "stats": [
               "+17 Strength",
               "+11 Stamina"
             ],
-            "effect": "",
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
             "requiresLevel": 58,
-            "sellPrice": "2g 79s"
+            "sellPrice": "10g 20s"
           },
           {
-            "name": "Shimmering Talisman of Shattered Souls",
+            "name": "Holy Boots of the Crimson King",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Cloth",
+            "stats": [
+              "+23 Spirit",
+              "+15 Stamina"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 58,
+            "sellPrice": "5g 14s"
+          },
+          {
+            "name": "Corrupted Medallion of Eternal Slumber",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Trinket",
             "type": "Trinket",
             "stats": [],
-            "effect": "Equip: +1% Critical Strike.",
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 58,
+            "sellPrice": "3g 83s"
+          },
+          {
+            "name": "Holy Gavel of the Void",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Staff",
+            "stats": [
+              "+23 Agility"
+            ],
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+            "requiresLevel": 58,
+            "sellPrice": "9g 50s"
+          },
+          {
+            "name": "Venerable Axe of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Axe",
+            "stats": [
+              "+17 Spirit",
+              "+11 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 58,
+            "sellPrice": "3g 78s"
+          },
+          {
+            "name": "Holy Helm of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Cloth",
+            "stats": [
+              "+17 Intellect",
+              "+11 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 58,
+            "sellPrice": "6g 52s"
+          },
+          {
+            "name": "Venerable Crown of Shattered Souls",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Plate",
+            "stats": [
+              "+23 Strength"
+            ],
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "requiresLevel": 58,
+            "sellPrice": "7g 63s"
+          },
+          {
+            "name": "Venerable Greatsword of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Bow",
+            "stats": [
+              "+17 Stamina",
+              "+11 Agility"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 58,
+            "sellPrice": "3g 63s"
+          },
+          {
+            "name": "Shimmering Handguards of the Deep",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Plate",
+            "stats": [
+              "+23 Strength"
+            ],
+            "effect": "Equip: +20 Attack Power.",
             "requiresLevel": 58,
             "sellPrice": "4g 52s"
           },
           {
-            "name": "Ethereal Mask of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Plate",
-            "stats": [
-              "+17 Strength",
-              "+11 Agility"
-            ],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
-            "requiresLevel": 58,
-            "sellPrice": "8g 0s"
-          },
-          {
-            "name": "Void-Touched Blade of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Axe",
-            "stats": [
-              "+17 Stamina",
-              "+11 Intellect"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 58,
-            "sellPrice": "7g 15s"
-          },
-          {
-            "name": "Corrupted Cuffs of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Plate",
-            "stats": [
-              "+17 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "1g 5s"
-          },
-          {
-            "name": "Holy Breastplate of the Deep",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Cloth",
-            "stats": [
-              "+23 Intellect"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 58,
-            "sellPrice": "7g 43s"
-          },
-          {
-            "name": "Savage Cord of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Cloth",
-            "stats": [
-              "+17 Spirit",
-              "+11 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "9g 23s"
-          },
-          {
-            "name": "Shadow Sabatons of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Plate",
-            "stats": [
-              "+17 Strength",
-              "+11 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "9g 79s"
-          },
-          {
-            "name": "Void-Touched Bracers of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Cloth",
-            "stats": [
-              "+23 Intellect",
-              "+15 Spirit"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 58,
-            "sellPrice": "9g 11s"
-          },
-          {
-            "name": "Shadow Mantle of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Plate",
-            "stats": [
-              "+17 Agility"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 58,
-            "sellPrice": "2g 10s"
-          },
-          {
-            "name": "Ethereal Grips of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Leather",
-            "stats": [
-              "+17 Strength",
-              "+11 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "9g 12s"
-          },
-          {
-            "name": "Venerable Gavel of the Void",
+            "name": "Void-Touched Bow of the Unseen",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Two-Hand",
-            "type": "Bow",
+            "type": "Staff",
             "stats": [
               "+23 Strength"
             ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
             "requiresLevel": 58,
-            "sellPrice": "2g 59s"
+            "sellPrice": "7g 20s"
           },
           {
-            "name": "Venerable Pauldrons of the Crimson King",
+            "name": "Blood-Forged Waistguard of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Leather",
+            "stats": [
+              "+17 Stamina"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 58,
+            "sellPrice": "2g 77s"
+          },
+          {
+            "name": "Blood-Forged Cuffs of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Cloth",
+            "stats": [
+              "+17 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 58,
+            "sellPrice": "8g 57s"
+          },
+          {
+            "name": "Venerable Ring of the Crimson King",
             "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+23 Stamina"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 58,
+            "sellPrice": "1g 89s"
+          },
+          {
+            "name": "Corrupted Spaulders of Shattered Souls",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Shoulder",
             "type": "Plate",
             "stats": [
-              "+23 Agility"
+              "+17 Strength",
+              "+11 Agility"
             ],
-            "effect": "Equip: +1% Hit chance.",
+            "effect": "",
             "requiresLevel": 58,
-            "sellPrice": "2g 89s"
+            "sellPrice": "4g 27s"
           },
           {
-            "name": "Corrupted Dagger of the Forgotten",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
-            "stats": [
-              "+23 Stamina",
-              "+15 Strength"
-            ],
-            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-            "requiresLevel": 58,
-            "sellPrice": "8g 85s"
-          },
-          {
-            "name": "Ethereal Helm of the Forgotten",
+            "name": "Void-Touched Gavel of the Void",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Mail",
+            "slot": "Main Hand",
+            "type": "Mace",
             "stats": [
               "+17 Strength",
               "+11 Stamina"
             ],
-            "effect": "Equip: +10 Shadow Resistance.",
+            "effect": "",
             "requiresLevel": 58,
-            "sellPrice": "9g 55s"
+            "sellPrice": "2g 56s"
           },
           {
-            "name": "Savage Vest of the Betrayer",
+            "name": "Ethereal Pendant of Shattered Souls",
             "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Mail",
-            "stats": [
-              "+23 Stamina",
-              "+15 Intellect"
-            ],
-            "effect": "Equip: Increases healing done by up to 25.",
-            "requiresLevel": 58,
-            "sellPrice": "7g 28s"
-          },
-          {
-            "name": "Venerable Necklace of Eternal Slumber",
-            "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Neck",
             "type": "Necklace",
             "stats": [
-              "+17 Stamina",
-              "+11 Intellect"
+              "+23 Spirit",
+              "+15 Stamina"
             ],
-            "effect": "",
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
             "requiresLevel": 58,
-            "sellPrice": "2g 35s"
+            "sellPrice": "7g 78s"
           },
           {
-            "name": "Holy Harness of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Mail",
-            "stats": [
-              "+17 Agility",
-              "+11 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "10g 25s"
-          },
-          {
-            "name": "Ethereal Crown of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Mail",
-            "stats": [
-              "+17 Agility",
-              "+11 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 58,
-            "sellPrice": "6g 74s"
-          },
-          {
-            "name": "Holy Belt of Eternal Slumber",
+            "name": "Venerable Waistguard of the Unseen",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Waist",
             "type": "Plate",
             "stats": [
-              "+17 Agility",
-              "+11 Stamina"
+              "+17 Strength",
+              "+11 Agility"
             ],
             "effect": "",
             "requiresLevel": 58,
-            "sellPrice": "5g 65s"
+            "sellPrice": "1g 90s"
           }
         ]
       },
@@ -4585,7 +4571,210 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Savage Circlet of the Archmage",
+            "name": "Ancient Loop of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+18 Intellect",
+              "+12 Spirit"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 96s"
+          },
+          {
+            "name": "Shadow Staff of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Sword",
+            "stats": [
+              "+18 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "7g 18s"
+          },
+          {
+            "name": "Blood-Forged Legguards of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 67s"
+          },
+          {
+            "name": "Void-Touched Dagger of the Deep",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Bow",
+            "stats": [
+              "+24 Stamina"
+            ],
+            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 49s"
+          },
+          {
+            "name": "Shadow Medallion of the Betrayer",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 80s"
+          },
+          {
+            "name": "Shadow Band of Bloodletting",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+24 Strength",
+              "+16 Stamina"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 19s"
+          },
+          {
+            "name": "Ancient Breastplate of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Leather",
+            "stats": [
+              "+18 Strength",
+              "+12 Stamina"
+            ],
+            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 13s"
+          },
+          {
+            "name": "Blood-Forged Collar of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+18 Intellect",
+              "+12 Stamina"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 81s"
+          },
+          {
+            "name": "Blood-Forged Seal of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+18 Strength",
+              "+12 Stamina"
+            ],
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 32s"
+          },
+          {
+            "name": "Shadow Bow of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Mace",
+            "stats": [
+              "+18 Stamina",
+              "+12 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "5g 30s"
+          },
+          {
+            "name": "Shimmering Greaves of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Plate",
+            "stats": [
+              "+18 Strength",
+              "+12 Agility"
+            ],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 60,
+            "sellPrice": "6g 97s"
+          },
+          {
+            "name": "Savage Slippers of the Forgotten",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Cloth",
+            "stats": [
+              "+24 Spirit"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 60,
+            "sellPrice": "8g 24s"
+          },
+          {
+            "name": "Venerable Girdle of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Plate",
+            "stats": [
+              "+18 Stamina",
+              "+12 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "8g 89s"
+          },
+          {
+            "name": "Holy Pauldrons of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "8g 44s"
+          },
+          {
+            "name": "Holy Grips of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Cloth",
+            "stats": [
+              "+18 Stamina",
+              "+12 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "9g 94s"
+          },
+          {
+            "name": "Venerable Helm of the Deep",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Head",
@@ -4595,341 +4784,148 @@ export const pveData = {
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "4g 84s"
+            "sellPrice": "3g 77s"
           },
           {
-            "name": "Blood-Forged Mask of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Cloth",
-            "stats": [
-              "+18 Stamina",
-              "+12 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "5g 89s"
-          },
-          {
-            "name": "Ancient Bow of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Axe",
-            "stats": [
-              "+18 Stamina",
-              "+12 Spirit"
-            ],
-            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
-            "requiresLevel": 60,
-            "sellPrice": "1g 77s"
-          },
-          {
-            "name": "Shimmering Staff of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Mace",
-            "stats": [
-              "+18 Strength",
-              "+12 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "4g 60s"
-          },
-          {
-            "name": "Corrupted Cuffs of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Cloth",
-            "stats": [
-              "+18 Intellect"
-            ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 60,
-            "sellPrice": "10g 83s"
-          },
-          {
-            "name": "Venerable Bow of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Sword",
-            "stats": [
-              "+18 Agility",
-              "+12 Strength"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 60,
-            "sellPrice": "4g 20s"
-          },
-          {
-            "name": "Ancient Boots of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Leather",
-            "stats": [
-              "+18 Spirit"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "1g 50s"
-          },
-          {
-            "name": "Savage Helm of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Leather",
-            "stats": [
-              "+18 Stamina",
-              "+12 Intellect"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 27s"
-          },
-          {
-            "name": "Shimmering Blade of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Axe",
-            "stats": [
-              "+24 Strength",
-              "+16 Agility"
-            ],
-            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 0s"
-          },
-          {
-            "name": "Shadow Gavel of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
-            "stats": [
-              "+18 Spirit",
-              "+12 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "5g 55s"
-          },
-          {
-            "name": "Ancient Footpads of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Leather",
-            "stats": [
-              "+18 Intellect"
-            ],
-            "effect": "Equip: +1% Hit chance.",
-            "requiresLevel": 60,
-            "sellPrice": "10g 64s"
-          },
-          {
-            "name": "Savage Spaulders of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Mail",
-            "stats": [
-              "+18 Intellect",
-              "+12 Spirit"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "7g 57s"
-          },
-          {
-            "name": "Venerable Blade of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Axe",
-            "stats": [
-              "+18 Stamina",
-              "+12 Strength"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 62s"
-          },
-          {
-            "name": "Savage Helm of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Mail",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "9g 91s"
-          },
-          {
-            "name": "Corrupted Crown of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Cloth",
-            "stats": [
-              "+24 Spirit",
-              "+16 Intellect"
-            ],
-            "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 66s"
-          },
-          {
-            "name": "Savage Band of Shattered Souls",
+            "name": "Shadow Seal of Bloodletting",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Finger",
             "type": "Ring",
             "stats": [
-              "+18 Strength",
-              "+12 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "3g 63s"
-          },
-          {
-            "name": "Void-Touched Axe of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Staff",
-            "stats": [
-              "+24 Stamina",
-              "+16 Intellect"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "1g 46s"
-          },
-          {
-            "name": "Savage Helm of the Deep",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Mail",
-            "stats": [
-              "+24 Stamina"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 23s"
-          },
-          {
-            "name": "Shimmering Spaulders of the Forgotten",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Cloth",
-            "stats": [
-              "+24 Spirit",
-              "+16 Stamina"
-            ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-            "requiresLevel": 60,
-            "sellPrice": "1g 54s"
-          },
-          {
-            "name": "Ethereal Gavel of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Sword",
-            "stats": [
               "+18 Stamina",
-              "+12 Spirit"
-            ],
-            "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 16s"
-          },
-          {
-            "name": "Shimmering Spaulders of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Cloth",
-            "stats": [
-              "+18 Spirit",
-              "+12 Stamina"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 0s"
-          },
-          {
-            "name": "Shimmering Cuffs of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Cloth",
-            "stats": [
-              "+18 Spirit",
-              "+12 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "1g 86s"
-          },
-          {
-            "name": "Shadow Leggings of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Leather",
-            "stats": [
-              "+18 Intellect",
-              "+12 Stamina"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 55s"
-          },
-          {
-            "name": "Ethereal Blade of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Mace",
-            "stats": [
-              "+18 Agility",
               "+12 Strength"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "8g 16s"
+            "sellPrice": "7g 39s"
           },
           {
-            "name": "Shimmering Staff of the Archmage",
+            "name": "Blood-Forged Dagger of Bloodletting",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
+            "slot": "One-Hand",
+            "type": "Dagger",
             "stats": [
-              "+18 Agility",
-              "+12 Stamina"
+              "+18 Stamina",
+              "+12 Agility"
+            ],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 28s"
+          },
+          {
+            "name": "Holy Sash of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Cloth",
+            "stats": [
+              "+18 Spirit"
+            ],
+            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 72s"
+          },
+          {
+            "name": "Void-Touched Pauldrons of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Plate",
+            "stats": [
+              "+18 Strength"
             ],
             "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "6g 39s"
+            "sellPrice": "3g 85s"
           },
           {
-            "name": "Ethereal Charm of the Betrayer",
+            "name": "Shimmering Footpads of Bloodletting",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Plate",
+            "stats": [
+              "+24 Stamina",
+              "+16 Strength"
+            ],
+            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 44s"
+          },
+          {
+            "name": "Holy Harness of the Unseen",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Plate",
+            "stats": [
+              "+24 Strength",
+              "+16 Stamina"
+            ],
+            "effect": "Equip: +10 Shadow Resistance.",
+            "requiresLevel": 60,
+            "sellPrice": "7g 10s"
+          },
+          {
+            "name": "Venerable Cowl of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Leather",
+            "stats": [
+              "+18 Agility",
+              "+12 Strength"
+            ],
+            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+            "requiresLevel": 60,
+            "sellPrice": "6g 91s"
+          },
+          {
+            "name": "Shadow Ring of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+18 Spirit",
+              "+12 Intellect"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 29s"
+          },
+          {
+            "name": "Shadow Gloves of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Leather",
+            "stats": [
+              "+18 Spirit",
+              "+12 Intellect"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "4g 23s"
+          },
+          {
+            "name": "Venerable Footpads of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Plate",
+            "stats": [
+              "+18 Stamina",
+              "+12 Agility"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 25s"
+          },
+          {
+            "name": "Blood-Forged Medallion of the Crimson King",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Trinket",
@@ -4937,62 +4933,47 @@ export const pveData = {
             "stats": [],
             "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
             "requiresLevel": 60,
-            "sellPrice": "10g 21s"
+            "sellPrice": "2g 13s"
           },
           {
-            "name": "Holy Boots of the Crimson King",
-            "rarity": "Epic",
+            "name": "Void-Touched Mask of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Plate",
+            "stats": [
+              "+18 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "6g 94s"
+          },
+          {
+            "name": "Void-Touched Footpads of the Forgotten",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Feet",
+            "type": "Mail",
+            "stats": [
+              "+18 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "7g 4s"
+          },
+          {
+            "name": "Ancient Legguards of Bloodletting",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
             "type": "Cloth",
             "stats": [
-              "+24 Intellect",
+              "+24 Stamina",
               "+16 Spirit"
             ],
             "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
             "requiresLevel": 60,
-            "sellPrice": "9g 54s"
-          },
-          {
-            "name": "Blood-Forged Bow of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Dagger",
-            "stats": [
-              "+18 Agility",
-              "+12 Strength"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 53s"
-          },
-          {
-            "name": "Void-Touched Vest of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Cloth",
-            "stats": [
-              "+18 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "3g 5s"
-          },
-          {
-            "name": "Shimmering Gloves of the Void",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Plate",
-            "stats": [
-              "+24 Strength",
-              "+16 Stamina"
-            ],
-            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 75s"
+            "sellPrice": "7g 64s"
           }
         ]
       }
@@ -5030,336 +5011,346 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Blood-Forged Helm of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Plate",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "6g 86s"
-          },
-          {
-            "name": "Ethereal Bulwark of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
-            "stats": [
-              "+18 Strength",
-              "+12 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "1g 48s"
-          },
-          {
-            "name": "Corrupted Leggings of the Crimson King",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Cloth",
-            "stats": [
-              "+24 Stamina"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "10g 47s"
-          },
-          {
-            "name": "Shimmering Kilt of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Plate",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 7s"
-          },
-          {
-            "name": "Savage Mantle of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Cloth",
-            "stats": [
-              "+18 Spirit",
-              "+12 Intellect"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 35s"
-          },
-          {
-            "name": "Void-Touched Medallion of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: +1% Hit chance.",
-            "requiresLevel": 60,
-            "sellPrice": "4g 2s"
-          },
-          {
-            "name": "Corrupted Leggings of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Leather",
-            "stats": [
-              "+18 Stamina",
-              "+12 Spirit"
-            ],
-            "effect": "Equip: +1% Hit chance.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 52s"
-          },
-          {
-            "name": "Shimmering Boots of Eternal Slumber",
+            "name": "Ancient Boots of Shattered Souls",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Feet",
-            "type": "Plate",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "1g 84s"
-          },
-          {
-            "name": "Shadow Talisman of the Forgotten",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: +10 Shadow Resistance.",
-            "requiresLevel": 60,
-            "sellPrice": "10g 39s"
-          },
-          {
-            "name": "Holy Breastplate of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Plate",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "Equip: +1% Hit chance.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 40s"
-          },
-          {
-            "name": "Holy Vambraces of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Plate",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-            "requiresLevel": 60,
-            "sellPrice": "1g 74s"
-          },
-          {
-            "name": "Holy Greatsword of Bloodletting",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Dagger",
-            "stats": [
-              "+24 Agility",
-              "+16 Stamina"
-            ],
-            "effect": "Equip: +1% Hit chance.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 44s"
-          },
-          {
-            "name": "Savage Harness of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Plate",
-            "stats": [
-              "+18 Stamina",
-              "+12 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "7g 67s"
-          },
-          {
-            "name": "Savage Circlet of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
             "type": "Cloth",
             "stats": [
-              "+18 Spirit",
+              "+18 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "1g 49s"
+          },
+          {
+            "name": "Void-Touched Vest of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Cloth",
+            "stats": [
+              "+18 Intellect",
               "+12 Stamina"
             ],
-            "effect": "",
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
             "requiresLevel": 60,
-            "sellPrice": "5g 75s"
+            "sellPrice": "2g 11s"
           },
           {
-            "name": "Blood-Forged Bow of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "9g 19s"
-          },
-          {
-            "name": "Ancient Medallion of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 49s"
-          },
-          {
-            "name": "Venerable Blade of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Staff",
-            "stats": [
-              "+18 Strength",
-              "+12 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "7g 7s"
-          },
-          {
-            "name": "Shimmering Gauntlets of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Leather",
-            "stats": [
-              "+24 Agility",
-              "+16 Strength"
-            ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 60,
-            "sellPrice": "9g 42s"
-          },
-          {
-            "name": "Savage Harness of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Mail",
-            "stats": [
-              "+18 Stamina",
-              "+12 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "2g 73s"
-          },
-          {
-            "name": "Shimmering Epaulets of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Plate",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 26s"
-          },
-          {
-            "name": "Savage Staff of Eternal Slumber",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
-            "stats": [
-              "+24 Agility",
-              "+16 Strength"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "1g 45s"
-          },
-          {
-            "name": "Void-Touched Bindings of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Leather",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 13s"
-          },
-          {
-            "name": "Holy Spaulders of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Cloth",
-            "stats": [
-              "+18 Stamina",
-              "+12 Intellect"
-            ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 62s"
-          },
-          {
-            "name": "Savage Sash of the Crimson King",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Cloth",
-            "stats": [
-              "+24 Stamina",
-              "+16 Spirit"
-            ],
-            "effect": "Equip: +1% Hit chance.",
-            "requiresLevel": 60,
-            "sellPrice": "4g 68s"
-          },
-          {
-            "name": "Ethereal Seal of the Archmage",
+            "name": "Holy Loop of Shattered Souls",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Finger",
             "type": "Ring",
             "stats": [
-              "+18 Agility",
-              "+12 Stamina"
+              "+18 Spirit",
+              "+12 Intellect"
             ],
             "effect": "Equip: Restores 4 mana per 5 seconds.",
             "requiresLevel": 60,
-            "sellPrice": "7g 84s"
+            "sellPrice": "7g 19s"
+          },
+          {
+            "name": "Blood-Forged Band of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+18 Stamina"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 31s"
+          },
+          {
+            "name": "Ancient Gavel of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Dagger",
+            "stats": [
+              "+18 Strength",
+              "+12 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "2g 19s"
+          },
+          {
+            "name": "Shadow Belt of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 95s"
+          },
+          {
+            "name": "Shimmering Staff of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Dagger",
+            "stats": [
+              "+18 Stamina",
+              "+12 Spirit"
+            ],
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 47s"
+          },
+          {
+            "name": "Shimmering Slippers of the Deep",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Cloth",
+            "stats": [
+              "+24 Spirit"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 60,
+            "sellPrice": "8g 39s"
+          },
+          {
+            "name": "Shadow Axe of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Dagger",
+            "stats": [
+              "+18 Spirit"
+            ],
+            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+            "requiresLevel": 60,
+            "sellPrice": "8g 11s"
+          },
+          {
+            "name": "Venerable Gloves of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Cloth",
+            "stats": [
+              "+18 Stamina",
+              "+12 Spirit"
+            ],
+            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 61s"
+          },
+          {
+            "name": "Void-Touched Footpads of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Mail",
+            "stats": [
+              "+18 Intellect",
+              "+12 Spirit"
+            ],
+            "effect": "Equip: +10 Shadow Resistance.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 2s"
+          },
+          {
+            "name": "Corrupted Mantle of Shattered Souls",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Cloth",
+            "stats": [
+              "+24 Intellect",
+              "+16 Spirit"
+            ],
+            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 80s"
+          },
+          {
+            "name": "Savage Greaves of the Crimson King",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Plate",
+            "stats": [
+              "+24 Agility",
+              "+16 Stamina"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 36s"
+          },
+          {
+            "name": "Venerable Crown of Shattered Souls",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Plate",
+            "stats": [
+              "+24 Stamina"
+            ],
+            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "requiresLevel": 60,
+            "sellPrice": "7g 34s"
+          },
+          {
+            "name": "Holy Slippers of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Cloth",
+            "stats": [
+              "+18 Spirit",
+              "+12 Intellect"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "10g 78s"
+          },
+          {
+            "name": "Ethereal Cord of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Plate",
+            "stats": [
+              "+18 Strength",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "2g 25s"
+          },
+          {
+            "name": "Venerable Mantle of Bloodletting",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Leather",
+            "stats": [
+              "+24 Stamina"
+            ],
+            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+            "requiresLevel": 60,
+            "sellPrice": "6g 89s"
+          },
+          {
+            "name": "Void-Touched Signet of the Void",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+24 Stamina",
+              "+16 Intellect"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 28s"
+          },
+          {
+            "name": "Savage Bow of the Deep",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Mace",
+            "stats": [
+              "+24 Intellect",
+              "+16 Spirit"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 34s"
+          },
+          {
+            "name": "Venerable Gloves of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Plate",
+            "stats": [
+              "+18 Stamina",
+              "+12 Agility"
+            ],
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+            "requiresLevel": 60,
+            "sellPrice": "4g 24s"
+          },
+          {
+            "name": "Shimmering Mitts of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Cloth",
+            "stats": [
+              "+24 Intellect",
+              "+16 Stamina"
+            ],
+            "effect": "Equip: Increases healing done by up to 25.",
+            "requiresLevel": 60,
+            "sellPrice": "4g 47s"
+          },
+          {
+            "name": "Void-Touched Mitts of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Plate",
+            "stats": [
+              "+18 Strength",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "3g 91s"
+          },
+          {
+            "name": "Holy Slippers of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Leather",
+            "stats": [
+              "+18 Strength",
+              "+12 Stamina"
+            ],
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 14s"
+          },
+          {
+            "name": "Shadow Tunic of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Cloth",
+            "stats": [
+              "+18 Spirit"
+            ],
+            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+            "requiresLevel": 60,
+            "sellPrice": "8g 6s"
+          },
+          {
+            "name": "Ancient Staff of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Axe",
+            "stats": [
+              "+18 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "2g 87s"
           }
         ]
       },
@@ -5373,47 +5364,264 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Savage Shield of the Deep",
+            "name": "Shadow Greatsword of Eternal Slumber",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
+            "slot": "Main Hand",
+            "type": "Axe",
             "stats": [
-              "+18 Stamina"
+              "+18 Stamina",
+              "+12 Agility"
             ],
-            "effect": "",
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
             "requiresLevel": 60,
-            "sellPrice": "10g 33s"
+            "sellPrice": "4g 89s"
           },
           {
-            "name": "Ethereal Dagger of Eternal Slumber",
+            "name": "Void-Touched Amulet of Shattered Souls",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Staff",
+            "slot": "Neck",
+            "type": "Necklace",
             "stats": [
-              "+24 Strength"
+              "+24 Spirit",
+              "+16 Intellect"
             ],
-            "effect": "Equip: +1% Critical Strike.",
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
             "requiresLevel": 60,
-            "sellPrice": "8g 33s"
+            "sellPrice": "5g 80s"
           },
           {
-            "name": "Ethereal Ring of the Unseen",
+            "name": "Corrupted Signet of Bloodletting",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Finger",
             "type": "Ring",
             "stats": [
-              "+18 Strength",
-              "+12 Agility"
+              "+18 Spirit",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "3g 49s"
+          },
+          {
+            "name": "Ethereal Brooch of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+            "requiresLevel": 60,
+            "sellPrice": "7g 6s"
+          },
+          {
+            "name": "Savage Dagger of the Crimson King",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Dagger",
+            "stats": [
+              "+24 Stamina"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "8g 61s"
+          },
+          {
+            "name": "Shadow Greaves of the Betrayer",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Leather",
+            "stats": [
+              "+24 Stamina",
+              "+16 Spirit"
+            ],
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+            "requiresLevel": 60,
+            "sellPrice": "3g 71s"
+          },
+          {
+            "name": "Holy Bow of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Sword",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 38s"
+          },
+          {
+            "name": "Ethereal Vambraces of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Leather",
+            "stats": [
+              "+18 Intellect"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "3g 12s"
+          },
+          {
+            "name": "Savage Bindings of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Cloth",
+            "stats": [
+              "+18 Spirit",
+              "+12 Intellect"
             ],
             "effect": "Equip: Restores 4 mana per 5 seconds.",
             "requiresLevel": 60,
-            "sellPrice": "1g 26s"
+            "sellPrice": "10g 84s"
           },
           {
-            "name": "Void-Touched Relic of the Archmage",
+            "name": "Shimmering Grips of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Plate",
+            "stats": [
+              "+18 Strength"
+            ],
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 30s"
+          },
+          {
+            "name": "Blood-Forged Axe of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Sword",
+            "stats": [
+              "+18 Stamina",
+              "+12 Strength"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "4g 28s"
+          },
+          {
+            "name": "Holy Epaulets of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Cloth",
+            "stats": [
+              "+18 Stamina"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 83s"
+          },
+          {
+            "name": "Ancient Bow of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Bow",
+            "stats": [
+              "+18 Intellect",
+              "+12 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "2g 35s"
+          },
+          {
+            "name": "Ancient Staff of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Sword",
+            "stats": [
+              "+18 Stamina",
+              "+12 Spirit"
+            ],
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "requiresLevel": 60,
+            "sellPrice": "6g 34s"
+          },
+          {
+            "name": "Blood-Forged Breastplate of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Mail",
+            "stats": [
+              "+18 Spirit",
+              "+12 Intellect"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "7g 60s"
+          },
+          {
+            "name": "Shadow Footpads of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Leather",
+            "stats": [
+              "+18 Stamina",
+              "+12 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "5g 8s"
+          },
+          {
+            "name": "Venerable Girdle of the Crimson King",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Leather",
+            "stats": [
+              "+24 Strength"
+            ],
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 65s"
+          },
+          {
+            "name": "Blood-Forged Treads of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "2g 96s"
+          },
+          {
+            "name": "Void-Touched Bulwark of Shattered Souls",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Off Hand",
+            "type": "Shield",
+            "stats": [
+              "+24 Stamina"
+            ],
+            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "requiresLevel": 60,
+            "sellPrice": "4g 42s"
+          },
+          {
+            "name": "Savage Relic of the Archmage",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Trinket",
@@ -5421,362 +5629,145 @@ export const pveData = {
             "stats": [],
             "effect": "Equip: +1% Critical Strike.",
             "requiresLevel": 60,
-            "sellPrice": "6g 45s"
+            "sellPrice": "8g 67s"
           },
           {
-            "name": "Ancient Greatsword of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Sword",
-            "stats": [
-              "+18 Strength",
-              "+12 Stamina"
-            ],
-            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 9s"
-          },
-          {
-            "name": "Ethereal Axe of the Unseen",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Staff",
-            "stats": [
-              "+24 Stamina"
-            ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 76s"
-          },
-          {
-            "name": "Savage Pants of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Mail",
-            "stats": [
-              "+18 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "9g 20s"
-          },
-          {
-            "name": "Blood-Forged Spaulders of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Cloth",
-            "stats": [
-              "+18 Spirit",
-              "+12 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "6g 80s"
-          },
-          {
-            "name": "Shimmering Treads of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Cloth",
-            "stats": [
-              "+18 Intellect",
-              "+12 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "9g 58s"
-          },
-          {
-            "name": "Void-Touched Helm of Shattered Souls",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Cloth",
-            "stats": [
-              "+24 Spirit"
-            ],
-            "effect": "Equip: +1% Hit chance.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 70s"
-          },
-          {
-            "name": "Shadow Signet of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
-            "stats": [
-              "+18 Strength",
-              "+12 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "10g 80s"
-          },
-          {
-            "name": "Ancient Loop of the Betrayer",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
-            "stats": [
-              "+24 Intellect",
-              "+16 Stamina"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 33s"
-          },
-          {
-            "name": "Void-Touched Waistguard of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Plate",
-            "stats": [
-              "+18 Agility",
-              "+12 Strength"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 1s"
-          },
-          {
-            "name": "Ancient Pauldrons of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Plate",
-            "stats": [
-              "+18 Stamina",
-              "+12 Agility"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 29s"
-          },
-          {
-            "name": "Ethereal Mitts of Bloodletting",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Mail",
-            "stats": [
-              "+24 Spirit"
-            ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 60,
-            "sellPrice": "6g 65s"
-          },
-          {
-            "name": "Holy Vambraces of the Deep",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Cloth",
-            "stats": [
-              "+24 Spirit"
-            ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 65s"
-          },
-          {
-            "name": "Savage Necklace of the Void",
+            "name": "Holy Collar of Shattered Souls",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Neck",
             "type": "Necklace",
             "stats": [
-              "+18 Intellect",
-              "+12 Spirit"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 21s"
-          },
-          {
-            "name": "Ethereal Mask of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Plate",
-            "stats": [
-              "+18 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "3g 38s"
-          },
-          {
-            "name": "Void-Touched Bow of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Mace",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "1g 21s"
-          },
-          {
-            "name": "Savage Wristguards of Eternal Slumber",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Plate",
-            "stats": [
-              "+24 Strength",
-              "+16 Agility"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 35s"
-          },
-          {
-            "name": "Venerable Kilt of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Cloth",
-            "stats": [
-              "+18 Stamina",
+              "+18 Spirit",
               "+12 Intellect"
             ],
-            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "9g 94s"
+            "sellPrice": "9g 12s"
           },
           {
-            "name": "Blood-Forged Slippers of the Forgotten",
+            "name": "Blood-Forged Loop of Bloodletting",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+24 Agility",
+              "+16 Strength"
+            ],
+            "effect": "Equip: +10 Shadow Resistance.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 70s"
+          },
+          {
+            "name": "Ethereal Gauntlets of the Forgotten",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Feet",
+            "slot": "Hands",
+            "type": "Plate",
+            "stats": [
+              "+18 Agility",
+              "+12 Strength"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "2g 68s"
+          },
+          {
+            "name": "Shimmering Cord of Bloodletting",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Cloth",
+            "stats": [
+              "+24 Spirit",
+              "+16 Intellect"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "4g 52s"
+          },
+          {
+            "name": "Corrupted Harness of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
             "type": "Cloth",
             "stats": [
               "+18 Spirit",
               "+12 Stamina"
             ],
-            "effect": "",
+            "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
             "requiresLevel": 60,
-            "sellPrice": "4g 97s"
+            "sellPrice": "3g 90s"
           },
           {
-            "name": "Shadow Blade of the Void",
+            "name": "Corrupted Breastplate of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Leather",
+            "stats": [
+              "+18 Intellect",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "6g 21s"
+          },
+          {
+            "name": "Ethereal Amulet of the Betrayer",
             "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+24 Agility"
+            ],
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 90s"
+          },
+          {
+            "name": "Ethereal Aegis of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Off Hand",
+            "type": "Shield",
+            "stats": [
+              "+24 Strength"
+            ],
+            "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 11s"
+          },
+          {
+            "name": "Void-Touched Greatsword of Eternal Slumber",
+            "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "One-Hand",
             "type": "Mace",
             "stats": [
-              "+24 Stamina",
-              "+16 Agility"
+              "+18 Agility",
+              "+12 Strength"
             ],
-            "effect": "Equip: Increases healing done by up to 25.",
+            "effect": "",
             "requiresLevel": 60,
-            "sellPrice": "7g 13s"
+            "sellPrice": "5g 53s"
           },
           {
-            "name": "Shimmering Grips of the Crimson King",
+            "name": "Void-Touched Sash of the Betrayer",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Hands",
+            "slot": "Waist",
             "type": "Cloth",
             "stats": [
               "+18 Intellect",
-              "+12 Spirit"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "10g 57s"
-          },
-          {
-            "name": "Savage Grips of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Plate",
-            "stats": [
-              "+18 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "4g 11s"
-          },
-          {
-            "name": "Blood-Forged Mantle of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Leather",
-            "stats": [
-              "+18 Strength",
-              "+12 Agility"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 0s"
-          },
-          {
-            "name": "Venerable Sash of Eternal Slumber",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Mail",
-            "stats": [
-              "+24 Spirit",
-              "+16 Intellect"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "10g 71s"
-          },
-          {
-            "name": "Shimmering Bow of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Mace",
-            "stats": [
-              "+18 Stamina",
-              "+12 Intellect"
-            ],
-            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 97s"
-          },
-          {
-            "name": "Venerable Footpads of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Leather",
-            "stats": [
-              "+24 Stamina"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 10s"
-          },
-          {
-            "name": "Void-Touched Mantle of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Plate",
-            "stats": [
-              "+18 Strength",
               "+12 Stamina"
             ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "effect": "Equip: +1% Hit chance.",
             "requiresLevel": 60,
-            "sellPrice": "4g 23s"
+            "sellPrice": "3g 79s"
           }
         ]
       }
@@ -5814,123 +5805,59 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Void-Touched Gloves of the Deep",
+            "name": "Venerable Bow of the Forgotten",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Staff",
+            "stats": [
+              "+24 Stamina",
+              "+16 Spirit"
+            ],
+            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 3s"
+          },
+          {
+            "name": "Savage Mitts of Bloodletting",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Hands",
-            "type": "Plate",
-            "stats": [
-              "+18 Agility"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 61s"
-          },
-          {
-            "name": "Ethereal Medallion of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
-            "requiresLevel": 60,
-            "sellPrice": "10g 10s"
-          },
-          {
-            "name": "Holy Choker of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+18 Strength"
-            ],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 96s"
-          },
-          {
-            "name": "Savage Slippers of Shattered Souls",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
             "type": "Cloth",
-            "stats": [
-              "+24 Spirit",
-              "+16 Stamina"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 60,
-            "sellPrice": "3g 1s"
-          },
-          {
-            "name": "Savage Amulet of the Void",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+24 Stamina",
-              "+16 Strength"
-            ],
-            "effect": "Equip: +10 Shadow Resistance.",
-            "requiresLevel": 60,
-            "sellPrice": "2g 4s"
-          },
-          {
-            "name": "Blood-Forged Mantle of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Leather",
-            "stats": [
-              "+18 Agility",
-              "+12 Strength"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 76s"
-          },
-          {
-            "name": "Venerable Mantle of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Plate",
             "stats": [
               "+18 Stamina",
-              "+12 Strength"
+              "+12 Intellect"
             ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
             "requiresLevel": 60,
-            "sellPrice": "6g 77s"
+            "sellPrice": "3g 58s"
           },
           {
-            "name": "Void-Touched Mask of the Void",
-            "rarity": "Rare",
+            "name": "Shadow Crown of the Unseen",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Head",
-            "type": "Cloth",
+            "type": "Leather",
             "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "10g 66s"
-          },
-          {
-            "name": "Corrupted Blade of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Axe",
-            "stats": [
-              "+18 Spirit"
+              "+24 Strength"
             ],
             "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
             "requiresLevel": 60,
-            "sellPrice": "10g 3s"
+            "sellPrice": "4g 5s"
+          },
+          {
+            "name": "Shimmering Pendant of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Neck",
+            "type": "Necklace",
+            "stats": [
+              "+18 Strength",
+              "+12 Stamina"
+            ],
+            "effect": "Equip: Increases healing done by up to 25.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 33s"
           },
           {
             "name": "Ancient Gloves of Shattered Souls",
@@ -5940,218 +5867,277 @@ export const pveData = {
             "type": "Leather",
             "stats": [
               "+24 Stamina",
-              "+16 Agility"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "5g 33s"
-          },
-          {
-            "name": "Venerable Bracers of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Cloth",
-            "stats": [
-              "+18 Intellect",
-              "+12 Spirit"
-            ],
-            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
-            "requiresLevel": 60,
-            "sellPrice": "1g 88s"
-          },
-          {
-            "name": "Holy Footpads of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Leather",
-            "stats": [
-              "+18 Stamina",
-              "+12 Spirit"
-            ],
-            "effect": "Equip: Increases healing done by up to 25.",
-            "requiresLevel": 60,
-            "sellPrice": "8g 59s"
-          },
-          {
-            "name": "Blood-Forged Slippers of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Cloth",
-            "stats": [
-              "+18 Spirit",
-              "+12 Stamina"
-            ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 60,
-            "sellPrice": "1g 57s"
-          },
-          {
-            "name": "Holy Gavel of Eternal Slumber",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Staff",
-            "stats": [
-              "+24 Stamina",
-              "+16 Spirit"
-            ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 60,
-            "sellPrice": "9g 97s"
-          },
-          {
-            "name": "Savage Cuffs of Eternal Slumber",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Plate",
-            "stats": [
-              "+24 Stamina",
-              "+16 Strength"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 80s"
-          },
-          {
-            "name": "Shadow Cowl of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Cloth",
-            "stats": [
-              "+24 Spirit",
               "+16 Intellect"
             ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "1g 89s"
-          },
-          {
-            "name": "Shimmering Gavel of Eternal Slumber",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Axe",
-            "stats": [
-              "+24 Intellect",
-              "+16 Stamina"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 60,
-            "sellPrice": "7g 93s"
-          },
-          {
-            "name": "Ancient Kilt of the Deep",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Mail",
-            "stats": [
-              "+18 Stamina"
-            ],
             "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
             "requiresLevel": 60,
-            "sellPrice": "4g 84s"
+            "sellPrice": "8g 97s"
           },
           {
-            "name": "Corrupted Blade of the Forgotten",
+            "name": "Shimmering Choker of the Forgotten",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Sword",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-            "requiresLevel": 60,
-            "sellPrice": "4g 63s"
-          },
-          {
-            "name": "Venerable Blade of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Mace",
-            "stats": [
-              "+18 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "9g 40s"
-          },
-          {
-            "name": "Holy Slippers of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Cloth",
-            "stats": [
-              "+18 Intellect",
-              "+12 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 60,
-            "sellPrice": "2g 2s"
-          },
-          {
-            "name": "Ethereal Handguards of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Cloth",
+            "slot": "Neck",
+            "type": "Necklace",
             "stats": [
               "+18 Spirit",
-              "+12 Stamina"
+              "+12 Intellect"
             ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
             "requiresLevel": 60,
-            "sellPrice": "10g 16s"
+            "sellPrice": "2g 76s"
           },
           {
-            "name": "Void-Touched Ring of Eternal Slumber",
+            "name": "Holy Signet of Shattered Souls",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Finger",
             "type": "Ring",
             "stats": [
-              "+24 Spirit",
-              "+16 Intellect"
+              "+24 Agility"
             ],
-            "effect": "Equip: Increases spell damage by up to 15.",
+            "effect": "Equip: Increases healing done by up to 25.",
             "requiresLevel": 60,
-            "sellPrice": "7g 82s"
+            "sellPrice": "6g 73s"
           },
           {
-            "name": "Ethereal Greatsword of Shattered Souls",
+            "name": "Corrupted Greatsword of Bloodletting",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Sword",
+            "stats": [
+              "+24 Intellect",
+              "+16 Stamina"
+            ],
+            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "4g 66s"
+          },
+          {
+            "name": "Void-Touched Relic of the Void",
             "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "requiresLevel": 60,
+            "sellPrice": "1g 59s"
+          },
+          {
+            "name": "Blood-Forged Tunic of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Mail",
+            "stats": [
+              "+18 Agility",
+              "+12 Stamina"
+            ],
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+            "requiresLevel": 60,
+            "sellPrice": "9g 39s"
+          },
+          {
+            "name": "Void-Touched Leggings of Eternal Slumber",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Cloth",
+            "stats": [
+              "+24 Stamina",
+              "+16 Intellect"
+            ],
+            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 53s"
+          },
+          {
+            "name": "Savage Loop of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+18 Strength"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "10g 29s"
+          },
+          {
+            "name": "Blood-Forged Leggings of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Cloth",
+            "stats": [
+              "+18 Intellect",
+              "+12 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "3g 53s"
+          },
+          {
+            "name": "Ancient Blade of Eternal Slumber",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Main Hand",
             "type": "Axe",
             "stats": [
-              "+18 Stamina",
-              "+12 Agility"
+              "+24 Stamina",
+              "+16 Agility"
             ],
-            "effect": "Equip: +1% Critical Strike.",
+            "effect": "Equip: +10 Shadow Resistance.",
             "requiresLevel": 60,
-            "sellPrice": "9g 96s"
+            "sellPrice": "9g 71s"
           },
           {
-            "name": "Corrupted Spaulders of the Void",
-            "rarity": "Rare",
+            "name": "Corrupted Brooch of the Deep",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Shoulder",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 50s"
+          },
+          {
+            "name": "Venerable Breastplate of the Void",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
             "type": "Cloth",
             "stats": [
-              "+18 Stamina",
-              "+12 Spirit"
+              "+24 Intellect"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 9s"
+          },
+          {
+            "name": "Corrupted Cuffs of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Leather",
+            "stats": [
+              "+18 Strength",
+              "+12 Agility"
             ],
             "effect": "Equip: Increases spell damage by up to 15.",
             "requiresLevel": 60,
-            "sellPrice": "8g 34s"
+            "sellPrice": "1g 94s"
+          },
+          {
+            "name": "Holy Bracers of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Cloth",
+            "stats": [
+              "+18 Stamina"
+            ],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 25s"
+          },
+          {
+            "name": "Savage Dagger of the Archmage",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Axe",
+            "stats": [
+              "+18 Stamina"
+            ],
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "requiresLevel": 60,
+            "sellPrice": "4g 57s"
+          },
+          {
+            "name": "Savage Tunic of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Leather",
+            "stats": [
+              "+18 Intellect",
+              "+12 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "3g 0s"
+          },
+          {
+            "name": "Blood-Forged Blade of the Unseen",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Bow",
+            "stats": [
+              "+24 Stamina"
+            ],
+            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+            "requiresLevel": 60,
+            "sellPrice": "5g 55s"
+          },
+          {
+            "name": "Corrupted Blade of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Bow",
+            "stats": [
+              "+18 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "1g 35s"
+          },
+          {
+            "name": "Shimmering Gauntlets of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Plate",
+            "stats": [
+              "+18 Stamina"
+            ],
+            "effect": "Equip: Increases healing done by up to 25.",
+            "requiresLevel": 60,
+            "sellPrice": "2g 68s"
+          },
+          {
+            "name": "Blood-Forged Loop of the Betrayer",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+24 Intellect",
+              "+16 Spirit"
+            ],
+            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
+            "requiresLevel": 60,
+            "sellPrice": "10g 69s"
+          },
+          {
+            "name": "Corrupted Sabatons of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Plate",
+            "stats": [
+              "+18 Stamina",
+              "+12 Strength"
+            ],
+            "effect": "",
+            "requiresLevel": 60,
+            "sellPrice": "5g 51s"
           }
         ]
       }
@@ -6189,172 +6175,230 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Holy Bow of the Archmage",
+            "name": "Corrupted Dagger of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Staff",
+            "stats": [
+              "+15 Strength",
+              "+10 Stamina"
+            ],
+            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+            "requiresLevel": 50,
+            "sellPrice": "8g 89s"
+          },
+          {
+            "name": "Ancient Axe of the Crimson King",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Dagger",
+            "slot": "Two-Hand",
+            "type": "Staff",
+            "stats": [
+              "+21 Agility"
+            ],
+            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "requiresLevel": 50,
+            "sellPrice": "5g 33s"
+          },
+          {
+            "name": "Venerable Medallion of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 50,
+            "sellPrice": "8g 27s"
+          },
+          {
+            "name": "Holy Bow of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Sword",
+            "stats": [
+              "+15 Agility",
+              "+10 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 50,
+            "sellPrice": "3g 48s"
+          },
+          {
+            "name": "Void-Touched Medallion of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 50,
+            "sellPrice": "7g 85s"
+          },
+          {
+            "name": "Blood-Forged Boots of the Deep",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Feet",
+            "type": "Cloth",
+            "stats": [
+              "+21 Stamina",
+              "+14 Spirit"
+            ],
+            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+            "requiresLevel": 50,
+            "sellPrice": "1g 84s"
+          },
+          {
+            "name": "Void-Touched Shield of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Off Hand",
+            "type": "Shield",
+            "stats": [
+              "+15 Stamina",
+              "+10 Strength"
+            ],
+            "effect": "",
+            "requiresLevel": 50,
+            "sellPrice": "10g 8s"
+          },
+          {
+            "name": "Shimmering Aegis of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Off Hand",
+            "type": "Shield",
+            "stats": [
+              "+15 Strength",
+              "+10 Stamina"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 50,
+            "sellPrice": "8g 94s"
+          },
+          {
+            "name": "Corrupted Charm of the Crimson King",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 50,
+            "sellPrice": "8g 80s"
+          },
+          {
+            "name": "Holy Gloves of the Void",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Cloth",
             "stats": [
               "+21 Intellect",
               "+14 Spirit"
             ],
-            "effect": "Equip: +1% Hit chance.",
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
             "requiresLevel": 50,
-            "sellPrice": "4g 71s"
+            "sellPrice": "7g 25s"
           },
           {
-            "name": "Void-Touched Belt of the Unseen",
+            "name": "Ancient Charm of the Betrayer",
             "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Plate",
-            "stats": [
-              "+21 Strength"
-            ],
-            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
-            "requiresLevel": 50,
-            "sellPrice": "4g 74s"
-          },
-          {
-            "name": "Shimmering Talisman of Bloodletting",
-            "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Trinket",
             "type": "Trinket",
             "stats": [],
             "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
             "requiresLevel": 50,
-            "sellPrice": "10g 24s"
+            "sellPrice": "5g 24s"
           },
           {
-            "name": "Blood-Forged Cuffs of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Plate",
-            "stats": [
-              "+21 Strength",
-              "+14 Stamina"
-            ],
-            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
-            "requiresLevel": 50,
-            "sellPrice": "10g 28s"
-          },
-          {
-            "name": "Venerable Vambraces of the Unseen",
+            "name": "Blood-Forged Blade of the Void",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Plate",
+            "slot": "One-Hand",
+            "type": "Axe",
             "stats": [
-              "+15 Strength",
-              "+10 Stamina"
+              "+15 Stamina"
             ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
             "requiresLevel": 50,
-            "sellPrice": "1g 91s"
+            "sellPrice": "5g 48s"
           },
           {
-            "name": "Corrupted Dagger of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Sword",
-            "stats": [
-              "+15 Agility"
-            ],
-            "effect": "",
-            "requiresLevel": 50,
-            "sellPrice": "9g 90s"
-          },
-          {
-            "name": "Ethereal Mask of Bloodletting",
+            "name": "Shimmering Belt of the Betrayer",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Plate",
+            "slot": "Waist",
+            "type": "Cloth",
             "stats": [
-              "+21 Strength",
+              "+21 Spirit",
               "+14 Stamina"
             ],
             "effect": "Equip: Increases spell damage by up to 15.",
             "requiresLevel": 50,
-            "sellPrice": "10g 78s"
+            "sellPrice": "8g 1s"
           },
           {
-            "name": "Savage Kilt of the Unseen",
+            "name": "Shadow Gavel of the Deep",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Cloth",
+            "slot": "Two-Hand",
+            "type": "Bow",
             "stats": [
-              "+15 Spirit",
-              "+10 Intellect"
+              "+15 Stamina"
             ],
-            "effect": "",
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
             "requiresLevel": 50,
-            "sellPrice": "1g 11s"
+            "sellPrice": "8g 24s"
           },
           {
-            "name": "Shimmering Spaulders of the Forgotten",
+            "name": "Savage Girdle of Eternal Slumber",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Shoulder",
+            "slot": "Waist",
             "type": "Mail",
             "stats": [
               "+21 Strength",
-              "+14 Agility"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 50,
-            "sellPrice": "7g 94s"
-          },
-          {
-            "name": "Ethereal Vambraces of the Unseen",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Cloth",
-            "stats": [
-              "+21 Intellect",
               "+14 Stamina"
             ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "effect": "Equip: Increases healing done by up to 25.",
             "requiresLevel": 50,
-            "sellPrice": "10g 25s"
+            "sellPrice": "7g 43s"
           },
           {
-            "name": "Holy Spaulders of the Forgotten",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Leather",
-            "stats": [
-              "+21 Agility",
-              "+14 Stamina"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 50,
-            "sellPrice": "8g 96s"
-          },
-          {
-            "name": "Corrupted Collar of Bloodletting",
+            "name": "Ethereal Brooch of the Archmage",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+15 Agility"
-            ],
-            "effect": "",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
             "requiresLevel": 50,
-            "sellPrice": "3g 87s"
+            "sellPrice": "1g 35s"
           },
           {
-            "name": "Ancient Greaves of the Betrayer",
+            "name": "Savage Gavel of the Betrayer",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Legs",
+            "slot": "One-Hand",
+            "type": "Axe",
+            "stats": [
+              "+15 Strength",
+              "+10 Agility"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 50,
+            "sellPrice": "2g 36s"
+          },
+          {
+            "name": "Corrupted Girdle of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
             "type": "Plate",
             "stats": [
               "+15 Stamina",
@@ -6362,103 +6406,34 @@ export const pveData = {
             ],
             "effect": "",
             "requiresLevel": 50,
-            "sellPrice": "6g 93s"
+            "sellPrice": "4g 35s"
           },
           {
-            "name": "Savage Shield of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
-            "stats": [
-              "+15 Stamina",
-              "+10 Agility"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 50,
-            "sellPrice": "3g 46s"
-          },
-          {
-            "name": "Holy Bulwark of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
-            "stats": [
-              "+15 Agility",
-              "+10 Stamina"
-            ],
-            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
-            "requiresLevel": 50,
-            "sellPrice": "9g 79s"
-          },
-          {
-            "name": "Holy Staff of Eternal Slumber",
+            "name": "Ancient Gavel of the Archmage",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Dagger",
+            "slot": "Two-Hand",
+            "type": "Staff",
             "stats": [
               "+21 Strength",
               "+14 Agility"
             ],
-            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+            "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
             "requiresLevel": 50,
-            "sellPrice": "3g 98s"
+            "sellPrice": "8g 5s"
           },
           {
-            "name": "Shimmering Greatsword of Bloodletting",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Dagger",
-            "stats": [
-              "+15 Strength",
-              "+10 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 50,
-            "sellPrice": "10g 87s"
-          },
-          {
-            "name": "Ancient Cord of the Void",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Leather",
-            "stats": [
-              "+21 Stamina"
-            ],
-            "effect": "Equip: +10 Shadow Resistance.",
-            "requiresLevel": 50,
-            "sellPrice": "10g 33s"
-          },
-          {
-            "name": "Shadow Belt of the Crimson King",
+            "name": "Shadow Cord of the Crimson King",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Waist",
             "type": "Plate",
             "stats": [
-              "+15 Agility"
+              "+15 Strength"
             ],
             "effect": "",
             "requiresLevel": 50,
-            "sellPrice": "3g 31s"
-          },
-          {
-            "name": "Blood-Forged Bracers of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Plate",
-            "stats": [
-              "+21 Agility",
-              "+14 Strength"
-            ],
-            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
-            "requiresLevel": 50,
-            "sellPrice": "2g 92s"
+            "sellPrice": "1g 7s"
           }
         ]
       }
@@ -6495,277 +6470,261 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Savage Cowl of the Crimson King",
+            "name": "Holy Slippers of the Void",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Head",
+            "slot": "Feet",
             "type": "Cloth",
             "stats": [
-              "+13 Intellect"
+              "+13 Stamina"
             ],
-            "effect": "",
+            "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
             "requiresLevel": 45,
-            "sellPrice": "3g 97s"
+            "sellPrice": "8g 15s"
           },
           {
-            "name": "Venerable Mantle of Eternal Slumber",
+            "name": "Shimmering Brooch of the Crimson King",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Shoulder",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 45,
+            "sellPrice": "9g 97s"
+          },
+          {
+            "name": "Ethereal Greaves of the Crimson King",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
             "type": "Cloth",
             "stats": [
-              "+13 Stamina",
-              "+8 Intellect"
+              "+19 Spirit",
+              "+12 Stamina"
             ],
-            "effect": "",
+            "effect": "Equip: +1% Hit chance.",
             "requiresLevel": 45,
-            "sellPrice": "4g 81s"
+            "sellPrice": "10g 82s"
           },
           {
-            "name": "Void-Touched Gavel of the Betrayer",
+            "name": "Holy Medallion of the Unseen",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Main Hand",
-            "type": "Sword",
-            "stats": [
-              "+19 Agility"
-            ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 45,
-            "sellPrice": "3g 20s"
-          },
-          {
-            "name": "Void-Touched Helm of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Plate",
-            "stats": [
-              "+13 Agility",
-              "+8 Stamina"
-            ],
-            "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
-            "requiresLevel": 45,
-            "sellPrice": "5g 80s"
-          },
-          {
-            "name": "Shadow Gavel of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
-            "stats": [
-              "+19 Stamina",
-              "+12 Intellect"
-            ],
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
             "effect": "Equip: Increases healing done by up to 25.",
             "requiresLevel": 45,
-            "sellPrice": "3g 36s"
+            "sellPrice": "6g 62s"
           },
           {
-            "name": "Shadow Loop of Shattered Souls",
+            "name": "Corrupted Breastplate of Bloodletting",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
+            "slot": "Chest",
+            "type": "Cloth",
+            "stats": [
+              "+19 Stamina"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 45,
+            "sellPrice": "5g 57s"
+          },
+          {
+            "name": "Blood-Forged Tunic of the Deep",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Mail",
             "stats": [
               "+19 Spirit"
             ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
             "requiresLevel": 45,
-            "sellPrice": "4g 19s"
+            "sellPrice": "3g 26s"
           },
           {
-            "name": "Shimmering Signet of the Crimson King",
+            "name": "Holy Relic of Bloodletting",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
-            "slot": "Finger",
-            "type": "Ring",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: Increases healing done by up to 25.",
+            "requiresLevel": 45,
+            "sellPrice": "4g 79s"
+          },
+          {
+            "name": "Corrupted Leggings of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Cloth",
+            "stats": [
+              "+13 Spirit"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 45,
+            "sellPrice": "8g 31s"
+          },
+          {
+            "name": "Ancient Charm of the Betrayer",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: Increases healing done by up to 25.",
+            "requiresLevel": 45,
+            "sellPrice": "9g 10s"
+          },
+          {
+            "name": "Void-Touched Waistguard of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Leather",
             "stats": [
               "+13 Strength"
             ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 45,
-            "sellPrice": "5g 36s"
-          },
-          {
-            "name": "Holy Robes of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Plate",
-            "stats": [
-              "+13 Stamina",
-              "+8 Strength"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 45,
-            "sellPrice": "4g 69s"
-          },
-          {
-            "name": "Shimmering Treads of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Plate",
-            "stats": [
-              "+13 Agility",
-              "+8 Stamina"
-            ],
-            "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
-            "requiresLevel": 45,
-            "sellPrice": "8g 11s"
-          },
-          {
-            "name": "Ancient Amice of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Mail",
-            "stats": [
-              "+13 Agility",
-              "+8 Strength"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
-            "requiresLevel": 45,
-            "sellPrice": "8g 71s"
-          },
-          {
-            "name": "Ancient Circlet of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Cloth",
-            "stats": [
-              "+13 Stamina",
-              "+8 Intellect"
-            ],
-            "effect": "Equip: +10 Shadow Resistance.",
-            "requiresLevel": 45,
-            "sellPrice": "7g 7s"
-          },
-          {
-            "name": "Corrupted Slippers of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Plate",
-            "stats": [
-              "+13 Agility",
-              "+8 Strength"
-            ],
             "effect": "",
-            "requiresLevel": 45,
-            "sellPrice": "3g 97s"
-          },
-          {
-            "name": "Holy Pauldrons of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Plate",
-            "stats": [
-              "+13 Agility"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 45,
-            "sellPrice": "1g 84s"
-          },
-          {
-            "name": "Void-Touched Gauntlets of the Void",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Leather",
-            "stats": [
-              "+13 Agility",
-              "+8 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 45,
-            "sellPrice": "8g 36s"
-          },
-          {
-            "name": "Venerable Cuffs of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Wrist",
-            "type": "Plate",
-            "stats": [
-              "+13 Agility",
-              "+8 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 45,
-            "sellPrice": "1g 21s"
-          },
-          {
-            "name": "Ethereal Mask of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Cloth",
-            "stats": [
-              "+13 Intellect",
-              "+8 Spirit"
-            ],
-            "effect": "",
-            "requiresLevel": 45,
-            "sellPrice": "6g 16s"
-          },
-          {
-            "name": "Venerable Circlet of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Head",
-            "type": "Leather",
-            "stats": [
-              "+13 Strength",
-              "+8 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 45,
-            "sellPrice": "6g 77s"
-          },
-          {
-            "name": "Holy Blade of the Forgotten",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
-            "stats": [
-              "+19 Stamina",
-              "+12 Intellect"
-            ],
-            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
-            "requiresLevel": 45,
-            "sellPrice": "10g 86s"
-          },
-          {
-            "name": "Ancient Amice of Bloodletting",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Leather",
-            "stats": [
-              "+19 Agility"
-            ],
-            "effect": "Equip: Restores 4 mana per 5 seconds.",
             "requiresLevel": 45,
             "sellPrice": "3g 13s"
           },
           {
-            "name": "Holy Necklace of Bloodletting",
+            "name": "Venerable Harness of Bloodletting",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
+            "slot": "Chest",
+            "type": "Mail",
             "stats": [
-              "+19 Stamina"
+              "+19 Strength",
+              "+12 Stamina"
             ],
-            "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+            "effect": "Equip: Increases spell damage by up to 15.",
             "requiresLevel": 45,
-            "sellPrice": "9g 4s"
+            "sellPrice": "8g 30s"
+          },
+          {
+            "name": "Venerable Bow of the Void",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Axe",
+            "stats": [
+              "+19 Intellect",
+              "+12 Stamina"
+            ],
+            "effect": "Equip: +10 Shadow Resistance.",
+            "requiresLevel": 45,
+            "sellPrice": "5g 9s"
+          },
+          {
+            "name": "Ancient Medallion of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+            "requiresLevel": 45,
+            "sellPrice": "3g 62s"
+          },
+          {
+            "name": "Savage Seal of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+13 Stamina",
+              "+8 Agility"
+            ],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 45,
+            "sellPrice": "9g 45s"
+          },
+          {
+            "name": "Blood-Forged Axe of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Axe",
+            "stats": [
+              "+13 Agility",
+              "+8 Stamina"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 45,
+            "sellPrice": "9g 93s"
+          },
+          {
+            "name": "Savage Axe of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Mace",
+            "stats": [
+              "+13 Agility"
+            ],
+            "effect": "",
+            "requiresLevel": 45,
+            "sellPrice": "9g 23s"
+          },
+          {
+            "name": "Ancient Gavel of Eternal Slumber",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Two-Hand",
+            "type": "Bow",
+            "stats": [
+              "+19 Agility",
+              "+12 Strength"
+            ],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 45,
+            "sellPrice": "2g 60s"
+          },
+          {
+            "name": "Savage Sash of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Plate",
+            "stats": [
+              "+13 Stamina"
+            ],
+            "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
+            "requiresLevel": 45,
+            "sellPrice": "7g 40s"
+          },
+          {
+            "name": "Shimmering Breastplate of the Deep",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Chest",
+            "type": "Mail",
+            "stats": [
+              "+13 Strength"
+            ],
+            "effect": "Equip: +10 Shadow Resistance.",
+            "requiresLevel": 45,
+            "sellPrice": "4g 43s"
+          },
+          {
+            "name": "Ethereal Epaulets of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Shoulder",
+            "type": "Cloth",
+            "stats": [
+              "+13 Intellect",
+              "+8 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 45,
+            "sellPrice": "9g 81s"
           }
         ]
       }
@@ -6803,270 +6762,267 @@ export const pveData = {
         ],
         "loot": [
           {
-            "name": "Blood-Forged Bow of the Archmage",
-            "rarity": "Rare",
+            "name": "Shadow Charm of the Void",
+            "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Mace",
-            "stats": [
-              "+16 Stamina",
-              "+10 Spirit"
-            ],
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
             "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
             "requiresLevel": 55,
-            "sellPrice": "4g 44s"
+            "sellPrice": "2g 31s"
           },
           {
-            "name": "Holy Mantle of Eternal Slumber",
+            "name": "Blood-Forged Axe of the Archmage",
             "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Shoulder",
-            "type": "Plate",
-            "stats": [
-              "+22 Stamina",
-              "+14 Strength"
-            ],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 55,
-            "sellPrice": "6g 84s"
-          },
-          {
-            "name": "Holy Boots of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Feet",
-            "type": "Cloth",
-            "stats": [
-              "+16 Intellect",
-              "+10 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 55,
-            "sellPrice": "2g 14s"
-          },
-          {
-            "name": "Shimmering Collar of the Betrayer",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Neck",
-            "type": "Necklace",
-            "stats": [
-              "+16 Spirit"
-            ],
-            "effect": "Equip: +20 Attack Power.",
-            "requiresLevel": 55,
-            "sellPrice": "5g 81s"
-          },
-          {
-            "name": "Void-Touched Gavel of Eternal Slumber",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
-            "stats": [
-              "+16 Spirit",
-              "+10 Intellect"
-            ],
-            "effect": "",
-            "requiresLevel": 55,
-            "sellPrice": "3g 58s"
-          },
-          {
-            "name": "Savage Tunic of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Chest",
-            "type": "Mail",
-            "stats": [
-              "+16 Stamina",
-              "+10 Strength"
-            ],
-            "effect": "Equip: +10 Shadow Resistance.",
-            "requiresLevel": 55,
-            "sellPrice": "4g 77s"
-          },
-          {
-            "name": "Holy Gauntlets of the Forgotten",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Cloth",
-            "stats": [
-              "+16 Stamina"
-            ],
-            "effect": "",
-            "requiresLevel": 55,
-            "sellPrice": "5g 12s"
-          },
-          {
-            "name": "Savage Aegis of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Off Hand",
-            "type": "Shield",
-            "stats": [
-              "+16 Strength",
-              "+10 Stamina"
-            ],
-            "effect": "Equip: +1% Critical Strike.",
-            "requiresLevel": 55,
-            "sellPrice": "5g 76s"
-          },
-          {
-            "name": "Holy Relic of the Crimson King",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: Increases your resistance to all schools of magic by 10.",
-            "requiresLevel": 55,
-            "sellPrice": "3g 38s"
-          },
-          {
-            "name": "Ancient Axe of the Archmage",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "One-Hand",
-            "type": "Mace",
-            "stats": [
-              "+22 Stamina",
-              "+14 Strength"
-            ],
-            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-            "requiresLevel": 55,
-            "sellPrice": "9g 7s"
-          },
-          {
-            "name": "Ethereal Blade of Shattered Souls",
-            "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Main Hand",
-            "type": "Sword",
+            "type": "Mace",
             "stats": [
-              "+16 Stamina",
-              "+10 Spirit"
+              "+22 Intellect",
+              "+14 Stamina"
             ],
-            "effect": "Equip: Increases healing done by up to 25.",
-            "requiresLevel": 55,
-            "sellPrice": "1g 30s"
-          },
-          {
-            "name": "Venerable Leggings of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Legs",
-            "type": "Leather",
-            "stats": [
-              "+16 Stamina"
-            ],
-            "effect": "Equip: +1% Hit chance.",
-            "requiresLevel": 55,
-            "sellPrice": "4g 90s"
-          },
-          {
-            "name": "Void-Touched Talisman of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
-            "effect": "Equip: Increases spell damage by up to 15.",
-            "requiresLevel": 55,
-            "sellPrice": "6g 34s"
-          },
-          {
-            "name": "Corrupted Bow of the Archmage",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Bow",
-            "stats": [
-              "+16 Strength"
-            ],
-            "effect": "",
-            "requiresLevel": 55,
-            "sellPrice": "6g 65s"
-          },
-          {
-            "name": "Blood-Forged Blade of the Crimson King",
-            "rarity": "Epic",
-            "bindType": "Binds when picked up",
-            "slot": "Two-Hand",
-            "type": "Staff",
-            "stats": [
-              "+22 Agility",
-              "+14 Strength"
-            ],
-            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-            "requiresLevel": 55,
-            "sellPrice": "4g 46s"
-          },
-          {
-            "name": "Blood-Forged Gloves of the Unseen",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Hands",
-            "type": "Cloth",
-            "stats": [
-              "+16 Stamina",
-              "+10 Spirit"
-            ],
-            "effect": "",
-            "requiresLevel": 55,
-            "sellPrice": "1g 11s"
-          },
-          {
-            "name": "Corrupted Charm of Shattered Souls",
-            "rarity": "Rare",
-            "bindType": "Binds when picked up",
-            "slot": "Trinket",
-            "type": "Trinket",
-            "stats": [],
             "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
             "requiresLevel": 55,
-            "sellPrice": "9g 36s"
+            "sellPrice": "10g 82s"
           },
           {
-            "name": "Void-Touched Loop of Bloodletting",
+            "name": "Holy Brooch of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: +1% Hit chance.",
+            "requiresLevel": 55,
+            "sellPrice": "8g 81s"
+          },
+          {
+            "name": "Blood-Forged Loop of the Deep",
             "rarity": "Rare",
             "bindType": "Binds when picked up",
             "slot": "Finger",
             "type": "Ring",
             "stats": [
-              "+16 Agility"
+              "+16 Stamina",
+              "+10 Agility"
+            ],
+            "effect": "Equip: Increases spell damage by up to 15.",
+            "requiresLevel": 55,
+            "sellPrice": "2g 73s"
+          },
+          {
+            "name": "Corrupted Brooch of the Crimson King",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Equip: Restores 4 mana per 5 seconds.",
+            "requiresLevel": 55,
+            "sellPrice": "10g 70s"
+          },
+          {
+            "name": "Shadow Bow of the Crimson King",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Sword",
+            "stats": [
+              "+16 Spirit"
             ],
             "effect": "",
             "requiresLevel": 55,
-            "sellPrice": "8g 25s"
+            "sellPrice": "1g 62s"
           },
           {
-            "name": "Ancient Aegis of Eternal Slumber",
+            "name": "Ethereal Bracers of the Forgotten",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Wrist",
+            "type": "Mail",
+            "stats": [
+              "+22 Spirit"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 55,
+            "sellPrice": "3g 2s"
+          },
+          {
+            "name": "Holy Mask of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Head",
+            "type": "Cloth",
+            "stats": [
+              "+16 Spirit",
+              "+10 Stamina"
+            ],
+            "effect": "Equip: +20 Attack Power.",
+            "requiresLevel": 55,
+            "sellPrice": "4g 56s"
+          },
+          {
+            "name": "Holy Greaves of the Unseen",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Leather",
+            "stats": [
+              "+16 Agility",
+              "+10 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 55,
+            "sellPrice": "8g 56s"
+          },
+          {
+            "name": "Holy Greatsword of the Void",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Main Hand",
+            "type": "Axe",
+            "stats": [
+              "+16 Spirit",
+              "+10 Intellect"
+            ],
+            "effect": "Equip: +10 Shadow Resistance.",
+            "requiresLevel": 55,
+            "sellPrice": "6g 34s"
+          },
+          {
+            "name": "Corrupted Pants of the Unseen",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Legs",
+            "type": "Cloth",
+            "stats": [
+              "+22 Intellect",
+              "+14 Stamina"
+            ],
+            "effect": "Equip: +1% Critical Strike.",
+            "requiresLevel": 55,
+            "sellPrice": "4g 28s"
+          },
+          {
+            "name": "Void-Touched Mitts of Shattered Souls",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Hands",
+            "type": "Leather",
+            "stats": [
+              "+16 Strength",
+              "+10 Agility"
+            ],
+            "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+            "requiresLevel": 55,
+            "sellPrice": "4g 18s"
+          },
+          {
+            "name": "Holy Gavel of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "One-Hand",
+            "type": "Sword",
+            "stats": [
+              "+16 Stamina"
+            ],
+            "effect": "",
+            "requiresLevel": 55,
+            "sellPrice": "2g 7s"
+          },
+          {
+            "name": "Holy Cord of Eternal Slumber",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Waist",
+            "type": "Mail",
+            "stats": [
+              "+16 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 55,
+            "sellPrice": "7g 33s"
+          },
+          {
+            "name": "Shimmering Buckler of Bloodletting",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Off Hand",
+            "type": "Shield",
+            "stats": [
+              "+16 Agility"
+            ],
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+            "requiresLevel": 55,
+            "sellPrice": "2g 65s"
+          },
+          {
+            "name": "Ethereal Loop of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+16 Agility",
+              "+10 Stamina"
+            ],
+            "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
+            "requiresLevel": 55,
+            "sellPrice": "8g 20s"
+          },
+          {
+            "name": "Blood-Forged Band of the Forgotten",
+            "rarity": "Rare",
+            "bindType": "Binds when picked up",
+            "slot": "Finger",
+            "type": "Ring",
+            "stats": [
+              "+16 Stamina",
+              "+10 Spirit"
+            ],
+            "effect": "",
+            "requiresLevel": 55,
+            "sellPrice": "1g 34s"
+          },
+          {
+            "name": "Blood-Forged Charm of the Archmage",
+            "rarity": "Epic",
+            "bindType": "Binds when picked up",
+            "slot": "Trinket",
+            "type": "Trinket",
+            "stats": [],
+            "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+            "requiresLevel": 55,
+            "sellPrice": "2g 56s"
+          },
+          {
+            "name": "Venerable Aegis of the Archmage",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
             "slot": "Off Hand",
             "type": "Shield",
             "stats": [
-              "+22 Stamina",
-              "+14 Agility"
+              "+22 Agility",
+              "+14 Strength"
             ],
-            "effect": "Equip: +1% Hit chance.",
+            "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
             "requiresLevel": 55,
-            "sellPrice": "4g 91s"
+            "sellPrice": "4g 14s"
           },
           {
-            "name": "Blood-Forged Waistguard of Bloodletting",
+            "name": "Corrupted Footpads of the Archmage",
             "rarity": "Epic",
             "bindType": "Binds when picked up",
-            "slot": "Waist",
-            "type": "Cloth",
+            "slot": "Feet",
+            "type": "Plate",
             "stats": [
-              "+22 Spirit",
+              "+22 Strength",
               "+14 Stamina"
             ],
-            "effect": "Equip: +1% Critical Strike.",
+            "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
             "requiresLevel": 55,
-            "sellPrice": "10g 84s"
+            "sellPrice": "8g 43s"
           }
         ]
       }
@@ -7105,677 +7061,681 @@ export const pveData = {
     ],
     "loot": [
       {
-        "name": "Void-Touched Defender of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Off Hand",
-        "type": "Shield",
-        "stats": [
-          "+18 Strength"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 21s"
-      },
-      {
-        "name": "Venerable Gloves of Bloodletting",
+        "name": "Dream-Scarred Mantle of the Nightmare",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Mail",
-        "stats": [
-          "+24 Stamina",
-          "+16 Strength"
-        ],
-        "effect": "Equip: +20 Attack Power.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 20s"
-      },
-      {
-        "name": "Void-Touched Robes of the Void",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Plate",
-        "stats": [
-          "+24 Agility"
-        ],
-        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 49s"
-      },
-      {
-        "name": "Ethereal Legguards of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
+        "slot": "Shoulder",
         "type": "Cloth",
         "stats": [
-          "+18 Spirit",
-          "+12 Stamina"
+          "+27 Intellect",
+          "+18 Stamina"
         ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "1g 82s"
-      },
-      {
-        "name": "Void-Touched Pants of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Cloth",
-        "stats": [
-          "+18 Stamina",
-          "+12 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 53s"
-      },
-      {
-        "name": "Savage Medallion of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
         "effect": "Equip: Restores 4 mana per 5 seconds.",
         "requiresLevel": 60,
-        "sellPrice": "5g 37s"
+        "sellPrice": "1g 64s"
       },
       {
-        "name": "Shadow Blade of the Crimson King",
+        "name": "Emerald Harness of the Deep Slumber",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Dagger",
+        "slot": "Chest",
+        "type": "Leather",
         "stats": [
-          "+18 Stamina",
-          "+12 Agility"
+          "+21 Stamina",
+          "+14 Agility"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "7g 45s"
+        "sellPrice": "7g 76s"
       },
       {
-        "name": "Ethereal Greatsword of Shattered Souls",
+        "name": "Nightmare-Forged Collar of Ysera's Fall",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Mace",
+        "slot": "Neck",
+        "type": "Necklace",
         "stats": [
-          "+18 Stamina",
-          "+12 Strength"
+          "+21 Stamina",
+          "+14 Strength"
         ],
         "effect": "Equip: +1% Hit chance.",
         "requiresLevel": 60,
-        "sellPrice": "1g 53s"
+        "sellPrice": "7g 70s"
       },
       {
-        "name": "Holy Gavel of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Staff",
-        "stats": [
-          "+24 Stamina",
-          "+16 Spirit"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 94s"
-      },
-      {
-        "name": "Shadow Belt of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength"
-        ],
-        "effect": "Equip: Increases your resistance to all schools of magic by 10.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 28s"
-      },
-      {
-        "name": "Void-Touched Treads of Bloodletting",
+        "name": "Nightmare-Forged Footpads of the Deep Slumber",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Feet",
         "type": "Plate",
         "stats": [
-          "+18 Stamina",
-          "+12 Agility"
+          "+21 Agility",
+          "+14 Strength"
         ],
-        "effect": "Equip: Increases spell damage by up to 15.",
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
         "requiresLevel": 60,
-        "sellPrice": "3g 30s"
+        "sellPrice": "10g 34s"
       },
       {
-        "name": "Holy Band of the Archmage",
-        "rarity": "Rare",
+        "name": "Corrupted Band of the Waking Dream",
+        "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Finger",
         "type": "Ring",
         "stats": [
-          "+18 Agility"
+          "+27 Stamina",
+          "+18 Intellect"
         ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "effect": "Equip: +1% Critical Strike.",
         "requiresLevel": 60,
-        "sellPrice": "5g 14s"
+        "sellPrice": "9g 30s"
       },
       {
-        "name": "Savage Shield of the Archmage",
-        "rarity": "Epic",
+        "name": "Corrupted Shield of the Deep Slumber",
+        "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Off Hand",
         "type": "Shield",
         "stats": [
-          "+24 Strength"
-        ],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 40s"
-      },
-      {
-        "name": "Corrupted Greatsword of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Staff",
-        "stats": [
-          "+24 Agility",
-          "+16 Stamina"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 53s"
-      },
-      {
-        "name": "Shimmering Breastplate of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Leather",
-        "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
-        ],
-        "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 66s"
-      },
-      {
-        "name": "Shadow Bracers of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Cloth",
-        "stats": [
-          "+18 Intellect"
+          "+21 Agility",
+          "+14 Stamina"
         ],
         "effect": "Equip: Increases your resistance to all schools of magic by 10.",
         "requiresLevel": 60,
-        "sellPrice": "1g 75s"
+        "sellPrice": "6g 42s"
       },
       {
-        "name": "Corrupted Signet of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "2g 24s"
-      },
-      {
-        "name": "Void-Touched Bindings of the Betrayer",
+        "name": "Slumbering Greaves of the Waking Dream",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Wrist",
+        "slot": "Legs",
         "type": "Plate",
         "stats": [
-          "+24 Strength",
-          "+16 Agility"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 16s"
-      },
-      {
-        "name": "Savage Bow of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Dagger",
-        "stats": [
+          "+27 Agility",
           "+18 Stamina"
         ],
-        "effect": "",
+        "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
         "requiresLevel": 60,
-        "sellPrice": "10g 9s"
+        "sellPrice": "5g 12s"
       },
       {
-        "name": "Void-Touched Gloves of Eternal Slumber",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Plate",
-        "stats": [
-          "+24 Strength",
-          "+16 Stamina"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 56s"
-      },
-      {
-        "name": "Shimmering Amice of Eternal Slumber",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Plate",
-        "stats": [
-          "+24 Stamina"
-        ],
-        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 22s"
-      },
-      {
-        "name": "Corrupted Helm of the Unseen",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Mail",
-        "stats": [
-          "+24 Stamina",
-          "+16 Intellect"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 57s"
-      },
-      {
-        "name": "Void-Touched Greatsword of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Axe",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "3g 93s"
-      },
-      {
-        "name": "Ancient Cuffs of Eternal Slumber",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Mail",
-        "stats": [
-          "+24 Stamina",
-          "+16 Spirit"
-        ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 83s"
-      },
-      {
-        "name": "Ancient Grips of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Leather",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: +20 Attack Power.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 85s"
-      },
-      {
-        "name": "Ethereal Talisman of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 86s"
-      },
-      {
-        "name": "Corrupted Crown of the Betrayer",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Cloth",
-        "stats": [
-          "+24 Intellect",
-          "+16 Stamina"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 95s"
-      },
-      {
-        "name": "Shimmering Amice of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Leather",
-        "stats": [
-          "+18 Agility",
-          "+12 Strength"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 61s"
-      },
-      {
-        "name": "Holy Sash of the Betrayer",
+        "name": "Dream-Scarred Belt of Ysera's Fall",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Waist",
         "type": "Plate",
         "stats": [
-          "+18 Agility"
+          "+21 Strength",
+          "+14 Agility"
         ],
-        "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
         "requiresLevel": 60,
-        "sellPrice": "1g 0s"
+        "sellPrice": "6g 24s"
       },
       {
-        "name": "Blood-Forged Axe of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Staff",
-        "stats": [
-          "+18 Stamina",
-          "+12 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "8g 68s"
-      },
-      {
-        "name": "Void-Touched Ring of the Archmage",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+24 Strength",
-          "+16 Stamina"
-        ],
-        "effect": "Equip: Increases spell damage by up to 15.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 12s"
-      },
-      {
-        "name": "Shimmering Choker of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 61s"
-      },
-      {
-        "name": "Ethereal Staff of the Crimson King",
+        "name": "Corrupted Gavel of Ysera's Fall",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "One-Hand",
         "type": "Sword",
         "stats": [
-          "+18 Strength",
-          "+12 Agility"
+          "+21 Strength",
+          "+14 Stamina"
         ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "effect": "Equip: Increases healing done by up to 25.",
         "requiresLevel": 60,
-        "sellPrice": "2g 66s"
+        "sellPrice": "9g 13s"
       },
       {
-        "name": "Ancient Gauntlets of Bloodletting",
+        "name": "Slumbering Greatsword of the Nightmare",
         "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Sword",
+        "stats": [
+          "+21 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "10g 51s"
+      },
+      {
+        "name": "Dream-Scarred Cuffs of Ysera's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Cloth",
+        "stats": [
+          "+21 Stamina",
+          "+14 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "4g 13s"
+      },
+      {
+        "name": "Emerald Mantle of the Waking Dream",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Mail",
+        "stats": [
+          "+27 Intellect"
+        ],
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 78s"
+      },
+      {
+        "name": "Slumbering Harness of the Waking Dream",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Leather",
+        "stats": [
+          "+21 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "2g 78s"
+      },
+      {
+        "name": "Nightmare-Forged Boots of the Deep Slumber",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Cloth",
+        "stats": [
+          "+21 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "10g 13s"
+      },
+      {
+        "name": "Nightmare-Forged Seal of the Waking Dream",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+21 Intellect"
+        ],
+        "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 38s"
+      },
+      {
+        "name": "Emerald Mitts of the Waking Dream",
+        "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Hands",
         "type": "Cloth",
         "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
+          "+27 Intellect",
+          "+18 Stamina"
         ],
-        "effect": "",
+        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
         "requiresLevel": 60,
-        "sellPrice": "5g 74s"
+        "sellPrice": "1g 74s"
       },
       {
-        "name": "Void-Touched Breastplate of the Archmage",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Cloth",
-        "stats": [
-          "+24 Intellect"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 16s"
-      },
-      {
-        "name": "Void-Touched Breastplate of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 92s"
-      },
-      {
-        "name": "Void-Touched Belt of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Cloth",
-        "stats": [
-          "+18 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "2g 11s"
-      },
-      {
-        "name": "Blood-Forged Defender of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Off Hand",
-        "type": "Shield",
-        "stats": [
-          "+18 Agility",
-          "+12 Strength"
-        ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 15s"
-      },
-      {
-        "name": "Ethereal Charm of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 5s"
-      },
-      {
-        "name": "Corrupted Vambraces of the Crimson King",
+        "name": "Nightmare-Forged Bindings of the Waking Dream",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Wrist",
-        "type": "Mail",
+        "type": "Cloth",
         "stats": [
-          "+18 Agility",
-          "+12 Strength"
+          "+21 Intellect",
+          "+14 Spirit"
         ],
-        "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
+        "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "7g 94s"
+        "sellPrice": "5g 94s"
       },
       {
-        "name": "Blood-Forged Cowl of the Crimson King",
-        "rarity": "Rare",
+        "name": "Dream-Scarred Mask of the Deep Slumber",
+        "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Head",
         "type": "Cloth",
         "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
+          "+27 Stamina",
+          "+18 Intellect"
         ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
         "requiresLevel": 60,
-        "sellPrice": "1g 49s"
+        "sellPrice": "2g 7s"
       },
       {
-        "name": "Shimmering Blade of the Unseen",
+        "name": "Dream-Scarred Axe of the Deep Slumber",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "One-Hand",
-        "type": "Dagger",
+        "type": "Mace",
         "stats": [
-          "+18 Agility"
+          "+21 Spirit"
+        ],
+        "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 17s"
+      },
+      {
+        "name": "Slumbering Seal of Ysera's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+21 Stamina"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "2g 3s"
+        "sellPrice": "3g 76s"
       },
       {
-        "name": "Holy Greatsword of the Void",
+        "name": "Dream-Scarred Gavel of the Waking Dream",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Two-Hand",
         "type": "Staff",
         "stats": [
-          "+18 Stamina"
+          "+21 Spirit",
+          "+14 Intellect"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "5g 70s"
+        "sellPrice": "5g 5s"
       },
       {
-        "name": "Venerable Vest of Eternal Slumber",
+        "name": "Dream-Scarred Handguards of Ysera's Fall",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Hands",
+        "type": "Leather",
+        "stats": [
+          "+27 Strength"
+        ],
+        "effect": "Equip: +10 Shadow Resistance.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 36s"
+      },
+      {
+        "name": "Nightmare-Forged Blade of Ysera's Fall",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Sword",
+        "stats": [
+          "+27 Stamina"
+        ],
+        "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 22s"
+      },
+      {
+        "name": "Dream-Scarred Aegis of Ysera's Fall",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Off Hand",
+        "type": "Shield",
+        "stats": [
+          "+27 Stamina"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 13s"
+      },
+      {
+        "name": "Dream-Scarred Blade of the Waking Dream",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Staff",
+        "stats": [
+          "+21 Spirit",
+          "+14 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "4g 23s"
+      },
+      {
+        "name": "Dream-Scarred Boots of Ysera's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Cloth",
+        "stats": [
+          "+21 Intellect"
+        ],
+        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 82s"
+      },
+      {
+        "name": "Slumbering Vest of the Nightmare",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Chest",
         "type": "Mail",
         "stats": [
-          "+24 Stamina",
-          "+16 Agility"
+          "+27 Strength",
+          "+18 Agility"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 98s"
+      },
+      {
+        "name": "Corrupted Blade of the Deep Slumber",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Axe",
+        "stats": [
+          "+21 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "7g 4s"
+      },
+      {
+        "name": "Corrupted Greatsword of the Deep Slumber",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Staff",
+        "stats": [
+          "+21 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "10g 56s"
+      },
+      {
+        "name": "Corrupted Charm of Ysera's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 69s"
+      },
+      {
+        "name": "Nightmare-Forged Circlet of the Nightmare",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Plate",
+        "stats": [
+          "+27 Agility"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 71s"
+      },
+      {
+        "name": "Emerald Waistguard of the Waking Dream",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Cloth",
+        "stats": [
+          "+27 Spirit",
+          "+18 Stamina"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 84s"
+      },
+      {
+        "name": "Corrupted Cuffs of the Nightmare",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Leather",
+        "stats": [
+          "+21 Strength",
+          "+14 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "3g 74s"
+      },
+      {
+        "name": "Dream-Scarred Gavel of the Deep Slumber",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Staff",
+        "stats": [
+          "+21 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "8g 70s"
+      },
+      {
+        "name": "Slumbering Gavel of Ysera's Fall",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Dagger",
+        "stats": [
+          "+27 Intellect"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 3s"
+      },
+      {
+        "name": "Nightmare-Forged Treads of the Waking Dream",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Mail",
+        "stats": [
+          "+21 Spirit",
+          "+14 Intellect"
         ],
         "effect": "Equip: Restores 4 mana per 5 seconds.",
         "requiresLevel": 60,
-        "sellPrice": "3g 10s"
+        "sellPrice": "10g 47s"
       },
       {
-        "name": "Holy Axe of the Deep",
-        "rarity": "Epic",
+        "name": "Slumbering Pants of Ysera's Fall",
+        "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Mace",
+        "slot": "Legs",
+        "type": "Cloth",
         "stats": [
-          "+24 Stamina",
-          "+16 Intellect"
+          "+21 Stamina",
+          "+14 Spirit"
         ],
-        "effect": "Equip: Increases healing done by up to 25.",
+        "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "6g 36s"
+        "sellPrice": "10g 24s"
       },
       {
-        "name": "Ancient Choker of the Crimson King",
+        "name": "Slumbering Handguards of the Nightmare",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
+        "slot": "Hands",
+        "type": "Plate",
         "stats": [
-          "+24 Stamina"
+          "+27 Strength",
+          "+18 Agility"
         ],
         "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
         "requiresLevel": 60,
-        "sellPrice": "5g 47s"
+        "sellPrice": "9g 32s"
       },
       {
-        "name": "Holy Shield of the Betrayer",
+        "name": "Corrupted Sabatons of the Deep Slumber",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Leather",
+        "stats": [
+          "+27 Intellect",
+          "+18 Spirit"
+        ],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 23s"
+      },
+      {
+        "name": "Nightmare-Forged Bulwark of the Nightmare",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Off Hand",
         "type": "Shield",
         "stats": [
-          "+18 Agility",
-          "+12 Strength"
+          "+21 Stamina",
+          "+14 Strength"
         ],
-        "effect": "",
+        "effect": "Equip: +1% Critical Strike.",
         "requiresLevel": 60,
-        "sellPrice": "9g 28s"
+        "sellPrice": "1g 0s"
       },
       {
-        "name": "Ancient Grips of the Betrayer",
+        "name": "Dream-Scarred Loop of the Waking Dream",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Mail",
+        "slot": "Finger",
+        "type": "Ring",
         "stats": [
-          "+24 Agility",
-          "+16 Stamina"
+          "+27 Spirit",
+          "+18 Stamina"
         ],
-        "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
         "requiresLevel": 60,
-        "sellPrice": "9g 65s"
+        "sellPrice": "2g 20s"
       },
       {
-        "name": "Corrupted Handguards of the Betrayer",
+        "name": "Nightmare-Forged Legguards of the Waking Dream",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Mail",
+        "slot": "Legs",
+        "type": "Cloth",
         "stats": [
-          "+18 Agility",
-          "+12 Strength"
+          "+21 Spirit",
+          "+14 Intellect"
         ],
-        "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+        "effect": "Equip: +1% Critical Strike.",
         "requiresLevel": 60,
-        "sellPrice": "1g 83s"
+        "sellPrice": "6g 32s"
       },
       {
-        "name": "Corrupted Circlet of Bloodletting",
+        "name": "Emerald Bracers of the Nightmare",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "Head",
+        "slot": "Wrist",
         "type": "Plate",
         "stats": [
-          "+18 Strength",
-          "+12 Agility"
+          "+21 Stamina",
+          "+14 Agility"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "2g 21s"
+        "sellPrice": "7g 14s"
+      },
+      {
+        "name": "Slumbering Amice of the Deep Slumber",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Cloth",
+        "stats": [
+          "+21 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "9g 78s"
+      },
+      {
+        "name": "Dream-Scarred Necklace of Ysera's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+21 Stamina",
+          "+14 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "5g 23s"
+      },
+      {
+        "name": "Emerald Collar of the Nightmare",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+21 Spirit",
+          "+14 Intellect"
+        ],
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 50s"
+      },
+      {
+        "name": "Slumbering Blade of the Deep Slumber",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Sword",
+        "stats": [
+          "+27 Agility"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 18s"
+      },
+      {
+        "name": "Corrupted Dagger of the Waking Dream",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Staff",
+        "stats": [
+          "+21 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "4g 80s"
+      },
+      {
+        "name": "Dream-Scarred Cowl of the Waking Dream",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Cloth",
+        "stats": [
+          "+27 Spirit"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 98s"
+      },
+      {
+        "name": "Corrupted Girdle of the Waking Dream",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Plate",
+        "stats": [
+          "+27 Stamina",
+          "+18 Strength"
+        ],
+        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 8s"
       }
     ]
   },
@@ -7809,1078 +7769,1088 @@ export const pveData = {
     ],
     "loot": [
       {
-        "name": "Shadow Blade of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Dagger",
-        "stats": [
-          "+18 Stamina",
-          "+12 Strength"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 13s"
-      },
-      {
-        "name": "Venerable Staff of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Bow",
-        "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "10g 17s"
-      },
-      {
-        "name": "Corrupted Amulet of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "1g 80s"
-      },
-      {
-        "name": "Ancient Sash of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Cloth",
-        "stats": [
-          "+18 Intellect",
-          "+12 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "10g 42s"
-      },
-      {
-        "name": "Holy Pants of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Leather",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 79s"
-      },
-      {
-        "name": "Shadow Tunic of the Deep",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Mail",
-        "stats": [
-          "+24 Stamina",
-          "+16 Agility"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 96s"
-      },
-      {
-        "name": "Blood-Forged Bow of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Mace",
-        "stats": [
-          "+18 Strength",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "10g 11s"
-      },
-      {
-        "name": "Holy Gloves of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Cloth",
-        "stats": [
-          "+18 Intellect"
-        ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 78s"
-      },
-      {
-        "name": "Venerable Treads of the Deep",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Mail",
-        "stats": [
-          "+24 Stamina",
-          "+16 Spirit"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 48s"
-      },
-      {
-        "name": "Blood-Forged Gavel of the Forgotten",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Dagger",
-        "stats": [
-          "+24 Stamina"
-        ],
-        "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 72s"
-      },
-      {
-        "name": "Ethereal Amulet of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 65s"
-      },
-      {
-        "name": "Corrupted Talisman of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 6s"
-      },
-      {
-        "name": "Shimmering Seal of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Strength",
-          "+12 Stamina"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 84s"
-      },
-      {
-        "name": "Ethereal Bulwark of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Off Hand",
-        "type": "Shield",
-        "stats": [
-          "+18 Stamina",
-          "+12 Strength"
-        ],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 87s"
-      },
-      {
-        "name": "Savage Gloves of the Forgotten",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Mail",
-        "stats": [
-          "+24 Stamina",
-          "+16 Agility"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 42s"
-      },
-      {
-        "name": "Ethereal Brooch of Eternal Slumber",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 31s"
-      },
-      {
-        "name": "Ethereal Harness of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength",
-          "+12 Stamina"
-        ],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 95s"
-      },
-      {
-        "name": "Savage Cowl of the Unseen",
+        "name": "Searing Cowl of the Queen's Captivity",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Head",
         "type": "Leather",
         "stats": [
-          "+24 Intellect"
-        ],
-        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 33s"
-      },
-      {
-        "name": "Blood-Forged Bracers of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Mail",
-        "stats": [
-          "+18 Stamina",
-          "+12 Strength"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 68s"
-      },
-      {
-        "name": "Blood-Forged Cowl of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Mail",
-        "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 70s"
-      },
-      {
-        "name": "Savage Medallion of the Deep",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 79s"
-      },
-      {
-        "name": "Ancient Breastplate of the Betrayer",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Mail",
-        "stats": [
-          "+24 Spirit"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 48s"
-      },
-      {
-        "name": "Shadow Brooch of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 76s"
-      },
-      {
-        "name": "Blood-Forged Grips of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Cloth",
-        "stats": [
-          "+18 Intellect",
-          "+12 Spirit"
-        ],
-        "effect": "Equip: Increases your resistance to all schools of magic by 10.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 98s"
-      },
-      {
-        "name": "Void-Touched Choker of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 31s"
-      },
-      {
-        "name": "Ancient Cowl of the Unseen",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Plate",
-        "stats": [
-          "+24 Stamina",
-          "+16 Strength"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 84s"
-      },
-      {
-        "name": "Ethereal Gloves of the Unseen",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Plate",
-        "stats": [
-          "+24 Stamina"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 77s"
-      },
-      {
-        "name": "Ancient Bow of the Deep",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Staff",
-        "stats": [
-          "+24 Stamina"
-        ],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 49s"
-      },
-      {
-        "name": "Ancient Circlet of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Mail",
-        "stats": [
-          "+18 Intellect",
-          "+12 Spirit"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 72s"
-      },
-      {
-        "name": "Venerable Pendant of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
+          "+28 Strength",
+          "+19 Stamina"
         ],
         "effect": "Equip: +20 Attack Power.",
         "requiresLevel": 60,
-        "sellPrice": "4g 83s"
+        "sellPrice": "9g 61s"
       },
       {
-        "name": "Ancient Seal of the Forgotten",
+        "name": "Enslaved Pants of the Queen's Captivity",
         "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Stamina",
-          "+12 Spirit"
-        ],
-        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 68s"
-      },
-      {
-        "name": "Corrupted Legguards of the Deep",
-        "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Legs",
-        "type": "Cloth",
-        "stats": [
-          "+24 Spirit"
-        ],
-        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 12s"
-      },
-      {
-        "name": "Shadow Staff of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Mace",
-        "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "3g 92s"
-      },
-      {
-        "name": "Venerable Handguards of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
         "type": "Leather",
         "stats": [
-          "+18 Spirit"
+          "+22 Strength"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "7g 15s"
+        "sellPrice": "4g 27s"
       },
       {
-        "name": "Shadow Epaulets of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Plate",
-        "stats": [
-          "+18 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "10g 96s"
-      },
-      {
-        "name": "Blood-Forged Greaves of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Mail",
-        "stats": [
-          "+18 Agility",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 17s"
-      },
-      {
-        "name": "Shimmering Greatsword of the Forgotten",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Staff",
-        "stats": [
-          "+24 Agility",
-          "+16 Stamina"
-        ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 11s"
-      },
-      {
-        "name": "Shadow Circlet of the Deep",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Cloth",
-        "stats": [
-          "+24 Stamina",
-          "+16 Spirit"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 55s"
-      },
-      {
-        "name": "Shimmering Charm of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 95s"
-      },
-      {
-        "name": "Ancient Gauntlets of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Cloth",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "5g 20s"
-      },
-      {
-        "name": "Holy Aegis of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Off Hand",
-        "type": "Shield",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 94s"
-      },
-      {
-        "name": "Void-Touched Brooch of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 91s"
-      },
-      {
-        "name": "Holy Gavel of the Forgotten",
+        "name": "Mountain-Forged Blade of the Red Flight",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Two-Hand",
         "type": "Bow",
         "stats": [
-          "+24 Intellect"
+          "+28 Stamina",
+          "+19 Intellect"
         ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "effect": "Equip: Increases spell damage by up to 15.",
         "requiresLevel": 60,
-        "sellPrice": "4g 44s"
+        "sellPrice": "4g 32s"
       },
       {
-        "name": "Corrupted Greatsword of the Void",
+        "name": "Mountain-Forged Medallion of the Red Flight",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 4s"
+      },
+      {
+        "name": "Searing Greatsword of the Red Flight",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Main Hand",
         "type": "Sword",
         "stats": [
-          "+18 Stamina",
-          "+12 Spirit"
+          "+22 Agility",
+          "+15 Stamina"
         ],
-        "effect": "",
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
         "requiresLevel": 60,
-        "sellPrice": "6g 28s"
+        "sellPrice": "8g 10s"
       },
       {
-        "name": "Shimmering Dagger of the Unseen",
-        "rarity": "Epic",
+        "name": "Mountain-Forged Circlet of the Forge",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Cloth",
+        "stats": [
+          "+22 Spirit"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 68s"
+      },
+      {
+        "name": "Enslaved Robes of the Demon Soul",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Plate",
+        "stats": [
+          "+22 Stamina"
+        ],
+        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 10s"
+      },
+      {
+        "name": "Mountain-Forged Staff of the Demon Soul",
+        "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Two-Hand",
         "type": "Bow",
         "stats": [
-          "+24 Stamina",
-          "+16 Strength"
+          "+22 Agility",
+          "+15 Strength"
         ],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 77s"
-      },
-      {
-        "name": "Void-Touched Medallion of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: Increases healing done by up to 25.",
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
         "requiresLevel": 60,
         "sellPrice": "3g 76s"
       },
       {
-        "name": "Shimmering Footpads of the Archmage",
+        "name": "Enslaved Signet of the Forge",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+22 Strength",
+          "+15 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "9g 16s"
+      },
+      {
+        "name": "Searing Pendant of the Red Flight",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+22 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "1g 97s"
+      },
+      {
+        "name": "Mountain-Forged Wristguards of the Forge",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Leather",
+        "stats": [
+          "+28 Intellect",
+          "+19 Spirit"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 29s"
+      },
+      {
+        "name": "Enslaved Pendant of the Queen's Captivity",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+22 Stamina",
+          "+15 Spirit"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 92s"
+      },
+      {
+        "name": "Red Scale Signet of the Red Flight",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+22 Spirit",
+          "+15 Stamina"
+        ],
+        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 19s"
+      },
+      {
+        "name": "Enslaved Blade of the Queen's Captivity",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Axe",
+        "stats": [
+          "+22 Agility",
+          "+15 Strength"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "10g 5s"
+      },
+      {
+        "name": "Dragonmaw Cord of the Queen's Captivity",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Plate",
+        "stats": [
+          "+22 Strength"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "5g 1s"
+      },
+      {
+        "name": "Enslaved Leggings of the Demon Soul",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Plate",
+        "stats": [
+          "+22 Agility"
+        ],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 28s"
+      },
+      {
+        "name": "Searing Amulet of the Red Flight",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+28 Intellect",
+          "+19 Spirit"
+        ],
+        "effect": "Equip: Increases healing done by up to 25.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 97s"
+      },
+      {
+        "name": "Dragonmaw Belt of the Queen's Captivity",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Leather",
+        "stats": [
+          "+22 Stamina",
+          "+15 Strength"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "3g 57s"
+      },
+      {
+        "name": "Mountain-Forged Amulet of the Queen's Captivity",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+28 Agility"
+        ],
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 51s"
+      },
+      {
+        "name": "Searing Greaves of the Red Flight",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Leather",
+        "stats": [
+          "+28 Stamina",
+          "+19 Spirit"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 13s"
+      },
+      {
+        "name": "Mountain-Forged Vest of the Demon Soul",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Cloth",
+        "stats": [
+          "+22 Spirit",
+          "+15 Stamina"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 22s"
+      },
+      {
+        "name": "Red Scale Signet of the Forge",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+22 Stamina",
+          "+15 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "8g 89s"
+      },
+      {
+        "name": "Enslaved Slippers of the Demon Soul",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Feet",
         "type": "Mail",
         "stats": [
-          "+18 Intellect",
-          "+12 Spirit"
+          "+22 Strength",
+          "+15 Stamina"
         ],
-        "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
+        "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "8g 11s"
+        "sellPrice": "4g 50s"
       },
       {
-        "name": "Blood-Forged Pauldrons of the Void",
+        "name": "Dragonmaw Epaulets of the Red Flight",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Shoulder",
-        "type": "Cloth",
-        "stats": [
-          "+24 Spirit",
-          "+16 Stamina"
-        ],
-        "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 88s"
-      },
-      {
-        "name": "Void-Touched Seal of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: Increases spell damage by up to 15.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 47s"
-      },
-      {
-        "name": "Ancient Mantle of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Cloth",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 58s"
-      },
-      {
-        "name": "Shadow Amulet of the Betrayer",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+24 Spirit"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 78s"
-      },
-      {
-        "name": "Shimmering Robes of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 51s"
-      },
-      {
-        "name": "Venerable Staff of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Staff",
-        "stats": [
-          "+18 Spirit"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 63s"
-      },
-      {
-        "name": "Ethereal Bindings of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
         "type": "Leather",
         "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 10s"
-      },
-      {
-        "name": "Void-Touched Crown of the Betrayer",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Plate",
-        "stats": [
-          "+24 Strength",
-          "+16 Agility"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 98s"
-      },
-      {
-        "name": "Corrupted Waistguard of Bloodletting",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Cloth",
-        "stats": [
-          "+24 Intellect",
-          "+16 Stamina"
-        ],
-        "effect": "Equip: Increases spell damage by up to 15.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 82s"
-      },
-      {
-        "name": "Ethereal Gauntlets of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Leather",
-        "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "7g 81s"
-      },
-      {
-        "name": "Blood-Forged Greatsword of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Dagger",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 7s"
-      },
-      {
-        "name": "Shadow Sash of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina",
-          "+12 Agility"
-        ],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 48s"
-      },
-      {
-        "name": "Venerable Gauntlets of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Mail",
-        "stats": [
-          "+18 Strength"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "2g 24s"
-      },
-      {
-        "name": "Corrupted Epaulets of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Plate",
-        "stats": [
-          "+18 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "2g 0s"
-      },
-      {
-        "name": "Void-Touched Pendant of the Crimson King",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+24 Stamina"
-        ],
-        "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 68s"
-      },
-      {
-        "name": "Shimmering Seal of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "2g 17s"
-      },
-      {
-        "name": "Ancient Gavel of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Dagger",
-        "stats": [
-          "+24 Stamina"
-        ],
-        "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 74s"
-      },
-      {
-        "name": "Blood-Forged Bow of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Staff",
-        "stats": [
-          "+24 Strength",
-          "+16 Agility"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 92s"
-      },
-      {
-        "name": "Corrupted Gavel of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Bow",
-        "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 78s"
-      },
-      {
-        "name": "Shimmering Epaulets of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Mail",
-        "stats": [
-          "+18 Stamina",
-          "+12 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "9g 28s"
-      },
-      {
-        "name": "Savage Breastplate of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Cloth",
-        "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 84s"
-      },
-      {
-        "name": "Ancient Gavel of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Staff",
-        "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 50s"
-      },
-      {
-        "name": "Blood-Forged Seal of the Unseen",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+24 Stamina"
-        ],
-        "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 57s"
-      },
-      {
-        "name": "Holy Choker of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "2g 41s"
-      },
-      {
-        "name": "Savage Bow of the Crimson King",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Dagger",
-        "stats": [
-          "+24 Spirit"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 94s"
-      },
-      {
-        "name": "Ancient Choker of Bloodletting",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+24 Stamina",
-          "+16 Spirit"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 18s"
-      },
-      {
-        "name": "Corrupted Mitts of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Cloth",
-        "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "7g 59s"
-      },
-      {
-        "name": "Venerable Circlet of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 12s"
-      },
-      {
-        "name": "Shimmering Pauldrons of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina",
-          "+12 Strength"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 44s"
-      },
-      {
-        "name": "Venerable Vambraces of the Betrayer",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Plate",
-        "stats": [
-          "+24 Strength",
-          "+16 Agility"
+          "+28 Strength",
+          "+19 Agility"
         ],
         "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
         "requiresLevel": 60,
-        "sellPrice": "8g 41s"
+        "sellPrice": "7g 18s"
       },
       {
-        "name": "Savage Harness of the Betrayer",
-        "rarity": "Rare",
+        "name": "Dragonmaw Grips of the Demon Soul",
+        "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Plate",
+        "slot": "Hands",
+        "type": "Mail",
         "stats": [
-          "+18 Strength"
+          "+28 Agility"
         ],
-        "effect": "Equip: +1% Critical Strike.",
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
         "requiresLevel": 60,
-        "sellPrice": "6g 95s"
+        "sellPrice": "7g 18s"
       },
       {
-        "name": "Holy Gavel of the Deep",
+        "name": "Dragonmaw Blade of the Red Flight",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Main Hand",
         "type": "Sword",
         "stats": [
-          "+18 Spirit",
-          "+12 Stamina"
+          "+22 Strength"
         ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "effect": "Equip: +1% Critical Strike.",
         "requiresLevel": 60,
-        "sellPrice": "6g 17s"
+        "sellPrice": "4g 17s"
       },
       {
-        "name": "Savage Cowl of Eternal Slumber",
+        "name": "Mountain-Forged Pants of the Forge",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Leather",
+        "stats": [
+          "+28 Agility",
+          "+19 Stamina"
+        ],
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 41s"
+      },
+      {
+        "name": "Dragonmaw Sabatons of the Demon Soul",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Plate",
+        "stats": [
+          "+28 Agility",
+          "+19 Stamina"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 78s"
+      },
+      {
+        "name": "Mountain-Forged Gauntlets of the Red Flight",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Hands",
+        "type": "Cloth",
+        "stats": [
+          "+22 Intellect",
+          "+15 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "3g 60s"
+      },
+      {
+        "name": "Searing Cowl of the Forge",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Plate",
+        "stats": [
+          "+28 Strength",
+          "+19 Agility"
+        ],
+        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 68s"
+      },
+      {
+        "name": "Mountain-Forged Greatsword of the Forge",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Bow",
+        "stats": [
+          "+22 Strength"
+        ],
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 14s"
+      },
+      {
+        "name": "Enslaved Cowl of the Forge",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Leather",
+        "stats": [
+          "+28 Intellect",
+          "+19 Spirit"
+        ],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 85s"
+      },
+      {
+        "name": "Enslaved Band of the Red Flight",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+22 Stamina",
+          "+15 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "1g 57s"
+      },
+      {
+        "name": "Dragonmaw Waistguard of the Red Flight",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Cloth",
+        "stats": [
+          "+22 Stamina",
+          "+15 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "1g 79s"
+      },
+      {
+        "name": "Dragonmaw Pendant of the Queen's Captivity",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+28 Strength",
+          "+19 Agility"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 34s"
+      },
+      {
+        "name": "Red Scale Mantle of the Queen's Captivity",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Mail",
+        "stats": [
+          "+28 Strength",
+          "+19 Agility"
+        ],
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 61s"
+      },
+      {
+        "name": "Searing Staff of the Red Flight",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Mace",
+        "stats": [
+          "+22 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "5g 28s"
+      },
+      {
+        "name": "Mountain-Forged Necklace of the Demon Soul",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+22 Stamina",
+          "+15 Agility"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 38s"
+      },
+      {
+        "name": "Mountain-Forged Greatsword of the Forge",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Sword",
+        "stats": [
+          "+28 Strength",
+          "+19 Agility"
+        ],
+        "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 12s"
+      },
+      {
+        "name": "Searing Pauldrons of the Demon Soul",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Cloth",
+        "stats": [
+          "+22 Intellect",
+          "+15 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "7g 20s"
+      },
+      {
+        "name": "Dragonmaw Circlet of the Demon Soul",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Head",
         "type": "Plate",
         "stats": [
-          "+18 Agility",
-          "+12 Stamina"
+          "+22 Stamina",
+          "+15 Strength"
         ],
-        "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
         "requiresLevel": 60,
-        "sellPrice": "5g 12s"
+        "sellPrice": "7g 71s"
+      },
+      {
+        "name": "Dragonmaw Greatsword of the Demon Soul",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Bow",
+        "stats": [
+          "+28 Agility"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 42s"
+      },
+      {
+        "name": "Dragonmaw Dagger of the Red Flight",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Axe",
+        "stats": [
+          "+28 Spirit",
+          "+19 Intellect"
+        ],
+        "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 74s"
+      },
+      {
+        "name": "Searing Gauntlets of the Queen's Captivity",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Hands",
+        "type": "Plate",
+        "stats": [
+          "+22 Strength",
+          "+15 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "7g 73s"
+      },
+      {
+        "name": "Red Scale Blade of the Forge",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Bow",
+        "stats": [
+          "+22 Stamina"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 61s"
+      },
+      {
+        "name": "Mountain-Forged Bow of the Queen's Captivity",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Axe",
+        "stats": [
+          "+22 Stamina",
+          "+15 Strength"
+        ],
+        "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 48s"
+      },
+      {
+        "name": "Enslaved Axe of the Demon Soul",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Axe",
+        "stats": [
+          "+22 Spirit",
+          "+15 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "8g 92s"
+      },
+      {
+        "name": "Dragonmaw Collar of the Demon Soul",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+22 Spirit",
+          "+15 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "8g 48s"
+      },
+      {
+        "name": "Enslaved Pants of the Red Flight",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Cloth",
+        "stats": [
+          "+22 Stamina",
+          "+15 Spirit"
+        ],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 50s"
+      },
+      {
+        "name": "Mountain-Forged Talisman of the Demon Soul",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 76s"
+      },
+      {
+        "name": "Mountain-Forged Vest of the Forge",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Cloth",
+        "stats": [
+          "+28 Spirit"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 30s"
+      },
+      {
+        "name": "Enslaved Bow of the Demon Soul",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Sword",
+        "stats": [
+          "+28 Spirit",
+          "+19 Intellect"
+        ],
+        "effect": "Equip: Increases healing done by up to 25.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 74s"
+      },
+      {
+        "name": "Red Scale Cuffs of the Queen's Captivity",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Cloth",
+        "stats": [
+          "+22 Intellect",
+          "+15 Spirit"
+        ],
+        "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 14s"
+      },
+      {
+        "name": "Mountain-Forged Girdle of the Forge",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Cloth",
+        "stats": [
+          "+22 Intellect",
+          "+15 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "7g 28s"
+      },
+      {
+        "name": "Enslaved Staff of the Red Flight",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Axe",
+        "stats": [
+          "+22 Spirit",
+          "+15 Stamina"
+        ],
+        "effect": "Equip: Increases healing done by up to 25.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 4s"
+      },
+      {
+        "name": "Red Scale Spaulders of the Red Flight",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Mail",
+        "stats": [
+          "+22 Strength",
+          "+15 Agility"
+        ],
+        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 90s"
+      },
+      {
+        "name": "Enslaved Mitts of the Red Flight",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Hands",
+        "type": "Plate",
+        "stats": [
+          "+28 Stamina",
+          "+19 Strength"
+        ],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 37s"
+      },
+      {
+        "name": "Searing Helm of the Forge",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Leather",
+        "stats": [
+          "+28 Strength"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 4s"
+      },
+      {
+        "name": "Red Scale Collar of the Red Flight",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+28 Spirit",
+          "+19 Stamina"
+        ],
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 59s"
+      },
+      {
+        "name": "Dragonmaw Sabatons of the Queen's Captivity",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Plate",
+        "stats": [
+          "+22 Agility",
+          "+15 Strength"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 74s"
+      },
+      {
+        "name": "Mountain-Forged Signet of the Forge",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+28 Spirit",
+          "+19 Intellect"
+        ],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 92s"
+      },
+      {
+        "name": "Red Scale Necklace of the Demon Soul",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+22 Intellect"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 32s"
+      },
+      {
+        "name": "Red Scale Spaulders of the Queen's Captivity",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Cloth",
+        "stats": [
+          "+28 Stamina"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 94s"
+      },
+      {
+        "name": "Enslaved Talisman of the Queen's Captivity",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 24s"
+      },
+      {
+        "name": "Mountain-Forged Boots of the Queen's Captivity",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Plate",
+        "stats": [
+          "+22 Agility",
+          "+15 Strength"
+        ],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 75s"
+      },
+      {
+        "name": "Searing Boots of the Demon Soul",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Leather",
+        "stats": [
+          "+22 Intellect"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 3s"
+      },
+      {
+        "name": "Red Scale Spaulders of the Forge",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Plate",
+        "stats": [
+          "+28 Stamina"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 12s"
+      },
+      {
+        "name": "Dragonmaw Amice of the Forge",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Mail",
+        "stats": [
+          "+22 Stamina",
+          "+15 Spirit"
+        ],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 11s"
+      },
+      {
+        "name": "Dragonmaw Greatsword of the Demon Soul",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Dagger",
+        "stats": [
+          "+28 Stamina"
+        ],
+        "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 19s"
+      },
+      {
+        "name": "Mountain-Forged Wristguards of the Forge",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Mail",
+        "stats": [
+          "+28 Stamina"
+        ],
+        "effect": "Equip: +10 Shadow Resistance.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 59s"
+      },
+      {
+        "name": "Searing Gavel of the Queen's Captivity",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Mace",
+        "stats": [
+          "+22 Stamina",
+          "+15 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "2g 53s"
+      },
+      {
+        "name": "Dragonmaw Band of the Demon Soul",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+22 Spirit",
+          "+15 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "7g 3s"
+      },
+      {
+        "name": "Dragonmaw Cuffs of the Forge",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Leather",
+        "stats": [
+          "+22 Agility",
+          "+15 Strength"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "4g 40s"
+      },
+      {
+        "name": "Dragonmaw Pauldrons of the Red Flight",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Cloth",
+        "stats": [
+          "+22 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "1g 12s"
+      },
+      {
+        "name": "Searing Mitts of the Forge",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Hands",
+        "type": "Plate",
+        "stats": [
+          "+22 Strength",
+          "+15 Agility"
+        ],
+        "effect": "Equip: +10 Shadow Resistance.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 42s"
+      },
+      {
+        "name": "Red Scale Treads of the Red Flight",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Leather",
+        "stats": [
+          "+28 Stamina"
+        ],
+        "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 42s"
+      },
+      {
+        "name": "Dragonmaw Talisman of the Red Flight",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 5s"
+      },
+      {
+        "name": "Mountain-Forged Crown of the Queen's Captivity",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Leather",
+        "stats": [
+          "+22 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "6g 96s"
+      },
+      {
+        "name": "Enslaved Shield of the Queen's Captivity",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Off Hand",
+        "type": "Shield",
+        "stats": [
+          "+22 Agility",
+          "+15 Strength"
+        ],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 4s"
+      },
+      {
+        "name": "Enslaved Signet of the Demon Soul",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+28 Strength",
+          "+19 Agility"
+        ],
+        "effect": "Equip: +10 Shadow Resistance.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 42s"
       }
     ]
   },
@@ -8913,676 +8883,676 @@ export const pveData = {
     ],
     "loot": [
       {
-        "name": "Ethereal Bracers of the Crimson King",
+        "name": "Death-Bound Seal of the Phylactery",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Cloth",
+        "slot": "Finger",
+        "type": "Ring",
         "stats": [
-          "+24 Intellect"
+          "+30 Stamina"
         ],
-        "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
+        "effect": "Equip: +1% Hit chance.",
         "requiresLevel": 60,
-        "sellPrice": "2g 93s"
+        "sellPrice": "6g 66s"
       },
       {
-        "name": "Blood-Forged Treads of Shattered Souls",
-        "rarity": "Rare",
+        "name": "Cursed Circlet of the Ziggurat",
+        "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Cloth",
-        "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 26s"
-      },
-      {
-        "name": "Corrupted Sabatons of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Feet",
+        "slot": "Head",
         "type": "Plate",
         "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 65s"
-      },
-      {
-        "name": "Venerable Pants of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Leather",
-        "stats": [
-          "+18 Stamina",
-          "+12 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "2g 51s"
-      },
-      {
-        "name": "Savage Staff of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Mace",
-        "stats": [
-          "+18 Spirit",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "9g 69s"
-      },
-      {
-        "name": "Shimmering Dagger of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Mace",
-        "stats": [
-          "+18 Stamina",
-          "+12 Spirit"
+          "+30 Agility",
+          "+20 Stamina"
         ],
         "effect": "Equip: +10 Shadow Resistance.",
         "requiresLevel": 60,
-        "sellPrice": "3g 60s"
+        "sellPrice": "2g 28s"
       },
       {
-        "name": "Savage Cuffs of Shattered Souls",
+        "name": "Cursed Pauldrons of Naxxramas",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Cloth",
+        "stats": [
+          "+24 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "6g 20s"
+      },
+      {
+        "name": "Plague-Ridden Footpads of Naxxramas",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Leather",
+        "slot": "Feet",
+        "type": "Cloth",
+        "stats": [
+          "+30 Spirit",
+          "+20 Intellect"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 80s"
+      },
+      {
+        "name": "Necrotic Girdle of the Lich King",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Cloth",
         "stats": [
           "+24 Intellect",
           "+16 Stamina"
         ],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 37s"
-      },
-      {
-        "name": "Blood-Forged Grips of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Plate",
-        "stats": [
-          "+18 Agility"
-        ],
         "effect": "Equip: Restores 4 mana per 5 seconds.",
         "requiresLevel": 60,
-        "sellPrice": "8g 19s"
+        "sellPrice": "2g 23s"
       },
       {
-        "name": "Ancient Bindings of Shattered Souls",
-        "rarity": "Epic",
+        "name": "Plague-Ridden Bracers of the Ziggurat",
+        "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Wrist",
         "type": "Plate",
         "stats": [
           "+24 Stamina"
         ],
-        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 38s"
-      },
-      {
-        "name": "Holy Loop of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Intellect"
-        ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "1g 77s"
+        "sellPrice": "7g 55s"
       },
       {
-        "name": "Shadow Relic of the Unseen",
+        "name": "Cursed Helm of Naxxramas",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 50s"
-      },
-      {
-        "name": "Savage Leggings of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Cloth",
-        "stats": [
-          "+18 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "8g 54s"
-      },
-      {
-        "name": "Venerable Gloves of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 68s"
-      },
-      {
-        "name": "Ancient Blade of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Bow",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "5g 20s"
-      },
-      {
-        "name": "Holy Relic of the Deep",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: +20 Attack Power.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 5s"
-      },
-      {
-        "name": "Ancient Medallion of Eternal Slumber",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 58s"
-      },
-      {
-        "name": "Ethereal Necklace of Eternal Slumber",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+24 Stamina",
-          "+16 Agility"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 15s"
-      },
-      {
-        "name": "Ancient Cuffs of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
+        "slot": "Head",
         "type": "Mail",
         "stats": [
-          "+18 Strength",
-          "+12 Stamina"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 64s"
-      },
-      {
-        "name": "Void-Touched Pants of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Cloth",
-        "stats": [
-          "+18 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "3g 15s"
-      },
-      {
-        "name": "Savage Bindings of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Mail",
-        "stats": [
-          "+18 Agility",
-          "+12 Strength"
-        ],
-        "effect": "Equip: Increases spell damage by up to 15.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 11s"
-      },
-      {
-        "name": "Savage Axe of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Axe",
-        "stats": [
-          "+18 Agility",
-          "+12 Strength"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 97s"
-      },
-      {
-        "name": "Corrupted Harness of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength"
+          "+30 Intellect",
+          "+20 Stamina"
         ],
         "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
         "requiresLevel": 60,
-        "sellPrice": "1g 18s"
+        "sellPrice": "2g 68s"
       },
       {
-        "name": "Ancient Relic of the Deep",
+        "name": "Death-Bound Bracers of Naxxramas",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 20s"
-      },
-      {
-        "name": "Venerable Amulet of Eternal Slumber",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
+        "slot": "Wrist",
+        "type": "Mail",
         "stats": [
-          "+24 Spirit",
-          "+16 Stamina"
+          "+24 Stamina",
+          "+16 Spirit"
         ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "4g 98s"
+        "sellPrice": "10g 0s"
       },
       {
-        "name": "Savage Signet of the Crimson King",
+        "name": "Scourge-Forged Axe of the Lich King",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 8s"
-      },
-      {
-        "name": "Shadow Kilt of the Void",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Plate",
+        "slot": "Main Hand",
+        "type": "Sword",
         "stats": [
           "+24 Stamina",
           "+16 Agility"
         ],
-        "effect": "Equip: Increases healing done by up to 25.",
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
         "requiresLevel": 60,
         "sellPrice": "9g 38s"
       },
       {
-        "name": "Venerable Helm of the Void",
+        "name": "Cursed Tunic of the Lich King",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "Head",
+        "slot": "Chest",
         "type": "Cloth",
         "stats": [
-          "+18 Spirit"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 92s"
-      },
-      {
-        "name": "Ethereal Grips of the Unseen",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Leather",
-        "stats": [
-          "+24 Stamina",
-          "+16 Strength"
-        ],
-        "effect": "Equip: Increases spell damage by up to 15.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 90s"
-      },
-      {
-        "name": "Savage Cowl of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina",
-          "+12 Strength"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "9g 31s"
-      },
-      {
-        "name": "Ancient Epaulets of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Leather",
-        "stats": [
-          "+18 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "2g 92s"
-      },
-      {
-        "name": "Ethereal Belt of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 13s"
-      },
-      {
-        "name": "Ethereal Necklace of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
+          "+24 Intellect"
         ],
         "effect": "Equip: Restores 4 mana per 5 seconds.",
         "requiresLevel": 60,
-        "sellPrice": "6g 81s"
+        "sellPrice": "6g 16s"
       },
       {
-        "name": "Corrupted Loop of the Unseen",
+        "name": "Cursed Mitts of the Lich King",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
+        "slot": "Hands",
+        "type": "Mail",
         "stats": [
-          "+18 Stamina",
-          "+12 Agility"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 49s"
-      },
-      {
-        "name": "Ethereal Amulet of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Agility",
-          "+12 Strength"
+          "+24 Stamina"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "6g 50s"
+        "sellPrice": "2g 95s"
       },
       {
-        "name": "Shimmering Shield of the Crimson King",
+        "name": "Scourge-Forged Shield of the Lich King",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Off Hand",
         "type": "Shield",
         "stats": [
-          "+18 Strength",
-          "+12 Stamina"
+          "+24 Agility",
+          "+16 Stamina"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "3g 24s"
+        "sellPrice": "2g 61s"
       },
       {
-        "name": "Ethereal Belt of the Betrayer",
-        "rarity": "Rare",
+        "name": "Scourge-Forged Mitts of the Lich King",
+        "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina",
-          "+12 Agility"
-        ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 36s"
-      },
-      {
-        "name": "Ethereal Girdle of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
+        "slot": "Hands",
         "type": "Mail",
         "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
+          "+30 Stamina",
+          "+20 Strength"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 62s"
+      },
+      {
+        "name": "Scourge-Forged Band of the Phylactery",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+24 Intellect",
+          "+16 Stamina"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "9g 25s"
+        "sellPrice": "9g 44s"
       },
       {
-        "name": "Blood-Forged Cuffs of the Void",
-        "rarity": "Rare",
+        "name": "Scourge-Forged Vest of the Phylactery",
+        "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Wrist",
+        "slot": "Chest",
         "type": "Plate",
         "stats": [
-          "+18 Stamina",
-          "+12 Strength"
+          "+30 Agility"
         ],
-        "effect": "Equip: Increases spell damage by up to 15.",
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
         "requiresLevel": 60,
-        "sellPrice": "2g 94s"
+        "sellPrice": "6g 88s"
       },
       {
-        "name": "Savage Greatsword of the Unseen",
+        "name": "Scourge-Forged Slippers of the Phylactery",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Sword",
+        "slot": "Feet",
+        "type": "Plate",
         "stats": [
-          "+18 Agility",
-          "+12 Stamina"
+          "+24 Agility"
         ],
-        "effect": "",
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
         "requiresLevel": 60,
-        "sellPrice": "10g 65s"
+        "sellPrice": "3g 56s"
       },
       {
-        "name": "Venerable Girdle of the Void",
+        "name": "Cursed Medallion of Naxxramas",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Cloth",
-        "stats": [
-          "+18 Intellect",
-          "+12 Spirit"
-        ],
-        "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
         "requiresLevel": 60,
-        "sellPrice": "1g 43s"
+        "sellPrice": "9g 69s"
       },
       {
-        "name": "Savage Epaulets of the Void",
+        "name": "Death-Bound Slippers of the Lich King",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Plate",
+        "stats": [
+          "+30 Agility"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 96s"
+      },
+      {
+        "name": "Death-Bound Mantle of the Lich King",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Shoulder",
         "type": "Plate",
         "stats": [
-          "+24 Stamina",
-          "+16 Strength"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 36s"
-      },
-      {
-        "name": "Void-Touched Breastplate of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Cloth",
-        "stats": [
-          "+18 Stamina",
-          "+12 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "10g 8s"
-      },
-      {
-        "name": "Corrupted Bow of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Bow",
-        "stats": [
-          "+18 Stamina",
-          "+12 Strength"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "7g 80s"
-      },
-      {
-        "name": "Void-Touched Cowl of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Cloth",
-        "stats": [
-          "+18 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "3g 87s"
-      },
-      {
-        "name": "Holy Vest of the Deep",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Cloth",
-        "stats": [
-          "+24 Intellect",
-          "+16 Stamina"
-        ],
-        "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 92s"
-      },
-      {
-        "name": "Shadow Handguards of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Leather",
-        "stats": [
-          "+18 Agility"
+          "+30 Stamina",
+          "+20 Strength"
         ],
         "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
         "requiresLevel": 60,
-        "sellPrice": "1g 6s"
+        "sellPrice": "7g 79s"
       },
       {
-        "name": "Shadow Blade of the Forgotten",
+        "name": "Necrotic Sabatons of Naxxramas",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Dagger",
+        "slot": "Feet",
+        "type": "Plate",
         "stats": [
-          "+18 Stamina"
+          "+24 Strength"
         ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "7g 65s"
+        "sellPrice": "4g 65s"
       },
       {
-        "name": "Void-Touched Amulet of the Void",
+        "name": "Necrotic Greatsword of the Phylactery",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Sword",
+        "stats": [
+          "+30 Strength",
+          "+20 Agility"
+        ],
+        "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 1s"
+      },
+      {
+        "name": "Death-Bound Axe of the Lich King",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Staff",
+        "stats": [
+          "+24 Stamina",
+          "+16 Strength"
+        ],
+        "effect": "Equip: Increases healing done by up to 25.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 50s"
+      },
+      {
+        "name": "Necrotic Choker of the Lich King",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Neck",
         "type": "Necklace",
         "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
+          "+24 Stamina",
+          "+16 Spirit"
         ],
-        "effect": "",
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
         "requiresLevel": 60,
-        "sellPrice": "9g 79s"
+        "sellPrice": "6g 3s"
       },
       {
-        "name": "Blood-Forged Seal of the Unseen",
+        "name": "Scourge-Forged Ring of the Lich King",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Finger",
         "type": "Ring",
         "stats": [
-          "+18 Agility"
+          "+24 Stamina",
+          "+16 Intellect"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "7g 67s"
+        "sellPrice": "3g 16s"
       },
       {
-        "name": "Corrupted Signet of the Deep",
+        "name": "Cursed Greaves of Naxxramas",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Plate",
+        "stats": [
+          "+24 Strength",
+          "+16 Agility"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 26s"
+      },
+      {
+        "name": "Cursed Charm of the Ziggurat",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 80s"
+      },
+      {
+        "name": "Cursed Cord of the Phylactery",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Mail",
+        "stats": [
+          "+24 Spirit"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 72s"
+      },
+      {
+        "name": "Plague-Ridden Cowl of the Phylactery",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Mail",
+        "stats": [
+          "+24 Stamina",
+          "+16 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "2g 48s"
+      },
+      {
+        "name": "Death-Bound Greatsword of the Ziggurat",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Mace",
+        "stats": [
+          "+30 Stamina",
+          "+20 Agility"
+        ],
+        "effect": "Equip: +10 Shadow Resistance.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 28s"
+      },
+      {
+        "name": "Necrotic Grips of Naxxramas",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Hands",
+        "type": "Plate",
+        "stats": [
+          "+24 Strength"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 6s"
+      },
+      {
+        "name": "Scourge-Forged Amice of Naxxramas",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Plate",
+        "stats": [
+          "+24 Strength",
+          "+16 Agility"
+        ],
+        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 21s"
+      },
+      {
+        "name": "Scourge-Forged Band of the Ziggurat",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+30 Agility",
+          "+20 Strength"
+        ],
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 69s"
+      },
+      {
+        "name": "Necrotic Axe of the Ziggurat",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Dagger",
+        "stats": [
+          "+30 Agility",
+          "+20 Stamina"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 66s"
+      },
+      {
+        "name": "Cursed Staff of the Ziggurat",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Mace",
+        "stats": [
+          "+24 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "1g 36s"
+      },
+      {
+        "name": "Cursed Circlet of the Ziggurat",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Cloth",
+        "stats": [
+          "+24 Stamina",
+          "+16 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "6g 91s"
+      },
+      {
+        "name": "Plague-Ridden Boots of the Ziggurat",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Mail",
+        "stats": [
+          "+30 Stamina"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 56s"
+      },
+      {
+        "name": "Death-Bound Defender of Naxxramas",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Off Hand",
+        "type": "Shield",
+        "stats": [
+          "+24 Strength",
+          "+16 Agility"
+        ],
+        "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 26s"
+      },
+      {
+        "name": "Scourge-Forged Slippers of the Ziggurat",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Cloth",
+        "stats": [
+          "+30 Stamina",
+          "+20 Spirit"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 84s"
+      },
+      {
+        "name": "Plague-Ridden Loop of the Lich King",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Finger",
         "type": "Ring",
         "stats": [
-          "+18 Intellect"
+          "+24 Agility"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "1g 62s"
+        "sellPrice": "2g 12s"
+      },
+      {
+        "name": "Cursed Pendant of the Phylactery",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+24 Spirit"
+        ],
+        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 30s"
+      },
+      {
+        "name": "Death-Bound Charm of the Lich King",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 12s"
+      },
+      {
+        "name": "Necrotic Handguards of the Ziggurat",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Hands",
+        "type": "Cloth",
+        "stats": [
+          "+24 Spirit",
+          "+16 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "1g 97s"
+      },
+      {
+        "name": "Plague-Ridden Amice of the Ziggurat",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Plate",
+        "stats": [
+          "+30 Agility",
+          "+20 Stamina"
+        ],
+        "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 25s"
+      },
+      {
+        "name": "Necrotic Wristguards of Naxxramas",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Plate",
+        "stats": [
+          "+24 Strength"
+        ],
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 90s"
+      },
+      {
+        "name": "Cursed Staff of Naxxramas",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Staff",
+        "stats": [
+          "+24 Strength",
+          "+16 Stamina"
+        ],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 28s"
+      },
+      {
+        "name": "Cursed Axe of the Phylactery",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Dagger",
+        "stats": [
+          "+30 Stamina",
+          "+20 Strength"
+        ],
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 16s"
+      },
+      {
+        "name": "Plague-Ridden Robes of the Ziggurat",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Plate",
+        "stats": [
+          "+24 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "4g 46s"
+      },
+      {
+        "name": "Necrotic Leggings of the Lich King",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Mail",
+        "stats": [
+          "+30 Strength"
+        ],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 84s"
+      },
+      {
+        "name": "Cursed Treads of the Ziggurat",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Leather",
+        "stats": [
+          "+24 Stamina",
+          "+16 Strength"
+        ],
+        "effect": "Equip: Increases healing done by up to 25.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 84s"
+      },
+      {
+        "name": "Death-Bound Vest of the Ziggurat",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Cloth",
+        "stats": [
+          "+24 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "8g 37s"
       }
     ]
   },
@@ -9618,1357 +9588,1352 @@ export const pveData = {
     ],
     "loot": [
       {
-        "name": "Ethereal Footpads of the Void",
+        "name": "Ethereal Axe of the Nether",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Leather",
+        "slot": "One-Hand",
+        "type": "Mace",
         "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
+          "+25 Stamina"
+        ],
+        "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 12s"
+      },
+      {
+        "name": "Timeless Amulet of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+25 Intellect"
+        ],
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 6s"
+      },
+      {
+        "name": "Medivh's Axe of the Ivory Tower",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Mace",
+        "stats": [
+          "+31 Intellect",
+          "+21 Spirit"
+        ],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 24s"
+      },
+      {
+        "name": "Ethereal Signet of the Rift",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+31 Stamina",
+          "+21 Intellect"
+        ],
+        "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 77s"
+      },
+      {
+        "name": "Ethereal Robes of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Cloth",
+        "stats": [
+          "+25 Stamina"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "3g 15s"
+        "sellPrice": "8g 60s"
       },
       {
-        "name": "Blood-Forged Talisman of Eternal Slumber",
+        "name": "Timeless Spaulders of the Rift",
         "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Leather",
+        "stats": [
+          "+25 Stamina",
+          "+17 Intellect"
+        ],
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 29s"
+      },
+      {
+        "name": "Timeless Medallion of the Ivory Tower",
+        "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Trinket",
         "type": "Trinket",
         "stats": [],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 94s"
-      },
-      {
-        "name": "Shimmering Necklace of the Forgotten",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+24 Stamina",
-          "+16 Intellect"
-        ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 68s"
-      },
-      {
-        "name": "Shimmering Gavel of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Bow",
-        "stats": [
-          "+18 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "1g 11s"
-      },
-      {
-        "name": "Ethereal Sabatons of the Crimson King",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Plate",
-        "stats": [
-          "+24 Strength"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 72s"
-      },
-      {
-        "name": "Corrupted Gloves of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Cloth",
-        "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "8g 9s"
-      },
-      {
-        "name": "Venerable Breastplate of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Leather",
-        "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
-        ],
-        "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 90s"
-      },
-      {
-        "name": "Savage Treads of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Cloth",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "5g 78s"
-      },
-      {
-        "name": "Ethereal Pants of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "9g 74s"
-      },
-      {
-        "name": "Corrupted Cord of the Deep",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Cloth",
-        "stats": [
-          "+24 Spirit",
-          "+16 Stamina"
-        ],
         "effect": "Equip: +20 Attack Power.",
         "requiresLevel": 60,
-        "sellPrice": "1g 98s"
+        "sellPrice": "2g 10s"
       },
       {
-        "name": "Shadow Cord of the Unseen",
+        "name": "Astral Girdle of the Guardian's Fall",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Waist",
         "type": "Cloth",
         "stats": [
-          "+18 Intellect"
+          "+25 Stamina",
+          "+17 Spirit"
         ],
         "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "10g 61s"
-      },
-      {
-        "name": "Void-Touched Helm of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
         "requiresLevel": 60,
         "sellPrice": "9g 32s"
       },
       {
-        "name": "Corrupted Leggings of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Leather",
-        "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "1g 71s"
-      },
-      {
-        "name": "Ethereal Seal of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Strength",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "4g 58s"
-      },
-      {
-        "name": "Void-Touched Staff of the Void",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Sword",
-        "stats": [
-          "+24 Intellect",
-          "+16 Spirit"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 35s"
-      },
-      {
-        "name": "Ethereal Bracers of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Cloth",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 15s"
-      },
-      {
-        "name": "Ethereal Cord of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Leather",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 64s"
-      },
-      {
-        "name": "Venerable Greatsword of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Bow",
-        "stats": [
-          "+18 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "3g 25s"
-      },
-      {
-        "name": "Venerable Leggings of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Mail",
-        "stats": [
-          "+18 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "5g 43s"
-      },
-      {
-        "name": "Shadow Staff of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Mace",
-        "stats": [
-          "+18 Stamina",
-          "+12 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "8g 73s"
-      },
-      {
-        "name": "Ancient Seal of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Stamina",
-          "+12 Agility"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 84s"
-      },
-      {
-        "name": "Holy Spaulders of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Cloth",
-        "stats": [
-          "+18 Spirit"
-        ],
-        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 19s"
-      },
-      {
-        "name": "Shadow Dagger of the Void",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Sword",
-        "stats": [
-          "+24 Stamina",
-          "+16 Strength"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 91s"
-      },
-      {
-        "name": "Ethereal Ring of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Spirit",
-          "+12 Stamina"
-        ],
-        "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 24s"
-      },
-      {
-        "name": "Ancient Girdle of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Mail",
-        "stats": [
-          "+18 Spirit",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 10s"
-      },
-      {
-        "name": "Void-Touched Greatsword of the Betrayer",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Sword",
-        "stats": [
-          "+24 Agility"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 2s"
-      },
-      {
-        "name": "Holy Gavel of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Mace",
-        "stats": [
-          "+18 Intellect",
-          "+12 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "9g 67s"
-      },
-      {
-        "name": "Blood-Forged Loop of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "3g 28s"
-      },
-      {
-        "name": "Shimmering Treads of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Plate",
-        "stats": [
-          "+24 Stamina",
-          "+16 Strength"
-        ],
-        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 36s"
-      },
-      {
-        "name": "Holy Helm of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina",
-          "+12 Strength"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 71s"
-      },
-      {
-        "name": "Shadow Wristguards of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Cloth",
-        "stats": [
-          "+18 Intellect"
-        ],
-        "effect": "Equip: +20 Attack Power.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 29s"
-      },
-      {
-        "name": "Ancient Greaves of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "10g 68s"
-      },
-      {
-        "name": "Void-Touched Grips of the Archmage",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Cloth",
-        "stats": [
-          "+24 Intellect",
-          "+16 Spirit"
-        ],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 86s"
-      },
-      {
-        "name": "Venerable Pendant of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 87s"
-      },
-      {
-        "name": "Ancient Breastplate of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 75s"
-      },
-      {
-        "name": "Savage Bow of the Forgotten",
+        "name": "Timeless Axe of the Nether",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Two-Hand",
         "type": "Staff",
         "stats": [
-          "+24 Intellect"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 93s"
-      },
-      {
-        "name": "Shimmering Choker of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Intellect",
-          "+12 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "10g 17s"
-      },
-      {
-        "name": "Ancient Bow of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Mace",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "7g 29s"
-      },
-      {
-        "name": "Venerable Tunic of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Cloth",
-        "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 74s"
-      },
-      {
-        "name": "Blood-Forged Boots of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Leather",
-        "stats": [
-          "+18 Agility",
-          "+12 Strength"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "5g 92s"
-      },
-      {
-        "name": "Shadow Staff of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Mace",
-        "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
-        ],
-        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 69s"
-      },
-      {
-        "name": "Holy Seal of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 63s"
-      },
-      {
-        "name": "Shimmering Harness of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina",
-          "+12 Strength"
-        ],
-        "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 41s"
-      },
-      {
-        "name": "Shimmering Tunic of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Leather",
-        "stats": [
-          "+18 Strength",
-          "+12 Stamina"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 71s"
-      },
-      {
-        "name": "Shimmering Axe of the Unseen",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Bow",
-        "stats": [
-          "+24 Intellect",
-          "+16 Spirit"
-        ],
-        "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 78s"
-      },
-      {
-        "name": "Corrupted Legguards of Eternal Slumber",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Leather",
-        "stats": [
-          "+24 Agility",
-          "+16 Stamina"
-        ],
-        "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 79s"
-      },
-      {
-        "name": "Shadow Relic of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 84s"
-      },
-      {
-        "name": "Ethereal Relic of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 15s"
-      },
-      {
-        "name": "Shadow Wristguards of the Void",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Mail",
-        "stats": [
-          "+24 Spirit",
-          "+16 Intellect"
-        ],
-        "effect": "Equip: Increases spell damage by up to 15.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 21s"
-      },
-      {
-        "name": "Shimmering Robes of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Leather",
-        "stats": [
-          "+24 Stamina",
-          "+16 Strength"
-        ],
-        "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 96s"
-      },
-      {
-        "name": "Venerable Greatsword of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Bow",
-        "stats": [
-          "+18 Intellect",
-          "+12 Spirit"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 6s"
-      },
-      {
-        "name": "Shadow Legguards of the Deep",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Cloth",
-        "stats": [
-          "+24 Intellect"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 59s"
-      },
-      {
-        "name": "Venerable Pauldrons of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina",
-          "+12 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "4g 70s"
-      },
-      {
-        "name": "Savage Mantle of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Cloth",
-        "stats": [
-          "+18 Intellect"
+          "+31 Intellect"
         ],
         "effect": "Equip: +1% Hit chance.",
         "requiresLevel": 60,
-        "sellPrice": "9g 70s"
+        "sellPrice": "6g 77s"
       },
       {
-        "name": "Holy Pants of the Crimson King",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Plate",
-        "stats": [
-          "+24 Strength"
-        ],
-        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 54s"
-      },
-      {
-        "name": "Ancient Signet of the Betrayer",
+        "name": "Rift-Touched Vest of the Guardian's Fall",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
+        "slot": "Chest",
+        "type": "Plate",
         "stats": [
-          "+18 Intellect"
+          "+25 Agility",
+          "+17 Strength"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "10g 12s"
+        "sellPrice": "10g 23s"
       },
       {
-        "name": "Shimmering Amulet of the Crimson King",
-        "rarity": "Epic",
+        "name": "Timeless Dagger of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Bow",
+        "stats": [
+          "+25 Intellect",
+          "+17 Stamina"
+        ],
+        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 46s"
+      },
+      {
+        "name": "Medivh's Necklace of the Nether",
+        "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Neck",
         "type": "Necklace",
         "stats": [
-          "+24 Stamina",
-          "+16 Spirit"
+          "+25 Spirit"
         ],
-        "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
         "requiresLevel": 60,
-        "sellPrice": "9g 31s"
+        "sellPrice": "7g 89s"
       },
       {
-        "name": "Holy Crown of the Unseen",
+        "name": "Ethereal Defender of the Nether",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Mail",
+        "slot": "Off Hand",
+        "type": "Shield",
         "stats": [
-          "+24 Agility"
+          "+31 Strength",
+          "+21 Stamina"
         ],
-        "effect": "Equip: +10 Shadow Resistance.",
+        "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
         "requiresLevel": 60,
-        "sellPrice": "2g 23s"
+        "sellPrice": "8g 24s"
       },
       {
-        "name": "Corrupted Breastplate of Shattered Souls",
+        "name": "Rift-Touched Dagger of the Guardian's Fall",
         "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Leather",
-        "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "2g 73s"
-      },
-      {
-        "name": "Holy Gauntlets of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Cloth",
-        "stats": [
-          "+24 Stamina",
-          "+16 Spirit"
-        ],
-        "effect": "Equip: +20 Attack Power.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 86s"
-      },
-      {
-        "name": "Corrupted Sash of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "4g 57s"
-      },
-      {
-        "name": "Ancient Grips of Eternal Slumber",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Plate",
-        "stats": [
-          "+24 Agility",
-          "+16 Strength"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 6s"
-      },
-      {
-        "name": "Void-Touched Bow of the Crimson King",
-        "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Main Hand",
-        "type": "Axe",
+        "type": "Mace",
         "stats": [
-          "+24 Stamina"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 48s"
-      },
-      {
-        "name": "Void-Touched Choker of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
+          "+25 Intellect",
+          "+17 Spirit"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "5g 83s"
+        "sellPrice": "7g 86s"
       },
       {
-        "name": "Holy Belt of Bloodletting",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Leather",
-        "stats": [
-          "+24 Spirit",
-          "+16 Stamina"
-        ],
-        "effect": "Equip: +20 Attack Power.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 41s"
-      },
-      {
-        "name": "Ancient Axe of Eternal Slumber",
-        "rarity": "Epic",
+        "name": "Timeless Axe of the Nether",
+        "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Two-Hand",
         "type": "Bow",
         "stats": [
-          "+24 Agility",
-          "+16 Stamina"
+          "+25 Spirit",
+          "+17 Intellect"
         ],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 10s"
-      },
-      {
-        "name": "Ancient Gauntlets of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Leather",
-        "stats": [
-          "+18 Agility",
-          "+12 Stamina"
-        ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 31s"
-      },
-      {
-        "name": "Corrupted Amice of the Unseen",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Leather",
-        "stats": [
-          "+24 Stamina"
-        ],
-        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 63s"
-      },
-      {
-        "name": "Ethereal Dagger of the Forgotten",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Dagger",
-        "stats": [
-          "+24 Agility"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 4s"
-      },
-      {
-        "name": "Corrupted Girdle of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
         "requiresLevel": 60,
         "sellPrice": "8g 47s"
       },
       {
-        "name": "Shadow Cowl of the Crimson King",
+        "name": "Medivh's Slippers of the Ivory Tower",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "Head",
+        "slot": "Feet",
         "type": "Cloth",
         "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
+          "+25 Intellect"
         ],
-        "effect": "",
+        "effect": "Equip: Increases spell damage by up to 15.",
         "requiresLevel": 60,
-        "sellPrice": "7g 4s"
+        "sellPrice": "7g 79s"
       },
       {
-        "name": "Ancient Mitts of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina",
-          "+12 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "1g 93s"
-      },
-      {
-        "name": "Shimmering Legguards of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "1g 26s"
-      },
-      {
-        "name": "Ethereal Greatsword of the Betrayer",
+        "name": "Timeless Gavel of the Guardian's Fall",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Axe",
+        "slot": "Two-Hand",
+        "type": "Bow",
         "stats": [
-          "+24 Stamina",
-          "+16 Agility"
+          "+31 Agility",
+          "+21 Stamina"
         ],
-        "effect": "Equip: +1% Hit chance.",
+        "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
         "requiresLevel": 60,
-        "sellPrice": "2g 20s"
+        "sellPrice": "4g 45s"
       },
       {
-        "name": "Corrupted Grips of the Deep",
-        "rarity": "Rare",
+        "name": "Medivh's Loop of the Nether",
+        "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Mail",
+        "slot": "Finger",
+        "type": "Ring",
         "stats": [
-          "+18 Strength"
+          "+31 Intellect"
         ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
         "requiresLevel": 60,
-        "sellPrice": "2g 8s"
+        "sellPrice": "1g 18s"
       },
       {
-        "name": "Shadow Mitts of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Cloth",
-        "stats": [
-          "+18 Stamina",
-          "+12 Spirit"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 10s"
-      },
-      {
-        "name": "Savage Waistguard of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "7g 16s"
-      },
-      {
-        "name": "Ethereal Pauldrons of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Leather",
-        "stats": [
-          "+18 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "3g 90s"
-      },
-      {
-        "name": "Shadow Axe of Shattered Souls",
+        "name": "Rift-Touched Bow of the Ivory Tower",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "One-Hand",
-        "type": "Dagger",
+        "type": "Mace",
         "stats": [
-          "+24 Intellect",
-          "+16 Stamina"
+          "+31 Stamina",
+          "+21 Agility"
         ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "effect": "Equip: +1% Hit chance.",
         "requiresLevel": 60,
-        "sellPrice": "10g 36s"
+        "sellPrice": "8g 30s"
       },
       {
-        "name": "Holy Belt of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Plate",
-        "stats": [
-          "+24 Agility",
-          "+16 Strength"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 12s"
-      },
-      {
-        "name": "Void-Touched Collar of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "4g 89s"
-      },
-      {
-        "name": "Venerable Tunic of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Leather",
-        "stats": [
-          "+18 Agility"
-        ],
-        "effect": "Equip: +20 Attack Power.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 27s"
-      },
-      {
-        "name": "Ethereal Loop of the Unseen",
+        "name": "Medivh's Seal of the Guardian's Fall",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Finger",
         "type": "Ring",
         "stats": [
-          "+18 Stamina",
-          "+12 Agility"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 98s"
-      },
-      {
-        "name": "Shimmering Amice of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength",
-          "+12 Stamina"
+          "+25 Strength",
+          "+17 Stamina"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "10g 10s"
+        "sellPrice": "3g 46s"
       },
       {
-        "name": "Blood-Forged Girdle of the Void",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Plate",
-        "stats": [
-          "+24 Stamina",
-          "+16 Agility"
-        ],
-        "effect": "Equip: Increases spell damage by up to 15.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 51s"
-      },
-      {
-        "name": "Venerable Gloves of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Cloth",
-        "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 42s"
-      },
-      {
-        "name": "Corrupted Pendant of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Intellect"
-        ],
-        "effect": "Equip: +20 Attack Power.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 88s"
-      },
-      {
-        "name": "Holy Belt of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Leather",
-        "stats": [
-          "+18 Spirit",
-          "+12 Stamina"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 50s"
-      },
-      {
-        "name": "Venerable Sabatons of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Mail",
-        "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "2g 69s"
-      },
-      {
-        "name": "Shadow Medallion of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 44s"
-      },
-      {
-        "name": "Shimmering Bindings of the Void",
+        "name": "Astral Bracers of the Rift",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Wrist",
         "type": "Plate",
         "stats": [
-          "+18 Strength",
-          "+12 Stamina"
+          "+25 Stamina",
+          "+17 Strength"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "4g 90s"
+        "sellPrice": "10g 28s"
       },
       {
-        "name": "Holy Boots of the Crimson King",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Leather",
-        "stats": [
-          "+24 Intellect",
-          "+16 Stamina"
-        ],
-        "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 96s"
-      },
-      {
-        "name": "Savage Legguards of Bloodletting",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Cloth",
-        "stats": [
-          "+24 Stamina",
-          "+16 Intellect"
-        ],
-        "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 87s"
-      },
-      {
-        "name": "Ethereal Greatsword of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Axe",
-        "stats": [
-          "+18 Agility",
-          "+12 Strength"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 55s"
-      },
-      {
-        "name": "Ancient Waistguard of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Leather",
-        "stats": [
-          "+18 Agility",
-          "+12 Stamina"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 93s"
-      },
-      {
-        "name": "Shadow Talisman of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 6s"
-      },
-      {
-        "name": "Ethereal Helm of Bloodletting",
+        "name": "Medivh's Circlet of the Ivory Tower",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Head",
         "type": "Plate",
         "stats": [
-          "+18 Strength",
-          "+12 Agility"
+          "+25 Stamina",
+          "+17 Strength"
+        ],
+        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 47s"
+      },
+      {
+        "name": "Ethereal Epaulets of the Guardian's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Cloth",
+        "stats": [
+          "+25 Stamina",
+          "+17 Intellect"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 62s"
+      },
+      {
+        "name": "Ethereal Cord of the Guardian's Fall",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Cloth",
+        "stats": [
+          "+31 Spirit"
+        ],
+        "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 73s"
+      },
+      {
+        "name": "Rift-Touched Grips of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Hands",
+        "type": "Plate",
+        "stats": [
+          "+25 Strength",
+          "+17 Stamina"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "4g 52s"
+        "sellPrice": "10g 62s"
       },
       {
-        "name": "Savage Gavel of the Forgotten",
+        "name": "Timeless Gavel of the Nether",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Staff",
+        "stats": [
+          "+31 Stamina",
+          "+21 Intellect"
+        ],
+        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 26s"
+      },
+      {
+        "name": "Timeless Treads of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Cloth",
+        "stats": [
+          "+25 Spirit"
+        ],
+        "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 5s"
+      },
+      {
+        "name": "Timeless Gavel of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Sword",
+        "stats": [
+          "+25 Agility",
+          "+17 Strength"
+        ],
+        "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 4s"
+      },
+      {
+        "name": "Medivh's Sabatons of the Guardian's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Plate",
+        "stats": [
+          "+25 Strength"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "5g 40s"
+      },
+      {
+        "name": "Medivh's Wristguards of the Ivory Tower",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Cloth",
+        "stats": [
+          "+31 Stamina",
+          "+21 Intellect"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 35s"
+      },
+      {
+        "name": "Timeless Pants of the Guardian's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Cloth",
+        "stats": [
+          "+25 Intellect",
+          "+17 Spirit"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 20s"
+      },
+      {
+        "name": "Medivh's Bracers of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Plate",
+        "stats": [
+          "+25 Strength",
+          "+17 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "2g 97s"
+      },
+      {
+        "name": "Medivh's Crown of the Guardian's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Mail",
+        "stats": [
+          "+25 Stamina",
+          "+17 Strength"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "10g 84s"
+      },
+      {
+        "name": "Ethereal Amulet of the Ivory Tower",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+31 Strength",
+          "+21 Stamina"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 26s"
+      },
+      {
+        "name": "Ethereal Relic of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 38s"
+      },
+      {
+        "name": "Timeless Bindings of the Nether",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Plate",
+        "stats": [
+          "+31 Agility",
+          "+21 Strength"
+        ],
+        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 55s"
+      },
+      {
+        "name": "Medivh's Band of the Ivory Tower",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+31 Spirit"
+        ],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 51s"
+      },
+      {
+        "name": "Ethereal Circlet of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Cloth",
+        "stats": [
+          "+25 Intellect",
+          "+17 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "6g 95s"
+      },
+      {
+        "name": "Timeless Mantle of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Cloth",
+        "stats": [
+          "+25 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "5g 22s"
+      },
+      {
+        "name": "Medivh's Circlet of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Plate",
+        "stats": [
+          "+25 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "7g 47s"
+      },
+      {
+        "name": "Astral Bow of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Axe",
+        "stats": [
+          "+25 Intellect"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 48s"
+      },
+      {
+        "name": "Timeless Brooch of the Ivory Tower",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 45s"
+      },
+      {
+        "name": "Timeless Bindings of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Plate",
+        "stats": [
+          "+25 Stamina",
+          "+17 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "6g 57s"
+      },
+      {
+        "name": "Medivh's Necklace of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+25 Intellect",
+          "+17 Spirit"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 3s"
+      },
+      {
+        "name": "Rift-Touched Signet of the Ivory Tower",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+31 Stamina"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 63s"
+      },
+      {
+        "name": "Timeless Helm of the Guardian's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Mail",
+        "stats": [
+          "+25 Agility",
+          "+17 Strength"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "1g 64s"
+      },
+      {
+        "name": "Ethereal Signet of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+25 Agility"
+        ],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 39s"
+      },
+      {
+        "name": "Medivh's Signet of the Guardian's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+25 Intellect",
+          "+17 Spirit"
+        ],
+        "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 46s"
+      },
+      {
+        "name": "Astral Mantle of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Leather",
+        "stats": [
+          "+25 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "7g 64s"
+      },
+      {
+        "name": "Medivh's Sabatons of the Guardian's Fall",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Cloth",
+        "stats": [
+          "+31 Spirit",
+          "+21 Intellect"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 17s"
+      },
+      {
+        "name": "Rift-Touched Footpads of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Cloth",
+        "stats": [
+          "+25 Stamina",
+          "+17 Intellect"
+        ],
+        "effect": "Equip: Increases healing done by up to 25.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 34s"
+      },
+      {
+        "name": "Rift-Touched Greatsword of the Rift",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Main Hand",
         "type": "Sword",
         "stats": [
-          "+18 Stamina"
+          "+25 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "1g 23s"
+      },
+      {
+        "name": "Astral Bracers of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Plate",
+        "stats": [
+          "+25 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "9g 31s"
+      },
+      {
+        "name": "Timeless Axe of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Dagger",
+        "stats": [
+          "+25 Spirit"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 56s"
+      },
+      {
+        "name": "Astral Vest of the Rift",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Plate",
+        "stats": [
+          "+31 Strength"
+        ],
+        "effect": "Equip: +10 Shadow Resistance.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 71s"
+      },
+      {
+        "name": "Timeless Robes of the Guardian's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Plate",
+        "stats": [
+          "+25 Agility",
+          "+17 Strength"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 54s"
+      },
+      {
+        "name": "Astral Mask of the Nether",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Plate",
+        "stats": [
+          "+31 Agility",
+          "+21 Strength"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 40s"
+      },
+      {
+        "name": "Medivh's Talisman of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 90s"
+      },
+      {
+        "name": "Medivh's Pendant of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+25 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "2g 13s"
+      },
+      {
+        "name": "Ethereal Greatsword of the Guardian's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Sword",
+        "stats": [
+          "+25 Stamina",
+          "+17 Spirit"
+        ],
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 29s"
+      },
+      {
+        "name": "Ethereal Sash of the Rift",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Plate",
+        "stats": [
+          "+31 Strength",
+          "+21 Agility"
+        ],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 90s"
+      },
+      {
+        "name": "Ethereal Robes of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Plate",
+        "stats": [
+          "+25 Agility",
+          "+17 Strength"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "6g 3s"
+      },
+      {
+        "name": "Rift-Touched Axe of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Dagger",
+        "stats": [
+          "+25 Agility",
+          "+17 Strength"
+        ],
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 56s"
+      },
+      {
+        "name": "Astral Spaulders of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Plate",
+        "stats": [
+          "+25 Stamina",
+          "+17 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "7g 85s"
+      },
+      {
+        "name": "Rift-Touched Dagger of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Mace",
+        "stats": [
+          "+25 Intellect",
+          "+17 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "5g 74s"
+      },
+      {
+        "name": "Rift-Touched Gavel of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Bow",
+        "stats": [
+          "+25 Agility",
+          "+17 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "10g 44s"
+      },
+      {
+        "name": "Ethereal Blade of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Bow",
+        "stats": [
+          "+25 Intellect",
+          "+17 Spirit"
+        ],
+        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 66s"
+      },
+      {
+        "name": "Medivh's Seal of the Ivory Tower",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+31 Strength",
+          "+21 Agility"
+        ],
+        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 4s"
+      },
+      {
+        "name": "Timeless Leggings of the Ivory Tower",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Plate",
+        "stats": [
+          "+31 Strength"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 23s"
+      },
+      {
+        "name": "Timeless Buckler of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Off Hand",
+        "type": "Shield",
+        "stats": [
+          "+25 Agility"
+        ],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 71s"
+      },
+      {
+        "name": "Astral Boots of the Ivory Tower",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Cloth",
+        "stats": [
+          "+31 Stamina",
+          "+21 Spirit"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 7s"
+      },
+      {
+        "name": "Timeless Gloves of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Hands",
+        "type": "Plate",
+        "stats": [
+          "+25 Strength",
+          "+17 Agility"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 42s"
+      },
+      {
+        "name": "Timeless Choker of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+25 Spirit",
+          "+17 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "4g 13s"
+      },
+      {
+        "name": "Medivh's Axe of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Dagger",
+        "stats": [
+          "+25 Spirit",
+          "+17 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "6g 23s"
+      },
+      {
+        "name": "Medivh's Vambraces of the Guardian's Fall",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Leather",
+        "stats": [
+          "+31 Intellect"
+        ],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 17s"
+      },
+      {
+        "name": "Timeless Bulwark of the Ivory Tower",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Off Hand",
+        "type": "Shield",
+        "stats": [
+          "+31 Stamina",
+          "+21 Strength"
         ],
         "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
         "requiresLevel": 60,
-        "sellPrice": "1g 85s"
+        "sellPrice": "4g 87s"
       },
       {
-        "name": "Shadow Ring of the Archmage",
+        "name": "Ethereal Gavel of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Mace",
+        "stats": [
+          "+25 Spirit",
+          "+17 Intellect"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 80s"
+      },
+      {
+        "name": "Timeless Charm of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 92s"
+      },
+      {
+        "name": "Rift-Touched Signet of the Nether",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Finger",
         "type": "Ring",
         "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
+          "+25 Stamina",
+          "+17 Agility"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 50s"
+      },
+      {
+        "name": "Medivh's Treads of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Plate",
+        "stats": [
+          "+25 Agility"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 93s"
+      },
+      {
+        "name": "Medivh's Staff of the Nether",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Bow",
+        "stats": [
+          "+31 Strength",
+          "+21 Agility"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 39s"
+      },
+      {
+        "name": "Astral Choker of the Ivory Tower",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+31 Spirit"
+        ],
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 63s"
+      },
+      {
+        "name": "Medivh's Staff of the Guardian's Fall",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Dagger",
+        "stats": [
+          "+31 Strength",
+          "+21 Agility"
+        ],
+        "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 49s"
+      },
+      {
+        "name": "Timeless Collar of the Nether",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+31 Stamina",
+          "+21 Agility"
+        ],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 55s"
+      },
+      {
+        "name": "Ethereal Charm of the Ivory Tower",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 50s"
+      },
+      {
+        "name": "Timeless Ring of the Guardian's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+25 Agility"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "6g 76s"
+        "sellPrice": "2g 86s"
       },
       {
-        "name": "Blood-Forged Footpads of the Crimson King",
+        "name": "Timeless Leggings of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Cloth",
+        "stats": [
+          "+25 Stamina"
+        ],
+        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 17s"
+      },
+      {
+        "name": "Rift-Touched Leggings of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Cloth",
+        "stats": [
+          "+25 Stamina",
+          "+17 Intellect"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 19s"
+      },
+      {
+        "name": "Ethereal Pants of the Guardian's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Plate",
+        "stats": [
+          "+25 Strength",
+          "+17 Stamina"
+        ],
+        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 51s"
+      },
+      {
+        "name": "Medivh's Spaulders of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Plate",
+        "stats": [
+          "+25 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "1g 86s"
+      },
+      {
+        "name": "Astral Cowl of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Plate",
+        "stats": [
+          "+25 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "1g 35s"
+      },
+      {
+        "name": "Ethereal Gavel of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Sword",
+        "stats": [
+          "+25 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "9g 54s"
+      },
+      {
+        "name": "Rift-Touched Handguards of the Guardian's Fall",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Hands",
+        "type": "Plate",
+        "stats": [
+          "+25 Strength",
+          "+17 Stamina"
+        ],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 36s"
+      },
+      {
+        "name": "Astral Sabatons of the Rift",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Feet",
         "type": "Cloth",
         "stats": [
-          "+18 Stamina",
-          "+12 Spirit"
+          "+25 Spirit"
+        ],
+        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 1s"
+      },
+      {
+        "name": "Rift-Touched Girdle of the Rift",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Cloth",
+        "stats": [
+          "+25 Spirit",
+          "+17 Stamina"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "3g 60s"
+        "sellPrice": "6g 56s"
+      },
+      {
+        "name": "Timeless Greatsword of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Sword",
+        "stats": [
+          "+25 Stamina",
+          "+17 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "9g 55s"
+      },
+      {
+        "name": "Rift-Touched Band of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+25 Stamina",
+          "+17 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "9g 63s"
+      },
+      {
+        "name": "Ethereal Pants of the Nether",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Cloth",
+        "stats": [
+          "+25 Intellect",
+          "+17 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "9g 16s"
+      },
+      {
+        "name": "Rift-Touched Greatsword of the Ivory Tower",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Staff",
+        "stats": [
+          "+25 Strength"
+        ],
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 8s"
+      },
+      {
+        "name": "Timeless Legguards of the Rift",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Leather",
+        "stats": [
+          "+31 Stamina",
+          "+21 Strength"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 23s"
       }
     ]
   },
@@ -11001,1348 +10966,1335 @@ export const pveData = {
     ],
     "loot": [
       {
-        "name": "Holy Bindings of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Cloth",
-        "stats": [
-          "+18 Spirit",
-          "+12 Stamina"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 62s"
-      },
-      {
-        "name": "Corrupted Gloves of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina",
-          "+12 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "9g 40s"
-      },
-      {
-        "name": "Ancient Sabatons of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Mail",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "7g 21s"
-      },
-      {
-        "name": "Savage Collar of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "1g 24s"
-      },
-      {
-        "name": "Savage Mitts of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Mail",
-        "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "4g 64s"
-      },
-      {
-        "name": "Void-Touched Boots of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Cloth",
-        "stats": [
-          "+18 Spirit",
-          "+12 Stamina"
-        ],
-        "effect": "Equip: +1% Hit chance.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 6s"
-      },
-      {
-        "name": "Shimmering Seal of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 10s"
-      },
-      {
-        "name": "Shadow Staff of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Mace",
-        "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "9g 86s"
-      },
-      {
-        "name": "Holy Band of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Agility",
-          "+12 Strength"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 6s"
-      },
-      {
-        "name": "Void-Touched Greaves of the Void",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Plate",
-        "stats": [
-          "+24 Strength"
-        ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 33s"
-      },
-      {
-        "name": "Shadow Grips of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 68s"
-      },
-      {
-        "name": "Corrupted Wristguards of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Leather",
-        "stats": [
-          "+18 Agility"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 65s"
-      },
-      {
-        "name": "Venerable Vambraces of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Cloth",
-        "stats": [
-          "+24 Spirit",
-          "+16 Intellect"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 35s"
-      },
-      {
-        "name": "Shimmering Kilt of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Mail",
-        "stats": [
-          "+18 Spirit",
-          "+12 Stamina"
-        ],
-        "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 1s"
-      },
-      {
-        "name": "Corrupted Pauldrons of the Void",
+        "name": "Faceless Epaulets of the Deep Void",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Shoulder",
         "type": "Cloth",
         "stats": [
-          "+18 Stamina",
-          "+12 Spirit"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 75s"
-      },
-      {
-        "name": "Shadow Axe of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Bow",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "1g 67s"
-      },
-      {
-        "name": "Shimmering Bindings of the Archmage",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Mail",
-        "stats": [
-          "+24 Agility",
-          "+16 Strength"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 15s"
-      },
-      {
-        "name": "Corrupted Axe of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Bow",
-        "stats": [
-          "+18 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 38s"
-      },
-      {
-        "name": "Savage Dagger of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Bow",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 0s"
-      },
-      {
-        "name": "Shimmering Gavel of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Mace",
-        "stats": [
+          "+27 Stamina",
           "+18 Intellect"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "5g 70s"
+        "sellPrice": "10g 77s"
       },
       {
-        "name": "Void-Touched Signet of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
-        ],
-        "effect": "Equip: Increases spell damage by up to 15.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 20s"
-      },
-      {
-        "name": "Ancient Bulwark of the Unseen",
+        "name": "Whispering Shield of the Old Gods",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Off Hand",
         "type": "Shield",
         "stats": [
-          "+18 Stamina"
+          "+27 Agility",
+          "+18 Strength"
         ],
-        "effect": "Equip: +1% Hit chance.",
+        "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "1g 51s"
+        "sellPrice": "10g 74s"
       },
       {
-        "name": "Shimmering Sash of the Archmage",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Cloth",
-        "stats": [
-          "+24 Spirit"
-        ],
-        "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 26s"
-      },
-      {
-        "name": "Shadow Ring of the Unseen",
+        "name": "Faceless Seal of the Deep Void",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Finger",
         "type": "Ring",
         "stats": [
-          "+18 Strength",
-          "+12 Stamina"
+          "+27 Strength"
         ],
-        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
         "requiresLevel": 60,
-        "sellPrice": "10g 42s"
+        "sellPrice": "2g 49s"
       },
       {
-        "name": "Ancient Necklace of the Forgotten",
+        "name": "Faceless Boots of the Black Empire",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Cloth",
+        "stats": [
+          "+27 Spirit",
+          "+18 Intellect"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 96s"
+      },
+      {
+        "name": "Faceless Tunic of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Mail",
+        "stats": [
+          "+27 Stamina"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 71s"
+      },
+      {
+        "name": "Whispering Cuffs of the Insane",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Leather",
+        "stats": [
+          "+33 Stamina"
+        ],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 98s"
+      },
+      {
+        "name": "Whispering Footpads of the Deep Void",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Mail",
+        "stats": [
+          "+33 Spirit",
+          "+22 Intellect"
+        ],
+        "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 50s"
+      },
+      {
+        "name": "Tentacled Talisman of the Old Gods",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "8g 39s"
+      },
+      {
+        "name": "Tentacled Bindings of the Black Empire",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Leather",
+        "stats": [
+          "+33 Spirit",
+          "+22 Stamina"
+        ],
+        "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 4s"
+      },
+      {
+        "name": "Maddening Amulet of the Insane",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Neck",
         "type": "Necklace",
         "stats": [
-          "+18 Strength"
+          "+27 Agility"
         ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
         "requiresLevel": 60,
-        "sellPrice": "5g 78s"
+        "sellPrice": "7g 16s"
       },
       {
-        "name": "Shimmering Grips of the Deep",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Mail",
-        "stats": [
-          "+24 Agility",
-          "+16 Stamina"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 43s"
-      },
-      {
-        "name": "Venerable Legguards of Bloodletting",
+        "name": "Maddening Tunic of the Insane",
         "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "7g 31s"
-      },
-      {
-        "name": "Blood-Forged Harness of the Unseen",
-        "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Chest",
         "type": "Leather",
         "stats": [
-          "+24 Strength"
-        ],
-        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 22s"
-      },
-      {
-        "name": "Venerable Greatsword of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Sword",
-        "stats": [
-          "+18 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "5g 44s"
-      },
-      {
-        "name": "Ethereal Gavel of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Mace",
-        "stats": [
+          "+27 Spirit",
           "+18 Stamina"
-        ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 35s"
-      },
-      {
-        "name": "Holy Greatsword of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Sword",
-        "stats": [
-          "+18 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 57s"
-      },
-      {
-        "name": "Blood-Forged Necklace of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "8g 63s"
-      },
-      {
-        "name": "Ancient Staff of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Staff",
-        "stats": [
-          "+18 Agility"
-        ],
-        "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 5s"
-      },
-      {
-        "name": "Ethereal Mantle of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Leather",
-        "stats": [
-          "+18 Spirit",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "7g 53s"
-      },
-      {
-        "name": "Shadow Mantle of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Mail",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: Increases spell damage by up to 15.",
-        "requiresLevel": 60,
-        "sellPrice": "4g 69s"
-      },
-      {
-        "name": "Shadow Gavel of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Axe",
-        "stats": [
-          "+18 Strength",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "5g 6s"
-      },
-      {
-        "name": "Ethereal Epaulets of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Plate",
-        "stats": [
-          "+18 Agility",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "10g 96s"
-      },
-      {
-        "name": "Ethereal Handguards of the Crimson King",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Hands",
-        "type": "Mail",
-        "stats": [
-          "+24 Agility",
-          "+16 Strength"
-        ],
-        "effect": "Equip: +20 Attack Power.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 1s"
-      },
-      {
-        "name": "Ethereal Treads of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Mail",
-        "stats": [
-          "+18 Strength",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "7g 51s"
-      },
-      {
-        "name": "Savage Pants of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Mail",
-        "stats": [
-          "+18 Intellect",
-          "+12 Spirit"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 86s"
-      },
-      {
-        "name": "Ethereal Cord of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Plate",
-        "stats": [
-          "+18 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "9g 97s"
-      },
-      {
-        "name": "Void-Touched Staff of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Staff",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: +20 Attack Power.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 58s"
-      },
-      {
-        "name": "Shadow Epaulets of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Leather",
-        "stats": [
-          "+18 Strength",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "4g 75s"
-      },
-      {
-        "name": "Holy Greaves of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Mail",
-        "stats": [
-          "+18 Intellect",
-          "+12 Stamina"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 94s"
-      },
-      {
-        "name": "Corrupted Pauldrons of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina",
-          "+12 Strength"
-        ],
-        "effect": "Equip: +20 Attack Power.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 35s"
-      },
-      {
-        "name": "Corrupted Choker of the Betrayer",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+24 Intellect",
-          "+16 Stamina"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 27s"
-      },
-      {
-        "name": "Void-Touched Cowl of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Leather",
-        "stats": [
-          "+18 Intellect",
-          "+12 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 51s"
-      },
-      {
-        "name": "Holy Dagger of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Dagger",
-        "stats": [
-          "+24 Strength"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 94s"
-      },
-      {
-        "name": "Ethereal Blade of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Sword",
-        "stats": [
-          "+18 Spirit",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "8g 73s"
-      },
-      {
-        "name": "Shadow Signet of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Agility",
-          "+12 Stamina"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 93s"
-      },
-      {
-        "name": "Void-Touched Ring of the Void",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+24 Stamina",
-          "+16 Strength"
-        ],
-        "effect": "Equip: Increases spell damage by up to 15.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 91s"
-      },
-      {
-        "name": "Holy Dagger of Eternal Slumber",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Dagger",
-        "stats": [
-          "+24 Stamina"
-        ],
-        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 42s"
-      },
-      {
-        "name": "Shimmering Cuffs of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Wrist",
-        "type": "Cloth",
-        "stats": [
-          "+18 Intellect"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 41s"
-      },
-      {
-        "name": "Ancient Waistguard of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 17s"
-      },
-      {
-        "name": "Void-Touched Amulet of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "3g 64s"
-      },
-      {
-        "name": "Shimmering Cord of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Cloth",
-        "stats": [
-          "+18 Spirit",
-          "+12 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "7g 49s"
-      },
-      {
-        "name": "Savage Cord of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Leather",
-        "stats": [
-          "+18 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "8g 0s"
-      },
-      {
-        "name": "Corrupted Relic of the Deep",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 20s"
-      },
-      {
-        "name": "Venerable Treads of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Plate",
-        "stats": [
-          "+18 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "2g 37s"
-      },
-      {
-        "name": "Blood-Forged Band of the Crimson King",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 58s"
-      },
-      {
-        "name": "Holy Medallion of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 28s"
-      },
-      {
-        "name": "Corrupted Collar of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Strength"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "7g 49s"
-      },
-      {
-        "name": "Savage Staff of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Bow",
-        "stats": [
-          "+18 Stamina",
-          "+12 Strength"
-        ],
-        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-        "requiresLevel": 60,
-        "sellPrice": "3g 28s"
-      },
-      {
-        "name": "Ethereal Brooch of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 38s"
-      },
-      {
-        "name": "Ethereal Legguards of Bloodletting",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Cloth",
-        "stats": [
-          "+24 Spirit"
-        ],
-        "effect": "Equip: Increases spell damage by up to 15.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 28s"
-      },
-      {
-        "name": "Shadow Pendant of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Stamina",
-          "+12 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "8g 69s"
-      },
-      {
-        "name": "Void-Touched Dagger of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Mace",
-        "stats": [
-          "+24 Spirit",
-          "+16 Stamina"
-        ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 46s"
-      },
-      {
-        "name": "Shimmering Circlet of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Cloth",
-        "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "1g 27s"
-      },
-      {
-        "name": "Void-Touched Amulet of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Intellect"
-        ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 33s"
-      },
-      {
-        "name": "Shimmering Circlet of Shattered Souls",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Mail",
-        "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "7g 2s"
-      },
-      {
-        "name": "Ancient Pauldrons of the Betrayer",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Leather",
-        "stats": [
-          "+24 Strength"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 74s"
-      },
-      {
-        "name": "Corrupted Pendant of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
-        "stats": [
-          "+18 Spirit"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "5g 88s"
-      },
-      {
-        "name": "Blood-Forged Ring of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Stamina",
-          "+12 Intellect"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "5g 27s"
-      },
-      {
-        "name": "Ethereal Leggings of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "7g 1s"
-      },
-      {
-        "name": "Savage Pants of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Cloth",
-        "stats": [
-          "+18 Spirit",
-          "+12 Stamina"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 5s"
-      },
-      {
-        "name": "Shimmering Loop of the Betrayer",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Finger",
-        "type": "Ring",
-        "stats": [
-          "+18 Stamina",
-          "+12 Agility"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "7g 82s"
-      },
-      {
-        "name": "Blood-Forged Waistguard of Bloodletting",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Mail",
-        "stats": [
-          "+24 Stamina",
-          "+16 Intellect"
-        ],
-        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 82s"
-      },
-      {
-        "name": "Holy Mask of the Void",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Head",
-        "type": "Plate",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "8g 57s"
-      },
-      {
-        "name": "Ethereal Leggings of the Unseen",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Mail",
-        "stats": [
-          "+18 Stamina",
-          "+12 Strength"
-        ],
-        "effect": "Equip: +20 Attack Power.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 15s"
-      },
-      {
-        "name": "Ethereal Talisman of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Trinket",
-        "type": "Trinket",
-        "stats": [],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "10g 21s"
-      },
-      {
-        "name": "Ethereal Girdle of Eternal Slumber",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength",
-          "+12 Agility"
-        ],
-        "effect": "",
-        "requiresLevel": 60,
-        "sellPrice": "6g 15s"
-      },
-      {
-        "name": "Shimmering Aegis of the Unseen",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Off Hand",
-        "type": "Shield",
-        "stats": [
-          "+24 Agility",
-          "+16 Strength"
-        ],
-        "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 28s"
-      },
-      {
-        "name": "Ethereal Greatsword of the Unseen",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Bow",
-        "stats": [
-          "+24 Stamina",
-          "+16 Spirit"
         ],
         "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
         "requiresLevel": 60,
-        "sellPrice": "5g 13s"
+        "sellPrice": "1g 32s"
       },
       {
-        "name": "Ancient Bulwark of the Archmage",
+        "name": "Void-Touched Harness of the Insane",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
-        "slot": "Off Hand",
-        "type": "Shield",
+        "slot": "Chest",
+        "type": "Plate",
         "stats": [
-          "+18 Stamina"
+          "+27 Stamina",
+          "+18 Strength"
         ],
         "effect": "",
         "requiresLevel": 60,
         "sellPrice": "2g 82s"
       },
       {
-        "name": "Corrupted Bow of the Deep",
+        "name": "Faceless Brooch of the Deep Void",
         "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 24s"
+      },
+      {
+        "name": "Tentacled Cord of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Leather",
+        "stats": [
+          "+27 Stamina",
+          "+18 Strength"
+        ],
+        "effect": "Equip: Increases the critical effect of your holy spells by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 52s"
+      },
+      {
+        "name": "Void-Touched Blade of the Old Gods",
+        "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Main Hand",
-        "type": "Dagger",
+        "type": "Mace",
         "stats": [
-          "+24 Stamina",
-          "+16 Intellect"
+          "+27 Strength",
+          "+18 Agility"
         ],
-        "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+        "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "10g 72s"
+        "sellPrice": "7g 94s"
       },
       {
-        "name": "Corrupted Dagger of the Void",
+        "name": "Maddening Wristguards of the Insane",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Two-Hand",
-        "type": "Staff",
+        "slot": "Wrist",
+        "type": "Mail",
         "stats": [
-          "+24 Intellect"
+          "+33 Intellect"
         ],
-        "effect": "Equip: Increases healing done by up to 25.",
+        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
         "requiresLevel": 60,
-        "sellPrice": "3g 93s"
+        "sellPrice": "9g 11s"
       },
       {
-        "name": "Ethereal Collar of the Betrayer",
+        "name": "Tentacled Legguards of the Black Empire",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Neck",
-        "type": "Necklace",
+        "slot": "Legs",
+        "type": "Cloth",
         "stats": [
-          "+24 Strength",
-          "+16 Stamina"
+          "+33 Spirit",
+          "+22 Stamina"
         ],
-        "effect": "Equip: +20 Attack Power.",
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
         "requiresLevel": 60,
-        "sellPrice": "5g 78s"
+        "sellPrice": "8g 8s"
       },
       {
-        "name": "Ancient Seal of the Crimson King",
+        "name": "Tentacled Medallion of the Deep Void",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 46s"
+      },
+      {
+        "name": "Maddening Crown of the Black Empire",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Cloth",
+        "stats": [
+          "+27 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "1g 90s"
+      },
+      {
+        "name": "Whispering Signet of the Deep Void",
         "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Finger",
         "type": "Ring",
         "stats": [
-          "+24 Intellect",
-          "+16 Spirit"
+          "+33 Intellect",
+          "+22 Spirit"
         ],
-        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "effect": "Equip: Increases spell damage by up to 15.",
         "requiresLevel": 60,
-        "sellPrice": "4g 20s"
+        "sellPrice": "6g 65s"
       },
       {
-        "name": "Venerable Kilt of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Legs",
-        "type": "Mail",
-        "stats": [
-          "+18 Intellect"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 31s"
-      },
-      {
-        "name": "Venerable Staff of the Deep",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Mace",
-        "stats": [
-          "+18 Spirit"
-        ],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 35s"
-      },
-      {
-        "name": "Void-Touched Tunic of Bloodletting",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Chest",
-        "type": "Plate",
-        "stats": [
-          "+18 Strength"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "6g 78s"
-      },
-      {
-        "name": "Holy Dagger of the Archmage",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "One-Hand",
-        "type": "Mace",
-        "stats": [
-          "+18 Spirit",
-          "+12 Intellect"
-        ],
-        "effect": "Equip: +10 Shadow Resistance.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 19s"
-      },
-      {
-        "name": "Shadow Spaulders of Shattered Souls",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Shoulder",
-        "type": "Cloth",
-        "stats": [
-          "+24 Intellect",
-          "+16 Spirit"
-        ],
-        "effect": "Equip: +1% Critical Strike.",
-        "requiresLevel": 60,
-        "sellPrice": "8g 0s"
-      },
-      {
-        "name": "Ethereal Waistguard of the Betrayer",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Waist",
-        "type": "Cloth",
-        "stats": [
-          "+24 Intellect",
-          "+16 Spirit"
-        ],
-        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
-        "requiresLevel": 60,
-        "sellPrice": "2g 74s"
-      },
-      {
-        "name": "Venerable Slippers of the Crimson King",
-        "rarity": "Epic",
-        "bindType": "Binds when picked up",
-        "slot": "Feet",
-        "type": "Cloth",
-        "stats": [
-          "+24 Stamina"
-        ],
-        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
-        "requiresLevel": 60,
-        "sellPrice": "5g 20s"
-      },
-      {
-        "name": "Void-Touched Bow of the Forgotten",
-        "rarity": "Rare",
-        "bindType": "Binds when picked up",
-        "slot": "Main Hand",
-        "type": "Mace",
-        "stats": [
-          "+18 Stamina"
-        ],
-        "effect": "Equip: Increases healing done by up to 25.",
-        "requiresLevel": 60,
-        "sellPrice": "9g 2s"
-      },
-      {
-        "name": "Void-Touched Treads of Bloodletting",
+        "name": "Maddening Slippers of the Deep Void",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Feet",
         "type": "Leather",
         "stats": [
-          "+18 Stamina",
-          "+12 Spirit"
+          "+27 Intellect"
         ],
         "effect": "",
         "requiresLevel": 60,
-        "sellPrice": "10g 58s"
+        "sellPrice": "6g 22s"
       },
       {
-        "name": "Void-Touched Buckler of Bloodletting",
-        "rarity": "Rare",
+        "name": "Maddening Bindings of the Black Empire",
+        "rarity": "Epic",
         "bindType": "Binds when picked up",
-        "slot": "Off Hand",
-        "type": "Shield",
+        "slot": "Wrist",
+        "type": "Leather",
         "stats": [
-          "+18 Strength",
-          "+12 Agility"
+          "+33 Agility",
+          "+22 Stamina"
         ],
-        "effect": "Chance on hit: Drains 50 life from the target and gives it to the wielder.",
+        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
         "requiresLevel": 60,
-        "sellPrice": "5g 15s"
+        "sellPrice": "4g 24s"
       },
       {
-        "name": "Ethereal Brooch of Bloodletting",
-        "rarity": "Rare",
+        "name": "Void-Touched Medallion of the Deep Void",
+        "rarity": "Epic",
         "bindType": "Binds when picked up",
         "slot": "Trinket",
         "type": "Trinket",
         "stats": [],
-        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
         "requiresLevel": 60,
-        "sellPrice": "8g 23s"
+        "sellPrice": "6g 1s"
       },
       {
-        "name": "Ethereal Cuffs of the Deep",
+        "name": "Maddening Dagger of the Black Empire",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Dagger",
+        "stats": [
+          "+33 Stamina",
+          "+22 Strength"
+        ],
+        "effect": "Equip: Increases healing done by up to 25.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 54s"
+      },
+      {
+        "name": "Void-Touched Footpads of the Deep Void",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Cloth",
+        "stats": [
+          "+27 Stamina",
+          "+18 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "4g 25s"
+      },
+      {
+        "name": "Faceless Boots of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Plate",
+        "stats": [
+          "+27 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "8g 10s"
+      },
+      {
+        "name": "Whispering Vambraces of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Mail",
+        "stats": [
+          "+27 Stamina"
+        ],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 86s"
+      },
+      {
+        "name": "Maddening Dagger of the Insane",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Dagger",
+        "stats": [
+          "+33 Stamina"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 37s"
+      },
+      {
+        "name": "Faceless Girdle of the Black Empire",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Cloth",
+        "stats": [
+          "+27 Stamina",
+          "+18 Intellect"
+        ],
+        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 61s"
+      },
+      {
+        "name": "Whispering Circlet of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Cloth",
+        "stats": [
+          "+27 Intellect",
+          "+18 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "5g 97s"
+      },
+      {
+        "name": "Faceless Staff of the Black Empire",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Dagger",
+        "stats": [
+          "+33 Stamina"
+        ],
+        "effect": "Equip: Increases healing done by up to 25.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 89s"
+      },
+      {
+        "name": "Whispering Axe of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Staff",
+        "stats": [
+          "+27 Strength",
+          "+18 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "9g 37s"
+      },
+      {
+        "name": "Void-Touched Leggings of the Black Empire",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Plate",
+        "stats": [
+          "+33 Strength",
+          "+22 Stamina"
+        ],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 62s"
+      },
+      {
+        "name": "Faceless Spaulders of the Black Empire",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Cloth",
+        "stats": [
+          "+33 Intellect"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 55s"
+      },
+      {
+        "name": "Maddening Axe of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Sword",
+        "stats": [
+          "+27 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "3g 32s"
+      },
+      {
+        "name": "Whispering Bracers of the Deep Void",
         "rarity": "Rare",
         "bindType": "Binds when picked up",
         "slot": "Wrist",
         "type": "Plate",
         "stats": [
-          "+18 Strength"
+          "+27 Strength",
+          "+18 Stamina"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 3s"
+      },
+      {
+        "name": "Whispering Cowl of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Leather",
+        "stats": [
+          "+27 Intellect",
+          "+18 Stamina"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 77s"
+      },
+      {
+        "name": "Void-Touched Necklace of the Old Gods",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+33 Stamina",
+          "+22 Spirit"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 44s"
+      },
+      {
+        "name": "Faceless Staff of the Black Empire",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Axe",
+        "stats": [
+          "+33 Agility",
+          "+22 Strength"
+        ],
+        "effect": "Equip: When struck in melee, inflicts 15 Fire damage to the attacker.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 38s"
+      },
+      {
+        "name": "Void-Touched Pauldrons of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Cloth",
+        "stats": [
+          "+27 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "4g 18s"
+      },
+      {
+        "name": "Whispering Gauntlets of the Deep Void",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Hands",
+        "type": "Cloth",
+        "stats": [
+          "+27 Intellect",
+          "+18 Stamina"
+        ],
+        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 22s"
+      },
+      {
+        "name": "Tentacled Leggings of the Black Empire",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Legs",
+        "type": "Plate",
+        "stats": [
+          "+33 Stamina",
+          "+22 Strength"
         ],
         "effect": "Equip: +10 Shadow Resistance.",
         "requiresLevel": 60,
-        "sellPrice": "9g 24s"
+        "sellPrice": "9g 14s"
+      },
+      {
+        "name": "Faceless Axe of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Mace",
+        "stats": [
+          "+27 Strength"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "10g 34s"
+      },
+      {
+        "name": "Faceless Loop of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+27 Spirit",
+          "+18 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "5g 70s"
+      },
+      {
+        "name": "Maddening Greatsword of the Black Empire",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Mace",
+        "stats": [
+          "+27 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "4g 24s"
+      },
+      {
+        "name": "Whispering Aegis of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Off Hand",
+        "type": "Shield",
+        "stats": [
+          "+27 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "9g 88s"
+      },
+      {
+        "name": "Maddening Mask of the Black Empire",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Leather",
+        "stats": [
+          "+33 Stamina"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 10s"
+      },
+      {
+        "name": "Whispering Loop of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+27 Strength"
+        ],
+        "effect": "Equip: Increases healing done by up to 25.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 19s"
+      },
+      {
+        "name": "Whispering Staff of the Deep Void",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Axe",
+        "stats": [
+          "+27 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "7g 70s"
+      },
+      {
+        "name": "Faceless Buckler of the Old Gods",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Off Hand",
+        "type": "Shield",
+        "stats": [
+          "+33 Stamina",
+          "+22 Strength"
+        ],
+        "effect": "Use: Absorbs 500 magic damage for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 14s"
+      },
+      {
+        "name": "Whispering Boots of the Deep Void",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Plate",
+        "stats": [
+          "+27 Strength",
+          "+18 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "3g 85s"
+      },
+      {
+        "name": "Maddening Bindings of the Black Empire",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Cloth",
+        "stats": [
+          "+27 Intellect",
+          "+18 Spirit"
+        ],
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 87s"
+      },
+      {
+        "name": "Maddening Seal of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+27 Spirit"
+        ],
+        "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 31s"
+      },
+      {
+        "name": "Whispering Blade of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Sword",
+        "stats": [
+          "+27 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "4g 76s"
+      },
+      {
+        "name": "Maddening Robes of the Deep Void",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Mail",
+        "stats": [
+          "+33 Strength",
+          "+22 Agility"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 21s"
+      },
+      {
+        "name": "Tentacled Bow of the Deep Void",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Mace",
+        "stats": [
+          "+33 Stamina",
+          "+22 Strength"
+        ],
+        "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 82s"
+      },
+      {
+        "name": "Void-Touched Blade of the Deep Void",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Sword",
+        "stats": [
+          "+27 Spirit"
+        ],
+        "effect": "Use: Transforms the caster into a spectral wolf, increasing movement speed by 40% for 10 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 21s"
+      },
+      {
+        "name": "Tentacled Greatsword of the Black Empire",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Axe",
+        "stats": [
+          "+27 Stamina",
+          "+18 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "7g 35s"
+      },
+      {
+        "name": "Void-Touched Dagger of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Dagger",
+        "stats": [
+          "+27 Strength"
+        ],
+        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 13s"
+      },
+      {
+        "name": "Void-Touched Blade of the Insane",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Two-Hand",
+        "type": "Staff",
+        "stats": [
+          "+33 Stamina",
+          "+22 Intellect"
+        ],
+        "effect": "Chance on hit: Blasts the target for 150 Nature damage.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 35s"
+      },
+      {
+        "name": "Faceless Mantle of the Deep Void",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Plate",
+        "stats": [
+          "+27 Stamina",
+          "+18 Strength"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "7g 75s"
+      },
+      {
+        "name": "Maddening Belt of the Insane",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Cloth",
+        "stats": [
+          "+33 Spirit"
+        ],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 36s"
+      },
+      {
+        "name": "Faceless Cowl of the Black Empire",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Plate",
+        "stats": [
+          "+27 Strength"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "2g 92s"
+      },
+      {
+        "name": "Maddening Talisman of the Black Empire",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 89s"
+      },
+      {
+        "name": "Faceless Medallion of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: Your healing spells have a 2% chance to restore 300 mana.",
+        "requiresLevel": 60,
+        "sellPrice": "2g 2s"
+      },
+      {
+        "name": "Maddening Bindings of the Deep Void",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Mail",
+        "stats": [
+          "+27 Stamina"
+        ],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 91s"
+      },
+      {
+        "name": "Whispering Dagger of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Dagger",
+        "stats": [
+          "+27 Intellect",
+          "+18 Stamina"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 28s"
+      },
+      {
+        "name": "Void-Touched Charm of the Old Gods",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: +1% Hit chance.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 69s"
+      },
+      {
+        "name": "Void-Touched Collar of the Insane",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+33 Spirit",
+          "+22 Stamina"
+        ],
+        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 24s"
+      },
+      {
+        "name": "Whispering Medallion of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "requiresLevel": 60,
+        "sellPrice": "10g 41s"
+      },
+      {
+        "name": "Tentacled Gavel of the Black Empire",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Axe",
+        "stats": [
+          "+33 Strength"
+        ],
+        "effect": "Use: Instantly heals the target for 500, but silences you for 3 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 89s"
+      },
+      {
+        "name": "Faceless Bow of the Deep Void",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Mace",
+        "stats": [
+          "+27 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "5g 76s"
+      },
+      {
+        "name": "Void-Touched Dagger of the Old Gods",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Axe",
+        "stats": [
+          "+33 Intellect",
+          "+22 Stamina"
+        ],
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 49s"
+      },
+      {
+        "name": "Void-Touched Spaulders of the Deep Void",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Shoulder",
+        "type": "Plate",
+        "stats": [
+          "+27 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "3g 2s"
+      },
+      {
+        "name": "Tentacled Collar of the Deep Void",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+33 Strength",
+          "+22 Agility"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 30s"
+      },
+      {
+        "name": "Void-Touched Sabatons of the Black Empire",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Cloth",
+        "stats": [
+          "+33 Stamina",
+          "+22 Intellect"
+        ],
+        "effect": "Use: Encases the caster in a block of ice, absorbing 2000 damage but rooting them for 5 sec.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 57s"
+      },
+      {
+        "name": "Void-Touched Charm of the Deep Void",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 80s"
+      },
+      {
+        "name": "Tentacled Staff of the Deep Void",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Dagger",
+        "stats": [
+          "+27 Stamina",
+          "+18 Strength"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "7g 84s"
+      },
+      {
+        "name": "Tentacled Crown of the Deep Void",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Head",
+        "type": "Mail",
+        "stats": [
+          "+27 Strength",
+          "+18 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "10g 61s"
+      },
+      {
+        "name": "Void-Touched Waistguard of the Black Empire",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Plate",
+        "stats": [
+          "+27 Agility",
+          "+18 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "5g 97s"
+      },
+      {
+        "name": "Tentacled Robes of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Mail",
+        "stats": [
+          "+27 Strength",
+          "+18 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "9g 11s"
+      },
+      {
+        "name": "Whispering Choker of the Black Empire",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+33 Stamina",
+          "+22 Strength"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 80s"
+      },
+      {
+        "name": "Whispering Vest of the Black Empire",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Cloth",
+        "stats": [
+          "+27 Stamina"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 52s"
+      },
+      {
+        "name": "Void-Touched Buckler of the Old Gods",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Off Hand",
+        "type": "Shield",
+        "stats": [
+          "+33 Stamina",
+          "+22 Strength"
+        ],
+        "effect": "Equip: +1% Critical Strike.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 13s"
+      },
+      {
+        "name": "Maddening Pendant of the Black Empire",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+27 Stamina",
+          "+18 Strength"
+        ],
+        "effect": "Equip: Increases spell damage by up to 15.",
+        "requiresLevel": 60,
+        "sellPrice": "9g 47s"
+      },
+      {
+        "name": "Tentacled Ring of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+27 Stamina",
+          "+18 Intellect"
+        ],
+        "effect": "Equip: Increases your resistance to all schools of magic by 10.",
+        "requiresLevel": 60,
+        "sellPrice": "5g 34s"
+      },
+      {
+        "name": "Void-Touched Girdle of the Deep Void",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Plate",
+        "stats": [
+          "+33 Stamina",
+          "+22 Strength"
+        ],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 8s"
+      },
+      {
+        "name": "Whispering Axe of the Black Empire",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Main Hand",
+        "type": "Axe",
+        "stats": [
+          "+27 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "3g 64s"
+      },
+      {
+        "name": "Void-Touched Footpads of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Plate",
+        "stats": [
+          "+27 Strength",
+          "+18 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "10g 76s"
+      },
+      {
+        "name": "Void-Touched Choker of the Old Gods",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Neck",
+        "type": "Necklace",
+        "stats": [
+          "+33 Stamina"
+        ],
+        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+        "requiresLevel": 60,
+        "sellPrice": "7g 58s"
+      },
+      {
+        "name": "Faceless Axe of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Dagger",
+        "stats": [
+          "+27 Spirit"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "3g 17s"
+      },
+      {
+        "name": "Faceless Slippers of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Feet",
+        "type": "Cloth",
+        "stats": [
+          "+27 Intellect",
+          "+18 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "1g 89s"
+      },
+      {
+        "name": "Void-Touched Tunic of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Chest",
+        "type": "Mail",
+        "stats": [
+          "+27 Agility",
+          "+18 Stamina"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "7g 78s"
+      },
+      {
+        "name": "Whispering Charm of the Insane",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Trinket",
+        "type": "Trinket",
+        "stats": [],
+        "effect": "Equip: Your attacks have a chance to sunder the target's armor.",
+        "requiresLevel": 60,
+        "sellPrice": "4g 72s"
+      },
+      {
+        "name": "Tentacled Grips of the Deep Void",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "Hands",
+        "type": "Leather",
+        "stats": [
+          "+33 Stamina"
+        ],
+        "effect": "Equip: +20 Attack Power.",
+        "requiresLevel": 60,
+        "sellPrice": "3g 50s"
+      },
+      {
+        "name": "Faceless Bindings of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Plate",
+        "stats": [
+          "+27 Stamina"
+        ],
+        "effect": "Equip: Restores 4 mana per 5 seconds.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 12s"
+      },
+      {
+        "name": "Maddening Seal of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Finger",
+        "type": "Ring",
+        "stats": [
+          "+27 Intellect"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "10g 60s"
+      },
+      {
+        "name": "Faceless Bindings of the Black Empire",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Wrist",
+        "type": "Plate",
+        "stats": [
+          "+27 Agility"
+        ],
+        "effect": "",
+        "requiresLevel": 60,
+        "sellPrice": "9g 19s"
+      },
+      {
+        "name": "Void-Touched Dagger of the Old Gods",
+        "rarity": "Epic",
+        "bindType": "Binds when picked up",
+        "slot": "One-Hand",
+        "type": "Dagger",
+        "stats": [
+          "+33 Agility"
+        ],
+        "effect": "Chance on hit: Summons a skeletal servant to fight by your side for 1 minute.",
+        "requiresLevel": 60,
+        "sellPrice": "6g 56s"
+      },
+      {
+        "name": "Void-Touched Girdle of the Old Gods",
+        "rarity": "Rare",
+        "bindType": "Binds when picked up",
+        "slot": "Waist",
+        "type": "Leather",
+        "stats": [
+          "+27 Intellect",
+          "+18 Spirit"
+        ],
+        "effect": "Equip: Increases your chance to block attacks with a shield by 2%.",
+        "requiresLevel": 60,
+        "sellPrice": "1g 9s"
       }
     ]
   }
