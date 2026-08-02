@@ -65,7 +65,11 @@ export default function Professions() {
                         : 'border-transparent text-[#a69882] hover:bg-[#16120e] hover:text-[#d3c8b8]'
                     }`}
                   >
-                    <span className="text-xl">{prof.icon}</span>
+                    <img 
+                      src={`https://wow.zamimg.com/images/wow/icons/large/${prof.icon}.jpg`} 
+                      alt={prof.name} 
+                      className="w-6 h-6 rounded border border-[#3c3224]" 
+                    />
                     {prof.name}
                   </button>
                 ))}
@@ -81,7 +85,11 @@ export default function Professions() {
               <div className="relative z-10">
                 <div className="flex justify-between items-start mb-6 border-b border-[#3c3224]/50 pb-4">
                   <div className="flex items-center gap-4">
-                    <span className="text-4xl">{selectedProfessionData.icon}</span>
+                    <img 
+                      src={`https://wow.zamimg.com/images/wow/icons/large/${selectedProfessionData.icon}.jpg`} 
+                      alt={selectedProfessionData.name} 
+                      className="w-12 h-12 rounded border-2 border-[#ff8000]/50 shadow-lg shadow-[#ff8000]/20" 
+                    />
                     <div>
                       <h2 className="text-3xl font-extrabold text-white mb-2">{selectedProfessionData.name}</h2>
                       <span className="inline-block bg-[#1a140e] border border-[#ff8000]/50 text-[#ff8000] px-3 py-1 rounded text-xs font-bold tracking-widest">
