@@ -114,9 +114,14 @@ export function WowTooltip({ item, spell, rect }: WowTooltipProps) {
             
             {item.stats && item.stats.length > 0 && (
               <div className="mt-1">
-                {item.stats.map((stat, i) => (
-                  <div key={i}>{stat}</div>
-                ))}
+                {item.stats.map((stat, i) => {
+                  const isGreen = stat.startsWith('Equip:') || stat.startsWith('Use:') || stat.startsWith('Chance on hit:');
+                  return (
+                    <div key={i} className={isGreen ? "text-[#1eff00]" : "text-white"}>
+                      {stat}
+                    </div>
+                  );
+                })}
               </div>
             )}
             

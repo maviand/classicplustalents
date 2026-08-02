@@ -39,54 +39,52 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Siege Engines: Players can farm lumber and iron within the BG to construct pilotable shredders and glaive throwers."
       ],
       "lore": "The Horde seeks to expand their logging operations from Ashenvale, while the Alliance attempts to secure the high ground to protect their naval assets in the bay below.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Swampy terrain with thick fog and hidden traps.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Frost Armor (Reflects 30% damage)",
+        "Demonic Haste (50% haste for 15s)",
+        "Swamp Camouflage (Invisibility for 20s)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "Tensions have simmered in this region since the Second War. The discovery of rich resources sparked this brutal war.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Warrior/Paladin/Priest (TSG)",
+        "Hunter/Ret/Priest (Cupid Cleave)",
+        "Feral/Hunter/Priest (Kitty Cleave)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Iron Vanguard",
+        "Hero of Azshara Crater"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Stormpike Guard",
+        "The Defilers"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 0",
-          "rarity": "Epic",
+          "name": "Bloodthirsty Mace of Azshara",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Mace",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+17 Stamina",
+            "+13 Strength/Agility"
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
+          "effect": "",
+          "requiresLevel": 29
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 0",
-          "rarity": "Epic",
+          "name": "Veteran's Ring of the Crater",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
           "slot": "Finger",
           "type": "Ring",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
-            "Equip: Increases your hit rating by 1%."
+            "+13 Stamina",
+            "+10 Intellect/Spirit"
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 29
         }
       ]
     },
@@ -102,54 +100,52 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Buried Treasure: Random chests spawn containing powerful, temporary pirate-themed buffs (e.g., Rum-Soaked: Immune to fear but movement is erratic)."
       ],
       "lore": "The Bloodsail Buccaneers and the Steamwheedle Cartel have hired the Alliance and Horde as privateers to secure the island's hidden pirate coves.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Open plains with scattered cover and watchtowers.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Frost Armor (Reflects 30% damage)",
+        "Titan Surge (Immunity to crowd control)",
+        "Swamp Camouflage (Invisibility for 20s)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "An ancient curse haunts the battlefield, but the war rages on. Tensions have simmered in this region since the Second War.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Rogue/Mage/Priest (RMP)",
+        "Warrior/Paladin/Priest (TSG)",
+        "Rogue/Warlock/Shaman (RLS)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Savage Defender",
+        "Hero of Gillijim's Isle"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Silverwing Sentinels",
+        "Argent Dawn"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 1",
-          "rarity": "Epic",
+          "name": "Bloodthirsty Dagger of Gillijim's",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Dagger",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
-          ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
-        },
-        {
-          "name": "Bloodthirsty Ring of the Justiciar 1",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Finger",
-          "type": "Ring",
-          "stats": [
-            "+15 Stamina",
-            "+20 Agility",
-            "Equip: Increases your hit rating by 1%."
+            "+22 Stamina",
+            "+17 Strength/Agility"
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 39
+        },
+        {
+          "name": "Veteran's Cloak of the Isle",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Cloak",
+          "type": "Cloak",
+          "stats": [
+            "+17 Stamina",
+            "+13 Intellect/Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 39
         }
       ]
     },
@@ -165,50 +161,50 @@ export const pvpData: Record<string, PvPItem[]> = {
         "The Horn of Cenarius: Defenders can summon massive Ancient Protectors to stomp the attacking siege vehicles."
       ],
       "lore": "A proxy war. The Alliance (backed by the Night Elves) attempts to hold the sacred mountain, while the Horde (backed by rogue Goblin cartels) seeks to harvest the magically dense lumber.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Dense canopy with rope bridges and grappling hooks.",
       "powerUps": [
         "Berserker Buff (100% damage increase)",
         "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Swamp Camouflage (Invisibility for 20s)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "Both factions seek the hidden titan artifacts buried here. An ancient curse haunts the battlefield, but the war rages on.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Warlock/Shadow Priest/Druid (Shadowplay)",
+        "Rogue/Mage/Priest (RMP)",
+        "Rogue/Warlock/Shaman (RLS)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Relentless Hero",
+        "Hero of The Hyjal Front"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Stormpike Guard",
+        "Frostwolf Clan"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 2",
+          "name": "Vicious Mace of The",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Mace",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+37 Stamina",
+            "+30 Strength/Agility",
+            "Equip: Improves your chance to get a critical strike by 1%."
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "effect": "Use: Increases attack power by 225 for 15 sec.",
           "requiresLevel": 60
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 2",
+          "name": "Gladiator's Helm of the Front",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Finger",
-          "type": "Ring",
+          "slot": "Helm",
+          "type": "Helm",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
+            "+29 Stamina",
+            "+24 Intellect/Spirit",
             "Equip: Increases your hit rating by 1%."
           ],
           "effect": "",
@@ -228,50 +224,50 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Trap Doors: Thieves' Guild mechanics allow Rogues and Engineers to manipulate the battlefield, dropping bridges and locking gates."
       ],
       "lore": "The Syndicate has abandoned the city, leaving a massive power vacuum. Danath Trollbane's loyalists fight to reclaim their home against the Forsaken who seek to expand their borders south.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Symmetrical 3-lane design with destructible environment hazards.",
       "powerUps": [
         "Berserker Buff (100% damage increase)",
         "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Frost Armor (Reflects 30% damage)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "The Horde claims ancestral rites, while the Alliance points to pre-sundering treaties. A bloody stalemate has persisted here for decades.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Rogue/Mage/Priest (RMP)",
+        "Warrior/Paladin/Priest (TSG)",
+        "Hunter/Feral/Paladin (Jungle Cleave)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Flawless Champion",
+        "Hero of Stromgarde Siege"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Thorium Brotherhood",
+        "Cenarion Circle"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 3",
+          "name": "Vicious Dagger of Stromgarde",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Dagger",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+37 Stamina",
+            "+30 Strength/Agility",
+            "Equip: Improves your chance to get a critical strike by 1%."
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "effect": "Use: Increases attack power by 225 for 15 sec.",
           "requiresLevel": 60
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 3",
+          "name": "Gladiator's Cloak of the Siege",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Finger",
-          "type": "Ring",
+          "slot": "Cloak",
+          "type": "Cloak",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
+            "+29 Stamina",
+            "+24 Intellect/Spirit",
             "Equip: Increases your hit rating by 1%."
           ],
           "effect": "",
@@ -291,54 +287,52 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Pirate King's Wrath: The first team to deliver triggers a massive explosion, winning the match."
       ],
       "lore": "The Steamwheedle Cartel pays top dollar for the destruction of Bloodsail hidden caches.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Asymmetrical layout with dense vertical elements.",
       "powerUps": [
+        "Flame Wreath (Burns nearby enemies)",
         "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Windfury Totem (Extra attacks)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "A bloody stalemate has persisted here for decades. Historically, the Alliance held this ground until a massive Horde offensive.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Hunter/Feral/Paladin (Jungle Cleave)",
+        "Warlock/Shadow Priest/Druid (Shadowplay)",
+        "Hunter/Ret/Priest (Cupid Cleave)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Relentless Conqueror",
+        "Hero of Plunder Isle Skirmish"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Timbermaw Hold",
+        "The Defilers"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 4",
-          "rarity": "Epic",
+          "name": "Bloodthirsty Bow of Plunder",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Bow",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
-          ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
-        },
-        {
-          "name": "Bloodthirsty Ring of the Justiciar 4",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Finger",
-          "type": "Ring",
-          "stats": [
-            "+15 Stamina",
-            "+20 Agility",
-            "Equip: Increases your hit rating by 1%."
+            "+22 Stamina",
+            "+17 Strength/Agility"
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 39
+        },
+        {
+          "name": "Veteran's Helm of the Skirmish",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Helm",
+          "type": "Helm",
+          "stats": [
+            "+17 Stamina",
+            "+13 Intellect/Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 39
         }
       ]
     }
@@ -356,54 +350,52 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Capital City Raids: Defeating a faction leader now provides a server-wide buff and drops a unique, phase-relevant legendary token."
       ],
       "lore": "The drums of war never truly stopped. The Banner Wars represent the skirmishes that occur away from the front lines, driven by local commanders and mercenary greed.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Swampy terrain with thick fog and hidden traps.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
+        "Titan Surge (Immunity to crowd control)",
+        "Windfury Totem (Extra attacks)",
         "Speed Boots (150% movement speed)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "Once a peaceful region, it is now scarred by endless conflict. Both factions seek the hidden titan artifacts buried here.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Hunter/Feral/Paladin (Jungle Cleave)",
+        "Hunter/Ret/Priest (Cupid Cleave)",
+        "Rogue/Mage/Priest (RMP)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Vindictive Champion",
+        "Hero of The Banner War System"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Timbermaw Hold",
+        "Thorium Brotherhood"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 0",
-          "rarity": "Epic",
+          "name": "Bloodthirsty Staff of The",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Staff",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+22 Stamina",
+            "+17 Strength/Agility"
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
+          "effect": "",
+          "requiresLevel": 39
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 0",
-          "rarity": "Epic",
+          "name": "Veteran's Ring of the System",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
           "slot": "Finger",
           "type": "Ring",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
-            "Equip: Increases your hit rating by 1%."
+            "+17 Stamina",
+            "+13 Intellect/Spirit"
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 39
         }
       ]
     },
@@ -419,54 +411,54 @@ export const pvpData: Record<string, PvPItem[]> = {
         "The Crimson Fog: The playable area shrinks over the 30-minute event, forcing players into a brutal final clash in the center arena."
       ],
       "lore": "An ancient troll blood-magic ritual has gone awry, cursing the island. The Loa of Death demands tribute, and the combatants of Azeroth are happy to provide it.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Swampy terrain with thick fog and hidden traps.",
       "powerUps": [
+        "Windfury Totem (Extra attacks)",
         "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Titan Surge (Immunity to crowd control)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "Once a peaceful region, it is now scarred by endless conflict. The Horde claims ancestral rites, while the Alliance points to pre-sundering treaties.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Rogue/Warlock/Shaman (RLS)",
+        "Warlock/Shadow Priest/Druid (Shadowplay)",
+        "Mage/Warlock/Shaman (MLD)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Savage Slayer",
+        "Hero of The Crimson Atoll Event"
       ],
       "associatedReputations": [
-        "The Defilers",
         "League of Arathor",
-        "Silverwing Sentinels"
+        "Timbermaw Hold"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 1",
+          "name": "Vicious Mace of The",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Mace",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+32 Stamina",
+            "+25 Strength/Agility",
+            "Equip: Improves your chance to get a critical strike by 1%."
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
+          "effect": "Use: Increases attack power by 192 for 15 sec.",
+          "requiresLevel": 49
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 1",
+          "name": "Gladiator's Ring of the Event",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
           "slot": "Finger",
           "type": "Ring",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
+            "+25 Stamina",
+            "+20 Intellect/Spirit",
             "Equip: Increases your hit rating by 1%."
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 49
         }
       ]
     },
@@ -482,54 +474,54 @@ export const pvpData: Record<string, PvPItem[]> = {
         "War Effort: Turning in artifacts grants massive reputation and PvP honor."
       ],
       "lore": "The shifting sands reveal what the Cenarion Circle desperately wants to keep buried.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Underground tunnel network with multiple chokepoints.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Titan Surge (Immunity to crowd control)",
+        "Windfury Totem (Extra attacks)",
+        "Berserker Buff (100% damage increase)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive. A bloody stalemate has persisted here for decades.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Death Knight/Warlock/Shaman (Shadowcleave)",
+        "Rogue/Warlock/Shaman (RLS)",
+        "Mage/Warlock/Shaman (MLD)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Iron Conqueror",
+        "Hero of Silithus Sandstorms"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Warsong Outriders",
+        "Stormpike Guard"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 2",
+          "name": "Vicious Mace of Silithus",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Mace",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+27 Stamina",
+            "+21 Strength/Agility",
+            "Equip: Improves your chance to get a critical strike by 1%."
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
+          "effect": "Use: Increases attack power by 162 for 15 sec.",
+          "requiresLevel": 39
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 2",
+          "name": "Gladiator's Cloak of the Sandstorms",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Finger",
-          "type": "Ring",
+          "slot": "Cloak",
+          "type": "Cloak",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
+            "+21 Stamina",
+            "+16 Intellect/Spirit",
             "Equip: Increases your hit rating by 1%."
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 39
         }
       ]
     }
@@ -547,54 +539,52 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Crowd Favor: Dealing massive damage or scoring killing blows charges the \"Crowd Favor\" meter. When full, the crowd throws beneficial potions and bombs to your team."
       ],
       "lore": "The Steamwheedle Cartel has taken over the Gurubashi Arena, broadcasting the fights via gnomish radio to all of Azeroth. It's brutal, it's unfair, and it's extremely profitable.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Symmetrical 3-lane design with destructible environment hazards.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
         "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Berserker Buff (100% damage increase)",
+        "Flame Wreath (Burns nearby enemies)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "An ancient curse haunts the battlefield, but the war rages on. A strategic chokepoint that neither side can afford to lose.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Warrior/Enhance/Druid (Turbo Cleave)",
+        "Hunter/Feral/Paladin (Jungle Cleave)",
+        "Warlock/Shadow Priest/Druid (Shadowplay)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Fierce Gladiator",
+        "Hero of The Gurubashi Arena Brawl"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
+        "Thorium Brotherhood",
         "Silverwing Sentinels"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 0",
-          "rarity": "Epic",
+          "name": "Bloodthirsty Bow of The",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Bow",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
-          ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
-        },
-        {
-          "name": "Bloodthirsty Ring of the Justiciar 0",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Finger",
-          "type": "Ring",
-          "stats": [
-            "+15 Stamina",
-            "+20 Agility",
-            "Equip: Increases your hit rating by 1%."
+            "+22 Stamina",
+            "+17 Strength/Agility"
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 39
+        },
+        {
+          "name": "Veteran's Trinket of the Brawl",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "+17 Stamina",
+            "+13 Intellect/Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 39
         }
       ]
     }
@@ -612,54 +602,52 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Structural Sabotage: Sabotage massive iron pillars to collapse sections of the mountain on the enemy base."
       ],
       "lore": "The Dark Iron dwarves have been pushed back, but now the Alliance and Horde fight over who controls the deepest secrets of the mountain.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Ruined city streets with rooftop sniping positions.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Frost Armor (Reflects 30% damage)",
+        "Speed Boots (150% movement speed)",
+        "Swamp Camouflage (Invisibility for 20s)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "A former stronghold of the Burning Legion, now contested territory. Both factions seek the hidden titan artifacts buried here.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Hunter/Ret/Priest (Cupid Cleave)",
+        "Hunter/Feral/Paladin (Jungle Cleave)",
+        "Feral/Hunter/Priest (Kitty Cleave)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Iron Hero",
+        "Hero of The Blackrock Offensive"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Stormpike Guard",
+        "Thorium Brotherhood"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 0",
-          "rarity": "Epic",
+          "name": "Bloodthirsty Mace of The",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Mace",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+17 Stamina",
+            "+13 Strength/Agility"
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
+          "effect": "",
+          "requiresLevel": 29
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 0",
-          "rarity": "Epic",
+          "name": "Veteran's Ring of the Offensive",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
           "slot": "Finger",
           "type": "Ring",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
-            "Equip: Increases your hit rating by 1%."
+            "+13 Stamina",
+            "+10 Intellect/Spirit"
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 29
         }
       ]
     },
@@ -675,51 +663,49 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Primal Frenzy: Every 10 minutes, all untamed dinosaurs enrage, attacking everything in sight."
       ],
       "lore": "The dense crater holds Titan secrets, but securing them requires surviving the apex predators that rule the jungle.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Ruined city streets with rooftop sniping positions.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Shadowmeld (Breaks targeting)",
+        "Swamp Camouflage (Invisibility for 20s)",
+        "Berserker Buff (100% damage increase)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "A bloody stalemate has persisted here for decades. Both factions seek the hidden titan artifacts buried here.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Warrior/Paladin/Priest (TSG)",
+        "Rogue/Mage/Priest (RMP)",
+        "Warlock/Shadow Priest/Druid (Shadowplay)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Bloodthirsty Slayer",
+        "Hero of The Un'Goro Offensive"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Cenarion Circle",
+        "Thorium Brotherhood"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 1",
-          "rarity": "Epic",
+          "name": "Bloodthirsty Dagger of The",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Dagger",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+32 Stamina",
+            "+26 Strength/Agility"
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "effect": "",
           "requiresLevel": 60
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 1",
-          "rarity": "Epic",
+          "name": "Veteran's Trinket of the Offensive",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Finger",
-          "type": "Ring",
+          "slot": "Trinket",
+          "type": "Trinket",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
-            "Equip: Increases your hit rating by 1%."
+            "+25 Stamina",
+            "+20 Intellect/Spirit"
           ],
           "effect": "",
           "requiresLevel": 60
@@ -738,54 +724,52 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Ice Bridge Sabotage: Destroy ice bridges to cut off enemy supply lines."
       ],
       "lore": "The blue dragonflight has abandoned the region, leaving the Horde and Alliance to war over the ancient magical leylines buried beneath the snow.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Circular arena with shifting walls and lava pits.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
         "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Windfury Totem (Extra attacks)",
+        "Flame Wreath (Burns nearby enemies)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "Tensions have simmered in this region since the Second War. A bloody stalemate has persisted here for decades.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Warrior/Enhance/Druid (Turbo Cleave)",
+        "Rogue/Warlock/Shaman (RLS)",
+        "Hunter/Ret/Priest (Cupid Cleave)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Ruthless Gladiator",
+        "Hero of The Winterspring Offensive"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Cenarion Circle",
+        "Thorium Brotherhood"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 2",
-          "rarity": "Epic",
+          "name": "Bloodthirsty Staff of The",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Staff",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
-          ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
-        },
-        {
-          "name": "Bloodthirsty Ring of the Justiciar 2",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Finger",
-          "type": "Ring",
-          "stats": [
-            "+15 Stamina",
-            "+20 Agility",
-            "Equip: Increases your hit rating by 1%."
+            "+17 Stamina",
+            "+13 Strength/Agility"
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 29
+        },
+        {
+          "name": "Veteran's Necklace of the Offensive",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Neck",
+          "type": "Necklace",
+          "stats": [
+            "+13 Stamina",
+            "+10 Intellect/Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 29
         }
       ]
     },
@@ -801,54 +785,54 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Centaur Mercenaries: Bribe roaming centaur clans to ambush the enemy supply carts."
       ],
       "lore": "The Burning Blade have left a wake of death, providing the perfect fuel for a grim war of attrition.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Underground tunnel network with multiple chokepoints.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Speed Boots (150% movement speed)",
+        "Flame Wreath (Burns nearby enemies)",
+        "Shadowmeld (Breaks targeting)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "Tensions have simmered in this region since the Second War. Once a peaceful region, it is now scarred by endless conflict.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Hunter/Ret/Priest (Cupid Cleave)",
+        "Warrior/Paladin/Priest (TSG)",
+        "Rogue/Mage/Priest (RMP)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Bloodthirsty Vanguard",
+        "Hero of The Desolace Offensive"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Thorium Brotherhood",
+        "Cenarion Circle"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 3",
+          "name": "Vicious Staff of The",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Staff",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+32 Stamina",
+            "+25 Strength/Agility",
+            "Equip: Improves your chance to get a critical strike by 1%."
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
+          "effect": "Use: Increases attack power by 192 for 15 sec.",
+          "requiresLevel": 49
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 3",
+          "name": "Gladiator's Cloak of the Offensive",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Finger",
-          "type": "Ring",
+          "slot": "Cloak",
+          "type": "Cloak",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
+            "+25 Stamina",
+            "+20 Intellect/Spirit",
             "Equip: Increases your hit rating by 1%."
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 49
         }
       ]
     },
@@ -864,50 +848,50 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Toxic updrafts: The Nightmare fog below occasionally erupts upwards, requiring players to grapple higher to avoid damage."
       ],
       "lore": "The Emerald Nightmare has seeped into the soil. The only safe ground is high above, where the night elves and the horde clash for dominance.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Symmetrical 3-lane design with destructible environment hazards.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Titan Surge (Immunity to crowd control)",
+        "Speed Boots (150% movement speed)",
+        "Restoration Buff (Heals 10% per second)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "The discovery of rich resources sparked this brutal war. A bloody stalemate has persisted here for decades.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Rogue/Mage/Priest (RMP)",
+        "Feral/Hunter/Priest (Kitty Cleave)",
+        "Warrior/Paladin/Priest (TSG)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Iron Victory",
+        "Hero of The Feralas Offensive"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Frostwolf Clan",
+        "Stormpike Guard"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 4",
+          "name": "Vicious Greatsword of The",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Greatsword",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+37 Stamina",
+            "+30 Strength/Agility",
+            "Equip: Improves your chance to get a critical strike by 1%."
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "effect": "Use: Increases attack power by 225 for 15 sec.",
           "requiresLevel": 60
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 4",
+          "name": "Gladiator's Cloak of the Offensive",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Finger",
-          "type": "Ring",
+          "slot": "Cloak",
+          "type": "Cloak",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
+            "+29 Stamina",
+            "+24 Intellect/Spirit",
             "Equip: Increases your hit rating by 1%."
           ],
           "effect": "",
@@ -927,54 +911,52 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Mid-Air Boarding: Parachute onto enemy zeppelins/gunships to destroy their engines."
       ],
       "lore": "The Wildhammer dwarves refuse to cede their skies, leading to the most brutal aerial combat of the Third War.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Steep incline with high-altitude outposts.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Speed Boots (150% movement speed)",
+        "Frost Armor (Reflects 30% damage)",
+        "Shadowmeld (Breaks targeting)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "Once a peaceful region, it is now scarred by endless conflict. A former stronghold of the Burning Legion, now contested territory.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Rogue/Mage/Priest (RMP)",
+        "Hunter/Feral/Paladin (Jungle Cleave)",
+        "Warrior/Enhance/Druid (Turbo Cleave)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Vindictive Champion",
+        "Hero of The Hinterlands Offensive"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Timbermaw Hold",
+        "Stormpike Guard"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 5",
-          "rarity": "Epic",
+          "name": "Bloodthirsty Staff of The",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Staff",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+17 Stamina",
+            "+13 Strength/Agility"
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
+          "effect": "",
+          "requiresLevel": 29
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 5",
-          "rarity": "Epic",
+          "name": "Veteran's Ring of the Offensive",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
           "slot": "Finger",
           "type": "Ring",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
-            "Equip: Increases your hit rating by 1%."
+            "+13 Stamina",
+            "+10 Intellect/Spirit"
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 29
         }
       ]
     },
@@ -990,54 +972,54 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Demon Blood: Collect demon blood to empower your faction commander, granting them massive buffs."
       ],
       "lore": "The Dark Portal hums with energy. Factions must defend their outposts not only from each other, but from the endless demonic tide.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Dense canopy with rope bridges and grappling hooks.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Frost Armor (Reflects 30% damage)",
+        "Flame Wreath (Burns nearby enemies)",
+        "Windfury Totem (Extra attacks)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "Tensions have simmered in this region since the Second War. The Horde claims ancestral rites, while the Alliance points to pre-sundering treaties.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Hunter/Feral/Paladin (Jungle Cleave)",
+        "Rogue/Warlock/Shaman (RLS)",
+        "Mage/Warlock/Shaman (MLD)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Vindictive Champion",
+        "Hero of The Blasted Lands Offensive"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Frostwolf Clan",
+        "Stormpike Guard"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 6",
+          "name": "Vicious Dagger of The",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Dagger",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+22 Stamina",
+            "+17 Strength/Agility",
+            "Equip: Improves your chance to get a critical strike by 1%."
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
+          "effect": "Use: Increases attack power by 132 for 15 sec.",
+          "requiresLevel": 29
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 6",
+          "name": "Gladiator's Ring of the Offensive",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
           "slot": "Finger",
           "type": "Ring",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
+            "+17 Stamina",
+            "+13 Intellect/Spirit",
             "Equip: Increases your hit rating by 1%."
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 29
         }
       ]
     },
@@ -1053,54 +1035,52 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Gunpowder Kegs: Plant massive explosives to collapse enemy drilling tunnels."
       ],
       "lore": "The Thorium Brotherhood has hired mercenaries from both sides to clear out the remaining Dark Iron strongholds, turning the gorge into a warzone.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Dense canopy with rope bridges and grappling hooks.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Speed Boots (150% movement speed)",
+        "Swamp Camouflage (Invisibility for 20s)",
+        "Windfury Totem (Extra attacks)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "A former stronghold of the Burning Legion, now contested territory. An ancient curse haunts the battlefield, but the war rages on.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Warlock/Shadow Priest/Druid (Shadowplay)",
+        "Rogue/Mage/Priest (RMP)",
+        "Feral/Hunter/Priest (Kitty Cleave)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Savage Gladiator",
+        "Hero of The Searing Gorge Offensive"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Warsong Outriders",
+        "The Defilers"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 7",
-          "rarity": "Epic",
+          "name": "Bloodthirsty Mace of The",
+          "rarity": "Rare",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Mace",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
-          ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
-        },
-        {
-          "name": "Bloodthirsty Ring of the Justiciar 7",
-          "rarity": "Epic",
-          "bindType": "Binds when picked up",
-          "slot": "Finger",
-          "type": "Ring",
-          "stats": [
-            "+15 Stamina",
-            "+20 Agility",
-            "Equip: Increases your hit rating by 1%."
+            "+17 Stamina",
+            "+13 Strength/Agility"
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 29
+        },
+        {
+          "name": "Veteran's Helm of the Offensive",
+          "rarity": "Rare",
+          "bindType": "Binds when picked up",
+          "slot": "Helm",
+          "type": "Helm",
+          "stats": [
+            "+13 Stamina",
+            "+10 Intellect/Spirit"
+          ],
+          "effect": "",
+          "requiresLevel": 29
         }
       ]
     },
@@ -1116,50 +1096,50 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Uldaman Defenses: Earthen guardians frequently awake to attack anyone near the dig sites."
       ],
       "lore": "Relics of the Titans are buried here. The faction that controls them controls the future of Azeroth.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Asymmetrical layout with dense vertical elements.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Speed Boots (150% movement speed)",
+        "Windfury Totem (Extra attacks)",
+        "Restoration Buff (Heals 10% per second)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive. A bloody stalemate has persisted here for decades.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Death Knight/Warlock/Shaman (Shadowcleave)",
+        "Warrior/Paladin/Priest (TSG)",
+        "Warrior/Enhance/Druid (Turbo Cleave)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Fierce Conqueror",
+        "Hero of The Badlands Offensive"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Stormpike Guard",
+        "Frostwolf Clan"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 8",
+          "name": "Vicious Greatsword of The",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Greatsword",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+37 Stamina",
+            "+30 Strength/Agility",
+            "Equip: Improves your chance to get a critical strike by 1%."
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
+          "effect": "Use: Increases attack power by 225 for 15 sec.",
           "requiresLevel": 60
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 8",
+          "name": "Gladiator's Cloak of the Offensive",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Finger",
-          "type": "Ring",
+          "slot": "Cloak",
+          "type": "Cloak",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
+            "+29 Stamina",
+            "+24 Intellect/Spirit",
             "Equip: Increases your hit rating by 1%."
           ],
           "effect": "",
@@ -1179,54 +1159,54 @@ export const pvpData: Record<string, PvPItem[]> = {
         "Swamp Muck: The water slows movement significantly, making stealth classes and ambushes extremely deadly."
       ],
       "lore": "Theramore's forces clash with the Horde in the treacherous swamps, where shadows and mud are as deadly as the enemy.",
-      "mapLayout": "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.",
+      "mapLayout": "Frozen lake with slippery ice and thermal vents.",
       "powerUps": [
-        "Berserker Buff (100% damage increase)",
-        "Restoration Buff (Heals 10% per second)",
-        "Speed Boots (150% movement speed)"
+        "Swamp Camouflage (Invisibility for 20s)",
+        "Titan Surge (Immunity to crowd control)",
+        "Frost Armor (Reflects 30% damage)"
       ],
-      "factionHistory": "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.",
+      "factionHistory": "Tensions have simmered in this region since the Second War. The Horde claims ancestral rites, while the Alliance points to pre-sundering treaties.",
       "topMetaComps": [
-        "3 Healers, 2 Warriors, 1 Mage (Peel Comp)",
-        "5 Stealth Burst (Rogue/Druid)"
+        "Warrior/Paladin/Priest (TSG)",
+        "Rogue/Mage/Priest (RMP)",
+        "Feral/Hunter/Priest (Kitty Cleave)"
       ],
       "achievements": [
-        "Flawless Victory (Win without losing a single player)",
-        "Iron Defender (Defend 5 nodes in one match)"
+        "Flawless Hero",
+        "Hero of The Dustwallow Offensive"
       ],
       "associatedReputations": [
-        "The Defilers",
-        "League of Arathor",
-        "Silverwing Sentinels"
+        "Silverwing Sentinels",
+        "League of Arathor"
       ],
       "uniqueRewards": [
         {
-          "name": "Vicious Gladiator's Greatsword 9",
+          "name": "Vicious Bow of The",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Two-Hand",
-          "type": "Sword",
+          "slot": "Weapon",
+          "type": "Bow",
           "stats": [
-            "+35 Stamina",
-            "+30 Strength",
-            "Equip: Improves your chance to get a critical strike by 2%."
+            "+27 Stamina",
+            "+21 Strength/Agility",
+            "Equip: Improves your chance to get a critical strike by 1%."
           ],
-          "effect": "Use: Increases attack power by 200 for 15 sec.",
-          "requiresLevel": 60
+          "effect": "Use: Increases attack power by 162 for 15 sec.",
+          "requiresLevel": 39
         },
         {
-          "name": "Bloodthirsty Ring of the Justiciar 9",
+          "name": "Gladiator's Cloak of the Offensive",
           "rarity": "Epic",
           "bindType": "Binds when picked up",
-          "slot": "Finger",
-          "type": "Ring",
+          "slot": "Cloak",
+          "type": "Cloak",
           "stats": [
-            "+15 Stamina",
-            "+20 Agility",
+            "+21 Stamina",
+            "+16 Intellect/Spirit",
             "Equip: Increases your hit rating by 1%."
           ],
           "effect": "",
-          "requiresLevel": 60
+          "requiresLevel": 39
         }
       ]
     }

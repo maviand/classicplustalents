@@ -267,37 +267,136 @@ templates[PVP_MODES.OFFENSIVES].push(
   }
 );
 
-// MASSIVE DATA INJECTION (7x MORE FIELDS)
+// DYNAMIC GENERATORS FOR UNIQUE DATA
+const mapLayouts = [
+  "Asymmetrical layout with dense vertical elements.",
+  "Symmetrical 3-lane design with destructible environment hazards.",
+  "Circular arena with shifting walls and lava pits.",
+  "Steep incline with high-altitude outposts.",
+  "Underground tunnel network with multiple chokepoints.",
+  "Open plains with scattered cover and watchtowers.",
+  "Dense canopy with rope bridges and grappling hooks.",
+  "Swampy terrain with thick fog and hidden traps.",
+  "Ruined city streets with rooftop sniping positions.",
+  "Frozen lake with slippery ice and thermal vents."
+];
+
+const powerUpsPool = [
+  "Berserker Buff (100% damage increase)",
+  "Restoration Buff (Heals 10% per second)",
+  "Speed Boots (150% movement speed)",
+  "Titan Surge (Immunity to crowd control)",
+  "Demonic Haste (50% haste for 15s)",
+  "Swamp Camouflage (Invisibility for 20s)",
+  "Frost Armor (Reflects 30% damage)",
+  "Flame Wreath (Burns nearby enemies)",
+  "Windfury Totem (Extra attacks)",
+  "Shadowmeld (Breaks targeting)"
+];
+
+const historySnippets = [
+  "Tensions have simmered in this region since the Second War.",
+  "The Horde claims ancestral rites, while the Alliance points to pre-sundering treaties.",
+  "Historically, the Alliance held this ground until a massive Horde offensive.",
+  "A bloody stalemate has persisted here for decades.",
+  "Once a peaceful region, it is now scarred by endless conflict.",
+  "Both factions seek the hidden titan artifacts buried here.",
+  "A strategic chokepoint that neither side can afford to lose.",
+  "The discovery of rich resources sparked this brutal war.",
+  "An ancient curse haunts the battlefield, but the war rages on.",
+  "A former stronghold of the Burning Legion, now contested territory."
+];
+
+const metaComps = [
+  "Warrior/Paladin/Priest (TSG)",
+  "Rogue/Mage/Priest (RMP)",
+  "Warlock/Shadow Priest/Druid (Shadowplay)",
+  "Hunter/Feral/Paladin (Jungle Cleave)",
+  "Death Knight/Warlock/Shaman (Shadowcleave)",
+  "Mage/Warlock/Shaman (MLD)",
+  "Rogue/Warlock/Shaman (RLS)",
+  "Hunter/Ret/Priest (Cupid Cleave)",
+  "Warrior/Enhance/Druid (Turbo Cleave)",
+  "Feral/Hunter/Priest (Kitty Cleave)"
+];
+
+const reps = [
+  "Stormpike Guard", "Frostwolf Clan", "The Defilers", "League of Arathor",
+  "Silverwing Sentinels", "Warsong Outriders", "Thorium Brotherhood",
+  "Timbermaw Hold", "Cenarion Circle", "Argent Dawn"
+];
+
+const achievePrefix = ["Flawless", "Iron", "Bloodthirsty", "Relentless", "Savage", "Vindictive", "Ruthless", "Fierce"];
+const achieveSuffix = ["Victory", "Defender", "Conqueror", "Slayer", "Vanguard", "Champion", "Gladiator", "Hero"];
+
+function getRandom(arr, count) {
+  const shuffled = [...arr].sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, count);
+}
+
+// Item Level Scaling Logic
+function generateRewards(idx, pvpName) {
+  const isEpic = Math.random() > 0.5;
+  const rarity = isEpic ? "Epic" : "Rare";
+  const reqLevel = [29, 39, 49, 60][Math.floor(Math.random() * 4)];
+  const itemLevel = reqLevel + (isEpic ? 15 : 5); // iLvl scaling
+  
+  // Stat budget based on iLvl
+  const mainStat = Math.floor(itemLevel * 0.4);
+  const stamStat = Math.floor(itemLevel * 0.5);
+  const critMod = isEpic ? Math.max(1, Math.floor(itemLevel / 40)) : 0;
+  
+  const weapons = ["Greatsword", "Staff", "Dagger", "Bow", "Mace"];
+  const armor = ["Ring", "Necklace", "Trinket", "Cloak", "Helm"];
+  
+  const weaponType = weapons[Math.floor(Math.random() * weapons.length)];
+  const armorType = armor[Math.floor(Math.random() * armor.length)];
+  
+  const weaponStats = [`+${stamStat} Stamina`, `+${mainStat} Strength/Agility`];
+  if (critMod > 0) weaponStats.push(`Equip: Improves your chance to get a critical strike by ${critMod}%.`);
+  
+  const armorStats = [`+${Math.floor(stamStat * 0.8)} Stamina`, `+${Math.floor(mainStat * 0.8)} Intellect/Spirit`];
+  if (critMod > 0) armorStats.push(`Equip: Increases your hit rating by ${critMod}%.`);
+
+  return [
+    {
+      name: `${isEpic ? "Vicious" : "Bloodthirsty"} ${weaponType} of ${pvpName.split(' ')[0]}`,
+      rarity: rarity,
+      bindType: "Binds when picked up",
+      slot: "Weapon",
+      type: weaponType,
+      stats: weaponStats,
+      effect: isEpic ? `Use: Increases attack power by ${itemLevel * 3} for 15 sec.` : "",
+      requiresLevel: reqLevel
+    },
+    {
+      name: `${isEpic ? "Gladiator's" : "Veteran's"} ${armorType} of the ${pvpName.split(' ').pop()}`,
+      rarity: rarity,
+      bindType: "Binds when picked up",
+      slot: armorType === "Ring" ? "Finger" : (armorType === "Necklace" ? "Neck" : armorType),
+      type: armorType,
+      stats: armorStats,
+      effect: "",
+      requiresLevel: reqLevel
+    }
+  ];
+}
+
+// MASSIVE DATA INJECTION (FULLY DYNAMIC AND UNIQUE)
 Object.values(templates).forEach(pvpList => {
   pvpList.forEach((pvp, idx) => {
-    pvp.mapLayout = "Asymmetrical layout featuring 3 main lanes and dense, vertical jungle in the center.";
-    pvp.powerUps = ["Berserker Buff (100% damage increase)", "Restoration Buff (Heals 10% per second)", "Speed Boots (150% movement speed)"];
-    pvp.factionHistory = "Historically, the Alliance held this ground until a massive Horde offensive during the Third War forced a bloody stalemate.";
-    pvp.topMetaComps = ["3 Healers, 2 Warriors, 1 Mage (Peel Comp)", "5 Stealth Burst (Rogue/Druid)"];
-    pvp.achievements = ["Flawless Victory (Win without losing a single player)", "Iron Defender (Defend 5 nodes in one match)"];
-    pvp.associatedReputations = ["The Defilers", "League of Arathor", "Silverwing Sentinels"];
-    pvp.uniqueRewards = [
-      {
-        name: `Vicious Gladiator's Greatsword ${idx}`,
-        rarity: "Epic",
-        bindType: "Binds when picked up",
-        slot: "Two-Hand",
-        type: "Sword",
-        stats: ["+35 Stamina", "+30 Strength", "Equip: Improves your chance to get a critical strike by 2%."],
-        effect: "Use: Increases attack power by 200 for 15 sec.",
-        requiresLevel: 60
-      },
-      {
-        name: `Bloodthirsty Ring of the Justiciar ${idx}`,
-        rarity: "Epic",
-        bindType: "Binds when picked up",
-        slot: "Finger",
-        type: "Ring",
-        stats: ["+15 Stamina", "+20 Agility", "Equip: Increases your hit rating by 1%."],
-        effect: "",
-        requiresLevel: 60
-      }
-    ];
+    // Only inject if missing or override generic ones
+    pvp.mapLayout = pvp.mapLayout || mapLayouts[Math.floor(Math.random() * mapLayouts.length)];
+    pvp.powerUps = getRandom(powerUpsPool, 3);
+    pvp.factionHistory = getRandom(historySnippets, 2).join(" ");
+    pvp.topMetaComps = getRandom(metaComps, 3);
+    
+    const pref = achievePrefix[Math.floor(Math.random() * achievePrefix.length)];
+    const suff = achieveSuffix[Math.floor(Math.random() * achieveSuffix.length)];
+    pvp.achievements = [`${pref} ${suff}`, `Hero of ${pvp.name}`];
+    
+    pvp.associatedReputations = getRandom(reps, 2);
+    pvp.uniqueRewards = generateRewards(idx, pvp.name);
   });
 });
 
