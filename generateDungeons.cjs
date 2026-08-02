@@ -109,8 +109,16 @@ function generateLoot(count, levelStr = '60', theme = null) {
   }
 
   const loot = [];
+  
+  let epicChance = 0.05;
+  if (iLvl >= 70 || levelStr.includes('Tier')) {
+    epicChance = 1.0;
+  } else if (reqLevel >= 55) {
+    epicChance = 0.15;
+  }
+
   for (let i = 0; i < count; i++) {
-    const isEpic = Math.random() > 0.7;
+    const isEpic = Math.random() < epicChance;
     const rarity = isEpic ? 'Epic' : 'Rare';
     
     const archetypeKeys = Object.keys(archetypes);
@@ -188,7 +196,7 @@ function generateLoot(count, levelStr = '60', theme = null) {
       stats,
       effect,
       requiresLevel: reqLevel,
-      sellPrice: `${Math.floor(Math.random() * 10 + 1)}g ${Math.floor(Math.random() * 99)}s`
+      sellPrice: `${Math.floor(Math.max(0, (iLvl / 10) * (isEpic ? 1.5 : 1) - 1 + Math.random() * 2))}g ${Math.floor(Math.random() * 99)}s`
     });
   }
   return loot;
