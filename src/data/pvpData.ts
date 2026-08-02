@@ -1,4 +1,31 @@
-// AUTO-GENERATED MASSIVE PVP CONTENT\n// 15,000% scale implementation - Battlegrounds, World PvP, and Arenas.\n// Deep Dive Update: 7x more information fields.\n\nexport const PVP_MODES = {\n  BATTLEGROUNDS: 'New Battlegrounds',\n  WORLD_PVP: 'World PvP & Banner Wars',\n  ARENA: 'The Gurubashi Arena System'\n};\n\nexport interface PvPItem {\n  id: string;\n  name: string;\n  size: string;\n  type: string;\n  description: string;\n  mechanics: string[];\n  lore: string;\n  mapLayout: string;\n  powerUps: string[];\n  factionHistory: string;\n  topMetaComps: string[];\n  achievements: string[];\n  associatedReputations: string[];\n  uniqueRewards: any[];\n}\n\nexport const pvpData: Record<string, PvPItem[]> = {
+// AUTO-GENERATED MASSIVE PVP CONTENT
+// 15,000% scale implementation - Battlegrounds, World PvP, and Arenas.
+// Deep Dive Update: 7x more information fields.
+
+export const PVP_MODES = {
+  BATTLEGROUNDS: 'New Battlegrounds',
+  WORLD_PVP: 'World PvP & Banner Wars',
+  ARENA: 'The Gurubashi Arena System'
+};
+
+export interface PvPItem {
+  id: string;
+  name: string;
+  size: string;
+  type: string;
+  description: string;
+  mechanics: string[];
+  lore: string;
+  mapLayout: string;
+  powerUps: string[];
+  factionHistory: string;
+  topMetaComps: string[];
+  achievements: string[];
+  associatedReputations: string[];
+  uniqueRewards: any[];
+}
+
+export const pvpData: Record<string, PvPItem[]> = {
   "New Battlegrounds": [
     {
       "id": "AzsharaCrater",

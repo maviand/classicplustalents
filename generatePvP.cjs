@@ -234,7 +234,7 @@ const fileContent = [
   "}",
   "",
   "export const pvpData: Record<string, PvPItem[]> = " + JSON.stringify(templates, null, 2) + ";"
-].join("\\n");
+].join("\n");
 
 fs.writeFileSync('src/data/pvpData.ts', fileContent);
 console.log('Successfully generated massively expanded pvpData.ts (15+ BGs and World Events)');
