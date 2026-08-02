@@ -15,19 +15,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "2.4%",
       "3.0%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Provides flat scaling independent of your shadows rating.",
+    "loreOrigins": "A lost secret of the Ravenholdt manor that weaponizes the pure essence of Malice.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any lethal oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum shadows output."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "Hybrid PvP/PvE"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Malice critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "imp_eviscerate",
@@ -41,19 +41,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Inherits 50% of your weapon's base damage as lethal power.",
+    "loreOrigins": "An instinctual manifestation of shadows, allowing you to assassinate your foes effortlessly.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum shadows output.",
+      "Acts as a foundational pillar for any lethal oriented build."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "21/8/22 Cold Blood Hemo"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Enhances your chest rune to pulse with lethal energy upon casting Improved Eviscerate.",
+    "devCommentary": "Initially, Improved Eviscerate was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "The ground shatters as lethal power courses through you."
   },
   {
     "id": "remorseless_attacks",
@@ -66,19 +66,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Hemorrhage, Backstab, Mutilate, Ambush, or Ghostly Strike.",
       "40%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Provides flat scaling independent of your shadows rating.",
+    "loreOrigins": "A lost secret of the Ravenholdt manor that weaponizes the pure essence of Remorseless Attacks.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any lethal oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum shadows output."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "Hybrid PvP/PvE"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Remorseless Attacks critically hits.",
+    "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
   },
   {
     "id": "ruthlessness",
@@ -92,19 +92,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "40%",
       "60%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Scales directly with your total shadows power rating.",
+    "loreOrigins": "Originally devised in the Ravenholdt manor, the technique of Ruthlessness was perfected over centuries.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum shadows output."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "Hybrid PvP/PvE"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
+    "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
+    "visualEffect": "The ground shatters as lethal power courses through you."
   },
   {
     "id": "puncturing_wounds",
@@ -118,19 +118,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "20% / 10%",
       "30% / 15%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Provides flat scaling independent of your shadows rating.",
+    "loreOrigins": "A lost secret of the Ravenholdt manor that weaponizes the pure essence of Puncturing Wounds.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any lethal oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum shadows output."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "21/8/22 Cold Blood Hemo"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Puncturing Wounds critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "vile_poisons",
@@ -143,19 +143,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "Increases the damage dealt by your poisons by 10% and gives your poisons an additional 20% chance to resist dispel effects.",
       "20% / 40%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "A secret strike of the Ravenholdt manor.",
+    "statScaling": "Coefficient scales with both spell damage and shadows mastery.",
+    "loreOrigins": "Passed down by Valeera, this mastery of Vile Poisons represents the pinnacle of the class.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "21/8/22 Cold Blood Hemo"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Vile Poisons.",
+    "devCommentary": "Initially, Vile Poisons was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "The ground shatters as lethal power courses through you."
   },
   {
     "id": "imp_snd",
@@ -168,19 +168,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "Increases the duration of your Slice and Dice ability by 25%.",
       "50%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "A dirty trick learned in the alleys of Booty Bay.",
+    "statScaling": "Inherits 50% of your weapon's base damage as lethal power.",
+    "loreOrigins": "An instinctual manifestation of shadows, allowing you to assassinate your foes effortlessly.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "Hybrid PvP/PvE"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Slice and Dice critically hits.",
+    "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
+    "visualEffect": "The ground shatters as lethal power courses through you."
   },
   {
     "id": "lethality",
@@ -200,19 +200,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "24%",
       "30%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Inherits 50% of your weapon's base damage as lethal power.",
+    "loreOrigins": "An instinctual manifestation of shadows, allowing you to assassinate your foes effortlessly.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "15/31/5 Combat Swords"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Lethality critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "cold_blood",
@@ -224,19 +224,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     "desc": [
       "When activated, increases the critical strike chance of your next offensive ability by 100%. 3 minute cooldown."
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Provides flat scaling independent of your shadows rating.",
+    "loreOrigins": "A lost secret of the Ravenholdt manor that weaponizes the pure essence of Cold Blood.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Cold Blood between auto-attacks.",
+      "Acts as a foundational pillar for any lethal oriented build."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "15/31/5 Combat Swords"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Initially, Cold Blood was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "relentless_strikes",
@@ -253,19 +253,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "Your finishing moves have a 10% chance per combo point to restore 25 Energy.",
       "20%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A dirty trick learned in the alleys of Booty Bay.",
+    "statScaling": "Coefficient scales with both spell damage and shadows mastery.",
+    "loreOrigins": "Passed down by Valeera, this mastery of Relentless Strikes represents the pinnacle of the class.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "30/8/13 Seal Fate Daggers"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Relentless Strikes.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "find_weakness",
@@ -279,19 +279,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A secret strike of the Ravenholdt manor.",
+    "statScaling": "Inherits 50% of your weapon's base damage as lethal power.",
+    "loreOrigins": "An instinctual manifestation of shadows, allowing you to assassinate your foes effortlessly.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "21/8/22 Cold Blood Hemo"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Find Weakness critically hits.",
+    "devCommentary": "Initially, Find Weakness was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "The ground shatters as lethal power courses through you."
   },
   {
     "id": "imp_poisons",
@@ -311,19 +311,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "8%",
       "10%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Provides flat scaling independent of your shadows rating.",
+    "loreOrigins": "A lost secret of the Ravenholdt manor that weaponizes the pure essence of Improved Poisons.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any lethal oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum shadows output."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "15/31/5 Combat Swords"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Poisons critically hits.",
+    "devCommentary": "We wanted Improved Poisons to define the Assassination playstyle at all levels.",
+    "visualEffect": "A massive burst of shadows erupts from the target upon impact."
   },
   {
     "id": "fleet_footed",
@@ -336,19 +336,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "Increases your movement speed by 8% and increases your resistance to movement impairing effects by 5%.",
       "15% / 10%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A dirty trick learned in the alleys of Booty Bay.",
+    "statScaling": "Coefficient scales with both spell damage and shadows mastery.",
+    "loreOrigins": "Passed down by Valeera, this mastery of Fleet Footed represents the pinnacle of the class.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "15/31/5 Combat Swords"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Fleet Footed.",
+    "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
+    "visualEffect": "The ground shatters as lethal power courses through you."
   },
   {
     "id": "seal_fate",
@@ -366,19 +366,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A dirty trick learned in the alleys of Booty Bay.",
+    "statScaling": "Gains a 15% bonus scaling from your primary lethal stats.",
+    "loreOrigins": "A forbidden lethal art that utilizes shadows to overwhelm enemies.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Seal Fate between auto-attacks.",
+      "Creates a devastating synergy when you weave Seal Fate between auto-attacks."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "21/8/22 Cold Blood Hemo"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "mutilate",
@@ -390,19 +390,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     "desc": [
       "Instantly attacks with both weapons for 100% weapon damage plus an additional X with each weapon. Damage is increased by 20% against Poisoned targets. Awards 2 combo points. Must be dual-wielding daggers."
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "A secret strike of the Ravenholdt manor.",
+    "statScaling": "Gains a 15% bonus scaling from your primary lethal stats.",
+    "loreOrigins": "A forbidden lethal art that utilizes shadows to overwhelm enemies.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Mutilate between auto-attacks.",
+      "Creates a devastating synergy when you weave Mutilate between auto-attacks."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "15/31/5 Combat Swords"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
+    "devCommentary": "Initially, Mutilate was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "quick_recovery",
@@ -415,19 +415,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "All healing effects received are increased by 10%. In addition, your finishing moves cost 40% less Energy when they miss, are dodged, or are parried.",
       "20% / 80%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Scales directly with your total shadows power rating.",
+    "loreOrigins": "Originally devised in the Ravenholdt manor, the technique of Quick Recovery was perfected over centuries.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum shadows output."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "30/8/13 Seal Fate Daggers"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
+    "devCommentary": "We wanted Quick Recovery to define the Assassination playstyle at all levels.",
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
   },
   {
     "id": "master_poisoner",
@@ -441,19 +441,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "2% / 34%",
       "3% / 50%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Gains a 15% bonus scaling from your primary lethal stats.",
+    "loreOrigins": "A forbidden lethal art that utilizes shadows to overwhelm enemies.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Master Poisoner between auto-attacks.",
+      "Creates a devastating synergy when you weave Master Poisoner between auto-attacks."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "Hybrid PvP/PvE"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "blood_spatter",
@@ -466,19 +466,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "Increases the damage caused by your Garrote and Rupture abilities by 15%.",
       "30%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Gains a 15% bonus scaling from your primary lethal stats.",
+    "loreOrigins": "A forbidden lethal art that utilizes shadows to overwhelm enemies.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum shadows output.",
+      "Dramatically increases the power spike of your lethal cooldowns."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "15/31/5 Combat Swords"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Blood Spatter.",
+    "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
+    "visualEffect": "The ground shatters as lethal power courses through you."
   },
   {
     "id": "vigor",
@@ -491,19 +491,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
       "Increases your maximum Energy by 5.",
       "10."
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Gains a 15% bonus scaling from your primary lethal stats.",
+    "loreOrigins": "A forbidden lethal art that utilizes shadows to overwhelm enemies.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum shadows output.",
+      "Dramatically increases the power spike of your lethal cooldowns."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "30/8/13 Seal Fate Daggers"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Vigor.",
+    "devCommentary": "We wanted Vigor to define the Assassination playstyle at all levels.",
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
   },
   {
     "id": "envenom",
@@ -519,19 +519,19 @@ export const ROGUE_ASSASSINATION_TALENTS: any = [
     "desc": [
       "Finishing move that consumes your Deadly Poison doses on the target to deal instant Nature damage. Following the Envenom attack, you have an additional 15% chance to apply Deadly Poison and a 75% chance to apply Instant Poison for 1 second plus an additional 1 second per combo point."
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Coefficient scales with both spell damage and shadows mastery.",
+    "loreOrigins": "Passed down by Valeera, this mastery of Envenom represents the pinnacle of the class.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "Hybrid PvP/PvE"
+      "Deep Assassination PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Envenom.",
+    "devCommentary": "We wanted Envenom to define the Assassination playstyle at all levels.",
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
   }
 ];
 
@@ -550,19 +550,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "4%",
       "5%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A secret strike of the Ravenholdt manor.",
+    "statScaling": "Gains a 15% bonus scaling from your primary lethal stats.",
+    "loreOrigins": "A forbidden lethal art that utilizes shadows to overwhelm enemies.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum shadows output.",
+      "Dramatically increases the power spike of your lethal cooldowns."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "30/8/13 Seal Fate Daggers"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Deflection.",
+    "devCommentary": "We wanted Deflection to define the Combat playstyle at all levels.",
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
   },
   {
     "id": "imp_ss",
@@ -575,19 +575,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "Reduces the Energy cost of your Sinister Strike ability by 3.",
       "5."
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Coefficient scales with both spell damage and shadows mastery.",
+    "loreOrigins": "Passed down by Valeera, this mastery of Improved Sinister Strike represents the pinnacle of the class.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "15/31/5 Combat Swords"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Sinister Strike.",
+    "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
   },
   {
     "id": "imp_gouge",
@@ -601,19 +601,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "1.0 seconds",
       "1.5 seconds"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Coefficient scales with both spell damage and shadows mastery.",
+    "loreOrigins": "Passed down by Valeera, this mastery of Improved Gouge represents the pinnacle of the class.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "Hybrid PvP/PvE"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Gouge.",
+    "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
+    "visualEffect": "The ground shatters as lethal power courses through you."
   },
   {
     "id": "precision",
@@ -627,19 +627,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Gains a 15% bonus scaling from your primary lethal stats.",
+    "loreOrigins": "A forbidden lethal art that utilizes shadows to overwhelm enemies.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum shadows output.",
+      "Dramatically increases the power spike of your lethal cooldowns."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "Hybrid PvP/PvE"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Precision.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "dual_wield_spec",
@@ -653,19 +653,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "34%",
       "50%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Gains a 15% bonus scaling from your primary lethal stats.",
+    "loreOrigins": "A forbidden lethal art that utilizes shadows to overwhelm enemies.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Dual Wield Specialization between auto-attacks.",
+      "Creates a devastating synergy when you weave Dual Wield Specialization between auto-attacks."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "Hybrid PvP/PvE"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
+    "devCommentary": "Initially, Dual Wield Specialization was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "imp_sprint",
@@ -678,19 +678,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "Gives a 50% chance to remove all movement impairing effects when you activate your Sprint ability.",
       "100%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "A secret strike of the Ravenholdt manor.",
+    "statScaling": "Provides flat scaling independent of your shadows rating.",
+    "loreOrigins": "A lost secret of the Ravenholdt manor that weaponizes the pure essence of Improved Sprint.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any lethal oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum shadows output."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "30/8/13 Seal Fate Daggers"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Sprint critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "endurance",
@@ -703,19 +703,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "Reduces the cooldown of your Sprint and Evasion abilities by 45 seconds.",
       "90 seconds"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Inherits 50% of your weapon's base damage as lethal power.",
+    "loreOrigins": "An instinctual manifestation of shadows, allowing you to assassinate your foes effortlessly.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "Hybrid PvP/PvE"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Endurance critically hits.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
+    "visualEffect": "A massive burst of shadows erupts from the target upon impact."
   },
   {
     "id": "weapon_expertise",
@@ -735,19 +735,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "4.",
       "5."
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Coefficient scales with both spell damage and shadows mastery.",
+    "loreOrigins": "Passed down by Valeera, this mastery of Weapon Expertise represents the pinnacle of the class.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any lethal oriented build.",
+      "Creates a devastating synergy when you weave Weapon Expertise between auto-attacks."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "Hybrid PvP/PvE"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Enhances your chest rune to pulse with lethal energy upon casting Weapon Expertise.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "blade_flurry",
@@ -759,19 +759,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
     "desc": [
       "Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 seconds. 2 minute cooldown."
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A dirty trick learned in the alleys of Booty Bay.",
+    "statScaling": "Scales directly with your total shadows power rating.",
+    "loreOrigins": "Originally devised in the Ravenholdt manor, the technique of Blade Flurry was perfected over centuries.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Dramatically increases the power spike of your lethal cooldowns."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "30/8/13 Seal Fate Daggers"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "riposte",
@@ -787,19 +787,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
     "desc": [
       "A strike that becomes active after parrying an opponent's attack. This attack deals 150% weapon damage and disarms the target for 6 seconds."
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Provides flat scaling independent of your shadows rating.",
+    "loreOrigins": "A lost secret of the Ravenholdt manor that weaponizes the pure essence of Riposte.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Riposte between auto-attacks.",
+      "Acts as a foundational pillar for any lethal oriented build."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "21/8/22 Cold Blood Hemo"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Initially, Riposte was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "throwing_spec",
@@ -812,19 +812,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "Increases the range of your Throwing weapons by 3 yards, and gives your Throwing attacks a 50% chance to daze the target for 3 seconds.",
       "6 yards / 100%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Scales directly with your total shadows power rating.",
+    "loreOrigins": "Originally devised in the Ravenholdt manor, the technique of Throwing Specialization was perfected over centuries.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Dramatically increases the power spike of your lethal cooldowns."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "Hybrid PvP/PvE"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Initially, Throwing Specialization was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "aggression",
@@ -840,19 +840,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "8%",
       "10%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Coefficient scales with both spell damage and shadows mastery.",
+    "loreOrigins": "Passed down by Valeera, this mastery of Aggression represents the pinnacle of the class.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "15/31/5 Combat Swords"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Aggression.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "vitality",
@@ -865,19 +865,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "Increases your total Stamina by 2% and your total Agility by 1%.",
       "4% / 2%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A dirty trick learned in the alleys of Booty Bay.",
+    "statScaling": "Scales directly with your total shadows power rating.",
+    "loreOrigins": "Originally devised in the Ravenholdt manor, the technique of Vitality was perfected over centuries.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Dramatically increases the power spike of your lethal cooldowns."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "30/8/13 Seal Fate Daggers"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Initially, Vitality was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "The ground shatters as lethal power courses through you."
   },
   {
     "id": "lightning_reflexes",
@@ -891,19 +891,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "4% / 2%",
       "6% / 3%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A secret strike of the Ravenholdt manor.",
+    "statScaling": "Scales directly with your total shadows power rating.",
+    "loreOrigins": "Originally devised in the Ravenholdt manor, the technique of Lightning Reflexes was perfected over centuries.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Dramatically increases the power spike of your lethal cooldowns."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "30/8/13 Seal Fate Daggers"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "We wanted Lightning Reflexes to define the Combat playstyle at all levels.",
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
   },
   {
     "id": "adrenaline_rush",
@@ -919,19 +919,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
     "desc": [
       "Increases your Energy regeneration rate by 100% for 15 seconds. 3 minute cooldown."
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Provides flat scaling independent of your shadows rating.",
+    "loreOrigins": "A lost secret of the Ravenholdt manor that weaponizes the pure essence of Adrenaline Rush.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Adrenaline Rush between auto-attacks.",
+      "Acts as a foundational pillar for any lethal oriented build."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "Hybrid PvP/PvE"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
+    "visualEffect": "A massive burst of shadows erupts from the target upon impact."
   },
   {
     "id": "combat_potency",
@@ -944,19 +944,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "Gives your successful off-hand melee attacks a 10% chance to generate 15 Energy.",
       "20%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Inherits 50% of your weapon's base damage as lethal power.",
+    "loreOrigins": "An instinctual manifestation of shadows, allowing you to assassinate your foes effortlessly.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum shadows output.",
+      "Acts as a foundational pillar for any lethal oriented build."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "Hybrid PvP/PvE"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Enhances your chest rune to pulse with lethal energy upon casting Combat Potency.",
+    "devCommentary": "Initially, Combat Potency was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "surprise_attacks",
@@ -970,19 +970,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "8%",
       "12%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Gains a 15% bonus scaling from your primary lethal stats.",
+    "loreOrigins": "A forbidden lethal art that utilizes shadows to overwhelm enemies.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Surprise Attacks between auto-attacks.",
+      "Creates a devastating synergy when you weave Surprise Attacks between auto-attacks."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "21/8/22 Cold Blood Hemo"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "unfair_advantage",
@@ -995,19 +995,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "Whenever you dodge an attack, you gain a counter-strike dealing 50% weapon damage (can only occur once every 1 second).",
       "100%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Scales directly with your total shadows power rating.",
+    "loreOrigins": "Originally devised in the Ravenholdt manor, the technique of Unfair Advantage was perfected over centuries.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum shadows output."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "Hybrid PvP/PvE"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "blade_twisting",
@@ -1020,19 +1020,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
       "Your damaging melee attacks have a 10% chance to daze the target for 4 seconds.",
       "20%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "A dirty trick learned in the alleys of Booty Bay.",
+    "statScaling": "Scales directly with your total shadows power rating.",
+    "loreOrigins": "Originally devised in the Ravenholdt manor, the technique of Blade Twisting was perfected over centuries.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum shadows output."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "21/8/22 Cold Blood Hemo"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "killing_spree",
@@ -1048,19 +1048,19 @@ export const ROGUE_COMBAT_TALENTS: any = [
     "desc": [
       "Step through the shadows from enemy to enemy within 10 yards, attacking an enemy every 0.5 seconds with both weapons until 5 assaults are made, and increasing all damage done by 20% for the duration. Can hit the same target multiple times. Cannot be hit by crowd control during the effect. 2 minute cooldown."
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A secret strike of the Ravenholdt manor.",
+    "statScaling": "Coefficient scales with both spell damage and shadows mastery.",
+    "loreOrigins": "Passed down by Valeera, this mastery of Killing Spree represents the pinnacle of the class.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "15/31/5 Combat Swords"
+      "Deep Combat PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Killing Spree.",
+    "devCommentary": "Initially, Killing Spree was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   }
 ];
 
@@ -1079,19 +1079,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "Rank 4",
       "Rank 5"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "A secret strike of the Ravenholdt manor.",
+    "statScaling": "Provides flat scaling independent of your shadows rating.",
+    "loreOrigins": "A lost secret of the Ravenholdt manor that weaponizes the pure essence of Master of Deception.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Master of Deception between auto-attacks.",
+      "Acts as a foundational pillar for any lethal oriented build."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "30/8/13 Seal Fate Daggers"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "opportunity",
@@ -1105,19 +1105,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Scales directly with your total shadows power rating.",
+    "loreOrigins": "Originally devised in the Ravenholdt manor, the technique of Opportunity was perfected over centuries.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum shadows output."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "Hybrid PvP/PvE"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "camouflage",
@@ -1130,19 +1130,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "Increases your speed while stealthed by 5% and reduces the cooldown of your Stealth ability by 3 seconds.",
       "10% / 6 seconds"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A secret strike of the Ravenholdt manor.",
+    "statScaling": "Coefficient scales with both spell damage and shadows mastery.",
+    "loreOrigins": "Passed down by Valeera, this mastery of Camouflage represents the pinnacle of the class.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "15/31/5 Combat Swords"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Camouflage.",
+    "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
   },
   {
     "id": "initiative",
@@ -1160,19 +1160,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "50%",
       "75%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Gains a 15% bonus scaling from your primary lethal stats.",
+    "loreOrigins": "A forbidden lethal art that utilizes shadows to overwhelm enemies.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum shadows output.",
+      "Dramatically increases the power spike of your lethal cooldowns."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "15/31/5 Combat Swords"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Initiative.",
+    "devCommentary": "Initially, Initiative was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "The ground shatters as lethal power courses through you."
   },
   {
     "id": "elusiveness",
@@ -1190,19 +1190,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "60 seconds",
       "90 seconds"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "A dirty trick learned in the alleys of Booty Bay.",
+    "statScaling": "Inherits 50% of your weapon's base damage as lethal power.",
+    "loreOrigins": "An instinctual manifestation of shadows, allowing you to assassinate your foes effortlessly.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "Hybrid PvP/PvE"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Elusiveness critically hits.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "imp_ambush",
@@ -1215,19 +1215,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "Increases the critical strike chance of your Ambush ability by 25%.",
       "50%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "A dirty trick learned in the alleys of Booty Bay.",
+    "statScaling": "Inherits 50% of your weapon's base damage as lethal power.",
+    "loreOrigins": "An instinctual manifestation of shadows, allowing you to assassinate your foes effortlessly.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum shadows output.",
+      "Acts as a foundational pillar for any lethal oriented build."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "Hybrid PvP/PvE"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Enhances your chest rune to pulse with lethal energy upon casting Improved Ambush.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "dirty_tricks",
@@ -1240,19 +1240,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "Increases the range of your Blind and Sap abilities by 2 yards and reduces the Energy cost of your Sap and Blind by 25%.",
       "5 yards / 50%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A dirty trick learned in the alleys of Booty Bay.",
+    "statScaling": "Provides flat scaling independent of your shadows rating.",
+    "loreOrigins": "A lost secret of the Ravenholdt manor that weaponizes the pure essence of Dirty Tricks.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any lethal oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum shadows output."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "Hybrid PvP/PvE"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Dirty Tricks critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "serrated_blades",
@@ -1268,19 +1268,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "40%",
       "50%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Scales directly with your total shadows power rating.",
+    "loreOrigins": "Originally devised in the Ravenholdt manor, the technique of Serrated Blades was perfected over centuries.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Dramatically increases the power spike of your lethal cooldowns."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "15/31/5 Combat Swords"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Initially, Serrated Blades was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "hemorrhage",
@@ -1292,19 +1292,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     "desc": [
       "An instant strike that deals 110% weapon damage and causes the target to hemorrhage, increasing any physical damage dealt to the target by up to X. Lasts 15 seconds or 10 charges. Awards 1 combo point."
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Coefficient scales with both spell damage and shadows mastery.",
+    "loreOrigins": "Passed down by Valeera, this mastery of Hemorrhage represents the pinnacle of the class.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any lethal oriented build.",
+      "Creates a devastating synergy when you weave Hemorrhage between auto-attacks."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "30/8/13 Seal Fate Daggers"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Enhances your chest rune to pulse with lethal energy upon casting Hemorrhage.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward shadows ability.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "setup",
@@ -1317,19 +1317,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "Increases your Dodge chance by 1% and gives you a 50% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
       "2% / 100%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Gains a 15% bonus scaling from your primary lethal stats.",
+    "loreOrigins": "A forbidden lethal art that utilizes shadows to overwhelm enemies.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Setup between auto-attacks.",
+      "Creates a devastating synergy when you weave Setup between auto-attacks."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "Hybrid PvP/PvE"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
+    "devCommentary": "We wanted Setup to define the Subtlety playstyle at all levels.",
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
   },
   {
     "id": "sleight_of_hand",
@@ -1342,19 +1342,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "Reduces the chance you will be critically hit by melee and ranged attacks by 1%, and reduces the cooldown of your Feint ability by 1.5 seconds.",
       "2% / 3 seconds"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A dirty trick learned in the alleys of Booty Bay.",
+    "statScaling": "Provides flat scaling independent of your shadows rating.",
+    "loreOrigins": "A lost secret of the Ravenholdt manor that weaponizes the pure essence of Sleight of Hand.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Sleight of Hand between auto-attacks.",
+      "Acts as a foundational pillar for any lethal oriented build."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "21/8/22 Cold Blood Hemo"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "deadliness",
@@ -1370,19 +1370,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "8%",
       "10%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A dirty trick learned in the alleys of Booty Bay.",
+    "statScaling": "Inherits 50% of your weapon's base damage as lethal power.",
+    "loreOrigins": "An instinctual manifestation of shadows, allowing you to assassinate your foes effortlessly.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "30/8/13 Seal Fate Daggers"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Deadliness critically hits.",
+    "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
   },
   {
     "id": "heightened_senses",
@@ -1395,19 +1395,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%.",
       "4%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Inherits 50% of your weapon's base damage as lethal power.",
+    "loreOrigins": "An instinctual manifestation of shadows, allowing you to assassinate your foes effortlessly.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "30/8/13 Seal Fate Daggers"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Heightened Senses critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "dirty_deeds",
@@ -1421,19 +1421,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "20 / 20%",
       "30 / 30%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A secret strike of the Ravenholdt manor.",
+    "statScaling": "Gains a 15% bonus scaling from your primary lethal stats.",
+    "loreOrigins": "A forbidden lethal art that utilizes shadows to overwhelm enemies.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum shadows output.",
+      "Dramatically increases the power spike of your lethal cooldowns."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "Hybrid PvP/PvE"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Dirty Deeds.",
+    "devCommentary": "Designed to smooth out the rotation of lethal specs in long encounters.",
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
   },
   {
     "id": "preparation",
@@ -1445,19 +1445,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     "desc": [
       "When activated, this ability immediately finishes the cooldown on your Evasion, Sprint, Vanish, Cold Blood, and Shadowstep abilities. 5 minute cooldown."
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A dirty trick learned in the alleys of Booty Bay.",
+    "statScaling": "Inherits 50% of your weapon's base damage as lethal power.",
+    "loreOrigins": "An instinctual manifestation of shadows, allowing you to assassinate your foes effortlessly.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Provides unmatched utility when combined with other assassinate abilities."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "15/31/5 Combat Swords"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Preparation critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "enveloping_shadows",
@@ -1470,19 +1470,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "Reduces the damage you take from area of effect attacks by 15%.",
       "30%"
     ],
-    "statScaling": "Poison damage scales directly with Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Scales directly with your total shadows power rating.",
+    "loreOrigins": "Originally devised in the Ravenholdt manor, the technique of Enveloping Shadows was perfected over centuries.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your lethal cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum shadows output."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "15/31/5 Combat Swords"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Causes your helm rune to trigger a secondary shadows effect.",
+    "devCommentary": "We wanted Enveloping Shadows to define the Subtlety playstyle at all levels.",
+    "visualEffect": "A spectral projection of Valeera briefly mirrors your attack."
   },
   {
     "id": "cheat_death",
@@ -1496,19 +1496,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Provides flat scaling independent of your shadows rating.",
+    "loreOrigins": "A lost secret of the Ravenholdt manor that weaponizes the pure essence of Cheat Death.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any lethal oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum shadows output."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "Hybrid PvP/PvE"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Cheat Death critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in lethal energy."
   },
   {
     "id": "honor_among_thieves",
@@ -1522,19 +1522,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Scales directly with your total shadows power rating.",
+    "loreOrigins": "Originally devised in the Ravenholdt manor, the technique of Honor Among Thieves was perfected over centuries.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other assassinate abilities.",
+      "Dramatically increases the power spike of your lethal cooldowns."
     ],
     "recommendedBuilds": [
-      "30/8/13 Seal Fate Daggers",
-      "Hybrid PvP/PvE"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Leaves a shadow trail as you strike."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Initially, Honor Among Thieves was too weak, so we gave it massive lethal scaling.",
+    "visualEffect": "The ground shatters as lethal power courses through you."
   },
   {
     "id": "master_of_subtlety",
@@ -1547,19 +1547,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
       "Attacks made while stealthed and for 6 seconds after breaking stealth cause an additional 5% damage.",
       "10%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A lethal technique taught by the SI:7 assassins.",
+    "statScaling": "Inherits 50% of your weapon's base damage as lethal power.",
+    "loreOrigins": "An instinctual manifestation of shadows, allowing you to assassinate your foes effortlessly.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum shadows output.",
+      "Acts as a foundational pillar for any lethal oriented build."
     ],
     "recommendedBuilds": [
-      "15/31/5 Combat Swords",
-      "30/8/13 Seal Fate Daggers"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A venomous green aura coats your weapons."
+    "runeInteractions": "Enhances your chest rune to pulse with lethal energy upon casting Master of Subtlety.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   },
   {
     "id": "shadowstep",
@@ -1575,19 +1575,19 @@ export const ROGUE_SUBTLETY_TALENTS: any = [
     "desc": [
       "Attempts to step through the shadows and reappear behind your enemy, increasing movement speed by 70% for 3 seconds and increasing the damage of your next ability by 20%. The threat caused by your next ability is reduced by 50%. 20 second cooldown."
     ],
-    "statScaling": "Scales with Weapon Damage and combo points.",
-    "loreOrigins": "Originated from the Shattered Hand syndicate.",
+    "statScaling": "Gains a 15% bonus scaling from your primary lethal stats.",
+    "loreOrigins": "A forbidden lethal art that utilizes shadows to overwhelm enemies.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum shadows output.",
+      "Dramatically increases the power spike of your lethal cooldowns."
     ],
     "recommendedBuilds": [
-      "21/8/22 Cold Blood Hemo",
-      "Hybrid PvP/PvE"
+      "Deep Subtlety PvE",
+      "Hybrid lethal PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Your blades blur with supernatural speed."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Shadowstep.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of shadows in your wake."
   }
 ];
 

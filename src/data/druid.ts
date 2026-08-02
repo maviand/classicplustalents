@@ -15,19 +15,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "0.4",
       "0.5"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Starfire Wrath was perfected over centuries.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "natural_weapons",
@@ -41,19 +41,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Provides flat scaling independent of your nature rating.",
+    "loreOrigins": "A lost secret of the Moonglade that weaponizes the pure essence of Natural Weapons.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Natural Weapons between auto-attacks.",
+      "Acts as a foundational pillar for any feral oriented build."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "Hybrid PvP/PvE"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "natures_reach",
@@ -66,19 +66,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "Increases the range of your Balance spells and Faerie Fire by 10%, and increases the radius of your Demoralizing Roar and challenging spells by 10%.",
       "20 / 20"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Nature's Reach was perfected over centuries.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your feral cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum nature output."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
+    "devCommentary": "We wanted Nature's Reach to define the Balance playstyle at all levels.",
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
   },
   {
     "id": "control_of_nature",
@@ -92,19 +92,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "70",
       "100"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
+    "statScaling": "Coefficient scales with both spell damage and nature mastery.",
+    "loreOrigins": "Passed down by Malfurion, this mastery of Control of Nature represents the pinnacle of the class.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your feral cooldowns.",
+      "Provides unmatched utility when combined with other restore abilities."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Control of Nature.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "imp_moonfire",
@@ -117,19 +117,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "Increases the damage and critical strike chance of your Moonfire spell by 5%.",
       "10"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Coefficient scales with both spell damage and nature mastery.",
+    "loreOrigins": "Passed down by Malfurion, this mastery of Improved Moonfire represents the pinnacle of the class.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your feral cooldowns.",
+      "Provides unmatched utility when combined with other restore abilities."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "Hybrid PvP/PvE"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Moonfire.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "brambleguard",
@@ -143,19 +143,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "50 / 20",
       "75 / 30"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Gains a 15% bonus scaling from your primary feral stats.",
+    "loreOrigins": "A forbidden feral art that utilizes nature to overwhelm enemies.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "Hybrid PvP/PvE"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Brambleguard.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "moonglow",
@@ -169,19 +169,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "6 / 30",
       "9 / 45"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
+    "statScaling": "Coefficient scales with both spell damage and nature mastery.",
+    "loreOrigins": "Passed down by Malfurion, this mastery of Moonglow represents the pinnacle of the class.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any feral oriented build.",
+      "Creates a devastating synergy when you weave Moonglow between auto-attacks."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Moonglow.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in feral energy."
   },
   {
     "id": "conjure_moonwell",
@@ -193,19 +193,19 @@ export const DRUID_BALANCE_TALENTS: any = [
     "desc": [
       "Conjures a Moonwell at the caster's feet for 15 seconds. You and all party members standing within 10 yards of the Moonwell gain Elune's Blessing, which reduces the cast time of all spells by 0.5 seconds and restores 2% of maximum mana every 3 seconds. 3 minute cooldown."
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Provides unmatched utility when combined with other restore abilities."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "24/0/27 Moonglow Resto"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Conjure Moonwell critically hits.",
+    "devCommentary": "We wanted Conjure Moonwell to define the Balance playstyle at all levels.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "imp_faerie_fire",
@@ -219,19 +219,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Gains a 15% bonus scaling from your primary feral stats.",
+    "loreOrigins": "A forbidden feral art that utilizes nature to overwhelm enemies.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Improved Faerie Fire between auto-attacks.",
+      "Creates a devastating synergy when you weave Improved Faerie Fire between auto-attacks."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "Hybrid PvP/PvE"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
+    "devCommentary": "Initially, Improved Faerie Fire was too weak, so we gave it massive feral scaling.",
+    "visualEffect": "Your character is temporarily wreathed in feral energy."
   },
   {
     "id": "gale_winds",
@@ -244,19 +244,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "Reduces pushback suffered from damaging attacks while casting Hurricane by 50%, and increases the damage of your Hurricane spell by 15%.",
       "100% / 30%"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Coefficient scales with both spell damage and nature mastery.",
+    "loreOrigins": "Passed down by Malfurion, this mastery of Gale Winds represents the pinnacle of the class.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your feral cooldowns.",
+      "Provides unmatched utility when combined with other restore abilities."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "Hybrid PvP/PvE"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Gale Winds.",
+    "devCommentary": "Initially, Gale Winds was too weak, so we gave it massive feral scaling.",
+    "visualEffect": "The ground shatters as feral power courses through you."
   },
   {
     "id": "vengeance",
@@ -276,19 +276,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "80",
       "100"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Provides flat scaling independent of your nature rating.",
+    "loreOrigins": "A lost secret of the Moonglade that weaponizes the pure essence of Vengeance.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any feral oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum nature output."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Vengeance critically hits.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "celestial_focus",
@@ -302,19 +302,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "50 / 1.0",
       "75 / 1.5"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
+    "statScaling": "Coefficient scales with both spell damage and nature mastery.",
+    "loreOrigins": "Passed down by Malfurion, this mastery of Celestial Focus represents the pinnacle of the class.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any feral oriented build.",
+      "Creates a devastating synergy when you weave Celestial Focus between auto-attacks."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Celestial Focus.",
+    "devCommentary": "We wanted Celestial Focus to define the Balance playstyle at all levels.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "dreamstate",
@@ -328,19 +328,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Dreamstate was perfected over centuries.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your feral cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum nature output."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "30/0/21 Balance PvP"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
+    "devCommentary": "We wanted Dreamstate to define the Balance playstyle at all levels.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "moonkin_form",
@@ -352,19 +352,19 @@ export const DRUID_BALANCE_TALENTS: any = [
     "desc": [
       "Transforms the Druid into Moonkin Form. Increases armor by 360% and grants all party members within 30 yards 3% Spell Critical strike chance. While in this form, your melee attacks regenerate 2% of your maximum mana, and 1% of your party's maximum mana. Cannot cast healing spells."
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Provides unmatched utility when combined with other restore abilities."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "24/0/27 Moonglow Resto"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Moonkin Form critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "force_of_nature",
@@ -376,19 +376,19 @@ export const DRUID_BALANCE_TALENTS: any = [
     "desc": [
       "Summons 3 Treants to assist you in combat for 30 seconds. The Treants deal Physical damage and each of their attacks has a 15% chance to reduce the target's resistance to Nature and Arcane spells by 10 (Stacks up to 3 times). 3 minute cooldown."
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Provides unmatched utility when combined with other restore abilities."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Force of Nature critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "owlkin_frenzy",
@@ -402,19 +402,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Coefficient scales with both spell damage and nature mastery.",
+    "loreOrigins": "Passed down by Malfurion, this mastery of Owlkin Frenzy represents the pinnacle of the class.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any feral oriented build.",
+      "Creates a devastating synergy when you weave Owlkin Frenzy between auto-attacks."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "Hybrid PvP/PvE"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Owlkin Frenzy.",
+    "devCommentary": "Initially, Owlkin Frenzy was too weak, so we gave it massive feral scaling.",
+    "visualEffect": "Your character is temporarily wreathed in feral energy."
   },
   {
     "id": "moonfury",
@@ -434,19 +434,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "8",
       "10"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
+    "statScaling": "Gains a 15% bonus scaling from your primary feral stats.",
+    "loreOrigins": "A forbidden feral art that utilizes nature to overwhelm enemies.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Moonfury between auto-attacks.",
+      "Creates a devastating synergy when you weave Moonfury between auto-attacks."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "Hybrid PvP/PvE"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
+    "devCommentary": "Initially, Moonfury was too weak, so we gave it massive feral scaling.",
+    "visualEffect": "The ground shatters as feral power courses through you."
   },
   {
     "id": "lunar_guidance",
@@ -460,19 +460,19 @@ export const DRUID_BALANCE_TALENTS: any = [
       "16%",
       "25%"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Provides flat scaling independent of your nature rating.",
+    "loreOrigins": "A lost secret of the Moonglade that weaponizes the pure essence of Lunar Guidance.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any feral oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum nature output."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "24/0/27 Moonglow Resto"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Lunar Guidance critically hits.",
+    "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
   },
   {
     "id": "starfall",
@@ -488,19 +488,19 @@ export const DRUID_BALANCE_TALENTS: any = [
     "desc": [
       "You summon a flurry of stars from the sky on all targets within 30 yards of the caster, each dealing Arcane damage. Lasts 10 sec. 3 min cooldown."
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
+    "statScaling": "Gains a 15% bonus scaling from your primary feral stats.",
+    "loreOrigins": "A forbidden feral art that utilizes nature to overwhelm enemies.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Starfall between auto-attacks.",
+      "Creates a devastating synergy when you weave Starfall between auto-attacks."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "Hybrid PvP/PvE"
+      "Deep Balance PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   }
 ];
 
@@ -519,19 +519,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "4",
       "5"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Coefficient scales with both spell damage and nature mastery.",
+    "loreOrigins": "Passed down by Malfurion, this mastery of Ferocity represents the pinnacle of the class.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your feral cooldowns.",
+      "Provides unmatched utility when combined with other restore abilities."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "30/0/21 Balance PvP"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Ferocity.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "thick_hide",
@@ -545,19 +545,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "8 / 4",
       "12 / 6"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Acts as a foundational pillar for any feral oriented build."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "Hybrid PvP/PvE"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Thick Hide.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "feral_aggression",
@@ -570,19 +570,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Increases the threat generated by your Bear Form abilities by 8%, and increases the damage caused by your Ferocious Bite by 8%.",
       "15 / 15"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Feral Aggression was perfected over centuries.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "24/0/27 Moonglow Resto"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "We wanted Feral Aggression to define the Feral playstyle at all levels.",
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
   },
   {
     "id": "fluid_form",
@@ -596,19 +596,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "40%",
       "60%"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
+    "statScaling": "Gains a 15% bonus scaling from your primary feral stats.",
+    "loreOrigins": "A forbidden feral art that utilizes nature to overwhelm enemies.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "Hybrid PvP/PvE"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Fluid Form.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in feral energy."
   },
   {
     "id": "survival_instincts",
@@ -622,19 +622,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "10 / 2",
       "15 / 3"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Provides flat scaling independent of your nature rating.",
+    "loreOrigins": "A lost secret of the Moonglade that weaponizes the pure essence of Survival Instincts.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Survival Instincts between auto-attacks.",
+      "Acts as a foundational pillar for any feral oriented build."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
+    "visualEffect": "The ground shatters as feral power courses through you."
   },
   {
     "id": "brutal_impact",
@@ -647,19 +647,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Increases the stun duration of your Bash and Pounce abilities by 0.5 sec. Spells cast against targets stunned by your Bash or Pounce have a 25% increased critical strike chance.",
       "1 / 50"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Provides flat scaling independent of your nature rating.",
+    "loreOrigins": "A lost secret of the Moonglade that weaponizes the pure essence of Brutal Impact.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any feral oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum nature output."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "30/0/21 Balance PvP"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Brutal Impact critically hits.",
+    "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
+    "visualEffect": "The ground shatters as feral power courses through you."
   },
   {
     "id": "primal_focus",
@@ -672,19 +672,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "When you critically hit with a melee attack in Bear or Cat form, the mana cost of your next Healing Touch, Regrowth, or Rejuvenation is reduced by 25%.",
       "50"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Primal Focus was perfected over centuries.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "24/0/27 Moonglow Resto"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Initially, Primal Focus was too weak, so we gave it massive feral scaling.",
+    "visualEffect": "The ground shatters as feral power courses through you."
   },
   {
     "id": "predatory_strikes",
@@ -698,19 +698,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "100 / 20",
       "150 / 30"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
+    "statScaling": "Coefficient scales with both spell damage and nature mastery.",
+    "loreOrigins": "Passed down by Malfurion, this mastery of Predatory Strikes represents the pinnacle of the class.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any feral oriented build.",
+      "Creates a devastating synergy when you weave Predatory Strikes between auto-attacks."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Predatory Strikes.",
+    "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
   },
   {
     "id": "feral_charge",
@@ -722,19 +722,19 @@ export const DRUID_FERAL_TALENTS: any = [
     "desc": [
       "Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec."
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Feral Charge was perfected over centuries.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "We wanted Feral Charge to define the Feral playstyle at all levels.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "sharpened_claws",
@@ -748,19 +748,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "4",
       "6"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Gains a 15% bonus scaling from your primary feral stats.",
+    "loreOrigins": "A forbidden feral art that utilizes nature to overwhelm enemies.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Sharpened Claws between auto-attacks.",
+      "Creates a devastating synergy when you weave Sharpened Claws between auto-attacks."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "30/0/21 Balance PvP"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "imp_shred",
@@ -773,19 +773,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Reduces the Energy cost of your Shred ability by 6.",
       "12"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Improved Shred was perfected over centuries.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your feral cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum nature output."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "24/0/27 Moonglow Resto"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in feral energy."
   },
   {
     "id": "nurturing_instinct",
@@ -798,19 +798,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Increases your healing spells by 50% of your Agility.",
       "100%"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Nurturing Instinct was perfected over centuries.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "primal_synergy",
@@ -827,19 +827,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Your physical critical strikes have a 50% chance to add an additional combo point in Cat Form, or generate 5 additional Rage in Bear Form.",
       "100"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Acts as a foundational pillar for any feral oriented build."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "30/0/21 Balance PvP"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Primal Synergy.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "primal_frenzy",
@@ -856,19 +856,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Reduces the cooldown of your Enrage and Tiger's Fury abilities by 15 seconds. In addition, using Tiger's Fury instantly restores 15 Energy, and the armor penalty of your Enrage is reduced by 50%.",
       "30 / 30 / 100"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Primal Frenzy was perfected over centuries.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your feral cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum nature output."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "Hybrid PvP/PvE"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "savage_fury",
@@ -881,19 +881,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "Increases the damage caused by your Claw, Rake, Maul and Swipe abilities by 10%.",
       "20"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Acts as a foundational pillar for any feral oriented build."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "Hybrid PvP/PvE"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Savage Fury.",
+    "devCommentary": "We wanted Savage Fury to define the Feral playstyle at all levels.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "leader_of_the_pack",
@@ -905,19 +905,19 @@ export const DRUID_FERAL_TALENTS: any = [
     "desc": [
       "While in Cat, Bear or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by 3%."
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Leader of the Pack was perfected over centuries.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "Hybrid PvP/PvE"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "We wanted Leader of the Pack to define the Feral playstyle at all levels.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "primal_flurry",
@@ -931,19 +931,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "20 / 2 / 4",
       "30 / 3 / 6"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Provides flat scaling independent of your nature rating.",
+    "loreOrigins": "A lost secret of the Moonglade that weaponizes the pure essence of Primal Flurry.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Primal Flurry between auto-attacks.",
+      "Acts as a foundational pillar for any feral oriented build."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "30/0/21 Balance PvP"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
+    "visualEffect": "The ground shatters as feral power courses through you."
   },
   {
     "id": "heart_of_the_wild",
@@ -959,19 +959,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "16 / 16 / 8",
       "20 / 20 / 10"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Coefficient scales with both spell damage and nature mastery.",
+    "loreOrigins": "Passed down by Malfurion, this mastery of Heart of the Wild represents the pinnacle of the class.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your feral cooldowns.",
+      "Provides unmatched utility when combined with other restore abilities."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "24/0/27 Moonglow Resto"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Heart of the Wild.",
+    "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
   },
   {
     "id": "survival_of_the_fittest",
@@ -985,19 +985,19 @@ export const DRUID_FERAL_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Survival of the Fittest was perfected over centuries.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your feral cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum nature output."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "24/0/27 Moonglow Resto"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Causes your helm rune to trigger a secondary nature effect.",
+    "devCommentary": "We wanted Survival of the Fittest to define the Feral playstyle at all levels.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "mangle",
@@ -1013,19 +1013,19 @@ export const DRUID_FERAL_TALENTS: any = [
     "desc": [
       "Mangle the target, inflicting damage and causing the target to take 30% additional damage from bleed effects and Shred for 1 min. Awards 1 combo point. This ability replaces Claw."
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Provides unmatched utility when combined with other restore abilities."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "24/0/27 Moonglow Resto"
+      "Deep Feral PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Mangle critically hits.",
+    "devCommentary": "We wanted Mangle to define the Feral playstyle at all levels.",
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
   }
 ];
 
@@ -1044,19 +1044,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "0.4 / 8",
       "0.5 / 10"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Provides flat scaling independent of your nature rating.",
+    "loreOrigins": "A lost secret of the Moonglade that weaponizes the pure essence of Gift of Nature.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Gift of Nature between auto-attacks.",
+      "Acts as a foundational pillar for any feral oriented build."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "24/0/27 Moonglow Resto"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "We wanted Gift of Nature to define the Restoration playstyle at all levels.",
+    "visualEffect": "A spectral projection of Malfurion briefly mirrors your attack."
   },
   {
     "id": "imp_motw",
@@ -1070,19 +1070,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "30",
       "45"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Acts as a foundational pillar for any feral oriented build."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "30/0/21 Balance PvP"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Improved Mark of the Wild.",
+    "devCommentary": "We wanted Improved Mark of the Wild to define the Restoration playstyle at all levels.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "furor",
@@ -1095,19 +1095,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "Gives you a 50% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or retain up to 40 Energy when you shapeshift into Cat Form.",
       "100"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Gains a 15% bonus scaling from your primary feral stats.",
+    "loreOrigins": "A forbidden feral art that utilizes nature to overwhelm enemies.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "24/0/27 Moonglow Resto"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Furor.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "subtlety",
@@ -1121,19 +1121,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "20 / 20",
       "30 / 30"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Acts as a foundational pillar for any feral oriented build."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Subtlety.",
+    "devCommentary": "We wanted Subtlety to define the Restoration playstyle at all levels.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "natural_shapeshifter",
@@ -1147,19 +1147,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "20 / 2",
       "30 / 3"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Gains a 15% bonus scaling from your primary feral stats.",
+    "loreOrigins": "A forbidden feral art that utilizes nature to overwhelm enemies.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "30/0/21 Balance PvP"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Natural Shapeshifter.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "natures_focus",
@@ -1172,19 +1172,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "Gives you a 35% chance to avoid interruption caused by damage while casting Healing Touch, Regrowth, or Tranquility.",
       "70"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Acts as a foundational pillar for any feral oriented build."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Nature's Focus.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "imp_enrage",
@@ -1197,19 +1197,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "The Enrage ability now instantly generates 5 Rage.",
       "10"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Provides unmatched utility when combined with other restore abilities."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "24/0/27 Moonglow Resto"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Enrage critically hits.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "reflection",
@@ -1223,19 +1223,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "10",
       "15"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Acts as a foundational pillar for any feral oriented build."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "24/0/27 Moonglow Resto"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Reflection.",
+    "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
+    "visualEffect": "The ground shatters as feral power courses through you."
   },
   {
     "id": "natures_swiftness",
@@ -1247,19 +1247,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
     "desc": [
       "When activated, your next Nature spell with a casting time less than 10 sec becomes an instant cast spell. 3 min cooldown."
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Coefficient scales with both spell damage and nature mastery.",
+    "loreOrigins": "Passed down by Malfurion, this mastery of Nature's Swiftness represents the pinnacle of the class.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your feral cooldowns.",
+      "Provides unmatched utility when combined with other restore abilities."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "Hybrid PvP/PvE"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Nature's Swiftness.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "imp_rejuv",
@@ -1273,19 +1273,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "10",
       "15"
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Provides flat scaling independent of your nature rating.",
+    "loreOrigins": "A lost secret of the Moonglade that weaponizes the pure essence of Improved Rejuvenation.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any feral oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum nature output."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Rejuvenation critically hits.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "tranquil_spirit",
@@ -1299,19 +1299,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "7%",
       "10%"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Provides unmatched utility when combined with other restore abilities."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Tranquil Spirit critically hits.",
+    "devCommentary": "Initially, Tranquil Spirit was too weak, so we gave it massive feral scaling.",
+    "visualEffect": "The ground shatters as feral power courses through you."
   },
   {
     "id": "empowered_rejuvenation",
@@ -1327,19 +1327,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "16%",
       "20%"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Gains a 15% bonus scaling from your primary feral stats.",
+    "loreOrigins": "A forbidden feral art that utilizes nature to overwhelm enemies.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Empowered Rejuvenation.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "sanctuary",
@@ -1352,19 +1352,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "Reduces the cooldown of your Tranquility by 50% and reduces the threat it generates by 100%. Tranquility can now be channeled while moving.",
       "100"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
+    "statScaling": "Provides flat scaling independent of your nature rating.",
+    "loreOrigins": "A lost secret of the Moonglade that weaponizes the pure essence of Sanctuary.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Sanctuary between auto-attacks.",
+      "Acts as a foundational pillar for any feral oriented build."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "Hybrid PvP/PvE"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
+    "visualEffect": "The ground shatters as feral power courses through you."
   },
   {
     "id": "natures_bounty",
@@ -1380,19 +1380,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "40",
       "50"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Nature's Bounty was perfected over centuries.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "30/0/21 Balance PvP"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A column of moonlight strikes the earth."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "tree_of_life",
@@ -1408,19 +1408,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
     "desc": [
       "Transforms the Druid into a Tree of Life. While in this form, healing received by all party members within 45 yards is increased by 10% and you can only cast Restoration spells."
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
+    "statScaling": "Coefficient scales with both spell damage and nature mastery.",
+    "loreOrigins": "Passed down by Malfurion, this mastery of Tree of Life Form represents the pinnacle of the class.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any feral oriented build.",
+      "Creates a devastating synergy when you weave Tree of Life Form between auto-attacks."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "30/0/21 Balance PvP"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Tree of Life Form.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward nature ability.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   },
   {
     "id": "swiftmend",
@@ -1432,19 +1432,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
     "desc": [
       "Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them for an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth."
     ],
-    "statScaling": "Scales at 1.0 coefficient with Healing Power.",
-    "loreOrigins": "A restorative bloom from the glades of Moonglade.",
+    "statScaling": "Gains a 15% bonus scaling from your primary feral stats.",
+    "loreOrigins": "A forbidden feral art that utilizes nature to overwhelm enemies.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "24/0/27 Moonglow Resto"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Swiftmend.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of nature in your wake."
   },
   {
     "id": "living_seed",
@@ -1461,19 +1461,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "When you critically heal your target with Healing Touch or Regrowth, you plant a Living Seed on the target for 15% of the amount healed. The Living Seed will bloom when the target is next attacked, healing them.",
       "30"
     ],
-    "statScaling": "Scales with Agility and Strength in forms.",
-    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Provides unmatched utility when combined with other restore abilities."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "Hybrid PvP/PvE"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "Your form shifts with a phantom roar."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Living Seed critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in feral energy."
   },
   {
     "id": "empowered_touch",
@@ -1487,19 +1487,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "20",
       "30"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A lunar strike taught by the keepers of Hyjal.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Empowered Touch was perfected over centuries.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "30/0/21 Balance PvP"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Initially, Empowered Touch was too weak, so we gave it massive feral scaling.",
+    "visualEffect": "Your character is temporarily wreathed in feral energy."
   },
   {
     "id": "gift_of_the_earthmother",
@@ -1512,19 +1512,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "Reduces the global cooldown of your Rejuvenation and Wild Growth spells by 10%.",
       "20%"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "An ancient tradition of the Cenarion Circle.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Gift of the Earthmother was perfected over centuries.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "24/0/27 Moonglow Resto",
-      "30/0/21 Balance PvP"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Initially, Gift of the Earthmother was too weak, so we gave it massive feral scaling.",
+    "visualEffect": "Your character is temporarily wreathed in feral energy."
   },
   {
     "id": "overgrowth",
@@ -1537,19 +1537,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
       "Your Rejuvenation ticks have a 5% chance to spread a copy of the Rejuvenation effect to another injured party member within 15 yards.",
       "10"
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Inherits 50% of your weapon's base damage as feral power.",
+    "loreOrigins": "An instinctual manifestation of nature, allowing you to restore your foes effortlessly.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum nature output.",
+      "Acts as a foundational pillar for any feral oriented build."
     ],
     "recommendedBuilds": [
-      "14/32/5 Feral DPS/Tank",
-      "Hybrid PvP/PvE"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Enhances your chest rune to pulse with feral energy upon casting Overgrowth.",
+    "devCommentary": "Designed to smooth out the rotation of feral specs in long encounters.",
+    "visualEffect": "The ground shatters as feral power courses through you."
   },
   {
     "id": "wild_growth",
@@ -1565,19 +1565,19 @@ export const DRUID_RESTORATION_TALENTS: any = [
     "desc": [
       "Heals up to 5 friendly party members within 15 yards of the target for X over 7 sec. The amount healed is applied quickly at first, and slows down as the Wild Growth reaches its full duration. 8 second cooldown."
     ],
-    "statScaling": "Scales with Arcane and Nature Spell Power.",
-    "loreOrigins": "A feral instinct originating from the Emerald Dream.",
+    "statScaling": "Scales directly with your total nature power rating.",
+    "loreOrigins": "Originally devised in the Moonglade, the technique of Wild Growth was perfected over centuries.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other restore abilities.",
+      "Dramatically increases the power spike of your feral cooldowns."
     ],
     "recommendedBuilds": [
-      "30/0/21 Balance PvP",
-      "14/32/5 Feral DPS/Tank"
+      "Deep Restoration PvE",
+      "Hybrid feral PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Leaves flutter around the target."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "We wanted Wild Growth to define the Restoration playstyle at all levels.",
+    "visualEffect": "A massive burst of nature erupts from the target upon impact."
   }
 ];
 

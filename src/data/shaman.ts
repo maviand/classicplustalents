@@ -15,19 +15,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "4%.",
       "5%."
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Scales directly with your total elements power rating.",
+    "loreOrigins": "Originally devised in the Earthen Ring, the technique of Concussion was perfected over centuries.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other shock abilities.",
+      "Dramatically increases the power spike of your stormy cooldowns."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/5/46 Deep Restoration"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "call_of_flame",
@@ -41,19 +41,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "10%, 20%",
       "15%, 30%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Coefficient scales with both spell damage and elements mastery.",
+    "loreOrigins": "Passed down by Thrall, this mastery of Call of Flame represents the pinnacle of the class.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your stormy cooldowns.",
+      "Provides unmatched utility when combined with other shock abilities."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "Hybrid PvP/PvE"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Call of Flame.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in stormy energy."
   },
   {
     "id": "earth_s_grasp",
@@ -66,19 +66,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "Increases the health of your Stoneclaw Totem by 25% and the radius of your Earthbind Totem by 10%. In addition, your Earthbind Totem has a 50% chance to root targets in place for 2 seconds when cast.",
       "50% / 20% / 100%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Scales directly with your total elements power rating.",
+    "loreOrigins": "Originally devised in the Earthen Ring, the technique of Earth's Grasp was perfected over centuries.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your stormy cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "31/0/20 Elemental Mastery"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "reverberation",
@@ -92,19 +92,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "1.0 sec.",
       "1.5 sec."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Coefficient scales with both spell damage and elements mastery.",
+    "loreOrigins": "Passed down by Thrall, this mastery of Reverberation represents the pinnacle of the class.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your stormy cooldowns.",
+      "Provides unmatched utility when combined with other shock abilities."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "31/0/20 Elemental Mastery"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Reverberation.",
+    "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
   },
   {
     "id": "elemental_focus",
@@ -118,19 +118,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Elemental Focus.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/31/20 Enhancement PvP"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Elemental Focus critically hits.",
+    "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "elemental_warding",
@@ -143,19 +143,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "Reduces the damage you take from Fire, Frost, and Nature effects by 5%, and reduces the chance you will be critically hit by melee attacks by 2%.",
       "10% / 4%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Scales directly with your total elements power rating.",
+    "loreOrigins": "Originally devised in the Earthen Ring, the technique of Elemental Warding was perfected over centuries.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other shock abilities.",
+      "Dramatically increases the power spike of your stormy cooldowns."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "31/0/20 Elemental Mastery"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "storm_reach",
@@ -168,19 +168,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "Increases the range of your Lightning Bolt, Chain Lightning, and Shock spells by 3 yards.",
       "6 yards"
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Coefficient scales with both spell damage and elements mastery.",
+    "loreOrigins": "Passed down by Thrall, this mastery of Storm Reach represents the pinnacle of the class.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Creates a devastating synergy when you weave Storm Reach between auto-attacks."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "31/0/20 Elemental Mastery"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Storm Reach.",
+    "devCommentary": "Initially, Storm Reach was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "Your character is temporarily wreathed in stormy energy."
   },
   {
     "id": "elemental_devastation",
@@ -194,19 +194,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Gains a 15% bonus scaling from your primary stormy stats.",
+    "loreOrigins": "A forbidden stormy art that utilizes elements to overwhelm enemies.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum elements output.",
+      "Dramatically increases the power spike of your stormy cooldowns."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/5/46 Deep Restoration"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Elemental Devastation.",
+    "devCommentary": "Initially, Elemental Devastation was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "Your character is temporarily wreathed in stormy energy."
   },
   {
     "id": "call_of_thunder",
@@ -222,19 +222,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "4%.",
       "5%."
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Call of Thunder.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "Hybrid PvP/PvE"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Call of Thunder critically hits.",
+    "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
   },
   {
     "id": "elemental_fury",
@@ -246,19 +246,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     "desc": [
       "Increases the critical strike damage bonus of your Searing, Magma, and Fire Nova Totems and your Fire, Frost, and Nature spells by 100%."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Elemental Fury.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "31/0/20 Elemental Mastery"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Elemental Fury critically hits.",
+    "devCommentary": "Initially, Elemental Fury was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "eye_of_the_storm",
@@ -272,19 +272,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A spiritual communion of the Earthen Ring.",
+    "statScaling": "Inherits 50% of your weapon's base damage as stormy power.",
+    "loreOrigins": "An instinctual manifestation of elements, allowing you to shock your foes effortlessly.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other shock abilities.",
+      "Provides unmatched utility when combined with other shock abilities."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/5/46 Deep Restoration"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Eye of the Storm critically hits.",
+    "devCommentary": "Initially, Eye of the Storm was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "Your character is temporarily wreathed in stormy energy."
   },
   {
     "id": "lava_flows",
@@ -298,19 +298,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "16% / 20%",
       "24% / 30%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Scales directly with your total elements power rating.",
+    "loreOrigins": "Originally devised in the Earthen Ring, the technique of Lava Flows was perfected over centuries.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your stormy cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "Hybrid PvP/PvE"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "sef",
@@ -323,19 +323,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "Reduces the cooldown of your Chain Lightning by 1 sec, and increases the periodic damage of your Flame Shock by 10%.",
       "2 sec / 20%"
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Gains a 15% bonus scaling from your primary stormy stats.",
+    "loreOrigins": "A forbidden stormy art that utilizes elements to overwhelm enemies.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum elements output.",
+      "Dramatically increases the power spike of your stormy cooldowns."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "0/31/20 Enhancement PvP"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Storm, Earth, and Fire.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "lightning_mastery",
@@ -355,19 +355,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "0.4 sec.",
       "0.5 sec."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Scales directly with your total elements power rating.",
+    "loreOrigins": "Originally devised in the Earthen Ring, the technique of Lightning Mastery was perfected over centuries.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your stormy cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "Hybrid PvP/PvE"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "thunderstorm",
@@ -379,19 +379,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     "desc": [
       "You call down a bolt of lightning, energizing you and damaging nearby enemies within 10 yards. Restores 8% mana to you and deals 563 to 643 Nature damage to all nearby enemies, knocking them back 20 yards. Usable while stunned. 45 sec cooldown."
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A spiritual communion of the Earthen Ring.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Thunderstorm.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Thunderstorm between auto-attacks.",
+      "Acts as a foundational pillar for any stormy oriented build."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "Hybrid PvP/PvE"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Initially, Thunderstorm was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "totemic_surge",
@@ -404,19 +404,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "Your offensive spell critical strikes cause your active Fire, Water, Earth, and Air totems to pulse, restoring 1% of maximum mana to all party members within 30 yards.",
       "2%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Inherits 50% of your weapon's base damage as stormy power.",
+    "loreOrigins": "An instinctual manifestation of elements, allowing you to shock your foes effortlessly.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum elements output.",
+      "Acts as a foundational pillar for any stormy oriented build."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/31/20 Enhancement PvP"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Totemic Surge.",
+    "devCommentary": "We wanted Totemic Surge to define the Elemental playstyle at all levels.",
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
   },
   {
     "id": "lightning_overload",
@@ -434,19 +434,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Inherits 50% of your weapon's base damage as stormy power.",
+    "loreOrigins": "An instinctual manifestation of elements, allowing you to shock your foes effortlessly.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other shock abilities.",
+      "Provides unmatched utility when combined with other shock abilities."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/31/20 Enhancement PvP"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Lightning Overload critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "elemental_precision",
@@ -460,19 +460,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
       "2% / 20%",
       "3% / 30%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Inherits 50% of your weapon's base damage as stormy power.",
+    "loreOrigins": "An instinctual manifestation of elements, allowing you to shock your foes effortlessly.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other shock abilities.",
+      "Provides unmatched utility when combined with other shock abilities."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "Hybrid PvP/PvE"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Elemental Precision critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in stormy energy."
   },
   {
     "id": "totem_of_wrath",
@@ -488,19 +488,19 @@ export const SHAMAN_ELEMENTAL_TALENTS: any = [
     "desc": [
       "Summons a Totem of Wrath with 5 health at the feet of the caster. The totem increases the chance to hit and critical strike with spells for all party members within 30 yards by 3%. Lasts 2 min."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Inherits 50% of your weapon's base damage as stormy power.",
+    "loreOrigins": "An instinctual manifestation of elements, allowing you to shock your foes effortlessly.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum elements output.",
+      "Acts as a foundational pillar for any stormy oriented build."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "Hybrid PvP/PvE"
+      "Deep Elemental PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Totem of Wrath.",
+    "devCommentary": "Initially, Totem of Wrath was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   }
 ];
 
@@ -519,19 +519,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "4%.",
       "5%."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Gains a 15% bonus scaling from your primary stormy stats.",
+    "loreOrigins": "A forbidden stormy art that utilizes elements to overwhelm enemies.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum elements output.",
+      "Dramatically increases the power spike of your stormy cooldowns."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "0/5/46 Deep Restoration"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Ancestral Knowledge.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "A massive burst of elements erupts from the target upon impact."
   },
   {
     "id": "thundering_strikes",
@@ -545,19 +545,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "4%.",
       "6%."
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A spiritual communion of the Earthen Ring.",
+    "statScaling": "Inherits 50% of your weapon's base damage as stormy power.",
+    "loreOrigins": "An instinctual manifestation of elements, allowing you to shock your foes effortlessly.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum elements output.",
+      "Acts as a foundational pillar for any stormy oriented build."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "Hybrid PvP/PvE"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Thundering Strikes.",
+    "devCommentary": "Initially, Thundering Strikes was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "Your character is temporarily wreathed in stormy energy."
   },
   {
     "id": "imp_ghost_wolf",
@@ -570,19 +570,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "Reduces the cast time of your Ghost Wolf spell by 1 sec.",
       "2 sec."
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Coefficient scales with both spell damage and elements mastery.",
+    "loreOrigins": "Passed down by Thrall, this mastery of Improved Ghost Wolf represents the pinnacle of the class.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Creates a devastating synergy when you weave Improved Ghost Wolf between auto-attacks."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "31/0/20 Elemental Mastery"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Improved Ghost Wolf.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "mental_quickness",
@@ -596,19 +596,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "4% / 20%",
       "6% / 30%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Coefficient scales with both spell damage and elements mastery.",
+    "loreOrigins": "Passed down by Thrall, this mastery of Mental Quickness represents the pinnacle of the class.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Creates a devastating synergy when you weave Mental Quickness between auto-attacks."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "Hybrid PvP/PvE"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Mental Quickness.",
+    "devCommentary": "Initially, Mental Quickness was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "Your character is temporarily wreathed in stormy energy."
   },
   {
     "id": "elemental_weapons",
@@ -622,19 +622,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "14% / 27% / 10%.",
       "20% / 40% / 15%."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Elemental Weapons.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "0/5/46 Deep Restoration"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Elemental Weapons critically hits.",
+    "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "enhancing_totems",
@@ -647,19 +647,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "Increases the effect of your Strength of Earth and Grace of Air Totems by 8%.",
       "15%."
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Scales directly with your total elements power rating.",
+    "loreOrigins": "Originally devised in the Earthen Ring, the technique of Enhancing Totems was perfected over centuries.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other shock abilities.",
+      "Dramatically increases the power spike of your stormy cooldowns."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/5/46 Deep Restoration"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Initially, Enhancing Totems was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "Your character is temporarily wreathed in stormy energy."
   },
   {
     "id": "imp_lightning_shield",
@@ -672,19 +672,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "Increases the damage done by your Lightning Shield orbs by 15%.",
       "30%."
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Improved Lightning Shield.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Improved Lightning Shield between auto-attacks.",
+      "Acts as a foundational pillar for any stormy oriented build."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "Hybrid PvP/PvE"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
   },
   {
     "id": "ancestral_mastery",
@@ -696,19 +696,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     "desc": [
       "You learn how to Dual Wield. Dual Wielding increases your chance to hit with melee attacks by 5%. Two-Handed Weapons ignore 10% of the target's armor and swing 5% faster."
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Inherits 50% of your weapon's base damage as stormy power.",
+    "loreOrigins": "An instinctual manifestation of elements, allowing you to shock your foes effortlessly.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other shock abilities.",
+      "Provides unmatched utility when combined with other shock abilities."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/5/46 Deep Restoration"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Ancestral Mastery critically hits.",
+    "devCommentary": "Initially, Ancestral Mastery was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "flurry",
@@ -728,19 +728,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "25%.",
       "30%."
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Gains a 15% bonus scaling from your primary stormy stats.",
+    "loreOrigins": "A forbidden stormy art that utilizes elements to overwhelm enemies.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum elements output.",
+      "Dramatically increases the power spike of your stormy cooldowns."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "31/0/20 Elemental Mastery"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Flurry.",
+    "devCommentary": "Initially, Flurry was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "Your character is temporarily wreathed in stormy energy."
   },
   {
     "id": "unleashed_rage",
@@ -754,19 +754,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "7%",
       "10%"
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A spiritual communion of the Earthen Ring.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Unleashed Rage.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Unleashed Rage between auto-attacks.",
+      "Acts as a foundational pillar for any stormy oriented build."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/5/46 Deep Restoration"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
   },
   {
     "id": "frozen_power",
@@ -779,19 +779,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "Increases all damage dealt to targets afflicted by your Frostbrand Weapon by 5%, and your Frost Shock roots targets for 5 seconds.",
       "10%"
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A spiritual communion of the Earthen Ring.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Frozen Power.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "Hybrid PvP/PvE"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Frozen Power critically hits.",
+    "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
   },
   {
     "id": "weapon_mastery",
@@ -811,19 +811,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "8%.",
       "10%."
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Coefficient scales with both spell damage and elements mastery.",
+    "loreOrigins": "Passed down by Thrall, this mastery of Weapon Mastery represents the pinnacle of the class.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Creates a devastating synergy when you weave Weapon Mastery between auto-attacks."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "Hybrid PvP/PvE"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Weapon Mastery.",
+    "devCommentary": "Initially, Weapon Mastery was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "imp_weapon_totems",
@@ -836,19 +836,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "Increases the melee attack power bonus of your Windfury Totem by 15% and increases the damage caused by your Flametongue Totem by 6%.",
       "30% / 12%."
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Scales directly with your total elements power rating.",
+    "loreOrigins": "Originally devised in the Earthen Ring, the technique of Improved Weapon Totems was perfected over centuries.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your stormy cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "Hybrid PvP/PvE"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
+    "devCommentary": "We wanted Improved Weapon Totems to define the Enhancement playstyle at all levels.",
+    "visualEffect": "A massive burst of elements erupts from the target upon impact."
   },
   {
     "id": "earthen_power",
@@ -861,19 +861,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "Your Earth Shock has a 50% chance to cleanse snare effects from you and your allies.",
       "100%"
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Inherits 50% of your weapon's base damage as stormy power.",
+    "loreOrigins": "An instinctual manifestation of elements, allowing you to shock your foes effortlessly.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum elements output.",
+      "Acts as a foundational pillar for any stormy oriented build."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "Hybrid PvP/PvE"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Earthen Power.",
+    "devCommentary": "We wanted Earthen Power to define the Enhancement playstyle at all levels.",
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
   },
   {
     "id": "stormstrike",
@@ -889,19 +889,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     "desc": [
       "Instantly attack with your weapons. In addition, the next 2 sources of Nature damage dealt to the target are increased by 20%. 8 second cooldown."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Stormstrike.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Stormstrike between auto-attacks.",
+      "Acts as a foundational pillar for any stormy oriented build."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "31/0/20 Elemental Mastery"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Your character is temporarily wreathed in stormy energy."
   },
   {
     "id": "static_shock",
@@ -915,19 +915,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Gains a 15% bonus scaling from your primary stormy stats.",
+    "loreOrigins": "A forbidden stormy art that utilizes elements to overwhelm enemies.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Static Shock between auto-attacks.",
+      "Creates a devastating synergy when you weave Static Shock between auto-attacks."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "31/0/20 Elemental Mastery"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
+    "devCommentary": "We wanted Static Shock to define the Enhancement playstyle at all levels.",
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
   },
   {
     "id": "shamanistic_focus",
@@ -940,19 +940,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "Your melee critical strikes have a 50% chance to regenerate 2% of your maximum mana.",
       "100%"
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Shamanistic Focus.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/31/20 Enhancement PvP"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Shamanistic Focus critically hits.",
+    "devCommentary": "Initially, Shamanistic Focus was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "primal_wisdom",
@@ -966,19 +966,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "4% / 10%",
       "6% / 15%"
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Inherits 50% of your weapon's base damage as stormy power.",
+    "loreOrigins": "An instinctual manifestation of elements, allowing you to shock your foes effortlessly.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum elements output.",
+      "Acts as a foundational pillar for any stormy oriented build."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "31/0/20 Elemental Mastery"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Primal Wisdom.",
+    "devCommentary": "We wanted Primal Wisdom to define the Enhancement playstyle at all levels.",
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
   },
   {
     "id": "imp_stormstrike",
@@ -995,19 +995,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "Reduces the cooldown of your Stormstrike by 1 seconds, and your Stormstrike hits refund 10% of their base mana cost.",
       "2 seconds / 20%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Gains a 15% bonus scaling from your primary stormy stats.",
+    "loreOrigins": "A forbidden stormy art that utilizes elements to overwhelm enemies.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Improved Stormstrike between auto-attacks.",
+      "Creates a devastating synergy when you weave Improved Stormstrike between auto-attacks."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/31/20 Enhancement PvP"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "ancestral_power",
@@ -1020,19 +1020,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
       "Increases the damage dealt by your off-hand weapon by 10%, or increases the critical strike damage bonus of your Two-Handed weapons by 10%.",
       "20%"
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Gains a 15% bonus scaling from your primary stormy stats.",
+    "loreOrigins": "A forbidden stormy art that utilizes elements to overwhelm enemies.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Ancestral Power between auto-attacks.",
+      "Creates a devastating synergy when you weave Ancestral Power between auto-attacks."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "0/5/46 Deep Restoration"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
+    "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "feral_spirit",
@@ -1048,19 +1048,19 @@ export const SHAMAN_ENHANCEMENT_TALENTS: any = [
     "desc": [
       "Summons two Spirit Wolves under the command of the Shaman for 45 seconds. The wolves deal physical damage, move 30% faster than normal, and heal the Shaman and their party for 100% of the damage they deal. 3 minute cooldown."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Gains a 15% bonus scaling from your primary stormy stats.",
+    "loreOrigins": "A forbidden stormy art that utilizes elements to overwhelm enemies.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Feral Spirit between auto-attacks.",
+      "Creates a devastating synergy when you weave Feral Spirit between auto-attacks."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "Hybrid PvP/PvE"
+      "Deep Enhancement PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   }
 ];
 
@@ -1076,19 +1076,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "Reduces the cooldown of your Reincarnation spell by 10 min and increases the amount of health and mana recovered when reincarnating by 10%.",
       "20 min / 20%."
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A spiritual communion of the Earthen Ring.",
+    "statScaling": "Gains a 15% bonus scaling from your primary stormy stats.",
+    "loreOrigins": "A forbidden stormy art that utilizes elements to overwhelm enemies.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum elements output.",
+      "Dramatically increases the power spike of your stormy cooldowns."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "31/0/20 Elemental Mastery"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Reincarnation.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "A massive burst of elements erupts from the target upon impact."
   },
   {
     "id": "tidal_focus",
@@ -1104,19 +1104,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "4%.",
       "5%."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A spiritual communion of the Earthen Ring.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Tidal Focus.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Tidal Focus between auto-attacks.",
+      "Acts as a foundational pillar for any stormy oriented build."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/5/46 Deep Restoration"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "imp_healing_wave",
@@ -1130,19 +1130,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "0.3 sec.",
       "0.5 sec."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Coefficient scales with both spell damage and elements mastery.",
+    "loreOrigins": "Passed down by Thrall, this mastery of Improved Healing Wave represents the pinnacle of the class.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your stormy cooldowns.",
+      "Provides unmatched utility when combined with other shock abilities."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "31/0/20 Elemental Mastery"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Causes your helm rune to trigger an additional time.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Healing Wave.",
+    "devCommentary": "We wanted Improved Healing Wave to define the Restoration playstyle at all levels.",
+    "visualEffect": "A massive burst of elements erupts from the target upon impact."
   },
   {
     "id": "natures_guidance",
@@ -1156,19 +1156,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "2%.",
       "3%."
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A spiritual communion of the Earthen Ring.",
+    "statScaling": "Gains a 15% bonus scaling from your primary stormy stats.",
+    "loreOrigins": "A forbidden stormy art that utilizes elements to overwhelm enemies.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Creates a devastating synergy when you weave Nature's Guidance between auto-attacks.",
+      "Creates a devastating synergy when you weave Nature's Guidance between auto-attacks."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "Hybrid PvP/PvE"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
+    "devCommentary": "Initially, Nature's Guidance was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "ancestral_healing",
@@ -1182,19 +1182,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "16%.",
       "25%."
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Coefficient scales with both spell damage and elements mastery.",
+    "loreOrigins": "Passed down by Thrall, this mastery of Ancestral Healing represents the pinnacle of the class.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Creates a devastating synergy when you weave Ancestral Healing between auto-attacks."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/5/46 Deep Restoration"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Ancestral Healing.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "A massive burst of elements erupts from the target upon impact."
   },
   {
     "id": "totemic_recall",
@@ -1207,19 +1207,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "Returns your totems to the earth, refunding 25% of the mana cost of the destroyed totems.",
       "50%"
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Inherits 50% of your weapon's base damage as stormy power.",
+    "loreOrigins": "An instinctual manifestation of elements, allowing you to shock your foes effortlessly.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other shock abilities.",
+      "Provides unmatched utility when combined with other shock abilities."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "Hybrid PvP/PvE"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Totemic Recall critically hits.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "healing_grace",
@@ -1232,19 +1232,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "Reduces the threat generated by your healing spells by 15% and reduces the chance your helpful spells and damage over time effects will be dispelled by 15%.",
       "30% / 30%"
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Scales directly with your total elements power rating.",
+    "loreOrigins": "Originally devised in the Earthen Ring, the technique of Healing Grace was perfected over centuries.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other shock abilities.",
+      "Dramatically increases the power spike of your stormy cooldowns."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "Hybrid PvP/PvE"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
+    "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "natures_swiftness",
@@ -1256,19 +1256,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     "desc": [
       "When activated, your next Nature spell with a casting time less than 10 sec. becomes an instant cast spell."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Coefficient scales with both spell damage and elements mastery.",
+    "loreOrigins": "Passed down by Thrall, this mastery of Nature's Swiftness represents the pinnacle of the class.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your stormy cooldowns.",
+      "Provides unmatched utility when combined with other shock abilities."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "31/0/20 Elemental Mastery"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Nature's Swiftness.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "tidal_mastery",
@@ -1288,19 +1288,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "4%.",
       "5%."
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Inherits 50% of your weapon's base damage as stormy power.",
+    "loreOrigins": "An instinctual manifestation of elements, allowing you to shock your foes effortlessly.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum elements output.",
+      "Acts as a foundational pillar for any stormy oriented build."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/31/20 Enhancement PvP"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Tidal Mastery.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "A massive burst of elements erupts from the target upon impact."
   },
   {
     "id": "restorative_totems",
@@ -1314,19 +1314,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "10%.",
       "15%."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Gains a 15% bonus scaling from your primary stormy stats.",
+    "loreOrigins": "A forbidden stormy art that utilizes elements to overwhelm enemies.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum elements output.",
+      "Dramatically increases the power spike of your stormy cooldowns."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "Hybrid PvP/PvE"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Restorative Totems.",
+    "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
   },
   {
     "id": "cleanse_spirit",
@@ -1342,19 +1342,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     "desc": [
       "Cleanse toxins from your ally, removing poisons and diseases."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Scales directly with your total elements power rating.",
+    "loreOrigins": "Originally devised in the Earthen Ring, the technique of Cleanse Spirit was perfected over centuries.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your stormy cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "Hybrid PvP/PvE"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
+    "devCommentary": "We wanted Cleanse Spirit to define the Restoration playstyle at all levels.",
+    "visualEffect": "A massive burst of elements erupts from the target upon impact."
   },
   {
     "id": "purification",
@@ -1368,19 +1368,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "4%.",
       "6%."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A spiritual communion of the Earthen Ring.",
+    "statScaling": "Gains a 15% bonus scaling from your primary stormy stats.",
+    "loreOrigins": "A forbidden stormy art that utilizes elements to overwhelm enemies.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Pairs flawlessly with high critical strike rating for maximum elements output.",
+      "Dramatically increases the power spike of your stormy cooldowns."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "0/31/20 Enhancement PvP"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Modifies your bracer rune to synergize directly with Purification.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "healing_way",
@@ -1394,19 +1394,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "66%.",
       "100%."
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Coefficient scales with both spell damage and elements mastery.",
+    "loreOrigins": "Passed down by Thrall, this mastery of Healing Way represents the pinnacle of the class.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Creates a devastating synergy when you weave Healing Way between auto-attacks."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/31/20 Enhancement PvP"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Healing Way.",
+    "devCommentary": "We wanted Healing Way to define the Restoration playstyle at all levels.",
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
   },
   {
     "id": "tidal_waves",
@@ -1419,19 +1419,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "When you cast Healing Wave or Lesser Healing Wave, you have a 50% chance to reduce the cast time of your next Lesser Healing Wave by 30%.",
       "100%"
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Scales directly with your total elements power rating.",
+    "loreOrigins": "Originally devised in the Earthen Ring, the technique of Tidal Waves was perfected over centuries.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your stormy cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "31/0/20 Elemental Mastery"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
+    "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "tidal_reach",
@@ -1444,19 +1444,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "Increases the range of your Healing Wave, Lesser Healing Wave, and Chain Heal spells by 10%.",
       "20%"
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Tidal Reach.",
     "synergies": [
-      "Provides a massive power spike when paired with critical strike rating.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "31/0/20 Elemental Mastery"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Tidal Reach critically hits.",
+    "devCommentary": "Initially, Tidal Reach was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "mana_tide_totem",
@@ -1472,19 +1472,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     "desc": [
       "Summons a Mana Tide Totem with 5 Health at the feet of the caster for 12 sec that restores 170 mana every 3 seconds to group members within 20 yards."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A restorative chant from the Farseers.",
+    "statScaling": "Coefficient scales with both spell damage and elements mastery.",
+    "loreOrigins": "Passed down by Thrall, this mastery of Mana Tide Totem represents the pinnacle of the class.",
     "synergies": [
-      "Combines exceptionally well with your primary cooldowns.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Creates a devastating synergy when you weave Mana Tide Totem between auto-attacks."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "Hybrid PvP/PvE"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "A high-risk, high-reward option for seasoned players.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Enhances your chest rune to pulse with stormy energy upon casting Mana Tide Totem.",
+    "devCommentary": "Designed to smooth out the rotation of stormy specs in long encounters.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "imp_chain_heal",
@@ -1497,19 +1497,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "Increases the amount healed by your Chain Heal spell by 10%.",
       "20%"
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Scales directly with your total elements power rating.",
+    "loreOrigins": "Originally devised in the Earthen Ring, the technique of Improved Chain Heal was perfected over centuries.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your stormy cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "Hybrid PvP/PvE"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Modifies your glove rune to also heal for a minor amount.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "The earth sunders beneath the target."
+    "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
+    "devCommentary": "Initially, Improved Chain Heal was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "natures_blessing",
@@ -1523,19 +1523,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales with Agility and Melee Attack Power.",
-    "loreOrigins": "A spiritual communion of the Earthen Ring.",
+    "statScaling": "Scales directly with your total elements power rating.",
+    "loreOrigins": "Originally devised in the Earthen Ring, the technique of Nature's Blessing was perfected over centuries.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Dramatically increases the power spike of your stormy cooldowns.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "Hybrid PvP/PvE"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Causes your helm rune to trigger a secondary elements effect.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   },
   {
     "id": "earth_shield",
@@ -1547,19 +1547,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     "desc": [
       "Protects the target with an earthen shield, reducing casting time lost from taking damage by 30% and causing attacks to heal the shielded target. 6 charges."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Earth Shield.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "0/31/20 Enhancement PvP"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds.",
-    "devCommentary": "We wanted this talent to feel impactful even at early levels.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Earth Shield critically hits.",
+    "devCommentary": "This serves as the ultimate high-risk, high-reward elements ability.",
+    "visualEffect": "A massive burst of elements erupts from the target upon impact."
   },
   {
     "id": "ancestral_awakening",
@@ -1573,19 +1573,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales with Nature Spell Power.",
-    "loreOrigins": "A destructive shock originating from the elements of Draenor.",
+    "statScaling": "Inherits 50% of your weapon's base damage as stormy power.",
+    "loreOrigins": "An instinctual manifestation of elements, allowing you to shock your foes effortlessly.",
     "synergies": [
-      "Perfect for area-of-effect focused builds.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other shock abilities.",
+      "Provides unmatched utility when combined with other shock abilities."
     ],
     "recommendedBuilds": [
-      "31/0/20 Elemental Mastery",
-      "Hybrid PvP/PvE"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "Players often ignored this, so we added massive scaling to make it viable.",
-    "visualEffect": "Lightning crackles between your hands."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Ancestral Awakening critically hits.",
+    "devCommentary": "Initially, Ancestral Awakening was too weak, so we gave it massive stormy scaling.",
+    "visualEffect": "The ground shatters as stormy power courses through you."
   },
   {
     "id": "imp_mana_tide",
@@ -1602,19 +1602,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
       "Reduces the cooldown of your Mana Tide Totem by 1 minute.",
       "2 minutes"
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Provides flat scaling independent of your elements rating.",
+    "loreOrigins": "A lost secret of the Earthen Ring that weaponizes the pure essence of Improved Mana Tide.",
     "synergies": [
-      "Creates a feedback loop when paired with rapid attacks.",
-      "Crucial for optimizing damage or healing output."
+      "Acts as a foundational pillar for any stormy oriented build.",
+      "Pairs flawlessly with high critical strike rating for maximum elements output."
     ],
     "recommendedBuilds": [
-      "0/31/20 Enhancement PvP",
-      "31/0/20 Elemental Mastery"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Increases the proc chance of your chest rune by 5%.",
-    "devCommentary": "This is designed to be the cornerstone of this tree's identity.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Mana Tide critically hits.",
+    "devCommentary": "We wanted Improved Mana Tide to define the Restoration playstyle at all levels.",
+    "visualEffect": "A spectral projection of Thrall briefly mirrors your attack."
   },
   {
     "id": "riptide",
@@ -1630,19 +1630,19 @@ export const SHAMAN_RESTORATION_TALENTS: any = [
     "desc": [
       "Heals a friendly target for X instantly and another Y over 15 sec. Your next Chain Heal cast on that primary target has a 25% increased effect and consumes the healing over time effect. 6 second cooldown."
     ],
-    "statScaling": "Scales heavily with Healing Power and Intellect.",
-    "loreOrigins": "A storm-calling technique of the Frostwolf clan.",
+    "statScaling": "Inherits 50% of your weapon's base damage as stormy power.",
+    "loreOrigins": "An instinctual manifestation of elements, allowing you to shock your foes effortlessly.",
     "synergies": [
-      "Highly effective when used alongside your class tier sets.",
-      "Crucial for optimizing damage or healing output."
+      "Provides unmatched utility when combined with other shock abilities.",
+      "Provides unmatched utility when combined with other shock abilities."
     ],
     "recommendedBuilds": [
-      "0/5/46 Deep Restoration",
-      "0/31/20 Enhancement PvP"
+      "Deep Restoration PvE",
+      "Hybrid stormy PvP"
     ],
-    "runeInteractions": "Your bracer rune now gains 10% more effectiveness.",
-    "devCommentary": "Intended to smooth out the class's rotation in long fights.",
-    "visualEffect": "A wave of healing water washes over allies."
+    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Riptide critically hits.",
+    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
+    "visualEffect": "Leaves a lingering trail of elements in your wake."
   }
 ];
 
