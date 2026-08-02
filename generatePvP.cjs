@@ -153,24 +153,6 @@ bgLocs.forEach((loc, index) => {
   });
 });
 
-// Generate an extra 10 PvP encounters for World PvP
-function generateProceduralPvP(count, size, type) {
-  const items = [];
-  for (let i = 0; i < count; i++) {
-    items.push({
-      id: "ProcWorld_" + i,
-      name: "Dynamic Encounter " + i,
-      size,
-      type,
-      description: "A spontaneous event occurring in the open world.",
-      mechanics: ["Combat", "Objective"],
-      lore: "Local conflict."
-    });
-  }
-  return items;
-}
-templates["World PvP & Banner Wars"].push(...generateProceduralPvP(10, "World PvP", "Free-For-All"));
-
 // MASSIVE DATA INJECTION (7x MORE FIELDS)
 Object.values(templates).forEach(pvpList => {
   pvpList.forEach((pvp, idx) => {
