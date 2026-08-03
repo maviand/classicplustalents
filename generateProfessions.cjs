@@ -301,6 +301,9 @@ const PROFESSIONS = [
 ];
 
 function generateStats(type, slot, name) {
+  if (type === "Trade Good" || type === "Gem" || type === "Glyph") return [];
+  if (type === "Container") return ["16 Slot Bag"];
+  
   if (type === "Consumable") {
     if (name.includes("Bandage")) return ["Use: Heals 2000 damage over 8 sec."];
     if (name.includes("Enchant")) return ["Use: Permanently enchants an item."];
@@ -312,8 +315,13 @@ function generateStats(type, slot, name) {
     }
     return ["Use: Restores 1000 health and 1500 mana."];
   }
-  if (type === "Trade Good" || type === "Gem" || type === "Glyph") return [];
-  if (type === "Container") return ["16 Slot Bag"];
+
+  if (type === "Miscellaneous") {
+    if (name.includes("Repair Bot")) return ["Use: Unfolds into a Field Repair Bot that can repair items and buy/sell goods. (10 Min Cooldown)"];
+    if (name.includes("Tome")) return ["Use: Teaches you a new ability."];
+    if (name.includes("Rocket")) return ["Use: Launches a rocket at the target, dealing 500 Fire damage. (5 Min Cooldown)"];
+    return ["Use: Performs a unique effect."];
+  }
   
   if (slot === "Trinket") {
     return [
