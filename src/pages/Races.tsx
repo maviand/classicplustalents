@@ -8,19 +8,89 @@ export default function Races() {
   const [activeRace, setActiveRace] = useState<RaceData>(racesData[0]);
   const [hoveredData, setHoveredData] = useState<{talent: Talent, rect: DOMRect} | null>(null);
   
-  // Dummy state for TalentTree component so it renders the points correctly
-  const [points, setPoints] = useState<Record<string, number>>({});
+  // Keep separate point states for each race so they don't overwrite each other
+  const [racePoints, setRacePoints] = useState<Record<string, Record<string, number>>>({});
+  
+  const points = racePoints[activeRace.id] || {};
+
+  const totalPoints = activeRace.talents.reduce((sum, val) => sum + (points[val.id] || 0), 0);
+
+  const getRowRequirement = (row: number) => {
+    if (row === 0) return 0;
+    if (row === 1) return 3;
+    if (row === 2) return 5;
+    if (row === 3) return 9;
+    return 0;
+  };
+
+  const isValidState = (testPoints: Record<string, number>) => {
+    // Check prerequisites
+    for (const tal of activeRace.talents) {
+      if ((testPoints[tal.id] || 0) > 0 && tal.requires) {
+        if ((testPoints[tal.requires.id] || 0) < tal.requires.points) {
+          return false;
+        }
+      }
+    }
+
+    // Check row requirements
+    for (let t = 1; t <= 3; t++) {
+      const pointsInThisOrHigher = activeRace.talents.filter(tal => tal.row >= t).reduce((sum, tal) => sum + (testPoints[tal.id] || 0), 0);
+      if (pointsInThisOrHigher > 0) {
+        const pointsBelow = activeRace.talents.filter(tal => tal.row < t).reduce((sum, tal) => sum + (testPoints[tal.id] || 0), 0);
+        if (pointsBelow < getRowRequirement(t)) return false;
+      }
+    }
+    
+    return true;
+  };
+
+  const canAddPoint = (talent: Talent, treeTalents: Talent[]) => {
+    const currentPts = points[talent.id] || 0;
+    if (currentPts >= talent.maxPoints) return false;
+    if (totalPoints >= 10) return false;
+
+    if (talent.requires) {
+      if ((points[talent.requires.id] || 0) < talent.requires.points) return false;
+    }
+
+    const pointsInTree = treeTalents.reduce((sum, t) => sum + (points[t.id] || 0), 0);
+    if (getRowRequirement(talent.row) > pointsInTree) return false;
+
+    return true;
+  };
+
+  const canRemovePoint = (talent: Talent) => {
+    const currentPts = points[talent.id] || 0;
+    if (currentPts <= 0) return false;
+
+    const testPoints = { ...points, [talent.id]: currentPts - 1 };
+    return isValidState(testPoints);
+  };
 
   const handleLeftClick = (talent: Talent) => {
-    // Read-only viewing mode for now
+    if (canAddPoint(talent, activeRace.talents)) {
+      setRacePoints(prev => ({
+        ...prev,
+        [activeRace.id]: {
+          ...(prev[activeRace.id] || {}),
+          [talent.id]: ((prev[activeRace.id] || {})[talent.id] || 0) + 1
+        }
+      }));
+    }
   };
   
   const handleRightClick = (e: React.MouseEvent, talent: Talent) => {
     e.preventDefault();
-  };
-
-  const canAddPoint = (talent: Talent, treeTalents: Talent[]) => {
-    return false;
+    if (canRemovePoint(talent)) {
+      setRacePoints(prev => ({
+        ...prev,
+        [activeRace.id]: {
+          ...(prev[activeRace.id] || {}),
+          [talent.id]: ((prev[activeRace.id] || {})[talent.id] || 0) - 1
+        }
+      }));
+    }
   };
 
   const allianceRaces = racesData.filter(r => r.faction === 'Alliance');
