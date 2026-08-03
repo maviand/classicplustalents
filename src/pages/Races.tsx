@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { racesData, RaceData } from '../data/racesData';
 import { TalentTree } from '../components/TalentTree';
-import { WowTooltip } from '../components/WowTooltip';
+import { Tooltip } from '../components/Tooltip';
 import { Talent } from '../types/talents';
 
 export default function Races() {
@@ -109,7 +109,7 @@ export default function Races() {
       </div>
 
       {hoveredData && (
-        <WowTooltip talent={hoveredData.talent} rect={hoveredData.rect} currentPoints={points[hoveredData.talent.id] || 0} />
+        <Tooltip talent={hoveredData.talent} rect={hoveredData.rect} points={points} activeTalents={activeRace.talents} />
       )}
 
       <div className="flex flex-col lg:flex-row gap-8">
