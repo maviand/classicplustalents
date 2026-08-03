@@ -13,19 +13,7 @@ export const HUNTER_BM_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Provides flat scaling independent of your wilds rating.",
-    "loreOrigins": "A lost secret of the Stranglethorn jungles that weaponizes the pure essence of Improved Aspect of the Hawk.",
-    "synergies": [
-      "Acts as a foundational pillar for any primal oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum wilds output."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Aspect of the Hawk critically hits.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Improved Aspect of the Hawk attack."
+    "visualEffect": "A glowing mark appears above the target's head. This is accompanied by a primal manifestation of Improved Aspect of the Hawk."
   },
   {
     "id": "endurance_training",
@@ -41,19 +29,7 @@ export const HUNTER_BM_TALENTS: any = [
       "8%",
       "10%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as primal power.",
-    "loreOrigins": "An instinctual manifestation of wilds, allowing you to hunt your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Endurance Training critically hits.",
-    "devCommentary": "We wanted Endurance Training to define the Bm playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Endurance Training attack."
+    "visualEffect": "Your pet's eyes glow with an unnatural frenzy. This is accompanied by a phantom manifestation of Endurance Training."
   },
   {
     "id": "thick_hide",
@@ -66,19 +42,7 @@ export const HUNTER_BM_TALENTS: any = [
       "Increases the armor rating of your pets by 10% and your armor contribution from items by 5%.",
       "20% / 10%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as primal power.",
-    "loreOrigins": "An instinctual manifestation of wilds, allowing you to hunt your foes effortlessly.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum wilds output.",
-      "Acts as a foundational pillar for any primal oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Thick Hide.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Thick Hide."
+    "visualEffect": "Wind physically swirls around your bowstring. This is accompanied by a devastating manifestation of Thick Hide."
   },
   {
     "id": "focused_fire",
@@ -92,19 +56,7 @@ export const HUNTER_BM_TALENTS: any = [
       "2% / 10%",
       "3% / 15%"
     ],
-    "statScaling": "Provides flat scaling independent of your wilds rating.",
-    "loreOrigins": "A lost secret of the Stranglethorn jungles that weaponizes the pure essence of Focused Fire.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Focused Fire between auto-attacks.",
-      "Acts as a foundational pillar for any primal oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Focused Fire attack."
+    "visualEffect": "Your arrow leaves a trail of stinging green venom. This is accompanied by a brutal manifestation of Focused Fire."
   },
   {
     "id": "imp_revive_pet",
@@ -117,19 +69,7 @@ export const HUNTER_BM_TALENTS: any = [
       "Reduces the casting time of your Revive Pet spell by 3 seconds, reduces the Focus cost by 25%, and increases the health your pet returns with by 15%.",
       "6 sec / 50% / 30%"
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Improved Revive Pet was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum wilds output."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your Improved Revive Pet leaves a lingering trail of wilds in your wake."
+    "visualEffect": "The unmistakable sound of a heavy trap snapping shut. This is accompanied by a chaotic manifestation of Improved Revive Pet."
   },
   {
     "id": "bestial_discipline",
@@ -143,19 +83,7 @@ export const HUNTER_BM_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Provides flat scaling independent of your wilds rating.",
-    "loreOrigins": "A lost secret of the Stranglethorn jungles that weaponizes the pure essence of Bestial Discipline.",
-    "synergies": [
-      "Acts as a foundational pillar for any primal oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum wilds output."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Bestial Discipline critically hits.",
-    "devCommentary": "We wanted Bestial Discipline to define the Bm playstyle at all levels.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Bestial Discipline."
+    "visualEffect": "A phantom beast roars triumphantly in the background. This is accompanied by a phantom manifestation of Bestial Discipline."
   },
   {
     "id": "pathfinding",
@@ -168,19 +96,7 @@ export const HUNTER_BM_TALENTS: any = [
       "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 4%.",
       "8%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Pathfinding represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any primal oriented build.",
-      "Creates a devastating synergy when you weave Pathfinding between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Pathfinding.",
-    "devCommentary": "We wanted Pathfinding to define the Bm playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Pathfinding attack."
+    "visualEffect": "A glowing mark appears above the target's head. This is accompanied by a radiant manifestation of Pathfinding."
   },
   {
     "id": "intimidation",
@@ -192,19 +108,7 @@ export const HUNTER_BM_TALENTS: any = [
     "desc": [
       "Command your pet to intimidate the target on the next successful melee attack, causing a high amount of threat and stunning the target for 3 seconds. 1 minute cooldown."
     ],
-    "statScaling": "Provides flat scaling independent of your wilds rating.",
-    "loreOrigins": "A lost secret of the Stranglethorn jungles that weaponizes the pure essence of Intimidation.",
-    "synergies": [
-      "Acts as a foundational pillar for any primal oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum wilds output."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Intimidation critically hits.",
-    "devCommentary": "Initially, Intimidation was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "Casting Intimidation temporarily wreathes your character in primal energy."
+    "visualEffect": "Wind physically swirls around your bowstring. This is accompanied by a forbidden manifestation of Intimidation."
   },
   {
     "id": "unleashed_fury",
@@ -220,19 +124,7 @@ export const HUNTER_BM_TALENTS: any = [
       "16%",
       "20%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary primal stats.",
-    "loreOrigins": "A forbidden primal art that utilizes wilds to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum wilds output.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Unleashed Fury.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Your Unleashed Fury leaves a lingering trail of wilds in your wake."
+    "visualEffect": "A spectral eagle swoops down on the target. This is accompanied by a forbidden manifestation of Unleashed Fury."
   },
   {
     "id": "ferocity",
@@ -245,19 +137,7 @@ export const HUNTER_BM_TALENTS: any = [
       "Increases the critical strike chance of your pets by 5%.",
       "10%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Ferocity represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Ferocity.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your Ferocity leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Wind physically swirls around your bowstring. This is accompanied by a primal manifestation of Ferocity."
   },
   {
     "id": "frenzy",
@@ -277,19 +157,7 @@ export const HUNTER_BM_TALENTS: any = [
       "80%",
       "100%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Frenzy represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any primal oriented build.",
-      "Creates a devastating synergy when you weave Frenzy between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Frenzy.",
-    "devCommentary": "We wanted Frenzy to define the Bm playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Frenzy attack."
+    "visualEffect": "A phantom beast roars triumphantly in the background. This is accompanied by a divine manifestation of Frenzy."
   },
   {
     "id": "animal_handler",
@@ -302,19 +170,7 @@ export const HUNTER_BM_TALENTS: any = [
       "Increases your pet's chance to hit by 3% and reduces the cooldown of your Master's Call by 10 seconds.",
       "6% / 20 sec"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Animal Handler represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any primal oriented build.",
-      "Creates a devastating synergy when you weave Animal Handler between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Animal Handler.",
-    "devCommentary": "Initially, Animal Handler was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "The ground shatters as the primal power of Animal Handler courses through you."
+    "visualEffect": "Wind physically swirls around your bowstring. This is accompanied by a swift manifestation of Animal Handler."
   },
   {
     "id": "longevity",
@@ -328,19 +184,7 @@ export const HUNTER_BM_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Longevity was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum wilds output."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Longevity temporarily wreathes your character in primal energy."
+    "visualEffect": "A glowing mark appears above the target's head. This is accompanied by a brutal manifestation of Longevity."
   },
   {
     "id": "bestial_wrath",
@@ -356,19 +200,7 @@ export const HUNTER_BM_TALENTS: any = [
     "desc": [
       "Send your pet into a rage causing 50% additional damage for 18 seconds. While your pet is enraged, you also go into a rage causing 10% additional damage and reducing the Focus cost of all shots and strikes by 50% for 18 seconds. While enraged, neither you nor your pet feel pity, remorse, or fear, and you are both immune to all movement impairing and loss of control effects. 2 minute cooldown."
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary primal stats.",
-    "loreOrigins": "A forbidden primal art that utilizes wilds to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum wilds output.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Bestial Wrath.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Bestial Wrath temporarily wreathes your character in primal energy."
+    "visualEffect": "A glowing mark appears above the target's head. This is accompanied by a radiant manifestation of Bestial Wrath."
   },
   {
     "id": "ferocious_inspiration",
@@ -382,19 +214,7 @@ export const HUNTER_BM_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary primal stats.",
-    "loreOrigins": "A forbidden primal art that utilizes wilds to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum wilds output.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Ferocious Inspiration.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Your Ferocious Inspiration leaves a lingering trail of wilds in your wake."
+    "visualEffect": "A phantom beast roars triumphantly in the background. This is accompanied by a ancient manifestation of Ferocious Inspiration."
   },
   {
     "id": "spirit_bond",
@@ -407,19 +227,7 @@ export const HUNTER_BM_TALENTS: any = [
       "While your pet is active, you and your pet regenerate 1% of total health every 10 seconds.",
       "2%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as primal power.",
-    "loreOrigins": "An instinctual manifestation of wilds, allowing you to hunt your foes effortlessly.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum wilds output.",
-      "Acts as a foundational pillar for any primal oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Spirit Bond.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Spirit Bond temporarily wreathes your character in primal energy."
+    "visualEffect": "Your pet's eyes glow with an unnatural frenzy. This is accompanied by a radiant manifestation of Spirit Bond."
   },
   {
     "id": "serpents_swiftness",
@@ -433,19 +241,7 @@ export const HUNTER_BM_TALENTS: any = [
       "7% / 7%",
       "10% / 10%"
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Serpent's Swiftness was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Serpent's Swiftness attack."
+    "visualEffect": "A phantom beast roars triumphantly in the background. This is accompanied by a radiant manifestation of Serpent's Swiftness."
   },
   {
     "id": "invigoration",
@@ -462,19 +258,7 @@ export const HUNTER_BM_TALENTS: any = [
       "When your pet scores a critical hit with a special ability, you instantly regenerate 4 Focus.",
       "8 Focus"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Invigoration represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any primal oriented build.",
-      "Creates a devastating synergy when you weave Invigoration between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Invigoration.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Invigoration attack."
+    "visualEffect": "A phantom beast roars triumphantly in the background. This is accompanied by a forbidden manifestation of Invigoration."
   },
   {
     "id": "bestial_resolve",
@@ -487,19 +271,7 @@ export const HUNTER_BM_TALENTS: any = [
       "Reduces the damage your pet takes from area of effect abilities by 25%.",
       "50%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Bestial Resolve represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Bestial Resolve.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Your Bestial Resolve leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Wind physically swirls around your bowstring. This is accompanied by a corrupted manifestation of Bestial Resolve."
   },
   {
     "id": "cobra_strikes",
@@ -513,19 +285,7 @@ export const HUNTER_BM_TALENTS: any = [
       "40%",
       "60%"
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Cobra Strikes was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your Cobra Strikes leaves a lingering trail of wilds in your wake."
+    "visualEffect": "A phantom beast roars triumphantly in the background. This is accompanied by a devastating manifestation of Cobra Strikes."
   },
   {
     "id": "beast_mastery",
@@ -541,19 +301,7 @@ export const HUNTER_BM_TALENTS: any = [
     "desc": [
       "You master the true art of Beast training, granting you the ability to tame Exotic Pets. In addition, your total amount of Pet Skill Points is increased by 5."
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Beast Mastery was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum wilds output."
-    ],
-    "recommendedBuilds": [
-      "Deep Bm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "The ground shatters as the primal power of Beast Mastery courses through you."
+    "visualEffect": "Your pet's eyes glow with an unnatural frenzy. This is accompanied by a forbidden manifestation of Beast Mastery."
   }
 ];
 
@@ -570,19 +318,7 @@ export const HUNTER_MM_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Efficiency represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Efficiency.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Efficiency."
+    "visualEffect": "Your arrow leaves a trail of stinging green venom. This is accompanied by a brutal manifestation of Efficiency."
   },
   {
     "id": "lethal_shots",
@@ -598,19 +334,7 @@ export const HUNTER_MM_TALENTS: any = [
       "4%",
       "5%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary primal stats.",
-    "loreOrigins": "A forbidden primal art that utilizes wilds to overwhelm enemies.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Lethal Shots between auto-attacks.",
-      "Creates a devastating synergy when you weave Lethal Shots between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Lethal Shots attack."
+    "visualEffect": "The unmistakable sound of a heavy trap snapping shut. This is accompanied by a primal manifestation of Lethal Shots."
   },
   {
     "id": "imp_hunters_mark",
@@ -623,19 +347,7 @@ export const HUNTER_MM_TALENTS: any = [
       "Causes 50% of your Hunter's Mark ability's base ranged attack power to apply to melee attack power as well.",
       "100%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as primal power.",
-    "loreOrigins": "An instinctual manifestation of wilds, allowing you to hunt your foes effortlessly.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum wilds output.",
-      "Acts as a foundational pillar for any primal oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Improved Hunter's Mark.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Improved Hunter's Mark temporarily wreathes your character in primal energy."
+    "visualEffect": "The unmistakable sound of a heavy trap snapping shut. This is accompanied by a chaotic manifestation of Improved Hunter's Mark."
   },
   {
     "id": "go_for_the_throat",
@@ -649,19 +361,7 @@ export const HUNTER_MM_TALENTS: any = [
       "16 Focus",
       "25 Focus"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary primal stats.",
-    "loreOrigins": "A forbidden primal art that utilizes wilds to overwhelm enemies.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Go for the Throat between auto-attacks.",
-      "Creates a devastating synergy when you weave Go for the Throat between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
-    "devCommentary": "Initially, Go for the Throat was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "The ground shatters as the primal power of Go for the Throat courses through you."
+    "visualEffect": "A phantom beast roars triumphantly in the background. This is accompanied by a unseen manifestation of Go for the Throat."
   },
   {
     "id": "hawk_eye",
@@ -675,19 +375,7 @@ export const HUNTER_MM_TALENTS: any = [
       "4 yards.",
       "6 yards."
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Hawk Eye was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum wilds output."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Hawk Eye temporarily wreathes your character in primal energy."
+    "visualEffect": "The air crackles with untamed wilderness energy. This is accompanied by a brutal manifestation of Hawk Eye."
   },
   {
     "id": "rapid_killing",
@@ -700,19 +388,7 @@ export const HUNTER_MM_TALENTS: any = [
       "Reduces the cooldown of your Rapid Fire ability by 1 minute.",
       "2 minutes"
     ],
-    "statScaling": "Provides flat scaling independent of your wilds rating.",
-    "loreOrigins": "A lost secret of the Stranglethorn jungles that weaponizes the pure essence of Rapid Killing.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Rapid Killing between auto-attacks.",
-      "Acts as a foundational pillar for any primal oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Your Rapid Killing leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your pet's eyes glow with an unnatural frenzy. This is accompanied by a powerful manifestation of Rapid Killing."
   },
   {
     "id": "imp_arcane_shot",
@@ -725,19 +401,7 @@ export const HUNTER_MM_TALENTS: any = [
       "Reduces the cooldown of your Arcane Shot by 0.5 seconds.",
       "1 second"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as primal power.",
-    "loreOrigins": "An instinctual manifestation of wilds, allowing you to hunt your foes effortlessly.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum wilds output.",
-      "Acts as a foundational pillar for any primal oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Improved Arcane Shot.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Improved Arcane Shot."
+    "visualEffect": "A glowing mark appears above the target's head. This is accompanied by a forbidden manifestation of Improved Arcane Shot."
   },
   {
     "id": "imp_stings",
@@ -751,19 +415,7 @@ export const HUNTER_MM_TALENTS: any = [
       "20% / 20%",
       "30% / 30%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary primal stats.",
-    "loreOrigins": "A forbidden primal art that utilizes wilds to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum wilds output.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Improved Stings.",
-    "devCommentary": "We wanted Improved Stings to define the Mm playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Improved Stings attack."
+    "visualEffect": "Your pet's eyes glow with an unnatural frenzy. This is accompanied by a unseen manifestation of Improved Stings."
   },
   {
     "id": "aimed_shot",
@@ -779,19 +431,7 @@ export const HUNTER_MM_TALENTS: any = [
     "desc": [
       "An aimed shot that increases ranged damage. 3-second cast time."
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Aimed Shot represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any primal oriented build.",
-      "Creates a devastating synergy when you weave Aimed Shot between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Aimed Shot.",
-    "devCommentary": "We wanted Aimed Shot to define the Mm playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Aimed Shot attack."
+    "visualEffect": "A spectral eagle swoops down on the target. This is accompanied by a primal manifestation of Aimed Shot."
   },
   {
     "id": "mortal_shots",
@@ -807,19 +447,7 @@ export const HUNTER_MM_TALENTS: any = [
       "24%",
       "30%"
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Mortal Shots was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Your Mortal Shots leaves a lingering trail of wilds in your wake."
+    "visualEffect": "A glowing mark appears above the target's head. This is accompanied by a ancient manifestation of Mortal Shots."
   },
   {
     "id": "concussive_barrage",
@@ -832,19 +460,7 @@ export const HUNTER_MM_TALENTS: any = [
       "Your successful Auto Shot attacks have a 3% chance to Daze the target for 4 seconds.",
       "6%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Concussive Barrage represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any primal oriented build.",
-      "Creates a devastating synergy when you weave Concussive Barrage between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Concussive Barrage.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Your Concussive Barrage leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Your arrow leaves a trail of stinging green venom. This is accompanied by a unseen manifestation of Concussive Barrage."
   },
   {
     "id": "barrage",
@@ -858,19 +474,7 @@ export const HUNTER_MM_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as primal power.",
-    "loreOrigins": "An instinctual manifestation of wilds, allowing you to hunt your foes effortlessly.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum wilds output.",
-      "Acts as a foundational pillar for any primal oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Barrage.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Barrage temporarily wreathes your character in primal energy."
+    "visualEffect": "The air crackles with untamed wilderness energy. This is accompanied by a swift manifestation of Barrage."
   },
   {
     "id": "combat_experience",
@@ -883,19 +487,7 @@ export const HUNTER_MM_TALENTS: any = [
       "Increases your total Agility by 2%.",
       "4%"
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Combat Experience was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum wilds output."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your Combat Experience leaves a lingering trail of wilds in your wake."
+    "visualEffect": "Wind physically swirls around your bowstring. This is accompanied by a primal manifestation of Combat Experience."
   },
   {
     "id": "wild_quiver",
@@ -909,19 +501,7 @@ export const HUNTER_MM_TALENTS: any = [
       "8%",
       "12%"
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Wild Quiver was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum wilds output."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "The ground shatters as the primal power of Wild Quiver courses through you."
+    "visualEffect": "A phantom beast roars triumphantly in the background. This is accompanied by a brutal manifestation of Wild Quiver."
   },
   {
     "id": "trueshot_aura",
@@ -937,19 +517,7 @@ export const HUNTER_MM_TALENTS: any = [
     "desc": [
       "Increases the attack power of party members within 45 yards by 10%. Lasts 30 minutes."
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as primal power.",
-    "loreOrigins": "An instinctual manifestation of wilds, allowing you to hunt your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Trueshot Aura critically hits.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Trueshot Aura temporarily wreathes your character in primal energy."
+    "visualEffect": "Wind physically swirls around your bowstring. This is accompanied by a devastating manifestation of Trueshot Aura."
   },
   {
     "id": "master_marksman",
@@ -963,19 +531,7 @@ export const HUNTER_MM_TALENTS: any = [
       "2% / 10%",
       "3% / 15%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Master Marksman represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Master Marksman.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "The ground shatters as the primal power of Master Marksman courses through you."
+    "visualEffect": "A phantom beast roars triumphantly in the background. This is accompanied by a phantom manifestation of Master Marksman."
   },
   {
     "id": "rapid_recuperation",
@@ -992,19 +548,7 @@ export const HUNTER_MM_TALENTS: any = [
       "While under the effect of Rapid Fire, the Focus cost of all your abilities is reduced by 25%.",
       "50%"
     ],
-    "statScaling": "Provides flat scaling independent of your wilds rating.",
-    "loreOrigins": "A lost secret of the Stranglethorn jungles that weaponizes the pure essence of Rapid Recuperation.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Rapid Recuperation between auto-attacks.",
-      "Acts as a foundational pillar for any primal oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Rapid Recuperation to define the Mm playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Rapid Recuperation attack."
+    "visualEffect": "A spectral eagle swoops down on the target. This is accompanied by a chaotic manifestation of Rapid Recuperation."
   },
   {
     "id": "piercing_shots",
@@ -1018,19 +562,7 @@ export const HUNTER_MM_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary primal stats.",
-    "loreOrigins": "A forbidden primal art that utilizes wilds to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum wilds output.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Piercing Shots.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Piercing Shots attack."
+    "visualEffect": "A phantom beast roars triumphantly in the background. This is accompanied by a chaotic manifestation of Piercing Shots."
   },
   {
     "id": "sniper_training",
@@ -1047,19 +579,7 @@ export const HUNTER_MM_TALENTS: any = [
       "When you stand still for 6 seconds, you gain a 3% damage increase to your ranged attacks. Effect lasts 15 seconds or until you move.",
       "6%"
     ],
-    "statScaling": "Provides flat scaling independent of your wilds rating.",
-    "loreOrigins": "A lost secret of the Stranglethorn jungles that weaponizes the pure essence of Sniper Training.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Sniper Training between auto-attacks.",
-      "Acts as a foundational pillar for any primal oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Initially, Sniper Training was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "Casting Sniper Training temporarily wreathes your character in primal energy."
+    "visualEffect": "Wind physically swirls around your bowstring. This is accompanied by a swift manifestation of Sniper Training."
   },
   {
     "id": "marked_for_death",
@@ -1072,19 +592,7 @@ export const HUNTER_MM_TALENTS: any = [
       "Increases the damage you deal to targets afflicted by your Hunter's Mark by 2%.",
       "4%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Marked for Death represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Marked for Death.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Marked for Death."
+    "visualEffect": "A spectral eagle swoops down on the target. This is accompanied by a ethereal manifestation of Marked for Death."
   },
   {
     "id": "chimera_shot",
@@ -1100,19 +608,7 @@ export const HUNTER_MM_TALENTS: any = [
     "desc": [
       "You deal 125% weapon damage, refreshing the current Sting on your target and triggering an effect: Serpent Sting - Instantly deals 40% of the Sting's total damage. Viper Sting - Instantly restores 15 Focus. Scorpid Sting - Attempts to Disarm the target for 10 sec. 10 second cooldown."
     ],
-    "statScaling": "Provides flat scaling independent of your wilds rating.",
-    "loreOrigins": "A lost secret of the Stranglethorn jungles that weaponizes the pure essence of Chimera Shot.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Chimera Shot between auto-attacks.",
-      "Acts as a foundational pillar for any primal oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Mm PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Chimera Shot attack."
+    "visualEffect": "A spectral eagle swoops down on the target. This is accompanied by a devastating manifestation of Chimera Shot."
   }
 ];
 
@@ -1129,19 +625,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Savage Strikes was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Savage Strikes to define the Survival playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Savage Strikes attack."
+    "visualEffect": "Wind physically swirls around your bowstring. This is accompanied by a primal manifestation of Savage Strikes."
   },
   {
     "id": "deflection",
@@ -1157,19 +641,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "4% / 16%",
       "5% / 20%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary primal stats.",
-    "loreOrigins": "A forbidden primal art that utilizes wilds to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum wilds output.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Deflection.",
-    "devCommentary": "We wanted Deflection to define the Survival playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Deflection attack."
+    "visualEffect": "A phantom beast roars triumphantly in the background. This is accompanied by a corrupted manifestation of Deflection."
   },
   {
     "id": "imp_tracking",
@@ -1182,19 +654,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Increases all damage caused to targets that are being tracked by 2%.",
       "4%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary primal stats.",
-    "loreOrigins": "A forbidden primal art that utilizes wilds to overwhelm enemies.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Improved Tracking between auto-attacks.",
-      "Creates a devastating synergy when you weave Improved Tracking between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
-    "devCommentary": "Initially, Improved Tracking was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "The ground shatters as the primal power of Improved Tracking courses through you."
+    "visualEffect": "Wind physically swirls around your bowstring. This is accompanied by a brutal manifestation of Improved Tracking."
   },
   {
     "id": "clever_traps",
@@ -1208,19 +668,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "20% / 20%",
       "30% / 30%"
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Clever Traps was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Clever Traps to define the Survival playstyle at all levels.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Clever Traps."
+    "visualEffect": "Your pet's eyes glow with an unnatural frenzy. This is accompanied by a lethal manifestation of Clever Traps."
   },
   {
     "id": "survivalist",
@@ -1234,19 +682,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as primal power.",
-    "loreOrigins": "An instinctual manifestation of wilds, allowing you to hunt your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Survivalist critically hits.",
-    "devCommentary": "We wanted Survivalist to define the Survival playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Survivalist attack."
+    "visualEffect": "A glowing mark appears above the target's head. This is accompanied by a powerful manifestation of Survivalist."
   },
   {
     "id": "entrapment",
@@ -1259,19 +695,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Gives your Immolation Trap, Frost Trap, and Explosive Trap a 13% chance to entrap the target, preventing them from moving for 4 seconds.",
       "25%"
     ],
-    "statScaling": "Provides flat scaling independent of your wilds rating.",
-    "loreOrigins": "A lost secret of the Stranglethorn jungles that weaponizes the pure essence of Entrapment.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Entrapment between auto-attacks.",
-      "Acts as a foundational pillar for any primal oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Initially, Entrapment was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "The ground shatters as the primal power of Entrapment courses through you."
+    "visualEffect": "The air crackles with untamed wilderness energy. This is accompanied by a corrupted manifestation of Entrapment."
   },
   {
     "id": "surefooted",
@@ -1284,19 +708,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Increases your hit chance by 1% and increases your resistance to movement impairing effects by an additional 10%.",
       "2% / 20%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary primal stats.",
-    "loreOrigins": "A forbidden primal art that utilizes wilds to overwhelm enemies.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Surefooted between auto-attacks.",
-      "Creates a devastating synergy when you weave Surefooted between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
-    "devCommentary": "Initially, Surefooted was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "Casting Surefooted temporarily wreathes your character in primal energy."
+    "visualEffect": "A glowing mark appears above the target's head. This is accompanied by a forbidden manifestation of Surefooted."
   },
   {
     "id": "scatter_shot",
@@ -1312,19 +724,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     "desc": [
       "A short-range shot that deals 50% weapon damage and disorients the target for 4 seconds. Any damage caused will remove the effect. Turns off your attack when used. 30 second cooldown."
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as primal power.",
-    "loreOrigins": "An instinctual manifestation of wilds, allowing you to hunt your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Scatter Shot critically hits.",
-    "devCommentary": "We wanted Scatter Shot to define the Survival playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Scatter Shot attack."
+    "visualEffect": "The unmistakable sound of a heavy trap snapping shut. This is accompanied by a primal manifestation of Scatter Shot."
   },
   {
     "id": "survival_instincts",
@@ -1340,19 +740,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "4% / 4%",
       "5% / 5%"
     ],
-    "statScaling": "Provides flat scaling independent of your wilds rating.",
-    "loreOrigins": "A lost secret of the Stranglethorn jungles that weaponizes the pure essence of Survival Instincts.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Survival Instincts between auto-attacks.",
-      "Acts as a foundational pillar for any primal oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "The ground shatters as the primal power of Survival Instincts courses through you."
+    "visualEffect": "The unmistakable sound of a heavy trap snapping shut. This is accompanied by a brutal manifestation of Survival Instincts."
   },
   {
     "id": "trap_mastery",
@@ -1369,19 +757,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Reduces the cooldown of all traps by 2 seconds.",
       "4 seconds"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Trap Mastery represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Trap Mastery.",
-    "devCommentary": "Initially, Trap Mastery was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "Casting Trap Mastery temporarily wreathes your character in primal energy."
+    "visualEffect": "The unmistakable sound of a heavy trap snapping shut. This is accompanied by a powerful manifestation of Trap Mastery."
   },
   {
     "id": "lock_and_load",
@@ -1395,19 +771,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Lock and Load represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any primal oriented build.",
-      "Creates a devastating synergy when you weave Lock and Load between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Lock and Load.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Lock and Load attack."
+    "visualEffect": "A phantom beast roars triumphantly in the background. This is accompanied by a chaotic manifestation of Lock and Load."
   },
   {
     "id": "killer_instinct",
@@ -1425,19 +789,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as primal power.",
-    "loreOrigins": "An instinctual manifestation of wilds, allowing you to hunt your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Killer Instinct critically hits.",
-    "devCommentary": "We wanted Killer Instinct to define the Survival playstyle at all levels.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Killer Instinct."
+    "visualEffect": "A glowing mark appears above the target's head. This is accompanied by a brutal manifestation of Killer Instinct."
   },
   {
     "id": "counterattack",
@@ -1449,19 +801,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     "desc": [
       "A strike that becomes active after parrying an opponent's attack. This attack deals damage and immobilizes the target for 5 seconds. Counterattack cannot be blocked, dodged, or parried."
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as primal power.",
-    "loreOrigins": "An instinctual manifestation of wilds, allowing you to hunt your foes effortlessly.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum wilds output.",
-      "Acts as a foundational pillar for any primal oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with primal energy upon casting Counterattack.",
-    "devCommentary": "We wanted Counterattack to define the Survival playstyle at all levels.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Counterattack."
+    "visualEffect": "Your pet's eyes glow with an unnatural frenzy. This is accompanied by a devastating manifestation of Counterattack."
   },
   {
     "id": "wyvern_sting",
@@ -1477,19 +817,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     "desc": [
       "A stinging shot that puts the target to sleep for 12 seconds. Any damage will cancel the effect. Cuando the target wakes up, the Sting causes Nature damage over 12 seconds. 1 minute cooldown."
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Wyvern Sting was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your Wyvern Sting leaves a lingering trail of wilds in your wake."
+    "visualEffect": "A phantom beast roars triumphantly in the background. This is accompanied by a radiant manifestation of Wyvern Sting."
   },
   {
     "id": "lightning_reflexes",
@@ -1503,19 +831,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Lightning Reflexes was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Lightning Reflexes to define the Survival playstyle at all levels.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Lightning Reflexes attack."
+    "visualEffect": "Wind physically swirls around your bowstring. This is accompanied by a radiant manifestation of Lightning Reflexes."
   },
   {
     "id": "resourcefulness",
@@ -1528,19 +844,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Reduces the Focus cost of all traps and melee abilities by 10%.",
       "20%"
     ],
-    "statScaling": "Scales directly with your total wilds power rating.",
-    "loreOrigins": "Originally devised in the Stranglethorn jungles, the technique of Resourcefulness was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum wilds output."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary wilds effect.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Resourcefulness attack."
+    "visualEffect": "The unmistakable sound of a heavy trap snapping shut. This is accompanied by a corrupted manifestation of Resourcefulness."
   },
   {
     "id": "expose_weakness",
@@ -1554,19 +858,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as primal power.",
-    "loreOrigins": "An instinctual manifestation of wilds, allowing you to hunt your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Expose Weakness critically hits.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "A spectral projection of Rexxar briefly mirrors your Expose Weakness attack."
+    "visualEffect": "The air crackles with untamed wilderness energy. This is accompanied by a divine manifestation of Expose Weakness."
   },
   {
     "id": "thrill_of_the_hunt",
@@ -1583,19 +875,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Your critical strikes with abilities that cost Focus have a 50% chance to immediately restore 10 Focus.",
       "100%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Thrill of the Hunt represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Thrill of the Hunt.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward wilds ability.",
-    "visualEffect": "Your Thrill of the Hunt leaves a lingering trail of wilds in your wake."
+    "visualEffect": "A glowing mark appears above the target's head. This is accompanied by a brutal manifestation of Thrill of the Hunt."
   },
   {
     "id": "master_tactician",
@@ -1608,19 +888,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "Your successful ranged attacks have a 10% chance to increase your critical strike chance with all attacks by 5% for 8 seconds.",
       "10%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as primal power.",
-    "loreOrigins": "An instinctual manifestation of wilds, allowing you to hunt your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other hunt abilities.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Master Tactician critically hits.",
-    "devCommentary": "Designed to smooth out the rotation of primal specs in long encounters.",
-    "visualEffect": "The ground shatters as the primal power of Master Tactician courses through you."
+    "visualEffect": "Wind physically swirls around your bowstring. This is accompanied by a divine manifestation of Master Tactician."
   },
   {
     "id": "noxious_stings",
@@ -1634,19 +902,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and wilds mastery.",
-    "loreOrigins": "Passed down by Rexxar, this mastery of Noxious Stings represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your primal cooldowns.",
-      "Provides unmatched utility when combined with other hunt abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Noxious Stings.",
-    "devCommentary": "Initially, Noxious Stings was too weak, so we gave it massive primal scaling.",
-    "visualEffect": "Casting Noxious Stings temporarily wreathes your character in primal energy."
+    "visualEffect": "The unmistakable sound of a heavy trap snapping shut. This is accompanied by a brutal manifestation of Noxious Stings."
   },
   {
     "id": "explosive_shot",
@@ -1662,19 +918,7 @@ export const HUNTER_SURVIVAL_TALENTS: any = [
     "desc": [
       "You fire an explosive charge into the enemy target, dealing massive Fire damage. The charge will blast the target every second for an additional 2 seconds. 6 second cooldown."
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary primal stats.",
-    "loreOrigins": "A forbidden primal art that utilizes wilds to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum wilds output.",
-      "Dramatically increases the power spike of your primal cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Survival PvE",
-      "Hybrid primal PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Explosive Shot.",
-    "devCommentary": "We wanted Explosive Shot to define the Survival playstyle at all levels.",
-    "visualEffect": "A massive burst of wilds erupts from the target upon the impact of Explosive Shot."
+    "visualEffect": "Wind physically swirls around your bowstring. This is accompanied by a ancient manifestation of Explosive Shot."
   }
 ];
 

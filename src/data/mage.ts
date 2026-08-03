@@ -13,19 +13,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Arcane Concentration.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Arcane Concentration between auto-attacks.",
-      "Acts as a foundational pillar for any mystical oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "The ground shatters as the mystical power of Arcane Concentration courses through you."
+    "visualEffect": "Ethereal flames dance across your shoulders. This is accompanied by a swift manifestation of Arcane Concentration."
   },
   {
     "id": "arcane_focus",
@@ -41,19 +29,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "8% / 4%",
       "10% / 5%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as mystical power.",
-    "loreOrigins": "An instinctual manifestation of arcane, allowing you to incinerate your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Arcane Focus critically hits.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Arcane Focus."
+    "visualEffect": "The air shimmers with intense, freezing cold. This is accompanied by a swift manifestation of Arcane Focus."
   },
   {
     "id": "arcane_subtlety",
@@ -66,19 +42,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Reduces your target's spell resistance to all your spells by 5, and reduces the threat caused by your Arcane spells by 20%.",
       "10 / 40%"
     ],
-    "statScaling": "Scales directly with your total arcane power rating.",
-    "loreOrigins": "Originally devised in the Dalaran archives, the technique of Arcane Subtlety was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Dramatically increases the power spike of your mystical cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Arcane Subtlety to define the Arcane playstyle at all levels.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Arcane Subtlety."
+    "visualEffect": "A torrent of localized fire spirals from your hands. This is accompanied by a phantom manifestation of Arcane Subtlety."
   },
   {
     "id": "arcane_meditation",
@@ -92,19 +56,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as mystical power.",
-    "loreOrigins": "An instinctual manifestation of arcane, allowing you to incinerate your foes effortlessly.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum arcane output.",
-      "Acts as a foundational pillar for any mystical oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Arcane Meditation.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Arcane Meditation temporarily wreathes your character in mystical energy."
+    "visualEffect": "Ethereal flames dance across your shoulders. This is accompanied by a ethereal manifestation of Arcane Meditation."
   },
   {
     "id": "wand_spec",
@@ -117,19 +69,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Increases your damage with Wands by 13%.",
       "25%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Wand Specialization represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any mystical oriented build.",
-      "Creates a devastating synergy when you weave Wand Specialization between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Wand Specialization.",
-    "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "The ground shatters as the mystical power of Wand Specialization courses through you."
+    "visualEffect": "A miniature arcane singularity collapses inward. This is accompanied by a radiant manifestation of Wand Specialization."
   },
   {
     "id": "magic_absorption",
@@ -142,19 +82,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Increases all resistances by 5 and causes all spells you fully resist to restore 2% of your total mana.",
       "10 / 4%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary mystical stats.",
-    "loreOrigins": "A forbidden mystical art that utilizes arcane to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum arcane output.",
-      "Dramatically increases the power spike of your mystical cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Magic Absorption.",
-    "devCommentary": "Initially, Magic Absorption was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as the mystical power of Magic Absorption courses through you."
+    "visualEffect": "Frost shatters outward in a crystalline nova. This is accompanied by a ethereal manifestation of Magic Absorption."
   },
   {
     "id": "imp_arcane_missiles",
@@ -168,19 +96,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as mystical power.",
-    "loreOrigins": "An instinctual manifestation of arcane, allowing you to incinerate your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Arcane Missiles critically hits.",
-    "devCommentary": "Initially, Improved Arcane Missiles was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "Casting Improved Arcane Missiles temporarily wreathes your character in mystical energy."
+    "visualEffect": "A miniature arcane singularity collapses inward. This is accompanied by a brutal manifestation of Improved Arcane Missiles."
   },
   {
     "id": "presence_of_mind",
@@ -192,19 +108,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     "desc": [
       "When activated, your next Mage spell with a casting time less than 10 seconds becomes an instant cast spell. 3 minute cooldown."
     ],
-    "statScaling": "Scales directly with your total arcane power rating.",
-    "loreOrigins": "Originally devised in the Dalaran archives, the technique of Presence of Mind was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Dramatically increases the power spike of your mystical cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Initially, Presence of Mind was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as the mystical power of Presence of Mind courses through you."
+    "visualEffect": "Your eyes glow with unchecked magical potential. This is accompanied by a lethal manifestation of Presence of Mind."
   },
   {
     "id": "arcane_impact",
@@ -218,19 +122,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Arcane Impact.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Arcane Impact between auto-attacks.",
-      "Acts as a foundational pillar for any mystical oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Arcane Impact temporarily wreathes your character in mystical energy."
+    "visualEffect": "Your eyes glow with unchecked magical potential. This is accompanied by a lethal manifestation of Arcane Impact."
   },
   {
     "id": "imp_counterspell",
@@ -243,19 +135,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Gives your Counterspell a 50% chance to silence the target for 4 seconds.",
       "100%"
     ],
-    "statScaling": "Scales directly with your total arcane power rating.",
-    "loreOrigins": "Originally devised in the Dalaran archives, the technique of Improved Counterspell was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Dramatically increases the power spike of your mystical cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Improved Counterspell temporarily wreathes your character in mystical energy."
+    "visualEffect": "A torrent of localized fire spirals from your hands. This is accompanied by a radiant manifestation of Improved Counterspell."
   },
   {
     "id": "arcane_flow",
@@ -268,19 +148,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Reduces the cooldown of your Presence of Mind and Evocation spells by 15%.",
       "30%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Arcane Flow represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your mystical cooldowns.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Arcane Flow.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Arcane Flow temporarily wreathes your character in mystical energy."
+    "visualEffect": "The air shimmers with intense, freezing cold. This is accompanied by a lethal manifestation of Arcane Flow."
   },
   {
     "id": "arcane_mind",
@@ -300,19 +168,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "8%",
       "10%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as mystical power.",
-    "loreOrigins": "An instinctual manifestation of arcane, allowing you to incinerate your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Arcane Mind critically hits.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your Arcane Mind leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Arcane runes ignite in a circle around your feet. This is accompanied by a ancient manifestation of Arcane Mind."
   },
   {
     "id": "arcane_resilience",
@@ -325,19 +181,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Increases your armor by an amount equal to 25% of your Intellect, and reduces the mana cost of your Mana Shield, Frost Ward, and Fire Ward by 25%.",
       "50% / 50%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary mystical stats.",
-    "loreOrigins": "A forbidden mystical art that utilizes arcane to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum arcane output.",
-      "Dramatically increases the power spike of your mystical cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Arcane Resilience.",
-    "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Arcane Resilience attack."
+    "visualEffect": "Reality warps slightly around the impact zone. This is accompanied by a swift manifestation of Arcane Resilience."
   },
   {
     "id": "arcane_blast",
@@ -353,19 +197,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     "desc": [
       "Blasts the target with energy, dealing X Arcane damage. Each time you cast Arcane Blast, the damage of your Arcane spells is increased by 15% and the mana cost of your Arcane Blast is increased by 175%. Effect stacks up to 3 times and lasts 8 seconds. Casting Arcane Missiles or Arcane Explosion consumes this effect."
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Arcane Blast represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any mystical oriented build.",
-      "Creates a devastating synergy when you weave Arcane Blast between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Arcane Blast.",
-    "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "The ground shatters as the mystical power of Arcane Blast courses through you."
+    "visualEffect": "Frost shatters outward in a crystalline nova. This is accompanied by a swift manifestation of Arcane Blast."
   },
   {
     "id": "arcane_instability",
@@ -383,19 +215,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as mystical power.",
-    "loreOrigins": "An instinctual manifestation of arcane, allowing you to incinerate your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Arcane Instability critically hits.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your Arcane Instability leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Reality warps slightly around the impact zone. This is accompanied by a brutal manifestation of Arcane Instability."
   },
   {
     "id": "prismatic_cloak",
@@ -408,19 +228,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Reduces all damage taken by 2% and reduces the casting time lost when taking damage by 25%.",
       "4% / 50%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Prismatic Cloak represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your mystical cooldowns.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Prismatic Cloak.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Prismatic Cloak temporarily wreathes your character in mystical energy."
+    "visualEffect": "The air shimmers with intense, freezing cold. This is accompanied by a corrupted manifestation of Prismatic Cloak."
   },
   {
     "id": "netherwind_presence",
@@ -434,19 +242,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Netherwind Presence.",
-    "synergies": [
-      "Acts as a foundational pillar for any mystical oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum arcane output."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Netherwind Presence critically hits.",
-    "devCommentary": "Initially, Netherwind Presence was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as the mystical power of Netherwind Presence courses through you."
+    "visualEffect": "Your eyes glow with unchecked magical potential. This is accompanied by a ethereal manifestation of Netherwind Presence."
   },
   {
     "id": "mind_mastery",
@@ -464,19 +260,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Mind Mastery represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your mystical cooldowns.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Mind Mastery.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Mind Mastery temporarily wreathes your character in mystical energy."
+    "visualEffect": "Your eyes glow with unchecked magical potential. This is accompanied by a ancient manifestation of Mind Mastery."
   },
   {
     "id": "arcane_potency",
@@ -493,19 +277,7 @@ export const MAGE_ARCANE_TALENTS: any = [
       "Increases the critical strike chance of your next spell by 15% when you gain Clearcasting.",
       "30%"
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Arcane Potency.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Arcane Potency between auto-attacks.",
-      "Acts as a foundational pillar for any mystical oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Arcane Potency to define the Arcane playstyle at all levels.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Arcane Potency."
+    "visualEffect": "Ethereal flames dance across your shoulders. This is accompanied by a swift manifestation of Arcane Potency."
   },
   {
     "id": "arcane_power",
@@ -521,19 +293,7 @@ export const MAGE_ARCANE_TALENTS: any = [
     "desc": [
       "When activated, you radiate Arcane Power for 15 seconds. You and all party members within 30 yards deal 15% increased spell damage. During this time, 50% of the mana you spend is evenly distributed to affected party members. 3 minute cooldown."
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary mystical stats.",
-    "loreOrigins": "A forbidden mystical art that utilizes arcane to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum arcane output.",
-      "Dramatically increases the power spike of your mystical cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Arcane PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Arcane Power.",
-    "devCommentary": "We wanted Arcane Power to define the Arcane playstyle at all levels.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Arcane Power."
+    "visualEffect": "The air shimmers with intense, freezing cold. This is accompanied by a brutal manifestation of Arcane Power."
   }
 ];
 
@@ -550,19 +310,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "26%",
       "40%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Ignite represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any mystical oriented build.",
-      "Creates a devastating synergy when you weave Ignite between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Ignite.",
-    "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Ignite attack."
+    "visualEffect": "The air shimmers with intense, freezing cold. This is accompanied by a primal manifestation of Ignite."
   },
   {
     "id": "imp_fireball",
@@ -578,19 +326,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "0.4 seconds",
       "0.5 seconds"
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Improved Fireball represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any mystical oriented build.",
-      "Creates a devastating synergy when you weave Improved Fireball between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Improved Fireball.",
-    "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Improved Fireball attack."
+    "visualEffect": "Arcane runes ignite in a circle around your feet. This is accompanied by a forbidden manifestation of Improved Fireball."
   },
   {
     "id": "flame_throwing",
@@ -603,19 +339,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "Increases the range of your Fire spells by 3 yards.",
       "6 yards"
     ],
-    "statScaling": "Scales directly with your total arcane power rating.",
-    "loreOrigins": "Originally devised in the Dalaran archives, the technique of Flame Throwing was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your mystical cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum arcane output."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
-    "devCommentary": "Initially, Flame Throwing was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as the mystical power of Flame Throwing courses through you."
+    "visualEffect": "The air shimmers with intense, freezing cold. This is accompanied by a primal manifestation of Flame Throwing."
   },
   {
     "id": "impact",
@@ -629,19 +353,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as mystical power.",
-    "loreOrigins": "An instinctual manifestation of arcane, allowing you to incinerate your foes effortlessly.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum arcane output.",
-      "Acts as a foundational pillar for any mystical oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Impact.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Impact."
+    "visualEffect": "Frost shatters outward in a crystalline nova. This is accompanied by a radiant manifestation of Impact."
   },
   {
     "id": "incineration",
@@ -655,19 +367,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Incineration represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your mystical cooldowns.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Incineration.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Your Incineration leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Arcane runes ignite in a circle around your feet. This is accompanied by a unseen manifestation of Incineration."
   },
   {
     "id": "burning_soul",
@@ -680,19 +380,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "Gives your Fire spells a 35% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 15%.",
       "70% / 30%"
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Burning Soul.",
-    "synergies": [
-      "Acts as a foundational pillar for any mystical oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum arcane output."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Burning Soul critically hits.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Burning Soul temporarily wreathes your character in mystical energy."
+    "visualEffect": "Ethereal flames dance across your shoulders. This is accompanied by a radiant manifestation of Burning Soul."
   },
   {
     "id": "imp_fire_blast",
@@ -705,19 +393,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "Reduces the cooldown of your Fire Blast spell by 1 second.",
       "2 seconds"
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Improved Fire Blast represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any mystical oriented build.",
-      "Creates a devastating synergy when you weave Improved Fire Blast between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Improved Fire Blast.",
-    "devCommentary": "Initially, Improved Fire Blast was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as the mystical power of Improved Fire Blast courses through you."
+    "visualEffect": "Reality warps slightly around the impact zone. This is accompanied by a brutal manifestation of Improved Fire Blast."
   },
   {
     "id": "combustion",
@@ -733,19 +409,7 @@ export const MAGE_FIRE_TALENTS: any = [
     "desc": [
       "Each of your Fire damage spell hits increases your critical strike chance with Fire damage spells by 10%. This effect lasts until you have caused 3 critical strikes with Fire spells. 3 minute cooldown."
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary mystical stats.",
-    "loreOrigins": "A forbidden mystical art that utilizes arcane to overwhelm enemies.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Combustion between auto-attacks.",
-      "Creates a devastating synergy when you weave Combustion between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Your Combustion leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your eyes glow with unchecked magical potential. This is accompanied by a swift manifestation of Combustion."
   },
   {
     "id": "master_of_elements",
@@ -759,19 +423,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Master of Elements.",
-    "synergies": [
-      "Acts as a foundational pillar for any mystical oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum arcane output."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Master of Elements critically hits.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Master of Elements temporarily wreathes your character in mystical energy."
+    "visualEffect": "Arcane runes ignite in a circle around your feet. This is accompanied by a chaotic manifestation of Master of Elements."
   },
   {
     "id": "critical_mass",
@@ -785,19 +437,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary mystical stats.",
-    "loreOrigins": "A forbidden mystical art that utilizes arcane to overwhelm enemies.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Critical Mass between auto-attacks.",
-      "Creates a devastating synergy when you weave Critical Mass between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
-    "devCommentary": "We wanted Critical Mass to define the Fire playstyle at all levels.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Critical Mass attack."
+    "visualEffect": "A torrent of localized fire spirals from your hands. This is accompanied by a primal manifestation of Critical Mass."
   },
   {
     "id": "pyromaniac",
@@ -811,19 +451,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "2% / 2%",
       "3% / 3%"
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Pyromaniac.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Pyromaniac between auto-attacks.",
-      "Acts as a foundational pillar for any mystical oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your Pyromaniac leaves a lingering trail of arcane in your wake."
+    "visualEffect": "A torrent of localized fire spirals from your hands. This is accompanied by a devastating manifestation of Pyromaniac."
   },
   {
     "id": "fire_power",
@@ -841,19 +469,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "6%",
       "10%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary mystical stats.",
-    "loreOrigins": "A forbidden mystical art that utilizes arcane to overwhelm enemies.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Fire Power between auto-attacks.",
-      "Creates a devastating synergy when you weave Fire Power between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Your Fire Power leaves a lingering trail of arcane in your wake."
+    "visualEffect": "A torrent of localized fire spirals from your hands. This is accompanied by a divine manifestation of Fire Power."
   },
   {
     "id": "imp_scorch",
@@ -870,19 +486,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "Your Scorch spells have a 50% chance to cause your target to be vulnerable to Fire damage. This vulnerability increases the Fire damage dealt to your target by 3% and lasts 30 seconds. Stacks up to 5 times.",
       "100%"
     ],
-    "statScaling": "Scales directly with your total arcane power rating.",
-    "loreOrigins": "Originally devised in the Dalaran archives, the technique of Improved Scorch was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Dramatically increases the power spike of your mystical cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Improved Scorch to define the Fire playstyle at all levels.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Improved Scorch."
+    "visualEffect": "A miniature arcane singularity collapses inward. This is accompanied by a lethal manifestation of Improved Scorch."
   },
   {
     "id": "blast_wave",
@@ -898,19 +502,7 @@ export const MAGE_FIRE_TALENTS: any = [
     "desc": [
       "A wave of flame radiates outward from the caster, dealing Fire damage to all enemies caught within and dazing them, reducing movement speed by 50% for 6 seconds."
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Blast Wave.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Blast Wave between auto-attacks.",
-      "Acts as a foundational pillar for any mystical oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Blast Wave to define the Fire playstyle at all levels.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Blast Wave."
+    "visualEffect": "Ethereal flames dance across your shoulders. This is accompanied by a ethereal manifestation of Blast Wave."
   },
   {
     "id": "playing_with_fire",
@@ -924,19 +516,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "2% / 2%",
       "3% / 3%"
     ],
-    "statScaling": "Scales directly with your total arcane power rating.",
-    "loreOrigins": "Originally devised in the Dalaran archives, the technique of Playing with Fire was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your mystical cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum arcane output."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
-    "devCommentary": "We wanted Playing with Fire to define the Fire playstyle at all levels.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Playing with Fire attack."
+    "visualEffect": "The air shimmers with intense, freezing cold. This is accompanied by a devastating manifestation of Playing with Fire."
   },
   {
     "id": "blazing_speed",
@@ -949,19 +529,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "Gives you a 5% chance when hit by a melee or ranged attack to increase your movement speed by 50% and dispel all movement impairing effects. Lasts 8 seconds.",
       "10%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as mystical power.",
-    "loreOrigins": "An instinctual manifestation of arcane, allowing you to incinerate your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Blazing Speed critically hits.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Blazing Speed temporarily wreathes your character in mystical energy."
+    "visualEffect": "The air shimmers with intense, freezing cold. This is accompanied by a lethal manifestation of Blazing Speed."
   },
   {
     "id": "empowered_fire",
@@ -979,19 +547,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Empowered Fire represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any mystical oriented build.",
-      "Creates a devastating synergy when you weave Empowered Fire between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Empowered Fire.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Your Empowered Fire leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Arcane runes ignite in a circle around your feet. This is accompanied by a ethereal manifestation of Empowered Fire."
   },
   {
     "id": "fiery_payback",
@@ -1004,19 +560,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "When your health drops below 35%, all damage taken is reduced by 10% and the cast time of your Pyroblast spell is reduced by 1.75 seconds.",
       "20% / 3.5 seconds"
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Fiery Payback represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your mystical cooldowns.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Fiery Payback.",
-    "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Fiery Payback attack."
+    "visualEffect": "The air shimmers with intense, freezing cold. This is accompanied by a divine manifestation of Fiery Payback."
   },
   {
     "id": "hot_streak",
@@ -1030,19 +574,7 @@ export const MAGE_FIRE_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary mystical stats.",
-    "loreOrigins": "A forbidden mystical art that utilizes arcane to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum arcane output.",
-      "Dramatically increases the power spike of your mystical cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Hot Streak.",
-    "devCommentary": "We wanted Hot Streak to define the Fire playstyle at all levels.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Hot Streak."
+    "visualEffect": "Reality warps slightly around the impact zone. This is accompanied by a chaotic manifestation of Hot Streak."
   },
   {
     "id": "living_bomb",
@@ -1058,19 +590,7 @@ export const MAGE_FIRE_TALENTS: any = [
     "desc": [
       "The target becomes a Living Bomb, taking Fire damage over 12 seconds. After 12 seconds or when the spell is dispelled, the target explodes dealing Fire damage to all enemies within 10 yards."
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Living Bomb represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your mystical cooldowns.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Fire PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Living Bomb.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Your Living Bomb leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Arcane runes ignite in a circle around your feet. This is accompanied by a devastating manifestation of Living Bomb."
   }
 ];
 
@@ -1087,19 +607,7 @@ export const MAGE_FROST_TALENTS: any = [
       "2 seconds / 7%",
       "3 seconds / 10%"
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Permafrost.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Permafrost between auto-attacks.",
-      "Acts as a foundational pillar for any mystical oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Permafrost attack."
+    "visualEffect": "A miniature arcane singularity collapses inward. This is accompanied by a unseen manifestation of Permafrost."
   },
   {
     "id": "imp_frostbolt",
@@ -1115,19 +623,7 @@ export const MAGE_FROST_TALENTS: any = [
       "0.4 seconds",
       "0.5 seconds"
     ],
-    "statScaling": "Scales directly with your total arcane power rating.",
-    "loreOrigins": "Originally devised in the Dalaran archives, the technique of Improved Frostbolt was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Dramatically increases the power spike of your mystical cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Initially, Improved Frostbolt was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "Casting Improved Frostbolt temporarily wreathes your character in mystical energy."
+    "visualEffect": "Reality warps slightly around the impact zone. This is accompanied by a primal manifestation of Improved Frostbolt."
   },
   {
     "id": "ice_floes",
@@ -1140,19 +636,7 @@ export const MAGE_FROST_TALENTS: any = [
       "Reduces the cooldown of your Frost Nova, Cone of Cold, and Ice Block spells by 10%.",
       "20%"
     ],
-    "statScaling": "Scales directly with your total arcane power rating.",
-    "loreOrigins": "Originally devised in the Dalaran archives, the technique of Ice Floes was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your mystical cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum arcane output."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
-    "devCommentary": "We wanted Ice Floes to define the Frost playstyle at all levels.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Ice Floes attack."
+    "visualEffect": "Ethereal flames dance across your shoulders. This is accompanied by a ethereal manifestation of Ice Floes."
   },
   {
     "id": "shatter",
@@ -1166,19 +650,7 @@ export const MAGE_FROST_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary mystical stats.",
-    "loreOrigins": "A forbidden mystical art that utilizes arcane to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum arcane output.",
-      "Dramatically increases the power spike of your mystical cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Shatter.",
-    "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Shatter attack."
+    "visualEffect": "Ethereal flames dance across your shoulders. This is accompanied by a devastating manifestation of Shatter."
   },
   {
     "id": "ice_shards",
@@ -1196,19 +668,7 @@ export const MAGE_FROST_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Ice Shards.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Ice Shards between auto-attacks.",
-      "Acts as a foundational pillar for any mystical oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Ice Shards to define the Frost playstyle at all levels.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Ice Shards attack."
+    "visualEffect": "Reality warps slightly around the impact zone. This is accompanied by a unseen manifestation of Ice Shards."
   },
   {
     "id": "frostbite",
@@ -1221,19 +681,7 @@ export const MAGE_FROST_TALENTS: any = [
       "Gives your Chill effects an 8% chance to freeze the target for 5 seconds.",
       "15%"
     ],
-    "statScaling": "Scales directly with your total arcane power rating.",
-    "loreOrigins": "Originally devised in the Dalaran archives, the technique of Frostbite was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your mystical cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum arcane output."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
-    "devCommentary": "Initially, Frostbite was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as the mystical power of Frostbite courses through you."
+    "visualEffect": "A torrent of localized fire spirals from your hands. This is accompanied by a unseen manifestation of Frostbite."
   },
   {
     "id": "piercing_ice",
@@ -1246,19 +694,7 @@ export const MAGE_FROST_TALENTS: any = [
       "Increases the damage done by your Frost spells by 3%.",
       "6%"
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Piercing Ice.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Piercing Ice between auto-attacks.",
-      "Acts as a foundational pillar for any mystical oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Your Piercing Ice leaves a lingering trail of arcane in your wake."
+    "visualEffect": "A torrent of localized fire spirals from your hands. This is accompanied by a ethereal manifestation of Piercing Ice."
   },
   {
     "id": "ice_block",
@@ -1274,19 +710,7 @@ export const MAGE_FROST_TALENTS: any = [
     "desc": [
       "You become encased in a block of ice, protecting you from all physical attacks and spells for 10 seconds, but during that time you cannot attack, move, or cast spells. 5 minute cooldown."
     ],
-    "statScaling": "Scales directly with your total arcane power rating.",
-    "loreOrigins": "Originally devised in the Dalaran archives, the technique of Ice Block was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Dramatically increases the power spike of your mystical cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Ice Block temporarily wreathes your character in mystical energy."
+    "visualEffect": "A torrent of localized fire spirals from your hands. This is accompanied by a brutal manifestation of Ice Block."
   },
   {
     "id": "imp_blizzard",
@@ -1300,19 +724,7 @@ export const MAGE_FROST_TALENTS: any = [
       "50%",
       "70%"
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Improved Blizzard.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Improved Blizzard between auto-attacks.",
-      "Acts as a foundational pillar for any mystical oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Your Improved Blizzard leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Arcane runes ignite in a circle around your feet. This is accompanied by a swift manifestation of Improved Blizzard."
   },
   {
     "id": "arctic_reach",
@@ -1325,19 +737,7 @@ export const MAGE_FROST_TALENTS: any = [
       "Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 10%.",
       "20%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary mystical stats.",
-    "loreOrigins": "A forbidden mystical art that utilizes arcane to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum arcane output.",
-      "Dramatically increases the power spike of your mystical cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Arctic Reach.",
-    "devCommentary": "Initially, Arctic Reach was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "Casting Arctic Reach temporarily wreathes your character in mystical energy."
+    "visualEffect": "Arcane runes ignite in a circle around your feet. This is accompanied by a chaotic manifestation of Arctic Reach."
   },
   {
     "id": "winters_chill",
@@ -1351,19 +751,7 @@ export const MAGE_FROST_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Winter's Chill.",
-    "synergies": [
-      "Acts as a foundational pillar for any mystical oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum arcane output."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Winter's Chill critically hits.",
-    "devCommentary": "Initially, Winter's Chill was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as the mystical power of Winter's Chill courses through you."
+    "visualEffect": "A miniature arcane singularity collapses inward. This is accompanied by a primal manifestation of Winter's Chill."
   },
   {
     "id": "arctic_winds",
@@ -1377,19 +765,7 @@ export const MAGE_FROST_TALENTS: any = [
       "2% / 2%",
       "3% / 3%"
     ],
-    "statScaling": "Provides flat scaling independent of your arcane rating.",
-    "loreOrigins": "A lost secret of the Dalaran archives that weaponizes the pure essence of Arctic Winds.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Arctic Winds between auto-attacks.",
-      "Acts as a foundational pillar for any mystical oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "A spectral projection of Antonidas briefly mirrors your Arctic Winds attack."
+    "visualEffect": "Your eyes glow with unchecked magical potential. This is accompanied by a divine manifestation of Arctic Winds."
   },
   {
     "id": "channeling_ice",
@@ -1402,19 +778,7 @@ export const MAGE_FROST_TALENTS: any = [
       "Reduces the mana cost of all Frost spells by 5% and reduces the threat generated by Frost spells by 10%.",
       "10% / 20%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Channeling Ice represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any mystical oriented build.",
-      "Creates a devastating synergy when you weave Channeling Ice between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Channeling Ice.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Channeling Ice."
+    "visualEffect": "Arcane runes ignite in a circle around your feet. This is accompanied by a primal manifestation of Channeling Ice."
   },
   {
     "id": "ice_barrier",
@@ -1430,19 +794,7 @@ export const MAGE_FROST_TALENTS: any = [
     "desc": [
       "Instantly shields you, absorbing X damage. Lasts 1 minute. While the shield holds, spells will not be interrupted. 30 second cooldown."
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary mystical stats.",
-    "loreOrigins": "A forbidden mystical art that utilizes arcane to overwhelm enemies.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Ice Barrier between auto-attacks.",
-      "Creates a devastating synergy when you weave Ice Barrier between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary arcane effect.",
-    "devCommentary": "Initially, Ice Barrier was too weak, so we gave it massive mystical scaling.",
-    "visualEffect": "The ground shatters as the mystical power of Ice Barrier courses through you."
+    "visualEffect": "Frost shatters outward in a crystalline nova. This is accompanied by a swift manifestation of Ice Barrier."
   },
   {
     "id": "shattered_barrier",
@@ -1459,19 +811,7 @@ export const MAGE_FROST_TALENTS: any = [
       "When your Ice Barrier is destroyed or dispelled, it triggers a localized frost nova, freezing all enemies within 10 yards for 4 seconds.",
       "8 seconds"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as mystical power.",
-    "loreOrigins": "An instinctual manifestation of arcane, allowing you to incinerate your foes effortlessly.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum arcane output.",
-      "Acts as a foundational pillar for any mystical oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Shattered Barrier.",
-    "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "The ground shatters as the mystical power of Shattered Barrier courses through you."
+    "visualEffect": "Frost shatters outward in a crystalline nova. This is accompanied by a forbidden manifestation of Shattered Barrier."
   },
   {
     "id": "brain_freeze",
@@ -1485,19 +825,7 @@ export const MAGE_FROST_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Brain Freeze represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any mystical oriented build.",
-      "Creates a devastating synergy when you weave Brain Freeze between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with mystical energy upon casting Brain Freeze.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Brain Freeze."
+    "visualEffect": "Your eyes glow with unchecked magical potential. This is accompanied by a radiant manifestation of Brain Freeze."
   },
   {
     "id": "enduring_winter",
@@ -1511,19 +839,7 @@ export const MAGE_FROST_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as mystical power.",
-    "loreOrigins": "An instinctual manifestation of arcane, allowing you to incinerate your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Enduring Winter critically hits.",
-    "devCommentary": "Designed to smooth out the rotation of mystical specs in long encounters.",
-    "visualEffect": "The ground shatters as the mystical power of Enduring Winter courses through you."
+    "visualEffect": "Frost shatters outward in a crystalline nova. This is accompanied by a brutal manifestation of Enduring Winter."
   },
   {
     "id": "empowered_frostbolt",
@@ -1541,19 +857,7 @@ export const MAGE_FROST_TALENTS: any = [
       "10% / 4%",
       "15% / 6%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as mystical power.",
-    "loreOrigins": "An instinctual manifestation of arcane, allowing you to incinerate your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Empowered Frostbolt critically hits.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "A massive burst of arcane erupts from the target upon the impact of Empowered Frostbolt."
+    "visualEffect": "The air shimmers with intense, freezing cold. This is accompanied by a ancient manifestation of Empowered Frostbolt."
   },
   {
     "id": "chilled_to_the_bone",
@@ -1566,19 +870,7 @@ export const MAGE_FROST_TALENTS: any = [
       "Increases the damage caused by your Frostbolt and Cone of Cold spells by 3% and reduces the movement speed of all your chilled targets by an additional 5%.",
       "6% / 10%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and arcane mastery.",
-    "loreOrigins": "Passed down by Antonidas, this mastery of Chilled to the Bone represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your mystical cooldowns.",
-      "Provides unmatched utility when combined with other incinerate abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Chilled to the Bone.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Your Chilled to the Bone leaves a lingering trail of arcane in your wake."
+    "visualEffect": "A miniature arcane singularity collapses inward. This is accompanied by a radiant manifestation of Chilled to the Bone."
   },
   {
     "id": "summon_water_elemental",
@@ -1594,19 +886,7 @@ export const MAGE_FROST_TALENTS: any = [
     "desc": [
       "Summons a Water Elemental to fight for the caster for 45 seconds. The elemental casts Waterbolts and has the 'Water Elemental Freeze' ability, which acts as a ranged Frost Nova. 3 minute cooldown."
     ],
-    "statScaling": "Scales directly with your total arcane power rating.",
-    "loreOrigins": "Originally devised in the Dalaran archives, the technique of Summon Water Elemental was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other incinerate abilities.",
-      "Dramatically increases the power spike of your mystical cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Frost PvE",
-      "Hybrid mystical PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward arcane ability.",
-    "visualEffect": "Your Summon Water Elemental leaves a lingering trail of arcane in your wake."
+    "visualEffect": "Your eyes glow with unchecked magical potential. This is accompanied by a swift manifestation of Summon Water Elemental."
   }
 ];
 

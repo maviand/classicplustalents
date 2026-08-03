@@ -1,120 +1,386 @@
 const fs = require('fs');
+const path = require('path');
 
-const weapons = ['Longsword', 'Battleaxe', 'Warhammer', 'Greatsword', 'Halberd', 'Dagger', 'Mace', 'Staff', 'Wand', 'Crossbow', 'Blunderbuss', 'Longbow', 'Dirk', 'Claymore', 'Kris', 'Pike', 'Greataxe'];
-const prefixes = ['Arcanite', 'Dark Iron', 'Titansteel', 'Obsidian', 'Blood-forged', 'Void-Touched', 'Shadowflame', 'True-Silver', 'Fel-Infused', 'Emerald', 'Dream-Wrought', 'Scourge-Bane', 'Dragon-Bone', 'Elementium'];
-const effects = [
-  'Chance on hit: Blasts the target for 150 Fire damage.',
-  'Equip: Increases attack power by 50.',
-  'Chance on hit: Siphons 50 health from the target.',
-  'Equip: Increases critical strike chance by 2%.',
-  'Equip: Reduces armor of the target by 100 on hit.',
-  'Equip: Grants immunity to Fear for the first 5 seconds of combat.',
-  'Chance on hit: Increases melee haste by 10% for 10 sec.',
-  'Equip: +40 Resistance to all magic.',
-  'Equip: Your attacks ignore 10% of the target\'s armor.',
-  'Chance on hit: Silences the target for 3 sec.',
-  'Equip: Increases damage done to Undead by 5%.',
-  'Chance on hit: Summons a fiery familiar to fight by your side for 15 sec.',
-  'Equip: Reduces physical damage taken by 5%.',
-  'Chance on hit: Freezes the target to the ground for 5 sec.'
-];
-const materials = ['Arcanite Bar', 'Thorium Bar', 'Dark Iron Bar', 'Nexus Crystal', 'Righteous Orb', 'Essence of Fire', 'Essence of Earth', 'Core Leather', 'Enchanted Leather', 'Black Lotus', 'Elementium Ore', 'Void Crystal', 'Primal Hakkari Idol'];
+const usedNames = new Set();
 
-function getRandom(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
+function generateUniqueItem(bases, prefixes, suffixes) {
+  let attempts = 0;
+  while (attempts < 1000) {
+    const base = bases[Math.floor(Math.random() * bases.length)];
+    const prefix = prefixes.length && Math.random() > 0.3 ? prefixes[Math.floor(Math.random() * prefixes.length)] + ' ' : '';
+    const suffix = suffixes.length && Math.random() > 0.5 ? ' ' + suffixes[Math.floor(Math.random() * suffixes.length)] : '';
+    const name = `${prefix}${base.name}${suffix}`;
+    
+    if (!usedNames.has(name)) {
+      usedNames.add(name);
+      return {
+        name,
+        slot: base.slot,
+        type: base.type
+      };
+    }
+    attempts++;
+  }
+  return {
+    name: `Unique Item ${Math.floor(Math.random() * 1000000)}`,
+    slot: bases[0].slot,
+    type: bases[0].type
+  };
 }
 
-function generateRecipes(count, typeGen, nameGen) {
+const PROFESSIONS = [
+  {
+    category: "Primary: Crafting",
+    id: "Alchemy",
+    name: "Alchemy",
+    icon: "trade_alchemy",
+    desc: "Master the brewing of powerful elixirs, flasks, and transmutations. Discover rare recipes lost to time.",
+    bases: [
+      { name: "Potion", slot: "", type: "Consumable" },
+      { name: "Elixir", slot: "", type: "Consumable" },
+      { name: "Flask", slot: "", type: "Consumable" },
+      { name: "Vial", slot: "", type: "Consumable" },
+      { name: "Draught", slot: "", type: "Consumable" },
+      { name: "Phial", slot: "", type: "Consumable" }
+    ],
+    prefixes: ["Major", "Minor", "Greater", "Lesser", "Volatile", "Purified", "Corrupted", "Enchanted"],
+    suffixes: ["of the Mongoose", "of the Sage", "of Giants", "of Shadow Power", "of Fire Resistance", "of Free Action", "of Dreamless Sleep", "of Supreme Power"],
+    count: 50
+  },
+  {
+    category: "Primary: Crafting",
+    id: "Blacksmithing",
+    name: "Blacksmithing",
+    icon: "trade_blacksmithing",
+    desc: "Forge mighty weapons and impenetrable plate armor from the world's rarest ores.",
+    bases: [
+      { name: "Broadsword", slot: "One-Hand", type: "Sword" },
+      { name: "Battleaxe", slot: "Two-Hand", type: "Axe" },
+      { name: "Warhammer", slot: "Two-Hand", type: "Mace" },
+      { name: "Breastplate", slot: "Chest", type: "Plate" },
+      { name: "Gauntlets", slot: "Hands", type: "Plate" },
+      { name: "Sabatons", slot: "Feet", type: "Plate" },
+      { name: "Pauldrons", slot: "Shoulder", type: "Plate" },
+      { name: "Shield", slot: "Off Hand", type: "Shield" },
+      { name: "Claymore", slot: "Two-Hand", type: "Sword" },
+      { name: "Greatsword", slot: "Two-Hand", type: "Sword" }
+    ],
+    prefixes: ["Dark Iron", "True-silver", "Thorium", "Arcanite", "Obsidian", "Elementium", "Blood-forged", "Void-Touched", "Lionheart", "Stronghold"],
+    suffixes: ["of the Tiger", "of the Bear", "of the Monkey", "of the Gorilla", "of Striking", "of Defense", "of the Champion", "of the Warlord"],
+    count: 50
+  },
+  {
+    category: "Primary: Crafting",
+    id: "Engineering",
+    name: "Engineering",
+    icon: "trade_engineering",
+    desc: "The pinnacle of utility. Build explosives, trinkets, and personal flying prototypes.",
+    bases: [
+      { name: "Death-Ray", slot: "Trinket", type: "Trinket" },
+      { name: "Net-o-Matic", slot: "Trinket", type: "Trinket" },
+      { name: "Defibrillator", slot: "Trinket", type: "Trinket" },
+      { name: "Mind Control Cap", slot: "Head", type: "Cloth" },
+      { name: "Shrink Ray", slot: "Trinket", type: "Trinket" },
+      { name: "Rocket Boots", slot: "Feet", type: "Cloth" },
+      { name: "Grenade", slot: "", type: "Consumable" },
+      { name: "Dynamite", slot: "", type: "Consumable" },
+      { name: "Repair Bot", slot: "", type: "Miscellaneous" },
+      { name: "Battle Chicken", slot: "Trinket", type: "Trinket" }
+    ],
+    prefixes: ["Gnomish", "Goblin", "Ultrasafe", "Experimental", "Volatile", "Overcharged", "Clockwork", "Arcane-Powered"],
+    suffixes: ["v1.0", "v2.0", "v3.0", "XL", "Prototype", "Mk. II"],
+    count: 50
+  },
+  {
+    category: "Primary: Crafting",
+    id: "Tailoring",
+    name: "Tailoring",
+    icon: "trade_tailoring",
+    desc: "Weave magical cloths into powerful robes, bags, and spellcaster garments.",
+    bases: [
+      { name: "Robe", slot: "Chest", type: "Cloth" },
+      { name: "Mantle", slot: "Shoulder", type: "Cloth" },
+      { name: "Gloves", slot: "Hands", type: "Cloth" },
+      { name: "Boots", slot: "Feet", type: "Cloth" },
+      { name: "Cowl", slot: "Head", type: "Cloth" },
+      { name: "Leggings", slot: "Legs", type: "Cloth" },
+      { name: "Bag", slot: "Bag", type: "Container" },
+      { name: "Satchel", slot: "Bag", type: "Container" },
+      { name: "Tunic", slot: "Chest", type: "Cloth" }
+    ],
+    prefixes: ["Runecloth", "Mooncloth", "Felcloth", "Bloodvine", "Spellfire", "Shadoweave", "Ghostweave", "Dreamweave"],
+    suffixes: ["of the Owl", "of the Eagle", "of the Whale", "of Sorcery", "of Healing", "of the Archmage"],
+    count: 50
+  },
+  {
+    category: "Primary: Crafting",
+    id: "Leatherworking",
+    name: "Leatherworking",
+    icon: "trade_leatherworking",
+    desc: "Craft leather and mail armor from the hides of dangerous beasts.",
+    bases: [
+      { name: "Tunic", slot: "Chest", type: "Leather" },
+      { name: "Belt", slot: "Waist", type: "Leather" },
+      { name: "Bracers", slot: "Wrist", type: "Leather" },
+      { name: "Boots", slot: "Feet", type: "Leather" },
+      { name: "Helm", slot: "Head", type: "Leather" },
+      { name: "Legguards", slot: "Legs", type: "Mail" },
+      { name: "Spaulders", slot: "Shoulder", type: "Mail" },
+      { name: "Cloak", slot: "Back", type: "Cloth" }
+    ],
+    prefixes: ["Devilsaur", "Black Dragonscale", "Corehound", "Chimeric", "Wolfshead", "Thick", "Rugged", "Cured"],
+    suffixes: ["of the Monkey", "of the Falcon", "of the Wolf", "of Agility", "of the Tracker"],
+    count: 50
+  },
+  {
+    category: "Primary: Crafting",
+    id: "Enchanting",
+    name: "Enchanting",
+    icon: "trade_engraving",
+    desc: "Disenchant items into magical essences to permanently augment gear.",
+    bases: [
+      { name: "Enchant Weapon", slot: "", type: "Consumable" },
+      { name: "Enchant Chest", slot: "", type: "Consumable" },
+      { name: "Enchant Boots", slot: "", type: "Consumable" },
+      { name: "Enchant Gloves", slot: "", type: "Consumable" },
+      { name: "Enchant Bracer", slot: "", type: "Consumable" },
+      { name: "Enchant Cloak", slot: "", type: "Consumable" },
+      { name: "Enchant Shield", slot: "", type: "Consumable" },
+      { name: "Brilliant Mana Oil", slot: "", type: "Consumable" },
+      { name: "Brilliant Wizard Oil", slot: "", type: "Consumable" }
+    ],
+    prefixes: ["Major", "Minor", "Greater", "Lesser", "Superior", "Excellent"],
+    suffixes: ["- Crusader", "- Lifestealing", "- Spell Power", "- Agility", "- Minor Speed", "- Greater Stats", "- Fiery Weapon", "- Icy Chill"],
+    count: 50
+  },
+  {
+    category: "Primary: Crafting",
+    id: "Jewelcrafting",
+    name: "Jewelcrafting",
+    icon: "inv_misc_gem_01",
+    desc: "Cut raw gems into powerful jewels to socket into your gear, or craft ornate rings and amulets.",
+    bases: [
+      { name: "Ruby", slot: "", type: "Gem" },
+      { name: "Sapphire", slot: "", type: "Gem" },
+      { name: "Emerald", slot: "", type: "Gem" },
+      { name: "Topaz", slot: "", type: "Gem" },
+      { name: "Opal", slot: "", type: "Gem" },
+      { name: "Diamond", slot: "", type: "Gem" },
+      { name: "Ring", slot: "Finger", type: "Jewelry" },
+      { name: "Amulet", slot: "Neck", type: "Jewelry" },
+      { name: "Necklace", slot: "Neck", type: "Jewelry" },
+      { name: "Pendant", slot: "Neck", type: "Jewelry" }
+    ],
+    prefixes: ["Solid", "Sparkling", "Brilliant", "Delicate", "Flashing", "Runed", "Shifting", "Glinting"],
+    suffixes: ["of the Earth", "of the Sea", "of the Sky", "of the Sun", "of the Moon"],
+    count: 50
+  },
+  {
+    category: "Primary: Crafting",
+    id: "Inscription",
+    name: "Inscription",
+    icon: "inv_scroll_08",
+    desc: "Mill herbs into pigments to create powerful glyphs, scrolls, and off-hand tomes.",
+    bases: [
+      { name: "Glyph", slot: "", type: "Glyph" },
+      { name: "Scroll", slot: "", type: "Consumable" },
+      { name: "Tome", slot: "Off Hand", type: "Miscellaneous" },
+      { name: "Vellum", slot: "", type: "Trade Good" },
+      { name: "Tarot", slot: "Trinket", type: "Trinket" }
+    ],
+    prefixes: ["Major", "Minor", "Greater", "Lesser", "Mystic", "Arcane", "Divine", "Shadowy"],
+    suffixes: ["of Strength", "of Agility", "of Intellect", "of Protection", "of the Gladiator", "of Recall"],
+    count: 50
+  },
+  {
+    category: "Primary: Gathering",
+    id: "Mining",
+    name: "Mining",
+    icon: "trade_mining",
+    desc: "Extract precious ores and gems from the earth.",
+    bases: [
+      { name: "Ore", slot: "", type: "Trade Good" },
+      { name: "Bar", slot: "", type: "Trade Good" },
+      { name: "Stone", slot: "", type: "Trade Good" },
+      { name: "Crystal", slot: "", type: "Trade Good" }
+    ],
+    prefixes: ["Copper", "Tin", "Iron", "Mithril", "Thorium", "Dark Iron", "Elementium", "Arcanite"],
+    suffixes: [""],
+    count: 20
+  },
+  {
+    category: "Primary: Gathering",
+    id: "Herbalism",
+    name: "Herbalism",
+    icon: "spell_nature_naturetouchgrow",
+    desc: "Gather rare herbs and flora from across the world.",
+    bases: [
+      { name: "Weed", slot: "", type: "Trade Good" },
+      { name: "Bloom", slot: "", type: "Trade Good" },
+      { name: "Root", slot: "", type: "Trade Good" },
+      { name: "Lotus", slot: "", type: "Trade Good" },
+      { name: "Leaf", slot: "", type: "Trade Good" },
+      { name: "Clover", slot: "", type: "Trade Good" }
+    ],
+    prefixes: ["Silverleaf", "Peacebloom", "Earthroot", "Mageroyal", "Briarthorn", "Kingsblood", "Liferoot", "Fadeleaf", "Goldthorn", "Khadgar's Whisker", "Blindweed", "Ghost Mushroom", "Gromsblood", "Arthas' Tears", "Sungrass", "Dreamfoil", "Mountain Silversage", "Plaguebloom", "Icecap", "Black Lotus"],
+    suffixes: [""],
+    count: 20
+  },
+  {
+    category: "Primary: Gathering",
+    id: "Skinning",
+    name: "Skinning",
+    icon: "inv_misc_pelt_wolf_01",
+    desc: "Harvest leathers, hides, and scales from slain beasts.",
+    bases: [
+      { name: "Leather", slot: "", type: "Trade Good" },
+      { name: "Hide", slot: "", type: "Trade Good" },
+      { name: "Scale", slot: "", type: "Trade Good" },
+      { name: "Pelt", slot: "", type: "Trade Good" }
+    ],
+    prefixes: ["Ruined", "Light", "Medium", "Heavy", "Thick", "Rugged", "Devilsaur", "Corehound", "Dragonscale", "Chimera"],
+    suffixes: [""],
+    count: 20
+  },
+  {
+    category: "Secondary Skills",
+    id: "Cooking",
+    name: "Cooking",
+    icon: "inv_misc_food_15",
+    desc: "Prepare hearty meals that provide long-lasting buffs.",
+    bases: [
+      { name: "Stew", slot: "", type: "Consumable" },
+      { name: "Steak", slot: "", type: "Consumable" },
+      { name: "Chops", slot: "", type: "Consumable" },
+      { name: "Soup", slot: "", type: "Consumable" },
+      { name: "Pie", slot: "", type: "Consumable" },
+      { name: "Sausage", slot: "", type: "Consumable" },
+      { name: "Ribs", slot: "", type: "Consumable" },
+      { name: "Surprise", slot: "", type: "Consumable" },
+      { name: "Delight", slot: "", type: "Consumable" }
+    ],
+    prefixes: ["Boar", "Spider", "Wolf", "Bear", "Raptor", "Dragonbreath", "Dirge's Kickin'", "Savory Deviate"],
+    suffixes: [""],
+    count: 30
+  },
+  {
+    category: "Secondary Skills",
+    id: "Fishing",
+    name: "Fishing",
+    icon: "trade_fishing",
+    desc: "Catch fish from the waters of Azeroth for cooking or alchemy.",
+    bases: [
+      { name: "Snapper", slot: "", type: "Trade Good" },
+      { name: "Catfish", slot: "", type: "Trade Good" },
+      { name: "Salmon", slot: "", type: "Trade Good" },
+      { name: "Yellowtail", slot: "", type: "Trade Good" },
+      { name: "Squid", slot: "", type: "Trade Good" },
+      { name: "Mackerel", slot: "", type: "Trade Good" },
+      { name: "Trout", slot: "", type: "Trade Good" },
+      { name: "Grouper", slot: "", type: "Trade Good" },
+      { name: "Deviate Fish", slot: "", type: "Trade Good" }
+    ],
+    prefixes: ["Slitherskin", "Longjaw", "Bristle Whisker", "Spotted", "Raw", "Winter", "Firefin", "Oily", "Stonescale"],
+    suffixes: [""],
+    count: 30
+  },
+  {
+    category: "Secondary Skills",
+    id: "First Aid",
+    name: "First Aid",
+    icon: "spell_holy_sealofsacrifice",
+    desc: "Create bandages and anti-venoms to quickly heal wounds in combat.",
+    bases: [
+      { name: "Bandage", slot: "", type: "Consumable" },
+      { name: "Anti-Venom", slot: "", type: "Consumable" }
+    ],
+    prefixes: ["Linen", "Wool", "Silk", "Mageweave", "Runecloth", "Heavy Linen", "Heavy Wool", "Heavy Silk", "Heavy Mageweave", "Heavy Runecloth", "Strong", "Powerful"],
+    suffixes: [""],
+    count: 15
+  }
+];
+
+function generateStats(type, slot, name) {
+  if (type === "Consumable") {
+    if (name.includes("Bandage")) return ["Use: Heals 2000 damage over 8 sec."];
+    if (name.includes("Enchant")) return ["Use: Permanently enchants an item."];
+    if (name.includes("Elixir") || name.includes("Flask") || name.includes("Food") || name.includes("Stew") || name.includes("Steak")) {
+      return ["Use: Restores 2148 health and mana over 30 sec. Must remain seated."];
+    }
+    if (name.includes("Grenade") || name.includes("Dynamite")) {
+      return ["Use: Inflicts 300 to 500 Fire damage and stuns targets for 3 sec in a 3 yard radius."];
+    }
+    return ["Use: Restores 1000 health and 1500 mana."];
+  }
+  if (type === "Trade Good" || type === "Gem" || type === "Glyph") return [];
+  if (type === "Container") return ["16 Slot Bag"];
+  
+  if (slot === "Trinket") {
+    return [
+      "Equip: Increases your chance to critically hit by 2%.",
+      "Use: Increases attack power by 250 for 20 sec."
+    ];
+  }
+
+  const possibleStats = [
+    "+15 Strength", "+15 Agility", "+20 Stamina", "+15 Intellect", "+15 Spirit",
+    "Equip: Improves your chance to get a critical strike by 1%.",
+    "Equip: Increases healing done by spells and effects by up to 33.",
+    "Equip: Increases damage and healing done by magical spells and effects by up to 21.",
+    "Equip: Increases your chance to hit by 1%."
+  ];
+  
+  const stats = [];
+  const numStats = Math.floor(Math.random() * 3) + 1; // 1 to 3 random stats
+  for (let i = 0; i < numStats; i++) {
+    stats.push(possibleStats[Math.floor(Math.random() * possibleStats.length)]);
+  }
+  return [...new Set(stats)];
+}
+
+const data = {
+  "Primary: Crafting": [],
+  "Primary: Gathering": [],
+  "Secondary Skills": []
+};
+
+PROFESSIONS.forEach(prof => {
   const recipes = [];
-  for (let i = 0; i < count; i++) {
-    const rawType = typeGen();
-    const isEpic = Math.random() > 0.8;
-    const rarity = isEpic ? 'Epic' : 'Rare';
+  for (let i=0; i<prof.count; i++) {
+    const itemData = generateUniqueItem(prof.bases, prof.prefixes, prof.suffixes);
     
-    let slot = '';
-    let itemType = rawType;
-    if (rawType === 'Weapon') {
-      slot = getRandom(['Main Hand', 'Two-Hand']);
-      itemType = getRandom(['Sword', 'Axe', 'Mace']);
-    } else if (rawType === 'Shield') {
-      slot = 'Off Hand';
-    } else if (rawType === 'Heavy Armor') {
-      slot = getRandom(['Chest', 'Legs', 'Shoulder', 'Head', 'Hands', 'Feet']);
-      itemType = getRandom(['Plate', 'Mail']);
-    } else if (rawType === 'Trinket' || rawType === 'Gadget') {
-      slot = 'Trinket';
-    } else if (rawType === 'Explosive' || rawType === 'Flask' || rawType === 'Elixir' || rawType === 'Potion') {
-      itemType = 'Consumable';
-    } else if (rawType === 'Scope') {
-      itemType = 'Item Enhancement';
-    } else if (rawType === 'Mount') {
-      itemType = 'Mount';
-    } else if (rawType === 'Transmute') {
-      itemType = 'Trade Goods';
-    }
-
-    const stats = [];
-    if (slot && slot !== 'Trinket' && itemType !== 'Consumable' && itemType !== 'Item Enhancement') {
-      const statTypes = ['Stamina', 'Intellect', 'Agility', 'Strength', 'Spirit'];
-      stats.push(`+${Math.floor(Math.random() * 20 + 5)} ${getRandom(statTypes)}`);
-      if (Math.random() > 0.5) {
-        stats.push(`+${Math.floor(Math.random() * 15 + 5)} ${getRandom(statTypes)}`);
-      }
-    }
-
     recipes.push({
-      name: nameGen(),
-      rarity,
-      bindType: itemType === 'Consumable' || itemType === 'Item Enhancement' || itemType === 'Trade Goods' ? '' : 'Binds when equipped',
-      slot,
-      type: itemType,
-      stats,
-      effect: getRandom(effects),
-      requiresLevel: 60,
-      mats: `${Math.floor(Math.random() * 20 + 5)}x ${getRandom(materials)}, ${Math.floor(Math.random() * 10 + 2)}x ${getRandom(materials)}`,
-      sellPrice: `${Math.floor(Math.random() * 5 + 1)}g ${Math.floor(Math.random() * 99)}s`
+      name: itemData.name,
+      rarity: ["Common", "Uncommon", "Rare", "Epic"][Math.floor(Math.random() * 4)],
+      bindType: (itemData.slot || itemData.type === 'Trinket') ? (Math.random() > 0.5 ? "Binds when picked up" : "Binds when equipped") : "",
+      slot: itemData.slot,
+      type: itemData.type,
+      stats: generateStats(itemData.type, itemData.slot, itemData.name),
+      effect: "",
+      requiresLevel: Math.floor(Math.random() * 60) + 1,
+      mats: "Various materials",
+      sellPrice: `${Math.floor(Math.random() * 10) + 1}g ${Math.floor(Math.random() * 99)}s`
     });
   }
-  return recipes;
-}
+  
+  data[prof.category].push({
+    id: prof.id,
+    name: prof.name,
+    icon: prof.icon,
+    description: prof.desc,
+    recipes: recipes
+  });
+});
 
-const bsRecipes = generateRecipes(200, () => getRandom(['Weapon', 'Heavy Armor', 'Shield']), () => `${getRandom(prefixes)} ${getRandom(weapons)}`);
-const alchRecipes = generateRecipes(150, () => getRandom(['Flask', 'Elixir', 'Potion', 'Transmute']), () => `${getRandom(['Flask of', 'Elixir of', 'Potion of', 'Vial of'])} ${getRandom(['the Titan', 'True Sight', 'Shadow-Walking', 'the Emerald Dream', 'Liquid Fire', 'Iron Will', 'the Naga', 'Pure Magic', 'the Mad Alchemist', 'Berserker\'s Rage'])}`);
-const engRecipes = generateRecipes(150, () => getRandom(['Gadget', 'Explosive', 'Scope', 'Trinket', 'Mount']), () => `${getRandom(['Gnomish', 'Goblin', 'Ultrasafe', 'Experimental', 'Volatile'])} ${getRandom(['Rocket-Pack', 'Defibrillator', 'Death-Ray', 'Shrink Ray', 'Net-o-Matic', 'Mind Control Cap', 'Battle Chicken', 'Repair Bot', 'Teleporter'])}`);
-
-
-const tsFile = `export const PROF_CATS = {
+const fileContent = `export const PROF_CATS = {
   PRIMARY_CRAFTING: 'Primary: Crafting',
   PRIMARY_GATHERING: 'Primary: Gathering',
   SECONDARY: 'Secondary Skills'
 };
 
-export const professionsData = {
-  [PROF_CATS.PRIMARY_CRAFTING]: [
-    {
-      id: 'Engineering',
-      name: 'Engineering',
-      icon: '⚙️',
-      description: 'The pinnacle of utility. Engineers now build full siege vehicles for Battlegrounds, personal flying prototypes, and dangerous combat augmentations. Displaying 150+ new recipes.',
-      recipes: ${JSON.stringify(engRecipes, null, 2)}
-    },
-    {
-      id: 'Blacksmithing',
-      name: 'Blacksmithing',
-      icon: '🔨',
-      description: 'The absolute masters of the endgame economy. Displaying 200+ new weapons and armor pieces.',
-      recipes: ${JSON.stringify(bsRecipes, null, 2)}
-    },
-    {
-      id: 'Alchemy',
-      name: 'Alchemy',
-      icon: '🧪',
-      description: 'Alchemists delve into forbidden mutagenesis. Displaying 150+ new experimental concoctions.',
-      recipes: ${JSON.stringify(alchRecipes, null, 2)}
-    }
-  ]
-};
+export const professionsData = ${JSON.stringify(data, null, 2)};
 `;
 
-fs.writeFileSync('./src/data/professions.ts', tsFile);
-console.log('Successfully wrote 500+ recipes to professions.ts');
+const targetPath = 'C:\\\\Users\\\\mario\\\\Downloads\\\\Games\\\\ClassicPlusTalents\\\\classicplustalents\\\\src\\\\data\\\\professions.ts';
+fs.writeFileSync(targetPath, fileContent, 'utf8');
+console.log('Successfully generated authentic professions.ts with ' + usedNames.size + ' unique items.');

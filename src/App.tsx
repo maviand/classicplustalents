@@ -10,6 +10,7 @@ import Runes from './pages/Runes';
 import Talents from './pages/Talents';
 import PvE from './pages/PvE';
 import PvP from './pages/PvP';
+import WorldSystems from './pages/WorldSystems';
 import Professions from './pages/Professions';
 import { ThemeProvider } from './context/ThemeContext';
 
@@ -32,6 +33,7 @@ export default function App() {
             
             <Route path="pve" element={<PvE />} />
             <Route path="pvp" element={<PvP />} />
+            <Route path="systems" element={<WorldSystems />} />
             <Route path="professions" element={<Professions />} />
           </Route>
         </Routes>

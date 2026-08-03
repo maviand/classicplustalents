@@ -15,19 +15,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "12%",
       "15%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Unbreakable Will.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Unbreakable Will critically hits.",
-    "devCommentary": "We wanted Unbreakable Will to define the Disc playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon the impact of Unbreakable Will."
+    "visualEffect": "Shadowy tendrils rise from the earth to grasp the target. This is accompanied by a swift manifestation of Unbreakable Will."
   },
   {
     "id": "wand_spec",
@@ -41,19 +29,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "17%",
       "25%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Wand Specialization represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Creates a devastating synergy when you weave Wand Specialization between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Wand Specialization.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as the sacred power of Wand Specialization courses through you."
+    "visualEffect": "A blinding pillar of holy light descends from the sky. This is accompanied by a chaotic manifestation of Wand Specialization."
   },
   {
     "id": "imp_pwf",
@@ -66,19 +42,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "Increases the effect of your Power Word: Fortitude and Prayer of Fortitude spells by 15%.",
       "30%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Improved Power Word: Fortitude.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Power Word: Fortitude critically hits.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your Improved Power Word: Fortitude attack."
+    "visualEffect": "The whispers of the void echo audibly in the area. This is accompanied by a swift manifestation of Improved Power Word: Fortitude."
   },
   {
     "id": "imp_pws",
@@ -92,19 +56,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Improved Power Word: Shield.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Improved Power Word: Shield between auto-attacks.",
-      "Acts as a foundational pillar for any sacred oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Improved Power Word: Shield to define the Disc playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon the impact of Improved Power Word: Shield."
+    "visualEffect": "Golden runes of protection orbit the recipient. This is accompanied by a forbidden manifestation of Improved Power Word: Shield."
   },
   {
     "id": "mental_agility",
@@ -118,19 +70,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "7%",
       "10%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary sacred stats.",
-    "loreOrigins": "A forbidden sacred art that utilizes light to overwhelm enemies.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Mental Agility between auto-attacks.",
-      "Creates a devastating synergy when you weave Mental Agility between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your Mental Agility attack."
+    "visualEffect": "A blinding pillar of holy light descends from the sky. This is accompanied by a forbidden manifestation of Mental Agility."
   },
   {
     "id": "martyrdom",
@@ -143,19 +83,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "Gives you a 50% chance to gain the Focused Casting effect that lasts for 6 seconds after being the victim of a critical strike. The Focused Casting effect prevents you from losing casting time when taking damage.",
       "100%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as sacred power.",
-    "loreOrigins": "An instinctual manifestation of light, allowing you to purify your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other purify abilities.",
-      "Provides unmatched utility when combined with other purify abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Martyrdom critically hits.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your Martyrdom leaves a lingering trail of light in your wake."
+    "visualEffect": "A dark void momentarily eclipses the light around you. This is accompanied by a ethereal manifestation of Martyrdom."
   },
   {
     "id": "imp_inner_fire",
@@ -168,19 +96,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "Increases the Armor bonus of your Inner Fire spell by 15% and increases the number of charges by 10.",
       "30% / 20 charges"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Improved Inner Fire.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Improved Inner Fire between auto-attacks.",
-      "Acts as a foundational pillar for any sacred oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "A massive burst of light erupts from the target upon the impact of Improved Inner Fire."
+    "visualEffect": "A halo of pure radiance pulsates outwards. This is accompanied by a devastating manifestation of Improved Inner Fire."
   },
   {
     "id": "mental_strength",
@@ -194,19 +110,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "7%",
       "10%"
     ],
-    "statScaling": "Scales directly with your total light power rating.",
-    "loreOrigins": "Originally devised in the Scarlet Monastery, the technique of Mental Strength was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your sacred cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
-    "devCommentary": "We wanted Mental Strength to define the Disc playstyle at all levels.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your Mental Strength attack."
+    "visualEffect": "A halo of pure radiance pulsates outwards. This is accompanied by a chaotic manifestation of Mental Strength."
   },
   {
     "id": "inner_focus",
@@ -218,19 +122,7 @@ export const PRIEST_DISC_TALENTS: any = [
     "desc": [
       "When activated, reduces the Mana cost of your next spell by 100% and increases its critical effect chance by 25% if it is capable of a critical effect. 3 minute cooldown."
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary sacred stats.",
-    "loreOrigins": "A forbidden sacred art that utilizes light to overwhelm enemies.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Inner Focus between auto-attacks.",
-      "Creates a devastating synergy when you weave Inner Focus between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as the sacred power of Inner Focus courses through you."
+    "visualEffect": "Shadowy tendrils rise from the earth to grasp the target. This is accompanied by a swift manifestation of Inner Focus."
   },
   {
     "id": "meditation",
@@ -244,19 +136,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Scales directly with your total light power rating.",
-    "loreOrigins": "Originally devised in the Scarlet Monastery, the technique of Meditation was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other purify abilities.",
-      "Dramatically increases the power spike of your sacred cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "A massive burst of light erupts from the target upon the impact of Meditation."
+    "visualEffect": "Golden runes of protection orbit the recipient. This is accompanied by a chaotic manifestation of Meditation."
   },
   {
     "id": "soul_warding",
@@ -269,19 +149,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "Reduces the cooldown of your Power Word: Shield by 1 second, and reduces its mana cost by 5%.",
       "2 seconds / 10%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Soul Warding.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Soul Warding between auto-attacks.",
-      "Acts as a foundational pillar for any sacred oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your Soul Warding attack."
+    "visualEffect": "A blinding pillar of holy light descends from the sky. This is accompanied by a lethal manifestation of Soul Warding."
   },
   {
     "id": "imp_divine_spirit",
@@ -294,19 +162,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "Your Divine Spirit buff increases spell damage and healing by an amount equal to 5% of your total Spirit.",
       "10%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Improved Divine Spirit.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Divine Spirit critically hits.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "Your Improved Divine Spirit leaves a lingering trail of light in your wake."
+    "visualEffect": "Shadowy tendrils rise from the earth to grasp the target. This is accompanied by a swift manifestation of Improved Divine Spirit."
   },
   {
     "id": "focused_power",
@@ -320,19 +176,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "2% / 1.0 seconds",
       "3% / 1.5 seconds"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as sacred power.",
-    "loreOrigins": "An instinctual manifestation of light, allowing you to purify your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other purify abilities.",
-      "Provides unmatched utility when combined with other purify abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Focused Power critically hits.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your Focused Power leaves a lingering trail of light in your wake."
+    "visualEffect": "Shadowy tendrils rise from the earth to grasp the target. This is accompanied by a divine manifestation of Focused Power."
   },
   {
     "id": "absolution",
@@ -345,19 +189,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "Reduces the mana cost of your Dispel Magic, Cure Disease, and Abolish Disease spells by 10%.",
       "20%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary sacred stats.",
-    "loreOrigins": "A forbidden sacred art that utilizes light to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum light output.",
-      "Dramatically increases the power spike of your sacred cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Absolution.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "A massive burst of light erupts from the target upon the impact of Absolution."
+    "visualEffect": "Ethereal wings of light momentarily sprout from your back. This is accompanied by a lethal manifestation of Absolution."
   },
   {
     "id": "power_infusion",
@@ -373,19 +205,7 @@ export const PRIEST_DISC_TALENTS: any = [
     "desc": [
       "Infuses the target with power, increasing their spell damage and healing by 20% for 15 seconds. 3 minute cooldown."
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Power Infusion represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Creates a devastating synergy when you weave Power Infusion between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Power Infusion.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your Power Infusion attack."
+    "visualEffect": "A blinding pillar of holy light descends from the sky. This is accompanied by a phantom manifestation of Power Infusion."
   },
   {
     "id": "enlightenment",
@@ -399,19 +219,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Scales directly with your total light power rating.",
-    "loreOrigins": "Originally devised in the Scarlet Monastery, the technique of Enlightenment was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other purify abilities.",
-      "Dramatically increases the power spike of your sacred cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Enlightenment to define the Disc playstyle at all levels.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your Enlightenment attack."
+    "visualEffect": "A blinding pillar of holy light descends from the sky. This is accompanied by a forbidden manifestation of Enlightenment."
   },
   {
     "id": "reflective_shield",
@@ -429,19 +237,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "20%",
       "30%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Reflective Shield represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your sacred cooldowns.",
-      "Provides unmatched utility when combined with other purify abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Reflective Shield.",
-    "devCommentary": "Initially, Reflective Shield was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "Casting Reflective Shield temporarily wreathes your character in sacred energy."
+    "visualEffect": "Golden runes of protection orbit the recipient. This is accompanied by a ethereal manifestation of Reflective Shield."
   },
   {
     "id": "aspiration",
@@ -454,19 +250,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "Reduces the cooldown of your Penance, Power Infusion, and Inner Focus spells by 10%.",
       "20%"
     ],
-    "statScaling": "Scales directly with your total light power rating.",
-    "loreOrigins": "Originally devised in the Scarlet Monastery, the technique of Aspiration was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your sacred cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as the sacred power of Aspiration courses through you."
+    "visualEffect": "A dark void momentarily eclipses the light around you. This is accompanied by a brutal manifestation of Aspiration."
   },
   {
     "id": "rapture",
@@ -479,19 +263,7 @@ export const PRIEST_DISC_TALENTS: any = [
       "When your Power Word: Shield is completely absorbed or dispelled, you instantly restore 2% of your maximum mana. This effect can only occur once every 12 seconds.",
       "4%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary sacred stats.",
-    "loreOrigins": "A forbidden sacred art that utilizes light to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum light output.",
-      "Dramatically increases the power spike of your sacred cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Rapture.",
-    "devCommentary": "We wanted Rapture to define the Disc playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon the impact of Rapture."
+    "visualEffect": "Shadowy tendrils rise from the earth to grasp the target. This is accompanied by a unseen manifestation of Rapture."
   },
   {
     "id": "penance",
@@ -507,19 +279,7 @@ export const PRIEST_DISC_TALENTS: any = [
     "desc": [
       "Launches a volley of holy light at the target, causing X Holy damage to an enemy, or Y healing to an ally, instantly and every 1 second for 2 seconds. 10 second cooldown."
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary sacred stats.",
-    "loreOrigins": "A forbidden sacred art that utilizes light to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum light output.",
-      "Dramatically increases the power spike of your sacred cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Disc PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Penance.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your Penance leaves a lingering trail of light in your wake."
+    "visualEffect": "The whispers of the void echo audibly in the area. This is accompanied by a divine manifestation of Penance."
   }
 ];
 
@@ -535,19 +295,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "Gives you a 35% chance to avoid interruption caused by damage while casting any healing spell.",
       "70%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as sacred power.",
-    "loreOrigins": "An instinctual manifestation of light, allowing you to purify your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other purify abilities.",
-      "Provides unmatched utility when combined with other purify abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Healing Focus critically hits.",
-    "devCommentary": "We wanted Healing Focus to define the Holy playstyle at all levels.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your Healing Focus attack."
+    "visualEffect": "Ethereal wings of light momentarily sprout from your back. This is accompanied by a devastating manifestation of Healing Focus."
   },
   {
     "id": "imp_renew",
@@ -561,19 +309,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary sacred stats.",
-    "loreOrigins": "A forbidden sacred art that utilizes light to overwhelm enemies.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Improved Renew between auto-attacks.",
-      "Creates a devastating synergy when you weave Improved Renew between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
-    "devCommentary": "Initially, Improved Renew was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as the sacred power of Improved Renew courses through you."
+    "visualEffect": "Shadowy tendrils rise from the earth to grasp the target. This is accompanied by a swift manifestation of Improved Renew."
   },
   {
     "id": "spiritual_guidance",
@@ -589,19 +325,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "20%",
       "25%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Spiritual Guidance represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Creates a devastating synergy when you weave Spiritual Guidance between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Spiritual Guidance.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Spiritual Guidance temporarily wreathes your character in sacred energy."
+    "visualEffect": "A dark void momentarily eclipses the light around you. This is accompanied by a forbidden manifestation of Spiritual Guidance."
   },
   {
     "id": "spell_warding",
@@ -614,19 +338,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "Reduces all spell damage taken by 5%.",
       "10%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Spell Warding represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Creates a devastating synergy when you weave Spell Warding between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Spell Warding.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "Your Spell Warding leaves a lingering trail of light in your wake."
+    "visualEffect": "Ethereal wings of light momentarily sprout from your back. This is accompanied by a radiant manifestation of Spell Warding."
   },
   {
     "id": "divine_fury",
@@ -642,19 +354,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "0.4 seconds",
       "0.5 seconds"
     ],
-    "statScaling": "Scales directly with your total light power rating.",
-    "loreOrigins": "Originally devised in the Scarlet Monastery, the technique of Divine Fury was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other purify abilities.",
-      "Dramatically increases the power spike of your sacred cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Divine Fury to define the Holy playstyle at all levels.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your Divine Fury attack."
+    "visualEffect": "A halo of pure radiance pulsates outwards. This is accompanied by a primal manifestation of Divine Fury."
   },
   {
     "id": "holy_specialization",
@@ -668,19 +368,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Holy Specialization represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your sacred cooldowns.",
-      "Provides unmatched utility when combined with other purify abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Holy Specialization.",
-    "devCommentary": "We wanted Holy Specialization to define the Holy playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon the impact of Holy Specialization."
+    "visualEffect": "A spectral spirit of redemption floats above. This is accompanied by a unseen manifestation of Holy Specialization."
   },
   {
     "id": "holy_nova",
@@ -692,19 +380,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     "desc": [
       "Causes an explosion of holy light around the caster, causing Holy damage to all enemies within 10 yards and healing all party members within 10 yards. These effects cause no threat."
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as sacred power.",
-    "loreOrigins": "An instinctual manifestation of light, allowing you to purify your foes effortlessly.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum light output.",
-      "Acts as a foundational pillar for any sacred oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Holy Nova.",
-    "devCommentary": "Initially, Holy Nova was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as the sacred power of Holy Nova courses through you."
+    "visualEffect": "The whispers of the void echo audibly in the area. This is accompanied by a unseen manifestation of Holy Nova."
   },
   {
     "id": "imp_healing",
@@ -718,19 +394,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Improved Healing.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Improved Healing critically hits.",
-    "devCommentary": "Initially, Improved Healing was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "Casting Improved Healing temporarily wreathes your character in sacred energy."
+    "visualEffect": "The whispers of the void echo audibly in the area. This is accompanied by a corrupted manifestation of Improved Healing."
   },
   {
     "id": "inspiration",
@@ -748,19 +412,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "16%",
       "25%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Inspiration.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Inspiration critically hits.",
-    "devCommentary": "Initially, Inspiration was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as the sacred power of Inspiration courses through you."
+    "visualEffect": "A halo of pure radiance pulsates outwards. This is accompanied by a powerful manifestation of Inspiration."
   },
   {
     "id": "holy_concentration",
@@ -774,19 +426,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Holy Concentration represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Creates a devastating synergy when you weave Holy Concentration between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Holy Concentration.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Holy Concentration temporarily wreathes your character in sacred energy."
+    "visualEffect": "A dark void momentarily eclipses the light around you. This is accompanied by a corrupted manifestation of Holy Concentration."
   },
   {
     "id": "holy_reach",
@@ -799,19 +439,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 10%.",
       "20%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Holy Reach represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Creates a devastating synergy when you weave Holy Reach between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Holy Reach.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as the sacred power of Holy Reach courses through you."
+    "visualEffect": "The whispers of the void echo audibly in the area. This is accompanied by a devastating manifestation of Holy Reach."
   },
   {
     "id": "spiritual_healing",
@@ -827,19 +455,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "8%",
       "10%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Spiritual Healing represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your sacred cooldowns.",
-      "Provides unmatched utility when combined with other purify abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Spiritual Healing.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Spiritual Healing temporarily wreathes your character in sacred energy."
+    "visualEffect": "A dark void momentarily eclipses the light around you. This is accompanied by a corrupted manifestation of Spiritual Healing."
   },
   {
     "id": "blessed_resilience",
@@ -852,19 +468,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "Critical hits made against you have a 50% chance to prevent you from being critically hit again for 6 seconds.",
       "100%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as sacred power.",
-    "loreOrigins": "An instinctual manifestation of light, allowing you to purify your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other purify abilities.",
-      "Provides unmatched utility when combined with other purify abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Blessed Resilience critically hits.",
-    "devCommentary": "Initially, Blessed Resilience was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "Casting Blessed Resilience temporarily wreathes your character in sacred energy."
+    "visualEffect": "Golden runes of protection orbit the recipient. This is accompanied by a powerful manifestation of Blessed Resilience."
   },
   {
     "id": "spirit_of_redemption",
@@ -880,19 +484,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     "desc": [
       "Upon death, the priest becomes the Spirit of Redemption for 15 seconds. The Spirit cannot move, attack, be attacked, or be targeted by any spells. While in this form, the priest can cast any healing spell free of cost. When the effect ends, the priest dies."
     ],
-    "statScaling": "Scales directly with your total light power rating.",
-    "loreOrigins": "Originally devised in the Scarlet Monastery, the technique of Spirit of Redemption was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your sacred cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
-    "devCommentary": "Initially, Spirit of Redemption was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as the sacred power of Spirit of Redemption courses through you."
+    "visualEffect": "Shadowy tendrils rise from the earth to grasp the target. This is accompanied by a unseen manifestation of Spirit of Redemption."
   },
   {
     "id": "surge_of_light",
@@ -906,19 +498,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as sacred power.",
-    "loreOrigins": "An instinctual manifestation of light, allowing you to purify your foes effortlessly.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum light output.",
-      "Acts as a foundational pillar for any sacred oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Surge of Light.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "Your Surge of Light leaves a lingering trail of light in your wake."
+    "visualEffect": "Ethereal wings of light momentarily sprout from your back. This is accompanied by a ethereal manifestation of Surge of Light."
   },
   {
     "id": "test_of_faith",
@@ -931,19 +511,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "Increases healing by 5% on friendly targets at or below 50% health.",
       "10%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Test of Faith.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Test of Faith critically hits.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "Your Test of Faith leaves a lingering trail of light in your wake."
+    "visualEffect": "Shadowy tendrils rise from the earth to grasp the target. This is accompanied by a corrupted manifestation of Test of Faith."
   },
   {
     "id": "empowered_healing",
@@ -957,19 +525,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "20% / 10%",
       "30% / 15%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Empowered Healing.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Empowered Healing critically hits.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "A massive burst of light erupts from the target upon the impact of Empowered Healing."
+    "visualEffect": "A halo of pure radiance pulsates outwards. This is accompanied by a swift manifestation of Empowered Healing."
   },
   {
     "id": "serendipity",
@@ -983,19 +539,7 @@ export const PRIEST_HOLY_TALENTS: any = [
       "8%",
       "12%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Serendipity represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your sacred cooldowns.",
-      "Provides unmatched utility when combined with other purify abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Serendipity.",
-    "devCommentary": "Initially, Serendipity was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as the sacred power of Serendipity courses through you."
+    "visualEffect": "The whispers of the void echo audibly in the area. This is accompanied by a swift manifestation of Serendipity."
   },
   {
     "id": "circle_of_healing",
@@ -1011,19 +555,7 @@ export const PRIEST_HOLY_TALENTS: any = [
     "desc": [
       "Heals up to 5 friendly party members within 15 yards of the target for X. 6 second cooldown."
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Circle of Healing.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Holy PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Circle of Healing critically hits.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your Circle of Healing leaves a lingering trail of light in your wake."
+    "visualEffect": "The whispers of the void echo audibly in the area. This is accompanied by a corrupted manifestation of Circle of Healing."
   }
 ];
 
@@ -1039,19 +571,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "Gives you a 50% chance to gain a 100% bonus to your Spirit after killing a target that yields experience or honor. Your Mana may regenerate at a 50% rate while casting.",
       "100%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Spirit Tap.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Spirit Tap between auto-attacks.",
-      "Acts as a foundational pillar for any sacred oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your Spirit Tap attack."
+    "visualEffect": "Ethereal wings of light momentarily sprout from your back. This is accompanied by a unseen manifestation of Spirit Tap."
   },
   {
     "id": "imp_swp",
@@ -1065,19 +585,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "4 seconds",
       "6 seconds"
     ],
-    "statScaling": "Scales directly with your total light power rating.",
-    "loreOrigins": "Originally devised in the Scarlet Monastery, the technique of Improved Shadow Word: Pain was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your sacred cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as the sacred power of Improved Shadow Word: Pain courses through you."
+    "visualEffect": "The whispers of the void echo audibly in the area. This is accompanied by a phantom manifestation of Improved Shadow Word: Pain."
   },
   {
     "id": "shadow_focus",
@@ -1093,19 +601,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "8%",
       "10%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary sacred stats.",
-    "loreOrigins": "A forbidden sacred art that utilizes light to overwhelm enemies.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum light output.",
-      "Dramatically increases the power spike of your sacred cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Shadow Focus.",
-    "devCommentary": "Initially, Shadow Focus was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as the sacred power of Shadow Focus courses through you."
+    "visualEffect": "A halo of pure radiance pulsates outwards. This is accompanied by a chaotic manifestation of Shadow Focus."
   },
   {
     "id": "shadow_affinity",
@@ -1119,19 +615,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "16%",
       "25%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Shadow Affinity represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your sacred cooldowns.",
-      "Provides unmatched utility when combined with other purify abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Shadow Affinity.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "A massive burst of light erupts from the target upon the impact of Shadow Affinity."
+    "visualEffect": "A blinding pillar of holy light descends from the sky. This is accompanied by a chaotic manifestation of Shadow Affinity."
   },
   {
     "id": "imp_mind_blast",
@@ -1144,19 +628,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "Reduces the cooldown of your Mind Blast spell by 1 second.",
       "2 seconds"
     ],
-    "statScaling": "Scales directly with your total light power rating.",
-    "loreOrigins": "Originally devised in the Scarlet Monastery, the technique of Improved Mind Blast was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other purify abilities.",
-      "Dramatically increases the power spike of your sacred cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Improved Mind Blast to define the Shadow playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon the impact of Improved Mind Blast."
+    "visualEffect": "Shadowy tendrils rise from the earth to grasp the target. This is accompanied by a devastating manifestation of Improved Mind Blast."
   },
   {
     "id": "darkness",
@@ -1172,19 +644,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "8%",
       "10%"
     ],
-    "statScaling": "Scales directly with your total light power rating.",
-    "loreOrigins": "Originally devised in the Scarlet Monastery, the technique of Darkness was perfected over centuries.",
-    "synergies": [
-      "Provides unmatched utility when combined with other purify abilities.",
-      "Dramatically increases the power spike of your sacred cooldowns."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "We wanted Darkness to define the Shadow playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon the impact of Darkness."
+    "visualEffect": "Ethereal wings of light momentarily sprout from your back. This is accompanied by a unseen manifestation of Darkness."
   },
   {
     "id": "imp_psychic_scream",
@@ -1197,19 +657,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "Reduces the cooldown of your Psychic Scream spell by 2 seconds.",
       "4 seconds"
     ],
-    "statScaling": "Scales directly with your total light power rating.",
-    "loreOrigins": "Originally devised in the Scarlet Monastery, the technique of Improved Psychic Scream was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your sacred cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Improved Psychic Scream temporarily wreathes your character in sacred energy."
+    "visualEffect": "A spectral spirit of redemption floats above. This is accompanied by a divine manifestation of Improved Psychic Scream."
   },
   {
     "id": "mind_flay",
@@ -1225,19 +673,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     "desc": [
       "Assault the target's mind with Shadow energy, causing damage over 3 seconds and slowing their movement speed by 50%."
     ],
-    "statScaling": "Scales directly with your total light power rating.",
-    "loreOrigins": "Originally devised in the Scarlet Monastery, the technique of Mind Flay was perfected over centuries.",
-    "synergies": [
-      "Dramatically increases the power spike of your sacred cooldowns.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Your Mind Flay leaves a lingering trail of light in your wake."
+    "visualEffect": "A spectral spirit of redemption floats above. This is accompanied by a divine manifestation of Mind Flay."
   },
   {
     "id": "shadow_weaving",
@@ -1253,19 +689,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "80%",
       "100%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as sacred power.",
-    "loreOrigins": "An instinctual manifestation of light, allowing you to purify your foes effortlessly.",
-    "synergies": [
-      "Provides unmatched utility when combined with other purify abilities.",
-      "Provides unmatched utility when combined with other purify abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Shadow Weaving critically hits.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your Shadow Weaving attack."
+    "visualEffect": "A spectral spirit of redemption floats above. This is accompanied by a corrupted manifestation of Shadow Weaving."
   },
   {
     "id": "shadow_reach",
@@ -1278,19 +702,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "Increases the range of your offensive Shadow spells by 10% and reduces the threat generated by your Shadow spells by 10%.",
       "20% / 20%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Shadow Reach represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your sacred cooldowns.",
-      "Provides unmatched utility when combined with other purify abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Shadow Reach.",
-    "devCommentary": "We wanted Shadow Reach to define the Shadow playstyle at all levels.",
-    "visualEffect": "A massive burst of light erupts from the target upon the impact of Shadow Reach."
+    "visualEffect": "A halo of pure radiance pulsates outwards. This is accompanied by a chaotic manifestation of Shadow Reach."
   },
   {
     "id": "imp_shadowform",
@@ -1303,19 +715,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "Reduces the casting time lost when taking damage while in Shadowform by 35%, and your Fade ability has a 50% chance to remove all movement impairing effects when used.",
       "70% / 100%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Improved Shadowform.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Improved Shadowform between auto-attacks.",
-      "Acts as a foundational pillar for any sacred oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "A massive burst of light erupts from the target upon the impact of Improved Shadowform."
+    "visualEffect": "A dark void momentarily eclipses the light around you. This is accompanied by a ethereal manifestation of Improved Shadowform."
   },
   {
     "id": "mind_melt",
@@ -1329,19 +729,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "4%",
       "6%"
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as sacred power.",
-    "loreOrigins": "An instinctual manifestation of light, allowing you to purify your foes effortlessly.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum light output.",
-      "Acts as a foundational pillar for any sacred oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Mind Melt.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "Your Mind Melt leaves a lingering trail of light in your wake."
+    "visualEffect": "Golden runes of protection orbit the recipient. This is accompanied by a phantom manifestation of Mind Melt."
   },
   {
     "id": "focused_mind",
@@ -1354,19 +742,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "Reduces the mana cost of your Mind Blast, Mind Flay, and Mind Control spells by 10%.",
       "20%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Focused Mind.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Pairs flawlessly with high critical strike rating for maximum light output."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Reduces the cooldown of your leg rune by 2 seconds whenever Focused Mind critically hits.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as the sacred power of Focused Mind courses through you."
+    "visualEffect": "A dark void momentarily eclipses the light around you. This is accompanied by a ancient manifestation of Focused Mind."
   },
   {
     "id": "shadowform",
@@ -1382,19 +758,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     "desc": [
       "Assume a Shadowform, increasing your Shadow damage by 15% and reducing Physical damage done to you by 15%. However, you may not cast Holy spells while in this form."
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Shadowform represents the pinnacle of the class.",
-    "synergies": [
-      "Acts as a foundational pillar for any sacred oriented build.",
-      "Creates a devastating synergy when you weave Shadowform between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Shadowform.",
-    "devCommentary": "This serves as the ultimate high-risk, high-reward light ability.",
-    "visualEffect": "Your Shadowform leaves a lingering trail of light in your wake."
+    "visualEffect": "The whispers of the void echo audibly in the area. This is accompanied by a swift manifestation of Shadowform."
   },
   {
     "id": "vampiric_embrace",
@@ -1408,19 +772,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "10%",
       "15%"
     ],
-    "statScaling": "Coefficient scales with both spell damage and light mastery.",
-    "loreOrigins": "Passed down by Velen, this mastery of Vampiric Embrace represents the pinnacle of the class.",
-    "synergies": [
-      "Dramatically increases the power spike of your sacred cooldowns.",
-      "Provides unmatched utility when combined with other purify abilities."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Modifies your bracer rune to synergize directly with Vampiric Embrace.",
-    "devCommentary": "Initially, Vampiric Embrace was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "Casting Vampiric Embrace temporarily wreathes your character in sacred energy."
+    "visualEffect": "Ethereal wings of light momentarily sprout from your back. This is accompanied by a lethal manifestation of Vampiric Embrace."
   },
   {
     "id": "shadow_power",
@@ -1433,19 +785,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "Increases the critical strike damage bonus of your Mind Blast and Shadow Word: Death spells by 50%.",
       "100%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Shadow Power.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Shadow Power between auto-attacks.",
-      "Acts as a foundational pillar for any sacred oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "The ground shatters as the sacred power of Shadow Power courses through you."
+    "visualEffect": "Golden runes of protection orbit the recipient. This is accompanied by a swift manifestation of Shadow Power."
   },
   {
     "id": "pain_and_suffering",
@@ -1459,19 +799,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "66%",
       "100%"
     ],
-    "statScaling": "Provides flat scaling independent of your light rating.",
-    "loreOrigins": "A lost secret of the Scarlet Monastery that weaponizes the pure essence of Pain and Suffering.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Pain and Suffering between auto-attacks.",
-      "Acts as a foundational pillar for any sacred oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Your glove rune now gains an additional 10% effectiveness passively.",
-    "devCommentary": "Designed to smooth out the rotation of sacred specs in long encounters.",
-    "visualEffect": "A spectral projection of Velen briefly mirrors your Pain and Suffering attack."
+    "visualEffect": "The whispers of the void echo audibly in the area. This is accompanied by a ethereal manifestation of Pain and Suffering."
   },
   {
     "id": "misery",
@@ -1485,19 +813,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
       "2%",
       "3%"
     ],
-    "statScaling": "Gains a 15% bonus scaling from your primary sacred stats.",
-    "loreOrigins": "A forbidden sacred art that utilizes light to overwhelm enemies.",
-    "synergies": [
-      "Creates a devastating synergy when you weave Misery between auto-attacks.",
-      "Creates a devastating synergy when you weave Misery between auto-attacks."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Causes your helm rune to trigger a secondary light effect.",
-    "devCommentary": "Initially, Misery was too weak, so we gave it massive sacred scaling.",
-    "visualEffect": "The ground shatters as the sacred power of Misery courses through you."
+    "visualEffect": "A dark void momentarily eclipses the light around you. This is accompanied by a primal manifestation of Misery."
   },
   {
     "id": "vampiric_touch",
@@ -1513,19 +829,7 @@ export const PRIEST_SHADOW_TALENTS: any = [
     "desc": [
       "Causes Shadow damage over 15 seconds to your target and causes all party members to gain mana equal to 5% of any Shadow damage you deal."
     ],
-    "statScaling": "Inherits 50% of your weapon's base damage as sacred power.",
-    "loreOrigins": "An instinctual manifestation of light, allowing you to purify your foes effortlessly.",
-    "synergies": [
-      "Pairs flawlessly with high critical strike rating for maximum light output.",
-      "Acts as a foundational pillar for any sacred oriented build."
-    ],
-    "recommendedBuilds": [
-      "Deep Shadow PvE",
-      "Hybrid sacred PvP"
-    ],
-    "runeInteractions": "Enhances your chest rune to pulse with sacred energy upon casting Vampiric Touch.",
-    "devCommentary": "A community favorite that we brought back and modernized for Classic+.",
-    "visualEffect": "Casting Vampiric Touch temporarily wreathes your character in sacred energy."
+    "visualEffect": "A blinding pillar of holy light descends from the sky. This is accompanied by a corrupted manifestation of Vampiric Touch."
   }
 ];
 

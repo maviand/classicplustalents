@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { PVE_CATS, pveData } from '../data/dungeons';
+import { PVE_MECHANICS } from '../data/pveMechanics';
 import { WowTooltip } from '../components/WowTooltip';
 import { WowItem, ItemRarity } from '../types/items';
 
@@ -14,8 +15,8 @@ const RARITY_COLORS: Record<string, string> = {
 };
 
 export default function PvE() {
-  const [activeCategory, setActiveCategory] = useState(PVE_CATS.DUNGEONS);
-  const [activeDungeon, setActiveDungeon] = useState('StormwindVault');
+  const [activeCategory, setActiveCategory] = useState<string>(PVE_CATS.DUNGEONS);
+  const [activeDungeon, setActiveDungeon] = useState<string>('StormwindVault');
 
   const [hoveredItem, setHoveredItem] = useState<{ item: WowItem, rect: DOMRect } | null>(null);
 
@@ -71,11 +72,50 @@ export default function PvE() {
               </div>
             </div>
           ))}
+          
+          <div className="bg-[#120e0a] border border-[#3c3224] rounded-lg overflow-hidden shadow-lg">
+            <div className="bg-gradient-to-r from-[#1a140e] to-[#120e0a] p-4 border-b border-[#3c3224]">
+              <h3 className="font-bold text-[#ffd100] uppercase tracking-widest text-xs leading-tight">Global Mechanics</h3>
+            </div>
+            <div className="flex flex-col">
+              <button
+                onClick={() => { setActiveCategory('Global Mechanics'); setActiveDungeon('GlobalMechanics'); }}
+                className={`text-left p-3 text-sm transition-all border-l-4 ${
+                  activeDungeon === 'GlobalMechanics' 
+                    ? 'border-[#ff8000] bg-[#1a140e] text-white font-bold' 
+                    : 'border-transparent text-[#a69882] hover:bg-[#16120e] hover:text-[#d3c8b8]'
+                }`}
+              >
+                Raid & Dungeon Systems
+              </button>
+            </div>
+          </div>
         </div>
 
         {/* Content Display */}
         <div className="lg:w-2/3">
-          {selectedDungeonData && (
+          {activeCategory === 'Global Mechanics' ? (
+            <div className="bg-gradient-to-br from-[#120e0a] to-[#0b0907] border border-[#3c3224] rounded-xl p-8 shadow-2xl animate-in slide-in-from-right-8 duration-500 relative overflow-hidden">
+               <div className="relative z-10">
+                 <div className="flex justify-between items-start mb-6 border-b border-[#3c3224]/50 pb-4">
+                   <h2 className="text-3xl font-extrabold text-white mb-2">Raid & Dungeon Systems</h2>
+                 </div>
+                 <div className="mb-6">
+                    <p className="text-[#d3c8b8] leading-relaxed text-lg italic border-l-4 border-[#ff8000] pl-4">
+                      "25 entirely new mechanics redefining the PvE endgame."
+                    </p>
+                 </div>
+                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                   {PVE_MECHANICS.map((mech) => (
+                      <div key={mech.id} className="bg-[#1a140e] border border-[#3c3224] p-4 rounded-lg hover:border-[#ff8000]/50 transition-colors">
+                        <h4 className="text-[#ffd100] font-bold text-sm mb-2 uppercase tracking-wider">{mech.title}</h4>
+                        <p className="text-[#a69882] text-sm">{mech.description}</p>
+                      </div>
+                   ))}
+                 </div>
+               </div>
+            </div>
+          ) : selectedDungeonData && (
             <div className="bg-gradient-to-br from-[#120e0a] to-[#0b0907] border border-[#3c3224] rounded-xl p-8 shadow-2xl animate-in slide-in-from-right-8 duration-500 relative overflow-hidden">
               <div className="relative z-10">
                 <div className="flex justify-between items-start mb-6 border-b border-[#3c3224]/50 pb-4">

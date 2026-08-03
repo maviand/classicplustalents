@@ -4,7 +4,9 @@ const PVP_MODES = {
   BATTLEGROUNDS: 'New Battlegrounds',
   WORLD_PVP: 'World PvP & Banner Wars',
   ARENA: 'The Gurubashi Arena System',
-  OFFENSIVES: 'Warfront Offensives'
+  OFFENSIVES: 'Warfront Offensives',
+  FACTION_BALANCE: 'Faction Balance & Economy',
+  HONOR_REWARDS: 'Honor & Rewards Revamp'
 };
 
 const templates = {
@@ -73,6 +75,33 @@ const templates = {
         'Pirate King\'s Wrath: The first team to deliver triggers a massive explosion, winning the match.'
       ],
       lore: 'The Steamwheedle Cartel pays top dollar for the destruction of Bloodsail hidden caches.'
+    },
+    {
+      id: 'AlteracValleyRevamp',
+      name: 'Alterac Valley Revamp',
+      size: '40v40',
+      type: 'Epic Battleground',
+      description: 'Restore the old Korrak the Bloodrager and massive NPC pushes.',
+      mechanics: ['Korrak is Back: The Bloodrager returns to the center of the map.', 'NPC Pushes: Collecting supplies significantly empowers NPC assaults.'],
+      lore: 'The Frostwolf and Stormpike clans continue their endless war.'
+    },
+    {
+      id: 'BGMatchmaking',
+      name: 'Battleground Matchmaking',
+      size: 'Global System',
+      type: 'Matchmaking Update',
+      description: 'Implement hidden MMR to prevent premades from stomping pugs.',
+      mechanics: ['Premade vs Premade: Groups of 5+ are strongly preferred to match against other groups.', 'Hidden MMR: Ensures closer games.'],
+      lore: 'A fair fight brings true honor.'
+    },
+    {
+      id: 'WSGFlagDebuff',
+      name: 'Warsong Gulch Flag Debuff',
+      size: '10v10',
+      type: 'Mechanic Update',
+      description: 'In WSG, the flag carrier takes 10% more damage every 2 minutes.',
+      mechanics: ['Focused Assault: Prevents endless stalling by tanks or druids hiding with the flag.'],
+      lore: 'The longer you hold the enemy\'s colors, the harder they hunt you.'
     }
   ],
   [PVP_MODES.WORLD_PVP]: [
@@ -111,9 +140,27 @@ const templates = {
       mechanics: [
         'Artifact Extraction: Requires a channel time of 10 seconds. Any damage interrupts.',
         'Hive Ambush: Extracting an artifact spawns elite bugs that attack the extractor.',
-        'War Effort: Turning in artifacts grants massive reputation and PvP honor.'
+        'Shrine of the Blood God: A central altar where coins can be deposited for massive temporary buffs.'
       ],
-      lore: 'The shifting sands reveal what the Cenarion Circle desperately wants to keep buried.'
+      lore: 'Hakkar\'s influence bleeds into the physical world, driving the wildlife and explorers into a blood-crazed frenzy.'
+    },
+    {
+      id: 'SilithusSand',
+      name: 'Silithus Sand Delivery',
+      size: 'Zone Event',
+      type: 'World PvP',
+      description: 'Make the Silithus PvP event grant actual endgame reputation.',
+      mechanics: ['Cenarion Rep: Delivering sand now gives substantial Cenarion Circle reputation.', 'Sand Storms: Periodically reduces visibility.'],
+      lore: 'The Cenarion Circle needs the silicate for war preparations against C\'Thun.'
+    },
+    {
+      id: 'ContestedNodes',
+      name: 'Contested Nodes',
+      size: 'Global World',
+      type: 'Resource System',
+      description: 'Specific rich thorium veins that flag you for PvP when mined, regardless of server type.',
+      mechanics: ['PvP Flag: Mining instantly flags you.', 'Bonus Yield: Double the normal ore.'],
+      lore: 'Some resources are worth dying for.'
     }
   ],
   [PVP_MODES.ARENA]: [
@@ -129,9 +176,121 @@ const templates = {
         'Crowd Favor: Dealing massive damage or scoring killing blows charges the "Crowd Favor" meter. When full, the crowd throws beneficial potions and bombs to your team.'
       ],
       lore: 'The Steamwheedle Cartel has taken over the Gurubashi Arena, broadcasting the fights via gnomish radio to all of Azeroth. It\'s brutal, it\'s unfair, and it\'s extremely profitable.'
+    },
+    {
+      id: 'GurubashiColiseum',
+      name: 'Gurubashi Coliseum (10v10)',
+      size: '10v10',
+      type: 'Deathmatch',
+      description: 'A brutal 10v10 deathmatch in a massive colosseum environment.',
+      mechanics: ['Last Team Standing: No respawns. The last team with members alive wins.', 'Crowd Favor: The crowd throws in buffs or hazards based on which team is performing better.'],
+      lore: 'The Gurubashi trolls have opened their arena to larger scale bloodsports.'
+    },
+    {
+      id: '1v1Arena',
+      name: '1v1 Arena',
+      size: '1v1',
+      type: 'Unranked Deathmatch',
+      description: 'Introduce an unranked 1v1 arena strictly for bragging rights.',
+      mechanics: ['No Rating: Purely for fun and practice.', 'Spectator Mode: Players can queue to watch live 1v1 matches.'],
+      lore: 'Gladiators test their individual mettle before stepping into the 3v3 circuit.'
+    },
+    {
+      id: 'DuelingTournaments',
+      name: 'Dueling Tournaments',
+      size: '1v1',
+      type: 'Monthly Event',
+      description: 'Official monthly tournaments held in Gurubashi Arena.',
+      mechanics: ['Bracket System: Automated tournament brackets.', 'Unique Titles: Winners receive a server-wide temporary title for the month.'],
+      lore: 'A grand spectacle where the greatest champions are crowned.'
+    },
+    {
+      id: 'ArenaMechanics',
+      name: 'Arena Anti-Stall Mechanics',
+      size: 'Global Arena',
+      type: 'Mechanic Update',
+      description: 'New systems to prevent endless arena matches.',
+      mechanics: ['Pillar Hugging Penalty: Standing still for 10 seconds applies a stacking slow debuff.', 'Dampening: Healing is reduced by 1% every 10 seconds after 5 minutes.'],
+      lore: 'The crowd demands blood, not endless healing.'
     }
   ],
-  [PVP_MODES.OFFENSIVES]: []
+  [PVP_MODES.OFFENSIVES]: [],
+  [PVP_MODES.FACTION_BALANCE]: [
+    {
+      id: 'MercenaryMode',
+      name: 'Mercenary Mode',
+      size: 'Global PvP',
+      type: 'Queue System',
+      description: 'Allow players to queue for battlegrounds as the opposite faction to reduce queue times.',
+      mechanics: ['Disguise: You are transformed into a race of the opposing faction.', 'Bonus Honor: Mercenaries receive a 10% honor buff.'],
+      lore: 'Mercenaries fight for coin, regardless of allegiance.'
+    },
+    {
+      id: 'CrossFactionChat',
+      name: 'Cross-Faction Elixir',
+      size: 'Global',
+      type: 'Consumable',
+      description: 'An elixir that allows you to understand the opposing faction\'s language for 1 hour.',
+      mechanics: ['Crafted by Alchemy.', 'Works in /say and /yell.'],
+      lore: 'A magical brew that breaks down the barriers of language.'
+    },
+    {
+      id: 'FactionDefectors',
+      name: 'Faction Defectors',
+      size: 'Global',
+      type: 'Questline',
+      description: 'A highly complex, one-time questline to permanently swap factions.',
+      mechanics: ['Massive Gold Sink: Requires turning in enormous amounts of resources.', 'Permanent Choice: Cannot be undone.'],
+      lore: 'Some heroes realize they are fighting for the wrong side.'
+    },
+    {
+      id: 'SharedAH',
+      name: 'Shared Auction Houses',
+      size: 'Global Economy',
+      type: 'Economy Update',
+      description: 'Merge the Horde and Alliance auction houses globally to fix economy imbalance.',
+      mechanics: ['Neutral AH Removed: The standard AH is now entirely cross-faction.'],
+      lore: 'The goblins of the Steamwheedle Cartel have monopolized the market.'
+    }
+  ],
+  [PVP_MODES.HONOR_REWARDS]: [
+    {
+      id: 'DecayRemoval',
+      name: 'Honor Decay Removal',
+      size: 'Global System',
+      type: 'Progression Update',
+      description: 'Remove the harsh PvP rank decay system.',
+      mechanics: ['Milestone Saving: Once you reach a rank, you can never drop below it.'],
+      lore: 'A commander\'s prestige is never forgotten.'
+    },
+    {
+      id: 'PvPCosmetics',
+      name: 'Cosmetic PvP Gear',
+      size: 'Global Rewards',
+      type: 'Transmog',
+      description: 'Introduce exclusive transmog rewards for Rank 14.',
+      mechanics: ['Aura Unlocks: Rank 14 unlocks a permanent glowing aura cosmetic.', 'Title Display: Allow players to display their highest achieved PvP title forever.'],
+      lore: 'True champions shine on the battlefield.'
+    },
+    {
+      id: 'PvPMounts',
+      name: 'Rank 11 Mounts',
+      size: 'Global Rewards',
+      type: 'Mounts',
+      description: 'Add unique PvP mounts (e.g., Armored Kodos/Tigers) for hitting Rank 11.',
+      mechanics: ['100% Speed: Require riding skill.'],
+      lore: 'Beasts trained for war.'
+    },
+    {
+      id: 'HonorForHealing',
+      name: 'Honor for Healing',
+      size: 'Battlegrounds',
+      type: 'Reward Update',
+      description: 'Properly reward healers with honor based on healing done in Battlegrounds.',
+      mechanics: ['Healing = Damage: Healing done contributes to the scoreboard and honor calculations identically to damage.'],
+      lore: 'The medics are just as vital as the frontline soldiers.'
+    }
+  ]
 };
 
 templates[PVP_MODES.OFFENSIVES].push(
