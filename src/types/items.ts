@@ -15,6 +15,7 @@ export interface WowItem {
   mats?: string; // For crafting recipes
   sellPrice?: string; // e.g. "15g 30s 0c"
   icon?: string;
+  source?: string;
 }
 
 export interface WowSpell {

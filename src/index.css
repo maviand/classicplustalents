@@ -12,6 +12,7 @@
 }
 
 @import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
 
 @theme {
   --font-serif-wow: "Google Sans", sans-serif;

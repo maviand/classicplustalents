@@ -11,28 +11,31 @@ import Talents from './pages/Talents';
 import PvE from './pages/PvE';
 import PvP from './pages/PvP';
 import Professions from './pages/Professions';
+import { ThemeProvider } from './context/ThemeContext';
 
 export default function App() {
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="world" element={<World />} />
-          
-          <Route path="player" element={<Player />}>
-            <Route index element={<Navigate to="races" replace />} />
-            <Route path="races" element={<Races />} />
-            <Route path="classes" element={<Classes />} />
-            <Route path="runes" element={<Runes />} />
-            <Route path="talents" element={<Talents />} />
+    <ThemeProvider>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="world" element={<World />} />
+            
+            <Route path="player" element={<Player />}>
+              <Route index element={<Navigate to="races" replace />} />
+              <Route path="races" element={<Races />} />
+              <Route path="classes" element={<Classes />} />
+              <Route path="runes" element={<Runes />} />
+              <Route path="talents" element={<Talents />} />
+            </Route>
+            
+            <Route path="pve" element={<PvE />} />
+            <Route path="pvp" element={<PvP />} />
+            <Route path="professions" element={<Professions />} />
           </Route>
-          
-          <Route path="pve" element={<PvE />} />
-          <Route path="pvp" element={<PvP />} />
-          <Route path="professions" element={<Professions />} />
-        </Route>
-      </Routes>
-    </HashRouter>
+        </Routes>
+      </HashRouter>
+    </ThemeProvider>
   );
 }

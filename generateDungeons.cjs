@@ -92,7 +92,18 @@ const loreThemes = {
   }
 };
 
-function generateLoot(count, levelStr = '60', theme = null) {
+const epicFlavorTexts = [
+  "The blade sings with the blood of a thousand forgotten souls.",
+  "Forged in the heart of a dying star.",
+  "It throbs with a dark, rhythmic pulse.",
+  "Heirs to the throne of Lordaeron wept upon its creation.",
+  "Light bends strangely around its edges.",
+  "A faint whispering can be heard when held to the ear.",
+  "Imbued with the furious essence of the Firelands.",
+  "Legend says it was once wielded by a titan watcher."
+];
+
+function generateLoot(count, levelStr = '60', theme = null, bosses = []) {
   let reqLevel = 60;
   let iLvl = 60;
   if (levelStr.includes('Tier 1.5')) iLvl = 70;
@@ -187,6 +198,17 @@ function generateLoot(count, levelStr = '60', theme = null) {
       }
     }
 
+    let flavorText = undefined;
+    if (isEpic && Math.random() > 0.5) {
+      flavorText = getRandom(epicFlavorTexts);
+    }
+    
+    let source = undefined;
+    if (bosses && bosses.length > 0) {
+      const boss = getRandom(bosses);
+      source = `Dropped by: ${boss.name || boss}`;
+    }
+
     loot.push({
       name,
       rarity,
@@ -195,6 +217,8 @@ function generateLoot(count, levelStr = '60', theme = null) {
       type,
       stats,
       effect,
+      flavorText,
+      source,
       requiresLevel: reqLevel,
       sellPrice: `${Math.floor(Math.max(0, (iLvl / 10) * (isEpic ? 1.5 : 1) - 1 + Math.random() * 2))}g ${Math.floor(Math.random() * 99)}s`
     });
@@ -433,6 +457,22 @@ const raids = [
     loot: generateLoot(100, 'Tier 3.5', 'DragonIslesRaid')
   }
 ];
+
+[...dungeons, ...raids].forEach(instance => {
+  if (instance.wings) {
+    instance.wings.forEach(wing => {
+      if (wing.loot && wing.bosses && wing.bosses.length > 0) {
+        wing.loot.forEach(item => {
+          if (!item.source) item.source = `Dropped by: ${wing.bosses[Math.floor(Math.random() * wing.bosses.length)]}`;
+        });
+      }
+    });
+  } else if (instance.loot && instance.bosses && instance.bosses.length > 0) {
+    instance.loot.forEach(item => {
+      if (!item.source) item.source = `Dropped by: ${instance.bosses[Math.floor(Math.random() * instance.bosses.length)]}`;
+    });
+  }
+});
 
 const tsFile = `export const PVE_CATS = {
   DUNGEONS: 'The New Dungeons (Winged Hubs)',

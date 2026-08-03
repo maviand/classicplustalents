@@ -18,6 +18,41 @@ const RARITY_COLORS: Record<ItemRarity | string, string> = {
   'Artifact': '#e6cc80'
 };
 
+function renderPrice(priceStr: string) {
+  const parts = priceStr.split(' ');
+  return (
+    <span className="flex items-center gap-1">
+      {parts.map((p, idx) => {
+        if (p.endsWith('g')) {
+          return (
+            <span key={idx} className="flex items-center text-white">
+              {p.replace('g', '')}
+              <span className="w-2.5 h-2.5 rounded-full bg-[#ffd100] border border-[#b8860b] ml-0.5 inline-block" title="Gold" />
+            </span>
+          );
+        }
+        if (p.endsWith('s')) {
+          return (
+            <span key={idx} className="flex items-center text-white">
+              {p.replace('s', '')}
+              <span className="w-2.5 h-2.5 rounded-full bg-[#c0c0c0] border border-[#808080] ml-0.5 inline-block" title="Silver" />
+            </span>
+          );
+        }
+        if (p.endsWith('c')) {
+          return (
+            <span key={idx} className="flex items-center text-white">
+              {p.replace('c', '')}
+              <span className="w-2.5 h-2.5 rounded-full bg-[#b87333] border border-[#8b4513] ml-0.5 inline-block" title="Copper" />
+            </span>
+          );
+        }
+        return <span key={idx}>{p}</span>;
+      })}
+    </span>
+  );
+}
+
 export function WowTooltip({ item, spell, rect }: WowTooltipProps) {
   const tooltipRef = useRef<HTMLDivElement>(null);
   const [position, setPosition] = useState<React.CSSProperties>({ opacity: 0 });
@@ -149,9 +184,15 @@ export function WowTooltip({ item, spell, rect }: WowTooltipProps) {
               </div>
             )}
             
+            {item.source && (
+              <div className="text-[#1eff00] mt-2">
+                {item.source}
+              </div>
+            )}
+            
             {item.sellPrice && (
-              <div className="mt-2 text-xs">
-                Sell Price: {item.sellPrice}
+              <div className="mt-2 text-xs flex items-center gap-1">
+                Sell Price: {renderPrice(item.sellPrice)}
               </div>
             )}
           </div>
