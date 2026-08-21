@@ -328,29 +328,89 @@ export const zonesData: Record<string, ZoneItem[]> = {
     ]
   },
   {
-    "id": "EldarathLeylines",
-    "name": "The Eldarath Leyline Campaign (Azshara)",
+    "id": "SilithusSunkenEmpire",
+    "name": "Silithus: The Sunken Empire of Ahn'Qiraj",
     "level": "60 (Suramar-Style Narrative Campaign)",
     "hubs": [
-      "The Sunken Sanctum",
-      "Azuregos' Bastion",
-      "Highborne Grotto"
+      "Cenarion Underground Redoubt",
+      "Twilight Chasm Outpost",
+      "The Subterranean Hive-Plazas"
     ],
-    "desc": "An ancient elven metropolitan ruin in Azshara where players establish a covert base, channel ancient leyline energy conduits, and walk disguised among Highborne spectral apparitions to prevent the Naga from summoning a colossal tidal elemental.",
-    "lore": "Players feed dormant leyline pylons with Arcane Resonators, unlock forgotten Highborne teleporter pads across Azshara's cliffs, and rescue trapped Blue Dragonflight wyrms to prepare the final assault on the Temple of Arkkoran.",
-    "description": "An ancient elven metropolitan ruin in Azshara where players establish a covert base, channel ancient leyline energy conduits, and walk disguised among Highborne spectral apparitions to prevent the Naga from summoning a colossal tidal elemental.",
+    "desc": "Silithus expands far beyond a barren sandbox into an active, multi-tiered hive-metropolis. The above-ground ruins blend into massive subterranean carved halls, grand plazas, and temple complexes beneath the shifting sands.",
+    "lore": "The Twilight’s Hammer cult and the Qiraji aristocracy operate an empire-wide caste system under C'Thun. Disguise mechanics come via Twilight cultist robes and forbidden Old God sigils. Players establish Cenarion Hold as an insurgent base, intercept Twilight communiques, sabotage resonant crystal pylons powering the swarms, and free subjugated mortal thralls before the Scarab Wall breaches into the Temple.",
+    "description": "Silithus expands far beyond a barren sandbox into an active, multi-tiered hive-metropolis. The above-ground ruins blend into massive subterranean carved halls, grand plazas, and temple complexes beneath the shifting sands.",
     "majorQuests": [
-      "The Fate of The Eldarath Leyline Campaign (Azshara)",
-      "Defense of The Sunken Sanctum",
+      "The Fate of Silithus: The Sunken Empire of Ahn'Qiraj",
+      "Defense of Cenarion Underground Redoubt",
+      "Secrets of Twilight Chasm Outpost"
+    ],
+    "dungeonsAndRaids": [
+      "Silithus: The Sunken Empire of Ahn'Qiraj Dungeon",
+      "Silithus: The Sunken Empire of Ahn'Qiraj Lair"
+    ],
+    "rareSpawns": [
+      "Ancient Silithus: Stalker",
+      "Corrupted Vanguard of Silithus:"
+    ],
+    "environmentalHazards": [
+      "Dense Fog reducing visibility",
+      "Wilderness beasts stalking low-health targets"
+    ]
+  },
+  {
+    "id": "AzsharaSunkenCity",
+    "name": "Azshara: The Sunken Sovereign City of Eldarath",
+    "level": "60 (Suramar-Style Narrative Campaign)",
+    "hubs": [
+      "The Sunken Grotto Sanctum",
+      "Azuregos' Bastion",
+      "Imperial Naga Spire"
+    ],
+    "desc": "A sprawling coastal and semi-submerged metropolis partially reclaimed by Queen Azshara’s elite Naga nobility and haunting Kaldorei spirits caught in temporal loops along the ragged cliffs.",
+    "lore": "High-class Naga aristocracy and ancient Kaldorei ghosts operate within an intricate social caste. Players infiltrate sunken palaces using water-breathing enchantments and Naga illusion relics, play rival Naga warlords against one another, feed dormant leyline pylons with Arcane Resonators, and reclaim ancient Arcanite vaults along the coastline.",
+    "description": "A sprawling coastal and semi-submerged metropolis partially reclaimed by Queen Azshara’s elite Naga nobility and haunting Kaldorei spirits caught in temporal loops along the ragged cliffs.",
+    "majorQuests": [
+      "The Fate of Azshara: The Sunken Sovereign City of Eldarath",
+      "Defense of The Sunken Grotto Sanctum",
       "Secrets of Azuregos' Bastion"
     ],
     "dungeonsAndRaids": [
-      "The Eldarath Leyline Campaign (Azshara) Dungeon",
-      "The Eldarath Leyline Campaign (Azshara) Lair"
+      "Azshara: The Sunken Sovereign City of Eldarath Dungeon",
+      "Azshara: The Sunken Sovereign City of Eldarath Lair"
     ],
     "rareSpawns": [
-      "Ancient The Stalker",
-      "Corrupted Vanguard of The"
+      "Ancient Azshara: Stalker",
+      "Corrupted Vanguard of Azshara:"
+    ],
+    "environmentalHazards": [
+      "Dense Fog reducing visibility",
+      "Wilderness beasts stalking low-health targets"
+    ]
+  },
+  {
+    "id": "WinterspringFrozenBastion",
+    "name": "Winterspring: The Frozen Bastion of Kel'Theril",
+    "level": "60 (Suramar-Style Narrative Campaign)",
+    "hubs": [
+      "Starfall Leyline Sanctuary",
+      "The Frost-Spire Outpost",
+      "Caverns of the Blue Wyrm"
+    ],
+    "desc": "The ghost-haunted ruins of Kel'Theril expand into a sealed, snow-buried arcane academy city with a distinct gothic, crystalline aesthetic, battling spectral madness and Burning Legion corruption from Darkwhisper Gorge.",
+    "lore": "An ancient Highborne arcane society trapped in an eternal blizzard. Players establish warmth hubs and magical leylines across the frost tundra, don enchanted spectral cloaks to walk among ghost scholars, decipher ancient scrying relics, subvert demon-aligned Highborne spirits, and unseal the great ice vaults beneath Mount Hyjal's shadow.",
+    "description": "The ghost-haunted ruins of Kel'Theril expand into a sealed, snow-buried arcane academy city with a distinct gothic, crystalline aesthetic, battling spectral madness and Burning Legion corruption from Darkwhisper Gorge.",
+    "majorQuests": [
+      "The Fate of Winterspring: The Frozen Bastion of Kel'Theril",
+      "Defense of Starfall Leyline Sanctuary",
+      "Secrets of The Frost-Spire Outpost"
+    ],
+    "dungeonsAndRaids": [
+      "Winterspring: The Frozen Bastion of Kel'Theril Dungeon",
+      "Winterspring: The Frozen Bastion of Kel'Theril Lair"
+    ],
+    "rareSpawns": [
+      "Ancient Winterspring: Stalker",
+      "Corrupted Vanguard of Winterspring:"
     ],
     "environmentalHazards": [
       "Dense Fog reducing visibility",

@@ -94,12 +94,28 @@ const templates = {
       lore: 'Players gather ancient Arathor runestones to reactivate protective city barriers, disguise themselves as Syndicate mercenaries to infiltrate high-level war meetings, and progressively reclaim the Chapel, Arena, and Royal Keep.'
     },
     {
-      id: 'EldarathLeylines',
-      name: 'The Eldarath Leyline Campaign (Azshara)',
+      id: 'SilithusSunkenEmpire',
+      name: 'Silithus: The Sunken Empire of Ahn\'Qiraj',
       level: '60 (Suramar-Style Narrative Campaign)',
-      hubs: ['The Sunken Sanctum', 'Azuregos\' Bastion', 'Highborne Grotto'],
-      desc: 'An ancient elven metropolitan ruin in Azshara where players establish a covert base, channel ancient leyline energy conduits, and walk disguised among Highborne spectral apparitions to prevent the Naga from summoning a colossal tidal elemental.',
-      lore: 'Players feed dormant leyline pylons with Arcane Resonators, unlock forgotten Highborne teleporter pads across Azshara\'s cliffs, and rescue trapped Blue Dragonflight wyrms to prepare the final assault on the Temple of Arkkoran.'
+      hubs: ['Cenarion Underground Redoubt', 'Twilight Chasm Outpost', 'The Subterranean Hive-Plazas'],
+      desc: 'Silithus expands far beyond a barren sandbox into an active, multi-tiered hive-metropolis. The above-ground ruins blend into massive subterranean carved halls, grand plazas, and temple complexes beneath the shifting sands.',
+      lore: 'The Twilight’s Hammer cult and the Qiraji aristocracy operate an empire-wide caste system under C\'Thun. Disguise mechanics come via Twilight cultist robes and forbidden Old God sigils. Players establish Cenarion Hold as an insurgent base, intercept Twilight communiques, sabotage resonant crystal pylons powering the swarms, and free subjugated mortal thralls before the Scarab Wall breaches into the Temple.'
+    },
+    {
+      id: 'AzsharaSunkenCity',
+      name: 'Azshara: The Sunken Sovereign City of Eldarath',
+      level: '60 (Suramar-Style Narrative Campaign)',
+      hubs: ['The Sunken Grotto Sanctum', 'Azuregos\' Bastion', 'Imperial Naga Spire'],
+      desc: 'A sprawling coastal and semi-submerged metropolis partially reclaimed by Queen Azshara’s elite Naga nobility and haunting Kaldorei spirits caught in temporal loops along the ragged cliffs.',
+      lore: 'High-class Naga aristocracy and ancient Kaldorei ghosts operate within an intricate social caste. Players infiltrate sunken palaces using water-breathing enchantments and Naga illusion relics, play rival Naga warlords against one another, feed dormant leyline pylons with Arcane Resonators, and reclaim ancient Arcanite vaults along the coastline.'
+    },
+    {
+      id: 'WinterspringFrozenBastion',
+      name: 'Winterspring: The Frozen Bastion of Kel\'Theril',
+      level: '60 (Suramar-Style Narrative Campaign)',
+      hubs: ['Starfall Leyline Sanctuary', 'The Frost-Spire Outpost', 'Caverns of the Blue Wyrm'],
+      desc: 'The ghost-haunted ruins of Kel\'Theril expand into a sealed, snow-buried arcane academy city with a distinct gothic, crystalline aesthetic, battling spectral madness and Burning Legion corruption from Darkwhisper Gorge.',
+      lore: 'An ancient Highborne arcane society trapped in an eternal blizzard. Players establish warmth hubs and magical leylines across the frost tundra, don enchanted spectral cloaks to walk among ghost scholars, decipher ancient scrying relics, subvert demon-aligned Highborne spirits, and unseal the great ice vaults beneath Mount Hyjal\'s shadow.'
     },
     {
       id: 'GnomereganUnderground',

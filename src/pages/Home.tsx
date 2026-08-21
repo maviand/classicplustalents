@@ -101,8 +101,8 @@ export default function Home() {
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
               </div>
               <div>
-                <h4 className="text-lg font-bold text-white mb-1">Suramar-Style Insurgency Campaigns</h4>
-                <p className="text-sm text-[#a69882]">Multi-week urban resistance in Gilneas City, Stromgarde Reconstruction, and the Highborne Leylines of Eldarath with disguise mechanics, sewer hubs, and phased district liberation.</p>
+                <h4 className="text-lg font-bold text-white mb-1">Suramar-Style Regional Campaigns</h4>
+                <p className="text-sm text-[#a69882]">Multi-week endgame insurgencies across Silithus (Sunken Qiraji Empire), Azshara (Eldarath Sovereign City), Winterspring (Bastion of Kel'Theril), Gilneas City, and Stromgarde with disguise mechanics, covert hubs, and phased sector liberations.</p>
               </div>
             </div>
           </div>
