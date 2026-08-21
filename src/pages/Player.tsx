@@ -5,9 +5,9 @@ export default function Player() {
   const location = useLocation();
 
   const tabs = [
-    { path: '/player/races', label: 'Races' },
+    { path: '/player/races', label: 'Races & Racials' },
     { path: '/player/classes', label: 'Classes & Specs' },
-    { path: '/player/runes', label: 'The Runecarved Path' },
+    { path: '/player/runes', label: 'Class Discoveries' },
     { path: '/player/talents', label: 'Talent Calculator' },
   ];
 

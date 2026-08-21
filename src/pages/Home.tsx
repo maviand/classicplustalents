@@ -43,21 +43,21 @@ export default function Home() {
             Camelot is not a remake, not a remaster, and not a rush toward the Dark Portal. The Bronze Dragonflight has pulled a thread loose from the timeways: an Azeroth where the year is still 25 ADP, where Kel'Thuzad still schemes in Naxxramas, and where the war between the Alliance and the Horde never paused to fight someone else's war in Outland.
           </p>
           <p>
-            In this timeline, the old world is the sole focus. Because the Bronze Dragonflight anchors the setting, we can bend lore without breaking it. New allied races answer the call to war early. Closed gates finally swing open. Unfinished corners of the 2004 world map—the places every Vanilla player pressed their face against—are built, populated, and plunged into war.
+            In this timeline, the old world is the sole focus. Because the Bronze Dragonflight anchors the setting, we can fulfill Vanilla's unfulfilled promises without breaking core lore. Allied sub-races join the frontlines from Level 1. Closed gates swing open. Unfinished corners of the 2004 world map—the places every Classic player pressed their face against—are built, populated, and plunged into war.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 pt-8 border-t border-[#3c3224]/30">
             <div className="bg-[#1a140e]/50 p-6 rounded-lg border border-[#3c3224] hover:border-[#ffd100]/50 transition-colors group">
-              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#ffd100] transition-colors">The Grind is the Point</h3>
-              <p className="text-sm">Leveling is ~60% slower than Vanilla, with no catch-up mechanics, no heirlooms, and no boosts. Reaching 60 is a monumental journey and the story of your character, not just the tutorial before the "real game" begins.</p>
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#ffd100] transition-colors">The Journey is the Point</h3>
+              <p className="text-sm">Deliberate leveling pacing, with no catch-up mechanics, no heirlooms, and no paid boosts. Reaching 60 is a monumental achievement and the story of your character, accompanied by rich class trials and world milestones.</p>
             </div>
             <div className="bg-[#1a140e]/50 p-6 rounded-lg border border-[#3c3224] hover:border-[#ffd100]/50 transition-colors group">
-              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#ffd100] transition-colors">Horizontal, Not Vertical</h3>
-              <p className="text-sm">Growth comes from a long sequence of post-60 content patches, not a rising level number. New raids run parallel to old ones; gear expands sideways into new niches rather than just scaling up infinitely.</p>
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#ffd100] transition-colors">Horizontal Progression</h3>
+              <p className="text-sm">Endgame growth expands sideways through parallel raid tiers and specialized gear niches. New 20-man and 40-man raids run alongside classic tiers, preserving the relevance of molten core, blackwing lair, and beyond.</p>
             </div>
             <div className="bg-[#1a140e]/50 p-6 rounded-lg border border-[#3c3224] hover:border-[#ffd100]/50 transition-colors group">
-              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#ffd100] transition-colors">Every Zone Earns its Place</h3>
-              <p className="text-sm">Existing zones grow by roughly 20%, adding new physical subzones, denser quest hubs, and world bosses. No region of Azeroth remains a simple travel corridor; there is war everywhere.</p>
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#ffd100] transition-colors">Every Zone Handcrafted</h3>
+              <p className="text-sm">Every new zone, dungeon wing, and battleground is meticulously hand-placed with narrative intention. Zero procedural filler—only authentic Vanilla blanks like Hyjal, Uldum, Gilneas, and Karazhan Crypts.</p>
             </div>
           </div>
         </div>
@@ -77,8 +77,8 @@ export default function Home() {
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
               </div>
               <div>
-                <h4 className="text-lg font-bold text-white mb-1">Economy & Professions</h4>
-                <p className="text-sm text-[#a69882]">12 total professions, including Inscription and Jewelcrafting. Every profession has a specialization tree. Best-in-slot gear is crafted, ensuring relevance forever.</p>
+                <h4 className="text-lg font-bold text-white mb-1">Deep Crafting & Economy</h4>
+                <p className="text-sm text-[#a69882]">Classic trade skills enhanced with rare regional recipe drops, specialized sub-branch specialization quests, and bis crafted armor that keeps crafters essential forever.</p>
               </div>
             </div>
           </div>
@@ -89,8 +89,8 @@ export default function Home() {
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
               </div>
               <div>
-                <h4 className="text-lg font-bold text-white mb-1">The Runecarved Path</h4>
-                <p className="text-sm text-[#a69882]">Path of the Titans realized. Discover runes in the world, map them to your constellation, and equip 1 Major/2 Minors at rest. No gear engraving inventory tetris.</p>
+                <h4 className="text-lg font-bold text-white mb-1">Path of the Titans: Class Discoveries</h4>
+                <p className="text-sm text-[#a69882]">Ancient tomes, librams, and rites hidden across Azeroth permanently empower your spellbook. Hybrids achieve full tanking and healing viability without gear-swapping tetris.</p>
               </div>
             </div>
           </div>
@@ -101,8 +101,8 @@ export default function Home() {
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
               </div>
               <div>
-                <h4 className="text-lg font-bold text-white mb-1">Expanded World</h4>
-                <p className="text-sm text-[#a69882]">4 permanent phases (caps 30/40/50/60). Gilneas opens. Hyjal is a max-level warzone. The Dark Portal is destroyed in a massive event. 14 new class/race combos with deep lore quests.</p>
+                <h4 className="text-lg font-bold text-white mb-1">Handcrafted World Expansion</h4>
+                <p className="text-sm text-[#a69882]">Gilneas opens beyond the Greymane Wall. Mount Hyjal becomes an endgame warzone. Uldum unveils its Titan geometry. Handcrafted starting revamps for Gnomes and Trolls.</p>
               </div>
             </div>
           </div>
@@ -113,8 +113,8 @@ export default function Home() {
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
               </div>
               <div>
-                <h4 className="text-lg font-bold text-white mb-1">Parallel Raiding</h4>
-                <p className="text-sm text-[#a69882]">7 tier brackets, scaling from 10 to 40 players. Tiers have parallel raids (e.g. BWL and Grim Batol side-by-side) connected by the overarching Hourglass Cabal storyline.</p>
+                <h4 className="text-lg font-bold text-white mb-1">Parallel Raid Tiers</h4>
+                <p className="text-sm text-[#a69882]">Parallel raid progression across 20-man and 40-man tiers. Venture into Karazhan Crypts, the 40-man Upper Tower, Grim Batol, and the Emerald Nightmare.</p>
               </div>
             </div>
           </div>
@@ -125,8 +125,8 @@ export default function Home() {
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
               </div>
               <div>
-                <h4 className="text-lg font-bold text-white mb-1">Allied Races</h4>
-                <p className="text-sm text-[#a69882]">8 allied races (Worgen, Ogres, Wildhammer, Goblins, etc.). Each features a mid-level starting experience and a 10-point racial talent tree advanced via reputation.</p>
+                <h4 className="text-lg font-bold text-white mb-1">16 Playable Heritages</h4>
+                <p className="text-sm text-[#a69882]">16 core and allied races (Worgen, Ogres, Wildhammer, Goblins, High Elves, Dark Irons, etc.) starting at Level 1 with distinctive weapon skills and iconic base racials.</p>
               </div>
             </div>
           </div>
@@ -137,8 +137,8 @@ export default function Home() {
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
               </div>
               <div>
-                <h4 className="text-lg font-bold text-white mb-1">The Banner War</h4>
-                <p className="text-sm text-[#a69882]">A unified PvP campaign spanning 7 world theaters. Hold Stromgarde Keep, fight over Devilsaur leather in Un'Goro, or clash in the new 25v25 Azshara Crater battleground.</p>
+                <h4 className="text-lg font-bold text-white mb-1">Authentic World PvP & Battlegrounds</h4>
+                <p className="text-sm text-[#a69882]">The Banner War brings caravan ambushes to Hillsbrad and Ashenvale, the 25v25 Azshara Crater siege opens, and the 10v10 Gurubashi Brawl delivers gladiatorial mayhem.</p>
               </div>
             </div>
           </div>

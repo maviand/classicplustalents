@@ -4,12 +4,12 @@ import { WowSpell } from '../types/items';
 
 const CLASS_ROSTER = [
   'Warrior', 'Paladin', 'Hunter', 'Rogue', 'Priest', 
-  'Death Knight', 'Shaman', 'Mage', 'Warlock', 'Druid'
+  'Shaman', 'Mage', 'Warlock', 'Druid'
 ];
 
 export default function Classes() {
   const [activeClass, setActiveClass] = useState('Warrior');
-  const [hoveredSpell, setHoveredSpell] = useState<{ spell: WowSpell, rect: DOMRect } | null>(null);
+  const [hoveredSpell, setHoveredSpell] = useState<{ spell: WowSpell; rect: DOMRect } | null>(null);
 
   const handleSpellEnter = (e: React.MouseEvent, ability: any) => {
     const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
@@ -29,141 +29,127 @@ export default function Classes() {
     Warrior: {
       color: '#C79C6E',
       role: 'Tank, Melee DPS',
-      fantasy: 'The unbreakable vanguard. In Classic Plus, Warriors maintain their throne as the premier physical combatants, but their toolkit has been expanded to allow for true hybrid playstyles like the dual-wielding Gladiator tank and the devastating Two-Handed Fury berserker.',
+      fantasy: 'The unbreakable vanguard. In Classic Plus, Warriors maintain their throne as premier martial combatants, but their toolkit has been refined so Protection has natural multi-target threat and Two-Handed Fury gains devastating sustained cleave.',
       abilities: [
-        { name: 'Blood and Thunder', type: 'Passive', desc: 'Your Thunder Clap now spreads Rend to all targets hit, cementing the Protection Warrior\'s AoE threat capabilities.' },
-        { name: 'Gladiator Stance', type: 'Stance', desc: 'A 4th stance. You equip a shield but forfeit defensive bonuses to increase physical damage by 20%. Shield Slam becomes a primary DPS ability.' },
-        { name: 'Heroic Leap', type: 'Active (3 Min CD)', desc: 'Leap through the air and slam down on all enemies within 8 yards. Originally intended for Vanilla, finally restored to its full glory.' }
+        { name: 'Blood and Thunder', type: 'Passive', desc: 'Your Thunder Clap now spreads Rend to all targets hit, cementing the Protection Warrior\'s AoE threat and dungeon control.' },
+        { name: 'Gladiator Stance', type: 'Stance', desc: 'Equip a shield and sword to fight offensively. Increases physical damage dealt by 20% and makes Shield Slam your primary offensive burst.' },
+        { name: 'Heroic Leap', type: 'Active (3 Min CD)', desc: 'Leap through the air to a targeted area, slamming down on enemies within 8 yards for weapon damage. Restores Vanilla\'s planned mobility.' }
       ],
       quest: {
         title: 'The Forging of the Titan-Blade',
-        desc: 'At level 60, Warriors embark on a sprawling, world-spanning quest to reforge a shattered Titan weapon found in Uldum. Requires soloing an elite arena in the Gurubashi stands without using consumables, proving true martial mastery.'
+        desc: 'At level 60, Warriors embark on a sprawling questline into the Uldum desert to reforge a shattered Titan Greatsword. Requires proving martial mastery by soloing the Gurubashi champion trials.'
       }
     },
     Paladin: {
       color: '#F58CBA',
       role: 'Tank, Healer, Melee DPS',
-      fantasy: 'The holy crusader. Paladins finally receive the tools necessary to perform all three roles effectively. Protection Paladins get a taunt, and Retribution becomes a terrifying burst-damage threat that relies on sealing and judging holy magic.',
+      fantasy: 'The holy crusader. Paladins receive the foundational tools necessary to perform all three roles with distinction. Protection Paladins gain a reliable Holy Taunt and Crusader Strike, while Retribution delivers consistent burst without draining mana in seconds.',
       abilities: [
-        { name: 'Hand of Reckoning', type: 'Active (Taunt)', desc: 'Taunts the target to attack you, dealing Holy damage if they are not currently targeting you. The missing piece of the Prot puzzle.' },
-        { name: 'Crusader Strike', type: 'Active (Melee)', desc: 'An instant strike that causes Holy damage and refreshes all Judgements on the target.' },
-        { name: 'Aura of the Zealot', type: 'Aura', desc: 'A new Retribution aura that increases the melee haste of all party members by 10%, cementing the Paladin as a mandatory melee-group buffer.' }
+        { name: 'Hand of Reckoning', type: 'Active (Taunt)', desc: 'Taunts the target to attack you, dealing Holy damage if they are not currently targeting you. The missing keystone of the Protection Paladin.' },
+        { name: 'Crusader Strike', type: 'Active (Melee)', desc: 'An instant weapon strike that causes Holy damage and refreshes active Judgements on the target. Low mana cost.' },
+        { name: 'Aura of the Zealot', type: 'Aura', desc: 'Increases the melee and ranged attack speed of all party members within 30 yards by 10%, giving Retribution irreplaceable group utility.' }
       ],
       quest: {
-        title: 'Cleansing the Ashbringer (Pre-Requisite)',
-        desc: 'Before the raid on Stratholme Zenith, Paladins must venture into the Plaguelands to find the spirit of Alexandros Mograine. You must perform a 30-minute escort quest through the heart of Tyr\'s Hand while defending a holy relic from Scarlet Crusaders.'
+        title: 'Cleansing the Ashbringer Legacy',
+        desc: 'Paladins must venture into the heart of Tyr\'s Hand and the Stratholme crypts to commune with the spirit of Alexandros Mograine, unlocking the holy rites of the Silver Hand.'
       }
     },
     Hunter: {
       color: '#ABD473',
       role: 'Ranged DPS, Melee Survivalist',
-      fantasy: 'The apex predator. Hunters gain deeper pet interactions, specialized ammunition crafting, and the ability to play a fully realized melee "Survival" spear-wielding spec.',
+      fantasy: 'The apex wilderness tracker. Hunters gain deep pet scaling parity, specialized elemental ammunition crafting, and a fully realized melee Survival spear-combat toolkit.',
       abilities: [
-        { name: 'Mongoose Bite (Rework)', type: 'Active (Melee)', desc: 'No longer requires a dodge. A brutal melee strike that increases in damage for each trap you have triggered in the last 10 seconds.' },
-        { name: 'Camouflage', type: 'Active', desc: 'Blend into the surroundings. You and your pet gain stealth for 1 minute, but movement speed is reduced by 50%. First hit from stealth is guaranteed to critically strike.' },
-        { name: 'Exotic Munitions', type: 'Passive', desc: 'Allows Hunters to craft specialized arrows that deal elemental damage, bypassing heavy physical armor on raid bosses.' }
+        { name: 'Mongoose Bite (Reworked)', type: 'Active (Melee)', desc: 'A brutal instant melee strike that strikes for 140% weapon damage, empowered for 10 seconds whenever an enemy triggers one of your traps.' },
+        { name: 'Camouflage', type: 'Active', desc: 'Blend into the natural environment. You and your pet gain stealth for 1 minute. The first attack from Camouflage is guaranteed to critically strike.' },
+        { name: 'Exotic Munitions', type: 'Passive', desc: 'Allows Hunters to craft and coat ammunition with elemental oils, converting a portion of auto-shot damage to Nature or Fire.' }
       ],
       quest: {
         title: 'The Apex Predator\'s Call',
-        desc: 'A continuation of the Rhok\'delar questline. Hunters must track and solo-tame a spirit beast roaming the Emerald Nightmare without using any traps or ranged weapons. Pure survival.'
+        desc: 'A continuation of the legendary Rhok\'delar questline. Hunters must track and solo-tame an ancient spirit beast in the heights of Mount Hyjal without using ranged weapons.'
       }
     },
     Rogue: {
       color: '#FFF569',
-      role: 'Melee DPS, Evasion Tank',
-      fantasy: 'The unseen blade. Rogues lean heavily into their trickster archetype. They gain tools for dodging massive boss swings (allowing niche evasion tanking) and deeper poison crafting systems.',
+      role: 'Melee DPS, Evasion Off-Tank',
+      fantasy: 'The unseen blade and master tactician. Rogues lean heavily into agile footwork, lethal poison brewing, and defensive evasion mechanics to control encounters.',
       abilities: [
-        { name: 'Blade Dance', type: 'Finishing Move', desc: 'Consumes combo points to increase your Dodge and Parry chance by up to 30% for 15 seconds. The cornerstone of the Rogue Tank.' },
-        { name: 'Shadowstep', type: 'Active', desc: 'Step through the shadows and appear behind your target. Grants a massive movement speed boost for 3 seconds.' },
-        { name: 'Crimson Vial', type: 'Active', desc: 'Drink an alchemical mixture that restores 20% of your maximum health over 6 seconds. (Shares cooldown with Healthstones).' }
+        { name: 'Blade Dance', type: 'Finishing Move', desc: 'Consumes combo points to increase your Dodge and Parry chance by up to 25% for 15 seconds, enabling situational evasion tanking.' },
+        { name: 'Shadowstep', type: 'Active (30 Sec CD)', desc: 'Step through the shadows and appear behind your enemy target, increasing your next ability\'s damage and granting 3 sec of movement burst.' },
+        { name: 'Deadly Brew', type: 'Passive', desc: 'Whenever you apply Instant, Crippling, or Mind-Numbing poison, you also afflict the target with a stack of Deadly Poison.' }
       ],
       quest: {
         title: 'The Ravenholdt Ascension',
-        desc: 'To achieve the rank of Shadowmaster, Rogues must infiltrate the heavily guarded Stormwind Keep (Horde) or Undercity (Alliance) purely in stealth. If you are detected even once, the quest fails.'
+        desc: 'Rogues must infiltrate the subterranean vault of Ravenholdt Manor and bypass deadly pressure traps purely in stealth to claim the title of Shadowmaster.'
       }
     },
     Priest: {
       color: '#FFFFFF',
       role: 'Healer, Ranged DPS',
-      fantasy: 'The duality of Light and Void. Holy and Discipline receive distinct identities (raw throughput vs. shielding), while Shadow becomes a terrifying mana-battery and sustained DPS powerhouse.',
+      fantasy: 'The duality of Holy Light and Shadow Void. Discipline and Holy gain sharper identities (absorb shielding vs. massive direct throughput), while Shadow becomes a premier group mana battery.',
       abilities: [
-        { name: 'Penance', type: 'Channeled', desc: 'Fires a volley of holy light at the target, causing massive Holy damage to an enemy or massive healing to an ally. The ultimate Discipline tool.' },
-        { name: 'Vampiric Touch', type: 'Active', desc: 'A shadow damage-over-time effect that restores mana to all party members for 5% of the shadow damage you deal.' },
-        { name: 'Lightwell (Reworked)', type: 'Summon', desc: 'Now automatically beams healing magic to nearby injured allies instead of requiring them to click it. Finally useful.' }
+        { name: 'Penance', type: 'Channeled (8 Sec CD)', desc: 'Fires a concentrated volley of holy light, dealing intense Holy damage to an enemy or delivering rapid, high-efficiency healing to an ally.' },
+        { name: 'Vampiric Touch', type: 'Active (DoT)', desc: 'Afflicts the target with dark whispers, dealing Shadow damage over 15 sec and restoring mana to all party members equal to 5% of all Shadow damage you deal.' },
+        { name: 'Beacon of Light (Lightwell Rework)', type: 'Summon', desc: 'Places a radiant holy font that automatically radiates soothing beams to nearby injured party members below 50% health.' }
       ],
       quest: {
         title: 'The Balance of the Soul',
-        desc: 'Priests are sent to the Karazhan Crypts. They must perfectly balance their casting: casting too many Holy spells blinds them, casting too many Shadow spells summons hostile wraiths. A test of pure mechanical discipline.'
-      }
-    },
-    'Death Knight': {
-      color: '#C41E3A',
-      role: 'Tank, Melee DPS',
-      fantasy: 'The new hero class unlocked in Phase 4. Plate-wearing juggernauts wielding runes and runic power. Slower than Warriors, but with unparalleled self-healing and magic mitigation.',
-      abilities: [
-        { name: 'Death Grip', type: 'Active', desc: 'Harness the unholy energy that binds all matter, pulling the target to the Death Knight and forcing them to attack you.' },
-        { name: 'Death and Decay', type: 'Ground Target', desc: 'Corrupts the ground beneath the Death Knight, causing Shadow damage every second to all enemies in the area. Generates massive threat.' },
-        { name: 'Frost Strike', type: 'Active', desc: 'Consumes Runic Power to strike the enemy with a frost-infused weapon, bypassing armor.' }
-      ],
-      quest: {
-        title: 'Breaking the Crown',
-        desc: 'Death Knights start at level 55 in a phased version of Eastern Plaguelands. They must break free from the Lich King\'s control during the Battle of Light\'s Hope Chapel before joining their respective factions.'
+        desc: 'Priests journey into the Karazhan Crypts where they must balance Holy and Shadow spellweaving to cleanse restless spirits without losing their sanity.'
       }
     },
     Shaman: {
       color: '#0070DE',
       role: 'Tank, Healer, Melee/Ranged DPS',
-      fantasy: 'The spiritual heart of the Horde. Enhancement is formalized as a fully viable tanking spec, Elemental gains massive burst parity with Mages, and Resto continues to dominate raid healing.',
+      fantasy: 'The spiritual heart of the Horde. Enhancement is fully supported as an elemental earth-tank, Elemental gains consistent rotation parity, and Restoration continues as the king of chain healing.',
       abilities: [
-        { name: 'Way of Earth', type: 'Weapon Enchant', desc: 'Imbues the Shaman\'s weapon with earth. Increases threat generation by 50%, health by 10%, and reduces damage taken by 10%. Mandatory for Shaman Tanks.' },
-        { name: 'Lava Burst', type: 'Active', desc: 'Hurls molten lava at the target. If the target has Flame Shock on them, Lava Burst is a guaranteed critical strike.' },
-        { name: 'Totemic Recall', type: 'Active', desc: 'Instantly destroys all of your active totems, refunding 25% of their mana cost.' }
+        { name: 'Way of Earth', type: 'Weapon Imbue', desc: 'Imbues your melee weapon with the weight of stone. Increases threat generated by 50%, total health by 15%, and grants 10% physical damage reduction. Enables Shaman Tanking.' },
+        { name: 'Lava Burst', type: 'Active', desc: 'Hurls molten lava at the enemy. If the target is affected by your Flame Shock, Lava Burst is a guaranteed critical strike.' },
+        { name: 'Totemic Recall', type: 'Active', desc: 'Instantly destroys all of your active totems, refunding 25% of their base mana cost and preventing accidental patrol pulls.' }
       ],
       quest: {
-        title: 'The Elements in Turmoil',
-        desc: 'Shamans must commune with the elemental lords in the open world. You must survive a 5-minute onslaught by enraged Fire Elementals in the Searing Gorge without moving outside a small totemic circle.'
+        title: 'Communion with the Elemental Lords',
+        desc: 'Shamans commune with Therazane and Neptulon in the open world, surviving an intense trial of elemental balance to craft their supreme Earth and Water totems.'
       }
     },
     Mage: {
       color: '#40C7EB',
       role: 'Ranged DPS',
-      fantasy: 'The masters of time and space. Arcane becomes a fully viable DPS spec focused on mana management. Fire remains the king of late-game scaling, and Frost rules PvP and control.',
+      fantasy: 'Masters of the arcane, fire, and frost. Arcane becomes a fully viable raid spec focused on mana conservation and charge expenditure, while Fire and Frost maintain their legendary endgame scaling.',
       abilities: [
-        { name: 'Arcane Barrage', type: 'Active', desc: 'Instantly strikes the target with Arcane energy. Consumes all Arcane Charges to deal massively increased damage.' },
-        { name: 'Ice Lance', type: 'Active', desc: 'A quick, low-damage frost spell that deals triple damage against frozen targets. The shatter-combo staple.' },
-        { name: 'Living Bomb', type: 'Active', desc: 'Infects the target with fire magic. After 12 seconds, they explode, dealing massive Fire damage to all nearby enemies.' }
+        { name: 'Arcane Barrage', type: 'Active (3 Sec CD)', desc: 'Launches bolts of pure arcane energy at the enemy, consuming all accumulated Arcane Charges to deal massive instant damage.' },
+        { name: 'Ice Lance', type: 'Active', desc: 'Instantly strikes the target with an icicle, dealing triple damage against frozen targets. The signature shatter-combo finisher.' },
+        { name: 'Living Bomb', type: 'Active', desc: 'Ignites the target with volatile flame. After 12 seconds or upon death, the target explodes, dealing Fire damage to all nearby enemies.' }
       ],
       quest: {
-        title: 'The Archmage\'s Trial',
-        desc: 'Journey to the Violet Citadel in Dalaran (floating in a protective bubble). Mages must complete a deadly jumping puzzle and defeat a mirror-image of themselves using only counter-spells and spellsteals.'
+        title: 'The Archmage\'s Astral Trial',
+        desc: 'Journey to the shielded heights of the Violet Citadel to solve temporal puzzles and duel an arcane reflection using precise spell counters.'
       }
     },
     Warlock: {
       color: '#8787ED',
-      role: 'Ranged DPS, Demon Tank',
-      fantasy: 'The dark summoners. Warlocks gain the ability to temporarily merge with their demons for massive power (Metamorphosis) and can finally cast DoTs without worrying about debuff limits.',
+      role: 'Ranged DPS, Demon Form Tank',
+      fantasy: 'Dark summoners and masters of demonic pacts. Warlocks gain the ancient art of Metamorphosis for demon tanking and can freely stack damage-over-time curses without restrictive debuff limits.',
       abilities: [
-        { name: 'Metamorphosis', type: 'Active (Stance)', desc: 'Transform into a Demon. Armor is increased by 500%, chance to be critically hit by melee attacks is reduced by 6%, and Life Tap is instant. Enables Warlock Tanking.' },
-        { name: 'Chaos Bolt', type: 'Active', desc: 'Fires a bolt of chaotic fire that always critically strikes and pierces all resistance and absorption effects.' },
+        { name: 'Metamorphosis', type: 'Active Stance (3 Min CD)', desc: 'Transform into a powerful Demon. Increases armor by 500%, reduces chance to be critically hit by 6%, and transforms Searing Pain into a melee cleave taunt. Enables Demon Tanking.' },
+        { name: 'Chaos Bolt', type: 'Active', desc: 'Fires a devastating bolt of chaotic fire that pierces all enemy magic resistances, absorb shields, and always critically strikes.' },
         { name: 'Haunt', type: 'Active', desc: 'Sends a ghostly soul into the target, dealing Shadow damage and increasing all Shadow damage-over-time effects on the target by 20%.' }
       ],
       quest: {
-        title: 'The Green Fire of Xoroth',
-        desc: 'The legendary Warlock questline. Travel to the demon-world of Xoroth to steal the secrets of Fel Fire. Permanently changes all of your fire spells to a vibrant, fel-green color.'
+        title: 'The Fel Secrets of Xoroth',
+        desc: 'Warlocks travel deep into the Blasted Lands and the Altar of Storms to steal the forbidden fel-fire rites, unlocking customized green spellfire effects.'
       }
     },
     Druid: {
       color: '#FF7D0A',
       role: 'Tank, Healer, Melee/Ranged DPS',
-      fantasy: 'The ultimate shapeshifters. Balance (Moonkin) receives actual mana-regeneration tools. Feral is split clearly into Cat (DPS) and Bear (Tank) capabilities with deep, rewarding rotations.',
+      fantasy: 'The ultimate shapeshifters. Balance receives the Eclipse mechanics for infinite mana sustainability, Feral is sharply tuned with Dire Bear scaling and Cat bleed synergies, and Restoration gains versatile burst hots.',
       abilities: [
-        { name: 'Mangle', type: 'Active', desc: 'Mangles the target, dealing massive physical damage and causing them to take 30% additional damage from bleed effects. Usable in Cat or Bear form.' },
-        { name: 'Eclipse', type: 'Passive', desc: 'Casting Starfire increases the critical strike chance of Wrath. Casting Wrath increases the damage of Starfire. The core of the new Balance rotation.' },
-        { name: 'Lifebloom', type: 'Active', desc: 'A stacking heal-over-time effect that blooms for a massive burst of healing when it expires or is dispelled.' }
+        { name: 'Mangle', type: 'Active (Melee)', desc: 'Mangles the target for physical damage, increasing all bleed damage taken by the target by 30% for 12 sec. Usable in Cat or Bear Form.' },
+        { name: 'Eclipse', type: 'Passive', desc: 'Casting Starfire increases the critical strike chance of Wrath by 30%. Casting Wrath increases the damage of Starfire by 15%. The core of the Balance druid rotation.' },
+        { name: 'Lifebloom', type: 'Active (HoT)', desc: 'Applies a soothing bloom that heals over 7 sec and can stack up to 3 times. When it expires or is dispelled, it blooms for an instant burst heal and refunds mana.' }
       ],
       quest: {
-        title: 'Purging the Nightmare',
-        desc: 'Druids must venture alone into the Emerald Nightmare raid portal in Ashenvale. You must use all four of your shapeshift forms (Bear to survive, Cat to stealth, Aquatic to swim the corrupted rivers, Travel to escape) to rescue a trapped Ancient.'
+        title: 'Purging the Emerald Dream',
+        desc: 'Druids venture through the four Great Trees to cleanse ancient nightmare roots, utilizing all four shapeshift forms to navigate perilous corrupted barrow dens.'
       }
     }
   };
@@ -174,100 +160,101 @@ export default function Classes() {
     <div className="space-y-8 animate-in fade-in duration-700 pb-20">
       <WowTooltip spell={hoveredSpell?.spell} rect={hoveredSpell?.rect} />
       
+      {/* Header */}
       <div className="flex flex-col items-center border-b border-[#3c3224]/50 pb-8 mb-8 relative">
         <div className="absolute inset-0 bg-gradient-to-t from-[#120e0a] to-transparent z-0 pointer-events-none" />
         <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#fff5c3] to-[#ffd100] wow-title drop-shadow-lg relative z-10 text-center">
-          Class Mastery & Overhauls
+          Class Mastery & Spec Overhauls
         </h1>
         <p className="text-[#d3c8b8] mt-3 text-lg font-medium tracking-wide relative z-10 drop-shadow-md text-center max-w-3xl">
-          The Vanilla classes have been fully realized. Hybrids are no longer punished. 
-          Every spec has a distinct, powerful role and a sprawling, world-spanning epic questline.
+          The 9 original Vanilla classes fully realized. Hybrids are given legitimate tanking, healing, and damage capabilities directly through their 31-point talent trees and in-world class questlines.
         </p>
       </div>
 
       <div className="flex flex-col lg:flex-row gap-8">
-        
-        {/* Sidebar Navigation */}
+        {/* Class Selection Sidebar */}
         <div className="lg:w-1/4 space-y-2">
-          {CLASS_ROSTER.map(className => (
-            <button
-              key={className}
-              onClick={() => setActiveClass(className)}
-              className={`w-full text-left p-4 text-sm font-bold uppercase tracking-widest transition-all border-l-4 shadow-md ${
-                activeClass === className 
-                  ? 'bg-[#1a140e] text-white scale-[1.02]' 
-                  : 'border-transparent text-[#a69882] hover:bg-[#16120e] bg-[#120e0a] border border-[#3c3224]'
-              }`}
-              style={{ borderLeftColor: activeClass === className ? classData[className as keyof typeof classData].color : 'transparent' }}
-            >
-              {className}
-            </button>
-          ))}
-        </div>
-
-        {/* Content Display */}
-        <div className="lg:w-3/4">
-          <div className="bg-gradient-to-br from-[#120e0a] to-[#0b0907] border border-[#3c3224] rounded-xl p-8 shadow-2xl animate-in slide-in-from-right-8 duration-500 relative overflow-hidden">
-            
-            {/* Background Glow tied to class color */}
-            <div 
-              className="absolute top-0 right-0 w-64 h-64 opacity-10 rounded-bl-full pointer-events-none blur-3xl"
-              style={{ backgroundColor: selectedData.color }}
-            />
-
-            <div className="relative z-10">
-              <div className="flex justify-between items-start mb-6 border-b border-[#3c3224]/50 pb-4">
-                <div>
-                  <h2 className="text-4xl font-extrabold mb-2" style={{ color: selectedData.color, textShadow: `0 0 10px ${selectedData.color}40` }}>
-                    {activeClass}
-                  </h2>
-                  <span className="inline-block bg-[#1a140e] border border-[#3c3224] text-[#d3c8b8] px-3 py-1 rounded text-xs font-bold tracking-widest">
-                    ROLES: {selectedData.role}
+          {CLASS_ROSTER.map((className) => {
+            const cls = classData[className as keyof typeof classData];
+            const isSelected = activeClass === className;
+            return (
+              <button
+                key={className}
+                onClick={() => setActiveClass(className)}
+                style={{
+                  borderLeftColor: isSelected ? cls.color : 'transparent'
+                }}
+                className={`w-full text-left p-4 text-sm font-bold uppercase tracking-widest transition-all border-l-4 shadow-md rounded-r-lg ${
+                  isSelected
+                    ? 'bg-[#1a140e] text-white scale-[1.02]'
+                    : 'text-[#a69882] hover:bg-[#16120e] bg-[#120e0a] border border-[#3c3224]'
+                }`}
+              >
+                <div className="flex items-center justify-between">
+                  <span style={{ color: isSelected ? cls.color : undefined }}>{className}</span>
+                  <span className="text-[10px] text-[#8c7e6b] font-normal lowercase tracking-normal">
+                    {cls.role.split(',')[0]}
                   </span>
                 </div>
-              </div>
+              </button>
+            );
+          })}
+        </div>
 
-              <div className="space-y-8">
-                {/* Fantasy & Overhaul */}
-                <div>
-                  <h4 className="text-[#a69882] text-xs font-bold uppercase tracking-wider mb-3">Class Fantasy & Overhaul</h4>
-                  <p className="text-[#d3c8b8] leading-relaxed text-lg border-l-4 pl-4" style={{ borderLeftColor: selectedData.color }}>
-                    {selectedData.fantasy}
-                  </p>
-                </div>
-
-                {/* Key Abilities */}
-                <div className="bg-[#1a140e] border border-[#3c3224] p-6 rounded-lg shadow-inner">
-                  <h4 className="text-white text-sm font-bold uppercase tracking-wider mb-4 flex items-center gap-2">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={selectedData.color} strokeWidth="3"><path d="M12 2L2 22h20L12 2z"/></svg>
-                    New Core Mechanics
-                  </h4>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                    {selectedData.abilities.map((ability, i) => (
-                      <div 
-                        key={i} 
-                        className="bg-[#120e0a] border border-[#3c3224]/50 p-3 rounded cursor-pointer hover:bg-[#0b0907] transition-colors"
-                        onMouseEnter={(e) => handleSpellEnter(e, ability)}
-                        onMouseLeave={handleSpellLeave}
-                      >
-                        <h5 className="font-bold text-[#ffd100] text-sm truncate">{ability.name}</h5>
-                        <span className="text-[10px] uppercase tracking-wider text-[#a69882] block mt-1">
-                          {ability.type}
-                        </span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Epic Questline */}
-                <div className="bg-gradient-to-r from-[#1a140e] to-transparent border-l-4 p-5 rounded-r-lg" style={{ borderLeftColor: selectedData.color }}>
-                  <h4 className="text-sm font-bold uppercase tracking-wider mb-2" style={{ color: selectedData.color }}>
-                    Epic Class Questline: {selectedData.quest.title}
-                  </h4>
-                  <p className="text-[#d3c8b8] leading-relaxed italic">"{selectedData.quest.desc}"</p>
-                </div>
+        {/* Selected Class Showcase */}
+        <div className="lg:w-3/4 bg-[#120e0a] border border-[#3c3224] rounded-xl p-6 md:p-8 space-y-8 shadow-2xl">
+          {/* Header & Role */}
+          <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-[#3c3224] pb-6 gap-4">
+            <div>
+              <h2 className="text-3xl font-extrabold tracking-wide" style={{ color: selectedData.color }}>
+                {activeClass}
+              </h2>
+              <div className="flex items-center gap-2 mt-1">
+                <span className="text-xs uppercase font-bold tracking-widest text-[#ffd100]">Roles:</span>
+                <span className="text-sm font-semibold text-[#e6cc80]">{selectedData.role}</span>
               </div>
             </div>
+          </div>
+
+          {/* Fantasy Summary */}
+          <div className="bg-[#16120e] border border-[#3c3224]/80 p-5 rounded-lg">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-[#ffd100] mb-2">Class Identity & Vision</h4>
+            <p className="text-sm text-[#d3c8b8] leading-relaxed">{selectedData.fantasy}</p>
+          </div>
+
+          {/* Key Overhaul Abilities */}
+          <div className="space-y-4">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-[#ffd100]">Signature Spec Abilities</h4>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {selectedData.abilities.map((ability) => (
+                <div
+                  key={ability.name}
+                  onMouseEnter={(e) => handleSpellEnter(e, ability)}
+                  onMouseLeave={handleSpellLeave}
+                  className="bg-[#16120e] border border-[#3c3224] p-4 rounded-lg hover:border-[#ffd100]/60 transition-all cursor-pointer flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="font-bold text-sm text-[#fff5c3] mb-1">{ability.name}</div>
+                    <div className="text-[11px] text-[#ffd100] uppercase font-bold tracking-wider mb-2">
+                      {ability.type}
+                    </div>
+                    <p className="text-xs text-[#a69882] leading-normal">{ability.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Epic Class Questline */}
+          <div className="bg-[#18130e] border-2 border-[#e6cc80]/30 p-6 rounded-lg space-y-2">
+            <div className="flex items-center justify-between">
+              <h4 className="text-xs font-bold uppercase tracking-widest text-[#ffd100]">Epic Level 60 Class Questline</h4>
+              <span className="text-[11px] bg-[#0a0806] px-2.5 py-0.5 rounded text-[#e6cc80] border border-[#3c3224]">
+                World Milestone
+              </span>
+            </div>
+            <div className="text-base font-bold text-white pt-1">{selectedData.quest.title}</div>
+            <p className="text-sm text-[#b5a790] leading-relaxed">{selectedData.quest.desc}</p>
           </div>
         </div>
       </div>

@@ -1,336 +1,348 @@
 const fs = require('fs');
 
 const races = [
-  // Vanilla Alliance
+  // Core Alliance Races
   {
     id: "Human",
     name: "Human",
     faction: "Alliance",
-    type: "Vanilla",
+    type: "Core Vanilla Race",
     startLevel: 1,
-    startZone: "Northshire Abbey",
-    description: "The resilient founders of the Alliance. Humans excel in diplomacy, weapon mastery, and the holy arts.",
-    baseRacial: { name: "Every Man for Himself", desc: "Removes all movement impairing effects and all effects which cause loss of control of your character." },
-    talents: [
-      { id: "h1", name: "Diplomacy", icon: "spell_holy_wordfortitude", maxPoints: 3, row: 0, col: 1, desc: ["Reputation gains increased by 2%.", "Reputation gains increased by 4%.", "Reputation gains increased by 6%."] },
-      { id: "h2", name: "The Human Spirit", icon: "spell_holy_divinespirit", maxPoints: 2, row: 0, col: 2, desc: ["Spirit increased by 3%.", "Spirit increased by 6%."] },
-      { id: "h3", name: "Perception", icon: "spell_nature_sleep", maxPoints: 1, row: 1, col: 1, desc: ["Dramatically increases stealth detection for 20 sec."], requires: { id: "h1", points: 3 } },
-      { id: "h4", name: "Sword Specialization", icon: "inv_sword_04", maxPoints: 2, row: 1, col: 2, desc: ["Sword and Two-Handed Sword skill increased by 3.", "Sword and Two-Handed Sword skill increased by 5."] },
-      { id: "h5", name: "Mace Specialization", icon: "inv_mace_01", maxPoints: 2, row: 2, col: 1, desc: ["Mace and Two-Handed Mace skill increased by 3.", "Mace and Two-Handed Mace skill increased by 5."] },
-      { id: "h6", name: "Defiance", icon: "spell_holy_ashestoashes", maxPoints: 2, row: 2, col: 2, desc: ["Reduces the duration of fear effects by 10%.", "Reduces the duration of fear effects by 20%."] },
-      { id: "h7", name: "Champion of Stormwind", icon: "inv_banner_02", maxPoints: 1, row: 3, col: 1, desc: ["Plant a banner that inspires allies within 15 yards, granting them 10% increased attack and cast speed for 10 sec."] }
+    startZone: "Northshire Abbey (Elwynn Forest)",
+    description: "The resilient founders of the Alliance of Lordaeron. Humans excel in diplomacy, spiritual fortitude, and mastery of swords and maces.",
+    baseRacial: {
+      name: "Every Man for Himself",
+      desc: "Instant. Removes all movement impairing effects and all effects which cause loss of control of your character. (2 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Paladin", "Rogue", "Priest", "Mage", "Warlock"],
+    traits: [
+      { name: "Diplomacy", icon: "spell_holy_wordfortitude", desc: "Reputation gains increased by 10% across all factions." },
+      { name: "The Human Spirit", icon: "spell_holy_divinespirit", desc: "Spirit increased by 5%, accelerating mana and health regeneration." },
+      { name: "Perception", icon: "spell_nature_sleep", desc: "Dramatically increases stealth detection against rogues and prowling beasts." },
+      { name: "Sword Specialization", icon: "inv_sword_04", desc: "Skill with Swords and Two-Handed Swords increased by 5." },
+      { name: "Mace Specialization", icon: "inv_mace_01", desc: "Skill with Maces and Two-Handed Maces increased by 5." }
     ]
   },
   {
     id: "Dwarf",
     name: "Dwarf",
     faction: "Alliance",
-    type: "Vanilla",
+    type: "Core Vanilla Race",
     startLevel: 1,
-    startZone: "Coldridge Valley",
-    description: "Stout and hardy mountaineers of Khaz Modan. Dwarves are master craftsmen and sharpshooters.",
-    baseRacial: { name: "Stoneform", desc: "Removes all poison, disease and bleed effects and increases armor by 10% for 8 sec." },
-    talents: [
-      { id: "d1", name: "Frost Resistance", icon: "spell_frost_frostward", maxPoints: 3, row: 0, col: 1, desc: ["Frost Resistance increased by 3.", "Frost Resistance increased by 6.", "Frost Resistance increased by 10."] },
-      { id: "d2", name: "Find Treasure", icon: "inv_misc_gem_01", maxPoints: 1, row: 0, col: 2, desc: ["Allows the dwarf to sense nearby treasure, making it appear on the minimap."] },
-      { id: "d3", name: "Gun Specialization", icon: "inv_weapon_rifle_01", maxPoints: 2, row: 1, col: 1, desc: ["Gun skill increased by 3.", "Gun skill increased by 5."] },
-      { id: "d4", name: "Explorer's Resilience", icon: "spell_holy_devotionaura", maxPoints: 2, row: 1, col: 2, desc: ["Reduces environmental damage taken by 10%.", "Reduces environmental damage taken by 20%."] },
-      { id: "d5", name: "Liquid Courage", icon: "inv_drink_08", maxPoints: 1, row: 2, col: 1, desc: ["Drinking an alcoholic beverage in combat is now an instant action that doesn't trigger the GCD. Increases Fear resistance by 50% for 10 seconds."] },
-      { id: "d6", name: "Mountain Lord", icon: "spell_nature_earthbind", maxPoints: 2, row: 2, col: 2, desc: ["Increases your chance to block by 2%.", "Increases your chance to block by 4%."] },
-      { id: "d7", name: "Avatar", icon: "spell_nature_strength", maxPoints: 1, row: 3, col: 1, desc: ["Grow in size and turn to stone for 15 sec. Breaking all roots and snares and increasing damage dealt by 10%."] }
+    startZone: "Coldridge Valley (Dun Morogh)",
+    description: "Hardy mountain-dwellers of Ironforge. Dwarves are master metalsmiths, sharpshooters, and resilient defenders of Khaz Modan.",
+    baseRacial: {
+      name: "Stoneform",
+      desc: "Instant. Grants immunity to Bleed, Poison, and Disease effects and increases armor by 10% for 8 sec. (3 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Paladin", "Hunter", "Rogue", "Priest"],
+    traits: [
+      { name: "Frost Resistance", icon: "spell_frost_frostward", desc: "Frost Resistance increased by 10." },
+      { name: "Find Treasure", icon: "inv_misc_gem_01", desc: "Allows the dwarf to sense nearby treasure chests on the minimap." },
+      { name: "Gun Specialization", icon: "inv_weapon_rifle_01", desc: "Gun skill increased by 5, increasing critical strike chance with rifles." },
+      { name: "Mountaineer Fortitude", icon: "spell_nature_strength", desc: "Reduces the duration of movement impairing effects by 15%." }
     ]
   },
   {
     id: "NightElf",
     name: "Night Elf",
     faction: "Alliance",
-    type: "Vanilla",
+    type: "Core Vanilla Race",
     startLevel: 1,
-    startZone: "Shadowglen",
-    description: "Ancient and reclusive guardians of nature. Night Elves blend into the shadows and strike swiftly.",
-    baseRacial: { name: "Shadowmeld", desc: "Activate to slip into the shadows, reducing the chance for enemies to detect your presence. Lasts until cancelled or upon moving." },
-    talents: [
-      { id: "ne1", name: "Nature Resistance", icon: "spell_nature_resistnature", maxPoints: 3, row: 0, col: 1, desc: ["Nature Resistance increased by 3.", "Nature Resistance increased by 6.", "Nature Resistance increased by 10."] },
-      { id: "ne2", name: "Wisp Spirit", icon: "spell_nature_wispsplode", maxPoints: 2, row: 0, col: 2, desc: ["Transform into a wisp upon death, increasing movement speed by 25%.", "Transform into a wisp upon death, increasing movement speed by 50%."] },
-      { id: "ne3", name: "Quickness", icon: "ability_rogue_sprint", maxPoints: 2, row: 1, col: 1, desc: ["Dodge chance increased by 1%.", "Dodge chance increased by 2%."] },
-      { id: "ne4", name: "Elusiveness", icon: "spell_magic_lesserinvisibilty", maxPoints: 2, row: 1, col: 2, desc: ["Reduces the chance enemies have to detect you while Shadowmelded or Stealthed.", "Greatly reduces the chance enemies have to detect you while Shadowmelded or Stealthed."] },
-      { id: "ne5", name: "Starshard Rain", icon: "spell_arcane_starfire", maxPoints: 1, row: 2, col: 1, desc: ["Call down a rain of starshards, dealing Arcane damage over 6 sec in a targeted area."] },
-      { id: "ne6", name: "Bow Specialization", icon: "inv_weapon_bow_01", maxPoints: 2, row: 2, col: 2, desc: ["Bow skill increased by 3.", "Bow skill increased by 5."] },
-      { id: "ne7", name: "Wisp Detonation", icon: "spell_nature_wispsplode", maxPoints: 1, row: 3, col: 1, desc: ["If you die, you immediately spawn 3 Wisps that aggressively seek out the enemy who dealt the killing blow, detonating for massive mana drain."] }
+    startZone: "Shadowglen (Teldrassil)",
+    description: "Ancient and reclusive protectors of Kalimdor. Masters of the shadows, bowcraft, and natural druidism.",
+    baseRacial: {
+      name: "Shadowmeld",
+      desc: "Instant. Slip into the shadows, reducing the chance for enemies to detect your presence. Lasts until cancelled or upon moving. (10 Sec Cooldown)"
+    },
+    availableClasses: ["Warrior", "Hunter", "Rogue", "Priest", "Druid"],
+    traits: [
+      { name: "Nature Resistance", icon: "spell_nature_resistnature", desc: "Nature Resistance increased by 10." },
+      { name: "Wisp Spirit", icon: "spell_nature_wispsplode", desc: "Transform into a wisp upon death, increasing ghost movement speed by 50%." },
+      { name: "Quickness", icon: "ability_rogue_sprint", desc: "Dodge chance increased by 1%." },
+      { name: "Bow Specialization", icon: "inv_weapon_bow_01", desc: "Bow skill increased by 5." }
     ]
   },
   {
     id: "Gnome",
     name: "Gnome",
     faction: "Alliance",
-    type: "Vanilla",
+    type: "Core Vanilla Race",
     startLevel: 1,
-    startZone: "Coldridge Valley",
-    description: "Brilliant and eccentric tinkerers. Gnomes use superior intellect and engineering to outsmart foes.",
-    baseRacial: { name: "Escape Artist", desc: "Escape the effects of any immobilization or movement speed reduction effect." },
-    talents: [
-      { id: "gn1", name: "Arcane Resistance", icon: "spell_nature_starfall", maxPoints: 3, row: 0, col: 1, desc: ["Arcane Resistance increased by 3.", "Arcane Resistance increased by 6.", "Arcane Resistance increased by 10."] },
-      { id: "gn2", name: "Expansive Mind", icon: "spell_ice_magicdamage", maxPoints: 2, row: 0, col: 2, desc: ["Intellect increased by 2%.", "Intellect increased by 5%."] },
-      { id: "gn3", name: "Engineering Specialization", icon: "trade_engineering", maxPoints: 2, row: 1, col: 1, desc: ["Engineering skill increased by 7.", "Engineering skill increased by 15."] },
-      { id: "gn4", name: "Nimble Fingers", icon: "ability_rogue_ambush", maxPoints: 2, row: 1, col: 2, desc: ["Casting speed increased by 1%.", "Casting speed increased by 2%."] },
-      { id: "gn5", name: "Short Fuse", icon: "spell_fire_selfdestruct", maxPoints: 1, row: 2, col: 1, desc: ["When reduced below 20% health, you drop a live bomb that detonates after 2 seconds, dealing Fire damage to all nearby enemies."] },
-      { id: "gn6", name: "Technobabble", icon: "inv_misc_gear_01", maxPoints: 2, row: 2, col: 2, desc: ["Increases the duration of your silences and interrupts by 0.5 sec.", "Increases the duration of your silences and interrupts by 1.0 sec."] },
-      { id: "gn7", name: "Overclock", icon: "spell_nature_bloodlust", maxPoints: 1, row: 3, col: 1, desc: ["Overclock your central nervous system, increasing all haste by 20% for 12 sec, but draining 2% of your health every second."] }
+    startZone: "Gnomeregan Surface (Dun Morogh)",
+    description: "Brilliant, eccentric inventors whose keen intellects and technological ingenuity power the Alliance war machine.",
+    baseRacial: {
+      name: "Escape Artist",
+      desc: "Instant (0.5 sec cast). Escape the effects of any immobilization or movement speed reduction effect. (1 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Rogue", "Mage", "Warlock"],
+    traits: [
+      { name: "Arcane Resistance", icon: "spell_nature_starfall", desc: "Arcane Resistance increased by 10." },
+      { name: "Expansive Mind", icon: "spell_ice_magicdamage", desc: "Intellect increased by 5%." },
+      { name: "Engineering Specialization", icon: "trade_engineering", desc: "Engineering skill increased by 15." }
     ]
   },
 
-  // Allied Alliance
+  // Allied Alliance Sub-Races (All Starting Level 1)
   {
     id: "Worgen",
-    name: "Worgen",
+    name: "Gilnean Worgen",
     faction: "Alliance",
-    type: "Allied",
-    startLevel: 12,
-    startZone: "The Greymane Wall",
-    description: "Cursed Gilneans who have learned to control their feral rage.",
-    baseRacial: { name: "Darkflight", desc: "Activates your true form, dropping to all fours. Movement speed increased by 40% for 10 sec." },
-    talents: [
-      { id: "w1", name: "Viciousness", icon: "ability_druid_rake", maxPoints: 3, row: 0, col: 1, desc: ["Critical strike chance increased by 1%.", "Critical strike chance increased by 2%.", "Critical strike chance increased by 3%."] },
-      { id: "w2", name: "Aberration", icon: "spell_shadow_shadowward", maxPoints: 2, row: 0, col: 2, desc: ["Reduces duration of curses and diseases by 10%.", "Reduces duration of curses and diseases by 20%."] },
-      { id: "w3", name: "Flayer", icon: "trade_skinning", maxPoints: 2, row: 1, col: 1, desc: ["Skinning skill increased by 7. You can skin 10% faster.", "Skinning skill increased by 15. You can skin 20% faster."] },
-      { id: "w4", name: "Running Wild", icon: "ability_hunter_pet_wolf", maxPoints: 1, row: 1, col: 2, desc: ["Drop to all fours to run as fast as a wild animal. Serves as a mount."] },
-      { id: "w5", name: "Blood Tracker", icon: "ability_hunter_snaketrap", maxPoints: 2, row: 2, col: 1, desc: ["You deal 2% more damage to bleeding targets.", "You deal 4% more damage to bleeding targets."] },
-      { id: "w6", name: "Feral Regeneration", icon: "spell_nature_regenerate", maxPoints: 2, row: 2, col: 2, desc: ["Health regeneration in combat increased by 5%.", "Health regeneration in combat increased by 10%."] },
-      { id: "w7", name: "Unleashed Curse", icon: "spell_shadow_vampiricaura", maxPoints: 1, row: 3, col: 1, desc: ["Unleash your full curse, transforming into a massive wolf for 15 sec, gaining 20% lifesteal on all physical attacks."] }
+    type: "Allied Sub-Race",
+    startLevel: 1,
+    startZone: "The Greymane Enclave (Gilneas Coast)",
+    description: "Hardened Gilnean humans who have mastered their inner lupine curse, fighting with feral ferocity under the Alliance banner.",
+    baseRacial: {
+      name: "Darkflight",
+      desc: "Instant. Drop to all fours, increasing ground movement speed by 40% for 10 sec. (2 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Hunter", "Rogue", "Mage", "Warlock", "Druid"],
+    traits: [
+      { name: "Viciousness", icon: "ability_druid_rake", desc: "Melee and spell critical strike chance increased by 1%." },
+      { name: "Aberration", icon: "spell_shadow_shadowward", desc: "Shadow and Nature Resistance increased by 7." },
+      { name: "Flayer", icon: "trade_skinning", desc: "Skinning skill increased by 15, and skinning speed is reduced to 1.5 seconds." },
+      { name: "Claw Mastery", icon: "inv_misc_pelt_04", desc: "Fist and Dagger weapon skill increased by 5." }
     ]
   },
   {
     id: "Wildhammer",
     name: "Wildhammer Dwarf",
     faction: "Alliance",
-    type: "Allied",
-    startLevel: 40,
-    startZone: "The Overlook (Hinterlands)",
-    description: "Fierce, tattooed dwarves from the peaks of Aerie Peak. Masters of gryphons and storms.",
-    baseRacial: { name: "Gryphon's Vigor", desc: "Increases resistance to Nature and Frost magic by 10, and reduces the duration of movement impairing effects by 15%." },
-    talents: [
-      { id: "wd1", name: "Stormborn", icon: "spell_nature_lightning", maxPoints: 3, row: 0, col: 1, desc: ["Nature damage dealt increased by 1%.", "Nature damage dealt increased by 2%.", "Nature damage dealt increased by 3%."] },
-      { id: "wd2", name: "Tattooed Hide", icon: "inv_misc_pelt_04", maxPoints: 2, row: 0, col: 2, desc: ["Armor increased by 2%.", "Armor increased by 4%."] },
-      { id: "wd3", name: "Hammer Specialization", icon: "inv_hammer_04", maxPoints: 2, row: 1, col: 1, desc: ["Mace skill increased by 3.", "Mace skill increased by 5."] },
-      { id: "wd4", name: "Wind Rider", icon: "ability_mount_gryphon_01", maxPoints: 1, row: 1, col: 2, desc: ["Flight path travel time is reduced by 25%."] },
-      { id: "wd5", name: "Thunder Strike", icon: "spell_shaman_thunderstorm", maxPoints: 2, row: 2, col: 1, desc: ["Your melee critical strikes have a 5% chance to call down a lightning bolt.", "Your melee critical strikes have a 10% chance to call down a lightning bolt."] },
-      { id: "wd6", name: "Wild Resilience", icon: "spell_nature_skinofearth", maxPoints: 2, row: 2, col: 2, desc: ["Reduces duration of stun effects by 10%.", "Reduces duration of stun effects by 20%."] },
-      { id: "wd7", name: "Call of the Aerie", icon: "ability_hunter_pet_owl", maxPoints: 1, row: 3, col: 1, desc: ["Call a Wildhammer Gryphon to dive bomb a target area, dealing physical damage and knocking down enemies."] }
+    type: "Allied Sub-Race",
+    startLevel: 1,
+    startZone: "Aerie Peak Heights (The Hinterlands)",
+    description: "Fierce, tattooed mountaineers of the Hinterlands who revere nature and storm magic, bonded with mighty gryphons.",
+    baseRacial: {
+      name: "Storm Shock",
+      desc: "Instant. Hurl a charged storm bolt at an enemy within 10 yards, dealing Nature damage and interrupting spellcasting for 3 sec. (2 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Hunter", "Rogue", "Priest", "Shaman"],
+    traits: [
+      { name: "Gryphon Rider's Vigor", icon: "ability_mount_gryphon_01", desc: "Fall damage reduced by 25%, and Nature Resistance increased by 10." },
+      { name: "Tattooed Hide", icon: "inv_misc_pelt_04", desc: "Armor increased by 3%." },
+      { name: "Hammer Specialization", icon: "inv_hammer_04", desc: "Two-Handed Mace skill increased by 5." },
+      { name: "Stormborn", icon: "spell_nature_lightning", desc: "Nature damage dealt increased by 2%." }
     ]
   },
   {
     id: "Timbermaw",
     name: "Timbermaw Furbolg",
     faction: "Alliance",
-    type: "Allied",
-    startLevel: 48,
-    startZone: "The Inner Barrows",
-    description: "The last uncorrupted tribe of Furbolgs, joining the Alliance to purge the corruption from their lands.",
-    baseRacial: { name: "Ursine Roar", desc: "Unleash a roar that demoralizes enemies within 8 yards, reducing their attack power for 20 sec." },
-    talents: [
-      { id: "tf1", name: "Thick Hide", icon: "ability_hunter_pet_bear", maxPoints: 3, row: 0, col: 1, desc: ["Stamina increased by 1%.", "Stamina increased by 2%.", "Stamina increased by 3%."] },
-      { id: "tf2", name: "Woodland Stride", icon: "spell_nature_naturetouchgrow", maxPoints: 2, row: 0, col: 2, desc: ["Movement speed in outdoor environments increased by 4%.", "Movement speed in outdoor environments increased by 8%."] },
-      { id: "tf3", name: "Ancestral Spirits", icon: "spell_totem_wardofdawn", maxPoints: 2, row: 1, col: 1, desc: ["Healing received increased by 2%.", "Healing received increased by 4%."] },
-      { id: "tf4", name: "Hibernate", icon: "spell_nature_sleep", maxPoints: 1, row: 1, col: 2, desc: ["Enter a deep sleep for 10 sec, rendering you immune to damage but unable to act. Restores 50% health and mana."] },
-      { id: "tf5", name: "Feral Swipe", icon: "ability_druid_bash", maxPoints: 2, row: 2, col: 1, desc: ["Your attacks have a 5% chance to cleave a nearby enemy.", "Your attacks have a 10% chance to cleave a nearby enemy."] },
-      { id: "tf6", name: "Earth's Grasp", icon: "spell_nature_stranglevines", maxPoints: 2, row: 2, col: 2, desc: ["Chance to resist forced movement effects by 15%.", "Chance to resist forced movement effects by 30%."] },
-      { id: "tf7", name: "Avatar of Ursoc", icon: "ability_druid_challangingroar", maxPoints: 1, row: 3, col: 1, desc: ["Embrace the bear god. Size increased by 30%, health increased by 20%, and attacks stun targets for 1 sec. Lasts 15 sec."] }
+    type: "Allied Sub-Race",
+    startLevel: 1,
+    startZone: "The Inner Barrows (Felwood / Timbermaw)",
+    description: "The last uncorrupted tribe of furbolgs in northern Kalimdor, wielding ancient shamanic earth magic and ursine might.",
+    baseRacial: {
+      name: "Ursine Roar",
+      desc: "Instant. Unleash an intimidating roar that demoralizes enemies within 8 yards, reducing their attack power by 120 for 15 sec. (2 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Hunter", "Priest", "Shaman", "Druid"],
+    traits: [
+      { name: "Thick Hide", icon: "ability_hunter_pet_bear", desc: "Total Stamina increased by 2%." },
+      { name: "Woodland Stride", icon: "spell_nature_naturetouchgrow", desc: "Movement speed in outdoor wilderness zones increased by 5%." },
+      { name: "Ancestral Resilience", icon: "spell_nature_skinofearth", desc: "Chance to resist stun and forced movement effects increased by 10%." }
     ]
   },
   {
     id: "HighElf",
     name: "High Elf",
     faction: "Alliance",
-    type: "Allied",
-    startLevel: 53,
-    startZone: "Quel'Lithien Vanguard",
-    description: "The remnants of Quel'Thalas who remained loyal to the Alliance, heavily steeped in arcane traditions.",
-    baseRacial: { name: "Arcane Meditation", desc: "Allows 10% of your Mana regeneration to continue while casting." },
-    talents: [
-      { id: "he1", name: "Arcane Affinity", icon: "spell_holy_magicalsentry", maxPoints: 3, row: 0, col: 1, desc: ["Enchanting skill increased by 5.", "Enchanting skill increased by 10.", "Enchanting skill increased by 15."] },
-      { id: "he2", name: "Luminous Spirit", icon: "spell_holy_holybolt", maxPoints: 2, row: 0, col: 2, desc: ["Intellect and Spirit increased by 1%.", "Intellect and Spirit increased by 2%."] },
-      { id: "he3", name: "Mana Tap", icon: "spell_nature_purge", maxPoints: 1, row: 1, col: 1, desc: ["Drain 500 mana from the target and return it to yourself."] },
-      { id: "he4", name: "Ranger's Aim", icon: "ability_hunter_aimedshot", maxPoints: 2, row: 1, col: 2, desc: ["Ranged weapon skill increased by 3.", "Ranged weapon skill increased by 5."] },
-      { id: "he5", name: "Leyline Attunement", icon: "spell_arcane_portalshattrath", maxPoints: 2, row: 2, col: 1, desc: ["Spell critical strike damage increased by 2%.", "Spell critical strike damage increased by 4%."] },
-      { id: "he6", name: "Silvermoon's Pride", icon: "spell_holy_devotion", maxPoints: 2, row: 2, col: 2, desc: ["Reduces the duration of silence effects by 10%.", "Reduces the duration of silence effects by 20%."] },
-      { id: "he7", name: "Arcane Torrent", icon: "spell_holy_ashestoashes", maxPoints: 1, row: 3, col: 1, desc: ["Release an explosion of arcane energy, silencing all enemies within 8 yards for 3 sec and restoring 5% of your total mana."] }
+    type: "Allied Sub-Race",
+    startLevel: 1,
+    startZone: "Quel'Lithien Vanguard (Eastern Plaguelands)",
+    description: "Remnants of Quel'Thalas who refused dark fel magic and remain loyal to the Alliance, masters of arcane arts and archery.",
+    baseRacial: {
+      name: "Arcane Torrent",
+      desc: "Instant. Release a burst of arcane energy, silencing all enemies within 8 yards for 2 sec and restoring 5% total mana. (2 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Hunter", "Rogue", "Priest", "Mage", "Paladin"],
+    traits: [
+      { name: "Arcane Affinity", icon: "spell_holy_magicalsentry", desc: "Enchanting skill increased by 15, and Arcane Resistance increased by 10." },
+      { name: "Arcane Meditation", icon: "spell_holy_holybolt", desc: "Allows 10% of your mana regeneration to continue while casting." },
+      { name: "Ranger's Precision", icon: "ability_hunter_aimedshot", desc: "Bow and Gun skill increased by 5." }
     ]
   },
 
-  // Vanilla Horde
+  // Core Horde Races
   {
     id: "Orc",
     name: "Orc",
     faction: "Horde",
-    type: "Vanilla",
+    type: "Core Vanilla Race",
     startLevel: 1,
-    startZone: "Valley of Trials",
-    description: "Fierce and honorable warriors from Draenor. Orcs rely on physical might and shamanistic fury.",
-    baseRacial: { name: "Blood Fury", desc: "Increases base melee attack power by 25% for 15 sec and reduces healing effects on you by 50% for 25 sec." },
-    talents: [
-      { id: "o1", name: "Hardiness", icon: "spell_nature_strength", maxPoints: 3, row: 0, col: 1, desc: ["Chance to resist Stun effects increased by 5%.", "Chance to resist Stun effects increased by 10%.", "Chance to resist Stun effects increased by 15%."] },
-      { id: "o2", name: "Axe Specialization", icon: "inv_axe_02", maxPoints: 2, row: 0, col: 2, desc: ["Skill with Axes and Two-Handed Axes increased by 3.", "Skill with Axes and Two-Handed Axes increased by 5."] },
-      { id: "o3", name: "Command", icon: "ability_hunter_pet_orc", maxPoints: 2, row: 1, col: 1, desc: ["Damage dealt by Hunter and Warlock pets increased by 2%.", "Damage dealt by Hunter and Warlock pets increased by 5%."] },
-      { id: "o4", name: "Savage Vigor", icon: "spell_nature_bloodlust", maxPoints: 2, row: 1, col: 2, desc: ["Health regeneration out of combat increased by 10%.", "Health regeneration out of combat increased by 20%."] },
-      { id: "o5", name: "Battle Cry", icon: "ability_warrior_battleshout", maxPoints: 1, row: 2, col: 1, desc: ["Unleash a terrifying cry, reducing the attack power of nearby enemies for 10 sec."] },
-      { id: "o6", name: "Iron Will", icon: "spell_magic_magearmor", maxPoints: 2, row: 2, col: 2, desc: ["Reduces duration of charm and fear effects by 10%.", "Reduces duration of charm and fear effects by 20%."] },
-      { id: "o7", name: "Ancestral Rage", icon: "spell_nature_shamanrage", maxPoints: 1, row: 3, col: 1, desc: ["Call upon your ancestors, immediately resetting the cooldown of Blood Fury and removing its healing reduction penalty for 10 sec."] }
+    startZone: "Valley of Trials (Durotar)",
+    description: "Honorable warriors from Draenor who founded the new Horde in Durotar. Masters of battle axes, blood rage, and pet command.",
+    baseRacial: {
+      name: "Blood Fury",
+      desc: "Instant. Increases base melee attack power by 25% for 15 sec, but reduces healing effects received by 50% for 25 sec. (2 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Hunter", "Rogue", "Shaman", "Warlock"],
+    traits: [
+      { name: "Hardiness", icon: "spell_nature_strength", desc: "Chance to resist Stun effects increased by 15%." },
+      { name: "Axe Specialization", icon: "inv_axe_02", desc: "Skill with Axes and Two-Handed Axes increased by 5." },
+      { name: "Command", icon: "ability_hunter_pet_orc", desc: "Damage dealt by Hunter and Warlock pets increased by 5%." }
     ]
   },
   {
     id: "Undead",
-    name: "Undead",
+    name: "Undead (Forsaken)",
     faction: "Horde",
-    type: "Vanilla",
+    type: "Core Vanilla Race",
     startLevel: 1,
-    startZone: "Deathknell",
-    description: "The Forsaken are the lingering remnants of Lordaeron, freed from the Lich King's grasp.",
-    baseRacial: { name: "Will of the Forsaken", desc: "Provides immunity to Charm, Fear and Sleep while active. May also be used while already afflicted by Charm, Fear or Sleep. Lasts 5 sec." },
-    talents: [
-      { id: "ud1", name: "Shadow Resistance", icon: "spell_shadow_antipathyshadow", maxPoints: 3, row: 0, col: 1, desc: ["Shadow Resistance increased by 3.", "Shadow Resistance increased by 6.", "Shadow Resistance increased by 10."] },
-      { id: "ud2", name: "Cannibalize", icon: "ability_racial_cannibalize", maxPoints: 1, row: 0, col: 2, desc: ["When activated, regenerates 7% of total health every 2 sec for 10 sec. Only works on Humanoid or Undead corpses."] },
-      { id: "ud3", name: "Underwater Breathing", icon: "spell_shadow_demonbreath", maxPoints: 2, row: 1, col: 1, desc: ["Underwater breath lasts 150% longer.", "Underwater breath lasts 300% longer."] },
-      { id: "ud4", name: "Detachable Digits", icon: "ability_rogue_dismantle", maxPoints: 1, row: 1, col: 2, desc: ["When disarmed, you throw your severed arm at the enemy. Silences target for 1.5s, but prevents 2H weapon use until arm is reattached."] },
-      { id: "ud5", name: "Touch of the Grave", icon: "spell_shadow_lifedrain", maxPoints: 2, row: 2, col: 1, desc: ["Your attacks have a chance to drain health from the target.", "Your attacks have a higher chance to drain health from the target."] },
-      { id: "ud6", name: "Plaguebearer", icon: "spell_shadow_callofbone", maxPoints: 2, row: 2, col: 2, desc: ["When struck in melee, attackers have a 5% chance to contract a disease.", "When struck in melee, attackers have a 10% chance to contract a disease."] },
-      { id: "ud7", name: "Banshee's Wail", icon: "spell_shadow_possession", maxPoints: 1, row: 3, col: 1, desc: ["Unleash a horrifying wail that fears all enemies within 8 yards for 4 sec. Damage may break the effect."] }
+    startZone: "Deathknell (Tirisfal Glades)",
+    description: "The free-willed undead of Lordaeron who broke the Lich King's yoke. Feared for their dark alchemy and unbreakable willpower.",
+    baseRacial: {
+      name: "Will of the Forsaken",
+      desc: "Instant. Provides immunity to Charm, Fear, and Sleep effects for 5 sec. May be used while already afflicted. (2 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Rogue", "Priest", "Mage", "Warlock"],
+    traits: [
+      { name: "Shadow Resistance", icon: "spell_shadow_antipathyshadow", desc: "Shadow Resistance increased by 10." },
+      { name: "Cannibalize", icon: "ability_racial_cannibalize", desc: "Regenerates 7% of total health every 2 sec for 10 sec from a nearby Humanoid or Undead corpse." },
+      { name: "Underwater Breathing", icon: "spell_shadow_demonbreath", desc: "Underwater breath duration increased by 300%." }
     ]
   },
   {
     id: "Tauren",
     name: "Tauren",
     faction: "Horde",
-    type: "Vanilla",
+    type: "Core Vanilla Race",
     startLevel: 1,
-    startZone: "Camp Narache",
-    description: "Massive, peaceful nomads of Mulgore. When provoked, their strength is unparalleled.",
-    baseRacial: { name: "War Stomp", desc: "Stuns up to 5 enemies within 8 yds for 2 sec." },
-    talents: [
-      { id: "t1", name: "Endurance", icon: "spell_nature_earthbind", maxPoints: 3, row: 0, col: 1, desc: ["Total Health increased by 1%.", "Total Health increased by 3%.", "Total Health increased by 5%."] },
-      { id: "t2", name: "Cultivation", icon: "inv_misc_flower_01", maxPoints: 2, row: 0, col: 2, desc: ["Herbalism skill increased by 7.", "Herbalism skill increased by 15."] },
-      { id: "t3", name: "Nature Resistance", icon: "spell_nature_resistnature", maxPoints: 2, row: 1, col: 1, desc: ["Nature Resistance increased by 5.", "Nature Resistance increased by 10."] },
-      { id: "t4", name: "Plainswalker", icon: "spell_nature_spiritwolf", maxPoints: 1, row: 1, col: 2, desc: ["Out of combat movement speed increased by 5%."] },
-      { id: "t5", name: "Brawn", icon: "spell_nature_strength", maxPoints: 2, row: 2, col: 1, desc: ["Critical strike damage and healing bonus increased by 1%.", "Critical strike damage and healing bonus increased by 2%."] },
-      { id: "t6", name: "Grounded", icon: "spell_nature_skinofearth", maxPoints: 2, row: 2, col: 2, desc: ["Reduces the duration of knockbacks and forced movement by 15%.", "Reduces the duration of knockbacks and forced movement by 30%."] },
-      { id: "t7", name: "Stampeding Herd", icon: "ability_hunter_pet_tallstrider", maxPoints: 1, row: 3, col: 1, desc: ["Replaces War Stomp. Charge forward in a straight line for 15 yards. Any enemy you pass through is knocked down for 1.5 seconds."] }
+    startZone: "Camp Narache (Mulgore)",
+    description: "Noble, spiritual giants of the Kalimdor plains. Revere the Earth Mother and wield immense physical strength and herbal knowledge.",
+    baseRacial: {
+      name: "War Stomp",
+      desc: "0.5 sec cast. Stuns up to 5 enemies within 8 yards for 2 sec. (2 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Hunter", "Shaman", "Druid"],
+    traits: [
+      { name: "Endurance", icon: "spell_nature_earthbind", desc: "Total Health increased by 5%." },
+      { name: "Cultivation", icon: "inv_misc_flower_01", desc: "Herbalism skill increased by 15, and gathering speed is accelerated." },
+      { name: "Nature Resistance", icon: "spell_nature_resistnature", desc: "Nature Resistance increased by 10." }
     ]
   },
   {
     id: "Troll",
-    name: "Troll",
+    name: "Troll (Darkspear)",
     faction: "Horde",
-    type: "Vanilla",
+    type: "Core Vanilla Race",
     startLevel: 1,
-    startZone: "Valley of Trials",
-    description: "Savage and cunning inhabitants of the Darkspear tribe. Masters of voodoo.",
-    baseRacial: { name: "Berserking", desc: "Increases your casting and attack speed by 10% to 30%. At full health the speed increase is 10% with a greater effect up to 30% if you are badly hurt when you activate Berserking. Lasts 10 sec." },
-    talents: [
-      { id: "tr1", name: "Regeneration", icon: "spell_nature_regenerate", maxPoints: 3, row: 0, col: 1, desc: ["Health regeneration rate increased by 5%.", "Health regeneration rate increased by 10%.", "Health regeneration rate increased by 15%. 10% of total Health regeneration may continue during combat."] },
-      { id: "tr2", name: "Beast Slaying", icon: "ability_hunter_snaketrap", maxPoints: 2, row: 0, col: 2, desc: ["Damage dealt versus Beasts increased by 2%.", "Damage dealt versus Beasts increased by 5%."] },
-      { id: "tr3", name: "Bow Specialization", icon: "inv_weapon_bow_01", maxPoints: 2, row: 1, col: 1, desc: ["Skill with Bows increased by 3.", "Skill with Bows increased by 5."] },
-      { id: "tr4", name: "Throwing Specialization", icon: "inv_axe_17", maxPoints: 1, row: 1, col: 2, desc: ["Skill with Throwing Weapons increased by 5."] },
-      { id: "tr5", name: "Da Voodoo Shuffle", icon: "spell_shadow_shadowworddominate", maxPoints: 2, row: 2, col: 1, desc: ["Reduces the duration of all movement impairing effects by 7%.", "Reduces the duration of all movement impairing effects by 15%."] },
-      { id: "tr6", name: "Hex of Weakness", icon: "spell_shadow_curseofmannoroth", maxPoints: 2, row: 2, col: 2, desc: ["Your attacks have a chance to reduce the target's damage dealt by 2%.", "Your attacks have a chance to reduce the target's damage dealt by 4%."] },
-      { id: "tr7", name: "Bad Juju", icon: "spell_shadow_gathershadows", maxPoints: 1, row: 3, col: 1, desc: ["Summon a voodoo spirit that attaches to the target, reflecting 50% of their damage dealt back to them for 5 seconds."] }
+    startZone: "The Echo Isles (Durotar Coast)",
+    description: "Cunning, resilient jungle trolls of the Darkspear tribe. Masters of rapid physical regeneration, throwing weapons, and voodoo.",
+    baseRacial: {
+      name: "Berserking",
+      desc: "Instant. Increases your attack and casting speed by 10% to 30% for 10 sec, scaling higher the lower your current health. (3 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Hunter", "Rogue", "Priest", "Shaman", "Mage"],
+    traits: [
+      { name: "Regeneration", icon: "spell_nature_regenerate", desc: "Health regeneration increased by 10%. 10% of total health regeneration continues during combat." },
+      { name: "Beast Slaying", icon: "ability_hunter_snaketrap", desc: "Damage dealt versus Beasts increased by 5%." },
+      { name: "Bow & Throwing Specialization", icon: "inv_weapon_bow_01", desc: "Skill with Bows and Throwing Weapons increased by 5." }
     ]
   },
 
-  // Allied Horde
+  // Allied Horde Sub-Races (All Starting Level 1)
   {
     id: "Ogre",
-    name: "Ogre",
+    name: "Ogre (Dreadmaul / Stonemaul)",
     faction: "Horde",
-    type: "Allied",
-    startLevel: 35,
-    startZone: "The Broken Tables",
-    description: "Massive brutes from the Gordunni and Dreadmaul clans, united under the Horde.",
-    baseRacial: { name: "Brutish Resilience", desc: "Increases total health by 5% and stun resistance by 10%." },
-    talents: [
-      { id: "og1", name: "Thick Skull", icon: "spell_nature_strength", maxPoints: 3, row: 0, col: 1, desc: ["Reduces damage taken from headshots or critical strikes by 2%.", "Reduces damage taken from headshots or critical strikes by 4%.", "Reduces damage taken from headshots or critical strikes by 6%."] },
-      { id: "og2", name: "Big Appetite", icon: "inv_misc_food_15", maxPoints: 2, row: 0, col: 2, desc: ["Food restores 25% more health.", "Food restores 50% more health."] },
-      { id: "og3", name: "Club Specialization", icon: "inv_mace_01", maxPoints: 2, row: 1, col: 1, desc: ["Mace and Two-Handed Mace skill increased by 3.", "Mace and Two-Handed Mace skill increased by 5."] },
-      { id: "og4", name: "Smash", icon: "ability_warrior_cleave", maxPoints: 1, row: 1, col: 2, desc: ["Perform a massive swing that hits up to 3 enemies in front of you for moderate physical damage."] },
-      { id: "og5", name: "Ogre Mage Heritage", icon: "spell_arcane_starfire", maxPoints: 2, row: 2, col: 1, desc: ["Spell damage increased by 2%.", "Spell damage increased by 4%."] },
-      { id: "og6", name: "Iron Gut", icon: "spell_nature_resistdisease", maxPoints: 2, row: 2, col: 2, desc: ["Immune to nausea effects. Disease resistance increased by 10.", "Immune to nausea effects. Disease resistance increased by 20."] },
-      { id: "og7", name: "Two-Headed Argument", icon: "spell_shadow_mindsteal", maxPoints: 1, row: 3, col: 1, desc: ["50% chance to resist Mind Control. If successful, you are instead Confused for 3 seconds as the heads argue."] }
+    type: "Allied Sub-Race",
+    startLevel: 1,
+    startZone: "The Broken Tables (Dustwallow Marsh)",
+    description: "Massive brutes from the Stonemaul and Dreadmaul clans, united under the Horde. Possess colossal strength and ancient ogre-mage traditions.",
+    baseRacial: {
+      name: "Brutish Ground Slam",
+      desc: "Instant. Slam your massive club into the ground, knocking down up to 3 enemies directly in front of you for 1.5 sec. (2 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Hunter", "Shaman", "Mage", "Warlock"],
+    traits: [
+      { name: "Thick Skull", icon: "spell_nature_strength", desc: "Stun duration reduced by 15%, and total health increased by 3%." },
+      { name: "Big Appetite", icon: "inv_misc_food_15", desc: "Consuming food restores health 50% faster and increases out-of-combat spirit." },
+      { name: "Club Specialization", icon: "inv_mace_01", desc: "Skill with One-Handed and Two-Handed Maces increased by 5." }
     ]
   },
   {
     id: "ForestTroll",
-    name: "Forest Troll",
+    name: "Forest Troll (Revantusk)",
     faction: "Horde",
-    type: "Allied",
-    startLevel: 40,
-    startZone: "The Sunken Altars",
-    description: "The fierce Revantusk tribe, sworn enemies of the High Elves.",
-    baseRacial: { name: "Voodoo Hex", desc: "Curse an enemy, reducing their haste and movement speed by 10% for 8 sec." },
-    talents: [
-      { id: "ft1", name: "Moss Skin", icon: "spell_nature_skinofearth", maxPoints: 3, row: 0, col: 1, desc: ["Armor increased by 1%.", "Armor increased by 3%.", "Armor increased by 5%."] },
-      { id: "ft2", name: "Axe Thrower", icon: "inv_axe_17", maxPoints: 2, row: 0, col: 2, desc: ["Throwing weapon range increased by 5 yards.", "Throwing weapon range increased by 10 yards."] },
-      { id: "ft3", name: "Wild Regeneration", icon: "spell_nature_regenerate", maxPoints: 2, row: 1, col: 1, desc: ["Health regeneration increased by 10%.", "Health regeneration increased by 20%."] },
-      { id: "ft4", name: "Jungle Predator", icon: "ability_hunter_pathfinding", maxPoints: 1, row: 1, col: 2, desc: ["Movement speed in jungle and forest environments increased by 10%."] },
-      { id: "ft5", name: "Blood Voodoo", icon: "spell_shadow_lifedrain", maxPoints: 2, row: 2, col: 1, desc: ["Your abilities have a chance to bleed the target for 50 damage over 5 sec.", "Your abilities have a chance to bleed the target for 100 damage over 5 sec."] },
-      { id: "ft6", name: "Fierce Hatred", icon: "spell_shadow_shadetruesight", maxPoints: 2, row: 2, col: 2, desc: ["Damage against Elves increased by 2%.", "Damage against Elves increased by 4%."] },
-      { id: "ft7", name: "Berserker Trance", icon: "ability_warrior_innerrage", maxPoints: 1, row: 3, col: 1, desc: ["Ignore all pain for 10 seconds. You cannot be reduced below 1 Health, but you take 50% more damage from all sources during this time."] }
+    type: "Allied Sub-Race",
+    startLevel: 1,
+    startZone: "Revantusk Shores (The Hinterlands)",
+    description: "The muscular moss-skinned trolls of the Revantusk tribe, sworn allies of the Horde and ancient rivals of the high elves.",
+    baseRacial: {
+      name: "Voodoo Hex",
+      desc: "Instant. Curse an enemy within 20 yards, reducing their attack power by 10% and slowing movement speed by 25% for 6 sec. (2 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Hunter", "Rogue", "Priest", "Shaman"],
+    traits: [
+      { name: "Moss-Skin Armor", icon: "spell_nature_skinofearth", desc: "Armor increased by 4%, and Nature Resistance increased by 10." },
+      { name: "Axe Thrower", icon: "inv_axe_17", desc: "Throwing weapon range increased by 5 yards, and Axe skill increased by 5." },
+      { name: "Wild Regeneration", icon: "spell_nature_regenerate", desc: "Health regeneration rate increased by 15%." }
     ]
   },
   {
     id: "Goblin",
-    name: "Goblin",
+    name: "Goblin (Steamwheedle / Bilgewater)",
     faction: "Horde",
-    type: "Allied",
-    startLevel: 45,
-    startZone: "The Shattered Strand",
-    description: "Explosive and profit-driven inventors from the Steamwheedle Cartel.",
-    baseRacial: { name: "Rocket Jump", desc: "Activate your rocket belt to jump forward a short distance. (2 min cooldown)." },
-    talents: [
-      { id: "gb1", name: "Time is Money", icon: "inv_misc_coin_01", maxPoints: 3, row: 0, col: 1, desc: ["Haste increased by 1%.", "Haste increased by 2%.", "Haste increased by 3%."] },
-      { id: "gb2", name: "Best Deals Anywhere", icon: "inv_misc_bag_08", maxPoints: 2, row: 0, col: 2, desc: ["Vendor discounts increased by 5%.", "Vendor discounts increased by 10%."] },
-      { id: "gb3", name: "Better Living Through Chemistry", icon: "trade_alchemy", maxPoints: 2, row: 1, col: 1, desc: ["Alchemy skill increased by 7.", "Alchemy skill increased by 15."] },
-      { id: "gb4", name: "Pack Hobgoblin", icon: "inv_misc_bag_07", maxPoints: 1, row: 1, col: 2, desc: ["Call in your personal servant, allowing you bank access for 1 min."] },
-      { id: "gb5", name: "Rocket Barrage", icon: "spell_fire_fireball", maxPoints: 2, row: 2, col: 1, desc: ["Launch a rocket dealing Fire damage.", "Launch a larger rocket dealing more Fire damage."] },
-      { id: "gb6", name: "Haggle", icon: "inv_misc_coin_02", maxPoints: 2, row: 2, col: 2, desc: ["Increases gold dropped by humanoids by 5%.", "Increases gold dropped by humanoids by 10%."] },
-      { id: "gb7", name: "Volatile Aftermarket", icon: "trade_engineering", maxPoints: 1, row: 3, col: 1, desc: ["10% chance for engineering items to misfire: doubles radius/effect, but deals 30% max HP to you and knocks you back."] }
+    type: "Allied Sub-Race",
+    startLevel: 1,
+    startZone: "The Shattered Strand (Azshara Coast)",
+    description: "Tenacious, profit-minded inventors and alchemists who have negotiated an exclusive mercenary pact with the Horde.",
+    baseRacial: {
+      name: "Rocket Belt Jump",
+      desc: "Instant. Activate your rocket propulsion belt to leap forward 15 yards. (2 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Rogue", "Priest", "Mage", "Warlock", "Hunter"],
+    traits: [
+      { name: "Time is Money", icon: "inv_misc_coin_01", desc: "Attack and casting haste increased by 1%." },
+      { name: "Best Deals Anywhere", icon: "inv_misc_bag_08", desc: "Vendor discount always calculated at maximum Exalted reputation tier (20%)." },
+      { name: "Better Living Through Chemistry", icon: "trade_alchemy", desc: "Alchemy skill increased by 15." }
     ]
   },
   {
     id: "DarkIron",
-    name: "Dark Iron",
+    name: "Dark Iron Dwarf",
     faction: "Horde",
-    type: "Allied",
-    startLevel: 45,
-    startZone: "The Lower Slag Pits",
-    description: "Rebellious dwarves from Blackrock Depths who have allied with the Horde.",
-    baseRacial: { name: "Forged in Flame", desc: "Reduces physical damage taken by 1% and grants flat Fire resistance based on level." },
-    talents: [
-      { id: "di1", name: "Fireblood", icon: "spell_fire_fire", maxPoints: 3, row: 0, col: 1, desc: ["Fire Resistance increased by 3.", "Fire Resistance increased by 6.", "Fire Resistance increased by 10."] },
-      { id: "di2", name: "Mass Production", icon: "trade_blacksmithing", maxPoints: 2, row: 0, col: 2, desc: ["Blacksmithing skill increased by 7.", "Blacksmithing skill increased by 15."] },
-      { id: "di3", name: "Dungeon Crawler", icon: "spell_shadow_shadetruesight", maxPoints: 2, row: 1, col: 1, desc: ["Movement speed in indoor environments increased by 4%.", "Movement speed in indoor environments increased by 8%."] },
-      { id: "di4", name: "Mole Machine", icon: "inv_misc_gear_01", maxPoints: 1, row: 1, col: 2, desc: ["Summon a Mole Machine that teleports you and your party to a capital city."] },
-      { id: "di5", name: "Searing Heat", icon: "spell_fire_immolation", maxPoints: 2, row: 2, col: 1, desc: ["When struck in melee, attackers take 5 Fire damage.", "When struck in melee, attackers take 10 Fire damage."] },
-      { id: "di6", name: "Shadow Forge", icon: "spell_shadow_curseofachimonde", maxPoints: 2, row: 2, col: 2, desc: ["Shadow Resistance increased by 5.", "Shadow Resistance increased by 10."] },
-      { id: "di7", name: "Eruption", icon: "spell_fire_volcano", maxPoints: 1, row: 3, col: 1, desc: ["Stomp the ground, causing lava to erupt beneath enemies within 8 yards, dealing Fire damage and slowing them by 50% for 4 sec."] }
+    type: "Allied Sub-Race",
+    startLevel: 1,
+    startZone: "The Lower Slag Pits (Searing Gorge)",
+    description: "Rebel Dark Iron smiths and sorcerers who broke away from Ragnaros' fiery tyranny to ally with the Horde against common foes.",
+    baseRacial: {
+      name: "Fireblood",
+      desc: "Instant. Removes all Bleed, Poison, Curse, and Disease effects and grants 100 Armor for 8 sec. (2 Min Cooldown)"
+    },
+    availableClasses: ["Warrior", "Rogue", "Priest", "Mage", "Warlock"],
+    traits: [
+      { name: "Forged in Flame", icon: "spell_fire_fire", desc: "Fire Resistance increased by 15, and physical damage taken reduced by 1%." },
+      { name: "Mass Production", icon: "trade_blacksmithing", desc: "Blacksmithing and Mining skill increased by 15." },
+      { name: "Dungeon Delver", icon: "spell_shadow_shadetruesight", desc: "Movement speed in underground tunnels and caverns increased by 5%." }
     ]
   }
 ];
 
-const fileContent = `// Auto-generated by generateRaces.cjs
-import { Talent } from '../types/talents';
+const fileContent = `// Auto-generated by generateRaces.cjs (POLISHED CLASSIC+ RACIAL TRAITS EDITION)
+
+export interface RacialTrait {
+  name: string;
+  icon: string;
+  desc: string;
+}
 
 export interface RaceData {
   id: string;
   name: string;
-  faction: string;
+  faction: 'Alliance' | 'Horde';
   type: string;
   startLevel: number;
   startZone: string;
   description: string;
   baseRacial: { name: string; desc: string };
-  talents: Talent[];
+  availableClasses: string[];
+  traits: RacialTrait[];
 }
 
 export const racesData: RaceData[] = ${JSON.stringify(races, null, 2)};
 `;
 
 fs.writeFileSync('src/data/racesData.ts', fileContent, 'utf8');
-console.log('Successfully generated racesData.ts with 16 extensive racial trees.');
+console.log('Successfully generated polished racesData.ts with authentic racial traits and 0 talent tree bloat.');

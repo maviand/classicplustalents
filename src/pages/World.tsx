@@ -5,7 +5,7 @@ type Tab = 'Overview' | 'Lore & Characters' | 'Exploration';
 
 export default function World() {
   const [activeRegion, setActiveRegion] = useState('STARTING');
-  const [activeZone, setActiveZone] = useState('NorthshireValley');
+  const [activeZone, setActiveZone] = useState('NorthshireExpanded');
   const [activeTab, setActiveTab] = useState<Tab>('Overview');
 
   const allZones = Object.values(worldZonesData).flat();

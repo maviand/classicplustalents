@@ -1,176 +1,307 @@
 import React, { useState } from 'react';
 
-const RUNE_CATEGORIES = [
+const CLASS_ROSTER = [
   'Warrior', 'Paladin', 'Hunter', 'Rogue', 'Priest', 
-  'Death Knight', 'Shaman', 'Mage', 'Warlock', 'Druid'
+  'Shaman', 'Mage', 'Warlock', 'Druid'
 ];
 
 export default function Runes() {
   const [activeClass, setActiveClass] = useState('Warrior');
 
-  const runeData = {
+  const discoveryData = {
     Warrior: {
       color: '#C79C6E',
-      runes: [
-        { name: 'Rune of the Gladiator', slot: 'Chest', effect: 'Enables Gladiator Stance. You deal 20% increased physical damage while a shield is equipped, but lose all block value and armor bonuses from the shield.', discovery: 'Hidden within the Gurubashi Arena. You must loot the Stash of the Arena Master three times to piece the rune together.' },
-        { name: 'Rune of Blood Craze', slot: 'Legs', effect: 'When struck by a critical hit, you regenerate 10% of your total health over 6 seconds.', discovery: 'Found by killing the rare elite Hakkar the Houndmaster in the Blasted Lands without taking any fire damage.' },
-        { name: 'Rune of the Warbringer', slot: 'Gloves', effect: 'Your Charge, Intercept, and Intervene abilities are now usable in combat and in any stance.', discovery: 'Purchased from a secret Black Iron dwarf vendor located at the very bottom of the Slag Pit in Searing Gorge after completing a massive escort.' }
+      discoveries: [
+        {
+          name: 'Tome of the Gladiator',
+          category: 'Combat Stance Mastery',
+          effect: 'Unlocks Gladiator Stance. Allows the warrior to fight in an aggressive sword-and-board stance, converting Shield Slam into a primary DPS ability with 20% increased physical damage.',
+          discovery: 'Hidden within the Gurubashi Arena. You must claim the Arena Grand Master chest and decode the ancient troll combat scroll.'
+        },
+        {
+          name: 'Manual of the Warbringer',
+          category: 'Tactical Mobility',
+          effect: 'Allows Charge, Intercept, and Intervene to be cast in any stance and while actively in combat.',
+          discovery: 'Earned by defeating an elite Dark Iron dwarf commander deep in the Slag Pit of Searing Gorge.'
+        },
+        {
+          name: 'Ancient Titan Grimoire: Blood & Thunder',
+          category: 'Vanguard Threat',
+          effect: 'Your Thunder Clap causes Rend to spread to all affected targets and generates 50% additional threat.',
+          discovery: 'Found by solving the Titan Constellation puzzle in the Vaults of Uldum.'
+        }
       ]
     },
     Paladin: {
       color: '#F58CBA',
-      runes: [
-        { name: 'Rune of Divine Storm', slot: 'Chest', effect: 'An instant weapon attack that causes 110% of weapon damage to up to 4 enemies within 8 yards. Heals up to 3 party members for 25% of the damage caused.', discovery: 'Requires a level 60 Paladin to cleanse the corrupted ash in the Stratholme main square using 5 vials of pure Moonwell water.' },
-        { name: 'Rune of the Martyr', slot: 'Legs', effect: 'Sacrifices 5% of your health to instantly heal a friendly target for the same amount, bypassing the global cooldown.', discovery: 'Found by kneeling before the tomb of Uther the Lightbringer in the Western Plaguelands for exactly 5 minutes without moving.' },
-        { name: 'Rune of the Templar', slot: 'Gloves', effect: 'Your Judgement ability no longer consumes your active Seal.', discovery: 'Looted from a hidden Scarlet Crusade cache in the inaccessible high-towers of Tyr\'s Hand.' }
+      discoveries: [
+        {
+          name: 'Libram of Righteous Reckoning',
+          category: 'Crusader Defense',
+          effect: 'Grants Hand of Reckoning. A targeted Holy Taunt that deals holy damage to enemies not currently attacking you.',
+          discovery: 'Recovered from the high altar of the Scarlet Monastery Cathedral after completing an in-depth investigation of High Inquisitor Whitemane\'s sanctum.'
+        },
+        {
+          name: 'Tome of the Crusader',
+          category: 'Holy Vengeance',
+          effect: 'Teaches Crusader Strike. An instant physical weapon attack infused with Holy light that refreshes all active Judgements.',
+          discovery: 'Discovered in a locked Scarlet Crusade strongbox high in the inaccessible guard towers of Tyr\'s Hand.'
+        },
+        {
+          name: 'Scroll of the Silver Hand Zealot',
+          category: 'Righteous Aura',
+          effect: 'Unlocks Aura of the Zealot, providing 10% melee and ranged haste to your entire party within 30 yards.',
+          discovery: 'Awarded after kneeling at Uther\'s Tomb in Western Plaguelands while carrying a consecrated vial of Moonwell water.'
+        }
       ]
     },
     Hunter: {
       color: '#ABD473',
-      runes: [
-        { name: 'Rune of the Lone Wolf', slot: 'Chest', effect: 'You deal 15% increased physical damage with all attacks when you do not have an active pet.', discovery: 'Found at the absolute highest peak of Winterspring. You must climb there without a pet active and slay an elite frost-wyrm.' },
-        { name: 'Rune of Flanking Strike', slot: 'Legs', effect: 'You and your pet simultaneously strike the target for 100% melee weapon damage. Your pet generates a massive amount of threat.', discovery: 'Tame three specific rare beasts across Kalimdor and bring them to the Nesingwary camp in Stranglethorn to earn the master hunter\'s favor.' },
-        { name: 'Rune of the Beast Mastery', slot: 'Gloves', effect: 'Your pet\'s health, damage, and armor are increased by 20%, and your pet gains the abilities of a random secondary pet family.', discovery: 'Drop a piece of Devilsaur meat into the unmapped caldera of Un\'Goro Crater and defeat the enraged Apex predator that spawns.' }
+      discoveries: [
+        {
+          name: 'Wilderness Guide: Flanking Strike',
+          category: 'Survival Spear-Combat',
+          effect: 'You and your pet simultaneously strike the target for 100% weapon damage, building substantial cooperative threat and triggering Mongoose Bite.',
+          discovery: 'Tame three rare beasts across Kalimdor and present them to Hemet Nesingwary Jr. in Stranglethorn Vale.'
+        },
+        {
+          name: 'The Lone Hunter\'s Creed',
+          category: 'Marksman Mastery',
+          effect: 'Increases all physical and ranged damage dealt by 15% when fighting without an active pet.',
+          discovery: 'Solo-climb the highest frozen peak of Winterspring and defeat an ancient frost-wyrm without a pet summoned.'
+        },
+        {
+          name: 'Tome of Exotic Munitions',
+          category: 'Elemental Archery',
+          effect: 'Allows crafting of elemental arrows and bullets that bypass heavy physical raid boss armor.',
+          discovery: 'Found deep within the caldera of Un\'Goro Crater after defeating an enraged Devilsaur matriarch.'
+        }
       ]
     },
     Rogue: {
       color: '#FFF569',
-      runes: [
-        { name: 'Rune of Just a Flesh Wound', slot: 'Chest', effect: 'You take 20% reduced Physical damage while Blade Dance is active. Reduces the cooldown of Feint to 3 seconds.', discovery: 'Pickpocket 100 unique humanoid elites across the world to assemble the "Thief\'s Code" manual.' },
-        { name: 'Rune of Envenom', slot: 'Legs', effect: 'Finishing move that consumes your Deadly Poison doses on the target to deal instant Nature damage. Ignores armor.', discovery: 'Assassinate a rogue SI:7 operative deep inside Stormwind Keep without breaking stealth until the killing blow.' },
-        { name: 'Rune of the Shadowstrike', slot: 'Gloves', effect: 'Teleports you behind your target and strikes them for 150% weapon damage. Must be stealthed.', discovery: 'Solve a complex riddle involving manipulating the torches in the Karazhan Crypts to open a hidden reliquary.' }
+      discoveries: [
+        {
+          name: 'Ravenholdt Manual: Blade Dance',
+          category: 'Acrobatic Evasion',
+          effect: 'Finishing move that converts combo points into up to 25% Dodge and Parry chance for 15 sec, enabling situational evasion tanking.',
+          discovery: 'Pickpocket 50 unique humanoid syndicate and royal guards across Azeroth to assemble the secret Ravenholdt Cipher.'
+        },
+        {
+          name: 'Shadowcraft Formula: Deadly Brew',
+          category: 'Lethal Alchemy',
+          effect: 'Whenever you apply Instant, Crippling, or Mind-Numbing poison, you also apply a stack of Deadly Poison.',
+          discovery: 'Assassinate a rogue SI:7 operative deep inside the Stormwind canals without breaking stealth until the finishing strike.'
+        },
+        {
+          name: 'Tome of the Shadowstep',
+          category: 'Subtlety Infiltration',
+          effect: 'Step through the shadows to appear behind your enemy target, gaining an immediate movement and damage bonus.',
+          discovery: 'Solve the torch puzzle inside the lower Karazhan Crypts to open a concealed reliquary.'
+        }
       ]
     },
     Priest: {
       color: '#FFFFFF',
-      runes: [
-        { name: 'Rune of the Void Plague', slot: 'Chest', effect: 'Infects the target with a dark plague, dealing heavy Shadow damage over 18 sec.', discovery: 'Found by mind-controlling a specific Twilight Cultist in Silithus and using their unique ability to decode a monolith.' },
-        { name: 'Rune of the Penitent', slot: 'Legs', effect: 'Enables the Penance spell. Fires a volley of holy light that heals an ally or damages an enemy.', discovery: 'Confess your sins to the Archbishop in Stormwind (or High Priest in Undercity) while carrying the "Book of the Fallen", a random world drop.' },
-        { name: 'Rune of Homunculi', slot: 'Gloves', effect: 'Summons three miniature copies of yourself that attack your target, reducing their attack power, armor, and attack speed.', discovery: 'Survive the corrupted dreamscape within the Wailing Caverns by using a Flask of the Emerald Dream (Alchemy).' }
-      ]
-    },
-    'Death Knight': {
-      color: '#C41E3A',
-      runes: [
-        { name: 'Rune of the Gargoyle', slot: 'Chest', effect: 'Summons a Gargoyle to bombard the target with Nature damage for 30 seconds.', discovery: 'Obtained by returning to the floating necropolis over Stratholme (Crown of the Damned) and completing a solo challenge against a Blood Prince.' },
-        { name: 'Rune of the Blood Shield', slot: 'Legs', effect: 'Your Death Strike heals you for 10% of your maximum health. Any overhealing is converted into a physical absorption shield.', discovery: 'Defeat the stitched horrors north of the Eastern Plaguelands (Quel\'Thalas border) without letting your health drop below 50%.' },
-        { name: 'Rune of the Outbreak', slot: 'Gloves', effect: 'Instantly applies Blood Plague and Frost Fever to the target with no rune cost.', discovery: 'Found in the deepest depths of the new Stormwind Vaults, guarded by a locked-away Scourge operative.' }
+      discoveries: [
+        {
+          name: 'Scripture of Penance',
+          category: 'Discipline Grace',
+          effect: 'Teaches Penance. Channels a rapid volley of holy bolts that deals intense Holy damage to a foe or massive healing to an ally.',
+          discovery: 'Carry the ancient Book of the Fallen to the Cathedral of Light in Stormwind (or Undercity Royal Quarter) and complete the Rite of Contrition.'
+        },
+        {
+          name: 'Grimoire of the Void Plague',
+          category: 'Shadow Communion',
+          effect: 'Unlocks Vampiric Touch, dealing Shadow damage over 15 sec and returning 5% of all shadow damage dealt as party mana.',
+          discovery: 'Mind-control an elite Twilight cultist in Silithus to decode an ancient Old God obelisk.'
+        },
+        {
+          name: 'Holy Font of Radiance',
+          category: 'Restorative Miracle',
+          effect: 'Transforms Lightwell into an automated healing font that radiates soothing light to party members below 50% health.',
+          discovery: 'Cleanse the corrupted water shrine deep within the Wailing Caverns with a flask of purified spring water.'
+        }
       ]
     },
     Shaman: {
       color: '#0070DE',
-      runes: [
-        { name: 'Rune of Overload', slot: 'Chest', effect: 'Your Lightning Bolt, Chain Lightning, and Healing Wave have a 33% chance to cast a second, identical spell for free for half power.', discovery: 'Stand at the peak of the Stonetalon Mountains during a localized thunderstorm event (happens randomly every 4 hours) and let yourself be struck by lightning.' },
-        { name: 'Rune of Earth Shield', slot: 'Legs', effect: 'Protects the target with an earthen shield, reducing cast time pushback by 30% and healing them when they take damage.', discovery: 'Purify a corrupted earth elemental deep within the Maraudon caverns using a newly crafted Totem of Cleansing.' },
-        { name: 'Rune of Lava Lash', slot: 'Gloves', effect: 'You charge your off-hand weapon with lava, instantly dealing 150% off-hand Weapon damage. Damage is increased by 20% if your off-hand is enchanted with Flametongue.', discovery: 'Drop a rare volcanic core into the lava pool of the Blackrock Depths Emperor\'s room.' }
+      discoveries: [
+        {
+          name: 'Stone Tablet: Way of Earth',
+          category: 'Elemental Earth Tanking',
+          effect: 'Imbues your melee weapon with the essence of stone. Increases threat by 50%, health by 15%, and provides 10% physical damage mitigation.',
+          discovery: 'Defeat the corrupted stone elemental in the deepest depths of Maraudon using a newly consecrated Totem of Cleansing.'
+        },
+        {
+          name: 'Volcanic Core: Lava Burst',
+          category: 'Primal Fire Burst',
+          effect: 'Hurls molten lava at the enemy. If Flame Shock is active on the target, Lava Burst is a guaranteed critical strike.',
+          discovery: 'Submerge a dormant elemental core into the magma lake of Blackrock Depths.'
+        },
+        {
+          name: 'Totemic Master Scroll: Recall',
+          category: 'Spiritual Efficiency',
+          effect: 'Instantly recalls and destroys all active totems, refunding 25% of their mana cost.',
+          discovery: 'Meditate at the summit of the Stonetalon Mountains during a localized thunderstorm.'
+        }
       ]
     },
     Mage: {
       color: '#40C7EB',
-      runes: [
-        { name: 'Rune of Chronostatic Preservation', slot: 'Chest', effect: 'Fuses Arcane, Fire, and Frost magic to freeze time. Allows you to store a massive heal in a chronostatic orb that you can detonate later to heal an ally.', discovery: 'Collect chronal anomalies that spawn randomly around the Caverns of Time in Tanaris.' },
-        { name: 'Rune of the Spellfrost', slot: 'Legs', effect: 'Your Frostbolt deals 15% more damage, but is now considered Spellfrost damage, benefiting from both Arcane and Frost modifiers.', discovery: 'Defeat an arcane anomaly that patrols the Mazthoril Deeps in Winterspring.' },
-        { name: 'Rune of the Living Flame', slot: 'Gloves', effect: 'Summons a trail of spellfire that moves toward the target, dealing damage to all enemies in its path.', discovery: 'Ignite the brazier of the dormant ancient in Ashenvale using a combination of Fire Blast and a specific engineering explosive.' }
+      discoveries: [
+        {
+          name: 'Astral Arcanum: Arcane Barrage',
+          category: 'Temporal Arcane Viability',
+          effect: 'Instantly fires bolts of pure arcane energy, consuming all Arcane Charges to deal massive burst damage without cast time pushback.',
+          discovery: 'Collect chronal anomalies scattered around the Caverns of Time in Tanaris.'
+        },
+        {
+          name: 'Frostweaver Codex: Ice Lance',
+          category: 'Shatter Mastery',
+          effect: 'Instant frost attack dealing triple damage against frozen targets, enabling fluid mobile shattered combos in PvP and PvE.',
+          discovery: 'Slay the wandering arcane anomaly in the Mazthoril Deeps of Winterspring.'
+        },
+        {
+          name: 'Pyromancer Treatise: Living Bomb',
+          category: 'Volatile Conflagration',
+          effect: 'Infects the target with ticking fire magic that explodes for massive AoE fire damage upon expiring or target death.',
+          discovery: 'Ignite the dormant ancient brazier in Ashenvale using a combination of Fire Blast and engineering explosives.'
+        }
       ]
     },
     Warlock: {
       color: '#8787ED',
-      runes: [
-        { name: 'Rune of the Metamorphosis', slot: 'Chest', effect: 'Transforms you into a Demon, increasing armor by 500% and reducing the chance to be critically hit. You are now a tank.', discovery: 'The most complex rune in the game. Requires collecting fragments from the Tower of Ilgalar, the Demon Fall Canyon, and completing a summoning ritual at the Altar of Storms with 3 other Warlocks.' },
-        { name: 'Rune of the Demonic Pact', slot: 'Legs', effect: 'Your pet\'s critical strikes apply the Demonic Pact effect to your party, increasing spell damage by 10% of your Spell Damage.', discovery: 'Enslave a doomguard in the Blasted Lands and force it to fight a pit lord in the Tainted Scar.' },
-        { name: 'Rune of Chaos', slot: 'Gloves', effect: 'Your Shadow Bolt is replaced by Chaos Bolt, which pierces all resistance and absorption effects.', discovery: 'Plunder the forbidden library in the lower Karazhan Crypts while under the effects of Medivh\'s Paranoia.' }
+      discoveries: [
+        {
+          name: 'Forbidden Grimoire: Metamorphosis',
+          category: 'Demon Form Tanking',
+          effect: 'Transforms the Warlock into a terrifying Demon. Increases armor by 500%, reduces critical strike chance taken by 6%, and converts Searing Pain into a melee cleave taunt.',
+          discovery: 'An epic multi-zone questline requiring demon fragments from the Tower of Ilgalar, Demon Fall Canyon, and completing a summoning ritual at the Altar of Storms.'
+        },
+        {
+          name: 'Scroll of Chaotic Fire: Chaos Bolt',
+          category: 'Destruction Piercing',
+          effect: 'Fires a bolt of chaotic fel-fire that pierces all resistance and absorb shields, always dealing critical damage.',
+          discovery: 'Infiltrate the forbidden library of the Karazhan Crypts while carrying shadow-warding alchemical draughts.'
+        },
+        {
+          name: 'Soulweaver Pact: Haunt',
+          category: 'Affliction Amplification',
+          effect: 'Sends a ghostly soul into the target, dealing immediate Shadow damage and amplifying all Shadow damage-over-time effects by 20%.',
+          discovery: 'Enslave a wandering doomguard in the Blasted Lands and force it to defeat a demonic inquisitor.'
+        }
       ]
     },
     Druid: {
       color: '#FF7D0A',
-      runes: [
-        { name: 'Rune of Survival of the Fittest', slot: 'Chest', effect: 'Reduces the chance you\'ll be critically hit by melee attacks by 6% and reduces all damage taken by 10%. (Bear Form)', discovery: 'Survive a massive gauntlet of corrupted furbolgs in Timbermaw Hold without ever shifting out of Bear Form.' },
-        { name: 'Rune of Starsurge', slot: 'Legs', effect: 'Launch a surging stellar flare that causes Spellstorm damage. Benefits from both Wrath and Starfire talents.', discovery: 'Channel moonlight using a unique moonstone at four different moonwells across Kalimdor while avoiding level 60 elite ambushes.' },
-        { name: 'Rune of the Wild Strikes', slot: 'Gloves', effect: 'While you are in Cat Form, Bear Form, or Dire Bear Form, party members within 30 yards gain 20% increased melee attack speed. (Replaces Windfury Totem necessity).', discovery: 'Defeat King Bangalash in Stranglethorn Vale within 30 seconds of initiating combat.' }
+      discoveries: [
+        {
+          name: 'Emerald Dream Rite: Eclipse',
+          category: 'Lunar & Solar Balance',
+          effect: 'Casting Starfire increases Wrath critical strike chance by 30%. Casting Wrath increases Starfire damage by 15%, creating a fluid, mana-sustainable Moonkin rotation.',
+          discovery: 'Channel moonlight using an ancient moonstone at four sacred moonwells across Kalimdor.'
+        },
+        {
+          name: 'Feral Instincts: Mangle',
+          category: 'Predatory Bleeds & Threat',
+          effect: 'Instant attack that deals heavy physical damage and causes the target to take 30% additional bleed damage. Usable in Cat or Bear Form.',
+          discovery: 'Survive the corrupted furbolg gauntlet inside Timbermaw Hold without ever shifting out of Bear Form.'
+        },
+        {
+          name: 'Nordrassil Seed: Lifebloom',
+          category: 'Restoration Blossoming',
+          effect: 'Stacking heal-over-time that blooms for a massive burst heal and mana refund upon expiring.',
+          discovery: 'Cleanse the poisoned roots of the World Tree on Mount Hyjal using purified tears of Elune.'
+        }
       ]
     }
   };
 
-  const selectedData = runeData[activeClass as keyof typeof runeData];
+  const selectedData = discoveryData[activeClass as keyof typeof discoveryData];
 
   return (
     <div className="space-y-8 animate-in fade-in duration-700 pb-20">
+      {/* Header */}
       <div className="flex flex-col items-center border-b border-[#3c3224]/50 pb-8 mb-8 relative">
         <div className="absolute inset-0 bg-gradient-to-t from-[#120e0a] to-transparent z-0 pointer-events-none" />
-        <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#a335ee] to-[#e6cc80] wow-title drop-shadow-lg relative z-10 text-center">
-          The Rune Engraving System
+        <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#fff5c3] to-[#ffd100] wow-title drop-shadow-lg relative z-10 text-center">
+          Path of the Titans: Class Discoveries
         </h1>
         <p className="text-[#d3c8b8] mt-3 text-lg font-medium tracking-wide relative z-10 drop-shadow-md text-center max-w-3xl">
-          Discover hidden arcana hidden in the deepest, most dangerous corners of Azeroth. Runes fundamentally alter how your class plays, providing missing toolkit pieces and entirely new roles.
+          Ancient combat tomes, forgotten librams, and primal rites discovered throughout the open world. These world milestones permanently empower your spellbook and unlock authentic hybrid specializations.
         </p>
       </div>
 
       <div className="flex flex-col lg:flex-row gap-8">
-        
-        {/* Sidebar Navigation */}
+        {/* Class Selection */}
         <div className="lg:w-1/4 space-y-2">
-          {RUNE_CATEGORIES.map(className => (
-            <button
-              key={className}
-              onClick={() => setActiveClass(className)}
-              className={`w-full text-left p-4 text-sm font-bold uppercase tracking-widest transition-all border-l-4 shadow-md ${
-                activeClass === className 
-                  ? 'bg-[#1a140e] text-white scale-[1.02]' 
-                  : 'border-transparent text-[#a69882] hover:bg-[#16120e] bg-[#120e0a] border border-[#3c3224]'
-              }`}
-              style={{ borderLeftColor: activeClass === className ? runeData[className as keyof typeof runeData].color : 'transparent' }}
-            >
-              {className}
-            </button>
-          ))}
+          {CLASS_ROSTER.map((className) => {
+            const cls = discoveryData[className as keyof typeof discoveryData];
+            const isSelected = activeClass === className;
+            return (
+              <button
+                key={className}
+                onClick={() => setActiveClass(className)}
+                style={{
+                  borderLeftColor: isSelected ? cls.color : 'transparent'
+                }}
+                className={`w-full text-left p-4 text-sm font-bold uppercase tracking-widest transition-all border-l-4 shadow-md rounded-r-lg ${
+                  isSelected
+                    ? 'bg-[#1a140e] text-white scale-[1.02]'
+                    : 'text-[#a69882] hover:bg-[#16120e] bg-[#120e0a] border border-[#3c3224]'
+                }`}
+              >
+                <span style={{ color: isSelected ? cls.color : undefined }}>{className}</span>
+              </button>
+            );
+          })}
         </div>
 
-        {/* Content Display */}
-        <div className="lg:w-3/4">
-          <div className="bg-gradient-to-br from-[#120e0a] to-[#0b0907] border border-[#3c3224] rounded-xl p-8 shadow-2xl animate-in slide-in-from-right-8 duration-500 relative overflow-hidden">
-            
-            {/* Background Glow tied to class color */}
-            <div 
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full opacity-5 pointer-events-none blur-3xl"
-              style={{ background: `radial-gradient(circle, ${selectedData.color} 0%, transparent 70%)` }}
-            />
+        {/* Discovery Details */}
+        <div className="lg:w-3/4 bg-[#120e0a] border border-[#3c3224] rounded-xl p-6 md:p-8 space-y-6 shadow-2xl">
+          <div className="border-b border-[#3c3224] pb-4">
+            <h2 className="text-3xl font-extrabold tracking-wide" style={{ color: selectedData.color }}>
+              {activeClass} Ancient Discoveries
+            </h2>
+            <p className="text-xs uppercase tracking-widest text-[#ffd100] mt-1">
+              World-Discovered Spellbook Augmentations
+            </p>
+          </div>
 
-            <div className="relative z-10">
-              <div className="flex justify-between items-start mb-8 border-b border-[#3c3224]/50 pb-4">
-                <div>
-                  <h2 className="text-4xl font-extrabold mb-2" style={{ color: selectedData.color, textShadow: `0 0 10px ${selectedData.color}40` }}>
-                    {activeClass} Runes
-                  </h2>
+          <div className="space-y-6">
+            {selectedData.discoveries.map((disc) => (
+              <div
+                key={disc.name}
+                className="bg-[#16120e] border border-[#3c3224] rounded-lg p-6 space-y-4 hover:border-[#ffd100]/60 transition-all shadow-md"
+              >
+                <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 border-b border-[#3c3224]/60 pb-3">
+                  <div>
+                    <h3 className="text-lg font-bold text-[#fff5c3]">{disc.name}</h3>
+                    <span className="text-xs uppercase font-bold tracking-wider text-[#ffd100]">
+                      {disc.category}
+                    </span>
+                  </div>
+                  <span className="text-xs text-[#8c7e6b] bg-[#0a0806] px-2.5 py-1 rounded border border-[#3c3224] self-start md:self-auto">
+                    World Discovery
+                  </span>
+                </div>
+
+                <div className="space-y-2">
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-[#ffd100]/80">Combat Mastery Effect</h4>
+                  <p className="text-sm text-[#d3c8b8] leading-relaxed bg-[#0f0c09] p-3 rounded border border-[#3c3224]/40">
+                    {disc.effect}
+                  </p>
+                </div>
+
+                <div className="space-y-1 bg-[#1a140e] p-3.5 rounded border border-[#ffd100]/20">
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-[#ffd100] flex items-center gap-1.5">
+                    <span>🗺️</span> Discovery Location & Lore Trial
+                  </h4>
+                  <p className="text-xs text-[#a69882] leading-relaxed pt-1">{disc.discovery}</p>
                 </div>
               </div>
-
-              <div className="space-y-6">
-                {selectedData.runes.map((rune, i) => (
-                  <div key={i} className="bg-[#1a140e] border border-[#3c3224] p-6 rounded-lg shadow-inner hover:border-[#a335ee]/50 transition-colors relative overflow-hidden group">
-                    <div className="absolute top-0 right-0 w-2 h-full" style={{ backgroundColor: selectedData.color, opacity: 0.2 }} />
-                    
-                    <div className="flex justify-between items-start mb-3">
-                      <h4 className="text-[#e6cc80] text-xl font-bold">{rune.name}</h4>
-                      <span className="text-xs bg-[#120e0a] text-[#a69882] px-3 py-1 rounded border border-[#3c3224] font-bold tracking-widest shadow-[0_0_8px_rgba(163,53,238,0.15)]">
-                        SLOT: {rune.slot.toUpperCase()}
-                      </span>
-                    </div>
-                    
-                    <div className="space-y-4">
-                      <div>
-                        <span className="text-[#39ff14] font-bold text-sm">Effect: </span>
-                        <span className="text-[#d3c8b8] text-sm leading-relaxed">{rune.effect}</span>
-                      </div>
-                      
-                      <div className="bg-[#0b0907] p-4 rounded border border-[#3c3224]/50 border-l-2" style={{ borderLeftColor: selectedData.color }}>
-                        <span className="text-white font-bold text-xs uppercase tracking-wider block mb-1">Epic Discovery Route:</span>
-                        <span className="text-[#a69882] text-sm italic leading-relaxed">"{rune.discovery}"</span>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

@@ -1,10 +1,10 @@
-// AUTO-GENERATED WORLD SYSTEMS CONTENT
+// AUTO-GENERATED WORLD SYSTEMS CONTENT (POLISHED CLASSIC+ EDITION)
 
 export const SYSTEM_CATEGORIES = {
   WORLD_DESIGN: 'World Design',
-  QUALITY_OF_LIFE: 'Quality of Life',
-  ECONOMY: 'Economy & Gold',
-  IMMERSION: 'Immersion & Roleplay',
+  QUALITY_OF_LIFE: 'Quality of Life & Interface',
+  ECONOMY: 'Economy & Gold Sinks',
+  IMMERSION: 'Immersion & World Permanence',
 };
 
 export interface WorldSystem {
@@ -21,263 +21,171 @@ export const worldSystemsData: Record<string, WorldSystem[]> = {
       "id": "DynamicWeather",
       "name": "Dynamic Weather Effects",
       "status": "Active",
-      "description": "Weather now actively impacts combat and gameplay mechanics globally.",
+      "description": "Weather actively impacts combat, visibility, and environmental encounters across Azeroth.",
       "features": [
-        "Rain reduces fire damage taken by 1%.",
-        "Snowstorms reduce visibility for ranged attackers.",
-        "Sandstorms in Silithus occasionally unearth rare buried chests."
+        "Heavy rain dampens fire effects, reducing Fire damage taken by 1% and extinguishing small ground flares.",
+        "Snowstorms in Winterspring and Dun Morogh reduce ranged combat draw distance and increase stealth detection difficulty.",
+        "Silithus sandstorms reduce maximum vision and occasionally reveal ancient buried silithid caches."
       ]
     },
     {
       "id": "DayNightCycle",
       "name": "Day/Night Cycle Spawns",
       "status": "Active",
-      "description": "The time of day on the server directly affects what you encounter in the open world.",
+      "description": "The server time directly influences wilderness wildlife, rare patrols, and merchant presence.",
       "features": [
-        "Certain rare spawns only appear at midnight server time.",
-        "Vampiric bats in Tirisfal hit 10% harder during the night.",
-        "Daylight brings out specific merchant caravans."
+        "Nocturnal predators (such as Duskwood shadow-stalkers and Silverpine dire wolves) prowl exclusively between dusk and dawn.",
+        "Certain rare spawns and wandering alchemists only appear at specific hours.",
+        "Daylight brings out traveling supply caravans along the Gold Road and King's Road."
       ]
     },
     {
       "id": "WanderingBosses",
-      "name": "Wandering Bosses",
+      "name": "Roaming World Terrors",
       "status": "Active",
-      "description": "Massive, roaming world bosses that require entire zones to collaborate to defeat.",
+      "description": "Massive, un-instanced zone bosses that patrol entire regions and require spontaneous multi-group collaboration.",
       "features": [
-        "A massive Fel Reaver-style centaur boss that patrols across the Barrens.",
-        "An Ancient stone giant that roams the Hinterlands.",
-        "They drop zone-specific epic loot and cannot be soloed."
+        "A towering Centaur Warlord roaming the length of the Barrens, challenging caravans and low-level settlements.",
+        "An Ancient Stone Colossus wandering the mountain crests of the Hinterlands.",
+        "Roaming world terrors drop zone-appropriate rare and epic loot, fostering impromptu cross-guild cooperation."
       ]
     },
     {
       "id": "TavernRest",
-      "name": "Tavern Rest Bonuses",
+      "name": "Tavern Sanctuary Bonuses",
       "status": "Active",
-      "description": "Makes the inside of taverns specifically more valuable than just standing in a city.",
+      "description": "Strengthens taverns as the premier social hubs of the old world.",
       "features": [
-        "Resting in a tavern grants double rested XP compared to just being in a city.",
-        "Taverns now feature unique buffs for sitting and eating their specific food."
-      ]
-    },
-    {
-      "id": "PlayerHousing",
-      "name": "Player Housing",
-      "status": "Active",
-      "description": "Instanced housing integrated seamlessly into the capital cities.",
-      "features": [
-        "Purchase apartments in Stormwind, Orgrimmar, or Ironforge.",
-        "Decorate with trophies earned from raids and PvP.",
-        "Invite friends and guildmates to your instance."
+        "Resting inside a physical tavern yields 100% faster Rested XP accumulation than standing in open city streets.",
+        "Sitting at tavern tables and consuming inn-specific hearty meals grants a minor 1-hour spirit and stamina nourishment buff."
       ]
     }
   ],
-  "Quality of Life": [
+  "Quality of Life & Interface": [
     {
       "id": "GuildBanks",
-      "name": "Multi-Tab Guild Banks",
+      "name": "Multi-Tab Guild Vaults",
       "status": "Active",
-      "description": "Proper, native guild banks with permission systems.",
+      "description": "Native, permission-managed guild banks integrated into capital city bank buildings.",
       "features": [
-        "Log tracking for deposits and withdrawals.",
-        "Multiple tabs purchasable with guild funds.",
-        "Replaces the old \"bank alt\" meta."
+        "Detailed transaction logs tracking deposits, withdrawals, and officer permissions.",
+        "Purchasable storage tabs funded through collective guild progression.",
+        "Replaces unwieldy \"bank-alt\" accounts while maintaining economic transparency."
       ]
     },
     {
       "id": "DualSpec",
-      "name": "Dual Specialization",
+      "name": "Dual Specialization (Restricted)",
       "status": "Active",
-      "description": "Swap between two pre-configured talent builds.",
+      "description": "Allows players to configure two distinct talent and action bar builds, strictly bounded to protect spec identity.",
       "features": [
-        "Costs 50g to unlock at level 40.",
-        "Only usable in rest areas (cities/taverns).",
-        "Action bars save independently for each spec."
-      ]
-    },
-    {
-      "id": "AoELooting",
-      "name": "AoE Looting",
-      "status": "Active",
-      "description": "Shift-click to loot all nearby corpses simultaneously.",
-      "features": [
-        "Massively speeds up farming and dungeon clears.",
-        "Still respects group loot and master looter rules."
-      ]
-    },
-    {
-      "id": "InstantMail",
-      "name": "Instant Alt Mail",
-      "status": "Active",
-      "description": "Mail sent between characters on the same account arrives instantly.",
-      "features": [
-        "No more waiting 1 hour to send bags to a new alt.",
-        "Works for items and gold."
+        "Available at Level 40 for a one-time 50g training fee at your class trainer.",
+        "Can ONLY be swapped inside designated Rest Areas (taverns and capital cities) with a 5-second channel.",
+        "Action bars and stance configurations save independently for each specialization."
       ]
     },
     {
       "id": "DismountOnCast",
-      "name": "Auto-Dismount on Cast",
+      "name": "Auto-Dismount on Action",
       "status": "Active",
-      "description": "Attempting to cast a spell or use an item automatically dismounts you.",
+      "description": "Casting any spell, engaging an ability, or interacting with NPCs automatically dismounts your character.",
       "features": [
-        "Removes the need for bulky dismount macros."
-      ]
-    },
-    {
-      "id": "ReagentBank",
-      "name": "Reagent Bank Tab",
-      "status": "Active",
-      "description": "A dedicated bank tab specifically for crafting materials.",
-      "features": [
-        "Auto-deposit all reagents with one click.",
-        "Craft directly from the reagent bank."
-      ]
-    },
-    {
-      "id": "BagSorting",
-      "name": "Native Bag Sorting",
-      "status": "Active",
-      "description": "A native button to auto-sort your inventory.",
-      "features": [
-        "Sorts by quality, type, and equipment slot.",
-        "Can ignore specific bags (like soul shard bags)."
+        "Eliminates the need for cumbersome \"/dismount\" macros across all class abilities.",
+        "Maintains standard mounted movement speed and dismount combat rules."
       ]
     },
     {
       "id": "LFGTool",
-      "name": "Bulletin-Board LFG",
+      "name": "Notice Board LFG (Non-Automated)",
       "status": "Active",
-      "description": "A bulletin-board style LFG tool (NOT automated matchmaking, just listing).",
+      "description": "A classic town bulletin board interface for manual group listings without automated matchmaking or teleportation.",
       "features": [
-        "List your group and requirements.",
-        "Players apply manually and you invite them.",
-        "Preserves the social aspect of group formation."
+        "Players post manual party listings and custom descriptions for dungeons and elite quests.",
+        "No automated matchmaking, no cross-realm phasing, and NO dungeon teleportation—players must still travel to the dungeon summoning stone or portal."
       ]
     },
     {
       "id": "KeyringExpansion",
-      "name": "Infinite Keyring",
+      "name": "Dedicated Master Keyring",
       "status": "Active",
-      "description": "Ensure the keyring can hold every single key in the game.",
+      "description": "A dedicated, scalable keyring bag slot that houses every key, sceptre, and lockbox mechanism in the game.",
       "features": [
-        "No more destroying keys to make room.",
-        "Automatically expands as you collect keys."
-      ]
-    },
-    {
-      "id": "Transmogrification",
-      "name": "Classic Transmogrification",
-      "status": "Active",
-      "description": "Allow altering the appearance of gear with strict limits to preserve the Classic silhouette.",
-      "features": [
-        "Plate can only be mogged to Plate, Cloth to Cloth.",
-        "Legendaries and silly items (e.g., Fish) cannot be transmogged.",
-        "Preserves the grounded, low-fantasy aesthetic while allowing customization."
+        "Automatically expands as you acquire keys (Skeleton Key, Shadowforge Key, Scarlet Key, Crescent Key, Workshop Key).",
+        "Frees up critical main inventory space without removing the physical necessity of carrying dungeon keys."
       ]
     }
   ],
-  "Economy & Gold": [
+  "Economy & Gold Sinks": [
     {
       "id": "GoldSinks",
-      "name": "Massive Gold Sinks",
+      "name": "Prestigious Endgame Gold Sinks",
       "status": "Active",
-      "description": "Introduce prestigious items to pull gold out of the inflated economy.",
+      "description": "High-cost cosmetic and prestige rewards designed to curb endgame currency inflation naturally.",
       "features": [
-        "A 10,000g title: \"The Aristocrat\".",
-        "Unique 5,000g ground mounts."
-      ]
-    },
-    {
-      "id": "StackSizes",
-      "name": "Increased Stack Sizes",
-      "status": "Active",
-      "description": "Increase standard stack sizes to save bank space.",
-      "features": [
-        "Potions and herbs stack to 100.",
-        "Ores and bars stack to 100."
-      ]
-    },
-    {
-      "id": "BindOnAccountRep",
-      "name": "BoA Reputation Tokens",
-      "status": "Active",
-      "description": "Allow reputation tokens to be mailed to alts.",
-      "features": [
-        "Argent Dawn Valor Tokens and Cenarion Badges can be sent to alts.",
-        "Makes playing multiple characters much more viable."
+        "Rare decorative heraldry and prestigious character titles (e.g., \"The Aristocrat\" for 10,000g).",
+        "Unique luxury ground mounts with ornate armor bards sold by capital city quartermasters."
       ]
     },
     {
       "id": "VendorBuyback",
       "name": "Expanded Vendor Buyback",
       "status": "Active",
-      "description": "Increase the vendor buyback history.",
+      "description": "Generous vendor buyback buffer to safeguard against accidental item sales.",
       "features": [
-        "Buyback history expanded to 20 items.",
-        "Persists through logout (for 24 hours)."
+        "Buyback history expanded to 20 recent items.",
+        "Persists across character logouts for up to 24 hours."
       ]
     },
     {
       "id": "AHDepositFees",
-      "name": "Scaled AH Deposit Fees",
+      "name": "Tiered AH Deposit Scaling",
       "status": "Active",
-      "description": "Scale down deposit fees for extremely slow-selling items like transmog greens.",
+      "description": "Adjusted deposit fees to incentivize a healthy auction economy for low-level trade goods and crafted gear.",
       "features": [
-        "Encourages a healthier market for leveling gear.",
-        "High-velocity items (materials) retain normal fees."
+        "Reduces punitive deposit fees on slow-moving leveling greens and intermediate crafted armor.",
+        "Maintains full deposit requirements on high-velocity raw materials and raid consumables."
       ]
     }
   ],
-  "Immersion & Roleplay": [
+  "Immersion & World Permanence": [
     {
       "id": "SittingAnimations",
-      "name": "Proper Sitting Animations",
+      "name": "Interactive Seating Animations",
       "status": "Active",
-      "description": "Introduce proper sitting animations for chairs in taverns.",
+      "description": "Proper, grounded character seating for tavern chairs, benches, and camp logs.",
       "features": [
-        "Characters actually sit in the chairs instead of hovering above them.",
-        "Supports all races and genders."
+        "Right-clicking a chair seats the character properly on the furniture rather than hovering.",
+        "Full support for all 16 playable races and gender models."
       ]
     },
     {
       "id": "Campfires",
-      "name": "Functional Campfires",
+      "name": "Functional Rest Campfires",
       "status": "Active",
-      "description": "Players can actually sit around a campfire to slowly restore health.",
+      "description": "Cooking and wilderness campfires provide restorative warmth to resting travelers.",
       "features": [
-        "Provides a small \"Warmth\" buff that increases spirit.",
-        "Cooking fires become social hubs."
-      ]
-    },
-    {
-      "id": "Instruments",
-      "name": "Playable Instruments",
-      "status": "Active",
-      "description": "Playable lutes and flutes that emit actual MIDI sounds.",
-      "features": [
-        "Use the number pad to play notes.",
-        "Gather crowds in capital cities."
+        "Sitting near an active campfire grants the \"Warmth of the Embers\" buff, accelerating health and spirit regeneration.",
+        "Encourages players to rest together during long wilderness leveling treks."
       ]
     },
     {
       "id": "GuildTabardCapes",
-      "name": "Guild Tabard Capes",
+      "name": "Guild Heraldry Capes",
       "status": "Active",
-      "description": "Allow applying the guild tabard design to capes.",
+      "description": "Optionally display your guild crest directly on high-ranking cloaks.",
       "features": [
-        "Show off your guild pride on your back.",
-        "Automatically matches your guild's heraldry."
+        "Allows guild officers to purchase tabard-embroidered cloaks matching their guild colors.",
+        "Strengthens guild cohesion during open-world skirmishes and city gatherings."
       ]
     },
     {
       "id": "TitlesForFeats",
-      "name": "Titles for Exploration",
+      "name": "Exploration & World Prestige Titles",
       "status": "Active",
-      "description": "Titles for massive feats of exploration and dedication.",
+      "description": "Groundbreaking prestige titles awarded for monumental world feats and reputation mastery.",
       "features": [
-        "\"The Explorer\" for revealing every map in the game.",
-        "\"The Insane\" for grinding out hostile reputations."
+        "\"The Explorer\" awarded for fully unveiling every territory across the Eastern Kingdoms and Kalimdor.",
+        "\"The Diplomat\" awarded for reaching Exalted with all home capital factions and neutral cartels."
       ]
     }
   ]

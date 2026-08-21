@@ -6,128 +6,88 @@ export interface PveMechanic {
 
 export const PVE_MECHANICS: PveMechanic[] = [
   {
-    id: 126,
-    title: "Mythic+ Timers",
-    description: "Implement challenge-mode timers for Classic dungeons with cosmetic rewards."
-  },
-  {
     id: 127,
-    title: "Dynamic Spawns",
-    description: "Trash mobs change depending on the time of day the dungeon is run."
+    title: "Dynamic Wilderness Spawns",
+    description: "Dungeon trash patrol compositions and roaming rare elites shift based on the time of day and lunar cycle."
   },
   {
     id: 128,
-    title: "Raid Tokens",
-    description: "Bosses drop generic tokens exchangeable for specific tier pieces to reduce RNG."
-  },
-  {
-    id: 129,
-    title: "Class-Specific Loot",
-    description: "Bosses detect the classes in the raid and slightly weight loot towards them."
+    title: "Boss Tier Turn-In Tokens",
+    description: "High-tier raid bosses drop class-shared insignias (similar to AQ40 and Naxxramas) for specific armor slots to mitigate extreme loot table dilution."
   },
   {
     id: 130,
-    title: "No-World-Buff Hard Modes",
-    description: "Triggering a boss without world buffs active grants an extra piece of loot."
+    title: "World-Buff Hard Mode Triggers",
+    description: "Optional encounter mechanics where defeating a raid boss without active World Buffs yields bonus crafting reagents, crests, and cosmetic prestige."
   },
   {
     id: 131,
-    title: "Environment Destruction",
-    description: "Boss attacks permanently destroy pillars used for Line of Sight."
+    title: "Environmental Destruction",
+    description: "Devastating boss abilities permanently shatter stone pillars and barricades, dynamically removing Line of Sight protection as the encounter progresses."
   },
   {
     id: 132,
-    title: "Weather Effects in Raids",
-    description: "Indoor weather (e.g., indoor blizzards) that affects visibility."
+    title: "Localized Indoor Weather",
+    description: "Elemental raid chambers generate micro-climates (such as freezing blizzards or suffocating heat waves) that modify elemental resistances and spell pushback."
   },
   {
     id: 133,
-    title: "Scaling Health",
-    description: "Bosses scale up slightly if the raid brings 40 players vs 35."
+    title: "Dynamic Raid Scaling (35–40 Players)",
+    description: "Encounter health pools and add frequencies gracefully scale between 35 and 40 players, preventing roster-boss cancelations while preserving 40-man tuning."
   },
   {
     id: 134,
-    title: "Interactive Traps",
-    description: "Rogues can disable traps that would otherwise wipe the raid."
+    title: "Class-Specific Environmental Traps",
+    description: "Rogues can disarm complex mechanical death-traps, Hunters can flare hidden stealth ambushes, and Priests can shackle ancient gargoyles."
   },
   {
     id: 135,
-    title: "Multi-Stage Bosses",
-    description: "Bosses that flee at 50% and must be fought in a completely different room later."
-  },
-  {
-    id: 136,
-    title: "Healer DPS Checks",
-    description: "Phases where the boss only takes damage from healing spells (reversed mechanics)."
+    title: "Multi-Stage Tactical Pursuits",
+    description: "Cunning bosses that flee upon taking critical damage, forcing the raid to clear alternate wings before cornering them in their inner sanctum."
   },
   {
     id: 137,
-    title: "Tank Swaps via Debuff",
-    description: "Force tank swaps via stacking armor debuffs rather than just taunt immunities."
+    title: "Stacking Vulnerability Tank Swaps",
+    description: "Boss debuffs (such as Sunder Flesh or Armor-Melting Flame) enforce coordinated tank hand-offs rather than relying on binary taunt immunities."
   },
   {
     id: 138,
-    title: "Raid-Wide Puzzles",
-    description: "A Zelda-style puzzle room requiring all 40 players to stand on specific plates."
+    title: "Cooperative Chamber Puzzles",
+    description: "Titan and Ancient puzzle rooms requiring coordinated player positioning on pressure runes to unlock hidden lore vaults and shortcut corridors."
   },
   {
     id: 139,
-    title: "Boss Enrage Timers",
-    description: "Soft enrages where the room slowly fills with poison instead of a hard one-shot."
+    title: "Soft Environmental Enrages",
+    description: "Rooms that gradually flood with rising magma or toxic miasma, escalating raid damage over time rather than imposing a sudden artificial one-shot timer."
   },
   {
     id: 140,
-    title: "Friendly Fire Mechanics",
-    description: "A debuff that causes your AoE spells to damage allies for 10 seconds."
+    title: "Discordant Magic / Friendly Fire",
+    description: "Ancient curses that temporarily cause targeted spellcasters' AoE spells to arc to nearby allies, demanding strict spread discipline and raid awareness."
   },
   {
     id: 141,
-    title: "Moving Platforms",
-    description: "Fighting a boss on a descending elevator."
-  },
-  {
-    id: 142,
-    title: "Underwater Combat",
-    description: "A fully underwater raid tier with 3D movement mechanics."
-  },
-  {
-    id: 143,
-    title: "Vehicle Combat",
-    description: "Utilize siege engines to break down a boss's armor before DPS can attack."
+    title: "Vertical & Moving Terrain",
+    description: "Encounters taking place on descending mine lifts, crumbling bridges, and shifting obsidian walkways inside volcanic caverns."
   },
   {
     id: 144,
-    title: "Darkness Mechanic",
-    description: "The room goes pitch black, and players must follow a single torch-bearing NPC."
+    title: "Pitch-Black Sanctums & Torch Mechanics",
+    description: "Unlit crypt depths where visibility is zero unless players light braziers or carry physical alchemical torches to illuminate approaching fiends."
   },
   {
     id: 145,
-    title: "Lore Journals",
-    description: "Bosses drop readable lore books expanding on Classic+ lore."
+    title: "In-World Lore Grimoires & Schematics",
+    description: "Defeated dungeon and raid masters drop readable historical volumes, hidden profession recipes, and flavor journals expanding Vanilla lore."
   },
   {
     id: 146,
-    title: "Faction-Specific Encounters",
-    description: "Horde fights a different boss than Alliance in the same room."
+    title: "Faction-Divergent Encounters",
+    description: "Alliance and Horde face distinct narrative bosses, differing dialogue, and unique combat mechanics when invading contested raid strongholds."
   },
   {
     id: 147,
-    title: "Guild Banners",
-    description: "Dropping a guild banner in a raid provides a 1% stat buff."
-  },
-  {
-    id: 148,
-    title: "Raid Spectator Mode",
-    description: "Allow guild members to spectate the raid from the capital city."
-  },
-  {
-    id: 149,
-    title: "Wipe Recovery",
-    description: "A mechanic to instantly respawn at the boss door instead of running back."
-  },
-  {
-    id: 150,
-    title: "Attunement Skips",
-    description: "Once an account has completed an attunement, alts can skip the questline."
+    title: "Guild Battle Standards",
+    description: "Planting a guild-crafted battle standard in a raid provides morale support and small party utility buffs, displaying guild heraldry with pride."
   }
 ];

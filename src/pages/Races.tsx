@@ -1,263 +1,246 @@
 import React, { useState } from 'react';
-import { racesData, RaceData } from '../data/racesData';
-import { TalentTree } from '../components/TalentTree';
-import { Tooltip } from '../components/Tooltip';
-import { Talent } from '../types/talents';
+import { racesData, RaceData, RacialTrait } from '../data/racesData';
+import { WowTooltip } from '../components/WowTooltip';
+import { WowSpell } from '../types/items';
 
 export default function Races() {
   const [activeRace, setActiveRace] = useState<RaceData>(racesData[0]);
-  const [hoveredData, setHoveredData] = useState<{talent: Talent, rect: DOMRect} | null>(null);
-  
-  // Keep separate point states for each race so they don't overwrite each other
-  const [racePoints, setRacePoints] = useState<Record<string, Record<string, number>>>({});
-  
-  const points = racePoints[activeRace.id] || {};
+  const [factionFilter, setFactionFilter] = useState<'All' | 'Alliance' | 'Horde'>('All');
+  const [hoveredSpell, setHoveredSpell] = useState<{ spell: WowSpell; rect: DOMRect } | null>(null);
 
-  const totalPoints = activeRace.talents.reduce((sum, val) => sum + (points[val.id] || 0), 0);
-
-  const getRowRequirement = (row: number) => {
-    if (row === 0) return 0;
-    if (row === 1) return 3;
-    if (row === 2) return 5;
-    if (row === 3) return 9;
-    return 0;
+  const handleTraitEnter = (e: React.MouseEvent, trait: RacialTrait) => {
+    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+    const spell: WowSpell = {
+      name: trait.name,
+      castTime: 'Racial Passive',
+      description: trait.desc
+    };
+    setHoveredSpell({ spell, rect });
   };
 
-  const isValidState = (testPoints: Record<string, number>) => {
-    // Check prerequisites
-    for (const tal of activeRace.talents) {
-      if ((testPoints[tal.id] || 0) > 0 && tal.requires) {
-        if ((testPoints[tal.requires.id] || 0) < tal.requires.points) {
-          return false;
-        }
-      }
-    }
-
-    // Check row requirements
-    for (let t = 1; t <= 3; t++) {
-      const pointsInThisOrHigher = activeRace.talents.filter(tal => tal.row >= t).reduce((sum, tal) => sum + (testPoints[tal.id] || 0), 0);
-      if (pointsInThisOrHigher > 0) {
-        const pointsBelow = activeRace.talents.filter(tal => tal.row < t).reduce((sum, tal) => sum + (testPoints[tal.id] || 0), 0);
-        if (pointsBelow < getRowRequirement(t)) return false;
-      }
-    }
-    
-    return true;
+  const handleBaseRacialEnter = (e: React.MouseEvent, base: { name: string; desc: string }) => {
+    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+    const spell: WowSpell = {
+      name: base.name,
+      castTime: 'Primary Racial Ability',
+      description: base.desc
+    };
+    setHoveredSpell({ spell, rect });
   };
 
-  const canAddPoint = (talent: Talent, treeTalents: Talent[]) => {
-    const currentPts = points[talent.id] || 0;
-    if (currentPts >= talent.maxPoints) return false;
-    if (totalPoints >= 10) return false;
-
-    if (talent.requires) {
-      if ((points[talent.requires.id] || 0) < talent.requires.points) return false;
-    }
-
-    const pointsInTree = treeTalents.reduce((sum, t) => sum + (points[t.id] || 0), 0);
-    if (getRowRequirement(talent.row) > pointsInTree) return false;
-
-    return true;
+  const handleLeave = () => {
+    setHoveredSpell(null);
   };
 
-  const canRemovePoint = (talent: Talent) => {
-    const currentPts = points[talent.id] || 0;
-    if (currentPts <= 0) return false;
-
-    const testPoints = { ...points, [talent.id]: currentPts - 1 };
-    return isValidState(testPoints);
-  };
-
-  const handleLeftClick = (talent: Talent) => {
-    if (canAddPoint(talent, activeRace.talents)) {
-      setRacePoints(prev => ({
-        ...prev,
-        [activeRace.id]: {
-          ...(prev[activeRace.id] || {}),
-          [talent.id]: ((prev[activeRace.id] || {})[talent.id] || 0) + 1
-        }
-      }));
-    }
-  };
-  
-  const handleRightClick = (e: React.MouseEvent, talent: Talent) => {
-    e.preventDefault();
-    if (canRemovePoint(talent)) {
-      setRacePoints(prev => ({
-        ...prev,
-        [activeRace.id]: {
-          ...(prev[activeRace.id] || {}),
-          [talent.id]: ((prev[activeRace.id] || {})[talent.id] || 0) - 1
-        }
-      }));
-    }
-  };
-
+  const filteredRaces = racesData.filter(r => factionFilter === 'All' || r.faction === factionFilter);
   const allianceRaces = racesData.filter(r => r.faction === 'Alliance');
   const hordeRaces = racesData.filter(r => r.faction === 'Horde');
 
   return (
     <div className="space-y-8 animate-in fade-in duration-700 pb-20">
+      <WowTooltip spell={hoveredSpell?.spell} rect={hoveredSpell?.rect} />
+
+      {/* Header */}
       <div className="flex flex-col items-center border-b border-[#3c3224]/50 pb-8 mb-8 relative">
         <div className="absolute inset-0 bg-gradient-to-t from-[#120e0a] to-transparent z-0 pointer-events-none" />
-        <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#fff5c3] to-[#ffd100] wow-title drop-shadow-lg relative z-10">
-          Playable & Allied Races
+        <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#fff5c3] to-[#ffd100] wow-title drop-shadow-lg relative z-10 text-center">
+          Races & Racial Heritages
         </h1>
         <p className="text-[#d3c8b8] mt-3 text-lg font-medium tracking-wide relative z-10 drop-shadow-md text-center max-w-3xl">
-          Eight new allied races join the war. Master the wild new 10-point Racial Talent Trees for all 16 races, featuring creative mechanics that redefine world interaction.
+          The 16 core and allied races of Azeroth. Every race embarks on their heroic journey from Level 1, possessing unique weapon proficiencies, passive resistances, and distinctive racial abilities.
         </p>
       </div>
 
-      {hoveredData && (
-        <Tooltip talent={hoveredData.talent} rect={hoveredData.rect} points={points} activeTalents={activeRace.talents} />
-      )}
+      {/* Faction Filter Tabs */}
+      <div className="flex justify-center mb-6">
+        <div className="flex space-x-2 bg-[#0f0a07] p-1 rounded-lg border border-[#3c3224]">
+          <button
+            onClick={() => setFactionFilter('All')}
+            className={`px-5 py-2 rounded text-sm font-bold tracking-wide transition-all ${
+              factionFilter === 'All'
+                ? 'bg-[#1a140e] text-[#ffd100] border-b-2 border-[#ffd100]'
+                : 'text-[#a69882] hover:bg-[#1a140e] hover:text-white'
+            }`}
+          >
+            All Races (16)
+          </button>
+          <button
+            onClick={() => setFactionFilter('Alliance')}
+            className={`px-5 py-2 rounded text-sm font-bold tracking-wide transition-all flex items-center gap-2 ${
+              factionFilter === 'Alliance'
+                ? 'bg-[#0b1b36] text-[#4d90f0] border-b-2 border-[#4d90f0]'
+                : 'text-[#a69882] hover:bg-[#0b1b36]/50 hover:text-[#4d90f0]'
+            }`}
+          >
+            <span className="w-2.5 h-2.5 rounded-full bg-[#4d90f0]" /> Alliance (8)
+          </button>
+          <button
+            onClick={() => setFactionFilter('Horde')}
+            className={`px-5 py-2 rounded text-sm font-bold tracking-wide transition-all flex items-center gap-2 ${
+              factionFilter === 'Horde'
+                ? 'bg-[#36110f] text-[#c41e3a] border-b-2 border-[#c41e3a]'
+                : 'text-[#a69882] hover:bg-[#36110f]/50 hover:text-[#c41e3a]'
+            }`}
+          >
+            <span className="w-2.5 h-2.5 rounded-full bg-[#c41e3a]" /> Horde (8)
+          </button>
+        </div>
+      </div>
 
       <div className="flex flex-col lg:flex-row gap-8">
-        
-        {/* Sidebar Navigation */}
-        <div className="lg:w-1/3 space-y-6">
-          <div className="bg-[#120e0a] border border-[#1a4a75]/50 rounded-lg overflow-hidden shadow-lg mb-4">
-            <div className="bg-gradient-to-r from-[#1a4a75]/20 to-[#120e0a] p-4 border-b border-[#1a4a75]/50 border-l-2 border-l-[#0070dd]">
-              <h3 className="font-bold text-[#0070dd] uppercase tracking-widest text-sm">Alliance</h3>
-            </div>
-            <div className="flex flex-col p-2">
-              <div className="grid grid-cols-2 gap-2 mb-2">
-                <span className="text-xs text-[#a69882] px-2 font-bold uppercase">Vanilla</span>
-                <span className="text-xs text-[#a69882] px-2 font-bold uppercase">Allied</span>
-                {allianceRaces.filter(r => r.type === 'Vanilla').map(race => (
+        {/* Race Selection Column */}
+        <div className="lg:w-1/3 space-y-4">
+          {(factionFilter === 'All' || factionFilter === 'Alliance') && (
+            <div className="bg-[#120e0a] border border-[#3c3224] rounded-lg p-3">
+              <h3 className="text-xs font-bold uppercase tracking-widest text-[#4d90f0] px-2 py-1 mb-2 border-b border-[#3c3224]">
+                Alliance Vanguard
+              </h3>
+              <div className="grid grid-cols-1 gap-1.5">
+                {allianceRaces.map((race) => (
                   <button
                     key={race.id}
                     onClick={() => setActiveRace(race)}
-                    className={`text-left p-2 text-sm transition-all rounded ${
-                      activeRace.id === race.id 
-                        ? 'bg-[#1a4a75]/30 text-white font-bold border border-[#0070dd]/50' 
-                        : 'border border-transparent text-[#d3c8b8] hover:bg-[#16120e] hover:border-[#3c3224]'
+                    className={`flex items-center justify-between p-3 rounded text-left transition-all ${
+                      activeRace.id === race.id
+                        ? 'bg-[#0b1b36] text-white border-l-4 border-[#4d90f0] shadow-md'
+                        : 'bg-[#16120e] text-[#a69882] hover:bg-[#1c1813] hover:text-white border-l-4 border-transparent'
                     }`}
                   >
-                    {race.name}
-                  </button>
-                ))}
-                {allianceRaces.filter(r => r.type === 'Allied').map((race, index) => (
-                  <button
-                    key={race.id}
-                    onClick={() => setActiveRace(race)}
-                    className={`text-left p-2 text-sm transition-all rounded ${
-                      activeRace.id === race.id 
-                        ? 'bg-[#1a4a75]/30 text-white font-bold border border-[#0070dd]/50' 
-                        : 'border border-transparent text-[#d3c8b8] hover:bg-[#16120e] hover:border-[#3c3224]'
-                    }`}
-                    style={{ gridColumn: 2, gridRow: index + 2 }}
-                  >
-                    {race.name}
+                    <div>
+                      <div className="font-bold text-sm">{race.name}</div>
+                      <div className="text-[11px] text-[#8c7e6b]">{race.type}</div>
+                    </div>
+                    <span className="text-xs text-[#ffd100] bg-[#0a0806] px-2 py-0.5 rounded border border-[#3c3224]">
+                      Lvl {race.startLevel}
+                    </span>
                   </button>
                 ))}
               </div>
+            </div>
+          )}
+
+          {(factionFilter === 'All' || factionFilter === 'Horde') && (
+            <div className="bg-[#120e0a] border border-[#3c3224] rounded-lg p-3">
+              <h3 className="text-xs font-bold uppercase tracking-widest text-[#c41e3a] px-2 py-1 mb-2 border-b border-[#3c3224]">
+                Horde Champions
+              </h3>
+              <div className="grid grid-cols-1 gap-1.5">
+                {hordeRaces.map((race) => (
+                  <button
+                    key={race.id}
+                    onClick={() => setActiveRace(race)}
+                    className={`flex items-center justify-between p-3 rounded text-left transition-all ${
+                      activeRace.id === race.id
+                        ? 'bg-[#36110f] text-white border-l-4 border-[#c41e3a] shadow-md'
+                        : 'bg-[#16120e] text-[#a69882] hover:bg-[#1c1813] hover:text-white border-l-4 border-transparent'
+                    }`}
+                  >
+                    <div>
+                      <div className="font-bold text-sm">{race.name}</div>
+                      <div className="text-[11px] text-[#8c7e6b]">{race.type}</div>
+                    </div>
+                    <span className="text-xs text-[#ffd100] bg-[#0a0806] px-2 py-0.5 rounded border border-[#3c3224]">
+                      Lvl {race.startLevel}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Race Details Card */}
+        <div className="lg:w-2/3 bg-[#120e0a] border border-[#3c3224] rounded-xl p-6 md:p-8 space-y-6 shadow-2xl">
+          {/* Top Banner */}
+          <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-[#3c3224] pb-6 gap-4">
+            <div>
+              <div className="flex items-center gap-3">
+                <h2 className="text-3xl font-extrabold text-[#ffd100] tracking-wide">{activeRace.name}</h2>
+                <span
+                  className={`text-xs px-2.5 py-0.5 rounded font-bold uppercase tracking-wider ${
+                    activeRace.faction === 'Alliance'
+                      ? 'bg-[#0b1b36] text-[#4d90f0] border border-[#4d90f0]/40'
+                      : 'bg-[#36110f] text-[#c41e3a] border border-[#c41e3a]/40'
+                  }`}
+                >
+                  {activeRace.faction}
+                </span>
+                <span className="text-xs text-[#8c7e6b] bg-[#1a140e] px-2.5 py-0.5 rounded border border-[#3c3224]">
+                  {activeRace.type}
+                </span>
+              </div>
+              <p className="text-sm text-[#ffd100]/80 mt-1 flex items-center gap-1">
+                <span className="text-[#8c7e6b]">Starting Ground:</span> {activeRace.startZone} (Level {activeRace.startLevel})
+              </p>
             </div>
           </div>
 
-          <div className="bg-[#120e0a] border border-[#751a1a]/50 rounded-lg overflow-hidden shadow-lg mb-4">
-            <div className="bg-gradient-to-r from-[#751a1a]/20 to-[#120e0a] p-4 border-b border-[#751a1a]/50 border-l-2 border-l-[#c41f3b]">
-              <h3 className="font-bold text-[#c41f3b] uppercase tracking-widest text-sm">Horde</h3>
+          {/* Description */}
+          <p className="text-[#d3c8b8] text-base leading-relaxed italic bg-[#0f0c09] p-4 rounded-lg border border-[#3c3224]/60">
+            "{activeRace.description}"
+          </p>
+
+          {/* Available Classes */}
+          <div className="space-y-2">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-[#ffd100]">Eligible Classes</h4>
+            <div className="flex flex-wrap gap-2">
+              {activeRace.availableClasses.map((cls) => (
+                <span
+                  key={cls}
+                  className="px-3 py-1 bg-[#1a140e] border border-[#3c3224] rounded text-xs font-bold text-[#e6cc80]"
+                >
+                  {cls}
+                </span>
+              ))}
             </div>
-            <div className="flex flex-col p-2">
-              <div className="grid grid-cols-2 gap-2 mb-2">
-                <span className="text-xs text-[#a69882] px-2 font-bold uppercase">Vanilla</span>
-                <span className="text-xs text-[#a69882] px-2 font-bold uppercase">Allied</span>
-                {hordeRaces.filter(r => r.type === 'Vanilla').map((race, index) => (
-                  <button
-                    key={race.id}
-                    onClick={() => setActiveRace(race)}
-                    className={`text-left p-2 text-sm transition-all rounded ${
-                      activeRace.id === race.id 
-                        ? 'bg-[#751a1a]/30 text-white font-bold border border-[#c41f3b]/50' 
-                        : 'border border-transparent text-[#d3c8b8] hover:bg-[#16120e] hover:border-[#3c3224]'
-                    }`}
-                    style={{ gridColumn: 1, gridRow: index + 2 }}
-                  >
-                    {race.name}
-                  </button>
-                ))}
-                {hordeRaces.filter(r => r.type === 'Allied').map((race, index) => (
-                  <button
-                    key={race.id}
-                    onClick={() => setActiveRace(race)}
-                    className={`text-left p-2 text-sm transition-all rounded ${
-                      activeRace.id === race.id 
-                        ? 'bg-[#751a1a]/30 text-white font-bold border border-[#c41f3b]/50' 
-                        : 'border border-transparent text-[#d3c8b8] hover:bg-[#16120e] hover:border-[#3c3224]'
-                    }`}
-                    style={{ gridColumn: 2, gridRow: index + 2 }}
-                  >
-                    {race.name}
-                  </button>
-                ))}
+          </div>
+
+          {/* Primary Base Racial */}
+          <div className="space-y-3 pt-2">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-[#ffd100]">Signature Racial Ability</h4>
+            <div
+              onMouseEnter={(e) => handleBaseRacialEnter(e, activeRace.baseRacial)}
+              onMouseLeave={handleLeave}
+              className="bg-[#1a140e] border-2 border-[#ffd100]/40 p-4 rounded-lg hover:border-[#ffd100] transition-colors cursor-pointer"
+            >
+              <div className="flex items-center justify-between">
+                <span className="font-bold text-base text-[#fff5c3]">{activeRace.baseRacial.name}</span>
+                <span className="text-xs uppercase tracking-wider text-[#ffd100] bg-[#0a0806] px-2 py-0.5 rounded border border-[#ffd100]/30">
+                  Active
+                </span>
               </div>
+              <p className="text-sm text-[#a69882] mt-2 leading-normal">{activeRace.baseRacial.desc}</p>
+            </div>
+          </div>
+
+          {/* Passive Traits */}
+          <div className="space-y-3 pt-2">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-[#ffd100]">Racial Passives & Masteries</h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {activeRace.traits.map((trait) => (
+                <div
+                  key={trait.name}
+                  onMouseEnter={(e) => handleTraitEnter(e, trait)}
+                  onMouseLeave={handleLeave}
+                  className="bg-[#16120e] border border-[#3c3224] p-3.5 rounded-lg hover:border-[#ffd100]/60 transition-colors cursor-pointer flex gap-3"
+                >
+                  <img
+                    src={`https://wow.zamimg.com/images/wow/icons/medium/${trait.icon}.jpg`}
+                    alt={trait.name}
+                    className="w-9 h-9 rounded border border-[#3c3224] object-cover shrink-0"
+                    onError={(e) => {
+                      (e.target as HTMLElement).style.display = 'none';
+                    }}
+                  />
+                  <div>
+                    <div className="font-bold text-sm text-[#fff5c3]">{trait.name}</div>
+                    <p className="text-xs text-[#a69882] mt-0.5 leading-normal">{trait.desc}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
-
-        {/* Content Display */}
-        <div className="lg:w-2/3">
-          <div className="bg-gradient-to-br from-[#120e0a] to-[#0b0907] border border-[#3c3224] rounded-xl p-8 shadow-2xl animate-in fade-in duration-300 relative overflow-hidden min-h-[700px]">
-             <div className="absolute top-0 right-0 opacity-5 scale-150 pointer-events-none text-white">
-                <svg width="200" height="200" viewBox="0 0 24 24" fill="currentColor">
-                  {activeRace.faction === 'Alliance' 
-                    ? <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
-                    : <path d="M12 2L2 22h20L12 2z"/>
-                  }
-                </svg>
-            </div>
-
-            <div className="relative z-10 flex flex-col xl:flex-row gap-8">
-              <div className="flex-1 space-y-6">
-                <div>
-                  <h2 className="text-4xl font-extrabold text-white mb-2">{activeRace.name}</h2>
-                  <div className="flex gap-3 mt-4">
-                    <span className={`inline-block bg-[#1a140e] border px-3 py-1 rounded text-xs font-bold tracking-widest ${activeRace.faction === 'Alliance' ? 'border-[#0070dd]/50 text-[#0070dd]' : 'border-[#c41f3b]/50 text-[#c41f3b]'}`}>
-                      {activeRace.faction}
-                    </span>
-                    <span className="inline-block bg-[#1a140e] border border-[#ffd100]/50 text-[#ffd100] px-3 py-1 rounded text-xs font-bold tracking-widest">
-                      {activeRace.type} Race
-                    </span>
-                  </div>
-                </div>
-
-                <div className="bg-[#1a140e] p-5 rounded-lg border border-[#3c3224] border-l-2 border-l-[#ff8000]">
-                  <h4 className="text-[#ff8000] text-sm font-bold uppercase tracking-wider mb-2">Lore & Background</h4>
-                  <p className="text-[#d3c8b8] leading-relaxed">{activeRace.description}</p>
-                  
-                  <div className="mt-4 pt-4 border-t border-[#3c3224]/50">
-                    <p className="text-sm text-[#a69882]"><strong>Start Zone:</strong> {activeRace.startZone} (Level {activeRace.startLevel})</p>
-                  </div>
-                </div>
-                
-                <div className="bg-[#1a140e] p-5 rounded-lg border border-[#3c3224] border-l-2 border-l-[#a335ee]">
-                  <h4 className="text-[#a335ee] text-sm font-bold uppercase tracking-wider mb-2">Base Racial</h4>
-                  <strong className="text-white block mb-1">{activeRace.baseRacial.name}</strong>
-                  <p className="text-[#d3c8b8] text-sm leading-relaxed">{activeRace.baseRacial.desc}</p>
-                </div>
-              </div>
-
-              {/* Racial Talent Tree */}
-              <div className="flex-shrink-0 mx-auto xl:mx-0">
-                <TalentTree
-                  title={`${activeRace.name} Talents`}
-                  iconUrl="https://wow.zamimg.com/images/wow/icons/large/spell_nature_wispheal.jpg"
-                  backgroundUrl="https://wow.zamimg.com/uploads/screenshots/normal/139265.jpg"
-                  treeTalents={activeRace.talents}
-                  points={points}
-                  setHoveredData={setHoveredData}
-                  handleLeftClick={handleLeftClick}
-                  handleRightClick={handleRightClick}
-                  canAddPoint={canAddPoint}
-                  classColor={activeRace.faction === 'Alliance' ? '#0070dd' : '#c41f3b'}
-                />
-              </div>
-
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   );
