@@ -241,11 +241,11 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           description: 'Equip: Increases critical strike chance by 2% and your attacks ignore 200 of your target\'s armor.'
         },
         {
-          name: 'Vanguard\'s Unyielding Resolve',
-          type: 'Passive Mastery',
+          name: 'War Banners (Skull & Mocking)',
+          type: 'Class Ability (Permanent)',
           rarity: 'Epic',
-          icon: 'spell_nature_ancestralguardian',
-          description: 'Reduces the cooldown of Shield Wall and Last Stand by 50% and allows Charge to break roots.'
+          icon: 'inv_banner_03',
+          description: 'Unlocks War Banners. Skull Banner increases party/raid critical strike damage by 20% for 10 sec. Mocking Banner taunts all nearby enemies within 15 yards to attack the banner. (Does not stack with Bloodlust/Heroism)'
         }
       ]
     },
@@ -338,11 +338,11 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           description: 'Equip: Increases spell power by up to 35 and causes Holy Shock to heal all nearby allies for 20% of its value.'
         },
         {
-          name: 'Hand of Reckoning & Righteous Challenge',
+          name: 'Divine Sacrifice',
           type: 'Class Ability (Permanent)',
           rarity: 'Epic',
-          icon: 'spell_holy_unyieldingfaith',
-          description: 'Teaches Hand of Reckoning: A targeted 30-yard Holy Taunt that deals Holy damage to enemies not currently attacking you.'
+          icon: 'spell_holy_powerwordbarrier',
+          description: '30% of all damage taken by party members within 30 yards is redirected to the Paladin for 10 sec (up to the Paladin\'s total health). If the Paladin drops below 20% health, the effect breaks early. (2 Min Cooldown) (Does not stack with Bloodlust/Heroism)'
         }
       ]
     },
@@ -701,11 +701,11 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           description: '2.90 Speed. Equip: Increases ranged attack power by 68 and your auto-shots ignore 150 of your target\'s armor.'
         },
         {
-          name: 'Kill Command & Primal Vigor',
-          type: 'Class Ability (Permanent)',
+          name: 'Aspect of the Fox',
+          type: 'Class Aspect (Permanent)',
           rarity: 'Epic',
-          icon: 'ability_hunter_killcommand',
-          description: 'Orders your pet to instantly deliver a vicious special strike, dealing 150% standard claw damage. (1 Min Cooldown)'
+          icon: 'ability_hunter_aspectofthefox',
+          description: 'The Hunter adopts the aspect of a fox, empowering all party and raid members within 40 yards to cast all spells and ranged abilities while moving for 6 sec. (3 Min Cooldown) (Does not stack with Bloodlust/Heroism)'
         }
       ]
     },
@@ -1593,11 +1593,11 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           description: 'Equip: Increases spell damage by up to 50 and your direct spell crits reduce the remaining cooldown of Combustion by 2 sec.'
         },
         {
-          name: 'Time Warp Rite',
+          name: 'Chrono-Compression (The "Fast-Forward" Engine)',
           type: 'Class Spell (Permanent)',
           rarity: 'Epic',
           icon: 'ability_mage_timewarp',
-          description: 'Alters the flow of time for all party members, granting 30% increased melee, ranged, and spell casting speed for 40 sec. (5 Min Cooldown)'
+          description: 'Bends local space-time so that for 15 sec, all party or raid members experience time at 200% speed: Cooldowns recover twice as fast (1s ticks 2s of CD), DoTs/HoTs/channels resolve twice as fast without losing duration or total output, and Resource generation (Energy, Rage, Mana ticks) occurs at double rate. (5 Min Cooldown) (Does not stack with Bloodlust/Heroism)'
         }
       ]
     },
@@ -2081,11 +2081,11 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           description: 'Equip: Increases healing done by up to 110, spell damage by up to 65, and feral attack power by 420.'
         },
         {
-          name: 'Primal Ancient Guardian Flight Form',
-          type: 'Exotic Shapeshift Form',
+          name: 'Stampeding Roar',
+          type: 'Class Ability (Permanent)',
           rarity: 'Epic',
-          icon: 'ability_druid_flightform',
-          description: 'Unlocks the ancient Proto-Wyrm Flight Form for outdoor travel in permitted flight regions.'
+          icon: 'spell_druid_stampedingroar_cat',
+          description: 'The Druid lets loose a ferocious roar, increasing the movement speed of all party and raid members within 20 yards by 60% for 8 sec. Usable in Bear Form, Cat Form, or Humanoid Form. (2 Min Cooldown) (Does not stack with Bloodlust/Heroism)'
         },
         {
           name: 'Title: Arch-Druid of the Timeways',
