@@ -29,7 +29,16 @@ export default function ClassQuests() {
 
   const handleRewardEnter = (e: React.MouseEvent, reward: QuestReward) => {
     const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
-    if (reward.type.includes('Ability') || reward.type.includes('Spell') || reward.type.includes('Mastery')) {
+    if (
+      reward.type.includes('Ability') || 
+      reward.type.includes('Spell') || 
+      reward.type.includes('Mastery') || 
+      reward.type.includes('Aspect') || 
+      reward.type.includes('Aura') || 
+      reward.type.includes('Rite') || 
+      reward.type.includes('Stance') || 
+      reward.type.includes('Shapeshift')
+    ) {
       const spell: WowSpell = {
         name: reward.name,
         castTime: reward.type,

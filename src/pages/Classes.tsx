@@ -3,8 +3,15 @@ import { WowTooltip } from '../components/WowTooltip';
 import { WowSpell } from '../types/items';
 
 const CLASS_ROSTER = [
-  'Warrior', 'Paladin', 'Hunter', 'Rogue', 'Priest', 
-  'Shaman', 'Mage', 'Warlock', 'Druid'
+  { name: 'Warrior', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg' },
+  { name: 'Paladin', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg' },
+  { name: 'Hunter', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg' },
+  { name: 'Rogue', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg' },
+  { name: 'Priest', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_priest.jpg' },
+  { name: 'Shaman', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_shaman.jpg' },
+  { name: 'Mage', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg' },
+  { name: 'Warlock', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_warlock.jpg' },
+  { name: 'Druid', icon: 'https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg' }
 ];
 
 export default function Classes() {
@@ -174,7 +181,8 @@ export default function Classes() {
       <div className="flex flex-col lg:flex-row gap-8">
         {/* Class Selection Sidebar */}
         <div className="lg:w-1/4 space-y-2">
-          {CLASS_ROSTER.map((className) => {
+          {CLASS_ROSTER.map((clsObj) => {
+            const className = clsObj.name;
             const cls = classData[className as keyof typeof classData];
             const isSelected = activeClass === className;
             return (
@@ -184,14 +192,17 @@ export default function Classes() {
                 style={{
                   borderLeftColor: isSelected ? cls.color : 'transparent'
                 }}
-                className={`w-full text-left p-4 text-sm font-bold uppercase tracking-widest transition-all border-l-4 shadow-md rounded-r-lg ${
+                className={`w-full text-left p-3.5 text-sm font-bold uppercase tracking-wider transition-all border-l-4 shadow-md rounded-r-lg ${
                   isSelected
                     ? 'bg-[#1a140e] text-white scale-[1.02]'
                     : 'text-[#a69882] hover:bg-[#16120e] bg-[#120e0a] border border-[#3c3224]'
                 }`}
               >
                 <div className="flex items-center justify-between">
-                  <span style={{ color: isSelected ? cls.color : undefined }}>{className}</span>
+                  <div className="flex items-center gap-2.5">
+                    <img src={clsObj.icon} alt={className} className="w-5 h-5 rounded-sm border border-[#3c3224]" />
+                    <span style={{ color: isSelected ? cls.color : undefined }}>{className}</span>
+                  </div>
                   <span className="text-[10px] text-[#8c7e6b] font-normal lowercase tracking-normal">
                     {cls.role.split(',')[0]}
                   </span>
