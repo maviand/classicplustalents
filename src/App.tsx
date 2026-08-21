@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import World from './pages/World';
 import Player from './pages/Player';
 import Races from './pages/Races';
-import Classes from './pages/Classes';
 import Runes from './pages/Runes';
 import Talents from './pages/Talents';
 import PvE from './pages/PvE';
@@ -26,7 +25,7 @@ export default function App() {
             <Route path="player" element={<Player />}>
               <Route index element={<Navigate to="races" replace />} />
               <Route path="races" element={<Races />} />
-              <Route path="classes" element={<Classes />} />
+              <Route path="classes" element={<Navigate to="/player/talents" replace />} />
               <Route path="runes" element={<Runes />} />
               <Route path="talents" element={<Talents />} />
             </Route>
