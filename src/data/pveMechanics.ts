@@ -32,8 +32,8 @@ export const PVE_MECHANICS: PveMechanic[] = [
   },
   {
     id: 133,
-    title: "Dynamic Raid Scaling (35–40 Players)",
-    description: "Encounter health pools and add frequencies gracefully scale between 35 and 40 players, preventing roster-boss cancelations while preserving 40-man tuning."
+    title: "SoD Raid Player Counts (10 / 20 / 40 Players)",
+    description: "All Classic+ raids adhere to Season of Discovery formats: 10-man and 20-man baseline rosters, with scalable 20-man to 40-man Epic Mode scaling to eliminate roster friction."
   },
   {
     id: 134,

@@ -84,7 +84,6 @@ const specProfiles = {
   ClothHealer: { role: 'Healer', armor: 'Cloth', validWeapons: ['Staff', 'Mace'], primary: ['Intellect', 'Spirit', 'Stamina'], secondary: ['Healing Power', 'MP5'] }
 };
 
-
 const loreThemes = {
   EmeraldNightmare: {
     prefixes: ['Dream-Scarred', 'Nightmare-Forged', 'Corrupted', 'Slumbering', 'Emerald'],
@@ -110,25 +109,24 @@ const loreThemes = {
 
 const epicFlavorTexts = [
   "The blade sings with the blood of a thousand forgotten souls.",
-  "Forged in the heart of a dying star.",
+  "Forged in the heart of an ancient titan caldera.",
   "It throbs with a dark, rhythmic pulse.",
   "Heirs to the throne of Lordaeron wept upon its creation.",
   "Light bends strangely around its edges.",
   "A faint whispering can be heard when held to the ear.",
-  "Imbued with the furious essence of the Firelands.",
+  "Imbued with the furious essence of elemental fire.",
   "Legend says it was once wielded by a titan watcher."
 ];
 
 function generateLoot(count, levelStr = '60', theme = null, bosses = []) {
   let reqLevel = 60;
   let iLvl = 60;
-  let tierLevel = 0;
 
-  if (levelStr.includes('Tier 1.5')) { iLvl = 70; tierLevel = 1; }
-  else if (levelStr.includes('Tier 2.5')) { iLvl = 81; tierLevel = 3; }
-  else if (levelStr.includes('Tier 2')) { iLvl = 76; tierLevel = 2; }
-  else if (levelStr.includes('Tier 3.5')) { iLvl = 92; tierLevel = 5; }
-  else if (levelStr.includes('Tier 3')) { iLvl = 86; tierLevel = 4; }
+  if (levelStr.includes('Tier 1.5')) { iLvl = 70; }
+  else if (levelStr.includes('Tier 2.5')) { iLvl = 81; }
+  else if (levelStr.includes('Tier 2')) { iLvl = 76; }
+  else if (levelStr.includes('Tier 3.5')) { iLvl = 92; }
+  else if (levelStr.includes('Tier 3')) { iLvl = 86; }
   else if (levelStr.includes('-')) {
     reqLevel = parseInt(levelStr.split('-')[1], 10);
     iLvl = reqLevel;
@@ -138,13 +136,7 @@ function generateLoot(count, levelStr = '60', theme = null, bosses = []) {
   }
 
   const loot = [];
-  
-  let epicChance = 0.05;
-  if (iLvl >= 70 || levelStr.includes('Tier')) {
-    epicChance = 1.0;
-  } else if (reqLevel >= 55) {
-    epicChance = 0.15;
-  }
+  let epicChance = (iLvl >= 70 || levelStr.includes('Tier')) ? 1.0 : (reqLevel >= 55 ? 0.20 : 0.05);
 
   for (let i = 0; i < count; i++) {
     const isEpic = Math.random() < epicChance;
@@ -164,11 +156,7 @@ function generateLoot(count, levelStr = '60', theme = null, bosses = []) {
 
     if (isWeapon) {
       type = getRandom(spec.validWeapons);
-      if (type === 'Staff' || type === 'Bow') {
-        slot = 'Two-Hand';
-      } else {
-        slot = getRandom(['Main Hand', 'One-Hand']);
-      }
+      slot = (type === 'Staff' || type === 'Bow') ? 'Two-Hand' : getRandom(['Main Hand', 'One-Hand']);
       noun = getRandom(slotNames.Weapon);
     } else if (isShield) {
       type = 'Shield';
@@ -176,9 +164,7 @@ function generateLoot(count, levelStr = '60', theme = null, bosses = []) {
       noun = getRandom(slotNames.Shield);
     } else if (isJewelry) {
       type = getRandom(['Ring', 'Trinket', 'Necklace']);
-      if (type === 'Ring') slot = 'Finger';
-      else if (type === 'Necklace') slot = 'Neck';
-      else slot = 'Trinket';
+      slot = type === 'Ring' ? 'Finger' : (type === 'Necklace' ? 'Neck' : 'Trinket');
       noun = getRandom(slotNames[slot]);
     } else {
       type = spec.armor;
@@ -186,7 +172,6 @@ function generateLoot(count, levelStr = '60', theme = null, bosses = []) {
       noun = getRandom(slotNames[slot]);
     }
 
-    
     let pList = prefixes;
     let sList = suffixes;
     if (theme && loreThemes[theme]) {
@@ -195,52 +180,36 @@ function generateLoot(count, levelStr = '60', theme = null, bosses = []) {
     }
     const name = `${getRandom(pList)} ${noun} ${getRandom(sList)}`;
 
-
     const stats = [];
     if (type !== 'Trinket') {
-      const mainStat = getRandom(spec.primary);
-      const statBudget = Math.floor(iLvl * 0.5) + (isEpic ? 10 : 0);
-      stats.push(`+${Math.floor(statBudget * 0.6)} ${mainStat}`);
+      const p1 = getRandom(spec.primary);
+      const p2 = getRandom(spec.primary);
+      const val1 = Math.floor((iLvl / 4) + (Math.random() * 6));
+      const val2 = Math.floor((iLvl / 5) + (Math.random() * 4));
+      stats.push(`+${val1} ${p1}`);
+      if (p1 !== p2) stats.push(`+${val2} ${p2}`);
       
-      let secondaryChance = 0.4;
-      if (tierLevel >= 2) secondaryChance = 1.0; 
-      
-      if (Math.random() < secondaryChance) {
-        const secStat = getRandom(spec.secondary);
-        stats.push(`+${Math.floor(statBudget * 0.4)} ${secStat}`);
-      }
-
-      if (tierLevel >= 4 || (tierLevel >= 2 && Math.random() < 0.4)) {
-        const secStat2 = getRandom(spec.secondary);
-        if (!stats.some(s => s.includes(secStat2))) {
-           stats.push(`+${Math.floor(statBudget * 0.25)} ${secStat2}`);
-        }
+      const s1 = getRandom(spec.secondary);
+      if (s1.includes('Crit') || s1.includes('Hit') || s1.includes('Dodge') || s1.includes('Parry')) {
+        stats.push(`Equip: Increases your ${s1.toLowerCase()} by 1%.`);
+      } else if (s1.includes('Defense')) {
+        stats.push(`Equip: Increases defense rating by ${Math.floor(iLvl / 7)}.`);
+      } else if (s1.includes('Power') || s1.includes('Damage')) {
+        stats.push(`Equip: Increases ${s1.toLowerCase()} by up to ${Math.floor(iLvl / 2)}.`);
+      } else if (s1.includes('MP5')) {
+        stats.push(`Equip: Restores ${Math.floor(iLvl / 12)} mana per 5 sec.`);
+      } else {
+        stats.push(`+${Math.floor(iLvl / 6)} ${s1}`);
       }
     }
 
     let effect = '';
-    
-    let baseProcChance = isEpic ? 0.20 : 0.05;
-    let procChance = baseProcChance + (tierLevel * 0.15);
-    
-    if (type === 'Trinket' || Math.random() < procChance) {
-      if (Math.random() > 0.3 && roleEffects[spec.role]) {
-        effect = getRandom(roleEffects[spec.role]);
-      } else {
-        effect = getRandom(roleEffects.General);
-      }
+    if (Math.random() > 0.6) {
+      effect = getRandom(roleEffects[spec.role] || roleEffects.General);
     }
 
-    let flavorText = undefined;
-    if (isEpic && Math.random() > 0.5) {
-      flavorText = getRandom(epicFlavorTexts);
-    }
-    
-    let source = undefined;
-    if (bosses && bosses.length > 0) {
-      const boss = getRandom(bosses);
-      source = `Dropped by: ${boss.name || boss}`;
-    }
+    const flavorText = isEpic && Math.random() > 0.5 ? getRandom(epicFlavorTexts) : '';
+    const source = bosses.length > 0 ? `Dropped by: ${getRandom(bosses)}` : 'Dungeon Encounter';
 
     loot.push({
       name,
@@ -271,9 +240,9 @@ const dungeons = [
     environmentalHazards: 'Triggering the alarm bells will cause infinite waves of guards to spawn until a player channels on the bell for 10 seconds to disable it.',
     secrets: ['A hidden tunnel behind a loose brick leads back to the Stockades.', 'Pickpocketing the Head Jailer yields the "Sewer Key".'],
     wings: [
-      { name: 'The Upper Brig', level: '25-30', desc: 'The holding cells.', bosses: ['Warden Thelwater', 'Targorr the Dread'], loot: generateLoot(10, '25-30') },
-      { name: 'The Deep Cellblocks', level: '45-50', desc: 'Where the true enemies are kept.', bosses: ['High Cultist Zenn', 'Dextren Ward'], loot: generateLoot(15, '45-50') },
-      { name: 'The Interrogation Levels', level: '55-60', desc: 'A descent into madness.', bosses: ['Interrogator Vishas', 'The Flesh-Shaper'], loot: generateLoot(25, '55-60') }
+      { name: 'The Upper Brig', level: '25-30 (5 Man)', desc: 'The holding cells.', bosses: ['Warden Thelwater', 'Targorr the Dread'], loot: generateLoot(10, '25-30') },
+      { name: 'The Deep Cellblocks', level: '45-50 (5 Man)', desc: 'Where the true enemies are kept.', bosses: ['High Cultist Zenn', 'Dextren Ward'], loot: generateLoot(15, '45-50') },
+      { name: 'The Interrogation Levels', level: '55-60 (5 Man)', desc: 'A descent into madness.', bosses: ['Interrogator Vishas', 'The Flesh-Shaper'], loot: generateLoot(25, '55-60') }
     ]
   },
   {
@@ -284,12 +253,12 @@ const dungeons = [
     trashMobs: ['Drowned Noble', 'Sin-Eater', 'Crypt Stalker', 'Restless Spirit'],
     associatedQuests: ['Echoes of the Guardian', 'The Upside-Down Sinners', 'Cleansing the Crypts'],
     speedrunStrats: 'Warlocks can use Eye of Kilrogg to trigger the portcullis switches remotely, saving minutes of walking.',
-    environmentalHazards: 'In the Upside-Down Sinners wing, the water level slowly rises during boss encounters, threatening to drown the entire party.',
+    environmentalHazards: 'Unlit chambers require players to carry torches or activate braziers to avoid being overwhelmed in pitch darkness.',
     secrets: ['A hidden tome grants the party a permanent +10 Shadow Resistance buff for the dungeon.', 'A neutral ghost vendor sells unique tailoring patterns.'],
     wings: [
-      { name: 'The Well of the Forgotten', level: '58-60', desc: 'Mass graves.', bosses: ['The Caretaker', 'Amalgam of the Damned'], loot: generateLoot(25, '58-60') },
-      { name: 'The Upside-Down Sinners', level: '60', desc: 'Underwater terror.', bosses: ['The Drowning Terror', 'Master of the Sinners'], loot: generateLoot(30, '60') },
-      { name: 'The Reliquary of Secrets', level: '60', desc: 'Forbidden artifacts.', bosses: ['The Animated Grimoire', 'The Void-Sealer'], loot: generateLoot(30, '60') }
+      { name: 'The Well of the Forgotten', level: '58-60 (5 Man)', desc: 'Mass graves.', bosses: ['The Caretaker', 'Amalgam of the Damned'], loot: generateLoot(25, '58-60') },
+      { name: 'The Upside-Down Sinners', level: '60 (5 Man)', desc: 'Subterranean terror.', bosses: ['The Drowning Terror', 'Master of the Sinners'], loot: generateLoot(30, '60') },
+      { name: 'The Reliquary of Secrets', level: '60 (5 Man)', desc: 'Forbidden artifacts.', bosses: ['The Animated Grimoire', 'The Void-Sealer'], loot: generateLoot(30, '60') }
     ]
   },
   {
@@ -303,9 +272,9 @@ const dungeons = [
     environmentalHazards: 'Puddles of fel-sludge slow movement speed and apply a stacking nature damage DoT.',
     secrets: ['A hidden path behind a waterfall leads to a neutral vendor selling unique enchantments for Nature Resistance.'],
     wings: [
-      { name: 'The Corrupted Warrens', level: '48-52', desc: 'Besieged hold.', bosses: ['Chieftain Bloodmaw', 'The Rotting Ancient'], loot: generateLoot(15, '48-52') },
-      { name: 'The Fel-Scar', level: '55-58', desc: 'Demonic incursion.', bosses: ['Xandros the Fel-Lord', 'The Summoning Portal'], loot: generateLoot(20, '55-58') },
-      { name: 'The Ancestral Hollow', level: '60', desc: 'Defiled burial grounds.', bosses: ['The First Chieftain', 'The Defiler'], loot: generateLoot(30, '60') }
+      { name: 'The Corrupted Warrens', level: '48-52 (5 Man)', desc: 'Besieged hold.', bosses: ['Chieftain Bloodmaw', 'The Rotting Ancient'], loot: generateLoot(15, '48-52') },
+      { name: 'The Fel-Scar', level: '55-58 (5 Man)', desc: 'Demonic incursion.', bosses: ['Xandros the Fel-Lord', 'The Summoning Portal'], loot: generateLoot(20, '55-58') },
+      { name: 'The Ancestral Hollow', level: '60 (5 Man)', desc: 'Defiled burial grounds.', bosses: ['The First Chieftain', 'The Defiler'], loot: generateLoot(30, '60') }
     ]
   },
   {
@@ -316,12 +285,12 @@ const dungeons = [
     trashMobs: ['Earthen Custodian', 'Anubisath Sentinel', 'Tol\'vir Spellweaver'],
     associatedQuests: ['The Secrets of the Makers', 'Disarming the Engine', 'Brann\'s Expedition'],
     speedrunStrats: 'Bypassing the primary security grid by solving the constellation puzzle in under 2 minutes opens a shortcut directly to the final boss.',
-    environmentalHazards: 'Lasers sweep the corridors. Touching them instantly kills the player and alerts nearby trash.',
+    environmentalHazards: 'Lasers sweep the corridors. Touching them alerts nearby constructs and applies a stacking fire vulnerability.',
     secrets: ['An archaeology puzzle in the Maker\'s Terrace rewards a unique epic mount.', 'Hidden Titan discs reveal lore about the Old Gods.'],
     wings: [
-      { name: 'The Maker\'s Terrace', level: '55-58', desc: 'Titan facility.', bosses: ['High-Executor Norgannon', 'Matrix-Lord'], loot: generateLoot(20, '55-58') },
-      { name: 'The Obsidian Quarry', level: '58-60', desc: 'Construct manufacturing.', bosses: ['The Sculptor', 'The Hive-Mind Incursor'], loot: generateLoot(25, '58-60') },
-      { name: 'The Engine of Origination', level: '60', desc: 'The core.', bosses: ['General Rajaxx\'s Vanguard', 'Avatar of the Makers'], loot: generateLoot(40, '60') }
+      { name: 'The Maker\'s Terrace', level: '55-58 (5 Man)', desc: 'Titan facility.', bosses: ['High-Executor Norgannon', 'Matrix-Lord'], loot: generateLoot(20, '55-58') },
+      { name: 'The Obsidian Quarry', level: '58-60 (5 Man)', desc: 'Construct manufacturing.', bosses: ['The Sculptor', 'The Hive-Mind Incursor'], loot: generateLoot(25, '58-60') },
+      { name: 'The Engine of Origination', level: '60 (5 Man)', desc: 'The core.', bosses: ['General Rajaxx\'s Vanguard', 'Avatar of the Makers'], loot: generateLoot(40, '60') }
     ]
   },
   {
@@ -335,52 +304,52 @@ const dungeons = [
     environmentalHazards: 'Searing magma vents periodically erupt, dealing massive fire damage and launching players into the air.',
     secrets: ['A secret Wildhammer stash requires all 5 players to stand on pressure plates simultaneously.'],
     wings: [
-      { name: 'The Dragonmaw Gates', level: '52-55', desc: 'Fortified entrance.', bosses: ['The Siege Master', 'Dragonmaw Proto-Drake'], loot: generateLoot(15, '52-55') },
-      { name: 'The Hatcheries', level: '55-58', desc: 'Red Dragonflight breeding.', bosses: ['The Broodmother', 'The Corrupted Whelp-Master'], loot: generateLoot(20, '55-58') },
-      { name: 'The Deep Forge', level: '60', desc: 'Wildhammer forges.', bosses: ['The Grand Smith', 'The Anvil of Doom'], loot: generateLoot(30, '60') }
+      { name: 'The Dragonmaw Gates', level: '52-55 (5 Man)', desc: 'Fortified entrance.', bosses: ['The Siege Master', 'Dragonmaw Proto-Drake'], loot: generateLoot(15, '52-55') },
+      { name: 'The Hatcheries', level: '55-58 (5 Man)', desc: 'Red Dragonflight breeding.', bosses: ['The Broodmother', 'The Corrupted Whelp-Master'], loot: generateLoot(20, '55-58') },
+      { name: 'The Deep Forge', level: '60 (5 Man)', desc: 'Wildhammer forges.', bosses: ['The Grand Smith', 'The Anvil of Doom'], loot: generateLoot(30, '60') }
     ]
   },
   {
     id: 'HyjalBarrowDens',
-    name: 'The Barrow Dens',
+    name: 'The Barrow Dens (Hyjal)',
     loreHistory: 'The sacred underground hibernation chambers of the druids in Mount Hyjal. The Emerald Nightmare has begun seeping through the roots of Nordrassil, corrupting the sleeping druids.',
-    strategyGuide: 'Dispel "Slumbering Poison" immediately. If it expires, the player is put to sleep for 30 seconds and cannot be woken by damage.',
+    strategyGuide: 'Dispel "Slumbering Poison" immediately. If it expires, the player is put to sleep for 30 seconds.',
     trashMobs: ['Nightmare Terror', 'Corrupted Druid', 'Root-Bound Horror', 'Satyr Infiltrator'],
     associatedQuests: ['Waking the Dreamer', 'The Nightmare\'s Grasp', 'Cleansing the Roots'],
     speedrunStrats: 'Druids in the party can use Hibernate on the elite Nightmare Terrors to easily bypass the hardest trash packs.',
     environmentalHazards: 'Pockets of Nightmare gas disorient players and slowly drain mana.',
     secrets: ['Awakening a specific druid grants the party the "Blessing of Cenarius", increasing all stats by 5%.'],
     wings: [
-      { name: 'The Slumbering Halls', level: '58-60', desc: 'Nightmare.', bosses: ['The Nightmare Stalker', 'The Waking Terror'], loot: generateLoot(25, '58-60') },
-      { name: 'The Roots of Nordrassil', level: '60', desc: 'Deep caverns.', bosses: ['Archimonde\'s Echo', 'The Root-Tender'], loot: generateLoot(30, '60') }
+      { name: 'The Slumbering Halls', level: '58-60 (5 Man)', desc: 'Nightmare.', bosses: ['The Nightmare Stalker', 'The Waking Terror'], loot: generateLoot(25, '58-60') },
+      { name: 'The Roots of Nordrassil', level: '60 (5 Man)', desc: 'Deep caverns.', bosses: ['Archimonde\'s Echo', 'The Root-Tender'], loot: generateLoot(30, '60') }
     ]
   },
   {
     id: 'Mazthoril',
     name: 'Mazthoril Deeps',
-    loreHistory: 'A sprawling cavern system in Winterspring used by the Blue Dragonflight to horde and protect arcane artifacts and dangerous magic.',
-    strategyGuide: 'Magic damage is incredibly high here. Mages with Dampen Magic are extremely useful. Interrupt the "Arcane Volley" at all costs.',
+    loreHistory: 'A cavern system in Winterspring used by the Blue Dragonflight to protect ancient arcane artifacts and volatile magic.',
+    strategyGuide: 'Magic damage is incredibly high here. Dampen Magic and magic dispels are crucial. Interrupt "Arcane Volley" immediately.',
     trashMobs: ['Arcane Anomaly', 'Blue Dragonkin', 'Spell-Thief', 'Crystalline Golem'],
     associatedQuests: ['The Blue Flight\'s Secret', 'Retrieving the Arcanum', 'Haleh\'s Request'],
     speedrunStrats: 'Reflecting the Arcane Anomalies\' spells back at them causes them to instantly shatter.',
     environmentalHazards: 'Wild magic zones randomly silence or disarm players standing in them.',
-    secrets: ['A locked arcane chest contains a rare enchant recipe, but requires a Mage to decode the runes.'],
+    secrets: ['A locked arcane chest contains a rare enchant recipe, requiring a Mage to decode the runes.'],
     wings: [
-      { name: 'The Arcane Vaults', level: '55-60', desc: 'Blue Dragonflight archive.', bosses: ['The Archivist', 'Haleh\'s Betrayer'], loot: generateLoot(25, '55-60') }
+      { name: 'The Arcane Vaults', level: '55-60 (5 Man)', desc: 'Blue Dragonflight archive.', bosses: ['The Archivist', 'Haleh\'s Betrayer'], loot: generateLoot(25, '55-60') }
     ]
   },
   {
     id: 'GilneasCity',
-    name: 'Gilneas City (Instanced)',
+    name: 'Gilneas City (Instanced Dungeon)',
     loreHistory: 'The capital city of Gilneas is in flames. A massive worgen outbreak has overrun the streets, and Lord Godfrey has initiated a brutal martial law lockdown.',
-    strategyGuide: 'The streets are packed with fast-moving Worgen. Use the city\'s cannons to break through barricades and thin out the hordes.',
+    strategyGuide: 'The streets are packed with fast-moving Worgen. Use the city\'s barricades and narrow alleyways to control incoming packs.',
     trashMobs: ['Feral Worgen', 'Gilnean Royal Guard', 'Crazed Citizen', 'Bloodfang Lurker'],
     associatedQuests: ['The Fall of Gilneas', 'Lord Godfrey\'s Treason', 'Evacuating the Uninfected'],
-    speedrunStrats: 'A rogue can stealth through the rooftops, dropping rope ladders down for the rest of the party to skip the street fighting.',
-    environmentalHazards: 'Burning buildings randomly collapse, causing massive AoE fire damage.',
+    speedrunStrats: 'A rogue can stealth through the rooftops, dropping rope ladders down for the rest of the party to skip street fighting.',
+    environmentalHazards: 'Burning buildings randomly collapse, causing AoE fire damage and blocking thoroughfares.',
     secrets: ['Saving a hidden group of civilians rewards a unique Gilnean tabard.'],
     wings: [
-      { name: 'The Greymane District', level: '45-50', desc: 'Burning capital.', bosses: ['Lord Godfrey', 'The Royal Guard'], loot: generateLoot(20, '45-50') }
+      { name: 'The Greymane District', level: '45-50 (5 Man)', desc: 'Burning capital.', bosses: ['Lord Godfrey', 'The Royal Guard'], loot: generateLoot(20, '45-50') }
     ]
   },
   {
@@ -390,11 +359,11 @@ const dungeons = [
     strategyGuide: 'Radiation poisoning requires constant cleansing. Do not step in the green sludge.',
     trashMobs: ['Irradiated Trogg', 'Sludge Monstrosity', 'Malfunctioning Cleaner Bot'],
     associatedQuests: ['The Ultimate Cure', 'Thermaplugg\'s Final Echo', 'Data Retrieval'],
-    speedrunStrats: 'Using a Goblin Jumper Cable on a broken elevator immediately drops the party to the final boss room.',
+    speedrunStrats: 'Using Goblin Jumper Cables on a broken elevator immediately drops the party to the final boss room.',
     environmentalHazards: 'Radiation vents periodically expel toxic gas. Players must use decontamination showers scattered throughout the instance.',
-    secrets: ['A rare engineering schematic drops from a hidden, un-targetable gnome ninja if you reveal him with a flare.'],
+    secrets: ['A rare engineering schematic drops from a hidden gnome ninja if revealed with a flare.'],
     wings: [
-      { name: 'The Irradiation Vats', level: '35-45', desc: 'Pure toxic sludge.', bosses: ['Viscous Fallout', 'Mekgineer Thermaplugg (Echo)'], loot: generateLoot(20, '35-45') }
+      { name: 'The Irradiation Vats', level: '35-45 (5 Man)', desc: 'Pure toxic sludge.', bosses: ['Viscous Fallout', 'Mekgineer Thermaplugg (Echo)'], loot: generateLoot(20, '35-45') }
     ]
   },
   {
@@ -408,7 +377,7 @@ const dungeons = [
     environmentalHazards: 'Holy fire rains from the parapets during the outdoor sections. Players must move between covered corridors.',
     secrets: ['Finding the true Ashbringer\'s hidden reliquary triggers an entirely unique roleplay event with Highlord Mograine\'s ghost.'],
     wings: [
-      { name: 'The Inquisition', level: '50-55', desc: 'Tyr\'s Hand torture chambers.', bosses: ['Grand Inquisitor Isillien', 'Scarlet Executioner'], loot: generateLoot(20, '50-55') }
+      { name: 'The Inquisition', level: '50-55 (5 Man)', desc: 'Tyr\'s Hand torture chambers.', bosses: ['Grand Inquisitor Isillien', 'Scarlet Executioner'], loot: generateLoot(20, '50-55') }
     ]
   }
 ];
@@ -417,14 +386,14 @@ const raids = [
   {
     id: 'EmeraldNightmare',
     name: 'The Emerald Nightmare',
-    tier: 'Tier 1.5 (20 Man)',
-    desc: 'Entered through the four great portals in Ashenvale, Feralas, Duskwood, and the Hinterlands. A sprawling, non-linear raid.',
+    tier: 'Tier 1.5 (10 / 20 Man Scalable)',
+    desc: 'Entered through the four great portals in Ashenvale, Feralas, Duskwood, and the Hinterlands. A non-linear raid tuned for 10 or 20 players.',
     loreHistory: 'The four great trees of Azeroth have fully succumbed to the Nightmare. Ysera\'s greatest lieutenants have been twisted into horrific shadows of their former selves.',
-    strategyGuide: 'A non-linear raid where the raid must frequently split into 2 or 4 groups to tackle Dream Portals simultaneously. The Sanity Mechanic requires constant monitoring; if a player drops to 0 sanity, they become permanently hostile.',
+    strategyGuide: 'A non-linear raid where the team must split into 2 groups to tackle Dream Portals simultaneously. The Sanity Mechanic requires constant monitoring; if a player drops to 0 sanity, they become hostile.',
     trashMobs: ['Nightmare Drake', 'Corrupted Keeper', 'Shadow-Bough Treant', 'Dream-Eater'],
     associatedQuests: ['The Waking Nightmare (Raid)', 'Tears of the Dreamer'],
     speedrunStrats: 'Defeating all four dragons within 45 minutes triggers a secret hard-mode encounter against Eranikus.',
-    environmentalHazards: 'The Nightmare Fog constantly shifts. Silencing casters caught within it.',
+    environmentalHazards: 'The Nightmare Fog constantly shifts, silencing casters caught within it.',
     secrets: ['Collecting the hidden Dream Fragments grants the raid the Waking Buff, a 24-hour world buff called "Clarity of the Dream".'],
     bosses: ['Lethon', 'Emeriss', 'Taerar', 'Ysondre', 'Corrupted Ysera'],
     loot: generateLoot(50, 'Tier 1.5', 'EmeraldNightmare')
@@ -432,13 +401,13 @@ const raids = [
   {
     id: 'GrimBatolRaid',
     name: 'Grim Batol',
-    tier: 'Tier 2 (40 Man)',
-    desc: 'The heart of the mountain where the Dragonmaw Clan enslaves the Red Dragonflight.',
+    tier: 'Tier 2 (20 / 40 Man Scalable)',
+    desc: 'The heart of the mountain where the Dragonmaw Clan enslaves the Red Dragonflight. 20-player baseline with 40-player Epic Mode scaling.',
     loreHistory: 'Using the Demon Soul, the orcs have broken the will of Alexstrasza. The raid must navigate the mountain to destroy the artifact and free the Life-Binder.',
     strategyGuide: 'The Red Dragonflight is enslaved; killing dragons destroys their loot and reduces your end-of-raid rewards. The raid must navigate Egg Destruction mechanics, destroying twilight eggs before they hatch.',
     trashMobs: ['Dragonmaw Handler', 'Enslaved Red Drake', 'Twilight Warlock', 'Blackrock Mercenary'],
     associatedQuests: ['The Demon Soul (Raid)', 'Freeing the Queen'],
-    speedrunStrats: 'During the Drake Riding phase, players can mount Red Drakes to siege the fortress and skip massive trash packs.',
+    speedrunStrats: 'Freeing captive red drakes allows them to assist in bombarding elite Dragonmaw defenses.',
     environmentalHazards: 'Molten Slag constantly rises from the forge, forcing the raid to move upstairs throughout the encounters.',
     secrets: ['Alexstrasza\'s Intervention is a secret NPC assist phase that triggers if no red drakes are killed, granting the raid massive haste.'],
     bosses: ['Warchief Nek\'rosh', 'The Forgemaster', 'The Demon Soul', 'The Crimson Behemoth'],
@@ -447,13 +416,13 @@ const raids = [
   {
     id: 'CrownOfTheDamned',
     name: 'Crown of the Damned (Stratholme Necropolis)',
-    tier: 'Tier 2.5 (20 Man)',
-    desc: 'The massive floating ziggurat hovering above Stratholme.',
+    tier: 'Tier 2.5 (10 / 20 Man Scalable)',
+    desc: 'The massive floating ziggurat hovering above Stratholme. Tuned for flexible 10 or 20-player raid groups.',
     loreHistory: 'Before Naxxramas arrived, Kel\'Thuzad tested his aerial necropolises. This is the command center of the Scourge\'s Lordaeron operations.',
     strategyGuide: 'The Phylactery Hunt mechanic forces the raid to locate the hidden phylactery in a random room each week to permanently kill the final boss. Mind Control mechanics require the off-tank to react instantly when the main tank is taken.',
     trashMobs: ['Undying Necromancer', 'Flesh Titan', 'Banshee Wailer', 'Death Knight Captain'],
     associatedQuests: ['The Crown Falls (Raid)', 'Retrieving the Phylactery'],
-    speedrunStrats: 'Paladins using Holy Wrath can completely lock down the undead Gauntlet, saving over 10 minutes.',
+    speedrunStrats: 'Paladins using Holy Wrath can completely lock down the undead Gauntlet, saving valuable clear time.',
     environmentalHazards: 'Frostwyrm Breath acts as a raid-wide freeze that must be thawed by standing near active fire braziers.',
     secrets: ['Clearing the raid triggers minor Scourge Invasions in capital cities for the next 2 hours.', 'Bone Storm is a brutal melee-punishing mechanic requiring exact positioning.'],
     bosses: ['Highlord Mograine', 'The Blood Council', 'Kel\'Thuzad\'s Phylactery-Guard'],
@@ -462,8 +431,8 @@ const raids = [
   {
     id: 'KarazhanRaid',
     name: 'Karazhan (Upper Tower)',
-    tier: 'Tier 3 (40 Man)',
-    desc: 'The unreleased Vanilla version of Karazhan, balanced for 40 players.',
+    tier: 'Tier 3 (20 / 40 Man Scalable)',
+    desc: 'The unreleased Vanilla version of Medivh\'s tower. Tuned for 20 players with 40-player Epic Mode scaling.',
     loreHistory: 'Medivh\'s tower transcends time and space. The upper levels are caught in a dimensional rift where the Burning Legion and anomalous entities fight for control.',
     strategyGuide: 'The Chess Event 2.0 requires players to literally inhabit the pieces, completely replacing their hotbars with unique movesets. The Library Puzzle requires navigating a labyrinth where reading the wrong book spawns an elite.',
     trashMobs: ['Spectral Patron', 'Phantom Guardsman', 'Demonic Invader', 'Ethereal Thief'],
@@ -477,10 +446,10 @@ const raids = [
   {
     id: 'DragonIslesRaid',
     name: 'Temple of the Old Gods (Dragon Isles)',
-    tier: 'Tier 3.5 (40 Man)',
-    desc: 'The absolute pinnacle of Vanilla progression, located on the mythical Dragon Isles.',
+    tier: 'Tier 3.5 (20 / 40 Man Scalable)',
+    desc: 'The absolute pinnacle of Vanilla progression, located on the mythical Dragon Isles. 20-player baseline with 40-player Epic Mode scaling.',
     loreHistory: 'A forgotten island where the Old Gods first corrupted the proto-dragons. The architecture is impossibly ancient, pre-dating the Titans.',
-    strategyGuide: 'Requires a fully coordinated 40-man raid to complete the World Tree Defense, holding off waves of elemental invaders. Ley-Line Alignment puzzles require players to physically connect beams of light to remove boss immunities.',
+    strategyGuide: 'Requires a fully coordinated raid to complete the World Tree Defense, holding off waves of elemental invaders. Ley-Line Alignment puzzles require players to physically connect beams of light to remove boss immunities.',
     trashMobs: ['Faceless Corruptor', 'Devolved Proto-Drake', 'Tentacle Horror', 'Mind-Flayer'],
     associatedQuests: ['The Final Nightmare (Raid)', 'Whispers in the Dark'],
     speedrunStrats: 'Time Dilation is a Bronze dragon mechanic that drastically slows player movement and cast speed; coordinate heroism effectively here.',
@@ -509,7 +478,7 @@ const raids = [
 
 const tsFile = `export const PVE_CATS = {
   DUNGEONS: 'The New Dungeons (Winged Hubs)',
-  RAIDS: 'Parallel Raid Tiers'
+  RAIDS: 'Parallel Raid Tiers (SoD 10 / 20 / 40 Man Formats)'
 };
 
 export const pveData = {
@@ -519,4 +488,4 @@ export const pveData = {
 `;
 
 fs.writeFileSync('./src/data/dungeons.ts', tsFile);
-console.log('Successfully wrote 30 dungeons and massive loot tables to dungeons.ts');
+console.log('Successfully wrote dungeons.ts with SoD raid player count formats (10/20/40 man).');

@@ -18,7 +18,7 @@ const races = [
     traits: [
       { name: "Diplomacy", icon: "spell_holy_wordfortitude", desc: "Reputation gains increased by 10% across all factions." },
       { name: "The Human Spirit", icon: "spell_holy_divinespirit", desc: "Spirit increased by 5%, accelerating mana and health regeneration." },
-      { name: "Perception", icon: "spell_nature_sleep", desc: "Dramatically increases stealth detection against rogues and prowling beasts." },
+      { name: "Perception", icon: "spell_nature_sleep", desc: "Dramatically increases stealth detection against rogues and prowling beasts for 20 sec." },
       { name: "Sword Specialization", icon: "inv_sword_04", desc: "Skill with Swords and Two-Handed Swords increased by 5." },
       { name: "Mace Specialization", icon: "inv_mace_01", desc: "Skill with Maces and Two-Handed Maces increased by 5." }
     ]
@@ -40,7 +40,7 @@ const races = [
       { name: "Frost Resistance", icon: "spell_frost_frostward", desc: "Frost Resistance increased by 10." },
       { name: "Find Treasure", icon: "inv_misc_gem_01", desc: "Allows the dwarf to sense nearby treasure chests on the minimap." },
       { name: "Gun Specialization", icon: "inv_weapon_rifle_01", desc: "Gun skill increased by 5, increasing critical strike chance with rifles." },
-      { name: "Mountaineer Fortitude", icon: "spell_nature_strength", desc: "Reduces the duration of movement impairing effects by 15%." }
+      { name: "Mountaineer Fortitude", icon: "spell_nature_strength", desc: "Reduces the duration of movement impairing and slow effects by 15%." }
     ]
   },
   {
@@ -60,7 +60,8 @@ const races = [
       { name: "Nature Resistance", icon: "spell_nature_resistnature", desc: "Nature Resistance increased by 10." },
       { name: "Wisp Spirit", icon: "spell_nature_wispsplode", desc: "Transform into a wisp upon death, increasing ghost movement speed by 50%." },
       { name: "Quickness", icon: "ability_rogue_sprint", desc: "Dodge chance increased by 1%." },
-      { name: "Bow Specialization", icon: "inv_weapon_bow_01", desc: "Bow skill increased by 5." }
+      { name: "Bow Specialization", icon: "inv_weapon_bow_01", desc: "Bow skill increased by 5." },
+      { name: "Elusiveness", icon: "spell_magic_lesserinvisibilty", desc: "Reduces the chance enemies have to detect you while Shadowmelded or Stealthed." }
     ]
   },
   {
@@ -79,7 +80,8 @@ const races = [
     traits: [
       { name: "Arcane Resistance", icon: "spell_nature_starfall", desc: "Arcane Resistance increased by 10." },
       { name: "Expansive Mind", icon: "spell_ice_magicdamage", desc: "Intellect increased by 5%." },
-      { name: "Engineering Specialization", icon: "trade_engineering", desc: "Engineering skill increased by 15." }
+      { name: "Engineering Specialization", icon: "trade_engineering", desc: "Engineering skill increased by 15." },
+      { name: "Nimble Fingers", icon: "ability_rogue_ambush", desc: "Casting and attack haste increased by 1%, and trap evasion improved." }
     ]
   },
 
@@ -140,7 +142,8 @@ const races = [
     traits: [
       { name: "Thick Hide", icon: "ability_hunter_pet_bear", desc: "Total Stamina increased by 2%." },
       { name: "Woodland Stride", icon: "spell_nature_naturetouchgrow", desc: "Movement speed in outdoor wilderness zones increased by 5%." },
-      { name: "Ancestral Resilience", icon: "spell_nature_skinofearth", desc: "Chance to resist stun and forced movement effects increased by 10%." }
+      { name: "Ancestral Resilience", icon: "spell_nature_skinofearth", desc: "Chance to resist stun and forced movement effects increased by 10%." },
+      { name: "Ursine Claws", icon: "ability_druid_bash", desc: "Fist weapon and Unarmed skill increased by 5, with attacks having a chance to bleed." }
     ]
   },
   {
@@ -159,7 +162,8 @@ const races = [
     traits: [
       { name: "Arcane Affinity", icon: "spell_holy_magicalsentry", desc: "Enchanting skill increased by 15, and Arcane Resistance increased by 10." },
       { name: "Arcane Meditation", icon: "spell_holy_holybolt", desc: "Allows 10% of your mana regeneration to continue while casting." },
-      { name: "Ranger's Precision", icon: "ability_hunter_aimedshot", desc: "Bow and Gun skill increased by 5." }
+      { name: "Ranger's Precision", icon: "ability_hunter_aimedshot", desc: "Bow and Gun skill increased by 5." },
+      { name: "Silvermoon Heritage", icon: "spell_holy_devotion", desc: "Spell critical strike damage increased by 3%." }
     ]
   },
 
@@ -180,7 +184,8 @@ const races = [
     traits: [
       { name: "Hardiness", icon: "spell_nature_strength", desc: "Chance to resist Stun effects increased by 15%." },
       { name: "Axe Specialization", icon: "inv_axe_02", desc: "Skill with Axes and Two-Handed Axes increased by 5." },
-      { name: "Command", icon: "ability_hunter_pet_orc", desc: "Damage dealt by Hunter and Warlock pets increased by 5%." }
+      { name: "Command", icon: "ability_hunter_pet_orc", desc: "Damage dealt by Hunter and Warlock pets increased by 5%." },
+      { name: "Savage Vigor", icon: "spell_nature_bloodlust", desc: "Health regeneration out of combat increased by 20%." }
     ]
   },
   {
@@ -199,7 +204,8 @@ const races = [
     traits: [
       { name: "Shadow Resistance", icon: "spell_shadow_antipathyshadow", desc: "Shadow Resistance increased by 10." },
       { name: "Cannibalize", icon: "ability_racial_cannibalize", desc: "Regenerates 7% of total health every 2 sec for 10 sec from a nearby Humanoid or Undead corpse." },
-      { name: "Underwater Breathing", icon: "spell_shadow_demonbreath", desc: "Underwater breath duration increased by 300%." }
+      { name: "Underwater Breathing", icon: "spell_shadow_demonbreath", desc: "Underwater breath duration increased by 300%." },
+      { name: "Touch of the Grave", icon: "spell_shadow_lifedrain", desc: "Your attacks have a chance to inflict shadow damage and siphon life from the target." }
     ]
   },
   {
@@ -218,7 +224,8 @@ const races = [
     traits: [
       { name: "Endurance", icon: "spell_nature_earthbind", desc: "Total Health increased by 5%." },
       { name: "Cultivation", icon: "inv_misc_flower_01", desc: "Herbalism skill increased by 15, and gathering speed is accelerated." },
-      { name: "Nature Resistance", icon: "spell_nature_resistnature", desc: "Nature Resistance increased by 10." }
+      { name: "Nature Resistance", icon: "spell_nature_resistnature", desc: "Nature Resistance increased by 10." },
+      { name: "Plainswalker Stride", icon: "spell_nature_spiritwolf", desc: "Out of combat movement speed increased by 5% in outdoor wilderness zones." }
     ]
   },
   {
@@ -237,7 +244,8 @@ const races = [
     traits: [
       { name: "Regeneration", icon: "spell_nature_regenerate", desc: "Health regeneration increased by 10%. 10% of total health regeneration continues during combat." },
       { name: "Beast Slaying", icon: "ability_hunter_snaketrap", desc: "Damage dealt versus Beasts increased by 5%." },
-      { name: "Bow & Throwing Specialization", icon: "inv_weapon_bow_01", desc: "Skill with Bows and Throwing Weapons increased by 5." }
+      { name: "Bow & Throwing Specialization", icon: "inv_weapon_bow_01", desc: "Skill with Bows and Throwing Weapons increased by 5." },
+      { name: "Da Voodoo Shuffle", icon: "spell_shadow_shadowworddominate", desc: "Reduces the duration of all movement impairing and slow effects by 15%." }
     ]
   },
 
@@ -258,7 +266,8 @@ const races = [
     traits: [
       { name: "Thick Skull", icon: "spell_nature_strength", desc: "Stun duration reduced by 15%, and total health increased by 3%." },
       { name: "Big Appetite", icon: "inv_misc_food_15", desc: "Consuming food restores health 50% faster and increases out-of-combat spirit." },
-      { name: "Club Specialization", icon: "inv_mace_01", desc: "Skill with One-Handed and Two-Handed Maces increased by 5." }
+      { name: "Club Specialization", icon: "inv_mace_01", desc: "Skill with One-Handed and Two-Handed Maces increased by 5." },
+      { name: "Ogre-Mage Heritage", icon: "spell_arcane_starfire", desc: "Spell critical strike damage with Arcane and Fire magic increased by 3%." }
     ]
   },
   {
@@ -277,7 +286,8 @@ const races = [
     traits: [
       { name: "Moss-Skin Armor", icon: "spell_nature_skinofearth", desc: "Armor increased by 4%, and Nature Resistance increased by 10." },
       { name: "Axe Thrower", icon: "inv_axe_17", desc: "Throwing weapon range increased by 5 yards, and Axe skill increased by 5." },
-      { name: "Wild Regeneration", icon: "spell_nature_regenerate", desc: "Health regeneration rate increased by 15%." }
+      { name: "Wild Regeneration", icon: "spell_nature_regenerate", desc: "Health regeneration rate increased by 15%." },
+      { name: "Fierce Vengeance", icon: "spell_shadow_shadetruesight", desc: "Damage dealt against Elves and Humanoid enemies increased by 3%." }
     ]
   },
   {
@@ -296,7 +306,8 @@ const races = [
     traits: [
       { name: "Time is Money", icon: "inv_misc_coin_01", desc: "Attack and casting haste increased by 1%." },
       { name: "Best Deals Anywhere", icon: "inv_misc_bag_08", desc: "Vendor discount always calculated at maximum Exalted reputation tier (20%)." },
-      { name: "Better Living Through Chemistry", icon: "trade_alchemy", desc: "Alchemy skill increased by 15." }
+      { name: "Better Living Through Chemistry", icon: "trade_alchemy", desc: "Alchemy skill increased by 15." },
+      { name: "Scavenge & Haggle", icon: "inv_misc_coin_02", desc: "Gold dropped by slain humanoids increased by 10%." }
     ]
   },
   {
@@ -315,12 +326,13 @@ const races = [
     traits: [
       { name: "Forged in Flame", icon: "spell_fire_fire", desc: "Fire Resistance increased by 15, and physical damage taken reduced by 1%." },
       { name: "Mass Production", icon: "trade_blacksmithing", desc: "Blacksmithing and Mining skill increased by 15." },
-      { name: "Dungeon Delver", icon: "spell_shadow_shadetruesight", desc: "Movement speed in underground tunnels and caverns increased by 5%." }
+      { name: "Dungeon Delver", icon: "spell_shadow_shadetruesight", desc: "Movement speed in underground tunnels and caverns increased by 5%." },
+      { name: "Searing Retribution", icon: "spell_fire_immolation", desc: "When struck in melee, attackers suffer 8 Fire damage." }
     ]
   }
 ];
 
-const fileContent = `// Auto-generated by generateRaces.cjs (POLISHED CLASSIC+ RACIAL TRAITS EDITION)
+const fileContent = `// Auto-generated by generateRaces.cjs (POLISHED CLASSIC+ RACIAL TRAITS EDITION - ALL RACES ≥4 TRAITS)
 
 export interface RacialTrait {
   name: string;
@@ -345,4 +357,4 @@ export const racesData: RaceData[] = ${JSON.stringify(races, null, 2)};
 `;
 
 fs.writeFileSync('src/data/racesData.ts', fileContent, 'utf8');
-console.log('Successfully generated polished racesData.ts with authentic racial traits and 0 talent tree bloat.');
+console.log('Successfully generated polished racesData.ts where all races have at least 4 racial traits.');
