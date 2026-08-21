@@ -89,8 +89,8 @@ export default function Home() {
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
               </div>
               <div>
-                <h4 className="text-lg font-bold text-white mb-1">Path of the Titans: Class Discoveries</h4>
-                <p className="text-sm text-[#a69882]">Ancient tomes, librams, and rites hidden across Azeroth permanently empower your spellbook. Hybrids achieve full tanking and healing viability without gear-swapping tetris.</p>
+                <h4 className="text-lg font-bold text-white mb-1">Tiered Epic Class Quests</h4>
+                <p className="text-sm text-[#a69882]">Multi-region storylines per raid tier spanning dungeons, wilderness trials, and raid conquests. Unlock iconic class weapons, hybrid viability, and class-defining abilities.</p>
               </div>
             </div>
           </div>

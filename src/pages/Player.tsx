@@ -7,7 +7,7 @@ export default function Player() {
   const tabs = [
     { path: '/player/races', label: 'Races & Racials' },
     { path: '/player/classes', label: 'Classes & Specs' },
-    { path: '/player/runes', label: 'Class Discoveries' },
+    { path: '/player/runes', label: 'Epic Class Quests' },
     { path: '/player/talents', label: 'Talent Calculator' },
   ];
 
