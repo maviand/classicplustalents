@@ -65,9 +65,19 @@ export default function World() {
                 <div className="flex justify-between items-start mb-6 border-b border-[#3c3224]/50 pb-4">
                   <div>
                     <h2 className="text-3xl font-extrabold text-white mb-2">{selectedZoneData.name}</h2>
-                    <span className="inline-block bg-[#1a140e] border border-[#ff8000]/50 text-[#ff8000] px-3 py-1 rounded text-xs font-bold tracking-widest shadow-[0_0_10px_rgba(255,128,0,0.15)]">
-                      LEVEL {selectedZoneData.level}
-                    </span>
+                    {selectedZoneData.level.includes('Suramar') ? (
+                      <span className="inline-block bg-[#1a0c24] border border-[#a335ee]/60 text-[#d884ff] px-3 py-1 rounded text-xs font-bold tracking-widest shadow-[0_0_15px_rgba(163,53,238,0.3)]">
+                        {selectedZoneData.level}
+                      </span>
+                    ) : selectedZoneData.level.includes('World Event') ? (
+                      <span className="inline-block bg-[#1f1608] border border-[#ffd100]/60 text-[#ffd100] px-3 py-1 rounded text-xs font-bold tracking-widest shadow-[0_0_15px_rgba(255,209,0,0.25)]">
+                        {selectedZoneData.level}
+                      </span>
+                    ) : (
+                      <span className="inline-block bg-[#1a140e] border border-[#ff8000]/50 text-[#ff8000] px-3 py-1 rounded text-xs font-bold tracking-widest shadow-[0_0_10px_rgba(255,128,0,0.15)]">
+                        LEVEL {selectedZoneData.level}
+                      </span>
+                    )}
                   </div>
                 </div>
 

@@ -459,21 +459,21 @@ export default function Talents() {
             <p className="text-[#a69882] text-xs md:text-sm font-medium tracking-wide">A Community Theorycrafted Reimagining of the Original Talent Trees</p>
           </div>
 
-          {/* Desktop Class Tab Navigation */}
-          <nav className="hidden lg:flex flex-wrap justify-center items-center gap-3 w-full mt-4" aria-label="Desktop Class selection">
+          {/* Desktop Class Tab Navigation - Fitted to 1 Single Row */}
+          <nav className="hidden lg:flex flex-nowrap justify-center items-center gap-1.5 xl:gap-2 w-full mt-4 max-w-full overflow-x-auto py-1" aria-label="Desktop Class selection">
             {CLASSES.map((cls) => {
               const isActive = activeClass === cls.name;
               return (
                 <button 
                   key={cls.name}
                   onClick={() => { setActiveClass(cls.name); setPoints({}); setMobileActiveTree(0); }}
-                  className={`flex items-center gap-2 px-3 py-2 rounded-sm font-bold text-sm tracking-wide border transition-all ${isActive ? 'text-white' : 'text-[#8c7e6b] bg-[#16120e] hover:bg-[#1f1a14] hover:text-[#d3c8b8]'} blizzard-border`}
+                  className={`flex items-center gap-1.5 px-2 xl:px-2.5 py-1.5 rounded font-bold text-xs tracking-tight border transition-all whitespace-nowrap ${isActive ? 'text-white' : 'text-[#8c7e6b] bg-[#16120e] hover:bg-[#1f1a14] hover:text-[#d3c8b8]'} blizzard-border`}
                   style={isActive ? { 
                     backgroundColor: 'rgba(15, 10, 5, 0.95)', 
-                    boxShadow: `0 0 15px ${cls.color}cc, inset 0 0 5px rgba(0,0,0,0.8)`, 
+                    boxShadow: `0 0 12px ${cls.color}bb, inset 0 0 4px rgba(0,0,0,0.8)`, 
                     borderColor: cls.color, 
-                    textShadow: '0 2px 4px rgba(0,0,0,1)',
-                    transform: 'translateY(-4px)',
+                    textShadow: '0 1px 3px rgba(0,0,0,1)',
+                    transform: 'translateY(-2px)',
                     zIndex: 10
                   } : { 
                     borderColor: '#2b2318',
@@ -482,8 +482,8 @@ export default function Talents() {
                   aria-selected={isActive}
                   role="tab"
                 >
-                  <img src={cls.icon} alt={cls.name} className="w-6 h-6 rounded-sm border border-[#2b2318]" />
-                  {cls.label}
+                  <img src={cls.icon} alt={cls.name} className="w-5 h-5 rounded-sm border border-[#2b2318] flex-shrink-0" />
+                  <span>{cls.label}</span>
                 </button>
               )
             })}

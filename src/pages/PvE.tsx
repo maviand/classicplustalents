@@ -122,7 +122,7 @@ export default function PvE() {
                   <div>
                     <h2 className="text-3xl font-extrabold text-white mb-2">{selectedDungeonData.name}</h2>
                     {'tier' in selectedDungeonData && (
-                      <span className="inline-block bg-[#1a140e] border border-[#ff8000]/50 text-[#ff8000] px-3 py-1 rounded text-xs font-bold tracking-widest shadow-[0_0_10px_rgba(255,128,0,0.15)]">
+                      <span className="inline-block bg-[#1f1608] border border-[#ffd100]/60 text-[#ffd100] px-3 py-1 rounded text-xs font-bold tracking-widest shadow-[0_0_15px_rgba(255,209,0,0.25)]">
                         {selectedDungeonData.tier}
                       </span>
                     )}
