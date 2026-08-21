@@ -28,6 +28,9 @@ export interface ClassQuest {
 }
 
 export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
+  // ==========================================
+  // WARRIOR
+  // ==========================================
   Warrior: [
     {
       id: 'war-t1',
@@ -81,7 +84,7 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           type: 'Class Ability (Permanent)',
           rarity: 'Epic',
           icon: 'ability_warrior_shieldslam',
-          description: 'Teaches Gladiator Stance: Allows sword-and-board offensive DPS combat, increasing physical damage by 20% and transforming Shield Slam into a primary strike.'
+          description: 'Teaches Gladiator Stance: An aggressive sword-and-board stance that increases physical damage done by 20% and converts Shield Slam into a primary DPS strike.'
         }
       ]
     },
@@ -137,7 +140,7 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           type: 'Class Ability (Permanent)',
           rarity: 'Epic',
           icon: 'spell_nature_thunderclap',
-          description: 'Your Thunder Clap causes your Rend bleed effect to spread to all nearby enemies and increases its AoE threat by 50%.'
+          description: 'Your Thunder Clap causes your Rend bleed effect to spread to all nearby enemies and increases its AoE threat generation by 50%.'
         }
       ]
     },
@@ -186,7 +189,7 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           type: 'Class Ability (Permanent)',
           rarity: 'Epic',
           icon: 'ability_heroicleap',
-          description: 'Leap through the air toward a targeted location, slamming all enemies within 8 yards for physical damage. (45 Sec Cooldown)'
+          description: 'Leap through the air toward a targeted location, slamming all enemies within 8 yards for physical weapon damage. (45 Sec Cooldown)'
         }
       ]
     },
@@ -242,7 +245,7 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           type: 'Passive Mastery',
           rarity: 'Epic',
           icon: 'spell_nature_ancestralguardian',
-          description: 'Reduces the cooldown of Shield Wall and Last Stand by 50% and allows Intercept to break roots.'
+          description: 'Reduces the cooldown of Shield Wall and Last Stand by 50% and allows Charge to break roots.'
         }
       ]
     },
@@ -290,6 +293,9 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
     }
   ],
 
+  // ==========================================
+  // PALADIN
+  // ==========================================
   Paladin: [
     {
       id: 'pal-t1',
@@ -329,14 +335,14 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           type: 'Paladin Relic (Epic)',
           rarity: 'Epic',
           icon: 'inv_misc_book_11',
-          description: 'Equip: Increases holy damage by up to 35 and causes Holy Shock to heal all nearby allies for 20% of its value.'
+          description: 'Equip: Increases spell power by up to 35 and causes Holy Shock to heal all nearby allies for 20% of its value.'
         },
         {
-          name: 'Hand of Reckoning & Crusader Strike',
-          type: 'Class Abilities (Permanent)',
+          name: 'Hand of Reckoning & Righteous Challenge',
+          type: 'Class Ability (Permanent)',
           rarity: 'Epic',
-          icon: 'spell_holy_blessingofstrength',
-          description: 'Unlocks Hand of Reckoning (Holy Taunt) and Crusader Strike (instant holy physical weapon strike).'
+          icon: 'spell_holy_unyieldingfaith',
+          description: 'Teaches Hand of Reckoning: A targeted 30-yard Holy Taunt that deals Holy damage to enemies not currently attacking you.'
         }
       ]
     },
@@ -472,11 +478,11 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           description: 'Equip: Increases critical strike chance by 2% and adds 45 Holy damage to all melee weapon strikes.'
         },
         {
-          name: 'Avenging Wrath',
-          type: 'Class Ability (Permanent)',
+          name: 'Sacred Cleansing & Holy Ward',
+          type: 'Passive Mastery',
           rarity: 'Epic',
-          icon: 'spell_holy_avengingwrath',
-          description: 'Call upon the Light to grow holy wings, increasing all damage and healing done by 20% for 20 sec. (2 Min Cooldown)'
+          icon: 'spell_holy_purifyingpower',
+          description: 'Your Cleanse ability also grants the target a sacred ward absorbing 500 damage for 6 sec.'
         }
       ]
     },
@@ -524,6 +530,9 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
     }
   ],
 
+  // ==========================================
+  // HUNTER
+  // ==========================================
   Hunter: [
     {
       id: 'hunt-t1',
@@ -531,7 +540,7 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
       tier: 'Tier 1.5',
       targetClass: 'Hunter',
       levelReq: 60,
-      summary: 'Stalk and tame mythical primal beasts across Kalimdor and harvest the horns of the Nightmare Drakes.',
+      summary: 'Stalk and tranquilize mythical primal beasts across Kalimdor and harvest the horns of the Nightmare Drakes.',
       flavorQuote: '"A true hunter does not kill for glory; they kill to keep the balance." — Hemet Nesingwary Jr.',
       locations: ['Feralas', 'Ashenvale', 'The Emerald Nightmare'],
       steps: [
@@ -559,11 +568,11 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           description: 'Equip: Increases ranged attack power by 55 and your shots have a 5% chance to trigger Nature Dream-Bursts.'
         },
         {
-          name: 'Flanking Strike & Mongoose Bite Rework',
-          type: 'Class Abilities (Permanent)',
+          name: 'Flanking Strike Mastery',
+          type: 'Class Ability (Permanent)',
           rarity: 'Epic',
           icon: 'ability_hunter_harass',
-          description: 'Enables Survival melee combat: Flanking Strike hits simultaneously with your pet, triggering instant Mongoose Bite strikes.'
+          description: 'Enables Survival melee combat: You and your pet strike simultaneously for 100% weapon damage, building substantial cooperative threat and triggering Mongoose Bite.'
         }
       ]
     },
@@ -608,9 +617,145 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           description: 'Allows crafting and loading of elemental ammunition (Incendiary, Frost-Biting, or Void-Piercing) that ignores heavy boss armor.'
         }
       ]
+    },
+    {
+      id: 'hunt-t25',
+      title: 'The Stalker of the Silithid Hive',
+      tier: 'Tier 2.5',
+      targetClass: 'Hunter',
+      levelReq: 60,
+      summary: 'Infiltrate Hive\'Zora undetected to harvest the pheromone gland of the Hive Queen and forge the Camouflage Cloak.',
+      flavorQuote: '"To hunt the insect, one must become the sand."',
+      locations: ['Silithus Hives', 'The Vaults of Uldum', 'Crown of the Damned'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Queen\'s Pheromone Gland',
+          zone: 'Silithus (Hive\'Zora)',
+          type: 'Espionage',
+          description: 'Solo-sneak past Hive sentries to extract the pheromone gland without triggering hive alarms.'
+        },
+        {
+          stepNumber: 2,
+          title: 'The Air-Commanders of the Scourge',
+          zone: 'Crown of the Damned (Stratholme Necropolis)',
+          type: 'Raid',
+          description: 'Shoot down 3 flying Frostwyrm gargoyles during the aerial ziggurat bombardment phase.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Silithid Chitin Harpoon',
+          type: 'Polearm (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_spear_05',
+          description: 'Equip: Increases agility by 42, stamina by 28, and chance to critically hit with melee abilities by 2%.'
+        },
+        {
+          name: 'Camouflage Stride',
+          type: 'Class Ability (Permanent)',
+          rarity: 'Epic',
+          icon: 'ability_hunter_camouflage',
+          description: 'Blend into the surroundings out of combat, reducing enemy detection radius and making you invisible to ranged tracking.'
+        }
+      ]
+    },
+    {
+      id: 'hunt-t3',
+      title: 'The Menagerie Phantom-Huntsman',
+      tier: 'Tier 3',
+      targetClass: 'Hunter',
+      levelReq: 60,
+      summary: 'Track the spectral predators roaming Medivh\'s astral menagerie and harvest necrotic sinew from Naxxramas.',
+      flavorQuote: '"Even ghosts leave tracks if you know where to look."',
+      locations: ['Karazhan Crypts', 'Naxxramas', 'Karazhan (Upper Tower)'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Spectral Pack of the Crypts',
+          zone: 'Karazhan Crypts (Well of the Forgotten)',
+          type: 'Dungeon',
+          description: 'Solo-track and defeat the ghost pack-leader in the dark flooded crypts.'
+        },
+        {
+          stepNumber: 2,
+          title: 'The Necrotic Sinew of Gluth',
+          zone: 'Naxxramas (Construct Quarter)',
+          type: 'Raid',
+          description: 'Harvest pristine undead sinew from Gluth before he can consume his minions.'
+        },
+        {
+          stepNumber: 3,
+          title: 'The Celestial Menagerie',
+          zone: 'Karazhan (Upper Tower)',
+          type: 'Raid',
+          description: 'Defeat the Curator and claim the Astral Huntsman Musket.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Menagerie Huntsman\'s Astral Musket',
+          type: 'Ranged Gun (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_weapon_rifle_07',
+          description: '2.90 Speed. Equip: Increases ranged attack power by 68 and your auto-shots ignore 150 of your target\'s armor.'
+        },
+        {
+          name: 'Kill Command & Primal Vigor',
+          type: 'Class Ability (Permanent)',
+          rarity: 'Epic',
+          icon: 'ability_hunter_killcommand',
+          description: 'Orders your pet to instantly deliver a vicious special strike, dealing 150% standard claw damage. (1 Min Cooldown)'
+        }
+      ]
+    },
+    {
+      id: 'hunt-t35',
+      title: 'The Ancient Beast-Lord of the Isles',
+      tier: 'Tier 3.5',
+      targetClass: 'Hunter',
+      levelReq: 60,
+      summary: 'Journey to the mythical Dragon Isles to tame an untamed proto-dragon and shatter the Old God mind-corruptors.',
+      flavorQuote: '"The primal beasts answered no master, until today."',
+      locations: ['The Dragon Isles', 'Temple of the Old Gods'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Proto-Drake Bond',
+          zone: 'The Dragon Isles (The Feral Roost)',
+          type: 'Solo Trial',
+          description: 'Survive a 10-minute battle of wills with an ancient proto-drake alpha without using tranquilizers.'
+        },
+        {
+          stepNumber: 2,
+          title: 'The Eye of the Void-Beast',
+          zone: 'Temple of the Old Gods (The Aspect Council)',
+          type: 'Raid',
+          description: 'Sever the void-link connecting the Old God corruptor to the corrupted aspect brood.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Feral Aspect\'s Wrath',
+          type: 'Ranged Crossbow (Legendary Quality)',
+          rarity: 'Epic',
+          icon: 'inv_weapon_crossbow_08',
+          description: 'Equip: Increases ranged critical strike chance by 3% and your shots have a chance to summon a spectral proto-whelp to strike the target.'
+        },
+        {
+          name: 'Companion: Ancient Proto-Drake Companion',
+          type: 'Exotic Pet / Companion',
+          rarity: 'Epic',
+          icon: 'ability_mount_drake_proto',
+          description: 'Unlocks the ability to tame and summon exotic ancient Proto-Drake beasts.'
+        }
+      ]
     }
   ],
 
+  // ==========================================
+  // ROGUE
+  // ==========================================
   Rogue: [
     {
       id: 'rog-t1',
@@ -657,12 +802,183 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           type: 'Class Abilities (Permanent)',
           rarity: 'Epic',
           icon: 'ability_rogue_feint',
-          description: 'Unlocks Blade Dance (converting combo points into 25% Dodge/Parry for evasion tanking) and Deadly Brew (auto-applying Deadly Poison with all poisons).'
+          description: 'Unlocks Blade Dance (converting combo points into up to 25% Dodge/Parry for evasion tanking) and Deadly Brew (auto-applying Deadly Poison with all poisons).'
+        }
+      ]
+    },
+    {
+      id: 'rog-t2',
+      title: 'The Dragonmaw Heist',
+      tier: 'Tier 2',
+      targetClass: 'Rogue',
+      levelReq: 60,
+      summary: 'Infiltrate the heavily fortified mountain vaults of Grim Batol to steal the master Dragonmaw siege key.',
+      flavorQuote: '"Locks are just suggestions to a master of Ravenholdt."',
+      locations: ['Northeron', 'Grim Batol Tunnels', 'Blackwing Lair'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Vault Key of the Slaver',
+          zone: 'Northeron & Thundermar',
+          type: 'Espionage',
+          description: 'Pick the master lock of the Dragonmaw supply cart without alerting the sentry gryphons.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Disarming Blackwing Security',
+          zone: 'Blackwing Lair (Suppression Room)',
+          type: 'Raid',
+          description: 'Disarm all suppression devices in Blackwing Lair in under 3 minutes.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Fang of the Red Brood',
+          type: 'One-Hand Sword / Dagger (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_sword_27',
+          description: 'Chance on hit: Inflicts 250 Fire damage and reduces the target\'s armor by 100 for 15 sec.'
+        },
+        {
+          name: 'Smoke Bomb Mastery',
+          type: 'Class Ability (Permanent)',
+          rarity: 'Epic',
+          icon: 'ability_rogue_smoke',
+          description: 'Throws a smoke bomb creating a thick cloud for 5 sec. Enemies outside cannot target players inside with ranged spells.'
+        }
+      ]
+    },
+    {
+      id: 'rog-t25',
+      title: 'The Whisper in the Crypt',
+      tier: 'Tier 2.5',
+      targetClass: 'Rogue',
+      levelReq: 60,
+      summary: 'Pickpocket the phylactery key from Kel\'Thuzad\'s guard in Crown of the Damned without triggering combat.',
+      flavorQuote: '"Death itself did not notice my shadow."',
+      locations: ['Karazhan Crypts', 'Crown of the Damned (Stratholme Necropolis)'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Spectral Key-Master',
+          zone: 'Karazhan Crypts (Reliquary of Secrets)',
+          type: 'Dungeon',
+          description: 'Steal the spectral skeleton key from the Void-Sealer in the lowest crypt level.'
+        },
+        {
+          stepNumber: 2,
+          title: 'The Phylactery Pickpocket',
+          zone: 'Crown of the Damned',
+          type: 'Raid',
+          description: 'Pickpocket the Phylactery-Guard in the center ziggurat room without being revealed by True Sight.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Shadow-Stitcher\'s Kris',
+          type: 'Dagger (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_knife_03',
+          description: '1.50 Speed. Equip: Increases attack power by 34 and your Ambush strikes ignore 25% armor.'
+        },
+        {
+          name: 'Fan of Knives',
+          type: 'Class Ability (Permanent)',
+          rarity: 'Epic',
+          icon: 'ability_rogue_fanofknives',
+          description: 'Instantly throw knives at all enemies within 8 yards, dealing 100% weapon damage and applying your active weapon poisons.'
+        }
+      ]
+    },
+    {
+      id: 'rog-t3',
+      title: 'The Master Thief of the Nether Tower',
+      tier: 'Tier 3',
+      targetClass: 'Rogue',
+      levelReq: 60,
+      summary: 'Infiltrate Medivh\'s private celestial observatory to steal the Astral Glass and master the Cloak of Shadows.',
+      flavorQuote: '"Even magic cannot touch what cannot be caught."',
+      locations: ['Karazhan Crypts', 'Naxxramas', 'Karazhan (Upper Tower)'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Inverted Library Infiltration',
+          zone: 'Karazhan (Upper Tower - Library)',
+          type: 'Espionage',
+          description: 'Steal the Astral Glass from the floating bookshelf while gravity is inverted.'
+        },
+        {
+          stepNumber: 2,
+          title: 'The Shade of Aran\'s Secret Tome',
+          zone: 'Karazhan (Upper Tower)',
+          type: 'Raid',
+          description: 'Interrupt the Shade of Aran\'s Flame Wreath with Kick and claim his research notes.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Ethereal Astral Dagger',
+          type: 'Dagger (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_knife_07',
+          description: '1.80 Speed. Equip: Increases critical strike chance by 2% and your finishing moves refund 25 energy.'
+        },
+        {
+          name: 'Cloak of Shadows',
+          type: 'Class Ability (Permanent)',
+          rarity: 'Epic',
+          icon: 'spell_shadow_nethercloak',
+          description: 'Instant. Instantly removes all existing harmful spell effects and increases your chance to resist all spells by 90% for 5 sec. (1.5 Min Cooldown)'
+        }
+      ]
+    },
+    {
+      id: 'rog-t35',
+      title: 'The Faceless Assassin',
+      tier: 'Tier 3.5',
+      targetClass: 'Rogue',
+      levelReq: 60,
+      summary: 'Slay the shadow-constructs of the Old Gods on the Dragon Isles and claim the Edge of the Void-Strider.',
+      flavorQuote: '"We were born in the dark; the void is just another alleyway."',
+      locations: ['The Dragon Isles', 'Temple of the Old Gods'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Old God Shadow Stalkers',
+          zone: 'The Dragon Isles (The Shattered Beachhead)',
+          type: 'Solo Trial',
+          description: 'Solo-eliminate 5 elite Void-Stalkers without being pulled out of Stealth.'
+        },
+        {
+          stepNumber: 2,
+          title: 'The Execution of the Avatar\'s Eye',
+          zone: 'Temple of the Old Gods',
+          type: 'Raid',
+          description: 'Land the fatal Eviscerate strike on the Avatar of the Old God from behind.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Edge of the Void-Strider',
+          type: 'One-Hand Dagger / Sword (Legendary Quality)',
+          rarity: 'Epic',
+          icon: 'inv_weapon_shortblade_21',
+          description: 'Chance on hit: Enter Void-Stealth for 3 sec, allowing an immediate out-of-combat opener during active raid combat.'
+        },
+        {
+          name: 'Title: Master of the Unseen',
+          type: 'Prestige Title',
+          rarity: 'Epic',
+          icon: 'inv_misc_ribbon_01',
+          description: 'Permanently unlocks the in-game title: "Master of the Unseen".'
         }
       ]
     }
   ],
 
+  // ==========================================
+  // PRIEST
+  // ==========================================
   Priest: [
     {
       id: 'pri-t1',
@@ -705,16 +1021,187 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           description: 'Equip: Increases healing by up to 106 and spell damage by up to 55. Use: Transform into Anathema or Benediction.'
         },
         {
-          name: 'Penance & Vampiric Touch',
+          name: 'Prayer of Mending & Mind Sear',
           type: 'Class Spells (Permanent)',
           rarity: 'Epic',
-          icon: 'spell_holy_penance',
-          description: 'Unlocks Penance (channeled Holy burst damage / healing) and Vampiric Touch (Shadow DoT that returns 5% of damage done as party mana).'
+          icon: 'spell_holy_prayerofmendingtga',
+          description: 'Unlocks Prayer of Mending (bouncing reactive Holy heal) and Mind Sear (channeled Shadow AoE pulsing around target).'
+        }
+      ]
+    },
+    {
+      id: 'pri-t2',
+      title: 'The Fire of Redemption',
+      tier: 'Tier 2',
+      targetClass: 'Priest',
+      levelReq: 60,
+      summary: 'Channel Holy Light into Alexstrasza\'s enslaved brood to alleviate their torture and extinguish the shadow-fire in Grim Batol.',
+      flavorQuote: '"Even a dragon\'s fiery heart requires the soothe of the spirit."',
+      locations: ['Grim Batol Tunnels', 'Blackwing Lair', 'Grim Batol Raid'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Soothing of the Whelps',
+          zone: 'Grim Batol Tunnels (The Hatcheries)',
+          type: 'Dungeon',
+          description: 'Cast Flash Heal on 20 tortured dragonkin while avoiding Dragonmaw slaver strikes.'
+        },
+        {
+          stepNumber: 2,
+          title: 'The Spirit of the Life-Binder',
+          zone: 'Grim Batol (Raid)',
+          type: 'Raid',
+          description: 'Channel your Divine Hymn during the Demon Soul shattering to shield the Queen.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Censer of the Life-Binder',
+          type: 'Off-Hand (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_misc_urn_01',
+          description: 'Equip: Increases healing done by up to 48 and your critical heals grant the target 10% bonus armor.'
+        },
+        {
+          name: 'Guardian Spirit',
+          type: 'Class Spell (Permanent)',
+          rarity: 'Epic',
+          icon: 'spell_holy_guardianspirit',
+          description: 'Calls upon a guardian spirit to watch over an ally, increasing healing received by 40% and sacrificing itself to prevent death. (3 Min Cooldown)'
+        }
+      ]
+    },
+    {
+      id: 'pri-t25',
+      title: 'The Light in the Necropolis',
+      tier: 'Tier 2.5',
+      targetClass: 'Priest',
+      levelReq: 60,
+      summary: 'Shatter the necrotic soul-cages inside Crown of the Damned to release the trapped citizens of Lordaeron.',
+      flavorQuote: '"No soul is beyond the reach of grace."',
+      locations: ['Crown of the Damned (Stratholme Necropolis)', 'The Vaults of Uldum'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Phylactery Light-Burst',
+          zone: 'Crown of the Damned',
+          type: 'Raid',
+          description: 'Dispel the Frostwyrm Breath using Mass Dispel.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Solar Alignment of Origination',
+          zone: 'The Vaults of Uldum',
+          type: 'Dungeon',
+          description: 'Refract the Maker\'s solar prism through your holy symbol.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Lightwell Beacon of Hope',
+          type: 'Priest Relic (Epic)',
+          rarity: 'Epic',
+          icon: 'spell_holy_summonlightwell',
+          description: 'Equip: Your Power Word: Shield absorbs an additional 300 damage and restores 100 mana to the target upon breaking.'
+        },
+        {
+          name: 'Pain Suppression',
+          type: 'Class Spell (Permanent)',
+          rarity: 'Epic',
+          icon: 'spell_holy_painsupression',
+          description: 'Instantly reduces all damage taken by an ally by 40% for 8 sec and reduces their threat by 5%. Castable while stunned. (2 Min Cooldown)'
+        }
+      ]
+    },
+    {
+      id: 'pri-t3',
+      title: 'The Echo of Medivh\'s Divinity',
+      tier: 'Tier 3',
+      targetClass: 'Priest',
+      levelReq: 60,
+      summary: 'Commune with the ghost of Medivh in Karazhan\'s upper observatory and master Shadow Word: Death.',
+      flavorQuote: '"Life and death are but two verses of the same psalm."',
+      locations: ['Karazhan Crypts', 'Naxxramas', 'Karazhan (Upper Tower)'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Spectral Garden Meditation',
+          zone: 'Karazhan (Upper Tower)',
+          type: 'Solo Trial',
+          description: 'Meditate in the floating celestial arboretum for 3 minutes without succumbing to arcane vertigo.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Cleansing the Four Horsemen',
+          zone: 'Naxxramas (Military Quarter)',
+          type: 'Raid',
+          description: 'Shackle the undead minions of Lady Blaumeux and survive the void zones.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Staff of the Astral Seraph',
+          type: 'Staff (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_staff_32',
+          description: 'Equip: Increases spell power by up to 85 and your direct heals have a 10% chance to grant the target a 500 absorption shield.'
+        },
+        {
+          name: 'Shadow Word: Death',
+          type: 'Class Spell (Permanent)',
+          rarity: 'Epic',
+          icon: 'spell_shadow_demonicfortitude',
+          description: 'A word of dark binding that inflicts massive Shadow damage to the target. If the target does not die, the caster takes equal damage.'
+        }
+      ]
+    },
+    {
+      id: 'pri-t35',
+      title: 'The Void Weaver\'s Ascension',
+      tier: 'Tier 3.5',
+      targetClass: 'Priest',
+      levelReq: 60,
+      summary: 'Withstand the mind-flay of the Old God Avatar on the Dragon Isles and transmute its dark energy into celestial light.',
+      flavorQuote: '"I looked into the void, and the void bowed."',
+      locations: ['The Dragon Isles', 'Temple of the Old Gods'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Mind of the Proto-Old God',
+          zone: 'The Dragon Isles (Old God Temple)',
+          type: 'Solo Trial',
+          description: 'Resist 10 stacks of Old God Madness without losing mental composure.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Transmutation of the Black Empire',
+          zone: 'Temple of the Old Gods',
+          type: 'Raid',
+          description: 'Purify the core of the Avatar of the Old God using Holy Nova.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Scepter of the Cosmic Balance',
+          type: 'Main-Hand Mace (Legendary Quality)',
+          rarity: 'Epic',
+          icon: 'inv_mace_28',
+          description: 'Equip: Increases healing by up to 120 and spell damage by up to 75. Grants +25 MP5.'
+        },
+        {
+          name: 'Title: High Priest of the Timeways',
+          type: 'Prestige Title',
+          rarity: 'Epic',
+          icon: 'inv_misc_ribbon_01',
+          description: 'Permanently unlocks the in-game title: "High Priest of the Timeways".'
         }
       ]
     }
   ],
 
+  // ==========================================
+  // SHAMAN
+  // ==========================================
   Shaman: [
     {
       id: 'sha-t1',
@@ -761,12 +1248,183 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           type: 'Class Abilities (Permanent)',
           rarity: 'Epic',
           icon: 'spell_shaman_lavasurge',
-          description: 'Unlocks Way of Earth (Shaman tanking stance: 30% increased health, 10% damage reduction, 100% increased threat) and Lava Burst (guaranteed crit with Flame Shock).'
+          description: 'Unlocks Way of Earth (Shaman tanking stance: 30% increased health, 10% damage reduction, 100% threat) and Lava Burst (guaranteed crit when target has Flame Shock).'
+        }
+      ]
+    },
+    {
+      id: 'sha-t2',
+      title: 'The Storm of the Wildhammer Peaks',
+      tier: 'Tier 2',
+      targetClass: 'Shaman',
+      levelReq: 60,
+      summary: 'Summon a catastrophic lightning storm atop Aerie Peak and strike the Dragonmaw forge in Grim Batol with elemental fury.',
+      flavorQuote: '"The mountain speaks in thunder."',
+      locations: ['Northeron', 'Grim Batol Raid', 'Blackrock Mountain'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Thunder Altar of Northeron',
+          zone: 'Northeron (Kirthaven)',
+          type: 'Open World',
+          description: 'Activate the four Wildhammer storm totems on the mountain ridge.'
+        },
+        {
+          stepNumber: 2,
+          title: 'The Forge-Shattering Lightning',
+          zone: 'Grim Batol (The Forgemaster)',
+          type: 'Raid',
+          description: 'Strike the Forgemaster\'s master anvil with Chain Lightning during his enrage.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Tempest-Caller\'s Storm-Mace',
+          type: 'One-Hand Mace (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_mace_13',
+          description: '2.60 Speed. Equip: Increases spell damage by 35 and chance on hit to strike the target for 200 Nature damage.'
+        },
+        {
+          name: 'Shamanistic Rage',
+          type: 'Class Ability (Permanent)',
+          rarity: 'Epic',
+          icon: 'spell_nature_shamanrage',
+          description: 'Reduces all damage taken by 30% and gives your successful melee attacks a chance to regenerate mana equal to 15% of your attack power for 15 sec. (2 Min Cooldown)'
+        }
+      ]
+    },
+    {
+      id: 'sha-t25',
+      title: 'The Earth-Mother\'s Guidance',
+      tier: 'Tier 2.5',
+      targetClass: 'Shaman',
+      levelReq: 60,
+      summary: 'Harmonize the tectonic plates of Uldum and banish the unholy frost-storms of Stratholme Necropolis.',
+      flavorQuote: '"The spirits never abandon their children."',
+      locations: ['The Vaults of Uldum', 'Crown of the Damned (Stratholme Necropolis)'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Titan Earth-Resonator',
+          zone: 'The Vaults of Uldum (Obsidian Quarry)',
+          type: 'Dungeon',
+          description: 'Align the seismic stabilizers in the quarry to quell the rogue earth elementals.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Quelling the Frost-Wyrms',
+          zone: 'Crown of the Damned',
+          type: 'Raid',
+          description: 'Plant your Fire Resistance Totem in the center sanctum to protect the raid from Frostwyrm Breath.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Pillar of the Earthen Guardian',
+          type: 'Two-Hand Staff (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_staff_13',
+          description: 'Equip: Increases healing done by up to 72 and grants +15 MP5.'
+        },
+        {
+          name: 'Ancestral Guidance',
+          type: 'Class Ability (Permanent)',
+          rarity: 'Epic',
+          icon: 'spell_nature_healingtouch',
+          description: 'For the next 10 sec, 30% of all direct damage and healing you deal is converted into smart heals across up to 3 nearby injured allies.'
+        }
+      ]
+    },
+    {
+      id: 'sha-t3',
+      title: 'The Rift-Weaver\'s Totem',
+      tier: 'Tier 3',
+      targetClass: 'Shaman',
+      levelReq: 60,
+      summary: 'Channel astral storms through your totems to close Medivh\'s nether-rift in Karazhan\'s Upper Tower.',
+      flavorQuote: '"Let the winds of fury blow across the realms."',
+      locations: ['Karazhan Crypts', 'Naxxramas', 'Karazhan (Upper Tower)'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Nether-Totem Inscription',
+          zone: 'Karazhan Crypts (Reliquary of Secrets)',
+          type: 'Dungeon',
+          description: 'Carve astral runes into your totems using essence from the Void-Sealer.'
+        },
+        {
+          stepNumber: 2,
+          title: 'The Celestial Lightning Storm',
+          zone: 'Karazhan (Upper Tower - Prince Malchezaar)',
+          type: 'Raid',
+          description: 'Channel your Lightning Shield to absorb falling astral meteors during the roof encounter.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Staff of the Astral Elementalist',
+          type: 'Staff (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_staff_21',
+          description: 'Equip: Increases Nature, Fire, and Frost spell damage by up to 75 and spell critical strike chance by 2%.'
+        },
+        {
+          name: 'Bloodlust & Heroism Rite',
+          type: 'Class Rite (Permanent)',
+          rarity: 'Epic',
+          icon: 'spell_nature_bloodlust',
+          description: 'Increases melee, ranged, and spell casting speed for all party members by 30% for 40 sec. (5 Min Cooldown)'
+        }
+      ]
+    },
+    {
+      id: 'sha-t35',
+      title: 'The Primal Avatar of the Elements',
+      tier: 'Tier 3.5',
+      targetClass: 'Shaman',
+      levelReq: 60,
+      summary: 'Harness the raw primordial storms of the Dragon Isles and cleanse the Old God corruption from the world\'s core.',
+      flavorQuote: '"I am the storm, the flame, and the immovable stone."',
+      locations: ['The Dragon Isles', 'Temple of the Old Gods'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Primordial Storm Gathering',
+          zone: 'The Dragon Isles (The Feral Roost)',
+          type: 'Solo Trial',
+          description: 'Channel the primordial hurricane atop the Dragon Isles summit without being blown off.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Shattering the Void Aspect',
+          zone: 'Temple of the Old Gods',
+          type: 'Raid',
+          description: 'Strike down the Aspect Council using ancestral elementals.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Doomhammer of the Elements',
+          type: 'Main-Hand Mace (Legendary Quality)',
+          rarity: 'Epic',
+          icon: 'inv_hammer_18',
+          description: '2.60 Speed. Equip: Increases attack power by 70 and spell power by 55. Windfury Weapon triggers an additional attack and inflicts 150 bonus Nature damage.'
+        },
+        {
+          name: 'Title: The Storm-Caller',
+          type: 'Prestige Title',
+          rarity: 'Epic',
+          icon: 'inv_misc_ribbon_01',
+          description: 'Permanently unlocks the in-game title: "The Storm-Caller".'
         }
       ]
     }
   ],
 
+  // ==========================================
+  // MAGE
+  // ==========================================
   Mage: [
     {
       id: 'mag-t1',
@@ -809,16 +1467,187 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           description: 'Equip: Increases spell power by up to 60 and spell critical strike chance by 2%.'
         },
         {
-          name: 'Arcane Barrage & Living Bomb',
+          name: 'Arcane Barrage & Frostfire Bolt',
           type: 'Class Spells (Permanent)',
           rarity: 'Epic',
           icon: 'spell_arcane_starfire',
-          description: 'Unlocks Arcane Barrage (instant arcane nuke consuming Arcane Charges for sustained rotation) and Living Bomb (fire dot detonating for massive AoE).'
+          description: 'Unlocks Arcane Barrage (instant Arcane nuke for mobile rotation) and Frostfire Bolt (elemental bolt piercing fire/frost resistances).'
+        }
+      ]
+    },
+    {
+      id: 'mag-t2',
+      title: 'The Breath of the Red Dragonflight',
+      tier: 'Tier 2',
+      targetClass: 'Mage',
+      levelReq: 60,
+      summary: 'Capture the pure fiery breath of an uncorrupted Red Drake and weave it into a flaming spell-matrix atop Grim Batol.',
+      flavorQuote: '"Fire burns only what is impure."',
+      locations: ['Northeron', 'Grim Batol Raid', 'Blackwing Lair'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Flame-Vial of the Mountain',
+          zone: 'Northeron (The Dragonmaw Gates)',
+          type: 'Open World',
+          description: 'Capture dragonfire in an enchanted glass vial during a Dragonmaw aerial raid.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Weaving the Red Matrix',
+          zone: 'Grim Batol (Raid)',
+          type: 'Raid',
+          description: 'Channel your Evocation atop the mountain summit while Alexstrasza is freed.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Pyromancer\'s Crimson Focus',
+          type: 'Off-Hand (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_misc_gem_ruby_01',
+          description: 'Equip: Increases Fire spell damage by up to 45 and your Fireballs have a 10% chance to refund their mana cost.'
+        },
+        {
+          name: 'Dragon\'s Breath',
+          type: 'Class Spell (Permanent)',
+          rarity: 'Epic',
+          icon: 'spell_fire_fireball02',
+          description: 'Targets in a cone in front of the caster take massive Fire damage and are disoriented for 3 sec. (20 Sec Cooldown)'
+        }
+      ]
+    },
+    {
+      id: 'mag-t25',
+      title: 'The Titan Geometry of Uldum',
+      tier: 'Tier 2.5',
+      targetClass: 'Mage',
+      levelReq: 60,
+      summary: 'Solve the Maker\'s Terrace constellation puzzle and master the art of Spellsteal.',
+      flavorQuote: '"Titan architecture is mathematics given form."',
+      locations: ['The Vaults of Uldum', 'Crown of the Damned (Stratholme Necropolis)'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Constellation Alignment',
+          zone: 'The Vaults of Uldum (Maker\'s Terrace)',
+          type: 'Dungeon',
+          description: 'Decode the Titan constellation glyphs in under 2 minutes.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Stealing the Scourge Shield',
+          zone: 'Crown of the Damned',
+          type: 'Raid',
+          description: 'Steal the Frost Armor buff from the Blood Council necro-lords.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Tome of the Celestial Matrix',
+          type: 'Mage Relic / Off-Hand (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_misc_book_06',
+          description: 'Equip: Increases Arcane spell damage by up to 40 and reduces the cast time of Arcane Blast by 0.2 sec.'
+        },
+        {
+          name: 'Spellsteal Mastery',
+          type: 'Class Spell (Permanent)',
+          rarity: 'Epic',
+          icon: 'spell_arcane_arcane02',
+          description: 'Steals a beneficial magical effect from the target and applies it to the Mage for up to 2 minutes.'
+        }
+      ]
+    },
+    {
+      id: 'mag-t3',
+      title: 'The Archmage of Karazhan\'s Celestial Rift',
+      tier: 'Tier 3',
+      targetClass: 'Mage',
+      levelReq: 60,
+      summary: 'Traverse the Inverted Castle in Karazhan and outwit the Shade of Aran in an arcane counterspell duel.',
+      flavorQuote: '"Time is a river; a true mage can build a dam." — Medivh',
+      locations: ['Karazhan Crypts', 'Naxxramas', 'Karazhan (Upper Tower)'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Counterspell Duel',
+          zone: 'Karazhan (Upper Tower - Shade of Aran)',
+          type: 'Raid',
+          description: 'Successfully Counterspell the Shade of Aran 3 times during his blizzard casting.'
+        },
+        {
+          stepNumber: 2,
+          title: 'The Celestial Chrono-Anchor',
+          zone: 'Karazhan (Upper Tower)',
+          type: 'Raid',
+          description: 'Anchor the temporal rift on the tower roof using Atiesh\'s resonating crystal.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Atiesh\'s Astral Resonator',
+          type: 'Wand / Off-Hand (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_wand_06',
+          description: 'Equip: Increases spell damage by up to 50 and your direct spell crits reduce the remaining cooldown of Combustion by 2 sec.'
+        },
+        {
+          name: 'Time Warp Rite',
+          type: 'Class Spell (Permanent)',
+          rarity: 'Epic',
+          icon: 'ability_mage_timewarp',
+          description: 'Alters the flow of time for all party members, granting 30% increased melee, ranged, and spell casting speed for 40 sec. (5 Min Cooldown)'
+        }
+      ]
+    },
+    {
+      id: 'mag-t35',
+      title: 'The Master of the Timeways',
+      tier: 'Tier 3.5',
+      targetClass: 'Mage',
+      levelReq: 60,
+      summary: 'Mend a shattered Bronze Dragonflight time-anomaly on the Dragon Isles and seal the Old God temporal rift.',
+      flavorQuote: '"The timeline is restored. Eternity is ours."',
+      locations: ['The Dragon Isles', 'Temple of the Old Gods'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Shattered Hourglass',
+          zone: 'The Dragon Isles (Old God Temple Entrance)',
+          type: 'Solo Trial',
+          description: 'Solve the Bronze dragon temporal paradox puzzle within 90 seconds.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Sealing the Void Paradox',
+          zone: 'Temple of the Old Gods',
+          type: 'Raid',
+          description: 'Channel your Blizzard to freeze the spawning void-ripples before they merge into the Avatar.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Scepter of the Timeless Archmage',
+          type: 'Two-Hand Staff (Legendary Quality)',
+          rarity: 'Epic',
+          icon: 'inv_staff_33',
+          description: 'Equip: Increases spell damage and healing by up to 110 and spell critical strike chance by 3%. Chance on cast: Freezes time for 2 sec.'
+        },
+        {
+          name: 'Title: Grand Magister of Azeroth',
+          type: 'Prestige Title',
+          rarity: 'Epic',
+          icon: 'inv_misc_ribbon_01',
+          description: 'Permanently unlocks the in-game title: "Grand Magister of Azeroth".'
         }
       ]
     }
   ],
 
+  // ==========================================
+  // WARLOCK
+  // ==========================================
   Warlock: [
     {
       id: 'war-warlock-t1',
@@ -865,12 +1694,183 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           type: 'Class Abilities (Permanent)',
           rarity: 'Epic',
           icon: 'spell_shadow_demonform',
-          description: 'Unlocks Metamorphosis (transform into a demon tank with 500% armor, Demonic Charge, and Searing Pain taunt) and Chaos Bolt (unstoppable fire/chaos strike).'
+          description: 'Unlocks Metamorphosis (transform into a demon tank with 500% armor bonus, Demonic Charge, and Searing Pain taunt) and Chaos Bolt (unstoppable chaos fire blast).'
+        }
+      ]
+    },
+    {
+      id: 'war-warlock-t2',
+      title: 'The Demon Soul\'s Dark Echo',
+      tier: 'Tier 2',
+      targetClass: 'Warlock',
+      levelReq: 60,
+      summary: 'Harvest residue from the shattered Demon Soul in Grim Batol and siphon draconic vitality to empower your shadow curses.',
+      flavorQuote: '"Power does not belong to the worthy; it belongs to the bold."',
+      locations: ['Northeron', 'Grim Batol Tunnels', 'Grim Batol Raid'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Twilight Shadow-Runes',
+          zone: 'Northeron (Twilight Ridge)',
+          type: 'Open World',
+          description: 'Siphon dark magic from 3 Twilight Hammer ritual circles.'
+        },
+        {
+          stepNumber: 2,
+          title: 'The Dragon Soul Residue',
+          zone: 'Grim Batol (Raid)',
+          type: 'Raid',
+          description: 'Extract the dark residue from the shattered Demon Soul artifact after Nek\'rosh is slain.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Skull of the Dragonmaw Warlock',
+          type: 'Off-Hand (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_misc_bone_skull_02',
+          description: 'Equip: Increases Shadow and Fire spell damage by up to 42 and increases spell hit chance by 2%.'
+        },
+        {
+          name: 'Haunt & Seed of Corruption',
+          type: 'Class Spells (Permanent)',
+          rarity: 'Epic',
+          icon: 'ability_warlock_haunt',
+          description: 'Unlocks Haunt (deals shadow damage and increases your Shadow damage over time by 20%) and Seed of Corruption (detonating shadow AoE dot).'
+        }
+      ]
+    },
+    {
+      id: 'war-warlock-t25',
+      title: 'The Necrotic Soul-Harvest',
+      tier: 'Tier 2.5',
+      targetClass: 'Warlock',
+      levelReq: 60,
+      summary: 'Infiltrate Kel\'Thuzad\'s floating ziggurat and siphon the necrotic souls of the Scourge Council to master Demonic Teleportation.',
+      flavorQuote: '"Even death bows to the siphon of a master warlock."',
+      locations: ['Crown of the Damned (Stratholme Necropolis)', 'The Vaults of Uldum'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'Siphoning the Blood Council',
+          zone: 'Crown of the Damned',
+          type: 'Raid',
+          description: 'Channel Drain Soul on the Blood Council commanders in the aerial necropolis.'
+        },
+        {
+          stepNumber: 2,
+          title: 'The Titan Power Matrix Siphon',
+          zone: 'The Vaults of Uldum (Engine of Origination)',
+          type: 'Dungeon',
+          description: 'Infuse your soul-stones with the raw energy of the Engine of Origination.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Orb of the Scourge-Binder',
+          type: 'Off-Hand (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_misc_gem_bloodstone_02',
+          description: 'Equip: Increases spell damage by up to 45 and causes your Life Tap to grant 20% bonus spirit for 10 sec.'
+        },
+        {
+          name: 'Demonic Circle: Teleport',
+          type: 'Class Ability (Permanent)',
+          rarity: 'Epic',
+          icon: 'spell_shadow_demoniccirclesummon',
+          description: 'Place a demonic circle on the ground for 6 min. Cast again to instantly teleport to the circle and remove all movement slowing effects. (30 Sec Cooldown)'
+        }
+      ]
+    },
+    {
+      id: 'war-warlock-t3',
+      title: 'The Nether-Lord of Medivh\'s Spire',
+      tier: 'Tier 3',
+      targetClass: 'Warlock',
+      levelReq: 60,
+      summary: 'Summon a Legion vanguard commander through Medivh\'s nether portal in Karazhan and compel them to surrender their Dreadsteed.',
+      flavorQuote: '"The Burning Legion thought they were the masters of fel. They were mistaken."',
+      locations: ['Karazhan Crypts', 'Naxxramas', 'Karazhan (Upper Tower)'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Nether-Rift Ritual',
+          zone: 'Karazhan (Upper Tower - Dimensional Rift)',
+          type: 'Solo Trial',
+          description: 'Solo-defeat an elite Pit Lord summoned through Medivh\'s open nether rift.'
+        },
+        {
+          stepNumber: 2,
+          title: 'The Phylactery Siphon of Kel\'Thuzad',
+          zone: 'Naxxramas',
+          type: 'Raid',
+          description: 'Siphon the cold necrotic energy from Kel\'Thuzad\'s chamber.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Staff of the Burning Nether',
+          type: 'Two-Hand Staff (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_staff_20',
+          description: 'Equip: Increases Shadow and Fire spell damage by up to 88 and spell critical strike chance by 2%.'
+        },
+        {
+          name: 'Mount: Fel-Fire Dreadsteed of Karazhan',
+          type: 'Epic Warlock Mount',
+          rarity: 'Epic',
+          icon: 'spell_nature_swiftness',
+          description: 'Summons a blazing, armor-clad demonic dreadsteed trailing green nether-fire (100% speed).'
+        }
+      ]
+    },
+    {
+      id: 'war-warlock-t35',
+      title: 'The Voice of the Old God Void',
+      tier: 'Tier 3.5',
+      targetClass: 'Warlock',
+      levelReq: 60,
+      summary: 'Bind the maddening whispers of the Old God Avatar on the Dragon Isles into a dark soul-stone.',
+      flavorQuote: '"You speak of madness as if it were a weakness. To me, it is power."',
+      locations: ['The Dragon Isles', 'Temple of the Old Gods'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Void-Whisper Binding',
+          zone: 'The Dragon Isles (The Feral Roost)',
+          type: 'Solo Trial',
+          description: 'Absorb 5 dark void rifts along the Dragon Isles coastline without losing your soul.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Subjugation of the Avatar',
+          zone: 'Temple of the Old Gods',
+          type: 'Raid',
+          description: 'Strike the killing blow on the Avatar of the Old God using Drain Soul.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Void-Caller\'s Dark Grimoire',
+          type: 'Two-Hand Staff / Off-Hand (Legendary Quality)',
+          rarity: 'Epic',
+          icon: 'inv_misc_book_10',
+          description: 'Equip: Increases spell damage by up to 115. Your Corruption and Immolate spells tick 20% faster.'
+        },
+        {
+          name: 'Title: Lord of the Shadow Council',
+          type: 'Prestige Title',
+          rarity: 'Epic',
+          icon: 'inv_misc_ribbon_01',
+          description: 'Permanently unlocks the in-game title: "Lord of the Shadow Council".'
         }
       ]
     }
   ],
 
+  // ==========================================
+  // DRUID
+  // ==========================================
   Druid: [
     {
       id: 'dru-t1',
@@ -913,11 +1913,186 @@ export const CLASS_QUESTS_DATA: Record<string, ClassQuest[]> = {
           description: 'Equip: Increases healing done by up to 64 and increases spell critical strike chance by 2%.'
         },
         {
-          name: 'Eclipse & Mangle Mastery',
+          name: 'Eclipse & Savage Roar Mastery',
           type: 'Class Abilities (Permanent)',
           rarity: 'Epic',
           icon: 'spell_nature_starfall',
-          description: 'Unlocks Eclipse (alternating Lunar/Solar spell damage cycle for infinite Moonkin mana sustain) and Mangle (feral bleed/shred amplifier for Bear and Cat).'
+          description: 'Unlocks Eclipse (alternating Lunar/Solar spell damage cycle for infinite Moonkin mana sustain) and Savage Roar (finishing move in Cat Form that increases physical damage done by 30%).'
+        }
+      ]
+    },
+    {
+      id: 'dru-t2',
+      title: 'The Fury of the Red Dragon-Binder',
+      tier: 'Tier 2',
+      targetClass: 'Druid',
+      levelReq: 60,
+      summary: 'Channel nature magic to soothe the tortured whelps in Grim Batol and restore the scorched soil of the mountain.',
+      flavorQuote: '"From blackened ashes, the green world rises renewed."',
+      locations: ['Northeron', 'Grim Batol Tunnels', 'Grim Batol Raid'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Rebirth of Northeron Flora',
+          zone: 'Northeron & Kirthaven',
+          type: 'Open World',
+          description: 'Plant 10 enchanted acorn seeds in the scorched Dragonmaw war-camps.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Restoration of the Life-Binder',
+          zone: 'Grim Batol (Raid)',
+          type: 'Raid',
+          description: 'Cast Rejuvenation on the enslaved Red Dragonflight during the final encounter.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Idol of the Wild Life-Binder',
+          type: 'Druid Relic (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_misc_idol_02',
+          description: 'Equip: Increases healing done by Rejuvenation and Regrowth by up to 40 and grants +10 MP5.'
+        },
+        {
+          name: 'Lifebloom',
+          type: 'Class Spell (Permanent)',
+          rarity: 'Epic',
+          icon: 'spell_nature_protectionformnature',
+          description: 'Heals the target for Nature damage over 7 sec. Stacks up to 3 times on a single target. When it expires, the target is instantly healed for a large amount and the druid regains 50% mana cost.'
+        }
+      ]
+    },
+    {
+      id: 'dru-t25',
+      title: 'The Sands of the Ancient Wardens',
+      tier: 'Tier 2.5',
+      targetClass: 'Druid',
+      levelReq: 60,
+      summary: 'Awaken the dormant earthen guardians beneath the Tanaris sands and cleanse the blight from Stratholme Necropolis.',
+      flavorQuote: '"Even in the desert, the roots run deep."',
+      locations: ['The Vaults of Uldum', 'Crown of the Damned (Stratholme Necropolis)'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Titan Verdant Matrix',
+          zone: 'The Vaults of Uldum (Maker\'s Terrace)',
+          type: 'Dungeon',
+          description: 'Activate the ancient botanical incubator in the Titan vault.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Purging the Aerial Blight',
+          zone: 'Crown of the Damned',
+          type: 'Raid',
+          description: 'Dispel the necrotic blight clouds in the ziggurat using Abolish Poison.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Seed of the Titan Bloom',
+          type: 'Trinket (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_misc_herb_01',
+          description: 'Use: Increases spell power by 150 or attack power in animal forms by 300 for 20 sec. (2 Min Cooldown)'
+        },
+        {
+          name: 'Typhoon',
+          type: 'Class Spell (Permanent)',
+          rarity: 'Epic',
+          icon: 'ability_druid_typhoon',
+          description: 'You summon a violent Typhoon that inflicts Nature damage when in contact with hostile targets, knocking them back and dazing them for 6 sec. (20 Sec Cooldown)'
+        }
+      ]
+    },
+    {
+      id: 'dru-t3',
+      title: 'The Astral Guardian of the Ivory Spire',
+      tier: 'Tier 3',
+      targetClass: 'Druid',
+      levelReq: 60,
+      summary: 'Meditate in Medivh\'s celestial garden under the stars and purge the necrotic plague from Naxxramas.',
+      flavorQuote: '"The stars and the earth are of one cloth."',
+      locations: ['Karazhan Crypts', 'Naxxramas', 'Karazhan (Upper Tower)'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Celestial Arboretum',
+          zone: 'Karazhan (Upper Tower)',
+          type: 'Solo Trial',
+          description: 'Commune with the astral ancients in Medivh\'s floating garden.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Cleansing the Necrotic Spider-Wing',
+          zone: 'Naxxramas (Arachnid Quarter)',
+          type: 'Raid',
+          description: 'Cleanse Maexxna\'s poison glands using pure Moonwell water.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Greatstaff of the Celestial Arch-Druid',
+          type: 'Staff (Epic)',
+          rarity: 'Epic',
+          icon: 'inv_staff_15',
+          description: 'Equip: Increases spell power by up to 75 and increases feral attack power by 350. Chance on cast to summon a spectral treant.'
+        },
+        {
+          name: 'Barkskin of the Ancients',
+          type: 'Class Ability (Permanent)',
+          rarity: 'Epic',
+          icon: 'spell_nature_stoneclawtotem',
+          description: 'Allows Barkskin to be cast while stunned, frozen, incapacitated, or asleep, and increases its damage reduction by an additional 10%.'
+        }
+      ]
+    },
+    {
+      id: 'dru-t35',
+      title: 'The Arch-Druid of the Dragon Isles',
+      tier: 'Tier 3.5',
+      targetClass: 'Druid',
+      levelReq: 60,
+      summary: 'Commune with the primal proto-drakes and heal the ancient Old God scars on the mythical Dragon Isles.',
+      flavorQuote: '"We are the caretakers of the earth, from the first seed to the final star."',
+      locations: ['The Dragon Isles', 'Temple of the Old Gods'],
+      steps: [
+        {
+          stepNumber: 1,
+          title: 'The Primal Flight Awakening',
+          zone: 'The Dragon Isles (The Feral Roost)',
+          type: 'Solo Trial',
+          description: 'Soar through the ancient titan sky-rings atop the Dragon Isles without touching the ground.'
+        },
+        {
+          stepNumber: 2,
+          title: 'Healing the Wounded World-Soul',
+          zone: 'Temple of the Old Gods',
+          type: 'Raid',
+          description: 'Channel your Tranquility to heal the slumbering titan seed during the Old God Avatar defeat.'
+        }
+      ],
+      rewards: [
+        {
+          name: 'Avatar of the Timeless Forest',
+          type: 'Two-Hand Staff (Legendary Quality)',
+          rarity: 'Epic',
+          icon: 'inv_staff_23',
+          description: 'Equip: Increases healing done by up to 110, spell damage by up to 65, and feral attack power by 420.'
+        },
+        {
+          name: 'Primal Ancient Guardian Flight Form',
+          type: 'Exotic Shapeshift Form',
+          rarity: 'Epic',
+          icon: 'ability_druid_flightform',
+          description: 'Unlocks the ancient Proto-Wyrm Flight Form for outdoor travel in permitted flight regions.'
+        },
+        {
+          name: 'Title: Arch-Druid of the Timeways',
+          type: 'Prestige Title',
+          rarity: 'Epic',
+          icon: 'inv_misc_ribbon_01',
+          description: 'Permanently unlocks the in-game title: "Arch-Druid of the Timeways".'
         }
       ]
     }
