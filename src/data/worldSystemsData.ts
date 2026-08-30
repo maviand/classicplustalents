@@ -1,4 +1,4 @@
-// AUTO-GENERATED WORLD SYSTEMS CONTENT (POLISHED CLASSIC+ EDITION)
+// Handcrafted Classic+ World Systems (1.12 Economy & Immersion Edition)
 
 export const SYSTEM_CATEGORIES = {
   WORLD_DESIGN: 'World Design',
@@ -19,33 +19,33 @@ export const worldSystemsData: Record<string, WorldSystem[]> = {
   "World Design": [
     {
       "id": "DynamicWeather",
-      "name": "Dynamic Weather Effects",
+      "name": "Dynamic Weather & Wilderness Cycles",
       "status": "Active",
-      "description": "Weather actively impacts combat, visibility, and environmental encounters across Azeroth.",
+      "description": "Environmental weather actively enhances wilderness immersion, creature ecology, and rare resource availability.",
       "features": [
-        "Heavy rain dampens fire effects, reducing Fire damage taken by 1% and extinguishing small ground flares.",
-        "Snowstorms in Winterspring and Dun Morogh reduce ranged combat draw distance and increase stealth detection difficulty.",
-        "Silithus sandstorms reduce maximum vision and occasionally reveal ancient buried silithid caches."
+        "Heavy rain in Stranglethorn and Feralas increases the spawn rate of rare water elementals and tropical fishing pools.",
+        "Snowstorms in Winterspring and Dun Morogh reduce ranged combat draw distance and increase stealth concealment.",
+        "Silithus sandstorms reduce maximum horizon visibility and periodically uncover ancient buried scarab caches in the dunes."
       ]
     },
     {
       "id": "DayNightCycle",
-      "name": "Day/Night Cycle Spawns",
+      "name": "Day/Night Ecology Spawns",
       "status": "Active",
-      "description": "The server time directly influences wilderness wildlife, rare patrols, and merchant presence.",
+      "description": "Server time influences wilderness wildlife, rare patrols, and wandering merchants without gating core progression.",
       "features": [
-        "Nocturnal predators (such as Duskwood shadow-stalkers and Silverpine dire wolves) prowl exclusively between dusk and dawn.",
-        "Certain rare spawns and wandering alchemists only appear at specific hours.",
+        "Nocturnal predators (such as Duskwood shadow-stalkers and Silverpine dire wolves) prowl the tree lines between dusk and dawn.",
+        "Certain rare herbalism blossoms (like Night-Blooming Lotus) open exclusively under the moonlight.",
         "Daylight brings out traveling supply caravans along the Gold Road and King's Road."
       ]
     },
     {
       "id": "WanderingBosses",
-      "name": "Roaming World Terrors",
+      "name": "Roaming Wilderness Terrors",
       "status": "Active",
       "description": "Massive, un-instanced zone bosses that patrol entire regions and require spontaneous multi-group collaboration.",
       "features": [
-        "A towering Centaur Warlord roaming the length of the Barrens, challenging caravans and low-level settlements.",
+        "A towering Centaur Chieftain patrolling the length of the Barrens, challenging caravans and low-level settlements.",
         "An Ancient Stone Colossus wandering the mountain crests of the Hinterlands.",
         "Roaming world terrors drop zone-appropriate rare and epic loot, fostering impromptu cross-guild cooperation."
       ]
@@ -57,7 +57,7 @@ export const worldSystemsData: Record<string, WorldSystem[]> = {
       "description": "Strengthens taverns as the premier social hubs of the old world.",
       "features": [
         "Resting inside a physical tavern yields 100% faster Rested XP accumulation than standing in open city streets.",
-        "Sitting at tavern tables and consuming inn-specific hearty meals grants a minor 1-hour spirit and stamina nourishment buff."
+        "Sitting at tavern tables and consuming inn-specific hearty meals grants a 1-hour spirit and stamina nourishment buff."
       ]
     }
   ],
@@ -69,19 +69,20 @@ export const worldSystemsData: Record<string, WorldSystem[]> = {
       "description": "Native, permission-managed guild banks integrated into capital city bank buildings.",
       "features": [
         "Detailed transaction logs tracking deposits, withdrawals, and officer permissions.",
-        "Purchasable storage tabs funded through collective guild progression.",
-        "Replaces unwieldy \"bank-alt\" accounts while maintaining economic transparency."
+        "Purchasable storage tabs funded through collective guild gold contributions.",
+        "Replaces unwieldy 'bank-alt' accounts while maintaining economic transparency."
       ]
     },
     {
       "id": "DualSpec",
-      "name": "Dual Specialization (Restricted)",
+      "name": "Dual Specialization (Economy Balanced)",
       "status": "Active",
-      "description": "Allows players to configure two distinct talent and action bar builds, strictly bounded to protect spec identity.",
+      "description": "Allows players to configure two distinct talent and action bar builds, bounded to protect spec identity and server economy.",
       "features": [
-        "Available at Level 40 for a one-time 50g training fee at your class trainer.",
+        "Available at Level 60 for a 500g one-time training investment at your class trainer.",
         "Can ONLY be swapped inside designated Rest Areas (taverns and capital cities) with a 5-second channel.",
-        "Action bars and stance configurations save independently for each specialization."
+        "Swapping specs consumes a minor rest reagent (Tome of Resonating Will) to preserve long-term gold sink velocity.",
+        "Action bars, keybinds, and stance configurations save independently for each specialization."
       ]
     },
     {
@@ -90,7 +91,7 @@ export const worldSystemsData: Record<string, WorldSystem[]> = {
       "status": "Active",
       "description": "Casting any spell, engaging an ability, or interacting with NPCs automatically dismounts your character.",
       "features": [
-        "Eliminates the need for cumbersome \"/dismount\" macros across all class abilities.",
+        "Eliminates the need for cumbersome '/dismount' macros across all class abilities.",
         "Maintains standard mounted movement speed and dismount combat rules."
       ]
     },
@@ -100,7 +101,7 @@ export const worldSystemsData: Record<string, WorldSystem[]> = {
       "status": "Active",
       "description": "A classic town bulletin board interface for manual group listings without automated matchmaking or teleportation.",
       "features": [
-        "Players post manual party listings and custom descriptions for dungeons and elite quests.",
+        "Players post manual party listings and custom descriptions for dungeons, elite quests, and world bosses.",
         "No automated matchmaking, no cross-realm phasing, and NO dungeon teleportation—players must still travel to the dungeon summoning stone or portal."
       ]
     },
@@ -120,10 +121,11 @@ export const worldSystemsData: Record<string, WorldSystem[]> = {
       "id": "GoldSinks",
       "name": "Prestigious Endgame Gold Sinks",
       "status": "Active",
-      "description": "High-cost cosmetic and prestige rewards designed to curb endgame currency inflation naturally.",
+      "description": "High-cost cosmetic, guild, and prestige rewards designed to curb endgame currency inflation naturally.",
       "features": [
-        "Rare decorative heraldry and prestigious character titles (e.g., \"The Aristocrat\" for 10,000g).",
-        "Unique luxury ground mounts with ornate armor bards sold by capital city quartermasters."
+        "Rare decorative heraldry and prestigious character titles (e.g., 'The Aristocrat' for 5,000g).",
+        "Unique luxury ground mounts with ornate armor bards sold by capital city quartermasters (1,000g).",
+        "Guild Vault Tab 5 & 6 unlocks (2,500g and 5,000g) funded by guild progression."
       ]
     },
     {
@@ -155,7 +157,7 @@ export const worldSystemsData: Record<string, WorldSystem[]> = {
       "description": "Proper, grounded character seating for tavern chairs, benches, and camp logs.",
       "features": [
         "Right-clicking a chair seats the character properly on the furniture rather than hovering.",
-        "Full support for all 16 playable races and gender models."
+        "Full support for all playable races and gender models."
       ]
     },
     {
@@ -164,7 +166,7 @@ export const worldSystemsData: Record<string, WorldSystem[]> = {
       "status": "Active",
       "description": "Cooking and wilderness campfires provide restorative warmth to resting travelers.",
       "features": [
-        "Sitting near an active campfire grants the \"Warmth of the Embers\" buff, accelerating health and spirit regeneration.",
+        "Sitting near an active campfire grants the 'Warmth of the Embers' buff, accelerating health and spirit regeneration.",
         "Encourages players to rest together during long wilderness leveling treks."
       ]
     },
@@ -184,8 +186,8 @@ export const worldSystemsData: Record<string, WorldSystem[]> = {
       "status": "Active",
       "description": "Groundbreaking prestige titles awarded for monumental world feats and reputation mastery.",
       "features": [
-        "\"The Explorer\" awarded for fully unveiling every territory across the Eastern Kingdoms and Kalimdor.",
-        "\"The Diplomat\" awarded for reaching Exalted with all home capital factions and neutral cartels."
+        "'The Explorer' awarded for fully unveiling every territory across the Eastern Kingdoms and Kalimdor.",
+        "'The Diplomat' awarded for reaching Exalted with all home capital factions and neutral cartels."
       ]
     }
   ]

@@ -43,7 +43,7 @@ export default function Home() {
             Camelot is not a remake, not a remaster, and not a rush toward the Dark Portal. The Bronze Dragonflight has pulled a thread loose from the timeways: an Azeroth where the year is still 25 ADP, where Kel'Thuzad still schemes in Naxxramas, and where the war between the Alliance and the Horde never paused to fight someone else's war in Outland.
           </p>
           <p>
-            In this timeline, the old world is the sole focus. Because the Bronze Dragonflight anchors the setting, we can fulfill Vanilla's unfulfilled promises without breaking core lore. Allied sub-races join the frontlines from Level 1 with 4+ authentic racial traits. Closed gates swing open. Suramar-style urban insurgency campaigns let players reclaim Gilneas City, Stromgarde, and Eldarath. Raids adopt Season of Discovery 10-man and 20-man team sizes with scalable 20/40-man Epic modes.
+            In this timeline, the old world is the sole focus. Because the Bronze Dragonflight anchors the setting, we can fulfill Vanilla's unfulfilled promises without breaking core lore. Allied sub-races join the frontlines from Level 1 with balanced, authentic racial traits. Closed gates swing open. Open-world frontline mobilizations let players reclaim Gilneas, Stromgarde, and Azshara. Raids feature dedicated 10-man, 20-man, and 40-man tier progression to eliminate roster friction while preserving the iconic 40-man pinnacle encounters.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 pt-8 border-t border-[#3c3224]/30">
@@ -52,8 +52,8 @@ export default function Home() {
               <p className="text-sm">Deliberate leveling pacing, with no catch-up mechanics, no heirlooms, and no paid boosts. Reaching 60 is a monumental achievement and the story of your character, accompanied by rich class trials and world milestones.</p>
             </div>
             <div className="bg-[#1a140e]/50 p-6 rounded-lg border border-[#3c3224] hover:border-[#ffd100]/50 transition-colors group">
-              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#ffd100] transition-colors">SoD Raid Team Scaling</h3>
-              <p className="text-sm">Endgame progression follows Season of Discovery raid sizes: flexible 10-man and 20-man baseline raids, scaling up to 20-man and 40-man Epic modes to eliminate roster friction while keeping classic encounters legendary.</p>
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#ffd100] transition-colors">Dedicated Raid Formats</h3>
+              <p className="text-sm">Endgame progression follows structured formats: 10-man Leveling & Mini-Raids, 20-man Intermediate Raids on 3-day lockouts, and 40-man Pinnacle Raids on weekly lockouts to preserve classic raiding prestige.</p>
             </div>
             <div className="bg-[#1a140e]/50 p-6 rounded-lg border border-[#3c3224] hover:border-[#ffd100]/50 transition-colors group">
               <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#ffd100] transition-colors">Every Zone Handcrafted</h3>

@@ -59,13 +59,13 @@ export const professionsData: Record<string, Profession[]> = {
           "effect": "Use: Increases all magic resistances by 50 for 2 hr. Persists through death."
         },
         {
-          "name": "Flask of Pure Death",
+          "name": "Flask of Petrification",
           "rarity": "Epic",
           "slot": "",
           "type": "Consumable",
           "bindType": "Binds when picked up",
           "stats": [],
-          "effect": "Use: Increases Shadow and Fire spell damage by up to 80 for 2 hr. Persists through death."
+          "effect": "Use: You enter a stone state, making you immune to all physical and magical attacks for 1 min, but you are unable to move or take any actions. Persists through death."
         },
         {
           "name": "Elixir of the Mongoose",

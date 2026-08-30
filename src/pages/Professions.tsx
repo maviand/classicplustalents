@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { PROF_CATS, professionsData } from '../data/professions';
+import React, { useState, useMemo } from 'react';
+import { PROF_CATS, professionsData, Profession } from '../data/professions';
 import { WowTooltip } from '../components/WowTooltip';
-import { WowItem, ItemRarity } from '../types/items';
+import { WowItem } from '../types/items';
 
 const RARITY_COLORS: Record<string, string> = {
   'Poor': '#9d9d9d',
@@ -14,34 +14,52 @@ const RARITY_COLORS: Record<string, string> = {
 };
 
 export default function Professions() {
-  const [activeCategory, setActiveCategory] = useState(PROF_CATS.PRIMARY_CRAFTING);
-  const [activeProfession, setActiveProfession] = useState('Engineering');
-  
-  const [hoveredItem, setHoveredItem] = useState<{ item: WowItem, rect: DOMRect } | null>(null);
+  const [activeCategory, setActiveCategory] = useState<string>(PROF_CATS.PRIMARY_CRAFTING);
+  const [activeProfession, setActiveProfession] = useState<string>('Alchemy');
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [hoveredItem, setHoveredItem] = useState<{ item: WowItem; rect: DOMRect } | null>(null);
 
-  const handleItemEnter = (e: React.MouseEvent, item: any) => {
+  const handleItemEnter = (e: React.MouseEvent, item: WowItem) => {
     const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
-    setHoveredItem({ item: item as WowItem, rect });
+    setHoveredItem({ item, rect });
   };
 
   const handleItemLeave = () => {
     setHoveredItem(null);
   };
 
-  const allProfessions = Object.values(professionsData).flat();
-  const selectedProfessionData = allProfessions.find(p => p.id === activeProfession);
+  const allProfessions = useMemo(() => {
+    return Object.values(professionsData).flat();
+  }, []);
+
+  const selectedProfessionData: Profession | undefined = useMemo(() => {
+    return allProfessions.find(p => p.id === activeProfession) || allProfessions[0];
+  }, [allProfessions, activeProfession]);
+
+  const itemsList = useMemo(() => {
+    if (!selectedProfessionData) return [];
+    const rawItems = selectedProfessionData.items || (selectedProfessionData as any).recipes || [];
+    if (!searchQuery.trim()) return rawItems;
+    const q = searchQuery.toLowerCase();
+    return rawItems.filter((it: WowItem) => 
+      it.name.toLowerCase().includes(q) || 
+      (it.type && it.type.toLowerCase().includes(q)) ||
+      (it.effect && it.effect.toLowerCase().includes(q))
+    );
+  }, [selectedProfessionData, searchQuery]);
 
   return (
     <div className="space-y-8 animate-in fade-in duration-700 pb-20">
       <WowTooltip item={hoveredItem?.item} rect={hoveredItem?.rect} />
       
+      {/* Header Banner */}
       <div className="flex flex-col items-center border-b border-[#3c3224]/50 pb-8 mb-8 relative">
         <div className="absolute inset-0 bg-gradient-to-t from-[#120e0a] to-transparent z-0 pointer-events-none" />
         <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#fff5c3] to-[#ffd100] wow-title drop-shadow-lg relative z-10 text-center">
-          Professions Database
+          Professions & Trade Skills
         </h1>
         <p className="text-[#d3c8b8] mt-3 text-lg font-medium tracking-wide relative z-10 drop-shadow-md text-center max-w-3xl">
-          Crafting and gathering have been expanded into a massive endgame pillar. Below is the comprehensive database of new recipes, legendary items, and required materials.
+          Crafting and gathering are essential pillars of the Classic economy. Discover master specializations, high-tier consumables, and authentic BIS crafted armors.
         </p>
       </div>
 
@@ -55,24 +73,39 @@ export default function Professions() {
                 <h3 className="font-bold text-[#ffd100] uppercase tracking-widest text-xs leading-tight">{category}</h3>
               </div>
               <div className="flex flex-col">
-                {profs.map(prof => (
-                  <button
-                    key={prof.id}
-                    onClick={() => { setActiveCategory(category); setActiveProfession(prof.id); }}
-                    className={`text-left p-4 text-sm transition-all border-l-4 flex items-center gap-3 ${
-                      activeProfession === prof.id 
-                        ? 'border-[#ff8000] bg-[#1a140e] text-white font-bold' 
-                        : 'border-transparent text-[#a69882] hover:bg-[#16120e] hover:text-[#d3c8b8]'
-                    }`}
-                  >
-                    <img 
-                      src={`https://wow.zamimg.com/images/wow/icons/large/${prof.icon}.jpg`} 
-                      alt={prof.name} 
-                      className="w-6 h-6 rounded border border-[#3c3224]" 
-                    />
-                    {prof.name}
-                  </button>
-                ))}
+                {profs.map(prof => {
+                  const isActive = (selectedProfessionData?.id || activeProfession) === prof.id;
+                  return (
+                    <button
+                      key={prof.id}
+                      onClick={() => { 
+                        setActiveCategory(category); 
+                        setActiveProfession(prof.id);
+                        setSearchQuery('');
+                      }}
+                      className={`text-left p-3.5 text-sm transition-all border-l-4 flex items-center gap-3 ${
+                        isActive 
+                          ? 'border-[#ff8000] bg-[#1a140e] text-white font-bold' 
+                          : 'border-transparent text-[#a69882] hover:bg-[#16120e] hover:text-[#d3c8b8]'
+                      }`}
+                    >
+                      <img 
+                        src={`https://wow.zamimg.com/images/wow/icons/large/${prof.icon}.jpg`} 
+                        alt={prof.name} 
+                        className="w-7 h-7 rounded border border-[#3c3224] object-cover" 
+                        onError={(e) => {
+                          (e.target as HTMLElement).style.display = 'none';
+                        }}
+                      />
+                      <div className="flex flex-col">
+                        <span>{prof.name}</span>
+                        <span className="text-[11px] text-[#6b5f4f] font-normal">
+                          {(prof.items || []).length} items documented
+                        </span>
+                      </div>
+                    </button>
+                  );
+                })}
               </div>
             </div>
           ))}
@@ -81,47 +114,99 @@ export default function Professions() {
         {/* Content Display */}
         <div className="lg:w-2/3">
           {selectedProfessionData && (
-            <div className="bg-gradient-to-br from-[#120e0a] to-[#0b0907] border border-[#3c3224] rounded-xl p-8 shadow-2xl animate-in slide-in-from-right-8 duration-500 relative overflow-hidden">
-              <div className="relative z-10">
-                <div className="flex justify-between items-start mb-6 border-b border-[#3c3224]/50 pb-4">
+            <div className="bg-gradient-to-br from-[#120e0a] to-[#0b0907] border border-[#3c3224] rounded-xl p-6 md:p-8 shadow-2xl animate-in slide-in-from-right-8 duration-500 relative overflow-hidden">
+              <div className="relative z-10 space-y-6">
+                
+                {/* Profession Header */}
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#3c3224]/50 pb-5">
                   <div className="flex items-center gap-4">
                     <img 
                       src={`https://wow.zamimg.com/images/wow/icons/large/${selectedProfessionData.icon}.jpg`} 
                       alt={selectedProfessionData.name} 
-                      className="w-12 h-12 rounded border-2 border-[#ff8000]/50 shadow-lg shadow-[#ff8000]/20" 
+                      className="w-14 h-14 rounded-lg border-2 border-[#ff8000]/60 shadow-lg shadow-[#ff8000]/20 object-cover" 
                     />
                     <div>
-                      <h2 className="text-3xl font-extrabold text-white mb-2">{selectedProfessionData.name}</h2>
-                      <span className="inline-block bg-[#1a140e] border border-[#ff8000]/50 text-[#ff8000] px-3 py-1 rounded text-xs font-bold tracking-widest">
-                        PHASE 1-4 ADDITIONS
+                      <h2 className="text-3xl font-extrabold text-white">{selectedProfessionData.name}</h2>
+                      <span className="inline-block bg-[#1a140e] border border-[#ff8000]/50 text-[#ff8000] px-2.5 py-0.5 rounded text-xs font-bold tracking-wider mt-1">
+                        CLASSIC+ EXPANDED
                       </span>
                     </div>
                   </div>
+
+                  {/* Search Bar */}
+                  <div className="relative">
+                    <input
+                      type="text"
+                      placeholder={`Search in ${selectedProfessionData.name}...`}
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      className="bg-[#1a140e] border border-[#3c3224] rounded px-3 py-1.5 text-xs text-white placeholder-[#7a6f5e] focus:outline-none focus:border-[#ffd100] w-full sm:w-56"
+                    />
+                    {searchQuery && (
+                      <button 
+                        onClick={() => setSearchQuery('')}
+                        className="absolute right-2 top-1.5 text-xs text-[#a69882] hover:text-white"
+                      >
+                        ✕
+                      </button>
+                    )}
+                  </div>
                 </div>
 
-                <div className="mb-6">
-                  <p className="text-[#d3c8b8] leading-relaxed text-lg italic border-l-4 border-[#3c3224] pl-4">
-                    "{selectedProfessionData.description}"
+                {/* Profession Lore / Summary */}
+                <div className="bg-[#16110c] p-4 rounded-lg border-l-4 border-[#ff8000]/80">
+                  <p className="text-[#d3c8b8] leading-relaxed text-sm italic">
+                    "{selectedProfessionData.desc || (selectedProfessionData as any).description || 'Master the craft across the old world.'}"
                   </p>
                 </div>
 
-                <div className="space-y-4">
-                  <h4 className="text-[#a69882] text-xs font-bold uppercase tracking-wider mb-2">New Recipes Database</h4>
-                  
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-h-[600px] overflow-y-auto custom-scrollbar pr-2">
-                    {selectedProfessionData.recipes.map((recipe: any, i: number) => (
-                      <div 
-                        key={i} 
-                        className="flex justify-between items-center text-sm bg-[#120e0a] p-2 rounded border border-[#3c3224]/30 cursor-pointer hover:bg-[#1a140e]"
-                        onMouseEnter={(e) => handleItemEnter(e, recipe)}
-                        onMouseLeave={handleItemLeave}
-                      >
-                        <span className="font-bold truncate max-w-[200px]" style={{ color: RARITY_COLORS[recipe.rarity] || '#ffffff' }}>[{recipe.name}]</span>
-                        <span className="text-[#a69882] text-xs ml-2 whitespace-nowrap">{recipe.type}</span>
-                      </div>
-                    ))}
+                {/* Recipes / Items Grid */}
+                <div className="space-y-3">
+                  <div className="flex justify-between items-center">
+                    <h4 className="text-[#ffd100] text-xs font-bold uppercase tracking-wider">
+                      Item Catalog & Schematics ({itemsList.length})
+                    </h4>
+                    <span className="text-[11px] text-[#7a6f5e]">Hover item for full WoW tooltip</span>
                   </div>
+                  
+                  {itemsList.length === 0 ? (
+                    <div className="text-center py-12 text-[#7a6f5e] bg-[#120e0a]/50 rounded-lg border border-[#3c3224]/30">
+                      No matching items found for "{searchQuery}".
+                    </div>
+                  ) : (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5 max-h-[560px] overflow-y-auto custom-scrollbar pr-2">
+                      {itemsList.map((item: WowItem, i: number) => {
+                        const rarityColor = RARITY_COLORS[item.rarity] || '#ffffff';
+                        return (
+                          <div 
+                            key={i} 
+                            className="flex justify-between items-center text-sm bg-[#140f0b] p-3 rounded-lg border border-[#3c3224]/40 cursor-pointer hover:bg-[#1f1710] hover:border-[#ff8000]/50 transition-all group"
+                            onMouseEnter={(e) => handleItemEnter(e, item)}
+                            onMouseLeave={handleItemLeave}
+                          >
+                            <div className="flex flex-col min-w-0 pr-2">
+                              <span 
+                                className="font-bold truncate group-hover:brightness-125 transition-all text-sm" 
+                                style={{ color: rarityColor }}
+                              >
+                                {item.name}
+                              </span>
+                              {item.effect && (
+                                <span className="text-[11px] text-[#8c7f6d] truncate">
+                                  {item.effect}
+                                </span>
+                              )}
+                            </div>
+                            <span className="text-[#a69882] text-xs font-medium ml-2 whitespace-nowrap px-2 py-0.5 rounded bg-[#0d0a07] border border-[#2a2218]">
+                              {item.type || item.slot || 'Craft'}
+                            </span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
                 </div>
+
               </div>
             </div>
           )}

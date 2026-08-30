@@ -7,33 +7,33 @@ export interface PveMechanic {
 export const PVE_MECHANICS: PveMechanic[] = [
   {
     id: 127,
-    title: "Dynamic Wilderness Spawns",
-    description: "Dungeon trash patrol compositions and roaming rare elites shift based on the time of day and lunar cycle."
+    title: "Dynamic Wilderness & Dungeon Trash Ecology",
+    description: "Dungeon trash patrol routes, elemental shifts, and rare spawn compositions react dynamically to time of day and lunar cycles."
   },
   {
     id: 128,
     title: "Boss Tier Turn-In Tokens",
-    description: "High-tier raid bosses drop class-shared insignias (similar to AQ40 and Naxxramas) for specific armor slots to mitigate extreme loot table dilution."
+    description: "High-tier raid bosses drop class-shared armor tokens (similar to AQ40 and Naxxramas) to mitigate extreme loot table dilution and prevent dead drops."
   },
   {
     id: 130,
-    title: "World-Buff Hard Mode Triggers",
-    description: "Optional encounter mechanics where defeating a raid boss without active World Buffs yields bonus crafting reagents, crests, and cosmetic prestige."
+    title: "Un-Buffed Hard Mode Accomplishments",
+    description: "Optional prestige accomplishments where defeating a raid boss without active World Buffs yields bonus crafting reagents, crests, and cosmetic guild heraldry."
   },
   {
     id: 131,
     title: "Environmental Destruction",
-    description: "Devastating boss abilities permanently shatter stone pillars and barricades, dynamically removing Line of Sight protection as the encounter progresses."
+    description: "Devastating boss abilities shatter stone pillars and barricades, dynamically removing Line of Sight protection as the encounter progresses."
   },
   {
     id: 132,
-    title: "Localized Indoor Weather",
-    description: "Elemental raid chambers generate micro-climates (such as freezing blizzards or suffocating heat waves) that modify elemental resistances and spell pushback."
+    title: "Micro-Climate Raid Hazards",
+    description: "Elemental raid chambers generate localized micro-climates (such as freezing blizzards or suffocating heat waves) that modify elemental resistances and spell pushback."
   },
   {
     id: 133,
-    title: "SoD Raid Player Counts (10 / 20 / 40 Players)",
-    description: "All Classic+ raids adhere to Season of Discovery formats: 10-man and 20-man baseline rosters, with scalable 20-man to 40-man Epic Mode scaling to eliminate roster friction."
+    title: "Dedicated Raid Sizing Progression (10 / 20 / 40)",
+    description: "Raids feature dedicated team sizes: 10-man Leveling & Mini-Raids, 20-man Intermediate Horizontal Raids on 3-day lockouts, and 40-man Pinnacle Raids on weekly lockouts."
   },
   {
     id: 134,
@@ -44,6 +44,11 @@ export const PVE_MECHANICS: PveMechanic[] = [
     id: 135,
     title: "Multi-Stage Tactical Pursuits",
     description: "Cunning bosses that flee upon taking critical damage, forcing the raid to clear alternate wings before cornering them in their inner sanctum."
+  },
+  {
+    id: 136,
+    title: "Removal of the 16-Debuff Limit",
+    description: "The classic 16-debuff limit is expanded to 40 slots, allowing Affliction Warlocks, Shadow Priests, Feral Druids, and Arms Warriors to utilize their complete damage-over-time toolkits."
   },
   {
     id: 137,
